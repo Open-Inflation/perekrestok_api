@@ -1,5 +1,3 @@
-from enum import Enum
-
 
 class BannerPlace:
     """Место показа баннера"""
@@ -125,20 +123,51 @@ class QualifierFeatureKey:
 class CatalogFeedFilter:
     """Фильтры каталога с параметрами"""
 
-    def as_dict(self, use_hidden_key: bool = True) -> dict:
-        """Convert the filter to a dictionary.
-
+    def set_price_range(self, lowest: float, highest: float):
+        """Устанавливает диапазон цен.
+        
         Args:
-            use_hidden_key (bool, optional): Whether to use the hidden key.
+            lowest (float): Минимальная цена.
+            highest (float): Максимальная цена.
+        """
+        if lowest > highest:
+            raise ValueError("Минимальная цена не может быть больше максимальной.")
+        self.LOWEST_PRICE = lowest
+        self.HIGHEST_PRICE = highest
+
+    def as_dict(self, use_hidden_key: bool = True) -> dict:
+        """Преобразует фильтры в словарь с учетом вложенности ключей и исключает фильтры с невалидными значениями.
+        
+        Args:
+            use_hidden_key (bool, optional): Использовать ли скрытые ключи. 
                 Defaults to True.
+
+        Returns:
+            dict: Словарь фильтров.
         """
         filters = {}
-        for key, value in self.__class__.__dict__.items():
-            if isinstance(value, self.Filter):
-                filters[key if not use_hidden_key else value.hidden_key] = value.value
+        for key, filter_obj in self.__class__.__dict__.items():
+            if isinstance(filter_obj, self._Filter):
+                dict_key = filter_obj.hidden_key if use_hidden_key else key
+                parts = dict_key.split("/")
+                current = filters
+
+                # Исключаем невалидные значения
+                if filter_obj.value == -1:
+                    continue
+
+                # Создаем вложенные словари
+                for part in parts[:-1]:
+                    current = current.setdefault(part, {})
+                current[parts[-1]] = filter_obj.value
+
+        # Убираем пустые словари, если все ключи в priceRange отсутствуют
+        if "priceRange" in filters and not filters["priceRange"]:
+            del filters["priceRange"]
+
         return filters
 
-    class Filter:
+    class _Filter:
         """Фильтр с параметрами value и hidden_key"""
         
         def __init__(self, default_value, property_type: type, hidden_key: str):
@@ -151,11 +180,11 @@ class CatalogFeedFilter:
             return self._value
 
         @value.setter
-        def value(self, new_value: int):
-            if not isinstance(new_value, self._property_type):
-                self._value = new_value
-            else:
-                raise TypeError(f"Value must be of type {self._property_type.__name__}")
+        def value(self, new_value):
+            try:
+                self._value = self._property_type(new_value)
+            except (ValueError, TypeError):
+                raise TypeError(f"Value must be of type {self._property_type.__name__}") from None
 
         @property
         def hidden_key(self):
@@ -165,25 +194,29 @@ class CatalogFeedFilter:
         def property_type(self):
             return self._property_type
 
-        def __call__(self, new_value: int):
-            self.value = new_value
-
         def __repr__(self):
-            return f"{self.value}"
+            return f"{self.hidden_key}: {self.property_type.__name__} = {self.value}"
+        
+        def __set__(self, instance, value):
+            self.value = value
 
-    PROMO_LISTING = Filter(30, int, "promoListing")
-    FROM_PEREKRESTOK = Filter(False, bool, "privateLabel")
-    ONLY_DISCOUNT = Filter(False, bool, "onlyDiscount")
-    LOWEST_PRICE = Filter(-1, float, "priceRange/from") # TODO
-    HIGHEST_PRICE = Filter(-1, float, "priceRange/to") # TODO
+    # Определение фильтров с использованием дескриптора
+    CATEGORY_ID = _Filter(1389, int, "category") # 1389 - "Фрукты, овощи: акции и скидки"
+    PROMO_LISTING = _Filter(30, int, "promoListing")
+    FROM_PEREKRESTOK = _Filter(False, bool, "privateLabel")
+    ONLY_DISCOUNT = _Filter(False, bool, "onlyDiscount")
+    LOWEST_PRICE = _Filter(-1, float, "priceRange/from")
+    HIGHEST_PRICE = _Filter(-1, float, "priceRange/to")
+
 
 class CatalogFeedSort:
-    class SortOption:
+    class _SortOption:
         def __init__(self, order_by: str):
             self.ASC = {"orderBy": order_by, "orderDirection": "asc"}
             self.DESC = {"orderBy": order_by, "orderDirection": "desc"}
 
-    Price = SortOption("price")
-    Popularity = SortOption("popularity")
-    Discount = SortOption("discount")
-    Rating = SortOption("rating")
+    Price = _SortOption("price")
+    Popularity = _SortOption("popularity")
+    Discount = _SortOption("discount")
+    Rating = _SortOption("rating")
+    Reccomended = _SortOption("popularity_without_manual")
