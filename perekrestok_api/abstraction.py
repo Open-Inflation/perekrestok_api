@@ -202,9 +202,13 @@ class CatalogFeedFilter:
 
     # Определение фильтров с использованием дескриптора
     CATEGORY_ID = _Filter(1389, int, "category") # 1389 - "Фрукты, овощи: акции и скидки"
-    PROMO_LISTING = _Filter(30, int, "promoListing")
+
+    PROMO_LISTING = _Filter(-1, int, "promoListing")
+    """Работает как фильтр (при != -1), я не совсем понимаю его логику и от куда брать цифровые значения"""
+
     FROM_PEREKRESTOK = _Filter(False, bool, "privateLabel")
     ONLY_DISCOUNT = _Filter(False, bool, "onlyDiscount")
+    ONLY_WITH_REVIEWS = _Filter(False, bool, "onlyWithProductReviews")
     LOWEST_PRICE = _Filter(-1, float, "priceRange/from")
     HIGHEST_PRICE = _Filter(-1, float, "priceRange/to")
 
