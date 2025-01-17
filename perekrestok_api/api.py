@@ -1,6 +1,5 @@
 import urllib.parse
 import aiohttp
-from fake_useragent import UserAgent
 from io import BytesIO
 import json
 from playwright.async_api import async_playwright
@@ -147,3 +146,15 @@ class BaseAPI:
         if self.debug: self.console.log(f"[bold green]Intercepted responses:[/bold green] [bold cyan]{responses}[/bold cyan]")
         return responses
 
+
+class ImageDownloader:
+    async def download_image(self, url: str) -> BytesIO:
+        async with aiohttp.ClientSession() as session:
+            async with session.get(url) as response:
+                if response.status == 200:
+                    image = BytesIO(await response.read())
+                    image.name = f"{url.split('/')[-1]}"
+
+                    return image
+                else:
+                    raise ValueError(f"Failed to download image, status code: {response.status}")

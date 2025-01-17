@@ -1,6 +1,7 @@
 from . import abstraction as ABSTRACT
-from .api import BaseAPI
+from .api import BaseAPI, ImageDownloader
 from rich.console import Console
+from io import BytesIO
 
 
 CATALOG_VERSION = "1.4.1.0"
@@ -15,6 +16,7 @@ class PerekrestokAPI:
 
         self.console = Console()
         self._fetcher = BaseAPI(base_url=MAIN_SITE_URL, debug=debug, console=self.console)
+        self._img_downloader = ImageDownloader()
 
         self._geolocation = self._ClassGeolocation(fetcher=self._fetcher)
         self._catalog = self._ClassCatalog(fetcher=self._fetcher)
@@ -281,3 +283,6 @@ class PerekrestokAPI:
     @property
     def General(self):
         return self._general
+
+    async def download_image(self, url: str) -> BytesIO:
+        return await self._img_downloader.download_image(url)

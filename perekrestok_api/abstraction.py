@@ -275,7 +275,6 @@ class CatalogFeedFilter:
     внутри такого словаря так же будет `enumList` содержащий массив словарей с доступными значениями фильтра в `value`.
     """
 
-
 class CatalogFeedSort:
     class _SortOption:
         def __init__(self, order_by: str):
