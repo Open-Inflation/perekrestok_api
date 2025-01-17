@@ -137,13 +137,9 @@ class CatalogFeedFilter:
 
     def as_dict(self, use_hidden_key: bool = True) -> dict:
         """Преобразует фильтры в словарь с учетом вложенности ключей и исключает фильтры с невалидными значениями.
+        Является в большей степени внутренним методом.
         
-        Args:
-            use_hidden_key (bool, optional): Использовать ли скрытые ключи. 
-                Defaults to True.
-
-        Returns:
-            dict: Словарь фильтров.
+        `hidden_key` - это имя фильтра воспринимаемое сервером Перекрестка. Внутри бибилиотеки создана обёртка с другими неймами для удобства и ясности.
         """
         filters = {}
         for key, filter_obj in self.__class__.__dict__.items():
@@ -153,7 +149,12 @@ class CatalogFeedFilter:
                 current = filters
 
                 # Исключаем невалидные значения
-                if filter_obj.value == -1:
+                if filter_obj.value == -1 or (isinstance(filter_obj, self._FeaturesFilter) and not filter_obj.value):
+                    continue
+
+                # Обработка FEATURES
+                if isinstance(filter_obj, self._FeaturesFilter):
+                    current[dict_key] = filter_obj.to_list()
                     continue
 
                 # Создаем вложенные словари
@@ -200,17 +201,79 @@ class CatalogFeedFilter:
         def __set__(self, instance, value):
             self.value = value
 
+    class _FeaturesFilter(_Filter):
+        """Класс для работы с фильтром FEATURES."""
+
+        def __init__(self, default_value, property_type: type, hidden_key: str):
+            super().__init__(default_value, property_type, hidden_key)
+            if not isinstance(default_value, dict):
+                raise TypeError("Значение FEATURES должно быть словарём.")
+
+        def add(self, key: str, value: str):
+            """Добавляет новую особенность в FEATURES."""
+            if not isinstance(key, str) or not isinstance(value, str):
+                raise TypeError("Ожидаются строки для ключа и значения.")
+            self._value.setdefault(key, [])
+            if value not in self._value[key]:
+                self._value[key].append(value)
+
+        def remove(self, key: str, value: str):
+            """Удаляет особенность из FEATURES."""
+            if key in self._value and value in self._value[key]:
+                self._value[key].remove(value)
+                if not self._value[key]:  # Удаляем ключ, если список пуст
+                    del self._value[key]
+
+        def to_list(self):
+            """Конвертирует структуру FEATURES в список словарей."""
+            return [{"key": k, "value": v} for k, values in self._value.items() for v in values]
+
+        def __repr__(self):
+            return str(self._value)
+        
+        def __set__(self, instance, value):
+            raise AttributeError(f"{self.hidden_key} не может быть изменён напрямую. Используйте add() и remove()")
+
     # Определение фильтров с использованием дескриптора
     CATEGORY_ID = _Filter(1389, int, "category") # 1389 - "Фрукты, овощи: акции и скидки"
+    """ID категорий бывают 2 видов - главные и дочерние. По сути они имеют одинаковый и равный статус для системы."""
 
     PROMO_LISTING = _Filter(-1, int, "promoListing")
-    """Работает как фильтр (при != -1), я не совсем понимаю его логику и от куда брать цифровые значения"""
+    """Работает как фильтр (при != -1), т.е. отбраковываются товары не учавствующие в акции.
+    Описание акций можно получить по `.Catalog.promo_listings_by_id(спиок_id_акций)`.
+    От куда брать доступные id остаётся загадкой. Можно просто перебрать id от 1 до N (пару сотен, думаю, достаточно).
+    """
 
     FROM_PEREKRESTOK = _Filter(False, bool, "privateLabel")
+    """Исключает товары не являющиеся внутренним брендом сети (только СТМ)."""
+
     ONLY_DISCOUNT = _Filter(False, bool, "onlyDiscount")
+    """Исключает товары без скидки (по регулярной цене)."""
+
     ONLY_WITH_REVIEWS = _Filter(False, bool, "onlyWithProductReviews")
-    LOWEST_PRICE = _Filter(-1, float, "priceRange/from")
-    HIGHEST_PRICE = _Filter(-1, float, "priceRange/to")
+    """Исключает товары без отзывов (требуется уточнение: без отзывов или без оценок)."""
+
+    LOWEST_PRICE = _Filter(-1, int, "priceRange/from")
+    """Фильтр исключающий цену в копейках где `<N`. По умолчанию -1 (отсутствует).
+    Диапазон цен для текущего поиска можно получить с помощью `.Catalog.search_form()['content']['priceFrom']` (цена передаётся в копейках так же в копейках).
+
+    Рекумендую использовать только в паре с `HIGHEST_PRICE`, т.к. я не знаю как сервер воспримет посылку только одного поля.
+    Т.е. используйте `self.set_price_range(lowest, highest)`"""
+
+    HIGHEST_PRICE = _Filter(-1, int, "priceRange/to")
+    """Фильтр исключающий цену в копейках где `>N`. По умолчанию -1 (отсутствует).
+    Диапазон цен для текущего поиска можно получить с помощью `.Catalog.search_form()['content']['priceTo']` (цена передаётся в копейках так же в копейках).
+
+    Рекумендую использовать только в паре с `LOWEST_PRICE`, т.к. я не знаю как сервер воспримет посылку только одного поля.
+    Т.е. используйте `self.set_price_range(lowest, highest)`"""
+
+    FEATURES = _FeaturesFilter({}, dict, "features")
+    """Фильтр для \"особенностей\" продукта. Таких как: страна изготовитель, тип продукта, бренд и тп.
+    
+    Для получения доступных особенностей обратитесь к `.Catalog.search_form()['content']['searchFeatures']`.
+    Ключ для `.add()`/`.remove()` Вы можете найти в `key` на первом уровне массива словарей, 
+    внутри такого словаря так же будет `enumList` содержащий массив словарей с доступными значениями фильтра в `value`.
+    """
 
 
 class CatalogFeedSort:
