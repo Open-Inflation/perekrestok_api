@@ -33,21 +33,25 @@ class PerekrestokAPI:
             if self.debug: self.console.log('[bold yellow]Session tokens not found. Retrying...[/bold yellow]')
         else:
             raise Exception("Failed to get session token")
+        await self._img_downloader.__aenter__()
         if self.debug: self.console.log("")
         return self
 
     async def __aexit__(self, exc_type, exc_val, exc_tb):
         await self._fetcher.__aexit__(exc_type, exc_val, exc_tb)
+        await self._img_downloader.__aexit__(exc_type, exc_val, exc_tb)
 
     class _ClassGeolocation:
         def __init__(self, fetcher):
             self._fetcher = fetcher
             self._selection = self._GeolocationSelection(fetcher=self._fetcher)
+            self._shop_service = self._ShopService(fetcher=self._fetcher)
 
         async def current(self):
             """
             Получает информацию о текущем городе (геолокация).
             Судя по всему определение по IP не происходит, и анонимный пользователь всегда "находится" в Москве.
+            Если подгрузились с анонимного токена и там был сменён город - решение сохранится.
             """
             url = f"{CATALOG_URL}/geo/city/current"
             response = await self._fetcher.fetch(url)
@@ -69,22 +73,37 @@ class PerekrestokAPI:
             response = await self._fetcher.fetch(url)
             return response
 
-        async def shop_points(self):
-            """
-            Возвращает id-список абсолютно всех магазинов, геолокацию и сводную информацию по ним. 
-            Выдача не зависит от геопозиции сессии.
-            """
-            url = f"{CATALOG_URL}/shop/points"
-            response = await self._fetcher.fetch(url)
-            return response
 
-        async def shop(self, shop_id: int):
-            """
-            Возвращает информацию о магазине.
-            """
-            url = f"{CATALOG_URL}/shop/{shop_id}"
-            response = await self._fetcher.fetch(url)
-            return response
+        class _ShopService:
+            def __init__(self, fetcher):
+                self._fetcher = fetcher
+
+            async def all(self):
+                """
+                Возвращает id-список абсолютно всех магазинов, геолокацию и сводную информацию по ним. 
+                Выдача не зависит от геопозиции сессии.
+                """
+                url = f"{CATALOG_URL}/shop/points"
+                response = await self._fetcher.fetch(url)
+                return response
+
+            async def info(self, shop_id: int):
+                """
+                Возвращает информацию о магазине.
+                """
+                url = f"{CATALOG_URL}/shop/{shop_id}"
+                response = await self._fetcher.fetch(url)
+                return response
+            
+            async def point(self, latitude: float, longitude: float, page: int = 1, limit: int = 10, sort: ABSTRACT.GeologicationPointSort = ABSTRACT.GeologicationPointSort.Distance.ASC):
+                """
+                Возвращает список самых ближайших/дальних магазинов от указанной геопозиции.
+
+                latitude, longitude: широта и долгота. Не забывайте, что все геопозиции от сервера всегда идут как `[долгота, широта]`.
+                """
+                url = f"{CATALOG_URL}/shop?orderBy={sort['orderBy']}&orderDirection={sort['orderDirection']}&lat={latitude}&lng={longitude}&page={page}&perPage={limit}"
+                response = await self._fetcher.fetch(url)
+                return response
 
         class _GeolocationSelection:
             """Переключаем геолокацию и способ доставки (целом для текущей сессии)."""
@@ -126,6 +145,10 @@ class PerekrestokAPI:
         def Selection(self):
             """Если желаемый магазин/точка доставки не доступен, то сохраняется предыдущая геолокация (просто не происходит переключения)."""
             return self._selection
+        
+        @property
+        def Shop(self):
+            return self._shop_service
 
 
     class _ClassCatalog: # Содержит самое интересное и полезное, что есть в этой библиотеке :)
@@ -142,13 +165,13 @@ class PerekrestokAPI:
             response = await self._fetcher.fetch(url)
             return response
 
-        async def product_feed(
+        async def feed(
                 self,
                 filter: ABSTRACT.CatalogFeedFilter, 
                 sort: ABSTRACT.CatalogFeedSort = ABSTRACT.CatalogFeedSort.Popularity.ASC,
                 page: int = 1, 
                 limit: int = 100, 
-                best_product_reviews_only: bool = False
+                with_best_reviews_only: bool = False
             ):
             """
             Возвращает сам список товаров по фильтрам и сортировке.
@@ -158,14 +181,29 @@ class PerekrestokAPI:
                 "filter": filter.as_dict(),
                 "page": page,
                 "perPage": limit,
-                "withBestProductReviews": best_product_reviews_only
+                "withBestProductReviews": with_best_reviews_only
             }
             body.update(sort)
 
             response = await self._fetcher.fetch(url, method="POST", body=body)
             return response
 
-        async def search_form(
+        async def product(self, product_id: int | str):
+            if isinstance(product_id, int) or isinstance(product_id, str):
+                if not isinstance(product_id, str) or not product_id.startswith("plu"):
+                    product_id = f"plu{product_id}"
+            else:
+                raise TypeError("ID товара должен быть int или str.")
+            
+            if not product_id.removeprefix("plu").isdigit():
+                raise ValueError("ID товара должен быть int или str структуры pluXXX.")
+
+            url = f"{CATALOG_URL}/catalog/product/{product_id}"
+
+            response = await self._fetcher.fetch(url)
+            return response
+
+        async def form(
                 self,
                 filter: ABSTRACT.CatalogFeedFilter, 
                 disable_bubble_up: bool = False,

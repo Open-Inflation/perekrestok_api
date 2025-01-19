@@ -148,13 +148,24 @@ class BaseAPI:
 
 
 class ImageDownloader:
-    async def download_image(self, url: str) -> BytesIO:
-        async with aiohttp.ClientSession() as session:
-            async with session.get(url) as response:
-                if response.status == 200:
-                    image = BytesIO(await response.read())
-                    image.name = f"{url.split('/')[-1]}"
+    _session = None
 
-                    return image
-                else:
-                    raise ValueError(f"Failed to download image, status code: {response.status}")
+    async def __aenter__(self):
+        self._session = aiohttp.ClientSession()
+
+    async def __aexit__(self, exc_type, exc_val, exc_tb):
+        if self._session:
+            await self._session.close()
+
+    async def download_image(self, url: str) -> BytesIO:
+        if not self._session:
+            await self.__aenter__()
+        
+        async with self._session.get(url) as response:
+            if response.status == 200:
+                image = BytesIO(await response.read())
+                image.name = f"{url.split('/')[-1]}"
+
+                return image
+            else:
+                raise ValueError(f"Failed to download image, status code: {response.status}")

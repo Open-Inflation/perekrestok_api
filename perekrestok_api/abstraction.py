@@ -255,14 +255,14 @@ class CatalogFeedFilter:
 
     LOWEST_PRICE = _Filter(-1, int, "priceRange/from")
     """Фильтр исключающий цену в копейках где `<N`. По умолчанию -1 (отсутствует).
-    Диапазон цен для текущего поиска можно получить с помощью `.Catalog.search_form()['content']['priceFrom']` (цена передаётся в копейках так же в копейках).
+    Диапазон цен для текущего поиска можно получить с помощью `.Catalog.form()['content']['priceFrom']` (цена передаётся в копейках так же в копейках).
 
     Рекумендую использовать только в паре с `HIGHEST_PRICE`, т.к. я не знаю как сервер воспримет посылку только одного поля.
     Т.е. используйте `self.set_price_range(lowest, highest)`"""
 
     HIGHEST_PRICE = _Filter(-1, int, "priceRange/to")
     """Фильтр исключающий цену в копейках где `>N`. По умолчанию -1 (отсутствует).
-    Диапазон цен для текущего поиска можно получить с помощью `.Catalog.search_form()['content']['priceTo']` (цена передаётся в копейках так же в копейках).
+    Диапазон цен для текущего поиска можно получить с помощью `.Catalog.form()['content']['priceTo']` (цена передаётся в копейках так же в копейках).
 
     Рекумендую использовать только в паре с `LOWEST_PRICE`, т.к. я не знаю как сервер воспримет посылку только одного поля.
     Т.е. используйте `self.set_price_range(lowest, highest)`"""
@@ -270,19 +270,23 @@ class CatalogFeedFilter:
     FEATURES = _FeaturesFilter({}, dict, "features")
     """Фильтр для \"особенностей\" продукта. Таких как: страна изготовитель, тип продукта, бренд и тп.
     
-    Для получения доступных особенностей обратитесь к `.Catalog.search_form()['content']['searchFeatures']`.
+    Для получения доступных особенностей обратитесь к `.Catalog.form()['content']['searchFeatures']`.
     Ключ для `.add()`/`.remove()` Вы можете найти в `key` на первом уровне массива словарей, 
     внутри такого словаря так же будет `enumList` содержащий массив словарей с доступными значениями фильтра в `value`.
     """
 
-class CatalogFeedSort:
-    class _SortOption:
-        def __init__(self, order_by: str):
-            self.ASC = {"orderBy": order_by, "orderDirection": "asc"}
-            self.DESC = {"orderBy": order_by, "orderDirection": "desc"}
+class _SortOption:
+    def __init__(self, order_by: str):
+        self.ASC = {"orderBy": order_by, "orderDirection": "asc"}
+        self.DESC = {"orderBy": order_by, "orderDirection": "desc"}
 
+class CatalogFeedSort():
     Price = _SortOption("price")
     Popularity = _SortOption("popularity")
     Discount = _SortOption("discount")
     Rating = _SortOption("rating")
-    Reccomended = _SortOption("popularity_without_manual")
+    Recommended = _SortOption("popularity_without_manual")
+
+class GeologicationPointSort:
+    Distance = _SortOption("distance")
+
