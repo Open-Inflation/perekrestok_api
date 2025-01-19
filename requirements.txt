@@ -1,0 +1,4 @@
+aiohttp~=3.10.11
+playwright~=1.49.1
+playwright-stealth~=1.0.6
+rich~=13.7.1
