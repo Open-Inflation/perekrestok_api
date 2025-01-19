@@ -9,6 +9,20 @@
 
 
 # Usage / Использование
+### Базовая структура
+```py
+import asyncio
+from perekrestok_api import PerekrestokAPI, ABSTRACT
+
+async def main():
+    ...
+
+if __name__ == "__main__":
+    asyncio.run(main())
+```
+
+---
+
 ### Работа с геолокацией в сессии:
 *От геолокации и способа получения (доставка/забрать из магазина) зависит выдача каталога!*
 ```py
