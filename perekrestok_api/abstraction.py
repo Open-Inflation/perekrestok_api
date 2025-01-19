@@ -290,3 +290,21 @@ class CatalogFeedSort():
 class GeologicationPointSort:
     Distance = _SortOption("distance")
 
+class Geoposition:
+    """
+    Если передавать координаты через кортеж/массив, то они идут как [долгота, широта] (стандарт для ответов от Перекрестка).
+    При передаче как отдельных неименованных параметров, то они идут как [широта, долгота] (стандарт для мира).
+    """
+
+    def __init__(self, *args, longitude=None, latitude=None, coordinates=None):
+        if coordinates and isinstance(coordinates, (list, tuple)) and len(coordinates) == 2:
+            self.longitude, self.latitude = coordinates
+        elif latitude is not None and longitude is not None:
+            self.latitude = latitude
+            self.longitude = longitude
+        elif len(args) == 1 and isinstance(args[0], (list, tuple)) and len(args[0]) == 2:
+            self.longitude, self.latitude = args[0]
+        elif len(args) == 2 and all(isinstance(arg, float) for arg in args):
+            self.latitude, self.longitude = args
+        else:
+            raise ValueError("Provide either two floats or a list/tuple with two elements [longitude, latitude], or named parameters.")

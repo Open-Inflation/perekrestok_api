@@ -95,19 +95,39 @@ class PerekrestokAPI:
                 response = await self._fetcher.fetch(url)
                 return response
             
-            async def point(self, latitude: float, longitude: float, page: int = 1, limit: int = 10, sort: ABSTRACT.GeologicationPointSort = ABSTRACT.GeologicationPointSort.Distance.ASC):
+            async def on_map(
+                    self,
+                    position: ABSTRACT.Geoposition = None,
+                    page: int = 1,
+                    limit: int = 10,
+                    city_id: int = None,
+                    sort: ABSTRACT.GeologicationPointSort = ABSTRACT.GeologicationPointSort.Distance.ASC,
+                    features: list[int] = []
+                ):
                 """
                 Возвращает список самых ближайших/дальних магазинов от указанной геопозиции.
 
                 latitude, longitude: широта и долгота. Не забывайте, что все геопозиции от сервера всегда идут как `[долгота, широта]`.
                 """
-                url = f"{CATALOG_URL}/shop?orderBy={sort['orderBy']}&orderDirection={sort['orderDirection']}&lat={latitude}&lng={longitude}&page={page}&perPage={limit}"
-                response = await self._fetcher.fetch(url)
-                return response
+                url = f"{CATALOG_URL}/shop?orderBy={sort['orderBy']}&orderDirection={sort['orderDirection']}&page={page}&perPage={limit}"
+                if city_id:
+                    url += f"&cityId={city_id}"
+                if isinstance(position, ABSTRACT.Geoposition):
+                    url += f"&lat={position.latitude}&lng={position.longitude}"
+                
+                if features:
+                    url += f"&{'&'.join([f'features[]={feature}' for feature in features])}"
+
+                return await self._fetcher.fetch(url)
+            
+            async def features(self):
+                """
+                Возвращает список всех возможных особенностей магазинов.
+                """
+                url = f"{CATALOG_URL}/shop/features"
+                return await self._fetcher.fetch(url)
 
         class _GeolocationSelection:
-            """Переключаем геолокацию и способ доставки (целом для текущей сессии)."""
-
             def __init__(self, fetcher):
                 self._fetcher = fetcher
 
@@ -119,7 +139,7 @@ class PerekrestokAPI:
                 response = await self._fetcher.fetch(url, method="PUT")
                 return response
             
-            async def delivery_point(self, latitude: float, longitude: float):
+            async def delivery_point(self, position: ABSTRACT.Geoposition):
                 """
                 Переключает на доставку. Скорее всего после переключения показывается каталог ближайшего магазина (явно не указывается).
 
@@ -131,8 +151,8 @@ class PerekrestokAPI:
                     "apartment": None,
                     "location": {
                         "coordinates": [ # По какой-то причине в API широта и долгота перепутаны
-                            longitude,
-                            latitude
+                            position.longitude,
+                            position.latitude
                         ],
                         "type": "Point"
                     }
@@ -143,11 +163,16 @@ class PerekrestokAPI:
 
         @property
         def Selection(self):
-            """Если желаемый магазин/точка доставки не доступен, то сохраняется предыдущая геолокация (просто не происходит переключения)."""
+            """
+            Переключаем геолокацию и способ доставки (целом для текущей сессии).
+            
+            Если желаемый магазин/точка доставки не доступен, то сохраняется предыдущая геолокация (просто не происходит переключения).
+            """
             return self._selection
         
         @property
         def Shop(self):
+            """Поиск магазинов и информации по ним."""
             return self._shop_service
 
 
@@ -189,6 +214,9 @@ class PerekrestokAPI:
             return response
 
         async def product(self, product_id: int | str):
+            """
+            Возвращает информацию о товаре по его PLU (ID товара).
+            """
             if isinstance(product_id, int) or isinstance(product_id, str):
                 if not isinstance(product_id, str) or not product_id.startswith("plu"):
                     product_id = f"plu{product_id}"
@@ -274,6 +302,10 @@ class PerekrestokAPI:
         def __init__(self, fetcher):
             self._fetcher = fetcher
 
+        async def download_image(self, url: str) -> BytesIO:
+            """Скачать изображение с сайта."""
+            return await self._img_downloader.download_image(url)
+    
         async def qualifier(self):
             """
             Отправляет запрос для получения данных по квалификатору.
@@ -308,19 +340,20 @@ class PerekrestokAPI:
 
     @property
     def Geolocation(self):
+        """Работа с геолокацией пользователя, инструментарий для поиска магазинов и их выбором."""
         return self._geolocation
 
     @property
     def Catalog(self):
+        """Получение каталога."""
         return self._catalog
 
     @property
     def Advertising(self):
+        """Получение рекламных объявлений."""
         return self._advertising
 
     @property
     def General(self):
+        """Загрузка изображений, получение статических форм, информации о пользователе."""
         return self._general
-
-    async def download_image(self, url: str) -> BytesIO:
-        return await self._img_downloader.download_image(url)
