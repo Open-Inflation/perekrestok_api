@@ -1,51 +1,75 @@
 from . import abstraction as ABSTRACT
-from .api import BaseAPI, ImageDownloader
 from rich.console import Console
+from standard_open_inflation_package import BaseAPI, Page, Request, Response
+from standard_open_inflation_package.handler import Handler, HandlerSearchFailed, HandlerSearchSuccess, ExpectedContentType
+from standard_open_inflation_package.models import HttpMethod, Cookie
+from standard_open_inflation_package.content_loader import _remove_csrf_prefixes
+import json
 from io import BytesIO
 
 
 CATALOG_VERSION = "1.4.1.0"
 MAIN_SITE_URL = "https://www.perekrestok.ru"
-CATALOG_URL = f"/api/customer/{CATALOG_VERSION}"
+CATALOG_URL = f"{MAIN_SITE_URL}/api/customer/{CATALOG_VERSION}"
 
 
 class PerekrestokAPI:
-    def __init__(self, debug: bool = False, token_retry_attempts: int = 3):
-        self.debug = debug
-        self._token_retry_attempts = token_retry_attempts
-
-        self.console = Console()
-        self._fetcher = BaseAPI(base_url=MAIN_SITE_URL, debug=debug, console=self.console)
-        self._img_downloader = ImageDownloader()
-
-        self._geolocation = self._ClassGeolocation(fetcher=self._fetcher)
-        self._catalog = self._ClassCatalog(fetcher=self._fetcher)
-        self._general = self._ClassGeneral(fetcher=self._fetcher)
-        self._advertising = self._ClassAdvertising(fetcher=self._fetcher)
+    def __init__(self, debug: bool = False, **kwargs):
+        self.BROWSER = BaseAPI(start_func=self._start_browser, request_modifier_func=self._request_modifier, **kwargs)
+        self.PAGE = None
+        
+        self._geolocation = self._ClassGeolocation(parent=self)
+        self._catalog = self._ClassCatalog(parent=self)
+        self._general = self._ClassGeneral(parent=self)
+        self._advertising = self._ClassAdvertising(parent=self)
 
     async def __aenter__(self):
-        for _ in range(self._token_retry_attempts):
-            await self._fetcher.__aenter__()
-            if self._fetcher.cookies.get("session"):
-                if self.debug: self.console.log('[bold green]Session tokens found.[/bold green]')
-                break
-            
-            if self.debug: self.console.log('[bold yellow]Session tokens not found. Retrying...[/bold yellow]')
-        else:
-            raise Exception("Failed to get session token")
-        await self._img_downloader.__aenter__()
-        if self.debug: self.console.log("")
+        await self.rebuild_connection()
         return self
 
+    async def rebuild_connection(self):
+        await self.BROWSER.new_session()
+
+    async def _start_browser(self, browser: BaseAPI):
+        self.PAGE = await browser.new_page()
+        resp = await self.PAGE.direct_fetch(
+            url=MAIN_SITE_URL,
+            handlers=Handler.MAIN(expected_content=ExpectedContentType.ANY),
+            wait_selector="div#app"
+        )
+    
+    async def _request_modifier(self, req: Request) -> Request:
+        """
+        Модифицирует запросы перед отправкой.
+        Здесь можно добавить куки, заголовки и тп.
+        """
+        
+        cookies = await self.PAGE.get_cookies()
+        
+        for cookie in cookies:
+            if cookie.name == "session":
+                clean_json = json.loads(_remove_csrf_prefixes(cookie.value))
+
+                req.add_header("Auth", f"Bearer {clean_json['accessToken']}")
+
+                break
+        else:
+            raise ValueError("Session cookie not found in cookies")
+
+        return req
+
+
     async def __aexit__(self, exc_type, exc_val, exc_tb):
-        await self._fetcher.__aexit__(exc_type, exc_val, exc_tb)
-        await self._img_downloader.__aexit__(exc_type, exc_val, exc_tb)
+        await self.close()
+
+    async def close(self):
+        await self.BROWSER.close()
 
     class _ClassGeolocation:
-        def __init__(self, fetcher):
-            self._fetcher = fetcher
-            self._selection = self._GeolocationSelection(fetcher=self._fetcher)
-            self._shop_service = self._ShopService(fetcher=self._fetcher)
+        def __init__(self, parent):
+            self._parent = parent
+            self._selection = self._GeolocationSelection(parent=self._parent)
+            self._shop_service = self._ShopService(parent=self._parent)
 
         async def current(self):
             """
@@ -54,7 +78,7 @@ class PerekrestokAPI:
             Если подгрузились с анонимного токена и там был сменён город - решение сохранится.
             """
             url = f"{CATALOG_URL}/geo/city/current"
-            response = await self._fetcher.fetch(url)
+            response = await self._parent.PAGE.inject_fetch(url)
             return response
 
         async def delivery_address(self):
@@ -62,7 +86,7 @@ class PerekrestokAPI:
             Возвращает список всех адресов доставки которые пользователь когда-либо указывал (заказывать на него не обязательно).
             """
             url = f"{CATALOG_URL}/delivery/address"
-            response = await self._fetcher.fetch(url)
+            response = await self._parent.PAGE.inject_fetch(url)
             return response
 
         async def search(self, search: str, limit: int = 40):
@@ -70,13 +94,13 @@ class PerekrestokAPI:
             Ищет города по названию.
             """
             url = f"{CATALOG_URL}/geo/city?search={search}&limit={limit}"
-            response = await self._fetcher.fetch(url)
+            response = await self._parent.PAGE.inject_fetch(url)
             return response
 
 
         class _ShopService:
-            def __init__(self, fetcher):
-                self._fetcher = fetcher
+            def __init__(self, parent):
+                self._parent = parent
 
             async def all(self):
                 """
@@ -84,7 +108,7 @@ class PerekrestokAPI:
                 Выдача не зависит от геопозиции сессии.
                 """
                 url = f"{CATALOG_URL}/shop/points"
-                response = await self._fetcher.fetch(url)
+                response = await self._parent.PAGE.inject_fetch(url)
                 return response
 
             async def info(self, shop_id: int):
@@ -92,7 +116,7 @@ class PerekrestokAPI:
                 Возвращает информацию о магазине.
                 """
                 url = f"{CATALOG_URL}/shop/{shop_id}"
-                response = await self._fetcher.fetch(url)
+                response = await self._parent.PAGE.inject_fetch(url)
                 return response
             
             async def on_map(
@@ -118,25 +142,26 @@ class PerekrestokAPI:
                 if features:
                     url += f"&{'&'.join([f'features[]={feature}' for feature in features])}"
 
-                return await self._fetcher.fetch(url)
+                return await self._parent.PAGE.inject_fetch(url)
             
             async def features(self):
                 """
                 Возвращает список всех возможных особенностей магазинов.
                 """
                 url = f"{CATALOG_URL}/shop/features"
-                return await self._fetcher.fetch(url)
+                return await self._parent.PAGE.inject_fetch(url)
 
         class _GeolocationSelection:
-            def __init__(self, fetcher):
-                self._fetcher = fetcher
+            def __init__(self, parent):
+                self._parent = parent
 
             async def shop(self, shop_id: int):
                 """
                 Переключает на выбранный магазин (содержание каталога изменится).
                 """
                 url = f"{CATALOG_URL}/delivery/mode/pickup/{shop_id}"
-                response = await self._fetcher.fetch(url, method="PUT")
+                request = Request(url=url, method=HttpMethod.PUT)
+                response = await self._parent.PAGE.inject_fetch(request)
                 return response
             
             async def delivery_point(self, position: ABSTRACT.Geoposition):
@@ -158,7 +183,7 @@ class PerekrestokAPI:
                     }
                 }
 
-                response = await self._fetcher.fetch(url, method="POST", body=body)
+                response = await self._parent.PAGE.inject_fetch(Request(url=url, method=HttpMethod.POST, body=body))
                 return response
 
         @property
@@ -177,8 +202,8 @@ class PerekrestokAPI:
 
 
     class _ClassCatalog: # Содержит самое интересное и полезное, что есть в этой библиотеке :)
-        def __init__(self, fetcher):
-            self._fetcher = fetcher
+        def __init__(self, parent):
+            self._parent = parent
 
         async def promo_listings_by_id(self, ids: list[int]):
             """
@@ -187,7 +212,7 @@ class PerekrestokAPI:
             Я не нашел способа получения списка доступных ID (кроме простого перебора).
             """
             url = f"{CATALOG_URL}/catalog/promo/listings/by-id{'&'.join([f'ids[]={id}' for id in ids])}"
-            response = await self._fetcher.fetch(url)
+            response = await self._parent.PAGE.inject_fetch(url)
             return response
 
         async def feed(
@@ -210,7 +235,7 @@ class PerekrestokAPI:
             }
             body.update(sort)
 
-            response = await self._fetcher.fetch(url, method="POST", body=body)
+            response = await self._parent.PAGE.inject_fetch(Request(url=url, method=HttpMethod.POST, body=body))
             return response
 
         async def product(self, product_id: int | str):
@@ -228,7 +253,7 @@ class PerekrestokAPI:
 
             url = f"{CATALOG_URL}/catalog/product/{product_id}"
 
-            response = await self._fetcher.fetch(url)
+            response = await self._parent.PAGE.inject_fetch(url)
             return response
 
         async def form(
@@ -251,7 +276,7 @@ class PerekrestokAPI:
                 "disableBubbleUp": disable_bubble_up,
                 "sortByAlpha": sort_by_alpha
             }
-            response = await self._fetcher.fetch(url, method="POST", body=body)
+            response = await self._parent.PAGE.inject_fetch(Request(url=url, method=HttpMethod.POST, body=body))
             return response
 
         async def tree(self):
@@ -259,19 +284,19 @@ class PerekrestokAPI:
             Возвращает полное дерево каталога (структуру категорий и подкатегорий).
             """
             url = f"{CATALOG_URL}/catalog/tree"
-            response = await self._fetcher.fetch(url, method="POST")
+            response = await self._parent.PAGE.inject_fetch(Request(url=url, method=HttpMethod.POST))
             return response
 
     class _ClassAdvertising:
-        def __init__(self, fetcher):
-            self._fetcher = fetcher
+        def __init__(self, parent):
+            self._parent = parent
 
         async def banner(self, places: list[ABSTRACT.BannerPlace]):
             """
             Получает баннеры для указанных мест.
             """
             url = f"{CATALOG_URL}/banner?{'&'.join([f'places[]={place}' for place in places])}"
-            response = await self._fetcher.fetch(url)
+            response = await self._parent.PAGE.inject_fetch(url)
             return response
 
         async def main_slider(self, page: int = 1, limit: int = 10):
@@ -279,7 +304,7 @@ class PerekrestokAPI:
             Получает рекламные объявления на категории брендов.
             """
             url = f"{CATALOG_URL}/catalog/product-brand/main-slider?perPage={limit}&page={page}"
-            response = await self._fetcher.fetch(url)
+            response = await self._parent.PAGE.inject_fetch(url)
             return response
         
         async def booklet(self, city: int = 81):
@@ -287,7 +312,7 @@ class PerekrestokAPI:
             Возвращает спец. категории по типу "суперцена" для города.
             """
             url = f"{CATALOG_URL}/booklet?city={city}"
-            response = await self._fetcher.fetch(url)
+            response = await self._parent.PAGE.inject_fetch(url)
             return response
 
         async def view_booklet(self, booklet_id: int):
@@ -295,23 +320,23 @@ class PerekrestokAPI:
             Просмотр спец. категории с PDF файлом с акцией.
             """
             url = f"{CATALOG_URL}/booklet/{booklet_id}"
-            response = await self._fetcher.fetch(url)
+            response = await self._parent.PAGE.inject_fetch(url)
             return response
 
     class _ClassGeneral:
-        def __init__(self, fetcher):
-            self._fetcher = fetcher
+        def __init__(self, parent):
+            self._parent = parent
 
         async def download_image(self, url: str) -> BytesIO:
             """Скачать изображение с сайта."""
-            return await self._img_downloader.download_image(url)
-    
+            return await self._parent.PAGE.inject_fetch(url)
+
         async def qualifier(self):
             """
             Отправляет запрос для получения данных по квалификатору.
             """
             url = f"{CATALOG_URL}/qualifier"
-            response = await self._fetcher.fetch(url, method="POST")
+            response = await self._parent.PAGE.inject_fetch(Request(url=url, method=HttpMethod.POST))
             return response
 
         async def feedback_form(self):
@@ -319,7 +344,7 @@ class PerekrestokAPI:
             Возвращает JSON структуру с информацией о форме обратной связи.
             """
             url = f"{CATALOG_URL}/feedback/form"
-            response = await self._fetcher.fetch(url)
+            response = await self._parent.PAGE.inject_fetch(url)
             return response
 
         async def delivery_switcher(self):
@@ -327,7 +352,7 @@ class PerekrestokAPI:
             Получает переключатель доставки.
             """
             url = f"{CATALOG_URL}/delivery/switcher"
-            response = await self._fetcher.fetch(url)
+            response = await self._parent.PAGE.inject_fetch(url)
             return response
         
         async def current_user(self):
@@ -335,7 +360,7 @@ class PerekrestokAPI:
             Получает информацию о текущем пользователе.
             """
             url = f"{CATALOG_URL}/user/current"
-            response = await self._fetcher.fetch(url)
+            response = await self._parent.PAGE.inject_fetch(url)
             return response
 
     @property

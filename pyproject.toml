@@ -1,0 +1,61 @@
+[build-system]
+requires = ["setuptools>=61.0", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "perekrestok_api"
+dynamic = ["version"]
+description = "A Python API client for Perekrestok catalog"
+readme = "README.md"
+requires-python = ">=3.10"
+license = "MIT"
+authors = [
+    { name = "Miskler" }
+]
+keywords = ["api", "perekrestok", "store", "catalog"]
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.10",
+    "Programming Language :: Python :: 3.11",
+    "Programming Language :: Python :: 3.12",
+    "Programming Language :: Python :: 3.13",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: Microsoft :: Windows",
+    "Operating System :: POSIX :: Linux",
+    "Intended Audience :: Developers",
+    "Intended Audience :: Information Technology",
+    "Topic :: Software Development :: Libraries :: Python Modules",
+    "Topic :: Internet",
+    "Topic :: Utilities",
+]
+dependencies = [
+    "aiohttp",
+    "playwright",
+    "playwright_stealth",
+    "rich"
+]
+
+[project.optional-dependencies]
+tests = [
+    "pytest",
+    "pytest-asyncio",
+    "pytest-typed-schema-shot",
+]
+
+[project.urls]
+Homepage = "https://github.com/Open-Inflation/perekrestok_api"
+Repository = "https://github.com/Open-Inflation/perekrestok_api"
+Documentation = "https://open-inflation.github.io/perekrestok_api/"
+
+[tool.setuptools.dynamic]
+version = { attr = "perekrestok_api.__version__" }
+
+[tool.pytest.ini_options]
+pythonpath = ["."]
+testpaths = ["tests"]
+python_files = ["*_test.py", "*_tests.py"]
+markers = [
+    "geolocation_basic: Тесты основной функциональности геолокации",
+    "shop_service: Тесты сервиса магазинов",
+    "geolocation_selection: Тесты выбора геолокации"
+]
