@@ -29,10 +29,7 @@ classifiers = [
     "Topic :: Utilities",
 ]
 dependencies = [
-    "aiohttp",
-    "playwright",
-    "playwright_stealth",
-    "rich"
+    "standard-open-inflation-package"
 ]
 
 [project.optional-dependencies]
@@ -54,8 +51,3 @@ version = { attr = "perekrestok_api.__version__" }
 pythonpath = ["."]
 testpaths = ["tests"]
 python_files = ["*_test.py", "*_tests.py"]
-markers = [
-    "geolocation_basic: Тесты основной функциональности геолокации",
-    "shop_service: Тесты сервиса магазинов",
-    "geolocation_selection: Тесты выбора геолокации"
-]

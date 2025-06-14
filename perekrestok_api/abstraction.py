@@ -235,7 +235,7 @@ class CatalogFeedFilter:
             raise AttributeError(f"{self.hidden_key} не может быть изменён напрямую. Используйте add() и remove()")
 
     # Определение фильтров с использованием дескриптора
-    CATEGORY_ID = _Filter(1389, int, "category") # 1389 - "Фрукты, овощи: акции и скидки"
+    CATEGORY_ID = _Filter(-1, int, "category") # 1389 - "Фрукты, овощи: акции и скидки"
     """ID категорий бывают 2 видов - главные и дочерние. По сути они имеют одинаковый и равный статус для системы."""
 
     PROMO_LISTING = _Filter(-1, int, "promoListing")

@@ -1,3 +1,4 @@
-rich
-tqdm
 standard_open_inflation_package
+pytest
+pytest-asyncio
+pytest-typed-schema-shot

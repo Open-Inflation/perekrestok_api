@@ -2,10 +2,28 @@ from perekrestok_api import PerekrestokAPI, ABSTRACT
 from standard_open_inflation_package.handler import HandlerSearchFailed
 import tqdm
 from pprint import pprint
+import asyncio
 
 
 async def main():
     async with PerekrestokAPI(debug=True, timeout=10.0) as Api:
+
+        feed_filter = ABSTRACT.CatalogFeedFilter()
+        feed_filter.PROMO_LISTING = 2
+#        feed_filter.CATEGORY_ID = 1558
+
+        # Запрашиваем товары из текущей категории
+        catalog_handler = await Api.Catalog.feed(filter=feed_filter)
+        print("Catalog Feed:", catalog_handler.status)
+        print("Request Headers Len:", len(catalog_handler.request_headers))
+        print("Response Headers Len:", len(catalog_handler.response_headers))
+        await asyncio.sleep(5)
+
+        return
+
+
+
+
         # Получение дерева категорий каталога
         tree_handler = await Api.Catalog.tree()
         if isinstance(tree_handler, HandlerSearchFailed):
@@ -15,8 +33,6 @@ async def main():
             return
         
         tree = tree_handler.response
-
-        pprint(tree)
 
         # Список для хранения всех обработанных товаров
         products = []
@@ -49,6 +65,8 @@ async def main():
 
                 catalog = catalog_handler.response
 
+                pprint(catalog)
+
                 page = 1
 
                 # Цикл обработки всех страниц товаров в категории
@@ -71,6 +89,7 @@ async def main():
                 for child in category_group.get("children", []):
                     await process_sub([child], depth + 1)
 
+        Api.BROWSER._logger.setLevel("DEBUG")
         # Запуск обработки дерева категорий
         await process_sub(tree["content"]["items"])
 

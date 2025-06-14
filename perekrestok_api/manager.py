@@ -1,11 +1,12 @@
 from . import abstraction as ABSTRACT
-from rich.console import Console
-from standard_open_inflation_package import BaseAPI, Page, Request, Response
-from standard_open_inflation_package.handler import Handler, HandlerSearchFailed, HandlerSearchSuccess, ExpectedContentType
-from standard_open_inflation_package.models import HttpMethod, Cookie
+from standard_open_inflation_package import BaseAPI, Request, Response
+from standard_open_inflation_package.exceptions import NetworkError
+from standard_open_inflation_package.handler import Handler, ExpectedContentType
+from standard_open_inflation_package.models import HttpMethod
 from standard_open_inflation_package.content_loader import _remove_csrf_prefixes
+from standard_open_inflation_package.browser_engines import BrowserEngine
 import json
-from io import BytesIO
+import urllib
 
 
 CATALOG_VERSION = "1.4.1.0"
@@ -15,9 +16,14 @@ CATALOG_URL = f"{MAIN_SITE_URL}/api/customer/{CATALOG_VERSION}"
 
 class PerekrestokAPI:
     def __init__(self, debug: bool = False, **kwargs):
-        self.BROWSER = BaseAPI(start_func=self._start_browser, request_modifier_func=self._request_modifier, **kwargs)
+        self.BROWSER = BaseAPI(
+            start_func=self._start_browser,
+            request_modifier_func=self._request_modifier,
+            browser_engine=BrowserEngine.CHROMIUM(headless=not debug),
+            **kwargs
+        )
         self.PAGE = None
-        
+
         self._geolocation = self._ClassGeolocation(parent=self)
         self._catalog = self._ClassCatalog(parent=self)
         self._general = self._ClassGeneral(parent=self)
@@ -34,7 +40,7 @@ class PerekrestokAPI:
         self.PAGE = await browser.new_page()
         resp = await self.PAGE.direct_fetch(
             url=MAIN_SITE_URL,
-            handlers=Handler.MAIN(expected_content=ExpectedContentType.ANY),
+            handlers=Handler.MAIN(expected_content=ExpectedContentType.ANY, max_responses=1),
             wait_selector="div#app"
         )
     
@@ -48,7 +54,12 @@ class PerekrestokAPI:
         
         for cookie in cookies:
             if cookie.name == "session":
-                clean_json = json.loads(_remove_csrf_prefixes(cookie.value))
+                self.BROWSER._logger.warning(f"Session cookie found: {cookie.value}")
+                clean_json = json.loads(
+                    _remove_csrf_prefixes(
+                        urllib.parse.unquote(cookie.value)
+                    )
+                )
 
                 req.add_header("Auth", f"Bearer {clean_json['accessToken']}")
 
@@ -71,7 +82,7 @@ class PerekrestokAPI:
             self._selection = self._GeolocationSelection(parent=self._parent)
             self._shop_service = self._ShopService(parent=self._parent)
 
-        async def current(self):
+        async def current(self) -> Response | NetworkError:
             """
             Получает информацию о текущем городе (геолокация).
             Судя по всему определение по IP не происходит, и анонимный пользователь всегда "находится" в Москве.
@@ -81,7 +92,7 @@ class PerekrestokAPI:
             response = await self._parent.PAGE.inject_fetch(url)
             return response
 
-        async def delivery_address(self):
+        async def delivery_address(self) -> Response | NetworkError:
             """
             Возвращает список всех адресов доставки которые пользователь когда-либо указывал (заказывать на него не обязательно).
             """
@@ -89,7 +100,7 @@ class PerekrestokAPI:
             response = await self._parent.PAGE.inject_fetch(url)
             return response
 
-        async def search(self, search: str, limit: int = 40):
+        async def search(self, search: str, limit: int = 40) -> Response | NetworkError:
             """
             Ищет города по названию.
             """
@@ -102,7 +113,7 @@ class PerekrestokAPI:
             def __init__(self, parent):
                 self._parent = parent
 
-            async def all(self):
+            async def all(self) -> Response | NetworkError:
                 """
                 Возвращает id-список абсолютно всех магазинов, геолокацию и сводную информацию по ним. 
                 Выдача не зависит от геопозиции сессии.
@@ -111,7 +122,7 @@ class PerekrestokAPI:
                 response = await self._parent.PAGE.inject_fetch(url)
                 return response
 
-            async def info(self, shop_id: int):
+            async def info(self, shop_id: int) -> Response | NetworkError:
                 """
                 Возвращает информацию о магазине.
                 """
@@ -127,7 +138,7 @@ class PerekrestokAPI:
                     city_id: int = None,
                     sort: ABSTRACT.GeologicationPointSort = ABSTRACT.GeologicationPointSort.Distance.ASC,
                     features: list[int] = []
-                ):
+                ) -> Response | NetworkError:
                 """
                 Возвращает список самых ближайших/дальних магазинов от указанной геопозиции.
 
@@ -144,7 +155,7 @@ class PerekrestokAPI:
 
                 return await self._parent.PAGE.inject_fetch(url)
             
-            async def features(self):
+            async def features(self) -> Response | NetworkError:
                 """
                 Возвращает список всех возможных особенностей магазинов.
                 """
@@ -155,7 +166,7 @@ class PerekrestokAPI:
             def __init__(self, parent):
                 self._parent = parent
 
-            async def shop(self, shop_id: int):
+            async def shop(self, shop_id: int) -> Response | NetworkError:
                 """
                 Переключает на выбранный магазин (содержание каталога изменится).
                 """
@@ -164,7 +175,7 @@ class PerekrestokAPI:
                 response = await self._parent.PAGE.inject_fetch(request)
                 return response
             
-            async def delivery_point(self, position: ABSTRACT.Geoposition):
+            async def delivery_point(self, position: ABSTRACT.Geoposition) -> Response | NetworkError:
                 """
                 Переключает на доставку. Скорее всего после переключения показывается каталог ближайшего магазина (явно не указывается).
 
@@ -205,7 +216,7 @@ class PerekrestokAPI:
         def __init__(self, parent):
             self._parent = parent
 
-        async def promo_listings_by_id(self, ids: list[int]):
+        async def promo_listings_by_id(self, ids: list[int]) -> Response | NetworkError:
             """
             Возвращает информацию о промо-листах по переданным ID.
             Эти же листы можно использовать фильтром в `ABSTRACT.CatalogFeedFilter.PROMO_LISTING = int`.
@@ -222,7 +233,7 @@ class PerekrestokAPI:
                 page: int = 1, 
                 limit: int = 100, 
                 with_best_reviews_only: bool = False
-            ):
+            ) -> Response | NetworkError:
             """
             Возвращает сам список товаров по фильтрам и сортировке.
             """
@@ -234,11 +245,11 @@ class PerekrestokAPI:
                 "withBestProductReviews": with_best_reviews_only
             }
             body.update(sort)
-
+            
             response = await self._parent.PAGE.inject_fetch(Request(url=url, method=HttpMethod.POST, body=body))
             return response
 
-        async def product(self, product_id: int | str):
+        async def product(self, product_id: int | str) -> Response | NetworkError:
             """
             Возвращает информацию о товаре по его PLU (ID товара).
             """
@@ -261,7 +272,7 @@ class PerekrestokAPI:
                 filter: ABSTRACT.CatalogFeedFilter, 
                 disable_bubble_up: bool = False,
                 sort_by_alpha: bool = True
-            ):
+            ) -> Response | NetworkError:
             """
             Показывает сколько товаров соответсвует запрошенным фильтрам.
             Так же возвращает структуру с информацией о доступных фильтрах (ценовой диапазон, "особенности"),
@@ -279,7 +290,7 @@ class PerekrestokAPI:
             response = await self._parent.PAGE.inject_fetch(Request(url=url, method=HttpMethod.POST, body=body))
             return response
 
-        async def tree(self):
+        async def tree(self) -> Response | NetworkError:
             """
             Возвращает полное дерево каталога (структуру категорий и подкатегорий).
             """
@@ -291,7 +302,7 @@ class PerekrestokAPI:
         def __init__(self, parent):
             self._parent = parent
 
-        async def banner(self, places: list[ABSTRACT.BannerPlace]):
+        async def banner(self, places: list[ABSTRACT.BannerPlace]) -> Response | NetworkError:
             """
             Получает баннеры для указанных мест.
             """
@@ -299,7 +310,7 @@ class PerekrestokAPI:
             response = await self._parent.PAGE.inject_fetch(url)
             return response
 
-        async def main_slider(self, page: int = 1, limit: int = 10):
+        async def main_slider(self, page: int = 1, limit: int = 10) -> Response | NetworkError:
             """
             Получает рекламные объявления на категории брендов.
             """
@@ -307,7 +318,7 @@ class PerekrestokAPI:
             response = await self._parent.PAGE.inject_fetch(url)
             return response
         
-        async def booklet(self, city: int = 81):
+        async def booklet(self, city: int = 81) -> Response | NetworkError:
             """
             Возвращает спец. категории по типу "суперцена" для города.
             """
@@ -315,7 +326,7 @@ class PerekrestokAPI:
             response = await self._parent.PAGE.inject_fetch(url)
             return response
 
-        async def view_booklet(self, booklet_id: int):
+        async def view_booklet(self, booklet_id: int) -> Response | NetworkError:
             """
             Просмотр спец. категории с PDF файлом с акцией.
             """
@@ -327,11 +338,11 @@ class PerekrestokAPI:
         def __init__(self, parent):
             self._parent = parent
 
-        async def download_image(self, url: str) -> BytesIO:
+        async def download_image(self, url: str) -> Response | NetworkError:
             """Скачать изображение с сайта."""
             return await self._parent.PAGE.inject_fetch(url)
 
-        async def qualifier(self):
+        async def qualifier(self) -> Response | NetworkError:
             """
             Отправляет запрос для получения данных по квалификатору.
             """
@@ -339,7 +350,7 @@ class PerekrestokAPI:
             response = await self._parent.PAGE.inject_fetch(Request(url=url, method=HttpMethod.POST))
             return response
 
-        async def feedback_form(self):
+        async def feedback_form(self) -> Response | NetworkError:
             """
             Возвращает JSON структуру с информацией о форме обратной связи.
             """
@@ -347,7 +358,7 @@ class PerekrestokAPI:
             response = await self._parent.PAGE.inject_fetch(url)
             return response
 
-        async def delivery_switcher(self):
+        async def delivery_switcher(self) -> Response | NetworkError:
             """
             Получает переключатель доставки.
             """
@@ -355,7 +366,7 @@ class PerekrestokAPI:
             response = await self._parent.PAGE.inject_fetch(url)
             return response
         
-        async def current_user(self):
+        async def current_user(self) -> Response | NetworkError:
             """
             Получает информацию о текущем пользователе.
             """
@@ -364,21 +375,21 @@ class PerekrestokAPI:
             return response
 
     @property
-    def Geolocation(self):
+    def Geolocation(self) -> _ClassGeolocation:
         """Работа с геолокацией пользователя, инструментарий для поиска магазинов и их выбором."""
         return self._geolocation
 
     @property
-    def Catalog(self):
+    def Catalog(self) -> _ClassCatalog:
         """Получение каталога."""
         return self._catalog
 
     @property
-    def Advertising(self):
+    def Advertising(self) -> _ClassAdvertising:
         """Получение рекламных объявлений."""
         return self._advertising
 
     @property
-    def General(self):
+    def General(self) -> _ClassGeneral:
         """Загрузка изображений, получение статических форм, информации о пользователе."""
         return self._general
