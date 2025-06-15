@@ -1,4 +1,5 @@
-standard_open_inflation_package
+hrequests
 pytest
 pytest-asyncio
 pytest-typed-schema-shot
+
