@@ -287,7 +287,7 @@ class CatalogFeedSort():
     Rating = _SortOption("rating")
     Recommended = _SortOption("popularity_without_manual")
 
-class GeologicationPointSort:
+class GeolocationPointSort:
     Distance = _SortOption("distance")
 
 class Geoposition:

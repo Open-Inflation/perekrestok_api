@@ -1,0 +1,314 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "type": "object",
+  "properties": {
+    "content": {
+      "type": "object",
+      "properties": {
+        "items": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "properties": {
+              "id": {
+                "type": "integer"
+              },
+              "key": {
+                "type": "string"
+              },
+              "title": {
+                "type": "string"
+              },
+              "fullTitle": {
+                "type": "null"
+              },
+              "hideCategory": {
+                "type": "null"
+              },
+              "image": {
+                "anyOf": [
+                  {
+                    "type": "null"
+                  },
+                  {
+                    "type": "object",
+                    "properties": {
+                      "id": {
+                        "type": "integer"
+                      },
+                      "originName": {
+                        "type": "string"
+                      },
+                      "fileType": {
+                        "type": "string"
+                      },
+                      "fileSize": {
+                        "type": "integer"
+                      },
+                      "width": {
+                        "type": "integer"
+                      },
+                      "height": {
+                        "type": "integer"
+                      },
+                      "cropUrlTemplate": {
+                        "type": "string"
+                      },
+                      "publicUrl": {
+                        "type": "null"
+                      },
+                      "uuid": {
+                        "type": "string"
+                      }
+                    },
+                    "required": [
+                      "cropUrlTemplate",
+                      "fileSize",
+                      "fileType",
+                      "height",
+                      "id",
+                      "originName",
+                      "publicUrl",
+                      "uuid",
+                      "width"
+                    ]
+                  }
+                ]
+              },
+              "productBrand": {
+                "type": "object",
+                "properties": {
+                  "id": {
+                    "type": "integer"
+                  },
+                  "sliderImage": {
+                    "type": "object",
+                    "properties": {
+                      "id": {
+                        "type": "integer"
+                      },
+                      "originName": {
+                        "type": "string"
+                      },
+                      "fileType": {
+                        "type": "string"
+                      },
+                      "fileSize": {
+                        "type": "integer"
+                      },
+                      "width": {
+                        "type": "integer"
+                      },
+                      "height": {
+                        "type": "integer"
+                      },
+                      "cropUrlTemplate": {
+                        "type": "string",
+                        "format": "uri"
+                      },
+                      "publicUrl": {
+                        "type": "null"
+                      },
+                      "uuid": {
+                        "type": "string",
+                        "format": "uuid"
+                      }
+                    },
+                    "required": [
+                      "cropUrlTemplate",
+                      "fileSize",
+                      "fileType",
+                      "height",
+                      "id",
+                      "originName",
+                      "publicUrl",
+                      "uuid",
+                      "width"
+                    ]
+                  },
+                  "mobileBannerImage": {
+                    "anyOf": [
+                      {
+                        "type": "null"
+                      },
+                      {
+                        "type": "object",
+                        "properties": {
+                          "id": {
+                            "type": "integer"
+                          },
+                          "originName": {
+                            "type": "string"
+                          },
+                          "fileType": {
+                            "type": "string"
+                          },
+                          "fileSize": {
+                            "type": "integer"
+                          },
+                          "width": {
+                            "type": "integer"
+                          },
+                          "height": {
+                            "type": "integer"
+                          },
+                          "cropUrlTemplate": {
+                            "type": "string",
+                            "format": "uri"
+                          },
+                          "publicUrl": {
+                            "type": "null"
+                          },
+                          "uuid": {
+                            "type": "string",
+                            "format": "uuid"
+                          }
+                        },
+                        "required": [
+                          "cropUrlTemplate",
+                          "fileSize",
+                          "fileType",
+                          "height",
+                          "id",
+                          "originName",
+                          "publicUrl",
+                          "uuid",
+                          "width"
+                        ]
+                      }
+                    ]
+                  },
+                  "desktopBannerImage": {
+                    "anyOf": [
+                      {
+                        "type": "null"
+                      },
+                      {
+                        "type": "object",
+                        "properties": {
+                          "id": {
+                            "type": "integer"
+                          },
+                          "originName": {
+                            "type": "string"
+                          },
+                          "fileType": {
+                            "type": "string"
+                          },
+                          "fileSize": {
+                            "type": "integer"
+                          },
+                          "width": {
+                            "type": "integer"
+                          },
+                          "height": {
+                            "type": "integer"
+                          },
+                          "cropUrlTemplate": {
+                            "type": "string",
+                            "format": "uri"
+                          },
+                          "publicUrl": {
+                            "type": "null"
+                          },
+                          "uuid": {
+                            "type": "string",
+                            "format": "uuid"
+                          }
+                        },
+                        "required": [
+                          "cropUrlTemplate",
+                          "fileSize",
+                          "fileType",
+                          "height",
+                          "id",
+                          "originName",
+                          "publicUrl",
+                          "uuid",
+                          "width"
+                        ]
+                      }
+                    ]
+                  },
+                  "paidProductCardLogo": {
+                    "type": "boolean"
+                  },
+                  "color": {
+                    "type": "object",
+                    "properties": {
+                      "red": {
+                        "type": "integer"
+                      },
+                      "green": {
+                        "type": "integer"
+                      },
+                      "blue": {
+                        "type": "integer"
+                      },
+                      "alpha": {
+                        "type": "integer"
+                      }
+                    },
+                    "required": [
+                      "alpha",
+                      "blue",
+                      "green",
+                      "red"
+                    ]
+                  },
+                  "imageLink": {
+                    "type": "null"
+                  }
+                },
+                "required": [
+                  "color",
+                  "desktopBannerImage",
+                  "id",
+                  "imageLink",
+                  "mobileBannerImage",
+                  "paidProductCardLogo",
+                  "sliderImage"
+                ]
+              }
+            },
+            "required": [
+              "fullTitle",
+              "hideCategory",
+              "id",
+              "image",
+              "key",
+              "productBrand",
+              "title"
+            ]
+          }
+        },
+        "paginator": {
+          "type": "object",
+          "properties": {
+            "step": {
+              "type": "integer"
+            },
+            "current": {
+              "type": "integer"
+            },
+            "nextPageExists": {
+              "type": "boolean"
+            }
+          },
+          "required": [
+            "current",
+            "nextPageExists",
+            "step"
+          ]
+        }
+      },
+      "required": [
+        "items",
+        "paginator"
+      ]
+    }
+  },
+  "required": [
+    "content"
+  ]
+}

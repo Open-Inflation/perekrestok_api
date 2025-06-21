@@ -12,16 +12,16 @@ async def test_banner(schemashot: SchemaShot):
             ABSTRACT.BannerPlace.BRANDS,
             ABSTRACT.BannerPlace.CATEGORY
         ]
-        handler = await api.Advertising.banner(places)
-        schemashot.assert_match(handler.response, "banner")
+        resp = await api.Advertising.banner(places)
+        schemashot.assert_match(resp, "banner")
 
 
 @pytest.mark.asyncio
 async def test_main_slider(schemashot: SchemaShot):
     """Тест для получения главного слайдера"""
     async with PerekrestokAPI(debug=False, timeout=10.0) as api:
-        handler = await api.Advertising.main_slider(page=1, limit=5)
-        schemashot.assert_match(handler.response, "main_slider")
+        resp = await api.Advertising.main_slider(page=1, limit=5)
+        schemashot.assert_match(resp, "main_slider")
 
 
 @pytest.mark.asyncio
@@ -29,13 +29,13 @@ async def test_booklet_and_view_booklet(schemashot: SchemaShot):
     """Тест для получения буклетов спецкатегорий"""
     async with PerekrestokAPI(debug=False, timeout=10.0) as api:
         # Москва - city_id = 81
-        booklets_handler = await api.Advertising.booklet(city=81)
-        schemashot.assert_match(booklets_handler.response, "booklet")
+        booklets_resp = await api.Advertising.booklet(city=81)
+        schemashot.assert_match(booklets_resp, "booklet")
 
-        if booklets_handler.response["content"]["items"]:
-            booklet_id = booklets_handler.response["content"]["items"][0]["id"]
-            view_handler = await api.Advertising.view_booklet(booklet_id)
-            schemashot.assert_match(view_handler.response, "view_booklet")
+        if booklets_resp["content"]["items"]:
+            booklet_id = booklets_resp["content"]["items"][0]["id"]
+            view_resp = await api.Advertising.view_booklet(booklet_id)
+            schemashot.assert_match(view_resp, "view_booklet")
 
 
 @pytest.mark.asyncio
@@ -47,5 +47,5 @@ async def test_special_category_banners(schemashot: SchemaShot):
             ABSTRACT.BannerPlace.SpecialCategory.LEFT,
             ABSTRACT.BannerPlace.SpecialCategory.RIGHT
         ]
-        handler = await api.Advertising.banner(places)
-        schemashot.assert_match(handler.response, "special_category_banners")
+        resp = await api.Advertising.banner(places)
+        schemashot.assert_match(resp, "special_category_banners")

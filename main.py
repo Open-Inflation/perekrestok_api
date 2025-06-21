@@ -1,12 +1,11 @@
 from perekrestok_api import PerekrestokAPI, ABSTRACT
-from standard_open_inflation_package.handler import HandlerSearchFailed
 import tqdm
 from pprint import pprint
 import asyncio
 
 
 async def main():
-    async with PerekrestokAPI(debug=True, timeout=10.0) as Api:
+    async with PerekrestokAPI(headless=False, timeout=10.0) as Api:
 
         feed_filter = ABSTRACT.CatalogFeedFilter()
         feed_filter.PROMO_LISTING = 2
@@ -14,9 +13,8 @@ async def main():
 
         # Запрашиваем товары из текущей категории
         catalog_handler = await Api.Catalog.feed(filter=feed_filter)
-        print("Catalog Feed:", catalog_handler.status)
-        print("Request Headers Len:", len(catalog_handler.request_headers))
-        print("Response Headers Len:", len(catalog_handler.response_headers))
+        pprint(Api.session)
+        print("Catalog Feed:", catalog_handler)
         await asyncio.sleep(5)
 
         return
