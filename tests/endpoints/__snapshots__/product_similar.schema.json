@@ -1,0 +1,415 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "type": "object",
+  "properties": {
+    "content": {
+      "type": "object",
+      "properties": {
+        "analyticsInfo": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "properties": {
+              "name": {
+                "type": "string"
+              },
+              "type": {
+                "type": "string"
+              },
+              "value": {
+                "type": "string"
+              }
+            },
+            "required": [
+              "name",
+              "type",
+              "value"
+            ]
+          }
+        },
+        "items": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "properties": {
+              "liked": {
+                "type": "boolean"
+              },
+              "borderStyle": {
+                "type": "null"
+              },
+              "bestReview": {
+                "type": "null"
+              },
+              "advToken": {
+                "type": "null"
+              },
+              "id": {
+                "type": "integer"
+              },
+              "masterData": {
+                "type": "object",
+                "properties": {
+                  "slug": {
+                    "type": "string"
+                  },
+                  "plu": {
+                    "type": "string"
+                  },
+                  "unit": {
+                    "type": "integer"
+                  },
+                  "unitName": {
+                    "type": "string"
+                  },
+                  "quantum": {
+                    "type": "integer"
+                  },
+                  "quantumStep": {
+                    "type": "integer"
+                  },
+                  "weight": {
+                    "type": "integer"
+                  },
+                  "volume": {
+                    "type": "null"
+                  },
+                  "ui4code": {
+                    "type": "string"
+                  },
+                  "taxGroup": {
+                    "type": "string"
+                  },
+                  "ownProduction": {
+                    "type": "boolean"
+                  },
+                  "privateLabel": {
+                    "type": "boolean"
+                  },
+                  "isMark": {
+                    "type": "boolean"
+                  },
+                  "alcoSetUnits": {
+                    "type": "null"
+                  },
+                  "activeNds": {
+                    "type": "null"
+                  }
+                },
+                "required": [
+                  "activeNds",
+                  "alcoSetUnits",
+                  "isMark",
+                  "ownProduction",
+                  "plu",
+                  "privateLabel",
+                  "quantum",
+                  "quantumStep",
+                  "slug",
+                  "taxGroup",
+                  "ui4code",
+                  "unit",
+                  "unitName",
+                  "volume",
+                  "weight"
+                ]
+              },
+              "title": {
+                "type": "string"
+              },
+              "primaryCategory": {
+                "type": "object",
+                "properties": {
+                  "id": {
+                    "type": "integer"
+                  },
+                  "title": {
+                    "type": "string"
+                  },
+                  "slug": {
+                    "type": "string"
+                  },
+                  "isAlcohol": {
+                    "type": "boolean"
+                  },
+                  "isTobacco": {
+                    "type": "boolean"
+                  },
+                  "isExciseAlcohol": {
+                    "type": "boolean"
+                  },
+                  "isAdultContent": {
+                    "type": "boolean"
+                  },
+                  "displayStyle": {
+                    "type": "integer"
+                  },
+                  "catalogs": {
+                    "type": "array",
+                    "items": {
+                      "type": "integer"
+                    }
+                  }
+                },
+                "required": [
+                  "catalogs",
+                  "displayStyle",
+                  "id",
+                  "isAdultContent",
+                  "isAlcohol",
+                  "isExciseAlcohol",
+                  "isTobacco",
+                  "slug",
+                  "title"
+                ]
+              },
+              "catalogPrimaryCategory": {
+                "type": "object",
+                "properties": {
+                  "id": {
+                    "type": "integer"
+                  },
+                  "title": {
+                    "type": "string"
+                  },
+                  "slug": {
+                    "type": "string"
+                  },
+                  "isAlcohol": {
+                    "type": "boolean"
+                  },
+                  "isTobacco": {
+                    "type": "boolean"
+                  },
+                  "isExciseAlcohol": {
+                    "type": "boolean"
+                  },
+                  "isAdultContent": {
+                    "type": "boolean"
+                  },
+                  "displayStyle": {
+                    "type": "integer"
+                  },
+                  "catalogs": {
+                    "type": "array",
+                    "items": {
+                      "type": "integer"
+                    }
+                  }
+                },
+                "required": [
+                  "catalogs",
+                  "displayStyle",
+                  "id",
+                  "isAdultContent",
+                  "isAlcohol",
+                  "isExciseAlcohol",
+                  "isTobacco",
+                  "slug",
+                  "title"
+                ]
+              },
+              "image": {
+                "type": "object",
+                "properties": {
+                  "id": {
+                    "type": "integer"
+                  },
+                  "originName": {
+                    "type": "string"
+                  },
+                  "fileType": {
+                    "type": "string"
+                  },
+                  "fileSize": {
+                    "type": "integer"
+                  },
+                  "width": {
+                    "type": "integer"
+                  },
+                  "height": {
+                    "type": "integer"
+                  },
+                  "cropUrlTemplate": {
+                    "type": "string",
+                    "format": "uri"
+                  },
+                  "publicUrl": {
+                    "type": "null"
+                  },
+                  "uuid": {
+                    "type": "string",
+                    "format": "uuid"
+                  }
+                },
+                "required": [
+                  "cropUrlTemplate",
+                  "fileSize",
+                  "fileType",
+                  "height",
+                  "id",
+                  "originName",
+                  "publicUrl",
+                  "uuid",
+                  "width"
+                ]
+              },
+              "rating": {
+                "type": "integer"
+              },
+              "medianPrice": {
+                "type": "integer"
+              },
+              "labelCharacteristics": {
+                "type": "array"
+              },
+              "labels": {
+                "type": "array",
+                "items": {
+                  "type": "object",
+                  "properties": {
+                    "listingImage": {
+                      "type": "object",
+                      "properties": {
+                        "id": {
+                          "type": "integer"
+                        },
+                        "originName": {
+                          "type": "string"
+                        },
+                        "fileType": {
+                          "type": "string"
+                        },
+                        "fileSize": {
+                          "type": "integer"
+                        },
+                        "width": {
+                          "type": "integer"
+                        },
+                        "height": {
+                          "type": "integer"
+                        },
+                        "cropUrlTemplate": {
+                          "type": "string"
+                        },
+                        "publicUrl": {
+                          "type": "null"
+                        },
+                        "uuid": {
+                          "type": "string"
+                        }
+                      },
+                      "required": [
+                        "cropUrlTemplate",
+                        "fileSize",
+                        "fileType",
+                        "height",
+                        "id",
+                        "originName",
+                        "publicUrl",
+                        "uuid",
+                        "width"
+                      ]
+                    }
+                  },
+                  "required": [
+                    "listingImage"
+                  ]
+                }
+              },
+              "reviewCount": {
+                "type": "integer"
+              },
+              "ratingCount": {
+                "type": "integer"
+              },
+              "priceTag": {
+                "type": "object",
+                "properties": {
+                  "price": {
+                    "type": "integer"
+                  },
+                  "discountMinimumAmount": {
+                    "type": "integer"
+                  },
+                  "grossPrice": {
+                    "type": [
+                      "integer",
+                      "null"
+                    ]
+                  },
+                  "labels": {
+                    "type": "array",
+                    "items": {
+                      "type": "object",
+                      "properties": {
+                        "type": {
+                          "type": "string"
+                        },
+                        "text": {
+                          "type": "string"
+                        }
+                      },
+                      "required": [
+                        "text",
+                        "type"
+                      ]
+                    }
+                  },
+                  "pricePerQuantum": {
+                    "type": "null"
+                  },
+                  "grossPricePerQuantum": {
+                    "type": "null"
+                  },
+                  "potentialPointsForOrangeCard": {
+                    "type": "null"
+                  }
+                },
+                "required": [
+                  "discountMinimumAmount",
+                  "grossPrice",
+                  "grossPricePerQuantum",
+                  "labels",
+                  "potentialPointsForOrangeCard",
+                  "price",
+                  "pricePerQuantum"
+                ]
+              },
+              "balanceState": {
+                "type": "string"
+              }
+            },
+            "required": [
+              "advToken",
+              "balanceState",
+              "bestReview",
+              "borderStyle",
+              "catalogPrimaryCategory",
+              "id",
+              "image",
+              "labelCharacteristics",
+              "labels",
+              "liked",
+              "masterData",
+              "medianPrice",
+              "priceTag",
+              "primaryCategory",
+              "rating",
+              "ratingCount",
+              "reviewCount",
+              "title"
+            ]
+          }
+        }
+      },
+      "required": [
+        "analyticsInfo",
+        "items"
+      ]
+    }
+  },
+  "required": [
+    "content"
+  ]
+}

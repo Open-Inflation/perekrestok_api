@@ -1,0 +1,55 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "type": "object",
+  "properties": {
+    "content": {
+      "type": "object",
+      "properties": {
+        "title": {
+          "type": "string"
+        },
+        "fullAddress": {
+          "type": "string"
+        },
+        "location": {
+          "type": "object",
+          "properties": {
+            "type": {
+              "type": "string"
+            },
+            "coordinates": {
+              "type": "array",
+              "items": {
+                "type": "number"
+              }
+            }
+          },
+          "required": [
+            "coordinates",
+            "type"
+          ]
+        },
+        "isMaxPrecision": {
+          "type": "boolean"
+        },
+        "street": {
+          "type": "string"
+        },
+        "house": {
+          "type": "string"
+        }
+      },
+      "required": [
+        "fullAddress",
+        "house",
+        "isMaxPrecision",
+        "location",
+        "street",
+        "title"
+      ]
+    }
+  },
+  "required": [
+    "content"
+  ]
+}

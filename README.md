@@ -1,4 +1,11 @@
-# Perekrestok API (not official / не официальный)
+# Perekrestok API (not official)
+
+[![Tests](https://github.com/Open-Inflation/perekrestok_api/actions/workflows/check-tests.yml/badge.svg)](https://github.com/Open-Inflation/perekrestok_api/actions/workflows/check-tests.yml)
+[![Coverage](https://img.shields.io/badge/coverage-tested%20daily-brightgreen?logo=pytest&logoColor=white)](https://github.com/Open-Inflation/perekrestok_api/actions/workflows/check-tests.yml)
+![PyPI - Python Version](https://img.shields.io/pypi/pyversions/perekrestok_api)
+[![License](https://img.shields.io/github/license/Open-Inflation/perekrestok_api)](https://github.com/Open-Inflation/perekrestok_api/blob/main/LICENSE)
+[![Discord](https://img.shields.io/discord/792572437292253224?label=Discord&labelColor=%232c2f33&color=%237289da)](https://discord.gg/UnJnGHNbBp)
+[![Telegram](https://img.shields.io/badge/Telegram-24A1DE)](https://t.me/miskler_dev)
 
 Perekrestok (Перекрёсток) - https://www.perekrestok.ru/
 
@@ -32,14 +39,16 @@ async with PerekrestokAPI(
         debug = False, # Включить ли логирование библиотеки
         token_retry_attempts = 3 # Количество попыток авторизации
     ) as Api:
-    geopos = await Api.Geolocation.current()
+    geopos_handler = await Api.Geolocation.current()
+    geopos = geopos_handler.response
     print(f'Текущий город сессии {geopos["content"]["city"]["name"]} ({geopos["content"]["city"]["id"]})')
 
     # Ищем геолокацию города по названию
-    content = await Api.Geolocation.search("нижневартовск")
+    content_handler = await Api.Geolocation.search("нижневартовск")
+    content = content_handler.response
 
     # Ищем магазины в этом городе
-    point_in_city = await Api.Geolocation.Shop.on_map(
+    point_in_city_handler = await Api.Geolocation.Shop.on_map(
         # Мы можем выбрать магазины на карте через геопозицию
         position=ABSTRACT.Geoposition(content['content']['items'][0]['location']['coordinates']),
         # Или через ID населенного пункта (особой разницы нет). Эти параметры не противоречат друг другу.
@@ -55,13 +64,16 @@ async with PerekrestokAPI(
         # Сортировка как "самый ближайший"
         sort=ABSTRACT.GeologicationPointSort.Distance.ASC
     )
+    point_in_city = point_in_city_handler.response
 
     # Выбираем первый (по сути центральный, т.к. сортировка по удалению от конкретной точки)
-    shop = await Api.Geolocation.Selection.shop(point_in_city['content']['items'][0]['id'])
+    shop_handler = await Api.Geolocation.Selection.shop(point_in_city['content']['items'][0]['id'])
+    shop = shop_handler.response
     print(f'Выбран магазин \"{shop["content"]["shop"]["title"]}\", по адресу {shop["content"]["shop"]["address"]}')
 
     # Теперь можем проверить, действительно ли сменили геолокацию
-    geopos = await Api.Geolocation.current()
+    geopos_handler = await Api.Geolocation.current()
+    geopos = geopos_handler.response
 
     print(f'Текущий город сессии {geopos["content"]["city"]["name"]} ({geopos["content"]["city"]["id"]})')
 ```
@@ -78,7 +90,8 @@ async with PerekrestokAPI(
 ```py
 async with PerekrestokAPI() as Api:
     # Получение дерева категорий каталога
-    tree = await Api.Catalog.tree()
+    tree_handler = await Api.Catalog.tree()
+    tree = tree_handler.response
 
     # Список для хранения всех обработанных товаров
     products = []
@@ -99,7 +112,8 @@ async with PerekrestokAPI() as Api:
             feed_filter.CATEGORY_ID = category["id"]
 
             # Запрашиваем товары из текущей категории
-            catalog = await Api.Catalog.feed(filter=feed_filter)
+            catalog_handler = await Api.Catalog.feed(filter=feed_filter)
+            catalog = catalog_handler.response
             page = 1
 
             # Цикл обработки всех страниц товаров в категории
@@ -112,7 +126,8 @@ async with PerekrestokAPI() as Api:
                 # Переход к следующей странице или завершение обработки
                 if catalog['content']['paginator']['nextPageExists']:
                     page += 1
-                    catalog = await Api.Catalog.feed(filter=feed_filter, page=page)
+                    catalog_handler = await Api.Catalog.feed(filter=feed_filter, page=page)
+                    catalog = catalog_handler.response
                 else:
                     page = -1
 

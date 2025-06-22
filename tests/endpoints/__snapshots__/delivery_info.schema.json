@@ -1,0 +1,76 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "type": "object",
+  "properties": {
+    "content": {
+      "type": "object",
+      "properties": {
+        "available": {
+          "type": "boolean"
+        },
+        "state": {
+          "type": "null"
+        },
+        "hasAvailableDeliveryInterval": {
+          "type": "boolean"
+        },
+        "delay": {
+          "type": "null"
+        },
+        "deliveryRange": {
+          "type": "null"
+        },
+        "day": {
+          "type": "null"
+        },
+        "minDeliveryCost": {
+          "type": "null"
+        },
+        "orderCostForFreeDelivery": {
+          "type": "null"
+        },
+        "orderOperationTime": {
+          "type": "null"
+        },
+        "deliveryConditions": {
+          "type": "null"
+        },
+        "minCost": {
+          "type": "null"
+        },
+        "maxCost": {
+          "type": "null"
+        },
+        "cost": {
+          "type": "null"
+        },
+        "surge": {
+          "type": "boolean"
+        },
+        "surgeDescription": {
+          "type": "null"
+        }
+      },
+      "required": [
+        "available",
+        "cost",
+        "day",
+        "delay",
+        "deliveryConditions",
+        "deliveryRange",
+        "hasAvailableDeliveryInterval",
+        "maxCost",
+        "minCost",
+        "minDeliveryCost",
+        "orderCostForFreeDelivery",
+        "orderOperationTime",
+        "state",
+        "surge",
+        "surgeDescription"
+      ]
+    }
+  },
+  "required": [
+    "content"
+  ]
+}

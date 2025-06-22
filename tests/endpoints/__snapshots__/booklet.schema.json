@@ -1,0 +1,94 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "type": "object",
+  "properties": {
+    "content": {
+      "type": "object",
+      "properties": {
+        "items": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "properties": {
+              "id": {
+                "type": "integer"
+              },
+              "title": {
+                "type": "string"
+              },
+              "activeAtFrom": {
+                "type": "integer"
+              },
+              "activeAtTo": {
+                "type": "integer"
+              },
+              "image": {
+                "type": "object",
+                "properties": {
+                  "id": {
+                    "type": "integer"
+                  },
+                  "originName": {
+                    "type": "string"
+                  },
+                  "fileType": {
+                    "type": "string"
+                  },
+                  "fileSize": {
+                    "type": "integer"
+                  },
+                  "width": {
+                    "type": "integer"
+                  },
+                  "height": {
+                    "type": "integer"
+                  },
+                  "cropUrlTemplate": {
+                    "type": "string",
+                    "format": "uri"
+                  },
+                  "publicUrl": {
+                    "type": "null"
+                  },
+                  "uuid": {
+                    "type": "string",
+                    "format": "uuid"
+                  }
+                },
+                "required": [
+                  "cropUrlTemplate",
+                  "fileSize",
+                  "fileType",
+                  "height",
+                  "id",
+                  "originName",
+                  "publicUrl",
+                  "uuid",
+                  "width"
+                ]
+              },
+              "externalLink": {
+                "type": "string",
+                "format": "uri"
+              }
+            },
+            "required": [
+              "activeAtFrom",
+              "activeAtTo",
+              "externalLink",
+              "id",
+              "image",
+              "title"
+            ]
+          }
+        }
+      },
+      "required": [
+        "items"
+      ]
+    }
+  },
+  "required": [
+    "content"
+  ]
+}
