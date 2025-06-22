@@ -18,10 +18,6 @@ from .endpoints.catalog import ClassCatalog
 from .endpoints.general import ClassGeneral
 from .endpoints.geolocation import ClassGeolocation
 
-__all__ = [
-    "PerekrestokAPI",
-]
-
 # ---------------------------------------------------------------------------
 # Константы
 # ---------------------------------------------------------------------------
@@ -37,7 +33,7 @@ class PerekrestokAPI:
         self,
         *,
         access_token: str | None = None,
-        timeout: float = 10.0,
+        timeout: float = 15.0,
         browser: str = "firefox",
         headless: bool = True,
         **browser_opts,

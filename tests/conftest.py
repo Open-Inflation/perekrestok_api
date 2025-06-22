@@ -10,16 +10,21 @@ def is_not_error(response: Any) -> None:
     """Check that response doesn't contain an error."""
     time.sleep(0.1)
 
-    try:
-        content = response.json()
-    except JSONDecodeError:
-        raise ValueError("\n".join([
-            "Response is not valid JSON.",
+    def render_error(response: Response) -> list[str]:
+        return [
             f"URL: {response.url}",
             f"HTTP Method: {response.request.method}",
             f"Status: {response.status_code}",
             f"Content-Type: {response.headers.get('Content-Type', 'unknown')}",
             response.text[:500]  # Show first 500 characters of the response text
+        ]
+
+    try:
+        content = response.json()
+    except JSONDecodeError:
+        raise ValueError("\n".join([
+            "Response is not valid JSON.",
+            *render_error(response)
         ]))
     except Exception as e:
         raise e
@@ -27,9 +32,7 @@ def is_not_error(response: Any) -> None:
     if isinstance(response, Response) and "error" in content:
         raise AssertionError("\n".join([
             f"API returned error: {content['error']['code']}",
-            f"URL: {response.url}",
-            f"HTTP Method: {response.request.method}",
-            f"Status: {response.status_code}"
+            *render_error(response)
         ]))
 
 
