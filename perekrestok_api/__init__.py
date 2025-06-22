@@ -9,5 +9,5 @@ class ABSTRACT:
     QualifierFeatureKey = QualifierFeatureKey
     CatalogFeedFilter = CatalogFeedFilter
     CatalogFeedSort = CatalogFeedSort
-    GeologicationPointSort = GeologicationPointSort
+    GeolocationPointSort = GeolocationPointSort
     Geoposition = Geoposition

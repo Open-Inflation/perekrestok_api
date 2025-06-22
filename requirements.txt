@@ -1,4 +1,7 @@
-standard_open_inflation_package
+hrequests
+requests
+
 pytest
-pytest-asyncio
 pytest-typed-schema-shot
+coverage
+coverage-badge

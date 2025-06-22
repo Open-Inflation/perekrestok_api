@@ -1,0 +1,79 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "type": "object",
+  "properties": {
+    "content": {
+      "type": "object",
+      "properties": {
+        "isDeliveryAvailable": {
+          "type": "boolean"
+        },
+        "isPickupAvailable": {
+          "type": "boolean"
+        },
+        "city": {
+          "type": "object",
+          "properties": {
+            "id": {
+              "type": "integer"
+            },
+            "name": {
+              "type": "string"
+            },
+            "slug": {
+              "type": "string"
+            },
+            "location": {
+              "type": "object",
+              "properties": {
+                "type": {
+                  "type": "string"
+                },
+                "coordinates": {
+                  "type": "array",
+                  "items": {
+                    "type": "number"
+                  }
+                }
+              },
+              "required": [
+                "coordinates",
+                "type"
+              ]
+            },
+            "area": {
+              "type": "null"
+            },
+            "isPrimary": {
+              "type": "boolean"
+            },
+            "key": {
+              "type": "string"
+            }
+          },
+          "required": [
+            "area",
+            "id",
+            "isPrimary",
+            "key",
+            "location",
+            "name",
+            "slug"
+          ]
+        },
+        "isChosen": {
+          "type": "boolean"
+        }
+      },
+      "required": [
+        "city",
+        "isChosen",
+        "isDeliveryAvailable",
+        "isPickupAvailable"
+      ]
+    }
+  },
+  "required": [
+    "content"
+  ]
+}

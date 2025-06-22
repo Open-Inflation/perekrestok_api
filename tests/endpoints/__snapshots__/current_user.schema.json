@@ -1,0 +1,73 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "type": "object",
+  "properties": {
+    "content": {
+      "type": "object",
+      "properties": {
+        "uuid": {
+          "type": "string",
+          "format": "uuid"
+        },
+        "x5id": {
+          "type": "null"
+        },
+        "isAnonymous": {
+          "type": "boolean"
+        },
+        "phone": {
+          "type": "null"
+        },
+        "deliveryMode": {
+          "type": "null"
+        },
+        "updatedAt": {
+          "type": "integer"
+        },
+        "justSignedUp": {
+          "type": "boolean"
+        },
+        "isProfileFilled": {
+          "type": "boolean"
+        },
+        "x5PacketSubscription": {
+          "type": "object",
+          "properties": {
+            "status": {
+              "type": "integer"
+            },
+            "aboutUrl": {
+              "type": "null"
+            }
+          },
+          "required": [
+            "aboutUrl",
+            "status"
+          ]
+        },
+        "offlineShop": {
+          "type": "null"
+        },
+        "analyticsInfo": {
+          "type": "array"
+        }
+      },
+      "required": [
+        "analyticsInfo",
+        "deliveryMode",
+        "isAnonymous",
+        "isProfileFilled",
+        "justSignedUp",
+        "offlineShop",
+        "phone",
+        "updatedAt",
+        "uuid",
+        "x5PacketSubscription",
+        "x5id"
+      ]
+    }
+  },
+  "required": [
+    "content"
+  ]
+}

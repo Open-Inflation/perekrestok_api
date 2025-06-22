@@ -75,6 +75,15 @@ class QualifierFeatureKey:
     CHECKOUT_PROMO = "checkout_promo"
     """Промоакции на этапе оформления заказа"""
 
+    NEW_GENERAL_CHAT = "new_general_chat"
+    """Новый общий чат"""
+
+    PHOTO_REVIEW = "photo_review"
+    """Фотоотзыв о продукте"""
+
+    PREORDER_X5D = "preorder_x5d"
+    """Предпросмотр заказа X5D"""
+
     class EPL:
         """Ключи функционала EPL"""
 
@@ -92,6 +101,9 @@ class QualifierFeatureKey:
 
         ORANGE_CASHBACK = "orange_cashback_epl"
         """Оранжевый кэшбэк EPL"""
+
+        DISCOUNT_DETAILS = "discount_details_epl"
+        """Детали скидки EPL"""
 
         VIP_DETAILS = "vip_details_epl"
         """Детали VIP EPL"""
@@ -119,6 +131,26 @@ class QualifierFeatureKey:
 
         DISABLE_CHECKOUT = "emergency_disable_checkout"
         """Отключение оформления заказа"""
+    
+    @staticmethod
+    def get_all():
+        """Собирает все значения из QualifierFeatureKey"""
+        keys = []
+        
+        # Основные ключи
+        for attr_name, attr_value in QualifierFeatureKey.__dict__.items():
+            if not attr_name.startswith('_') and isinstance(attr_value, str):
+                keys.append(attr_value)
+        
+        # Ключи из вложенных классов
+        for attr_name, attr_value in QualifierFeatureKey.__dict__.items():
+            if isinstance(attr_value, type):  # Это класс
+                for nested_attr_name, nested_attr_value in attr_value.__dict__.items():
+                    if not nested_attr_name.startswith('_') and isinstance(nested_attr_value, str):
+                        keys.append(nested_attr_value)
+        
+        return keys
+
 
 class CatalogFeedFilter:
     """Фильтры каталога с параметрами"""
@@ -287,7 +319,7 @@ class CatalogFeedSort():
     Rating = _SortOption("rating")
     Recommended = _SortOption("popularity_without_manual")
 
-class GeologicationPointSort:
+class GeolocationPointSort:
     Distance = _SortOption("distance")
 
 class Geoposition:
