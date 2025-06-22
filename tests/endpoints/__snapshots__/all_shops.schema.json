@@ -1,0 +1,101 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "type": "object",
+  "properties": {
+    "content": {
+      "type": "object",
+      "properties": {
+        "items": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "properties": {
+              "id": {
+                "type": "integer"
+              },
+              "location": {
+                "type": "object",
+                "properties": {
+                  "type": {
+                    "type": "string"
+                  },
+                  "coordinates": {
+                    "type": "array",
+                    "items": {
+                      "type": "number"
+                    }
+                  }
+                },
+                "required": [
+                  "coordinates",
+                  "type"
+                ]
+              },
+              "withCafe": {
+                "type": "boolean"
+              },
+              "isDeliveryAvailable": {
+                "type": "boolean"
+              },
+              "isCatalogAvailable": {
+                "type": "boolean"
+              },
+              "isPickupAvailable": {
+                "type": "boolean"
+              },
+              "electronicReceipt": {
+                "type": "boolean"
+              },
+              "features": {
+                "type": "array",
+                "items": {
+                  "type": "object",
+                  "properties": {
+                    "id": {
+                      "type": "integer"
+                    },
+                    "key": {
+                      "type": "string"
+                    },
+                    "title": {
+                      "type": "string"
+                    },
+                    "description": {
+                      "type": "null"
+                    },
+                    "showOnPublicMap": {
+                      "type": "boolean"
+                    }
+                  },
+                  "required": [
+                    "description",
+                    "id",
+                    "key",
+                    "showOnPublicMap",
+                    "title"
+                  ]
+                }
+              }
+            },
+            "required": [
+              "electronicReceipt",
+              "features",
+              "id",
+              "isCatalogAvailable",
+              "isDeliveryAvailable",
+              "isPickupAvailable",
+              "location",
+              "withCafe"
+            ]
+          }
+        }
+      },
+      "required": [
+        "items"
+      ]
+    }
+  },
+  "required": [
+    "content"
+  ]
+}

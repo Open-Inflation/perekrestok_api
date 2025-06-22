@@ -8,17 +8,25 @@ class ClassGeolocation:
         self._shop_service = ShopService(parent=self._parent, CATALOG_URL=CATALOG_URL)
         self.CATALOG_URL = CATALOG_URL
 
-    async def current(self):
+    def current(self):
         url = f"{self.CATALOG_URL}/geo/city/current"
-        return await self._parent._request("GET", url)
+        return self._parent._request("GET", url)
 
-    async def delivery_address(self):
+    def delivery_address(self):
         url = f"{self.CATALOG_URL}/delivery/address"
-        return await self._parent._request("GET", url)
+        return self._parent._request("GET", url)
 
-    async def search(self, search: str, limit: int = 40):
+    def address_from_position(self, position: ABSTRACT.Geoposition):
+        url = f"{self.CATALOG_URL}/geocoder/reverse?lat={position.latitude}&lng={position.longitude}"
+        return self._parent._request("GET", url)
+
+    def suggests(self, search: str):
+        url = f"{self.CATALOG_URL}/geocoder/suggests?search={search}"
+        return self._parent._request("GET", url)
+
+    def search(self, search: str, limit: int = 40):
         url = f"{self.CATALOG_URL}/geo/city?search={search}&limit={limit}"
-        return await self._parent._request("GET", url)
+        return self._parent._request("GET", url)
 
     @property
     def Selection(self):
@@ -33,15 +41,15 @@ class ShopService:
         self._parent = parent
         self.CATALOG_URL = CATALOG_URL
 
-    async def all(self):
+    def all(self):
         url = f"{self.CATALOG_URL}/shop/points"
-        return await self._parent._request("GET", url)
+        return self._parent._request("GET", url)
 
-    async def info(self, shop_id: int):
+    def info(self, shop_id: int):
         url = f"{self.CATALOG_URL}/shop/{shop_id}"
-        return await self._parent._request("GET", url)
+        return self._parent._request("GET", url)
 
-    async def on_map(
+    def on_map(
         self,
         position: ABSTRACT.Geoposition | None = None,
         page: int = 1,
@@ -57,11 +65,11 @@ class ShopService:
             url += f"&lat={position.latitude}&lng={position.longitude}"
         if features:
             url += "&" + "&".join([f"features[]={f}" for f in features])
-        return await self._parent._request("GET", url)
+        return self._parent._request("GET", url)
 
-    async def features(self):
+    def features(self):
         url = f"{self.CATALOG_URL}/shop/features"
-        return await self._parent._request("GET", url)
+        return self._parent._request("GET", url)
 
 
 class GeolocationSelection:
@@ -69,11 +77,11 @@ class GeolocationSelection:
         self._parent = parent
         self.CATALOG_URL = CATALOG_URL
 
-    async def shop(self, shop_id: int):
+    def shop_point(self, shop_id: int):
         url = f"{self.CATALOG_URL}/delivery/mode/pickup/{shop_id}"
-        return await self._parent._request("PUT", url)
+        return self._parent._request("PUT", url)
 
-    async def delivery_point(self, position: ABSTRACT.Geoposition):
+    def delivery_point(self, position: ABSTRACT.Geoposition):
         url = f"{self.CATALOG_URL}/delivery/mode/courier"
         body = {
             "apartment": None,
@@ -82,4 +90,8 @@ class GeolocationSelection:
                 "type": "Point",
             },
         }
-        return await self._parent._request("POST", url, json_body=body)
+        return self._parent._request("POST", url, json_body=body)
+
+    def delivery_info(self, position: ABSTRACT.Geoposition):
+        url = f"{self.CATALOG_URL}/delivery/info?lat={position.latitude}&lng={position.longitude}"
+        return self._parent._request("GET", url)

@@ -29,7 +29,8 @@ classifiers = [
     "Topic :: Utilities",
 ]
 dependencies = [
-    "hrequests"
+    "hrequests",
+    "requests",
 ]
 
 [project.optional-dependencies]
@@ -51,3 +52,6 @@ version = { attr = "perekrestok_api.__version__" }
 pythonpath = ["."]
 testpaths = ["tests"]
 python_files = ["*_test.py", "*_tests.py"]
+asyncio_mode = "auto"
+asyncio_default_fixture_loop_scope = "session"
+addopts = "-v --tb=short --disable-warnings"

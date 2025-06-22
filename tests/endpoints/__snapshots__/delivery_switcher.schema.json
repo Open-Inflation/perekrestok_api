@@ -1,0 +1,162 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "type": "object",
+  "properties": {
+    "content": {
+      "type": "object",
+      "properties": {
+        "tabs": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "properties": {
+              "type": {
+                "type": "string"
+              },
+              "title": {
+                "type": "string"
+              },
+              "subTitle": {
+                "type": [
+                  "null",
+                  "string"
+                ]
+              },
+              "description": {
+                "type": "string"
+              },
+              "cost": {
+                "type": [
+                  "integer",
+                  "null"
+                ]
+              },
+              "minCost": {
+                "type": "null"
+              },
+              "maxCost": {
+                "type": "null"
+              },
+              "surge": {
+                "type": "boolean"
+              },
+              "surgeDescription": {
+                "type": "null"
+              },
+              "url": {
+                "type": "null"
+              }
+            },
+            "required": [
+              "cost",
+              "description",
+              "maxCost",
+              "minCost",
+              "subTitle",
+              "surge",
+              "surgeDescription",
+              "title",
+              "type",
+              "url"
+            ]
+          }
+        },
+        "congestion": {
+          "type": "null"
+        },
+        "deliveryInfo": {
+          "type": "object",
+          "properties": {
+            "title": {
+              "type": "string"
+            },
+            "image": {
+              "type": "object",
+              "properties": {
+                "id": {
+                  "type": "integer"
+                },
+                "originName": {
+                  "type": "string"
+                },
+                "fileType": {
+                  "type": "string"
+                },
+                "fileSize": {
+                  "type": "integer"
+                },
+                "width": {
+                  "type": "integer"
+                },
+                "height": {
+                  "type": "integer"
+                },
+                "cropUrlTemplate": {
+                  "type": "string",
+                  "format": "uri"
+                },
+                "publicUrl": {
+                  "type": "null"
+                },
+                "uuid": {
+                  "type": "string",
+                  "format": "uuid"
+                }
+              },
+              "required": [
+                "cropUrlTemplate",
+                "fileSize",
+                "fileType",
+                "height",
+                "id",
+                "originName",
+                "publicUrl",
+                "uuid",
+                "width"
+              ]
+            },
+            "delayTime": {
+              "type": "null"
+            },
+            "deliveryRange": {
+              "type": "null"
+            },
+            "deliveryConditions": {
+              "type": "array",
+              "items": {
+                "type": "object",
+                "properties": {
+                  "title": {
+                    "type": "string"
+                  },
+                  "subtitle": {
+                    "type": "string"
+                  }
+                },
+                "required": [
+                  "subtitle",
+                  "title"
+                ]
+              }
+            }
+          },
+          "required": [
+            "delayTime",
+            "deliveryConditions",
+            "deliveryRange",
+            "image",
+            "title"
+          ]
+        }
+      },
+      "required": [
+        "congestion",
+        "deliveryInfo",
+        "tabs"
+      ]
+    }
+  },
+  "required": [
+    "content"
+  ]
+}

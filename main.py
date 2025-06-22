@@ -4,18 +4,24 @@ from pprint import pprint
 import asyncio
 
 
-async def main():
-    async with PerekrestokAPI(headless=False, timeout=10.0) as Api:
+from perekrestok_api import PerekrestokAPI, ABSTRACT
+import tqdm
+from pprint import pprint
+import time
+
+
+def main():
+    with PerekrestokAPI(headless=False, timeout=10.0) as Api:
 
         feed_filter = ABSTRACT.CatalogFeedFilter()
         feed_filter.PROMO_LISTING = 2
 #        feed_filter.CATEGORY_ID = 1558
 
         # Запрашиваем товары из текущей категории
-        catalog_handler = await Api.Catalog.feed(filter=feed_filter)
+        catalog_handler = Api.Catalog.feed(filter=feed_filter)
         pprint(Api.session)
         print("Catalog Feed:", catalog_handler)
-        await asyncio.sleep(5)
+        time.sleep(5)
 
         return
 
@@ -23,7 +29,7 @@ async def main():
 
 
         # Получение дерева категорий каталога
-        tree_handler = await Api.Catalog.tree()
+        tree_handler = Api.Catalog.tree()
         if isinstance(tree_handler, HandlerSearchFailed):
             for resp in tree_handler.rejected_responses:
                 print(f"{resp.status} | {len(resp.request_headers)} | {len(resp.response_headers)}")
@@ -97,5 +103,4 @@ async def main():
         print(f'Среднее количество повторений карточки: {round(len(products) / len(set(products)), 2)}')
 
 if __name__ == "__main__":
-    import asyncio
-    asyncio.run(main())
+    main()

@@ -1,0 +1,114 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "type": "object",
+  "properties": {
+    "content": {
+      "type": "object",
+      "properties": {
+        "items": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "properties": {
+              "id": {
+                "type": "integer"
+              },
+              "title": {
+                "type": "string"
+              },
+              "sort": {
+                "type": "integer"
+              },
+              "pageUrls": {
+                "type": "array",
+                "items": {
+                  "type": "string"
+                }
+              },
+              "blocks": {
+                "type": "array",
+                "items": {
+                  "type": "object",
+                  "properties": {
+                    "id": {
+                      "type": "integer"
+                    },
+                    "sort": {
+                      "type": "integer"
+                    },
+                    "type": {
+                      "type": "string"
+                    },
+                    "required": {
+                      "type": "boolean"
+                    },
+                    "question": {
+                      "type": "string"
+                    },
+                    "payload": {
+                      "type": "object"
+                    },
+                    "settings": {
+                      "type": "object",
+                      "properties": {
+                        "role": {
+                          "type": [
+                            "null",
+                            "string"
+                          ]
+                        },
+                        "rules": {
+                          "type": "object",
+                          "properties": {
+                            "validationExp": {
+                              "type": "null"
+                            },
+                            "validationText": {
+                              "type": "null"
+                            }
+                          },
+                          "required": [
+                            "validationExp",
+                            "validationText"
+                          ]
+                        },
+                        "placeholder": {
+                          "type": [
+                            "null",
+                            "string"
+                          ]
+                        }
+                      }
+                    }
+                  },
+                  "required": [
+                    "id",
+                    "payload",
+                    "question",
+                    "required",
+                    "settings",
+                    "sort",
+                    "type"
+                  ]
+                }
+              }
+            },
+            "required": [
+              "blocks",
+              "id",
+              "pageUrls",
+              "sort",
+              "title"
+            ]
+          }
+        }
+      },
+      "required": [
+        "items"
+      ]
+    }
+  },
+  "required": [
+    "content"
+  ]
+}

@@ -6,11 +6,11 @@ class ClassCatalog:
         self._parent = parent
         self.CATALOG_URL = CATALOG_URL
 
-    async def promo_listings_by_id(self, ids: list[int]):
-        url = f"{self.CATALOG_URL}/catalog/promo/listings/by-id{'&'.join([f'ids[]={id}' for id in ids])}"
-        return await self._parent._request("GET", url)
+    def promo_listings_by_id(self, ids: list[int]):
+        url = f"{self.CATALOG_URL}/catalog/promo/listings/by-id?{'&'.join([f'ids[]={id}' for id in ids])}"
+        return self._parent._request("GET", url)
 
-    async def feed(
+    def feed(
         self,
         filter: ABSTRACT.CatalogFeedFilter,
         sort: ABSTRACT.CatalogFeedSort = ABSTRACT.CatalogFeedSort.Popularity.ASC,
@@ -26,9 +26,9 @@ class ClassCatalog:
             "withBestProductReviews": with_best_reviews_only,
         }
         body.update(sort)
-        return await self._parent._request("POST", url, json_body=body)
+        return self._parent._request("POST", url, json_body=body)
 
-    async def product(self, product_id: int | str):
+    def product(self, product_id: int | str):
         if isinstance(product_id, int) or isinstance(product_id, str):
             if not isinstance(product_id, str) or not product_id.startswith("plu"):
                 product_id = f"plu{product_id}"
@@ -37,9 +37,9 @@ class ClassCatalog:
         if not str(product_id).removeprefix("plu").isdigit():
             raise ValueError("ID товара должен быть int или str структуры pluXXX.")
         url = f"{self.CATALOG_URL}/catalog/product/{product_id}"
-        return await self._parent._request("GET", url)
+        return self._parent._request("GET", url)
 
-    async def form(
+    def form(
         self,
         filter: ABSTRACT.CatalogFeedFilter,
         disable_bubble_up: bool = False,
@@ -51,8 +51,8 @@ class ClassCatalog:
             "disableBubbleUp": disable_bubble_up,
             "sortByAlpha": sort_by_alpha,
         }
-        return await self._parent._request("POST", url, json_body=body)
+        return self._parent._request("POST", url, json_body=body)
 
-    async def tree(self):
+    def tree(self):
         url = f"{self.CATALOG_URL}/catalog/tree"
-        return await self._parent._request("POST", url)
+        return self._parent._request("POST", url)

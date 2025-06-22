@@ -6,12 +6,12 @@
 """
 from __future__ import annotations
 
-import asyncio
 import json
 import urllib.parse
-from typing import Any, Dict
+from typing import Any
 
 import hrequests
+from requests import Request
 
 from .endpoints.advertising import ClassAdvertising
 from .endpoints.catalog import ClassCatalog
@@ -58,11 +58,11 @@ class PerekrestokAPI:
         self.Advertising = ClassAdvertising(self, CATALOG_URL)
         self.General = ClassGeneral(self, CATALOG_URL)
 
-    async def __aenter__(self):
-        await self._warmup()
+    def __enter__(self):
+        self._warmup()
         return self
 
-    async def __aexit__(self, *exc):
+    def __exit__(self, *exc):
         self.close()
 
     def close(self):
@@ -92,8 +92,8 @@ class PerekrestokAPI:
             })
 
     # Прогрев сессии (headless ➜ cookie `session` ➜ accessToken)
-    async def _warmup(self) -> None:
-        def _sync() -> None:
+    def _warmup(self) -> None:
+        if self.access_token is None:
             with hrequests.BrowserSession(
                 session=self.session,
                 browser=self._browser,
@@ -110,27 +110,24 @@ class PerekrestokAPI:
             clean = json.loads(raw.removeprefix("j:"))
             self.access_token = clean['accessToken']
 
-        if self.access_token is None:
-            await asyncio.to_thread(_sync)
-
-    async def _request(
+    def _request(
         self,
         method: str,
         url: str,
         *,
         json_body: Any | None = None,
-    ) -> dict | list | str | bytes:
-        def _sync_request():
-            resp = self.session.request(method.upper(), url, json=json_body, timeout=self._timeout)
-            return resp
-
-        resp = await asyncio.to_thread(_sync_request)
-
-        # best‑effort decode
-        try:
-            return resp.json()
-        except ValueError:
-            try:
-                return resp.text
-            except Exception:  # noqa: BLE001 – fallback
-                return resp.content
+    ) -> hrequests.Response:
+        # Единая точка входа в чужую библиотеку для удобства
+        resp = self.session.request(method.upper(), url, json=json_body, timeout=self._timeout)
+        if hasattr(resp, "request"):
+            raise RuntimeError(
+                "Response object does have `request` attribute. "
+                "This may indicate an update in `hrequests` library."
+            )
+        
+        resp.request = Request(
+            method=method.upper(),
+            url=url,
+            json=json_body,
+        )
+        return resp

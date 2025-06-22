@@ -1,0 +1,100 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "type": "object",
+  "properties": {
+    "content": {
+      "type": "object",
+      "properties": {
+        "mode": {
+          "type": "string"
+        },
+        "shop": {
+          "type": "null"
+        },
+        "address": {
+          "type": "object",
+          "properties": {
+            "uuid": {
+              "type": "string",
+              "format": "uuid"
+            },
+            "title": {
+              "type": "string"
+            },
+            "fullAddress": {
+              "type": "string"
+            },
+            "apartment": {
+              "type": "null"
+            },
+            "entrance": {
+              "type": "null"
+            },
+            "floor": {
+              "type": "null"
+            },
+            "intercom": {
+              "type": "null"
+            },
+            "comment": {
+              "type": "null"
+            },
+            "isCurrent": {
+              "type": "boolean"
+            },
+            "location": {
+              "type": "object",
+              "properties": {
+                "type": {
+                  "type": "string"
+                },
+                "coordinates": {
+                  "type": "array",
+                  "items": {
+                    "type": "number"
+                  }
+                }
+              },
+              "required": [
+                "coordinates",
+                "type"
+              ]
+            },
+            "subtitle": {
+              "type": "null"
+            },
+            "dontRingDoorbell": {
+              "type": "boolean"
+            },
+            "contactlessDelivery": {
+              "type": "boolean"
+            }
+          },
+          "required": [
+            "apartment",
+            "comment",
+            "contactlessDelivery",
+            "dontRingDoorbell",
+            "entrance",
+            "floor",
+            "fullAddress",
+            "intercom",
+            "isCurrent",
+            "location",
+            "subtitle",
+            "title",
+            "uuid"
+          ]
+        }
+      },
+      "required": [
+        "address",
+        "mode",
+        "shop"
+      ]
+    }
+  },
+  "required": [
+    "content"
+  ]
+}

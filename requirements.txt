@@ -1,5 +1,5 @@
 hrequests
-pytest
-pytest-asyncio
-pytest-typed-schema-shot
+requests
 
+pytest
+pytest-typed-schema-shot

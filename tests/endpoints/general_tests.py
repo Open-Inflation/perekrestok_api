@@ -1,0 +1,40 @@
+# test_general.py
+import pytest
+from io import BytesIO
+from typed_schema_shot import SchemaShot
+from perekrestok_api import PerekrestokAPI
+from conftest import is_not_error
+
+
+def test_qualifier(api: PerekrestokAPI, schemashot: SchemaShot):
+    resp = api.General.qualifier()
+    is_not_error(resp)
+    schemashot.assert_match(resp.json(), "qualifier")
+
+
+def test_feedback_form(api: PerekrestokAPI, schemashot: SchemaShot):
+    resp = api.General.feedback_form()
+    is_not_error(resp)
+    schemashot.assert_match(resp.json(), "feedback_form")
+
+
+def test_delivery_switcher(api: PerekrestokAPI, schemashot: SchemaShot):
+    resp = api.General.delivery_switcher()
+    is_not_error(resp)
+    schemashot.assert_match(resp.json(), "delivery_switcher")
+
+
+def test_current_user(api: PerekrestokAPI, schemashot: SchemaShot):
+    resp = api.General.current_user()
+    is_not_error(resp)
+    schemashot.assert_match(resp.json(), "current_user")
+
+
+def test_download_image(api: PerekrestokAPI, schemashot: SchemaShot):
+    image_url = "https://cdn-img.perekrestok.ru/i/400x400-fit/xdelivery/files/ae/2a/4f39b2a249768b268ed9f325c155.png"
+    image_resp = api.General.download_image(image_url)
+    image_data = image_resp.content
+
+    assert isinstance(image_data, bytes)
+    assert len(image_data) > 0
+    assert image_data[:8] == b'\x89PNG\r\n\x1a\n'
