@@ -1,4 +1,4 @@
-hrequests
+hrequests[all]
 requests
 
 pytest

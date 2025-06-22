@@ -28,13 +28,9 @@ jobs:
           python -m pip install --upgrade pip
           pip install -r requirements.txt
 
-      - name: Install Firefox Dependencies
+      - name: Install HRequests Dependencies
         run: |
-          sudo apt update
-          sudo apt install -y libgtk-3-0 libx11-xcb1
-
-      - name: Fetch browsers via Camoufox
-        run: camoufox fetch
+          python -m hrequests install
 
       - name: Run Tests
         run: coverage run -m pytest -vvv --junit-xml=test-results.xml # --disable-warnings  # Без --snapshot-update
