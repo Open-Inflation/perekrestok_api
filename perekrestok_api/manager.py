@@ -12,11 +12,8 @@ from typing import Any
 
 import hrequests
 from requests import Request
-
-from .endpoints.advertising import ClassAdvertising
-from .endpoints.catalog import ClassCatalog
-from .endpoints.general import ClassGeneral
-from .endpoints.geolocation import ClassGeolocation
+from dataclasses import dataclass, field
+import os
 
 # ---------------------------------------------------------------------------
 # Константы
@@ -24,35 +21,43 @@ from .endpoints.geolocation import ClassGeolocation
 CATALOG_VERSION = "1.4.1.0"
 MAIN_SITE_URL = "https://www.perekrestok.ru"
 CATALOG_URL = f"{MAIN_SITE_URL}/api/customer/{CATALOG_VERSION}"
-
 # ---------------------------------------------------------------------------
 # Главный клиент
 # ---------------------------------------------------------------------------
+def _pick_https_proxy() -> str | None:
+    """Возвращает прокси из HTTPS_PROXY/https_proxy (если заданы)."""
+    return os.getenv("HTTPS_PROXY") or os.getenv("https_proxy")
+
+@dataclass
 class PerekrestokAPI:
-    def __init__(
-        self,
-        *,
-        access_token: str | None = None,
-        timeout: float = 15.0,
-        browser: str = "firefox",
-        headless: bool = True,
-        **browser_opts,
-    ) -> None:
-        self._timeout = timeout
-        self._browser = browser
-        self._headless = headless
-        self._browser_opts = browser_opts
+    timeout: float          = 15.0
+    browser: str            = "firefox"
+    headless: bool          = True
+    proxy: str | None       = field(default_factory=_pick_https_proxy)
+    browser_opts: dict[str, Any] = field(default_factory=dict)
 
-        # TLS‑сеанс c JA3 нужного браузера
-        self.session = hrequests.Session(browser, timeout=timeout)
+    # будет создана в __post_init__
+    session: hrequests.Session = field(init=False, repr=False)
 
-        self.access_token = access_token
+    # ───── lifecycle ─────
+    def __post_init__(self) -> None:
+        self.session = hrequests.Session(
+            self.browser,
+            timeout=self.timeout,
+            proxy=self.proxy,         # ← автоподхват из env, если есть
+        )
+        self.access_token = self.access_token  # применит setter
 
-        # Энд‑поинты
+        # энд-поинты
+        from .endpoints.advertising import ClassAdvertising
+        from .endpoints.catalog     import ClassCatalog
+        from .endpoints.general     import ClassGeneral
+        from .endpoints.geolocation import ClassGeolocation
+
         self.Geolocation = ClassGeolocation(self, CATALOG_URL)
-        self.Catalog = ClassCatalog(self, CATALOG_URL)
+        self.Catalog     = ClassCatalog(self, CATALOG_URL)
         self.Advertising = ClassAdvertising(self, CATALOG_URL)
-        self.General = ClassGeneral(self, CATALOG_URL)
+        self.General     = ClassGeneral(self, CATALOG_URL)
 
     def __enter__(self):
         self._warmup()
@@ -92,12 +97,12 @@ class PerekrestokAPI:
         if self.access_token is None:
             with hrequests.BrowserSession(
                 session=self.session,
-                browser=self._browser,
-                headless=self._headless,
-                **self._browser_opts,
+                browser=self.browser,
+                headless=self.headless,
+                **self.browser_opts,
             ) as page:
                 page.goto(MAIN_SITE_URL)
-                page.awaitSelector("#app", timeout=self._timeout)
+                page.awaitSelector("#app", timeout=self.timeout)
 
             if "session" not in self.session.cookies:
                 raise RuntimeError("Cookie 'session' not found after warmup.")
@@ -114,7 +119,7 @@ class PerekrestokAPI:
         json_body: Any | None = None,
     ) -> hrequests.Response:
         # Единая точка входа в чужую библиотеку для удобства
-        resp = self.session.request(method.upper(), url, json=json_body, timeout=self._timeout)
+        resp = self.session.request(method.upper(), url, json=json_body, timeout=self.timeout)
         if hasattr(resp, "request"):
             raise RuntimeError(
                 "Response object does have `request` attribute. "
