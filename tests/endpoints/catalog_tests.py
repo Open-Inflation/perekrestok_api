@@ -97,18 +97,42 @@ class TestCatalogFlow:
 
     @pytest.mark.dependency(depends=["TestCatalogFlow::test_category_catalog_feed"])
     def test_product_info(self, api: PerekrestokAPI, schemashot: SchemaShot, shared_data):
-        resp = api.Catalog.product(shared_data['product_plu'])
+        resp = api.Catalog.Product.info(shared_data['product_plu'])
         is_not_error(resp)
         schemashot.assert_match(resp.json(), "product_info")
 
     @pytest.mark.dependency(depends=["TestCatalogFlow::test_category_catalog_feed"])
     def test_product_similar(self, api: PerekrestokAPI, schemashot: SchemaShot, shared_data):
-        resp = api.Catalog.product_similar(shared_data['product_id'])
+        resp = api.Catalog.Product.similar(shared_data['product_id'])
         is_not_error(resp)
         schemashot.assert_match(resp.json(), "product_similar")
 
-    # Тесты для подкатегорий
+    @pytest.mark.dependency(depends=["TestCatalogFlow::test_category_catalog_feed"])
+    def test_product_categories(self, api: PerekrestokAPI, schemashot: SchemaShot, shared_data):
+        resp = api.Catalog.Product.categories(shared_data['product_plu'])
+        is_not_error(resp)
+        schemashot.assert_match(resp.json(), "product_categories")
+
+    @pytest.mark.dependency(depends=["TestCatalogFlow::test_category_catalog_feed"])
+    def test_available_count(self, api: PerekrestokAPI, schemashot: SchemaShot, shared_data):
+        resp = api.Catalog.Product.available_count(shared_data['product_plu'])
+        is_not_error(resp)
+        schemashot.assert_match(resp.json(), "product_available_count")
+
+    @pytest.mark.dependency(depends=["TestCatalogFlow::test_category_catalog_feed"])
+    def test_product_reviews_count(self, api: PerekrestokAPI, schemashot: SchemaShot, shared_data):
+        resp = api.Catalog.Product.reviews_count(shared_data['product_plu'])
+        is_not_error(resp)
+        schemashot.assert_match(resp.json(), "product_reviews_count")
     
+    @pytest.mark.dependency(depends=["TestCatalogFlow::test_category_catalog_feed"])
+    def test_product_reviews(self, api: PerekrestokAPI, schemashot: SchemaShot, shared_data):
+        resp = api.Catalog.Product.reviews(shared_data['product_plu'])
+        is_not_error(resp)
+        schemashot.assert_match(resp.json(), "product_reviews")
+
+    # Тесты для подкатегорий
+
     @pytest.mark.dependency(depends=["TestCatalogFlow::test_catalog_tree"])
     def test_subcategory_info(self, api: PerekrestokAPI, shared_data, schemashot: SchemaShot):
         resp = api.Catalog.category_info(shared_data['first_subcategory_id'])

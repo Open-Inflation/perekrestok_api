@@ -5,6 +5,7 @@ class ClassCatalog:
     def __init__(self, parent, CATALOG_URL: str):
         self._parent = parent
         self.CATALOG_URL = CATALOG_URL
+        self.Product = ProductService(parent=self._parent, CATALOG_URL=CATALOG_URL)
 
     def category_reviews(self, category_id: int | list[int]):
         """Получить отзывы о товарах в категории или категориях по её ID."""
@@ -71,23 +72,6 @@ class ClassCatalog:
         body.update(sort)
         return self._parent._request("POST", url, json_body=body)
 
-    def product(self, product_plu: int | str):
-        """Получить информацию о товаре по PLU! НЕ ПУТАТЬ С ID ТОВАРА!"""
-        if isinstance(product_plu, int) or isinstance(product_plu, str):
-            if not str(product_plu).startswith("plu"):
-                product_plu = f"plu{product_plu}"
-        else:
-            raise TypeError("ID товара должен быть int или str.")
-        if not str(product_plu).removeprefix("plu").isdigit():
-            raise ValueError("ID товара должен быть int или str структуры pluXXX.")
-        url = f"{self.CATALOG_URL}/catalog/product/{product_plu}"
-        return self._parent._request("GET", url)
-
-    def product_similar(self, product_id: int):
-        """Получить похожие товары по ID! НЕ ПУТАТЬ С PLU!"""
-        url = f"{self.CATALOG_URL}/catalog/product/{product_id}/similar"
-        return self._parent._request("GET", url)
-
     def form(
         self,
         filter: ABSTRACT.CatalogFeedFilter,
@@ -103,10 +87,63 @@ class ClassCatalog:
         return self._parent._request("POST", url, json_body=body)
 
     def tree(self):
+        """Получить дерево категорий каталога."""
         url = f"{self.CATALOG_URL}/catalog/tree"
         return self._parent._request("POST", url)
     
     def category_info(self, category_id: int):
         """Получить информацию о категории по её ID."""
         url = f"{self.CATALOG_URL}/catalog/category/{category_id}/full"
+        return self._parent._request("GET", url)
+
+class ProductService:
+    """Сервис для работы с товарами в каталоге."""
+    def __init__(self, parent, CATALOG_URL: str):
+        self._parent = parent
+        self.CATALOG_URL = CATALOG_URL
+    
+    def _check_plu(self, product_plu: int | str) -> str:
+        """Проверка PLU товара на корректность."""
+        if isinstance(product_plu, int) or isinstance(product_plu, str):
+            if not str(product_plu).startswith("plu"):
+                product_plu = f"plu{product_plu}"
+        else:
+            raise TypeError("ID товара должен быть int или str.")
+        if not str(product_plu).removeprefix("plu").isdigit():
+            raise ValueError("ID товара должен быть int или str структуры pluXXX.")
+        return product_plu
+
+    def info(self, product_plu: int | str):
+        """Получить информацию о товаре по PLU! НЕ ПУТАТЬ С ID ТОВАРА!"""
+        product_plu = self._check_plu(product_plu)
+        url = f"{self.CATALOG_URL}/catalog/product/{product_plu}"
+        return self._parent._request("GET", url)
+
+    def available_count(self, product_plu: int | str):
+        """Получить информацию о количестве товара в магазинах по PLU! НЕ ПУТАТЬ С ID ТОВАРА!"""
+        product_plu = self._check_plu(product_plu)
+        url = f"{self.CATALOG_URL}/catalog/{product_plu}/shop-availability/count"
+        return self._parent._request("GET", url)
+
+    def similar(self, product_id: int):
+        """Получить похожие товары по ID! НЕ ПУТАТЬ С PLU!"""
+        url = f"{self.CATALOG_URL}/catalog/product/{product_id}/similar"
+        return self._parent._request("GET", url)
+    
+    def categories(self, product_plu: int | str):
+        """Получить списка категорий которым относится товар - по PLU! НЕ ПУТАТЬ С ID ТОВАРА!"""
+        product_plu = self._check_plu(product_plu)
+        url = f"{self.CATALOG_URL}/catalog/product/{product_plu}/categories"
+        return self._parent._request("GET", url)
+
+    def reviews_count(self, product_plu: int | str):
+        """Получить количество отзывов о товаре по PLU! НЕ ПУТАТЬ С ID ТОВАРА!"""
+        product_plu = self._check_plu(product_plu)
+        url = f"{self.CATALOG_URL}/catalog/product/{product_plu}/review/count"
+        return self._parent._request("GET", url)
+
+    def reviews(self, product_plu: int | str, page: int = 1, limit: int = 10):
+        """Получить отзывы о товаре по PLU! НЕ ПУТАТЬ С ID ТОВАРА!"""
+        product_plu = self._check_plu(product_plu)
+        url = f"{self.CATALOG_URL}/catalog/product/{product_plu}/review?page={page}&perPage={limit}"
         return self._parent._request("GET", url)
