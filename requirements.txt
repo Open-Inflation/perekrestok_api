@@ -3,3 +3,5 @@ requests
 
 pytest
 pytest-typed-schema-shot
+coverage
+coverage-badge
