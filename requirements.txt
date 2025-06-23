@@ -5,3 +5,7 @@ pytest
 pytest-typed-schema-shot
 coverage
 coverage-badge
+mkdocs
+mkdocstrings[python]
+mkdocs-gen-files
+mkdocs-literate-nav
