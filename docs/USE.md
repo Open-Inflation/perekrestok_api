@@ -2,5 +2,5 @@
 
 ```bash
 pip install -r requirements.txt
-mkdocs build
+sphinx-build -b html docs_src docs
 ```
