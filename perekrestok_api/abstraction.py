@@ -181,17 +181,17 @@ class CatalogFeedFilter:
         """
         filters = {}
         for key, filter_obj in self.__class__.__dict__.items():
-            if isinstance(filter_obj, self._Filter):
+            if isinstance(filter_obj, self.Filter):
                 dict_key = filter_obj.hidden_key if use_hidden_key else key
                 parts = dict_key.split("/")
                 current = filters
 
                 # Исключаем невалидные значения
-                if filter_obj.value == -1 or (isinstance(filter_obj, self._FeaturesFilter) and not filter_obj.value):
+                if filter_obj.value == -1 or (isinstance(filter_obj, self.FeaturesFilter) and not filter_obj.value):
                     continue
 
                 # Обработка FEATURES
-                if isinstance(filter_obj, self._FeaturesFilter):
+                if isinstance(filter_obj, self.FeaturesFilter):
                     current[dict_key] = filter_obj.to_list()
                     continue
 

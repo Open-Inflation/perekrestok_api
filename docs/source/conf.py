@@ -73,21 +73,8 @@ html_theme_options = {
     "repository_url": "https://github.com/Open-Inflation/perekrestok_api",
     "repository_name": "GitHub"
 }
-html_static_path = ['_static']
-
-from perekrestok_api.abstraction import CatalogFeedFilter
-
-def inject_filter_info(app, what, name, obj, options, lines):
-    from perekrestok_api.abstraction import CatalogFeedFilter
-    if isinstance(obj, CatalogFeedFilter.Filter):
-        # если в докстринге уже есть текст — добавляем пустую строку
-        if lines and lines[-1].strip():
-            lines.append("")
-        lines.extend([
-            f":type: {obj.__class__.__name__}",
-            f":value: {obj!r}",
-        ])
+html_static_path = ['static']
 
 def setup(app):
+    ...
     #app.add_css_file("tighten.css")
-    app.connect("autodoc-process-docstring", inject_filter_info)

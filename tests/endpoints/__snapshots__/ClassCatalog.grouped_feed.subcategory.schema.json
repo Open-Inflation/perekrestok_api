@@ -47,26 +47,7 @@
                       "type": "null"
                     },
                     "advToken": {
-                      "anyOf": [
-                        {
-                          "type": "null"
-                        },
-                        {
-                          "type": "object",
-                          "properties": {
-                            "text": {
-                              "type": "string"
-                            },
-                            "token": {
-                              "type": "string"
-                            }
-                          },
-                          "required": [
-                            "text",
-                            "token"
-                          ]
-                        }
-                      ]
+                      "type": "null"
                     },
                     "id": {
                       "type": "integer"

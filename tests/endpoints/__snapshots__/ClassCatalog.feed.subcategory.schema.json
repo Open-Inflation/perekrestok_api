@@ -71,7 +71,10 @@
                     "type": "null"
                   },
                   "activeNds": {
-                    "type": "null"
+                    "type": [
+                      "integer",
+                      "null"
+                    ]
                   }
                 },
                 "required": [
