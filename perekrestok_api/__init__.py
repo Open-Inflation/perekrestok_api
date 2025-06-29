@@ -1,13 +1,11 @@
+"""
+Неофициальная библиотека для работы с API сети магазинов Перекрёсток.
+
+Библиотека позволяет взаимодействовать с каталогом товаров, системой геолокации,
+рекламными материалами и общими сервисами Перекрёстка.
+"""
+# filepath: /home/miskler/Документы/GitHub/perekrestok_api/perekrestok_api/__init__.py
 from .manager import PerekrestokAPI
-from .abstraction import *
 
 __version__ = "0.1.6.1"
-__all__ = ["PerekrestokAPI", "ABSTRACT"]
-
-class ABSTRACT:
-    BannerPlace = BannerPlace
-    QualifierFeatureKey = QualifierFeatureKey
-    CatalogFeedFilter = CatalogFeedFilter
-    CatalogFeedSort = CatalogFeedSort
-    GeolocationPointSort = GeolocationPointSort
-    Geoposition = Geoposition
+__all__ = ["PerekrestokAPI"]

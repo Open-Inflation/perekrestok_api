@@ -1,0 +1,30 @@
+/* компактнее списки атрибутов autodoc */
+dl[class]:not(.option-list):not(.field-list):not(.footnote):not(.glossary):not(.simple) {
+  margin-bottom: 1rem;          /* или 0.5rem */
+}
+
+.toctree-wrapper {
+    display: none;
+}
+
+
+/* TODO REMOVE */
+dt.sig dl {
+  padding-left: 30px;
+}
+
+dt.sig span.n {
+  color: aqua;
+}
+
+dt.sig span.o {
+  margin: 5px;
+}
+
+dt.sig span.sig-paren:last-child {
+  margin-left: -35px;
+}
+
+dt.sig span.default_value span.pre {
+  color: var(--nftt-code-color);
+}

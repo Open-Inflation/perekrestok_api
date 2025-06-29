@@ -1,9 +1,3 @@
-"""core.py — ядро клиента «Перекрёсток»
-=====================================
-Только логика сессии/авторизации и универсальный `_request()`,
-который теперь **возвращает исключительно тело ответа** (dict | list | str | bytes)
-— без обёрток и вспомогательных структур.
-"""
 from __future__ import annotations
 
 import json
@@ -14,6 +8,11 @@ import hrequests
 from requests import Request
 from dataclasses import dataclass, field
 import os
+
+from .endpoints.advertising import ClassAdvertising
+from .endpoints.catalog     import ClassCatalog
+from .endpoints.general     import ClassGeneral
+from .endpoints.geolocation import ClassGeolocation
 
 # ---------------------------------------------------------------------------
 # Константы
@@ -30,6 +29,20 @@ def _pick_https_proxy() -> str | None:
 
 @dataclass
 class PerekrestokAPI:
+    """Клиент Перекрёстка.
+
+    Attributes
+    ----------
+    Geolocation : ClassGeolocation
+        Клиент геолокации.
+    Catalog : ClassCatalog
+        Методы каталога.
+    Advertising : ClassAdvertising
+        Методы рекламы.
+    General : ClassGeneral
+        Общие методы (например, для формы обратной связи).
+    """
+
     timeout: float          = 15.0
     browser: str            = "firefox"
     headless: bool          = True
@@ -48,25 +61,22 @@ class PerekrestokAPI:
         )
         self.access_token = self.access_token  # применит setter
 
-        # энд-поинты
-        from .endpoints.advertising import ClassAdvertising
-        from .endpoints.catalog     import ClassCatalog
-        from .endpoints.general     import ClassGeneral
-        from .endpoints.geolocation import ClassGeolocation
-
         self.Geolocation = ClassGeolocation(self, CATALOG_URL)
         self.Catalog     = ClassCatalog(self, CATALOG_URL)
         self.Advertising = ClassAdvertising(self, CATALOG_URL)
         self.General     = ClassGeneral(self, CATALOG_URL)
 
     def __enter__(self):
+        """Вход в контекстный менеджер с автоматическим прогревом сессии."""
         self._warmup()
         return self
 
     def __exit__(self, *exc):
+        """Выход из контекстного менеджера с закрытием сессии."""
         self.close()
 
     def close(self):
+        """Закрыть HTTP-сессию и освободить ресурсы."""
         self.session.close()
 
     # property setget access_token
@@ -94,6 +104,11 @@ class PerekrestokAPI:
 
     # Прогрев сессии (headless ➜ cookie `session` ➜ accessToken)
     def _warmup(self) -> None:
+        """Прогрев сессии через браузер для получения токена доступа.
+        
+        Открывает главную страницу сайта в headless браузере, получает cookie сессии
+        и извлекает из неё access token для последующих API запросов.
+        """
         if self.access_token is None:
             with hrequests.BrowserSession(
                 session=self.session,
@@ -118,6 +133,16 @@ class PerekrestokAPI:
         *,
         json_body: Any | None = None,
     ) -> hrequests.Response:
+        """Выполнить HTTP-запрос через внутреннюю сессию.
+        
+        Единая точка входа для всех HTTP-запросов библиотеки.
+        Добавляет к ответу объект Request для совместимости.
+        
+        Args:
+            method: HTTP метод (GET, POST, PUT, DELETE и т.д.)
+            url: URL для запроса
+            json_body: Тело запроса в формате JSON (опционально)
+        """
         # Единая точка входа в чужую библиотеку для удобства
         resp = self.session.request(method.upper(), url, json=json_body, timeout=self.timeout)
         if hasattr(resp, "request"):

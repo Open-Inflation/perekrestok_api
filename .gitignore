@@ -146,10 +146,8 @@ venv.bak/
 .ropeproject
 
 # documentation build
-docs/*
-!docs/
-!docs/USE.md
 docs/_build/
+docs/source/_build/
 docs_src/reference/
 
 # mypy

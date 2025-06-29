@@ -14,8 +14,8 @@ Perekrestok (Перекрёсток) - https://www.perekrestok.ru/
 ### Принцип работы
 
 > Библиотека полностью повторяет сетевую работу обычного пользователя на сайте.
-Основная логика сетевых запросов заложена в `api.py`, она управляется `PerekrestokAPI()` в `manager.py`.
-Существует вспомогательный модуль `abstraction.py` хранящий в себе статичные классы, которых принимаю в аргументах некоторые методы в `PerekrestokAPI()`.
+Основная логика сетевых запросов заложена в `api.py`, она управляется `PerekrestokAPI` в `manager.py`.
+Существует вспомогательный модуль `abstraction.py` хранящий в себе статичные классы, которых принимаю в аргументах некоторые методы в `PerekrestokAPI`.
 
 
 
@@ -23,7 +23,8 @@ Perekrestok (Перекрёсток) - https://www.perekrestok.ru/
 ### Базовая структура
 ```py
 import asyncio
-from perekrestok_api import PerekrestokAPI, ABSTRACT
+from perekrestok_api import PerekrestokAPI
+from perekrestok_api import abstraction as ABSTRACT
 
 async def main():
     ...
