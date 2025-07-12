@@ -7,5 +7,5 @@
 # filepath: /home/miskler/Документы/GitHub/perekrestok_api/perekrestok_api/__init__.py
 from .manager import PerekrestokAPI
 
-__version__ = "0.1.6.1"
+__version__ = "0.1.7"
 __all__ = ["PerekrestokAPI"]

@@ -1,28 +1,28 @@
 from perekrestok_api import PerekrestokAPI
 from perekrestok_api import abstraction
-import tqdm
-from pprint import pprint
-import asyncio
-
-
-from perekrestok_api import PerekrestokAPI
-import tqdm
-from pprint import pprint
-import time
 
 
 def main():
-    with PerekrestokAPI(headless=False, timeout=10.0) as Api:
+    with PerekrestokAPI() as Api:
+        geopos_handler = Api.Geolocation.current()
+        geopos = geopos_handler.json()
+        print(f'Текущий город сессии {geopos["content"]["city"]["name"]} ({geopos["content"]["city"]["id"]})')
+    
+        # Получаем список категорий
+        categories = Api.Catalog.tree()
+        cat = categories.json()
+        print(f'Список категорий: {len(cat["content"]["items"])}')
 
-        feed_filter = abstraction.CatalogFeedFilter()
-        feed_filter.PROMO_LISTING = 2
-#        feed_filter.CATEGORY_ID = 1558
+        # Выводим первую категорию
+        print(f'Категория: {cat["content"]["items"][0]["category"]["title"]} ({cat["content"]["items"][0]["category"]["id"]})')
+        # Получаем список товаров
+        filter = abstraction.CatalogFeedFilter()
+        filter.CATEGORY_ID = cat["content"]["items"][0]["category"]["id"]
+        products = Api.Catalog.feed(filter=filter)
+        prod = products.json()
 
-        # Запрашиваем товары из текущей категории
-        catalog_handler = Api.Catalog.feed(filter=feed_filter)
-        pprint(Api.session)
-        print("Catalog Feed:", catalog_handler)
-        time.sleep(5)
+        # Выводим первый товар
+        print(f'Первый товар: {prod["content"]["items"][0]["title"]} ({prod["content"]["items"][0]["id"]})')
 
 if __name__ == "__main__":
     main()

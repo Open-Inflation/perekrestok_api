@@ -59,19 +59,13 @@ napoleon_use_rtype = False
 
 
 
-#extensions.append("sphinx_wagtail_theme")
-#html_theme = 'sphinx_wagtail_theme'
-html_theme = 'sphinx_nefertiti'
+html_theme = "furo"
+html_logo = './static/logo-label.svg'
+
 
 html_theme_options = {
-    "style": "green",
-    "style_header_neutral": True,
-    "logo": "logo.svg",
-    "logo_alt": "Перекрёсток",
-    "logo_width": 40,
-    "logo_height": 40,
-    "repository_url": "https://github.com/Open-Inflation/perekrestok_api",
-    "repository_name": "GitHub"
+    "globaltoc_collapse": False,
+    "dark_css_variables": {},
 }
 html_static_path = ['static']
 

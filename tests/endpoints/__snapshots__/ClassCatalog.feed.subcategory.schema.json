@@ -376,6 +376,12 @@
               "orderDirection"
             ]
           }
+        },
+        "searchQueryId": {
+          "type": "null"
+        },
+        "searchType": {
+          "type": "string"
         }
       },
       "required": [
@@ -383,7 +389,9 @@
         "currentSorting",
         "items",
         "orderByInfoItems",
-        "paginator"
+        "paginator",
+        "searchQueryId",
+        "searchType"
       ]
     }
   },
