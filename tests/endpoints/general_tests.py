@@ -1,6 +1,4 @@
-# test_general.py
 import pytest
-from io import BytesIO
 from typed_schema_shot import SchemaShot
 from perekrestok_api import PerekrestokAPI
 from conftest import is_not_error
@@ -13,25 +11,25 @@ class TestGeneralFlow:
     def test_qualifier(self, api: PerekrestokAPI, schemashot: SchemaShot):
         resp = api.General.qualifier()
         is_not_error(resp)
-        schemashot.assert_match(resp.json(), "qualifier")
+        schemashot.assert_match(resp.json(), "ClassGeneral.qualifier.main")
 
     @pytest.mark.dependency()
     def test_feedback_form(self, api: PerekrestokAPI, schemashot: SchemaShot):
         resp = api.General.feedback_form()
         is_not_error(resp)
-        schemashot.assert_match(resp.json(), "feedback_form")
+        schemashot.assert_match(resp.json(), "ClassGeneral.feedback_form")
 
     @pytest.mark.dependency()
     def test_delivery_switcher(self, api: PerekrestokAPI, schemashot: SchemaShot):
         resp = api.General.delivery_switcher()
         is_not_error(resp)
-        schemashot.assert_match(resp.json(), "delivery_switcher")
+        schemashot.assert_match(resp.json(), "ClassGeneral.delivery_switcher")
 
     @pytest.mark.dependency()
     def test_current_user(self, api: PerekrestokAPI, schemashot: SchemaShot):
         resp = api.General.current_user()
         is_not_error(resp)
-        schemashot.assert_match(resp.json(), "current_user")
+        schemashot.assert_match(resp.json(), "ClassGeneral.current_user")
 
     @pytest.mark.dependency()
     def test_download_image(self, api: PerekrestokAPI):

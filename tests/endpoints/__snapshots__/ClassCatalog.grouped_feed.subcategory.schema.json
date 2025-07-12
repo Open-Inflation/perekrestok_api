@@ -197,56 +197,49 @@
                       ]
                     },
                     "catalogPrimaryCategory": {
-                      "anyOf": [
-                        {
-                          "type": "null"
+                      "type": "object",
+                      "properties": {
+                        "id": {
+                          "type": "integer"
                         },
-                        {
-                          "type": "object",
-                          "properties": {
-                            "id": {
-                              "type": "integer"
-                            },
-                            "title": {
-                              "type": "string"
-                            },
-                            "slug": {
-                              "type": "string"
-                            },
-                            "isAlcohol": {
-                              "type": "boolean"
-                            },
-                            "isTobacco": {
-                              "type": "boolean"
-                            },
-                            "isExciseAlcohol": {
-                              "type": "boolean"
-                            },
-                            "isAdultContent": {
-                              "type": "boolean"
-                            },
-                            "displayStyle": {
-                              "type": "integer"
-                            },
-                            "catalogs": {
-                              "type": "array",
-                              "items": {
-                                "type": "integer"
-                              }
-                            }
-                          },
-                          "required": [
-                            "catalogs",
-                            "displayStyle",
-                            "id",
-                            "isAdultContent",
-                            "isAlcohol",
-                            "isExciseAlcohol",
-                            "isTobacco",
-                            "slug",
-                            "title"
-                          ]
+                        "title": {
+                          "type": "string"
+                        },
+                        "slug": {
+                          "type": "string"
+                        },
+                        "isAlcohol": {
+                          "type": "boolean"
+                        },
+                        "isTobacco": {
+                          "type": "boolean"
+                        },
+                        "isExciseAlcohol": {
+                          "type": "boolean"
+                        },
+                        "isAdultContent": {
+                          "type": "boolean"
+                        },
+                        "displayStyle": {
+                          "type": "integer"
+                        },
+                        "catalogs": {
+                          "type": "array",
+                          "items": {
+                            "type": "integer"
+                          }
                         }
+                      },
+                      "required": [
+                        "catalogs",
+                        "displayStyle",
+                        "id",
+                        "isAdultContent",
+                        "isAlcohol",
+                        "isExciseAlcohol",
+                        "isTobacco",
+                        "slug",
+                        "title"
                       ]
                     },
                     "image": {

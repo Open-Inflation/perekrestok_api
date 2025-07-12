@@ -5,3 +5,6 @@ pytest
 pytest-typed-schema-shot
 coverage
 coverage-badge
+sphinx
+sphinx-autoapi
+myst-parser

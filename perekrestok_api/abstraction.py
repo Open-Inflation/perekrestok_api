@@ -1,3 +1,5 @@
+from typing import Any
+
 
 class BannerPlace:
     """Место показа баннера"""
@@ -133,7 +135,7 @@ class QualifierFeatureKey:
         """Отключение оформления заказа"""
     
     @staticmethod
-    def get_all():
+    def get_all() -> list[str]:
         """Собирает все значения из QualifierFeatureKey"""
         keys = []
         
@@ -155,7 +157,7 @@ class QualifierFeatureKey:
 class CatalogFeedFilter:
     """Фильтры каталога с параметрами"""
 
-    def set_price_range(self, lowest: float, highest: float):
+    def set_price_range(self, lowest: float, highest: float) -> None:
         """Устанавливает диапазон цен.
         
         Args:
@@ -168,24 +170,28 @@ class CatalogFeedFilter:
         self.HIGHEST_PRICE = highest
 
     def as_dict(self, use_hidden_key: bool = True) -> dict:
-        """Преобразует фильтры в словарь с учетом вложенности ключей и исключает фильтры с невалидными значениями.
+        """Преобразует фильтры в словарь для использования в API запросах.
+        
         Является в большей степени внутренним методом.
         
-        `hidden_key` - это имя фильтра воспринимаемое сервером Перекрестка. Внутри бибилиотеки создана обёртка с другими неймами для удобства и ясности.
+        Args:
+            use_hidden_key: Использовать скрытые ключи API вместо понятных имён.
+                hidden_key - это имя фильтра воспринимаемое сервером Перекрестка. 
+                Внутри библиотеки создана обёртка с другими неймами для удобства и ясности.
         """
         filters = {}
         for key, filter_obj in self.__class__.__dict__.items():
-            if isinstance(filter_obj, self._Filter):
+            if isinstance(filter_obj, self.Filter):
                 dict_key = filter_obj.hidden_key if use_hidden_key else key
                 parts = dict_key.split("/")
                 current = filters
 
                 # Исключаем невалидные значения
-                if filter_obj.value == -1 or (isinstance(filter_obj, self._FeaturesFilter) and not filter_obj.value):
+                if filter_obj.value == -1 or (isinstance(filter_obj, self.FeaturesFilter) and not filter_obj.value):
                     continue
 
                 # Обработка FEATURES
-                if isinstance(filter_obj, self._FeaturesFilter):
+                if isinstance(filter_obj, self.FeaturesFilter):
                     current[dict_key] = filter_obj.to_list()
                     continue
 
@@ -200,31 +206,34 @@ class CatalogFeedFilter:
 
         return filters
 
-    class _Filter:
+    class Filter:
         """Фильтр с параметрами value и hidden_key"""
-        
-        def __init__(self, default_value, property_type: type, hidden_key: str):
+
+        def __init__(self, default_value: Any, property_type: type, hidden_key: str):
             self._value = default_value
             self._property_type = property_type
             self._hidden_key = hidden_key
 
         @property
-        def value(self):
+        def value(self) -> Any:
+            """Возвращает текущее значение фильтра."""
             return self._value
 
         @value.setter
-        def value(self, new_value):
+        def value(self, new_value: Any):
             try:
                 self._value = self._property_type(new_value)
             except (ValueError, TypeError):
                 raise TypeError(f"Value must be of type {self._property_type.__name__}") from None
 
         @property
-        def hidden_key(self):
+        def hidden_key(self) -> str:
+            """Возвращает ключ фильтра, используемый в запросах к API."""
             return self._hidden_key
 
         @property
-        def property_type(self):
+        def property_type(self) -> type:
+            """Возвращает тип значения фильтра."""
             return self._property_type
 
         def __repr__(self):
@@ -233,7 +242,7 @@ class CatalogFeedFilter:
         def __set__(self, instance, value):
             self.value = value
 
-    class _FeaturesFilter(_Filter):
+    class FeaturesFilter(Filter):
         """Класс для работы с фильтром FEATURES."""
 
         def __init__(self, default_value, property_type: type, hidden_key: str):
@@ -242,7 +251,12 @@ class CatalogFeedFilter:
                 raise TypeError("Значение FEATURES должно быть словарём.")
 
         def add(self, key: str, value: str):
-            """Добавляет новую особенность в FEATURES."""
+            """Добавляет новую особенность в FEATURES.
+            
+            Args:
+                key: Ключ особенности (например, "brand")
+                value: Значение особенности (например, "Nike")
+            """
             if not isinstance(key, str) or not isinstance(value, str):
                 raise TypeError("Ожидаются строки для ключа и значения.")
             self._value.setdefault(key, [])
@@ -250,14 +264,19 @@ class CatalogFeedFilter:
                 self._value[key].append(value)
 
         def remove(self, key: str, value: str):
-            """Удаляет особенность из FEATURES."""
+            """Удаляет особенность из FEATURES.
+            
+            Args:
+                key: Ключ особенности для удаления
+                value: Значение особенности для удаления
+            """
             if key in self._value and value in self._value[key]:
                 self._value[key].remove(value)
                 if not self._value[key]:  # Удаляем ключ, если список пуст
                     del self._value[key]
 
-        def to_list(self):
-            """Конвертирует структуру FEATURES в список словарей."""
+        def to_list(self) -> list[dict[str, str]]:
+            """Конвертирует структуру FEATURES в список словарей для API."""
             return [{"key": k, "value": v} for k, values in self._value.items() for v in values]
 
         def __repr__(self):
@@ -267,39 +286,38 @@ class CatalogFeedFilter:
             raise AttributeError(f"{self.hidden_key} не может быть изменён напрямую. Используйте add() и remove()")
 
     # Определение фильтров с использованием дескриптора
-    CATEGORY_ID = _Filter(-1, int, "category") # 1389 - "Фрукты, овощи: акции и скидки"
+    CATEGORY_ID = Filter(-1, int, "category") # 1389 - "Фрукты, овощи: акции и скидки"
     """ID категорий бывают 2 видов - главные и дочерние. По сути они имеют одинаковый и равный статус для системы."""
 
-    PROMO_LISTING = _Filter(-1, int, "promoListing")
+    PROMO_LISTING = Filter(-1, int, "promoListing")
     """Работает как фильтр (при != -1), т.е. отбраковываются товары не учавствующие в акции.
-    Описание акций можно получить по `.Catalog.promo_listings_by_id(спиок_id_акций)`.
     От куда брать доступные id остаётся загадкой. Можно просто перебрать id от 1 до N (пару сотен, думаю, достаточно).
     """
 
-    FROM_PEREKRESTOK = _Filter(False, bool, "privateLabel")
+    FROM_PEREKRESTOK = Filter(False, bool, "privateLabel")
     """Исключает товары не являющиеся внутренним брендом сети (только СТМ)."""
 
-    ONLY_DISCOUNT = _Filter(False, bool, "onlyDiscount")
+    ONLY_DISCOUNT = Filter(False, bool, "onlyDiscount")
     """Исключает товары без скидки (по регулярной цене)."""
 
-    ONLY_WITH_REVIEWS = _Filter(False, bool, "onlyWithProductReviews")
+    ONLY_WITH_REVIEWS = Filter(False, bool, "onlyWithProductReviews")
     """Исключает товары без отзывов (требуется уточнение: без отзывов или без оценок)."""
 
-    LOWEST_PRICE = _Filter(-1, int, "priceRange/from")
+    LOWEST_PRICE = Filter(-1, int, "priceRange/from")
     """Фильтр исключающий цену в копейках где `<N`. По умолчанию -1 (отсутствует).
     Диапазон цен для текущего поиска можно получить с помощью `.Catalog.form()['content']['priceFrom']` (цена передаётся в копейках так же в копейках).
 
     Рекумендую использовать только в паре с `HIGHEST_PRICE`, т.к. я не знаю как сервер воспримет посылку только одного поля.
     Т.е. используйте `self.set_price_range(lowest, highest)`"""
 
-    HIGHEST_PRICE = _Filter(-1, int, "priceRange/to")
+    HIGHEST_PRICE = Filter(-1, int, "priceRange/to")
     """Фильтр исключающий цену в копейках где `>N`. По умолчанию -1 (отсутствует).
     Диапазон цен для текущего поиска можно получить с помощью `.Catalog.form()['content']['priceTo']` (цена передаётся в копейках так же в копейках).
 
     Рекумендую использовать только в паре с `LOWEST_PRICE`, т.к. я не знаю как сервер воспримет посылку только одного поля.
     Т.е. используйте `self.set_price_range(lowest, highest)`"""
 
-    FEATURES = _FeaturesFilter({}, dict, "features")
+    FEATURES = FeaturesFilter({}, dict, "features")
     """Фильтр для \"особенностей\" продукта. Таких как: страна изготовитель, тип продукта, бренд и тп.
     
     Для получения доступных особенностей обратитесь к `.Catalog.form()['content']['searchFeatures']`.
@@ -307,28 +325,48 @@ class CatalogFeedFilter:
     внутри такого словаря так же будет `enumList` содержащий массив словарей с доступными значениями фильтра в `value`.
     """
 
-class _SortOption:
+class SortOption:
+    """Базовый класс для создания опций сортировки с направлениями ASC/DESC."""
     def __init__(self, order_by: str):
         self.ASC = {"orderBy": order_by, "orderDirection": "asc"}
         self.DESC = {"orderBy": order_by, "orderDirection": "desc"}
 
-class CatalogFeedSort():
-    Price = _SortOption("price")
-    Popularity = _SortOption("popularity")
-    Discount = _SortOption("discount")
-    Rating = _SortOption("rating")
-    Recommended = _SortOption("popularity_without_manual")
+class CatalogFeedSort:
+    """Опции сортировки для фидов каталога товаров."""
+    Price = SortOption("price")
+    """Сортировка по цене"""
+    
+    Popularity = SortOption("popularity")
+    """Сортировка по популярности"""
+    
+    Discount = SortOption("discount")
+    """Сортировка по размеру скидки"""
+    
+    Rating = SortOption("rating")
+    """Сортировка по рейтингу"""
+    
+    Recommended = SortOption("popularity_without_manual")
+    """Рекомендуемая сортировка (популярность без ручной настройки)"""
 
 class GeolocationPointSort:
-    Distance = _SortOption("distance")
+    """Опции сортировки для точек геолокации."""
+    Distance = SortOption("distance")
+    """Сортировка по расстоянию"""
 
 class Geoposition:
-    """
-    Если передавать координаты через кортеж/массив, то они идут как [долгота, широта] (стандарт для ответов от Перекрестка).
-    При передаче как отдельных неименованных параметров, то они идут как [широта, долгота] (стандарт для мира).
+    """Класс для работы с географическими координатами.
+    
+    Поддерживает несколько форматов инициализации:
+    - Отдельные именованные параметры latitude/longitude
+    - Список/кортеж coordinates [долгота, широта] (стандарт Перекрёстка)
+    - Два отдельных float аргумента [широта, долгота] (мировой стандарт)
+    
+    Note:
+        При передаче координат через кортеж/массив, они идут как [долгота, широта] (стандарт для ответов от Перекрестка).
+        При передаче как отдельных неименованных параметров, они идут как [широта, долгота] (стандарт для мира).
     """
 
-    def __init__(self, *args, longitude=None, latitude=None, coordinates=None):
+    def __init__(self, *args: list | tuple, longitude: float = None, latitude: float = None, coordinates: list | tuple = None):
         if coordinates and isinstance(coordinates, (list, tuple)) and len(coordinates) == 2:
             self.longitude, self.latitude = coordinates
         elif latitude is not None and longitude is not None:

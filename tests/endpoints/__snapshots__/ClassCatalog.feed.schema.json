@@ -50,7 +50,10 @@
                     "type": "integer"
                   },
                   "volume": {
-                    "type": "null"
+                    "type": [
+                      "integer",
+                      "null"
+                    ]
                   },
                   "ui4code": {
                     "type": "string"
@@ -71,7 +74,10 @@
                     "type": "null"
                   },
                   "activeNds": {
-                    "type": "null"
+                    "type": [
+                      "integer",
+                      "null"
+                    ]
                   }
                 },
                 "required": [
@@ -242,7 +248,58 @@
                 "type": "array"
               },
               "labels": {
-                "type": "array"
+                "type": "array",
+                "items": {
+                  "type": "object",
+                  "properties": {
+                    "listingImage": {
+                      "type": "object",
+                      "properties": {
+                        "id": {
+                          "type": "integer"
+                        },
+                        "originName": {
+                          "type": "string"
+                        },
+                        "fileType": {
+                          "type": "string"
+                        },
+                        "fileSize": {
+                          "type": "integer"
+                        },
+                        "width": {
+                          "type": "integer"
+                        },
+                        "height": {
+                          "type": "integer"
+                        },
+                        "cropUrlTemplate": {
+                          "type": "string"
+                        },
+                        "publicUrl": {
+                          "type": "null"
+                        },
+                        "uuid": {
+                          "type": "string"
+                        }
+                      },
+                      "required": [
+                        "cropUrlTemplate",
+                        "fileSize",
+                        "fileType",
+                        "height",
+                        "id",
+                        "originName",
+                        "publicUrl",
+                        "uuid",
+                        "width"
+                      ]
+                    }
+                  },
+                  "required": [
+                    "listingImage"
+                  ]
+                }
               },
               "reviewCount": {
                 "type": "integer"
@@ -373,6 +430,12 @@
               "orderDirection"
             ]
           }
+        },
+        "searchQueryId": {
+          "type": "null"
+        },
+        "searchType": {
+          "type": "string"
         }
       },
       "required": [
@@ -380,7 +443,9 @@
         "currentSorting",
         "items",
         "orderByInfoItems",
-        "paginator"
+        "paginator",
+        "searchQueryId",
+        "searchType"
       ]
     }
   },

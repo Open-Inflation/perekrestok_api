@@ -5,28 +5,6 @@
     "content": {
       "type": "object",
       "properties": {
-        "analyticsInfo": {
-          "type": "array",
-          "items": {
-            "type": "object",
-            "properties": {
-              "name": {
-                "type": "string"
-              },
-              "type": {
-                "type": "string"
-              },
-              "value": {
-                "type": "string"
-              }
-            },
-            "required": [
-              "name",
-              "type",
-              "value"
-            ]
-          }
-        },
         "items": {
           "type": "array",
           "items": {
@@ -93,7 +71,10 @@
                     "type": "null"
                   },
                   "activeNds": {
-                    "type": "null"
+                    "type": [
+                      "integer",
+                      "null"
+                    ]
                   }
                 },
                 "required": [
@@ -264,58 +245,7 @@
                 "type": "array"
               },
               "labels": {
-                "type": "array",
-                "items": {
-                  "type": "object",
-                  "properties": {
-                    "listingImage": {
-                      "type": "object",
-                      "properties": {
-                        "id": {
-                          "type": "integer"
-                        },
-                        "originName": {
-                          "type": "string"
-                        },
-                        "fileType": {
-                          "type": "string"
-                        },
-                        "fileSize": {
-                          "type": "integer"
-                        },
-                        "width": {
-                          "type": "integer"
-                        },
-                        "height": {
-                          "type": "integer"
-                        },
-                        "cropUrlTemplate": {
-                          "type": "string"
-                        },
-                        "publicUrl": {
-                          "type": "null"
-                        },
-                        "uuid": {
-                          "type": "string"
-                        }
-                      },
-                      "required": [
-                        "cropUrlTemplate",
-                        "fileSize",
-                        "fileType",
-                        "height",
-                        "id",
-                        "originName",
-                        "publicUrl",
-                        "uuid",
-                        "width"
-                      ]
-                    }
-                  },
-                  "required": [
-                    "listingImage"
-                  ]
-                }
+                "type": "array"
               },
               "reviewCount": {
                 "type": "integer"
@@ -333,28 +263,10 @@
                     "type": "integer"
                   },
                   "grossPrice": {
-                    "type": [
-                      "integer",
-                      "null"
-                    ]
+                    "type": "null"
                   },
                   "labels": {
-                    "type": "array",
-                    "items": {
-                      "type": "object",
-                      "properties": {
-                        "type": {
-                          "type": "string"
-                        },
-                        "text": {
-                          "type": "string"
-                        }
-                      },
-                      "required": [
-                        "text",
-                        "type"
-                      ]
-                    }
+                    "type": "array"
                   },
                   "pricePerQuantum": {
                     "type": "null"
@@ -401,11 +313,85 @@
               "title"
             ]
           }
+        },
+        "paginator": {
+          "type": "object",
+          "properties": {
+            "step": {
+              "type": "integer"
+            },
+            "current": {
+              "type": "integer"
+            },
+            "nextPageExists": {
+              "type": "boolean"
+            }
+          },
+          "required": [
+            "current",
+            "nextPageExists",
+            "step"
+          ]
+        },
+        "currentSorting": {
+          "type": "object",
+          "properties": {
+            "orderBy": {
+              "type": "string"
+            },
+            "orderDirection": {
+              "type": "string"
+            }
+          },
+          "required": [
+            "orderBy",
+            "orderDirection"
+          ]
+        },
+        "canonical": {
+          "type": "null"
+        },
+        "orderByInfoItems": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "properties": {
+              "orderBy": {
+                "type": "string"
+              },
+              "orderDirection": {
+                "type": "string"
+              },
+              "orderByTitle": {
+                "type": "string"
+              },
+              "isSelected": {
+                "type": "boolean"
+              }
+            },
+            "required": [
+              "isSelected",
+              "orderBy",
+              "orderByTitle",
+              "orderDirection"
+            ]
+          }
+        },
+        "searchQueryId": {
+          "type": "null"
+        },
+        "searchType": {
+          "type": "string"
         }
       },
       "required": [
-        "analyticsInfo",
-        "items"
+        "canonical",
+        "currentSorting",
+        "items",
+        "orderByInfoItems",
+        "paginator",
+        "searchQueryId",
+        "searchType"
       ]
     }
   },
