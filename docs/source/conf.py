@@ -19,6 +19,7 @@ extensions = [
     'sphinx.ext.napoleon',  # если есть Google/Numpy-стиль докстрингов
     "enum_tools.autoenum",
     'myst_parser',
+    'jsoncrack_for_sphinx',  # для визуализации JSON-схем
 ]
 source_suffix = {
     '.rst': 'restructuredtext',
@@ -57,6 +58,31 @@ typehints_defaults = None      # в field-list останется пометка
 typehints_use_rtype = False       # return-type остаётся в сигнатуре, не дублируется
 napoleon_use_rtype = False
 
+
+# Configure the schema directory for examples
+import os
+json_schema_dir = os.path.join(os.path.dirname(__file__), '..', '..', 'tests', 'endpoints', '__snapshots__')
+
+from jsoncrack_for_sphinx.config import RenderMode, Directions, Theme, ContainerConfig, RenderConfig, SearchPolicy, PathSeparator
+
+jsoncrack_default_options = {
+    'render': RenderConfig(
+        mode=RenderMode.OnScreen(threshold=0.1, margin='50px')
+    ),
+    'container': ContainerConfig(
+        direction=Directions.DOWN,
+        height='500',
+        width='100%'
+    ),
+    'theme': Theme.AUTO,
+    'search_policy': SearchPolicy(
+        include_path_to_file=False
+    ),
+    'autodoc_ignore': [
+        'perekrestok_api.abstraction',
+        'perekrestok_api.PerekrestokAPI',
+    ]
+}
 
 
 html_theme = "furo"

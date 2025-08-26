@@ -17,10 +17,7 @@
                 "type": "string"
               },
               "title": {
-                "type": [
-                  "null",
-                  "string"
-                ]
+                "type": "null"
               },
               "action": {
                 "type": "string"
@@ -49,10 +46,7 @@
                 ]
               },
               "link": {
-                "type": [
-                  "null",
-                  "string"
-                ]
+                "type": "null"
               },
               "webViewType": {
                 "type": "string"
@@ -174,26 +168,7 @@
                       "type": "string"
                     },
                     "advToken": {
-                      "anyOf": [
-                        {
-                          "type": "null"
-                        },
-                        {
-                          "type": "object",
-                          "properties": {
-                            "text": {
-                              "type": "string"
-                            },
-                            "token": {
-                              "type": "string"
-                            }
-                          },
-                          "required": [
-                            "text",
-                            "token"
-                          ]
-                        }
-                      ]
+                      "type": "null"
                     }
                   },
                   "required": [
@@ -266,26 +241,7 @@
                 "type": "null"
               },
               "deepLink": {
-                "anyOf": [
-                  {
-                    "type": "null"
-                  },
-                  {
-                    "type": "object",
-                    "properties": {
-                      "url": {
-                        "type": "string"
-                      },
-                      "tsx_type": {
-                        "type": "string"
-                      }
-                    },
-                    "required": [
-                      "tsx_type",
-                      "url"
-                    ]
-                  }
-                ]
+                "type": "null"
               }
             },
             "required": [
