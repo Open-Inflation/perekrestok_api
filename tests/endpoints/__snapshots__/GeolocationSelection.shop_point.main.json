@@ -1,0 +1,14 @@
+{
+  "content": {
+    "mode": "pickup",
+    "shop": {
+      "id": 1,
+      "sapId": "2582",
+      "title": "ТЦ Белгород",
+      "address": "Белгород Попова ул 36",
+      "schedule": "08:00-21:00",
+      "isCatalogAvailable": true
+    },
+    "address": null
+  }
+}

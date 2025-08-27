@@ -1,0 +1,463 @@
+{
+  "content": {
+    "items": [
+      {
+        "liked": false,
+        "borderStyle": null,
+        "bestReview": null,
+        "advToken": null,
+        "id": 61722,
+        "masterData": {
+          "slug": "tetrad-skolnaa-pzbm-a5-v-linejku-12-listov",
+          "plu": "3956331",
+          "unit": 1,
+          "unitName": "шт",
+          "quantum": 1000,
+          "quantumStep": 1000,
+          "weight": 29,
+          "volume": null,
+          "ui4code": "NF0701006",
+          "taxGroup": "BB",
+          "ownProduction": false,
+          "privateLabel": false,
+          "isMark": false,
+          "alcoSetUnits": null,
+          "activeNds": 10
+        },
+        "title": "Тетрадь школьная ПЗБМ A5 в линейку, 12 листов",
+        "primaryCategory": {
+          "id": 455,
+          "title": "Бумага, ручки, краски",
+          "slug": "bumaga-rucki-kraski",
+          "isAlcohol": false,
+          "isTobacco": false,
+          "isExciseAlcohol": false,
+          "isAdultContent": false,
+          "displayStyle": 2,
+          "catalogs": [
+            2,
+            4
+          ]
+        },
+        "catalogPrimaryCategory": {
+          "id": 53,
+          "title": "Канцелярия",
+          "slug": "kancelaria",
+          "isAlcohol": false,
+          "isTobacco": false,
+          "isExciseAlcohol": false,
+          "isAdultContent": false,
+          "displayStyle": 2,
+          "catalogs": [
+            1
+          ]
+        },
+        "image": {
+          "id": 1208978,
+          "originName": "3956331.jpg",
+          "fileType": "image",
+          "fileSize": 86636,
+          "width": 1600,
+          "height": 1600,
+          "cropUrlTemplate": "https://tsx.x5static.net/i/%s/xdelivery/files/fd/34/f7e8136494ba35200cafe8a29989.jpg",
+          "publicUrl": null,
+          "uuid": "b436ca4b-e923-445b-9fc7-08d3b7bf21f3"
+        },
+        "rating": 492,
+        "medianPrice": 499,
+        "labelCharacteristics": [],
+        "labels": [],
+        "reviewCount": 22,
+        "ratingCount": 562,
+        "priceTag": {
+          "price": 499,
+          "discountMinimumAmount": 0,
+          "grossPrice": null,
+          "labels": [],
+          "pricePerQuantum": null,
+          "grossPricePerQuantum": null,
+          "potentialPointsForOrangeCard": null
+        },
+        "balanceState": "many"
+      },
+      {
+        "liked": false,
+        "borderStyle": null,
+        "bestReview": null,
+        "advToken": null,
+        "id": 432472,
+        "masterData": {
+          "slug": "tetrad-uceniceskaa-v-linejku-kosaa-linia-a5-12l",
+          "plu": "3958258",
+          "unit": 1,
+          "unitName": "шт",
+          "quantum": 1000,
+          "quantumStep": 1000,
+          "weight": 29,
+          "volume": null,
+          "ui4code": "NF0701006",
+          "taxGroup": "BB",
+          "ownProduction": false,
+          "privateLabel": false,
+          "isMark": false,
+          "alcoSetUnits": null,
+          "activeNds": 10
+        },
+        "title": "Тетрадь ученическая в линейку-косая линия А5, 12л",
+        "primaryCategory": {
+          "id": 455,
+          "title": "Бумага, ручки, краски",
+          "slug": "bumaga-rucki-kraski",
+          "isAlcohol": false,
+          "isTobacco": false,
+          "isExciseAlcohol": false,
+          "isAdultContent": false,
+          "displayStyle": 2,
+          "catalogs": [
+            2,
+            4
+          ]
+        },
+        "catalogPrimaryCategory": {
+          "id": 53,
+          "title": "Канцелярия",
+          "slug": "kancelaria",
+          "isAlcohol": false,
+          "isTobacco": false,
+          "isExciseAlcohol": false,
+          "isAdultContent": false,
+          "displayStyle": 2,
+          "catalogs": [
+            1
+          ]
+        },
+        "image": {
+          "id": 1709881,
+          "originName": "3958258.jpg",
+          "fileType": "image",
+          "fileSize": 988966,
+          "width": 1600,
+          "height": 1600,
+          "cropUrlTemplate": "https://tsx.x5static.net/i/%s/xdelivery/files/0a/98/c1663b783a2060bfd52dcaa38315.jpg",
+          "publicUrl": null,
+          "uuid": "eb2988fb-7aba-4820-a283-e30d1a53d5c3"
+        },
+        "rating": 491,
+        "medianPrice": 499,
+        "labelCharacteristics": [],
+        "labels": [],
+        "reviewCount": 12,
+        "ratingCount": 206,
+        "priceTag": {
+          "price": 499,
+          "discountMinimumAmount": 0,
+          "grossPrice": null,
+          "labels": [],
+          "pricePerQuantum": null,
+          "grossPricePerQuantum": null,
+          "potentialPointsForOrangeCard": null
+        },
+        "balanceState": "many"
+      },
+      {
+        "liked": false,
+        "borderStyle": null,
+        "bestReview": null,
+        "advToken": null,
+        "id": 271777,
+        "masterData": {
+          "slug": "rucka-centrum-pick-sarikovaa-sinaa",
+          "plu": "4120268",
+          "unit": 1,
+          "unitName": "шт",
+          "quantum": 1000,
+          "quantumStep": 1000,
+          "weight": 5,
+          "volume": null,
+          "ui4code": "NF0701005",
+          "taxGroup": "BL",
+          "ownProduction": false,
+          "privateLabel": false,
+          "isMark": false,
+          "alcoSetUnits": null,
+          "activeNds": 20
+        },
+        "title": "Ручка Centrum Pick шариковая синяя",
+        "primaryCategory": {
+          "id": 455,
+          "title": "Бумага, ручки, краски",
+          "slug": "bumaga-rucki-kraski",
+          "isAlcohol": false,
+          "isTobacco": false,
+          "isExciseAlcohol": false,
+          "isAdultContent": false,
+          "displayStyle": 2,
+          "catalogs": [
+            2,
+            4
+          ]
+        },
+        "catalogPrimaryCategory": {
+          "id": 53,
+          "title": "Канцелярия",
+          "slug": "kancelaria",
+          "isAlcohol": false,
+          "isTobacco": false,
+          "isExciseAlcohol": false,
+          "isAdultContent": false,
+          "displayStyle": 2,
+          "catalogs": [
+            1
+          ]
+        },
+        "image": {
+          "id": 1208989,
+          "originName": "4120268_2.jpg",
+          "fileType": "image",
+          "fileSize": 93320,
+          "width": 1600,
+          "height": 1600,
+          "cropUrlTemplate": "https://tsx.x5static.net/i/%s/xdelivery/files/3a/a6/c9228a5f93d8a9fedb6ba235602c.jpg",
+          "publicUrl": null,
+          "uuid": "b1518981-f4c9-4a88-8007-b18e43176323"
+        },
+        "rating": 490,
+        "medianPrice": 999,
+        "labelCharacteristics": [],
+        "labels": [],
+        "reviewCount": 80,
+        "ratingCount": 1243,
+        "priceTag": {
+          "price": 999,
+          "discountMinimumAmount": 0,
+          "grossPrice": 1499,
+          "labels": [
+            {
+              "type": "yellow",
+              "text": "-33%"
+            }
+          ],
+          "pricePerQuantum": null,
+          "grossPricePerQuantum": null,
+          "potentialPointsForOrangeCard": null
+        },
+        "balanceState": "many"
+      },
+      {
+        "liked": false,
+        "borderStyle": null,
+        "bestReview": null,
+        "advToken": null,
+        "id": 432484,
+        "masterData": {
+          "slug": "linejka-centrum-v-assortimente-20sm",
+          "plu": "2037878",
+          "unit": 1,
+          "unitName": "шт",
+          "quantum": 1000,
+          "quantumStep": 1000,
+          "weight": 100,
+          "volume": null,
+          "ui4code": "NF0701008",
+          "taxGroup": "BL",
+          "ownProduction": false,
+          "privateLabel": false,
+          "isMark": false,
+          "alcoSetUnits": null,
+          "activeNds": 20
+        },
+        "title": "Линейка Centrum в ассортименте, 20см",
+        "primaryCategory": {
+          "id": 455,
+          "title": "Бумага, ручки, краски",
+          "slug": "bumaga-rucki-kraski",
+          "isAlcohol": false,
+          "isTobacco": false,
+          "isExciseAlcohol": false,
+          "isAdultContent": false,
+          "displayStyle": 2,
+          "catalogs": [
+            2,
+            4
+          ]
+        },
+        "catalogPrimaryCategory": {
+          "id": 53,
+          "title": "Канцелярия",
+          "slug": "kancelaria",
+          "isAlcohol": false,
+          "isTobacco": false,
+          "isExciseAlcohol": false,
+          "isAdultContent": false,
+          "displayStyle": 2,
+          "catalogs": [
+            1
+          ]
+        },
+        "image": {
+          "id": 1739188,
+          "originName": "2037878.jpg",
+          "fileType": "image",
+          "fileSize": 225172,
+          "width": 1600,
+          "height": 1600,
+          "cropUrlTemplate": "https://tsx.x5static.net/i/%s/xdelivery/files/82/ce/1269894bbaa1c5e61c5296e7afaf.jpg",
+          "publicUrl": null,
+          "uuid": "c737d46a-a882-4ed5-8f10-7a96a5bfcf93"
+        },
+        "rating": 495,
+        "medianPrice": 1299,
+        "labelCharacteristics": [],
+        "labels": [],
+        "reviewCount": 21,
+        "ratingCount": 222,
+        "priceTag": {
+          "price": 1299,
+          "discountMinimumAmount": 0,
+          "grossPrice": 2999,
+          "labels": [
+            {
+              "type": "yellow",
+              "text": "-56%"
+            }
+          ],
+          "pricePerQuantum": null,
+          "grossPricePerQuantum": null,
+          "potentialPointsForOrangeCard": null
+        },
+        "balanceState": "many"
+      },
+      {
+        "liked": false,
+        "borderStyle": null,
+        "bestReview": null,
+        "advToken": null,
+        "id": 325429,
+        "masterData": {
+          "slug": "tetrad-skolnaa-prof-press-v-linejku-12-listov",
+          "plu": "4231567",
+          "unit": 1,
+          "unitName": "шт",
+          "quantum": 1000,
+          "quantumStep": 1000,
+          "weight": 37,
+          "volume": null,
+          "ui4code": "NF0701006",
+          "taxGroup": "BB",
+          "ownProduction": false,
+          "privateLabel": false,
+          "isMark": false,
+          "alcoSetUnits": null,
+          "activeNds": 10
+        },
+        "title": "Тетрадь школьная Prof-Press в линейку, 12 листов",
+        "primaryCategory": {
+          "id": 455,
+          "title": "Бумага, ручки, краски",
+          "slug": "bumaga-rucki-kraski",
+          "isAlcohol": false,
+          "isTobacco": false,
+          "isExciseAlcohol": false,
+          "isAdultContent": false,
+          "displayStyle": 2,
+          "catalogs": [
+            2,
+            4
+          ]
+        },
+        "catalogPrimaryCategory": {
+          "id": 53,
+          "title": "Канцелярия",
+          "slug": "kancelaria",
+          "isAlcohol": false,
+          "isTobacco": false,
+          "isExciseAlcohol": false,
+          "isAdultContent": false,
+          "displayStyle": 2,
+          "catalogs": [
+            1
+          ]
+        },
+        "image": {
+          "id": 1209024,
+          "originName": "4231567.jpg",
+          "fileType": "image",
+          "fileSize": 880975,
+          "width": 1600,
+          "height": 1600,
+          "cropUrlTemplate": "https://tsx.x5static.net/i/%s/xdelivery/files/5e/7e/654e1c5c1985027cb1ceba69ea16.jpg",
+          "publicUrl": null,
+          "uuid": "cc395ce3-e68f-4e3f-a7b3-8ac7f12dcfef"
+        },
+        "rating": 496,
+        "medianPrice": 1499,
+        "labelCharacteristics": [],
+        "labels": [],
+        "reviewCount": 1,
+        "ratingCount": 140,
+        "priceTag": {
+          "price": 1499,
+          "discountMinimumAmount": 0,
+          "grossPrice": 3499,
+          "labels": [
+            {
+              "type": "yellow",
+              "text": "-57%"
+            }
+          ],
+          "pricePerQuantum": null,
+          "grossPricePerQuantum": null,
+          "potentialPointsForOrangeCard": null
+        },
+        "balanceState": "many"
+      }
+    ],
+    "paginator": {
+      "step": 5,
+      "current": 1,
+      "nextPageExists": true
+    },
+    "currentSorting": {
+      "orderBy": "price",
+      "orderDirection": "asc"
+    },
+    "canonical": null,
+    "orderByInfoItems": [
+      {
+        "orderBy": "popularity",
+        "orderDirection": "desc",
+        "orderByTitle": "Рекомендуемые",
+        "isSelected": false
+      },
+      {
+        "orderBy": "price",
+        "orderDirection": "asc",
+        "orderByTitle": "Сначала дешевле",
+        "isSelected": true
+      },
+      {
+        "orderBy": "price",
+        "orderDirection": "desc",
+        "orderByTitle": "Сначала дороже",
+        "isSelected": false
+      },
+      {
+        "orderBy": "discount",
+        "orderDirection": "desc",
+        "orderByTitle": "По размеру скидки",
+        "isSelected": false
+      },
+      {
+        "orderBy": "rating",
+        "orderDirection": "desc",
+        "orderByTitle": "По рейтингу",
+        "isSelected": false
+      }
+    ],
+    "searchQueryId": null,
+    "searchType": "strict",
+    "catalogs": [
+      1
+    ]
+  }
+}

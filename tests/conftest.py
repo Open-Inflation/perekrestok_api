@@ -9,12 +9,12 @@ from perekrestok_api import PerekrestokAPI
 
 def is_not_error(response: Any) -> None:
     """
-    Минимальная универсальная проверка успешного ответа:
+    Базовая проверка успешного ответа:
     - HTTP статус < 400
-    - JSON-декодится
-    - В корне нет ключа 'error'
+    - тело корректно JSON-декодится
+    - нет ключа 'error' в корне
     """
-    time.sleep(0.05)  # чуть приглушаем частоту запросов
+    time.sleep(1)  # слегка притормаживаем частоту запросов
 
     status = getattr(response, "status_code", 200)
     if status >= 400:
@@ -46,13 +46,13 @@ def make_test(
       - проверяет отсутствие ошибок,
       - делает снапшот через assert_json_match.
 
-    Передавайте аргументы для эндпоинта через kwargs или functools.partial,
-    чтобы не пересечься с параметром `name`.
+    Аргументы эндпоинта передавайте через kwargs или functools.partial,
+    чтобы не перепутать с параметром `name`.
     """
     resp = call(*args, **kwargs)
     is_not_error(resp)
     data = resp.json()
-    # Новая версия умеет генерировать имя по callable; также добавим под-имя `name`.
+    # Новая версия умеет строить имя по callable; добавим подпуть `name`.
     schemashot.assert_json_match(data, (call, name))
     return resp
 

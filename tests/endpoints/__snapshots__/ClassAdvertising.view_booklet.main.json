@@ -1,0 +1,20 @@
+{
+  "content": {
+    "id": 2894,
+    "title": "Чистота и уют",
+    "activeAtFrom": 1755723600000,
+    "activeAtTo": 1758142799000,
+    "image": {
+      "id": 2480507,
+      "originName": "Screenshot_20250821_175712_Word.jpg",
+      "fileType": "image",
+      "fileSize": 736905,
+      "width": 1752,
+      "height": 2470,
+      "cropUrlTemplate": "https://tsx.x5static.net/i/%s/xdelivery/files/33/57/df521f9ca6d1d7d782dfc9f26904.jpg",
+      "publicUrl": null,
+      "uuid": "20c6dae7-4e26-46d7-ae17-871565569f0b"
+    },
+    "externalLink": "https://files.perekrestok.ru/static/files/12/47/0a0bbe62f8e1efd20f28961ee99d.pdf"
+  }
+}

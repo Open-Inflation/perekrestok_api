@@ -1,0 +1,140 @@
+{
+  "content": {
+    "items": [
+      {
+        "id": 53,
+        "title": "Канцелярия",
+        "slug": "kancelaria",
+        "isAlcohol": false,
+        "isTobacco": false,
+        "isAdultContent": false,
+        "displayStyle": 2,
+        "catalogs": [
+          1
+        ],
+        "parent": {
+          "id": 35,
+          "title": "Для дома и дачи",
+          "slug": "dla-doma-i-daci",
+          "isAlcohol": false,
+          "isTobacco": false,
+          "isExciseAlcohol": false,
+          "isAdultContent": false,
+          "displayStyle": 2,
+          "catalogs": [
+            1
+          ]
+        },
+        "isPrimary": false
+      },
+      {
+        "id": 455,
+        "title": "Бумага, ручки, краски",
+        "slug": "bumaga-rucki-kraski",
+        "isAlcohol": false,
+        "isTobacco": false,
+        "isAdultContent": false,
+        "displayStyle": 2,
+        "catalogs": [
+          2,
+          4
+        ],
+        "parent": {
+          "id": 342,
+          "title": "Для дома и дачи",
+          "slug": "dla-doma-i-daci",
+          "isAlcohol": false,
+          "isTobacco": false,
+          "isExciseAlcohol": false,
+          "isAdultContent": false,
+          "displayStyle": 1,
+          "catalogs": [
+            2,
+            4
+          ]
+        },
+        "isPrimary": true
+      },
+      {
+        "id": 630,
+        "title": "Бумага, ручки",
+        "slug": "bumaga-rucki",
+        "isAlcohol": false,
+        "isTobacco": false,
+        "isAdultContent": false,
+        "displayStyle": 2,
+        "catalogs": [
+          3
+        ],
+        "parent": {
+          "id": 534,
+          "title": "Для дома и дачи",
+          "slug": "dla-doma-i-daci",
+          "isAlcohol": false,
+          "isTobacco": false,
+          "isExciseAlcohol": false,
+          "isAdultContent": false,
+          "displayStyle": 2,
+          "catalogs": [
+            3
+          ]
+        },
+        "isPrimary": false
+      },
+      {
+        "id": 1645,
+        "title": "Собрать рюкзак",
+        "slug": "sobrat-rukzak",
+        "isAlcohol": false,
+        "isTobacco": false,
+        "isAdultContent": false,
+        "displayStyle": 2,
+        "catalogs": [
+          1
+        ],
+        "parent": {
+          "id": 1644,
+          "title": "Снова в школу",
+          "slug": "snova-v-skolu",
+          "isAlcohol": false,
+          "isTobacco": false,
+          "isExciseAlcohol": false,
+          "isAdultContent": false,
+          "displayStyle": 1,
+          "catalogs": [
+            1
+          ]
+        },
+        "isPrimary": false
+      },
+      {
+        "id": 1646,
+        "title": "Собрать рюкзак",
+        "slug": "sobrat-rukzak",
+        "isAlcohol": false,
+        "isTobacco": false,
+        "isAdultContent": false,
+        "displayStyle": 2,
+        "catalogs": [
+          2,
+          4
+        ],
+        "parent": {
+          "id": 1643,
+          "title": "Снова в школу",
+          "slug": "snova-v-skolu",
+          "isAlcohol": false,
+          "isTobacco": false,
+          "isExciseAlcohol": false,
+          "isAdultContent": false,
+          "displayStyle": 1,
+          "catalogs": [
+            2,
+            4
+          ]
+        },
+        "isPrimary": false
+      }
+    ]
+  }
+}

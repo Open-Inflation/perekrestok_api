@@ -1,0 +1,101 @@
+{
+  "content": {
+    "tabs": [
+      {
+        "type": "courier",
+        "title": "Доставка",
+        "subTitle": "60 мин",
+        "description": "Минимальная корзина 99 ₽",
+        "cost": 9900,
+        "minCost": null,
+        "maxCost": null,
+        "surge": false,
+        "surgeDescription": null,
+        "url": null,
+        "congestion": null,
+        "deliveryInfo": {
+          "title": "Стандартная доставка",
+          "image": {
+            "id": 1167233,
+            "originName": "Frame 2158.png",
+            "fileType": "image",
+            "fileSize": 16496,
+            "width": 424,
+            "height": 560,
+            "cropUrlTemplate": "https://tsx.x5static.net/i/%s/xdelivery/files/5e/99/ccc8d42a38fc9905004ec6809f53.png",
+            "publicUrl": null,
+            "uuid": "9b706f1f-3590-4a57-b38c-77c1d94c7b4f"
+          },
+          "delayTime": null,
+          "deliveryRange": null,
+          "deliveryConditions": [
+            {
+              "title": "99 ₽ доставка",
+              "subtitle": "Минимальная корзина 99 ₽"
+            }
+          ],
+          "description": "Большой выбор: 10 000 товаров на все случаи"
+        },
+        "quantity": null,
+        "costString": null
+      },
+      {
+        "type": "pickup",
+        "title": "Самовывоз",
+        "subTitle": "Бесплатно",
+        "description": "Получить заказ сегодня в магазине",
+        "cost": null,
+        "minCost": null,
+        "maxCost": null,
+        "surge": false,
+        "surgeDescription": null,
+        "url": null,
+        "congestion": null,
+        "deliveryInfo": null,
+        "quantity": null,
+        "costString": null
+      },
+      {
+        "type": "catalog",
+        "title": "Магазин",
+        "subTitle": null,
+        "description": "Ассортимент и цены магазина",
+        "cost": null,
+        "minCost": null,
+        "maxCost": null,
+        "surge": false,
+        "surgeDescription": null,
+        "url": null,
+        "congestion": null,
+        "deliveryInfo": null,
+        "quantity": null,
+        "costString": null
+      }
+    ],
+    "congestion": null,
+    "deliveryInfo": {
+      "title": "Стандартная доставка",
+      "image": {
+        "id": 1167233,
+        "originName": "Frame 2158.png",
+        "fileType": "image",
+        "fileSize": 16496,
+        "width": 424,
+        "height": 560,
+        "cropUrlTemplate": "https://tsx.x5static.net/i/%s/xdelivery/files/5e/99/ccc8d42a38fc9905004ec6809f53.png",
+        "publicUrl": null,
+        "uuid": "9b706f1f-3590-4a57-b38c-77c1d94c7b4f"
+      },
+      "delayTime": null,
+      "deliveryRange": null,
+      "deliveryConditions": [
+        {
+          "title": "99 ₽ доставка",
+          "subtitle": "Минимальная корзина 99 ₽"
+        }
+      ],
+      "description": "Большой выбор: 10 000 товаров на все случаи"
+    },
+    "fastAlert": null
+  }
+}

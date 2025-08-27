@@ -1,0 +1,16 @@
+{
+  "content": {
+    "one": 2,
+    "two": 1,
+    "three": 6,
+    "four": 20,
+    "five": 533,
+    "total": 562,
+    "oneWithComment": 1,
+    "twoWithComment": 0,
+    "threeWithComment": 0,
+    "fourWithComment": 2,
+    "fiveWithComment": 19,
+    "totalWithComment": 22
+  }
+}

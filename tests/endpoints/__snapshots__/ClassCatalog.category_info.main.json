@@ -1,0 +1,249 @@
+{
+  "content": {
+    "category": {
+      "id": 1644,
+      "title": "Снова в школу",
+      "slug": "snova-v-skolu",
+      "parentId": null,
+      "smallImage": {
+        "id": 2463411,
+        "originName": "416.png",
+        "fileType": "image",
+        "fileSize": 115785,
+        "width": 416,
+        "height": 320,
+        "cropUrlTemplate": "https://tsx.x5static.net/i/%s/xdelivery/files/22/81/5b3f49a101a7e54972373e1bd603.png",
+        "publicUrl": null,
+        "uuid": "4c790953-662b-45c6-8c38-2800b84fb22b"
+      },
+      "bigImage": {
+        "id": 2463408,
+        "originName": "512х852.png",
+        "fileType": "image",
+        "fileSize": 675044,
+        "width": 512,
+        "height": 852,
+        "cropUrlTemplate": "https://tsx.x5static.net/i/%s/xdelivery/files/4c/06/xd614617889fb11537ce1fc48291.png",
+        "publicUrl": null,
+        "uuid": "55c29fb7-7bd4-4632-9588-f62442f20cba"
+      },
+      "squareSmallImage": {
+        "id": 2463410,
+        "originName": "330 (5).png",
+        "fileType": "image",
+        "fileSize": 100488,
+        "width": 330,
+        "height": 330,
+        "cropUrlTemplate": "https://tsx.x5static.net/i/%s/xdelivery/files/9e/6e/f40ce9c5a038fa3a8c99c7b8566d.png",
+        "publicUrl": null,
+        "uuid": "c48e2150-6ca1-4acd-912d-a8f542ea018e"
+      },
+      "isAlcohol": false,
+      "isTobacco": false,
+      "showInSearch": false,
+      "isAdultContent": false,
+      "backgroundColor": {
+        "red": 223,
+        "green": 236,
+        "blue": 251,
+        "alpha": 100
+      },
+      "textColor": {
+        "red": 0,
+        "green": 0,
+        "blue": 0,
+        "alpha": 100
+      },
+      "isLiquid": false,
+      "displayStyle": 1,
+      "subtitle": null,
+      "categoryImage": null,
+      "smallCategoryImage": null,
+      "deepLink": null,
+      "smallDisplayStyleForParent": false,
+      "isBigDesignStyle": false,
+      "isMarkingRequired": false
+    },
+    "hasAvailableProducts": true,
+    "children": [
+      {
+        "category": {
+          "id": 1645,
+          "title": "Собрать рюкзак",
+          "slug": "sobrat-rukzak",
+          "parentId": 1644,
+          "smallImage": null,
+          "bigImage": null,
+          "squareSmallImage": {
+            "id": 2463091,
+            "originName": "рюкзак (1).png",
+            "fileType": "image",
+            "fileSize": 61139,
+            "width": 224,
+            "height": 224,
+            "cropUrlTemplate": "https://tsx.x5static.net/i/%s/xdelivery/files/db/f9/8b92e21dab00617950754b8b2825.png",
+            "publicUrl": null,
+            "uuid": "592c286e-f6b9-4c3c-bcd0-ef058c58af4d"
+          },
+          "isAlcohol": false,
+          "isTobacco": false,
+          "showInSearch": false,
+          "isAdultContent": false,
+          "backgroundColor": {
+            "red": 255,
+            "green": 255,
+            "blue": 255,
+            "alpha": 100
+          },
+          "textColor": {
+            "red": 0,
+            "green": 0,
+            "blue": 0,
+            "alpha": 100
+          },
+          "isLiquid": false,
+          "displayStyle": 2,
+          "subtitle": null,
+          "categoryImage": null,
+          "smallCategoryImage": {
+            "id": 2463092,
+            "originName": "рюкзак (2).png",
+            "fileType": "image",
+            "fileSize": 82602,
+            "width": 327,
+            "height": 219,
+            "cropUrlTemplate": "https://tsx.x5static.net/i/%s/xdelivery/files/3a/ea/25621d2ef0a628689cc3e032b318.png",
+            "publicUrl": null,
+            "uuid": "dbe6ad40-beef-4f8c-bfa9-918d0a3f847c"
+          },
+          "deepLink": null,
+          "smallDisplayStyleForParent": false,
+          "isBigDesignStyle": false,
+          "isMarkingRequired": false
+        },
+        "hasAvailableProducts": true,
+        "children": [],
+        "promoProducts": null
+      },
+      {
+        "category": {
+          "id": 1647,
+          "title": "Взять с собой",
+          "slug": "vzat-s-soboj",
+          "parentId": 1644,
+          "smallImage": null,
+          "bigImage": null,
+          "squareSmallImage": {
+            "id": 2463093,
+            "originName": "взять с собой (1).png",
+            "fileType": "image",
+            "fileSize": 55559,
+            "width": 224,
+            "height": 224,
+            "cropUrlTemplate": "https://tsx.x5static.net/i/%s/xdelivery/files/28/0c/80343c44a393273df315acfb1857.png",
+            "publicUrl": null,
+            "uuid": "a04c594c-fe94-42e5-8cc1-675ca5e02df4"
+          },
+          "isAlcohol": false,
+          "isTobacco": false,
+          "showInSearch": false,
+          "isAdultContent": false,
+          "backgroundColor": {
+            "red": 255,
+            "green": 255,
+            "blue": 255,
+            "alpha": 100
+          },
+          "textColor": {
+            "red": 0,
+            "green": 0,
+            "blue": 0,
+            "alpha": 100
+          },
+          "isLiquid": false,
+          "displayStyle": 2,
+          "subtitle": null,
+          "categoryImage": null,
+          "smallCategoryImage": {
+            "id": 2463094,
+            "originName": "взять с собой (2).png",
+            "fileType": "image",
+            "fileSize": 121261,
+            "width": 327,
+            "height": 228,
+            "cropUrlTemplate": "https://tsx.x5static.net/i/%s/xdelivery/files/9f/6d/8f6988689163de8e189e21bd7a2b.png",
+            "publicUrl": null,
+            "uuid": "e03b71f0-653d-47db-aea7-c5a11b9c2773"
+          },
+          "deepLink": null,
+          "smallDisplayStyleForParent": false,
+          "isBigDesignStyle": false,
+          "isMarkingRequired": false
+        },
+        "hasAvailableProducts": true,
+        "children": [],
+        "promoProducts": null
+      },
+      {
+        "category": {
+          "id": 1649,
+          "title": "Подарки",
+          "slug": "podarki",
+          "parentId": 1644,
+          "smallImage": null,
+          "bigImage": null,
+          "squareSmallImage": {
+            "id": 2463095,
+            "originName": "подарки (1).png",
+            "fileType": "image",
+            "fileSize": 83337,
+            "width": 224,
+            "height": 224,
+            "cropUrlTemplate": "https://tsx.x5static.net/i/%s/xdelivery/files/72/96/4113ebc3291116cc1f37e2ba8ff7.png",
+            "publicUrl": null,
+            "uuid": "694029ec-65ee-4087-9bbe-5ebf3decdd08"
+          },
+          "isAlcohol": false,
+          "isTobacco": false,
+          "showInSearch": false,
+          "isAdultContent": false,
+          "backgroundColor": {
+            "red": 255,
+            "green": 255,
+            "blue": 255,
+            "alpha": 100
+          },
+          "textColor": {
+            "red": 0,
+            "green": 0,
+            "blue": 0,
+            "alpha": 100
+          },
+          "isLiquid": false,
+          "displayStyle": 2,
+          "subtitle": null,
+          "categoryImage": null,
+          "smallCategoryImage": {
+            "id": 2463096,
+            "originName": "подарки (2).png",
+            "fileType": "image",
+            "fileSize": 114778,
+            "width": 327,
+            "height": 228,
+            "cropUrlTemplate": "https://tsx.x5static.net/i/%s/xdelivery/files/45/bb/3b73f234d01aef59717ffe8f36e2.png",
+            "publicUrl": null,
+            "uuid": "7c423be9-9264-4a02-8e4e-523a56751514"
+          },
+          "deepLink": null,
+          "smallDisplayStyleForParent": false,
+          "isBigDesignStyle": false,
+          "isMarkingRequired": false
+        },
+        "hasAvailableProducts": true,
+        "children": [],
+        "promoProducts": null
+      }
+    ],
+    "promoProducts": null
+  }
+}

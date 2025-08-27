@@ -1,0 +1,18 @@
+{
+  "content": {
+    "uuid": "de8b2c95-5de7-4a4d-95c1-69d07d9138d6",
+    "x5id": null,
+    "isAnonymous": true,
+    "phone": null,
+    "deliveryMode": null,
+    "updatedAt": 1756253420314,
+    "justSignedUp": false,
+    "isProfileFilled": false,
+    "x5PacketSubscription": {
+      "status": 2,
+      "aboutUrl": null
+    },
+    "offlineShop": null,
+    "analyticsInfo": []
+  }
+}

@@ -1,0 +1,474 @@
+{
+  "content": {
+    "id": 61722,
+    "masterData": {
+      "slug": "tetrad-skolnaa-pzbm-a5-v-linejku-12-listov",
+      "plu": "3956331",
+      "unit": 1,
+      "unitName": "шт",
+      "quantum": 1000,
+      "quantumStep": 1000,
+      "weight": 29,
+      "volume": null,
+      "ui4code": "NF0701006",
+      "taxGroup": "BB",
+      "ownProduction": false,
+      "privateLabel": false,
+      "isMark": false,
+      "alcoSetUnits": null,
+      "activeNds": 10
+    },
+    "title": "Тетрадь школьная ПЗБМ A5 в линейку, 12 листов",
+    "briefTitle": null,
+    "description": "Тетрадь ученическая 12 листов. Формат А5+ (165 х 203 мм). Вид крепления-скрепка. Внутренний блок - бумага офсетная 92% белизны, плотностью 60гр/м2. Обложка - бумага обложечная зелёная, плотностью 80гр/м2.",
+    "plu": "3956331",
+    "rating": 492,
+    "primaryCategory": {
+      "id": 455,
+      "title": "Бумага, ручки, краски",
+      "slug": "bumaga-rucki-kraski",
+      "isAlcohol": false,
+      "isTobacco": false,
+      "isExciseAlcohol": false,
+      "isAdultContent": false,
+      "displayStyle": 2,
+      "catalogs": [
+        2,
+        4
+      ]
+    },
+    "catalogPrimaryCategory": {
+      "id": 53,
+      "title": "Канцелярия",
+      "slug": "kancelaria",
+      "isAlcohol": false,
+      "isTobacco": false,
+      "isExciseAlcohol": false,
+      "isAdultContent": false,
+      "displayStyle": 2,
+      "catalogs": [
+        1
+      ]
+    },
+    "primaryImage": {
+      "id": 1208978,
+      "originName": "3956331.jpg",
+      "fileType": "image",
+      "fileSize": 86636,
+      "width": 1600,
+      "height": 1600,
+      "cropUrlTemplate": "https://tsx.x5static.net/i/%s/xdelivery/files/fd/34/f7e8136494ba35200cafe8a29989.jpg",
+      "publicUrl": null,
+      "uuid": "b436ca4b-e923-445b-9fc7-08d3b7bf21f3"
+    },
+    "primaryMedia": {
+      "id": 1208978,
+      "originName": "3956331.jpg",
+      "fileType": "image",
+      "fileSize": 86636,
+      "width": 1600,
+      "height": 1600,
+      "cropUrlTemplate": "https://tsx.x5static.net/i/%s/xdelivery/files/fd/34/f7e8136494ba35200cafe8a29989.jpg",
+      "publicUrl": null,
+      "uuid": "b436ca4b-e923-445b-9fc7-08d3b7bf21f3"
+    },
+    "images": [
+      {
+        "id": 1208978,
+        "originName": "3956331.jpg",
+        "fileType": "image",
+        "fileSize": 86636,
+        "width": 1600,
+        "height": 1600,
+        "cropUrlTemplate": "https://tsx.x5static.net/i/%s/xdelivery/files/fd/34/f7e8136494ba35200cafe8a29989.jpg",
+        "publicUrl": null,
+        "uuid": "b436ca4b-e923-445b-9fc7-08d3b7bf21f3"
+      }
+    ],
+    "media": [
+      {
+        "id": 1208978,
+        "originName": "3956331.jpg",
+        "fileType": "image",
+        "fileSize": 86636,
+        "width": 1600,
+        "height": 1600,
+        "cropUrlTemplate": "https://tsx.x5static.net/i/%s/xdelivery/files/fd/34/f7e8136494ba35200cafe8a29989.jpg",
+        "publicUrl": null,
+        "uuid": "b436ca4b-e923-445b-9fc7-08d3b7bf21f3"
+      }
+    ],
+    "features": [
+      {
+        "title": "Состав",
+        "displayStyle": 1,
+        "items": [
+          {
+            "title": "Состав",
+            "hideTitle": true,
+            "collapseValue": false,
+            "key": "sostav",
+            "displayValues": [
+              "Бумага."
+            ],
+            "values": [
+              "Бумага."
+            ],
+            "enumIds": [],
+            "isSearchable": false,
+            "productBrand": null
+          }
+        ]
+      },
+      {
+        "title": "Информация",
+        "displayStyle": 3,
+        "items": [
+          {
+            "title": "Тип продукта",
+            "hideTitle": false,
+            "collapseValue": false,
+            "key": "tip-produkta",
+            "displayValues": [
+              "Тетрадь"
+            ],
+            "values": [
+              "tetrad"
+            ],
+            "enumIds": [
+              16939
+            ],
+            "isSearchable": true,
+            "productBrand": null
+          },
+          {
+            "title": "Вид",
+            "hideTitle": false,
+            "collapseValue": false,
+            "key": "vid",
+            "displayValues": [
+              "В линейку"
+            ],
+            "values": [
+              "v-linejku"
+            ],
+            "enumIds": [
+              55472
+            ],
+            "isSearchable": true,
+            "productBrand": null
+          },
+          {
+            "title": "Производитель",
+            "hideTitle": false,
+            "collapseValue": false,
+            "key": "proizvoditel",
+            "displayValues": [
+              "Полотняно-Заводская бумажная мануфактура"
+            ],
+            "values": [
+              "polotnano-zavodskaa-bumaznaa-manufaktura"
+            ],
+            "enumIds": [
+              16869
+            ],
+            "isSearchable": false,
+            "productBrand": null
+          },
+          {
+            "title": "Страна",
+            "hideTitle": false,
+            "collapseValue": false,
+            "key": "strana",
+            "displayValues": [
+              "Россия"
+            ],
+            "values": [
+              "rossia"
+            ],
+            "enumIds": [
+              187
+            ],
+            "isSearchable": false,
+            "productBrand": null
+          },
+          {
+            "title": "Пол",
+            "hideTitle": false,
+            "collapseValue": false,
+            "key": "pol",
+            "displayValues": [
+              "Унисекс"
+            ],
+            "values": [
+              "uniseks"
+            ],
+            "enumIds": [
+              16338
+            ],
+            "isSearchable": false,
+            "productBrand": null
+          },
+          {
+            "title": "Материал",
+            "hideTitle": false,
+            "collapseValue": false,
+            "key": "material",
+            "displayValues": [
+              "Бумага"
+            ],
+            "values": [
+              "bumaga"
+            ],
+            "enumIds": [
+              2845
+            ],
+            "isSearchable": false,
+            "productBrand": null
+          },
+          {
+            "title": "Набор",
+            "hideTitle": false,
+            "collapseValue": false,
+            "key": "nabor",
+            "displayValues": [
+              "Нет"
+            ],
+            "values": [
+              "net"
+            ],
+            "enumIds": [
+              2840
+            ],
+            "isSearchable": false,
+            "productBrand": null
+          },
+          {
+            "title": "Тип школьных принадлежностей",
+            "hideTitle": false,
+            "collapseValue": false,
+            "key": "tip-shkola",
+            "displayValues": [
+              "Тетрадь"
+            ],
+            "values": [
+              "tetrad"
+            ],
+            "enumIds": [
+              16941
+            ],
+            "isSearchable": false,
+            "productBrand": null
+          },
+          {
+            "title": "Материал корпуса",
+            "hideTitle": false,
+            "collapseValue": false,
+            "key": "material-korpusa",
+            "displayValues": [
+              "Бумага"
+            ],
+            "values": [
+              "bumaga"
+            ],
+            "enumIds": [
+              43633
+            ],
+            "isSearchable": false,
+            "productBrand": null
+          }
+        ]
+      },
+      {
+        "title": "Характеристики товара",
+        "displayStyle": 1,
+        "items": [
+          {
+            "title": "Кол-во в упаковке",
+            "hideTitle": false,
+            "collapseValue": false,
+            "key": "kol-vo-v-upakovke",
+            "displayValues": [
+              "1 шт"
+            ],
+            "values": [
+              "1"
+            ],
+            "enumIds": [],
+            "isSearchable": false,
+            "productBrand": null
+          },
+          {
+            "title": "Кол-во листов",
+            "hideTitle": false,
+            "collapseValue": false,
+            "key": "kol-vo-listov",
+            "displayValues": [
+              "12"
+            ],
+            "values": [
+              "12"
+            ],
+            "enumIds": [],
+            "isSearchable": false,
+            "productBrand": null
+          },
+          {
+            "title": "Формат",
+            "hideTitle": false,
+            "collapseValue": false,
+            "key": "format-bumaga",
+            "displayValues": [
+              "А5"
+            ],
+            "values": [
+              "a5"
+            ],
+            "enumIds": [
+              16940
+            ],
+            "isSearchable": true,
+            "productBrand": null
+          }
+        ]
+      },
+      {
+        "title": "Условия хранения",
+        "displayStyle": 3,
+        "items": [
+          {
+            "title": "Срок хранения макс.",
+            "hideTitle": false,
+            "collapseValue": false,
+            "key": "srok-hraneniya-maks",
+            "displayValues": [
+              "9999 дней"
+            ],
+            "values": [
+              "9999"
+            ],
+            "enumIds": [],
+            "isSearchable": false,
+            "productBrand": null
+          }
+        ]
+      },
+      {
+        "title": "Свойства товара",
+        "displayStyle": 3,
+        "items": [
+          {
+            "title": "Цвет",
+            "hideTitle": false,
+            "collapseValue": false,
+            "key": "tsvet",
+            "displayValues": [
+              "Зеленый"
+            ],
+            "values": [
+              "zelenyj"
+            ],
+            "enumIds": [
+              2932
+            ],
+            "isSearchable": true,
+            "productBrand": null
+          }
+        ]
+      }
+    ],
+    "mainCharacteristics": [],
+    "liked": false,
+    "isReviewAvailable": false,
+    "productReview": null,
+    "ratingCount": 562,
+    "reviewCount": 22,
+    "ratingCountAlias": "Более 100 оценок",
+    "borderStyle": null,
+    "medianPrice": 499,
+    "socialProof": null,
+    "labelCharacteristics": [],
+    "labelStock": null,
+    "labels": [],
+    "bestProductReview": {
+      "id": 43245476,
+      "rating": 500,
+      "comment": "Хорошие тетради, если кому важно, в крупную линию.",
+      "username": "",
+      "notes": [
+        {
+          "key": "Kachestvo",
+          "value": "Качество"
+        }
+      ],
+      "createdAt": 1728994445469,
+      "points": 0,
+      "approvedImages": [],
+      "reaction": {
+        "likes": 7,
+        "dislikes": 0,
+        "balance": 7,
+        "vote": 0,
+        "isAvailable": true
+      },
+      "isContent": false
+    },
+    "banner": null,
+    "cookingMethods": [],
+    "x5packetBanner": null,
+    "advToken": null,
+    "primaryInfo": [
+      {
+        "title": "Бумага, ручки, краски",
+        "subTitle": "Категория",
+        "image": {
+          "id": 1237098,
+          "originName": "Новый проект.png",
+          "fileType": "image",
+          "fileSize": 53768,
+          "width": 224,
+          "height": 224,
+          "cropUrlTemplate": "https://tsx.x5static.net/i/%s/xdelivery/files/3b/d3/fd4981f24b64b99a4eb3611a13ed.png",
+          "publicUrl": null,
+          "uuid": "2e08dc57-d0c8-4735-adf2-25dd8a77bfb7"
+        },
+        "deepLink": {
+          "tsx_type": "feed",
+          "category_id": 455
+        },
+        "eventInfo": [
+          {
+            "type": "click",
+            "name": "product_details_category_click",
+            "analyticsInfo": [
+              {
+                "name": "categoryName",
+                "type": "text",
+                "value": "Бумага, ручки, краски"
+              },
+              {
+                "name": "categoryId",
+                "type": "int",
+                "value": "455"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "analyticsInfo": [],
+    "video": [],
+    "availableAdditionalOption": null,
+    "balanceStock": 9000,
+    "priceTag": {
+      "price": 499,
+      "discountMinimumAmount": 0,
+      "grossPrice": null,
+      "labels": [],
+      "pricePerQuantum": null,
+      "grossPricePerQuantum": null,
+      "potentialPointsForOrangeCard": null
+    },
+    "balanceState": "many"
+  }
+}

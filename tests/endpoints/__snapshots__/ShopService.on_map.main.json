@@ -1,0 +1,234 @@
+{
+  "content": {
+    "items": [
+      {
+        "pickupPlaceInfo": null,
+        "id": 1235,
+        "title": "Аркадия",
+        "phone": "8 800-200-9555",
+        "address": "115184, Москва г, Большой Овчинниковский пер, Дом 16",
+        "electronicReceipt": false,
+        "schedule": "08:00:00 - 22:00:00",
+        "isDeliveryAvailable": false,
+        "isCatalogAvailable": true,
+        "isPickupAvailable": false,
+        "city": {
+          "id": 81,
+          "name": "Москва",
+          "slug": "moskva",
+          "location": {
+            "type": "Point",
+            "coordinates": [
+              37.6172999,
+              55.755826
+            ]
+          },
+          "area": null,
+          "isPrimary": true,
+          "key": "moskva"
+        },
+        "location": {
+          "type": "Point",
+          "coordinates": [
+            37.63002252,
+            55.74466361
+          ]
+        },
+        "metroStations": [],
+        "pickupOperationTime": null,
+        "withCafe": false,
+        "features": [],
+        "additionalOptions": []
+      },
+      {
+        "pickupPlaceInfo": {
+          "title": "Касса № 1",
+          "pickupPlaceDescription": null,
+          "pickupPlacePrimaryImage": {
+            "id": 368815,
+            "originName": "Касса самовывоза Новый Арбат.jpeg",
+            "fileType": "image",
+            "fileSize": 86174,
+            "width": 360,
+            "height": 480,
+            "cropUrlTemplate": "https://tsx.x5static.net/i/%s/xdelivery/files/c1/04/f494f649743f1796655b99c613b0.jpg",
+            "publicUrl": null,
+            "uuid": "b8883419-2f70-4a59-87dc-307edcff76f4"
+          },
+          "pickupPlaceSecondaryImage": null
+        },
+        "id": 595,
+        "title": "ул. Новый Арбат, д. 15",
+        "phone": "8 800-200-9555",
+        "address": "Москва, Новый арбат, д. 15 (Москвичка)",
+        "electronicReceipt": true,
+        "schedule": "8:00-23:00",
+        "isDeliveryAvailable": true,
+        "isCatalogAvailable": true,
+        "isPickupAvailable": true,
+        "city": {
+          "id": 81,
+          "name": "Москва",
+          "slug": "moskva",
+          "location": {
+            "type": "Point",
+            "coordinates": [
+              37.6172999,
+              55.755826
+            ]
+          },
+          "area": null,
+          "isPrimary": true,
+          "key": "moskva"
+        },
+        "location": {
+          "type": "Point",
+          "coordinates": [
+            37.592411,
+            55.752141
+          ]
+        },
+        "metroStations": [
+          {
+            "distance": null,
+            "name": "Арбатская",
+            "lineColor": null
+          }
+        ],
+        "pickupOperationTime": {
+          "from": "08:00",
+          "to": "22:00"
+        },
+        "withCafe": true,
+        "features": [
+          {
+            "id": 1,
+            "key": "picca",
+            "title": "Пицца",
+            "description": null,
+            "showOnPublicMap": true
+          },
+          {
+            "id": 2,
+            "key": "rolly",
+            "title": "Роллы",
+            "description": null,
+            "showOnPublicMap": true
+          },
+          {
+            "id": 3,
+            "key": "shaurma",
+            "title": "Шаурма",
+            "description": null,
+            "showOnPublicMap": true
+          },
+          {
+            "id": 5,
+            "key": "kafe",
+            "title": "Кафе",
+            "description": null,
+            "showOnPublicMap": true
+          },
+          {
+            "id": 9,
+            "key": "priem-staryh-zubnyh-shchetok",
+            "title": "Приём старых зубных щеток",
+            "description": null,
+            "showOnPublicMap": false
+          },
+          {
+            "id": 10,
+            "key": "konteiner-dobrye-kryshechki",
+            "title": "Контейнер \"Добрые крышечки\"",
+            "description": null,
+            "showOnPublicMap": false
+          },
+          {
+            "id": 6,
+            "key": "priem-batareek",
+            "title": "Приём батареек",
+            "description": null,
+            "showOnPublicMap": false
+          }
+        ],
+        "additionalOptions": [
+          {
+            "id": 2,
+            "key": "sausage-slicing",
+            "status": 1,
+            "title": "Нарезать колбасу",
+            "titleForBasket": "Нарезать колбасу",
+            "image": {
+              "id": 1327425,
+              "originName": "Иконки лейблов (3).png",
+              "fileType": "image",
+              "fileSize": 2891,
+              "width": 80,
+              "height": 80,
+              "cropUrlTemplate": "https://tsx.x5static.net/i/%s/xdelivery/files/2f/56/006301e140be3a0833fa83de4136.png",
+              "publicUrl": null,
+              "uuid": "2cf4b542-5c58-4245-871e-b90e74d7fe9c"
+            },
+            "detailTitle": "Порежем колбасу на тонкие кусочки толщиной 1-2 мм.",
+            "detailDescription": "Привезем на подложке, завернутую в пищевую пленку с датой и временем нарезки.",
+            "detailImage": {
+              "id": 1327426,
+              "originName": "image 1889.png",
+              "fileType": "image",
+              "fileSize": 852337,
+              "width": 1308,
+              "height": 640,
+              "cropUrlTemplate": "https://tsx.x5static.net/i/%s/xdelivery/files/47/d9/96ed9b7981d340a36307f31d9a2d.png",
+              "publicUrl": null,
+              "uuid": "be825211-dfd1-4acc-8de9-08ac8a4f1eee"
+            }
+          }
+        ]
+      },
+      {
+        "pickupPlaceInfo": null,
+        "id": 1236,
+        "title": "Перекресток Селект",
+        "phone": "8 800-200-9555",
+        "address": "Москва, Долгоруковская улица, 5",
+        "electronicReceipt": false,
+        "schedule": "8:00-23:00",
+        "isDeliveryAvailable": false,
+        "isCatalogAvailable": true,
+        "isPickupAvailable": false,
+        "city": {
+          "id": 81,
+          "name": "Москва",
+          "slug": "moskva",
+          "location": {
+            "type": "Point",
+            "coordinates": [
+              37.6172999,
+              55.755826
+            ]
+          },
+          "area": null,
+          "isPrimary": true,
+          "key": "moskva"
+        },
+        "location": {
+          "type": "Point",
+          "coordinates": [
+            37.603163,
+            55.772993
+          ]
+        },
+        "metroStations": [],
+        "pickupOperationTime": null,
+        "withCafe": false,
+        "features": [],
+        "additionalOptions": []
+      }
+    ],
+    "paginator": {
+      "step": 3,
+      "current": 1,
+      "nextPageExists": true
+    }
+  }
+}

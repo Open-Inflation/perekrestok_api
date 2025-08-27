@@ -1,0 +1,22 @@
+{
+  "content": {
+    "isDeliveryAvailable": true,
+    "isPickupAvailable": true,
+    "city": {
+      "id": 81,
+      "name": "Москва",
+      "slug": "moskva",
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          37.6172999,
+          55.755826
+        ]
+      },
+      "area": null,
+      "isPrimary": true,
+      "key": "moskva"
+    },
+    "isChosen": false
+  }
+}
