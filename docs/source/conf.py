@@ -1,32 +1,19 @@
-# Configuration file for the Sphinx documentation builder.
-#
-# For the full list of built-in configuration values, see the documentation:
-# https://www.sphinx-doc.org/en/master/usage/configuration.html
-
-# -- Project information -----------------------------------------------------
-# https://www.sphinx-doc.org/en/master/usage/configuration.html#project-information
 
 project = 'Perekrestok API'
-copyright = '2025, miskler'
-author = 'miskler'
+author = 'Miskler'
+copyright = '2025, Miskler'
+from perekrestok_api import __version__
+release   = __version__
 
-# -- General configuration ---------------------------------------------------
-# https://www.sphinx-doc.org/en/master/usage/configuration.html#general-configuration
 
 extensions = [
     'sphinx.ext.autodoc',
     'sphinx.ext.autosummary',
     'sphinx.ext.napoleon',  # если есть Google/Numpy-стиль докстрингов
     "enum_tools.autoenum",
-    'myst_parser',
     'jsoncrack_for_sphinx',  # для визуализации JSON-схем
 ]
-source_suffix = {
-    '.rst': 'restructuredtext',
-    '.md': 'markdown',
-}
 toc_object_entries = True                 # заставляем Sphinx добавлять объекты в локальный TOC
-toc_object_entries_show_parents = "hide"  # короткие имена (без module.Class.) :contentReference[oaicite:0]{index=0}
 autosummary_generate = True
 autosummary_imported_members = True
 autodoc_default_options = {          # чтобы не писать :members: в каждом файле
@@ -41,22 +28,49 @@ autodoc_attr_value_cutoff    = 80       # не обрезать repr короч�
 
 
 nitpicky = True
+# ──────────────────────────────────────────────────────────────────────────────
+# Theme / HTML
+# ──────────────────────────────────────────────────────────────────────────────
+html_theme       = "furo"
+html_static_path = ["_static"]
+html_theme_options = {
+    "light_logo": "logo-day.svg",
+    "dark_logo":  "logo-night.svg",
+    "sidebar_hide_name": True,
 
-toc_object_entries = True                # выводим классы/функции в локальный TOC
-toc_object_entries_show_parents = "hide" # не писать module.Class.method() :contentReference[oaicite:0]{index=0}
+    "source_repository": "https://github.com/Open-Inflation/perekrestok_api",
+    "source_branch": "main",
+    "source_directory": "docs/",
 
-templates_path = ['_templates']
-exclude_patterns = ['_build', 'Thumbs.db', '.DS_Store']
+    "globaltoc_collapse": False,
+    "dark_css_variables": {},
+}
+templates_path   = ["_templates"]
 
 
-python_maximum_signature_line_length = 30
+# ──────────────────────────────────────────────────────────────────────────────
+# Навигация и compact-style
+# ──────────────────────────────────────────────────────────────────────────────
+add_module_names                     = False        # compare() → Config
+toc_object_entries_show_parents      = "hide"       # короче TOC
+python_use_unqualified_type_names    = True         # Config, а не jsonschema_diff.core.Config
+multi_line_parameter_list            = True         # каждый аргумент с новой строки
+python_maximum_signature_line_length = 60           # длина, после которой рвём строку
+
+# ──────────────────────────────────────────────────────────────────────────────
+# Type-hints
+# ──────────────────────────────────────────────────────────────────────────────
+autodoc_typehints = "signature"      # str / Dict[...] остаются в сигнатуре
+typehints_fqcn    = False            # короткие имена в хинтах
 
 
-autodoc_typehints = "signature"   # типы (и | None) → в сигнатуру
-autodoc_preserve_defaults = True  # показывает реальные default, а не …
-typehints_defaults = None      # в field-list останется пометка “, optional”
-typehints_use_rtype = False       # return-type остаётся в сигнатуре, не дублируется
-napoleon_use_rtype = False
+# ──────────────────────────────────────────────────────────────────────────────
+# Intersphinx – ссылки на stdlib / typing
+# ──────────────────────────────────────────────────────────────────────────────
+intersphinx_mapping = {
+    "python": ("https://docs.python.org/3", None),
+}
+
 
 
 # Configure the schema directory for examples
@@ -67,7 +81,7 @@ from jsoncrack_for_sphinx.config import RenderMode, Directions, Theme, Container
 
 jsoncrack_default_options = {
     'render': RenderConfig(
-        mode=RenderMode.OnScreen(threshold=0.1, margin='50px')
+        mode=RenderMode.OnClick()
     ),
     'container': ContainerConfig(
         direction=Directions.DOWN,
@@ -75,9 +89,7 @@ jsoncrack_default_options = {
         width='100%'
     ),
     'theme': Theme.AUTO,
-    'search_policy': SearchPolicy(
-        include_path_to_file=False
-    ),
+    'search_policy': SearchPolicy(custom_patterns=['{class_name}.{method_name}.main.json']),
     'autodoc_ignore': [
         'perekrestok_api.abstraction',
         'perekrestok_api.PerekrestokAPI',
@@ -85,16 +97,8 @@ jsoncrack_default_options = {
 }
 
 
-html_theme = "furo"
-html_logo = './static/logo-label.svg'
-
-
-html_theme_options = {
-    "globaltoc_collapse": False,
-    "dark_css_variables": {},
-}
-html_static_path = ['static']
-
+from sphinx.roles import XRefRole
 def setup(app):
-    ...
+    app.add_role("pyclass", XRefRole("class"))
+    app.add_role("pyfunc", XRefRole("func"))
     #app.add_css_file("tighten.css")

@@ -36,7 +36,9 @@ dependencies = [
 tests = [
     "pytest",
     "pytest-asyncio",
-    "pytest-typed-schema-shot",
+    "pytest-jsonschema-snapshot",
+    "jsoncrack-for-sphinx",
+    "furo"
 ]
 
 [project.urls]

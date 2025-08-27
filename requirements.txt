@@ -2,9 +2,11 @@ hrequests[all]
 requests
 
 pytest
-pytest-typed-schema-shot
+pytest-jsonschema-snapshot
 coverage
 coverage-badge
 sphinx
 sphinx-autoapi
 myst-parser
+jsoncrack-for-sphinx
+furo
