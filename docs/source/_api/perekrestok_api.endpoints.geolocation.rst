@@ -4,6 +4,13 @@
 .. automodule:: perekrestok_api.endpoints.geolocation
 
    
+   .. rubric:: Functions
+
+   .. autosummary::
+   
+      quote
+      unquote
+   
    .. rubric:: Classes
 
    .. autosummary::
