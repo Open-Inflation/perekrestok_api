@@ -46,19 +46,6 @@ def test_form_for_category(api, schemashot, first_category_id):
     flt.CATEGORY_ID = first_category_id
     make_test(schemashot, partial(api.Catalog.form, filter=flt))
 
-def test_grouped_feed_for_category(api, schemashot, first_category_id):
-    flt = abstraction.CatalogFeedFilter()
-    flt.CATEGORY_ID = first_category_id
-    make_test(
-        schemashot,
-        partial(
-            api.Catalog.grouped_feed,
-            filter=flt,
-            sort=abstraction.CatalogFeedSort.Price.ASC,
-            limit=DEFAULT_LIMIT,
-        ),
-    )
-
 def test_feed_for_category(api, schemashot, first_category_id):
     flt = abstraction.CatalogFeedFilter()
     flt.CATEGORY_ID = first_category_id

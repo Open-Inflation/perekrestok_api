@@ -1,0 +1,20 @@
+{
+  "content": {
+    "items": [
+      {
+        "title": "Москва",
+        "fullAddress": "Москва",
+        "location": {
+          "type": "Point",
+          "coordinates": [
+            37.617698,
+            55.755864
+          ]
+        },
+        "isMaxPrecision": false,
+        "street": null,
+        "house": null
+      }
+    ]
+  }
+}

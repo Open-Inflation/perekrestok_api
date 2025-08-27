@@ -1,6 +1,7 @@
 """Геолокация"""
 from .. import abstraction
 from hrequests import Response
+from urllib.parse import quote, unquote
 
 
 class ClassGeolocation:
@@ -42,7 +43,7 @@ class ClassGeolocation:
         Args:
             search: Текст для поиска адресов
         """
-        url = f"{self.CATALOG_URL}/geocoder/suggests?search={search}"
+        url = f"{self.CATALOG_URL}/geocoder/suggests?search={quote(search)}"
         return self._parent._request("GET", url)
 
     def search(self, search: str, limit: int = 40) -> Response:
@@ -52,7 +53,7 @@ class ClassGeolocation:
             search: Название города для поиска
             limit: Максимальное количество результатов
         """
-        url = f"{self.CATALOG_URL}/geo/city?search={search}&limit={limit}"
+        url = f"{self.CATALOG_URL}/geo/city?search={quote(search)}&limit={limit}"
         return self._parent._request("GET", url)
 
 class ShopService:

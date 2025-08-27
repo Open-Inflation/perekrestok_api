@@ -17,16 +17,8 @@ MOSCOW_DELIVERY_POINT = abstraction.Geoposition(latitude=55.7655519, longitude=3
         pytest.param(lambda api: api.Geolocation.delivery_address, id="delivery_address"),
         pytest.param(lambda api: partial(api.Geolocation.Selection.delivery_info, MOSCOW_CENTER), id="delivery_info"),
         pytest.param(lambda api: partial(api.Geolocation.address_from_position, MOSCOW_CENTER), id="address_from_position"),
-        pytest.param(
-            lambda api: partial(api.Geolocation.suggests, "москва"),
-            id="suggests",
-            marks=pytest.mark.xfail(reason="API периодически отвечает HTML вместо JSON (антибот)"),
-        ),
-        pytest.param(
-            lambda api: partial(api.Geolocation.search, "москва", limit=5),
-            id="search",
-            marks=pytest.mark.xfail(reason="API периодически отвечает HTML вместо JSON (антибот)"),
-        ),
+        pytest.param(lambda api: partial(api.Geolocation.suggests, "москва"), id="suggests"),
+        pytest.param(lambda api: partial(api.Geolocation.search, "москва", limit=5), id="search"),
         pytest.param(lambda api: api.Geolocation.Shop.all, id="shop_all"),
         pytest.param(lambda api: api.Geolocation.Shop.features, id="shop_features"),
         pytest.param(
