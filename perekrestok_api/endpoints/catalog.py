@@ -53,32 +53,6 @@ class ClassCatalog:
         body.update(sort)
         return self._parent._request("POST", url, json_body=body)
 
-    def grouped_feed(
-        self,
-        filter: abstraction.CatalogFeedFilter,
-        sort: abstraction.CatalogFeedSort = abstraction.CatalogFeedSort.Popularity.ASC,
-        page: int = 1,
-        limit: int = 100,
-        with_best_reviews_only: bool = False,
-    ) -> Response:
-        """
-        Получение фида товаров с фильтрами и сортировкой.
-        Работает исключительно с ПОДКАТЕГОРИЯМИ, а не с категориями. Использование ID категории приведет к status 400.
-        
-        Схема ленты с группировкой товаров. 
-        Товары объединяются в группы (например, по акции, бренду или категории), каждая с отдельным заголовком и дополнительными данными. 
-        Используется для отображения блоков с собственными заголовками, промо, клубными предложениями и акцентами на группах.
-        """
-        url = f"{self.CATALOG_URL}/catalog/product/grouped-feed"
-        body = {
-            "filter": filter.as_dict(),
-            "page": page,
-            "perPage": limit,
-            "withBestProductReviews": with_best_reviews_only,
-        }
-        body.update(sort)
-        return self._parent._request("POST", url, json_body=body)
-
     def form(
         self,
         filter: abstraction.CatalogFeedFilter,
