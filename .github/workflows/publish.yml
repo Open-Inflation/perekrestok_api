@@ -53,8 +53,7 @@ jobs:
       - name: Upload Pages artifact
         uses: actions/upload-pages-artifact@v3
         with:
-          path: |
-            docs/_build/html
+          path: docs/_build/html
   deploy-docs:
     if: ${{ github.event.inputs.target == 'docs' || github.event.inputs.target == 'all' }}
     name: Deploy docs to GitHub Pages
