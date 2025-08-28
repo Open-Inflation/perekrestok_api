@@ -1,7 +1,8 @@
+<div align="center">
+
 # Perekrestok API (not official)
 
 [![Tests](https://github.com/Open-Inflation/perekrestok_api/actions/workflows/check-tests.yml/badge.svg)](https://github.com/Open-Inflation/perekrestok_api/actions/workflows/check-tests.yml)
-[![Coverage](https://img.shields.io/badge/coverage-tested%20daily-brightgreen?logo=pytest&logoColor=white)](https://github.com/Open-Inflation/perekrestok_api/actions/workflows/check-tests.yml)
 ![PyPI - Python Version](https://img.shields.io/pypi/pyversions/perekrestok_api)
 ![PyPI - Package Version](https://img.shields.io/pypi/v/perekrestok_api?color=blue)
 [![PyPI - Downloads](https://img.shields.io/pypi/dm/perekrestok_api?label=PyPi%20downloads)](https://pypi.org/project/perekrestok-api/)
@@ -11,12 +12,19 @@
 
 Perekrestok (Перекрёсток) - https://www.perekrestok.ru/
 
+**[⭐ Star us on GitHub](https://github.com/Open-Inflation/perekrestok_api)** | **[📚 Read the Docs](https://Open-Inflation/perekrestok_api.github.io/)** | **[🐛 Report Bug](https://github.com/Open-Inflation/perekrestok_api/issues)**
+
 ### Принцип работы
+
+</div>
 
 > Библиотека полностью повторяет сетевую работу обычного пользователя на сайте.
 
+<div align="center">
 
-# Usage / Использование
+# Usage
+
+</div>
 
 ```py
 from perekrestok_api import PerekrestokAPI
@@ -55,10 +63,14 @@ if __name__ == "__main__":
 > Первый товар: Пиво Василеостровское Тройной пшеничный эль нефильтрованное 6.9%, 750мл (66750)
 ```
 
+Для более подробной информации смотрите референсы [документации](https://Open-Inflation/perekrestok_api.github.io/).
+
 ---
 
-### Report / Обратная связь
+<div align="center">
+
+### Report
 
 If you have any problems using it / suggestions, do not hesitate to write to the [project's GitHub](https://github.com/Open-Inflation/perekrestok_api/issues)!
 
-Если у вас возникнут проблемы в использовании / пожелания, не стесняйтесь писать на [GitHub проекта](https://github.com/Open-Inflation/perekrestok_api/issues)!
+</div>

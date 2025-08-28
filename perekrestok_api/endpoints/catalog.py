@@ -8,6 +8,11 @@ class ClassCatalog:
     
     Включает поиск товаров, получение информации о категориях,
     работу с фидами товаров и отзывами.
+
+    Attributes
+    ----------
+    Product : ProductService
+        Сервис для работы с товарами в каталоге.
     """
     def __init__(self, parent, CATALOG_URL: str):
         self._parent = parent

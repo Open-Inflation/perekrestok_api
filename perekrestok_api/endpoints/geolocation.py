@@ -9,6 +9,13 @@ class ClassGeolocation:
     
     Включает получение информации о городах, адресах, поиск магазинов
     и управление настройками доставки.
+
+    Attributes
+    ----------
+    Selection : GeolocationSelection
+        Доступ к методам выбора точек доставки и магазинов.
+    Shop : ShopService
+        Доступ к методам работы с магазинами.
     """
     def __init__(self, parent, CATALOG_URL: str):
         self._parent = parent
