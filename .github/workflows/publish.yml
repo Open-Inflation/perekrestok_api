@@ -44,18 +44,11 @@ jobs:
       - name: Install deps
         run: |
           python -m pip install --upgrade pip
-          if [ -f docs/requirements.txt ]; then pip install -r docs/requirements.txt; fi
-          pip install -e ".[dev]" || pip install -e .
-          pip install sphinx || true
-      - name: Build docs (prefer `make docs`)
+          pip install -r docs/requirements.txt
+          make install-dev
+      - name: Build docs
         run: |
-          if make -n docs >/dev/null 2>&1; then
-            make docs
-          elif [ -d docs ]; then
-            make -C docs html || (cd docs && sphinx-build -b html source _build/html)
-          else
-            echo "::error::No docs directory and no 'make docs' target"; exit 1
-          fi
+          make docs
       - name: Upload Pages artifact
         uses: actions/upload-pages-artifact@v3
         with:
