@@ -26,6 +26,10 @@ Perekrestok (Перекрёсток) - https://www.perekrestok.ru/
 
 </div>
 
+```bash
+pip install perekrestok_api
+```
+
 ```py
 from perekrestok_api import PerekrestokAPI
 from perekrestok_api import abstraction
