@@ -28,6 +28,7 @@ Perekrestok (Перекрёсток) - https://www.perekrestok.ru/
 
 ```bash
 pip install perekrestok_api
+python -m hrequests install
 ```
 
 ```py
