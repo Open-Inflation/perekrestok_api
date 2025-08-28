@@ -213,7 +213,6 @@ jsoncrack_default_options = {
     "search_policy": SearchPolicy(custom_patterns=['{class_name}.{method_name}.main.json']),
     "autodoc_ignore": [
         "perekrestok_api.abstraction",
-        "perekrestok_api.PerekrestokAPI",
     ],
 }
 

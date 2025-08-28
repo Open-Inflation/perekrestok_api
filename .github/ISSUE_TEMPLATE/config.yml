@@ -1,0 +1,9 @@
+blank_issues_enabled: false
+
+contact_links:
+  - name: 📖  Read the docs
+    url:  https://miskler.github.io/jsonschema-diff/basic/quick_start/
+    about: Start here for “how-to” questions.
+  - name: 💬  Discord server (Discussions)
+    url:  https://discord.gg/UnJnGHNbBp
+    about: General Q&A and community support.
