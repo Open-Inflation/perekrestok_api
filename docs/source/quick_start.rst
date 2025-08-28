@@ -3,7 +3,8 @@ Quick Start
 
 .. code-block:: console
 
-   pip install perekrestok_api
+    pip install perekrestok_api
+    python -m hrequests install
 
 .. code-block:: python
     
