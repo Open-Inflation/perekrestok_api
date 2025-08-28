@@ -3,3 +3,4 @@ sphinx-autoapi
 jsoncrack-for-sphinx
 furo
 enum-tools
+sphinx_toolbox
