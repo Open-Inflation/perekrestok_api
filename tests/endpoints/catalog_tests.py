@@ -35,6 +35,16 @@ def first_subcategory_id(api, schemashot, first_category_id) -> int:
     data = resp.json()
     return data["content"]["items"][0]["children"][0]["category"]["id"]
 
+def test_preview_feed(api, schemashot, first_category_id):
+    make_test(
+        schemashot,
+        partial(
+            api.Catalog.preview_feed,
+            first_category_id
+        ),
+        name="preview_feed",
+    )
+
 def test_category_info(api, schemashot, first_category_id):
     make_test(schemashot, partial(api.Catalog.category_info, first_category_id))
 

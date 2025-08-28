@@ -44,7 +44,7 @@ tests = [
 [project.urls]
 Homepage = "https://github.com/Open-Inflation/perekrestok_api"
 Repository = "https://github.com/Open-Inflation/perekrestok_api"
-Documentation = "https://open-inflation.github.io/perekrestok_api/"
+Documentation = "https://open-inflation.github.io/perekrestok_api/quick_start"
 
 [tool.setuptools.dynamic]
 version = { attr = "perekrestok_api.__version__" }

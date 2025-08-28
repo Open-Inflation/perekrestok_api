@@ -1,0 +1,2634 @@
+{
+  "content": {
+    "category": {
+      "id": 1644,
+      "title": "Снова в школу",
+      "slug": "snova-v-skolu",
+      "isAlcohol": false,
+      "isTobacco": false,
+      "isExciseAlcohol": false,
+      "isAdultContent": false,
+      "displayStyle": 1,
+      "catalogs": [
+        1
+      ]
+    },
+    "items": [
+      {
+        "category": {
+          "id": 1645,
+          "title": "Собрать рюкзак",
+          "slug": "sobrat-rukzak",
+          "isAlcohol": false,
+          "isTobacco": false,
+          "isExciseAlcohol": false,
+          "isAdultContent": false,
+          "displayStyle": 2,
+          "catalogs": [
+            1
+          ]
+        },
+        "count": 202,
+        "products": [
+          {
+            "liked": false,
+            "borderStyle": null,
+            "bestReview": null,
+            "advToken": null,
+            "id": 31681,
+            "masterData": {
+              "slug": "salfetki-vlaznye-antibakterialnye-home-story-15st",
+              "plu": "3976937",
+              "unit": 1,
+              "unitName": "шт",
+              "quantum": 1000,
+              "quantumStep": 1000,
+              "weight": 67,
+              "volume": null,
+              "ui4code": "FD0915006",
+              "taxGroup": "BL",
+              "ownProduction": false,
+              "privateLabel": true,
+              "isMark": true,
+              "alcoSetUnits": null,
+              "activeNds": 20
+            },
+            "title": "Салфетки влажные антибактериальные Home Story, 15шт",
+            "primaryCategory": {
+              "id": 444,
+              "title": "Бумага и салфетки",
+              "slug": "bumaga-i-salfetki",
+              "isAlcohol": false,
+              "isTobacco": false,
+              "isExciseAlcohol": false,
+              "isAdultContent": false,
+              "displayStyle": 2,
+              "catalogs": [
+                2,
+                4
+              ]
+            },
+            "catalogPrimaryCategory": {
+              "id": 97,
+              "title": "Бумажная и ватная продукция",
+              "slug": "bumaznaa-i-vatnaa-produkcia",
+              "isAlcohol": false,
+              "isTobacco": false,
+              "isExciseAlcohol": false,
+              "isAdultContent": false,
+              "displayStyle": 2,
+              "catalogs": [
+                1
+              ]
+            },
+            "image": {
+              "id": 557267,
+              "originName": "3976937_1.jpg",
+              "fileType": "image",
+              "fileSize": 559873,
+              "width": 1600,
+              "height": 1600,
+              "cropUrlTemplate": "https://tsx.x5static.net/i/%s/xdelivery/files/2e/bd/da5d6577cf616004613df5716a56.jpg",
+              "publicUrl": null,
+              "uuid": "940556e9-39b1-4e13-a243-e11d4669ae8c"
+            },
+            "rating": 494,
+            "medianPrice": 3999,
+            "labelCharacteristics": [],
+            "labels": [],
+            "reviewCount": 364,
+            "ratingCount": 11618,
+            "priceTag": {
+              "price": 4999,
+              "discountMinimumAmount": 0,
+              "grossPrice": null,
+              "labels": [],
+              "pricePerQuantum": null,
+              "grossPricePerQuantum": null,
+              "potentialPointsForOrangeCard": null
+            },
+            "balanceState": "many"
+          },
+          {
+            "liked": false,
+            "borderStyle": null,
+            "bestReview": null,
+            "advToken": null,
+            "id": 29930,
+            "masterData": {
+              "slug": "salfetki-vlaznye-antisepticeskie-home-story-20st",
+              "plu": "3917869",
+              "unit": 1,
+              "unitName": "шт",
+              "quantum": 1000,
+              "quantumStep": 1000,
+              "weight": 110,
+              "volume": null,
+              "ui4code": "FD0915006",
+              "taxGroup": "BL",
+              "ownProduction": false,
+              "privateLabel": true,
+              "isMark": true,
+              "alcoSetUnits": null,
+              "activeNds": 20
+            },
+            "title": "Салфетки влажные антисептические Home Story, 20шт",
+            "primaryCategory": {
+              "id": 444,
+              "title": "Бумага и салфетки",
+              "slug": "bumaga-i-salfetki",
+              "isAlcohol": false,
+              "isTobacco": false,
+              "isExciseAlcohol": false,
+              "isAdultContent": false,
+              "displayStyle": 2,
+              "catalogs": [
+                2,
+                4
+              ]
+            },
+            "catalogPrimaryCategory": {
+              "id": 97,
+              "title": "Бумажная и ватная продукция",
+              "slug": "bumaznaa-i-vatnaa-produkcia",
+              "isAlcohol": false,
+              "isTobacco": false,
+              "isExciseAlcohol": false,
+              "isAdultContent": false,
+              "displayStyle": 2,
+              "catalogs": [
+                1
+              ]
+            },
+            "image": {
+              "id": 557111,
+              "originName": "3917869_1.jpg",
+              "fileType": "image",
+              "fileSize": 651888,
+              "width": 1600,
+              "height": 1600,
+              "cropUrlTemplate": "https://tsx.x5static.net/i/%s/xdelivery/files/e2/90/5b72ee70749262c1c267cf5cd5b3.jpg",
+              "publicUrl": null,
+              "uuid": "b97b36f6-ad70-4752-be76-1f621570a1b4"
+            },
+            "rating": 491,
+            "medianPrice": 8299,
+            "labelCharacteristics": [],
+            "labels": [],
+            "reviewCount": 105,
+            "ratingCount": 3774,
+            "priceTag": {
+              "price": 8199,
+              "discountMinimumAmount": 0,
+              "grossPrice": null,
+              "labels": [],
+              "pricePerQuantum": null,
+              "grossPricePerQuantum": null,
+              "potentialPointsForOrangeCard": null
+            },
+            "balanceState": "many"
+          },
+          {
+            "liked": false,
+            "borderStyle": null,
+            "bestReview": null,
+            "advToken": null,
+            "id": 482017,
+            "masterData": {
+              "slug": "brelok-labubu-13-sm-v-assortimente",
+              "plu": "4416655",
+              "unit": 1,
+              "unitName": "шт",
+              "quantum": 1000,
+              "quantumStep": 1000,
+              "weight": 120,
+              "volume": null,
+              "ui4code": "NF0512001",
+              "taxGroup": "BL",
+              "ownProduction": false,
+              "privateLabel": false,
+              "isMark": false,
+              "alcoSetUnits": null,
+              "activeNds": 20
+            },
+            "title": "Брелок Лабубу 13 см, в ассортименте",
+            "primaryCategory": {
+              "id": 438,
+              "title": "Игры, игрушки",
+              "slug": "igry-igruski",
+              "isAlcohol": false,
+              "isTobacco": false,
+              "isExciseAlcohol": false,
+              "isAdultContent": false,
+              "displayStyle": 2,
+              "catalogs": [
+                2,
+                4
+              ]
+            },
+            "catalogPrimaryCategory": {
+              "id": 232,
+              "title": "Игрушки",
+              "slug": "igruski",
+              "isAlcohol": false,
+              "isTobacco": false,
+              "isExciseAlcohol": false,
+              "isAdultContent": false,
+              "displayStyle": 2,
+              "catalogs": [
+                1
+              ]
+            },
+            "image": {
+              "id": 2402849,
+              "originName": "4416655_4.jpg",
+              "fileType": "image",
+              "fileSize": 128723,
+              "width": 1600,
+              "height": 1600,
+              "cropUrlTemplate": "https://tsx.x5static.net/i/%s/xdelivery/files/5b/7c/77d27283296697657ec0b7e3572f.jpg",
+              "publicUrl": null,
+              "uuid": "d82cf975-9bbb-4351-b468-79da94f85cbf"
+            },
+            "rating": 468,
+            "medianPrice": 79999,
+            "labelCharacteristics": [],
+            "labels": [],
+            "reviewCount": 3,
+            "ratingCount": 37,
+            "priceTag": {
+              "price": 79999,
+              "discountMinimumAmount": 0,
+              "grossPrice": 99999,
+              "labels": [
+                {
+                  "type": "yellow",
+                  "text": "-20%"
+                }
+              ],
+              "pricePerQuantum": null,
+              "grossPricePerQuantum": null,
+              "potentialPointsForOrangeCard": null
+            },
+            "balanceState": "many"
+          },
+          {
+            "liked": false,
+            "borderStyle": null,
+            "bestReview": null,
+            "advToken": null,
+            "id": 482015,
+            "masterData": {
+              "slug": "brelok-labubu-17-sm-v-assortimente",
+              "plu": "4416657",
+              "unit": 1,
+              "unitName": "шт",
+              "quantum": 1000,
+              "quantumStep": 1000,
+              "weight": 120,
+              "volume": null,
+              "ui4code": "NF0512001",
+              "taxGroup": "BL",
+              "ownProduction": false,
+              "privateLabel": false,
+              "isMark": false,
+              "alcoSetUnits": null,
+              "activeNds": 20
+            },
+            "title": "Брелок Лабубу 17 см, в ассортименте",
+            "primaryCategory": {
+              "id": 438,
+              "title": "Игры, игрушки",
+              "slug": "igry-igruski",
+              "isAlcohol": false,
+              "isTobacco": false,
+              "isExciseAlcohol": false,
+              "isAdultContent": false,
+              "displayStyle": 2,
+              "catalogs": [
+                2,
+                4
+              ]
+            },
+            "catalogPrimaryCategory": null,
+            "image": {
+              "id": 2399563,
+              "originName": "4416657.jpg",
+              "fileType": "image",
+              "fileSize": 165662,
+              "width": 1600,
+              "height": 1600,
+              "cropUrlTemplate": "https://tsx.x5static.net/i/%s/xdelivery/files/90/61/331b0e4973c40da88a38abe16284.jpg",
+              "publicUrl": null,
+              "uuid": "c2efcd99-d9ff-4b5e-b94c-808e5e0763f8"
+            },
+            "rating": 470,
+            "medianPrice": 79999,
+            "labelCharacteristics": [],
+            "labels": [],
+            "reviewCount": 4,
+            "ratingCount": 43,
+            "priceTag": {
+              "price": 79999,
+              "discountMinimumAmount": 0,
+              "grossPrice": 99999,
+              "labels": [
+                {
+                  "type": "yellow",
+                  "text": "-20%"
+                }
+              ],
+              "pricePerQuantum": null,
+              "grossPricePerQuantum": null,
+              "potentialPointsForOrangeCard": null
+            },
+            "balanceState": "many"
+          },
+          {
+            "liked": false,
+            "borderStyle": null,
+            "bestReview": null,
+            "advToken": null,
+            "id": 296824,
+            "masterData": {
+              "slug": "salfetki-vlaznye-s-ekstraktom-cajnogo-dereva-antibakterialnye-home-story-15st",
+              "plu": "4166484",
+              "unit": 1,
+              "unitName": "шт",
+              "quantum": 1000,
+              "quantumStep": 1000,
+              "weight": 93,
+              "volume": null,
+              "ui4code": "FD0915006",
+              "taxGroup": "BL",
+              "ownProduction": false,
+              "privateLabel": true,
+              "isMark": false,
+              "alcoSetUnits": null,
+              "activeNds": 20
+            },
+            "title": "Салфетки влажные с экстрактом чайного дерева антибактериальные Home Story, 15шт",
+            "primaryCategory": {
+              "id": 444,
+              "title": "Бумага и салфетки",
+              "slug": "bumaga-i-salfetki",
+              "isAlcohol": false,
+              "isTobacco": false,
+              "isExciseAlcohol": false,
+              "isAdultContent": false,
+              "displayStyle": 2,
+              "catalogs": [
+                2,
+                4
+              ]
+            },
+            "catalogPrimaryCategory": {
+              "id": 97,
+              "title": "Бумажная и ватная продукция",
+              "slug": "bumaznaa-i-vatnaa-produkcia",
+              "isAlcohol": false,
+              "isTobacco": false,
+              "isExciseAlcohol": false,
+              "isAdultContent": false,
+              "displayStyle": 2,
+              "catalogs": [
+                1
+              ]
+            },
+            "image": {
+              "id": 557574,
+              "originName": "4166484_1.jpg",
+              "fileType": "image",
+              "fileSize": 1232073,
+              "width": 1600,
+              "height": 1600,
+              "cropUrlTemplate": "https://tsx.x5static.net/i/%s/xdelivery/files/54/21/ab37a048f8fd4571839bc27cxd7b.jpg",
+              "publicUrl": null,
+              "uuid": "190fb2a7-a6f5-4050-9fea-4f37e6271f8f"
+            },
+            "rating": 496,
+            "medianPrice": 5999,
+            "labelCharacteristics": [],
+            "labels": [],
+            "reviewCount": 104,
+            "ratingCount": 2449,
+            "priceTag": {
+              "price": 5999,
+              "discountMinimumAmount": 0,
+              "grossPrice": null,
+              "labels": [],
+              "pricePerQuantum": null,
+              "grossPricePerQuantum": null,
+              "potentialPointsForOrangeCard": null
+            },
+            "balanceState": "many"
+          },
+          {
+            "liked": false,
+            "borderStyle": null,
+            "bestReview": null,
+            "advToken": null,
+            "id": 267685,
+            "masterData": {
+              "slug": "platki-nosovye-bumaznye-eco-story-4-sloa-10st",
+              "plu": "4069753",
+              "unit": 1,
+              "unitName": "шт",
+              "quantum": 1000,
+              "quantumStep": 1000,
+              "weight": 23,
+              "volume": null,
+              "ui4code": "FD0915007",
+              "taxGroup": "BL",
+              "ownProduction": false,
+              "privateLabel": true,
+              "isMark": false,
+              "alcoSetUnits": null,
+              "activeNds": 20
+            },
+            "title": "Платки носовые бумажные Eco Story 4 слоя, 10шт",
+            "primaryCategory": {
+              "id": 444,
+              "title": "Бумага и салфетки",
+              "slug": "bumaga-i-salfetki",
+              "isAlcohol": false,
+              "isTobacco": false,
+              "isExciseAlcohol": false,
+              "isAdultContent": false,
+              "displayStyle": 2,
+              "catalogs": [
+                2,
+                4
+              ]
+            },
+            "catalogPrimaryCategory": {
+              "id": 97,
+              "title": "Бумажная и ватная продукция",
+              "slug": "bumaznaa-i-vatnaa-produkcia",
+              "isAlcohol": false,
+              "isTobacco": false,
+              "isExciseAlcohol": false,
+              "isAdultContent": false,
+              "displayStyle": 2,
+              "catalogs": [
+                1
+              ]
+            },
+            "image": {
+              "id": 372145,
+              "originName": "Шаблон фона (3) (29).jpg",
+              "fileType": "image",
+              "fileSize": 105005,
+              "width": 1600,
+              "height": 1600,
+              "cropUrlTemplate": "https://tsx.x5static.net/i/%s/xdelivery/files/3b/51/4701975a22858531b388da0aa054.jpg",
+              "publicUrl": null,
+              "uuid": "c8dfc3ca-f1d1-4554-8320-fdab4e5162a7"
+            },
+            "rating": 493,
+            "medianPrice": 2999,
+            "labelCharacteristics": [],
+            "labels": [],
+            "reviewCount": 158,
+            "ratingCount": 4186,
+            "priceTag": {
+              "price": 2999,
+              "discountMinimumAmount": 0,
+              "grossPrice": null,
+              "labels": [],
+              "pricePerQuantum": null,
+              "grossPricePerQuantum": null,
+              "potentialPointsForOrangeCard": null
+            },
+            "balanceState": "many"
+          },
+          {
+            "liked": false,
+            "borderStyle": null,
+            "bestReview": null,
+            "advToken": null,
+            "id": 482016,
+            "masterData": {
+              "slug": "brelok-labubu-16-sm-v-assortimente",
+              "plu": "4416656",
+              "unit": 1,
+              "unitName": "шт",
+              "quantum": 1000,
+              "quantumStep": 1000,
+              "weight": 120,
+              "volume": null,
+              "ui4code": "NF0512001",
+              "taxGroup": "BL",
+              "ownProduction": false,
+              "privateLabel": false,
+              "isMark": false,
+              "alcoSetUnits": null,
+              "activeNds": 20
+            },
+            "title": "Брелок Лабубу 16 см, в ассортименте",
+            "primaryCategory": {
+              "id": 438,
+              "title": "Игры, игрушки",
+              "slug": "igry-igruski",
+              "isAlcohol": false,
+              "isTobacco": false,
+              "isExciseAlcohol": false,
+              "isAdultContent": false,
+              "displayStyle": 2,
+              "catalogs": [
+                2,
+                4
+              ]
+            },
+            "catalogPrimaryCategory": null,
+            "image": {
+              "id": 2399561,
+              "originName": "4416656.jpg",
+              "fileType": "image",
+              "fileSize": 151462,
+              "width": 1600,
+              "height": 1600,
+              "cropUrlTemplate": "https://tsx.x5static.net/i/%s/xdelivery/files/5b/8d/ed7e3052645ce0805f538dff3d9d.jpg",
+              "publicUrl": null,
+              "uuid": "d01966a0-83bc-472e-b4a9-043de5604312"
+            },
+            "rating": 489,
+            "medianPrice": 79999,
+            "labelCharacteristics": [],
+            "labels": [],
+            "reviewCount": 4,
+            "ratingCount": 35,
+            "priceTag": {
+              "price": 79999,
+              "discountMinimumAmount": 0,
+              "grossPrice": 99999,
+              "labels": [
+                {
+                  "type": "yellow",
+                  "text": "-20%"
+                }
+              ],
+              "pricePerQuantum": null,
+              "grossPricePerQuantum": null,
+              "potentialPointsForOrangeCard": null
+            },
+            "balanceState": "many"
+          },
+          {
+            "liked": false,
+            "borderStyle": null,
+            "bestReview": null,
+            "advToken": null,
+            "id": 35223,
+            "masterData": {
+              "slug": "platki-nosovye-bumaznye-3-sloa-home-story-10st",
+              "plu": "4022007",
+              "unit": 1,
+              "unitName": "шт",
+              "quantum": 1000,
+              "quantumStep": 1000,
+              "weight": 180,
+              "volume": null,
+              "ui4code": "FD0915007",
+              "taxGroup": "BL",
+              "ownProduction": false,
+              "privateLabel": true,
+              "isMark": false,
+              "alcoSetUnits": null,
+              "activeNds": 20
+            },
+            "title": "Платки носовые бумажные 3 слоя Home Story, 10шт",
+            "primaryCategory": {
+              "id": 444,
+              "title": "Бумага и салфетки",
+              "slug": "bumaga-i-salfetki",
+              "isAlcohol": false,
+              "isTobacco": false,
+              "isExciseAlcohol": false,
+              "isAdultContent": false,
+              "displayStyle": 2,
+              "catalogs": [
+                2,
+                4
+              ]
+            },
+            "catalogPrimaryCategory": {
+              "id": 97,
+              "title": "Бумажная и ватная продукция",
+              "slug": "bumaznaa-i-vatnaa-produkcia",
+              "isAlcohol": false,
+              "isTobacco": false,
+              "isExciseAlcohol": false,
+              "isAdultContent": false,
+              "displayStyle": 2,
+              "catalogs": [
+                1
+              ]
+            },
+            "image": {
+              "id": 557297,
+              "originName": "4022007_0.jpg",
+              "fileType": "image",
+              "fileSize": 716984,
+              "width": 1600,
+              "height": 1600,
+              "cropUrlTemplate": "https://tsx.x5static.net/i/%s/xdelivery/files/84/ea/cf287ed85f155a2cf5fc86f36411.jpg",
+              "publicUrl": null,
+              "uuid": "119479b5-9233-41ea-9032-098e703c7235"
+            },
+            "rating": 493,
+            "medianPrice": 12999,
+            "labelCharacteristics": [],
+            "labels": [],
+            "reviewCount": 125,
+            "ratingCount": 3005,
+            "priceTag": {
+              "price": 12999,
+              "discountMinimumAmount": 0,
+              "grossPrice": null,
+              "labels": [],
+              "pricePerQuantum": null,
+              "grossPricePerQuantum": null,
+              "potentialPointsForOrangeCard": null
+            },
+            "balanceState": "many"
+          }
+        ]
+      },
+      {
+        "category": {
+          "id": 1647,
+          "title": "Взять с собой",
+          "slug": "vzat-s-soboj",
+          "isAlcohol": false,
+          "isTobacco": false,
+          "isExciseAlcohol": false,
+          "isAdultContent": false,
+          "displayStyle": 2,
+          "catalogs": [
+            1
+          ]
+        },
+        "count": 426,
+        "products": [
+          {
+            "liked": false,
+            "borderStyle": null,
+            "bestReview": null,
+            "advToken": null,
+            "id": 32227,
+            "masterData": {
+              "slug": "banany",
+              "plu": "3757",
+              "unit": 2,
+              "unitName": "кг",
+              "quantum": 500,
+              "quantumStep": 200,
+              "weight": null,
+              "volume": null,
+              "ui4code": "FR0907004",
+              "taxGroup": "BL",
+              "ownProduction": false,
+              "privateLabel": true,
+              "isMark": false,
+              "alcoSetUnits": null,
+              "activeNds": 20
+            },
+            "title": "Бананы",
+            "primaryCategory": {
+              "id": 367,
+              "title": "Фрукты, ягоды",
+              "slug": "frukty-agody",
+              "isAlcohol": false,
+              "isTobacco": false,
+              "isExciseAlcohol": false,
+              "isAdultContent": false,
+              "displayStyle": 2,
+              "catalogs": [
+                2,
+                4
+              ]
+            },
+            "catalogPrimaryCategory": {
+              "id": 153,
+              "title": "Фрукты",
+              "slug": "frukty",
+              "isAlcohol": false,
+              "isTobacco": false,
+              "isExciseAlcohol": false,
+              "isAdultContent": false,
+              "displayStyle": 2,
+              "catalogs": [
+                1
+              ]
+            },
+            "image": {
+              "id": 2092824,
+              "originName": "3757 (2)_1.jpg",
+              "fileType": "image",
+              "fileSize": 624594,
+              "width": 1600,
+              "height": 1600,
+              "cropUrlTemplate": "https://tsx.x5static.net/i/%s/xdelivery/files/47/b8/d0a22708c5f41ce73a38a4306b8e.jpg",
+              "publicUrl": null,
+              "uuid": "8e810936-1cd6-4af4-b9d4-b56a0978f92d"
+            },
+            "rating": 491,
+            "medianPrice": 14999,
+            "labelCharacteristics": [],
+            "labels": [],
+            "reviewCount": 5359,
+            "ratingCount": 198698,
+            "priceTag": {
+              "price": 14999,
+              "discountMinimumAmount": 0,
+              "grossPrice": null,
+              "labels": [],
+              "pricePerQuantum": null,
+              "grossPricePerQuantum": null,
+              "potentialPointsForOrangeCard": null
+            },
+            "balanceState": "many"
+          },
+          {
+            "liked": false,
+            "borderStyle": null,
+            "bestReview": null,
+            "advToken": null,
+            "id": 34772,
+            "masterData": {
+              "slug": "nektariny-uzbekistan",
+              "plu": "3639748",
+              "unit": 2,
+              "unitName": "кг",
+              "quantum": 200,
+              "quantumStep": 100,
+              "weight": null,
+              "volume": null,
+              "ui4code": "FR0907005",
+              "taxGroup": "BB",
+              "ownProduction": false,
+              "privateLabel": false,
+              "isMark": false,
+              "alcoSetUnits": null,
+              "activeNds": 10
+            },
+            "title": "Нектарины Узбекистан",
+            "primaryCategory": {
+              "id": 367,
+              "title": "Фрукты, ягоды",
+              "slug": "frukty-agody",
+              "isAlcohol": false,
+              "isTobacco": false,
+              "isExciseAlcohol": false,
+              "isAdultContent": false,
+              "displayStyle": 2,
+              "catalogs": [
+                2,
+                4
+              ]
+            },
+            "catalogPrimaryCategory": {
+              "id": 153,
+              "title": "Фрукты",
+              "slug": "frukty",
+              "isAlcohol": false,
+              "isTobacco": false,
+              "isExciseAlcohol": false,
+              "isAdultContent": false,
+              "displayStyle": 2,
+              "catalogs": [
+                1
+              ]
+            },
+            "image": {
+              "id": 1833753,
+              "originName": "3639748 (9).jpg",
+              "fileType": "image",
+              "fileSize": 890166,
+              "width": 1600,
+              "height": 1600,
+              "cropUrlTemplate": "https://tsx.x5static.net/i/%s/xdelivery/files/3b/ce/231741e455d843ed46e04ebc633b.jpg",
+              "publicUrl": null,
+              "uuid": "0dfb744c-a04a-4c6e-9a17-f676fe710bb5"
+            },
+            "rating": 481,
+            "medianPrice": 18999,
+            "labelCharacteristics": [],
+            "labels": [],
+            "reviewCount": 1641,
+            "ratingCount": 19619,
+            "priceTag": {
+              "price": 17999,
+              "discountMinimumAmount": 0,
+              "grossPrice": null,
+              "labels": [],
+              "pricePerQuantum": null,
+              "grossPricePerQuantum": null,
+              "potentialPointsForOrangeCard": null
+            },
+            "balanceState": "many"
+          },
+          {
+            "liked": false,
+            "borderStyle": null,
+            "bestReview": null,
+            "advToken": null,
+            "id": 32296,
+            "masterData": {
+              "slug": "vinograd-kis-mis-cernyj",
+              "plu": "57580",
+              "unit": 2,
+              "unitName": "кг",
+              "quantum": 200,
+              "quantumStep": 100,
+              "weight": null,
+              "volume": null,
+              "ui4code": "FR0908001",
+              "taxGroup": "BB",
+              "ownProduction": false,
+              "privateLabel": false,
+              "isMark": false,
+              "alcoSetUnits": null,
+              "activeNds": 10
+            },
+            "title": "Виноград Киш-миш чёрный",
+            "primaryCategory": {
+              "id": 367,
+              "title": "Фрукты, ягоды",
+              "slug": "frukty-agody",
+              "isAlcohol": false,
+              "isTobacco": false,
+              "isExciseAlcohol": false,
+              "isAdultContent": false,
+              "displayStyle": 2,
+              "catalogs": [
+                2,
+                4
+              ]
+            },
+            "catalogPrimaryCategory": {
+              "id": 153,
+              "title": "Фрукты",
+              "slug": "frukty",
+              "isAlcohol": false,
+              "isTobacco": false,
+              "isExciseAlcohol": false,
+              "isAdultContent": false,
+              "displayStyle": 2,
+              "catalogs": [
+                1
+              ]
+            },
+            "image": {
+              "id": 1831675,
+              "originName": "57580 (8).jpg",
+              "fileType": "image",
+              "fileSize": 1127591,
+              "width": 1600,
+              "height": 1600,
+              "cropUrlTemplate": "https://tsx.x5static.net/i/%s/xdelivery/files/19/bd/f58242c3c1566a1d4exdb9e313d8.jpg",
+              "publicUrl": null,
+              "uuid": "cf86fad4-5c5e-4a6f-9132-dd3baa0c2a09"
+            },
+            "rating": 487,
+            "medianPrice": 13999,
+            "labelCharacteristics": [],
+            "labels": [],
+            "reviewCount": 1049,
+            "ratingCount": 12052,
+            "priceTag": {
+              "price": 13999,
+              "discountMinimumAmount": 0,
+              "grossPrice": 18999,
+              "labels": [
+                {
+                  "type": "yellow",
+                  "text": "-26%"
+                }
+              ],
+              "pricePerQuantum": null,
+              "grossPricePerQuantum": null,
+              "potentialPointsForOrangeCard": null
+            },
+            "balanceState": "many"
+          },
+          {
+            "liked": false,
+            "borderStyle": null,
+            "bestReview": null,
+            "advToken": null,
+            "id": 34761,
+            "masterData": {
+              "slug": "nektariny",
+              "plu": "79108",
+              "unit": 2,
+              "unitName": "кг",
+              "quantum": 200,
+              "quantumStep": 100,
+              "weight": null,
+              "volume": null,
+              "ui4code": "FR0907005",
+              "taxGroup": "BB",
+              "ownProduction": false,
+              "privateLabel": false,
+              "isMark": false,
+              "alcoSetUnits": null,
+              "activeNds": 10
+            },
+            "title": "Нектарины",
+            "primaryCategory": {
+              "id": 367,
+              "title": "Фрукты, ягоды",
+              "slug": "frukty-agody",
+              "isAlcohol": false,
+              "isTobacco": false,
+              "isExciseAlcohol": false,
+              "isAdultContent": false,
+              "displayStyle": 2,
+              "catalogs": [
+                2,
+                4
+              ]
+            },
+            "catalogPrimaryCategory": {
+              "id": 153,
+              "title": "Фрукты",
+              "slug": "frukty",
+              "isAlcohol": false,
+              "isTobacco": false,
+              "isExciseAlcohol": false,
+              "isAdultContent": false,
+              "displayStyle": 2,
+              "catalogs": [
+                1
+              ]
+            },
+            "image": {
+              "id": 1701375,
+              "originName": "DSC00115 копия.jpg",
+              "fileType": "image",
+              "fileSize": 1574256,
+              "width": 1600,
+              "height": 1600,
+              "cropUrlTemplate": "https://tsx.x5static.net/i/%s/xdelivery/files/04/2b/ff60be8ed7250c3819dbf9ab9901.jpg",
+              "publicUrl": null,
+              "uuid": "434546ad-d3b9-46ba-a43d-0a5d9100b751"
+            },
+            "rating": 472,
+            "medianPrice": 21999,
+            "labelCharacteristics": [],
+            "labels": [],
+            "reviewCount": 2316,
+            "ratingCount": 38924,
+            "priceTag": {
+              "price": 21999,
+              "discountMinimumAmount": 0,
+              "grossPrice": 25999,
+              "labels": [
+                {
+                  "type": "yellow",
+                  "text": "-15%"
+                }
+              ],
+              "pricePerQuantum": null,
+              "grossPricePerQuantum": null,
+              "potentialPointsForOrangeCard": null
+            },
+            "balanceState": "many"
+          },
+          {
+            "liked": false,
+            "borderStyle": null,
+            "bestReview": null,
+            "advToken": null,
+            "id": 403114,
+            "masterData": {
+              "slug": "persik-inzirnyj",
+              "plu": "4295869",
+              "unit": 2,
+              "unitName": "кг",
+              "quantum": 300,
+              "quantumStep": 100,
+              "weight": null,
+              "volume": null,
+              "ui4code": "FR0907005",
+              "taxGroup": "BB",
+              "ownProduction": false,
+              "privateLabel": false,
+              "isMark": false,
+              "alcoSetUnits": null,
+              "activeNds": 10
+            },
+            "title": "Персик Инжирный",
+            "primaryCategory": {
+              "id": 367,
+              "title": "Фрукты, ягоды",
+              "slug": "frukty-agody",
+              "isAlcohol": false,
+              "isTobacco": false,
+              "isExciseAlcohol": false,
+              "isAdultContent": false,
+              "displayStyle": 2,
+              "catalogs": [
+                2,
+                4
+              ]
+            },
+            "catalogPrimaryCategory": {
+              "id": 153,
+              "title": "Фрукты",
+              "slug": "frukty",
+              "isAlcohol": false,
+              "isTobacco": false,
+              "isExciseAlcohol": false,
+              "isAdultContent": false,
+              "displayStyle": 2,
+              "catalogs": [
+                1
+              ]
+            },
+            "image": {
+              "id": 1143929,
+              "originName": "Шаблон - 2023-05-30T182514.203.jpg",
+              "fileType": "image",
+              "fileSize": 708390,
+              "width": 1600,
+              "height": 1600,
+              "cropUrlTemplate": "https://tsx.x5static.net/i/%s/xdelivery/files/10/b4/dafc58363af6f24eb0f0a2cec8aa.jpg",
+              "publicUrl": null,
+              "uuid": "a129a19f-f943-45fc-9ef6-989cf36e3316"
+            },
+            "rating": 480,
+            "medianPrice": 24999,
+            "labelCharacteristics": [],
+            "labels": [],
+            "reviewCount": 1553,
+            "ratingCount": 15003,
+            "priceTag": {
+              "price": 24999,
+              "discountMinimumAmount": 0,
+              "grossPrice": null,
+              "labels": [],
+              "pricePerQuantum": null,
+              "grossPricePerQuantum": null,
+              "potentialPointsForOrangeCard": null
+            },
+            "balanceState": "many"
+          },
+          {
+            "liked": false,
+            "borderStyle": null,
+            "bestReview": null,
+            "advToken": null,
+            "id": 32215,
+            "masterData": {
+              "slug": "banany-fasovannye",
+              "plu": "3639749",
+              "unit": 2,
+              "unitName": "кг",
+              "quantum": 1200,
+              "quantumStep": 1000,
+              "weight": null,
+              "volume": null,
+              "ui4code": "FR0907004",
+              "taxGroup": "BL",
+              "ownProduction": false,
+              "privateLabel": true,
+              "isMark": false,
+              "alcoSetUnits": null,
+              "activeNds": 20
+            },
+            "title": "Бананы фасованные",
+            "primaryCategory": {
+              "id": 367,
+              "title": "Фрукты, ягоды",
+              "slug": "frukty-agody",
+              "isAlcohol": false,
+              "isTobacco": false,
+              "isExciseAlcohol": false,
+              "isAdultContent": false,
+              "displayStyle": 2,
+              "catalogs": [
+                2,
+                4
+              ]
+            },
+            "catalogPrimaryCategory": {
+              "id": 153,
+              "title": "Фрукты",
+              "slug": "frukty",
+              "isAlcohol": false,
+              "isTobacco": false,
+              "isExciseAlcohol": false,
+              "isAdultContent": false,
+              "displayStyle": 2,
+              "catalogs": [
+                1
+              ]
+            },
+            "image": {
+              "id": 449839,
+              "originName": "3639749_1.jpg",
+              "fileType": "image",
+              "fileSize": 838633,
+              "width": 1600,
+              "height": 1600,
+              "cropUrlTemplate": "https://tsx.x5static.net/i/%s/xdelivery/files/b8/38/d724916ac41d49851933ee2cc763.jpg",
+              "publicUrl": null,
+              "uuid": "d76e0965-e737-471b-b46e-a17754912473"
+            },
+            "rating": 491,
+            "medianPrice": 13999,
+            "labelCharacteristics": [],
+            "labels": [],
+            "reviewCount": 3022,
+            "ratingCount": 103864,
+            "priceTag": {
+              "price": 13999,
+              "discountMinimumAmount": 0,
+              "grossPrice": null,
+              "labels": [],
+              "pricePerQuantum": null,
+              "grossPricePerQuantum": null,
+              "potentialPointsForOrangeCard": null
+            },
+            "balanceState": "many"
+          },
+          {
+            "liked": false,
+            "borderStyle": null,
+            "bestReview": null,
+            "advToken": null,
+            "id": 46109,
+            "masterData": {
+              "slug": "voda-svatoj-istocnik-klucevaa-pitevaa-negazirovannaa-500ml",
+              "plu": "1914",
+              "unit": 1,
+              "unitName": "шт",
+              "quantum": 1000,
+              "quantumStep": 1000,
+              "weight": 500,
+              "volume": 500,
+              "ui4code": "FD0802002",
+              "taxGroup": "BL",
+              "ownProduction": false,
+              "privateLabel": false,
+              "isMark": true,
+              "alcoSetUnits": null,
+              "activeNds": 20
+            },
+            "title": "Вода Святой источник ключевая питьевая негазированная, 500мл",
+            "primaryCategory": {
+              "id": 424,
+              "title": "Вода",
+              "slug": "voda",
+              "isAlcohol": false,
+              "isTobacco": false,
+              "isExciseAlcohol": false,
+              "isAdultContent": false,
+              "displayStyle": 2,
+              "catalogs": [
+                2,
+                4
+              ]
+            },
+            "catalogPrimaryCategory": {
+              "id": 208,
+              "title": "Вода",
+              "slug": "voda",
+              "isAlcohol": false,
+              "isTobacco": false,
+              "isExciseAlcohol": false,
+              "isAdultContent": false,
+              "displayStyle": 2,
+              "catalogs": [
+                1
+              ]
+            },
+            "image": {
+              "id": 1992750,
+              "originName": "1914_0.jpg",
+              "fileType": "image",
+              "fileSize": 245331,
+              "width": 1600,
+              "height": 1600,
+              "cropUrlTemplate": "https://tsx.x5static.net/i/%s/xdelivery/files/cd/04/a62bd5169ae929cdafb54f2ddba4.jpg",
+              "publicUrl": null,
+              "uuid": "c765e4e5-25c0-44ca-9bd3-542589560f26"
+            },
+            "rating": 495,
+            "medianPrice": 4399,
+            "labelCharacteristics": [],
+            "labels": [],
+            "reviewCount": 641,
+            "ratingCount": 28379,
+            "priceTag": {
+              "price": 3899,
+              "discountMinimumAmount": 0,
+              "grossPrice": null,
+              "labels": [],
+              "pricePerQuantum": null,
+              "grossPricePerQuantum": null,
+              "potentialPointsForOrangeCard": null
+            },
+            "balanceState": "many"
+          },
+          {
+            "liked": false,
+            "borderStyle": null,
+            "bestReview": null,
+            "advToken": null,
+            "id": 32108,
+            "masterData": {
+              "slug": "apelsiny",
+              "plu": "1535",
+              "unit": 2,
+              "unitName": "кг",
+              "quantum": 300,
+              "quantumStep": 100,
+              "weight": null,
+              "volume": null,
+              "ui4code": "FR0908005",
+              "taxGroup": "BB",
+              "ownProduction": false,
+              "privateLabel": false,
+              "isMark": false,
+              "alcoSetUnits": null,
+              "activeNds": 10
+            },
+            "title": "Апельсины",
+            "primaryCategory": {
+              "id": 367,
+              "title": "Фрукты, ягоды",
+              "slug": "frukty-agody",
+              "isAlcohol": false,
+              "isTobacco": false,
+              "isExciseAlcohol": false,
+              "isAdultContent": false,
+              "displayStyle": 2,
+              "catalogs": [
+                2,
+                4
+              ]
+            },
+            "catalogPrimaryCategory": {
+              "id": 153,
+              "title": "Фрукты",
+              "slug": "frukty",
+              "isAlcohol": false,
+              "isTobacco": false,
+              "isExciseAlcohol": false,
+              "isAdultContent": false,
+              "displayStyle": 2,
+              "catalogs": [
+                1
+              ]
+            },
+            "image": {
+              "id": 1933256,
+              "originName": "DSC00522.jpg",
+              "fileType": "image",
+              "fileSize": 1570352,
+              "width": 3000,
+              "height": 2958,
+              "cropUrlTemplate": "https://tsx.x5static.net/i/%s/xdelivery/files/d2/0a/8e785da452be823e2c932a24bfac.jpg",
+              "publicUrl": null,
+              "uuid": "a4ca9ebf-285e-408a-bdaa-ab9766b2f852"
+            },
+            "rating": 486,
+            "medianPrice": 15999,
+            "labelCharacteristics": [],
+            "labels": [],
+            "reviewCount": 4115,
+            "ratingCount": 83105,
+            "priceTag": {
+              "price": 15999,
+              "discountMinimumAmount": 0,
+              "grossPrice": 18999,
+              "labels": [
+                {
+                  "type": "yellow",
+                  "text": "-15%"
+                }
+              ],
+              "pricePerQuantum": null,
+              "grossPricePerQuantum": null,
+              "potentialPointsForOrangeCard": null
+            },
+            "balanceState": "many"
+          }
+        ]
+      },
+      {
+        "category": {
+          "id": 1649,
+          "title": "Подарки",
+          "slug": "podarki",
+          "isAlcohol": false,
+          "isTobacco": false,
+          "isExciseAlcohol": false,
+          "isAdultContent": false,
+          "displayStyle": 2,
+          "catalogs": [
+            1
+          ]
+        },
+        "count": 233,
+        "products": [
+          {
+            "liked": false,
+            "borderStyle": null,
+            "bestReview": null,
+            "advToken": null,
+            "id": 429381,
+            "masterData": {
+              "slug": "tort-leberge-praga-580g",
+              "plu": "4346907",
+              "unit": 1,
+              "unitName": "шт",
+              "quantum": 1000,
+              "quantumStep": 1000,
+              "weight": 580,
+              "volume": null,
+              "ui4code": "FR0502002",
+              "taxGroup": "BL",
+              "ownProduction": false,
+              "privateLabel": false,
+              "isMark": false,
+              "alcoSetUnits": null,
+              "activeNds": 20
+            },
+            "title": "Торт Leberge Прага, 580г",
+            "primaryCategory": {
+              "id": 401,
+              "title": "Торты, пирожные",
+              "slug": "torty-piroznye",
+              "isAlcohol": false,
+              "isTobacco": false,
+              "isExciseAlcohol": false,
+              "isAdultContent": false,
+              "displayStyle": 2,
+              "catalogs": [
+                2,
+                4
+              ]
+            },
+            "catalogPrimaryCategory": {
+              "id": 201,
+              "title": "Торты",
+              "slug": "torty",
+              "isAlcohol": false,
+              "isTobacco": false,
+              "isExciseAlcohol": false,
+              "isAdultContent": false,
+              "displayStyle": 2,
+              "catalogs": [
+                1
+              ]
+            },
+            "image": {
+              "id": 2189342,
+              "originName": "4346907 (1).jpg",
+              "fileType": "image",
+              "fileSize": 194982,
+              "width": 1600,
+              "height": 1600,
+              "cropUrlTemplate": "https://tsx.x5static.net/i/%s/xdelivery/files/50/5d/de56502e4ebe505c297312a11f73.jpg",
+              "publicUrl": null,
+              "uuid": "ace3f72e-56b4-4ca9-b24c-963cc0a5cc54"
+            },
+            "rating": 463,
+            "medianPrice": 79999,
+            "labelCharacteristics": [],
+            "labels": [],
+            "reviewCount": 152,
+            "ratingCount": 720,
+            "priceTag": {
+              "price": 79999,
+              "discountMinimumAmount": 0,
+              "grossPrice": null,
+              "labels": [],
+              "pricePerQuantum": null,
+              "grossPricePerQuantum": null,
+              "potentialPointsForOrangeCard": null
+            },
+            "balanceState": "many"
+          },
+          {
+            "liked": false,
+            "borderStyle": null,
+            "bestReview": null,
+            "advToken": null,
+            "id": 403359,
+            "masterData": {
+              "slug": "tort-sokoladnyj-makovyj-rucnoj-raboty-600g",
+              "plu": "4298275",
+              "unit": 1,
+              "unitName": "шт",
+              "quantum": 1000,
+              "quantumStep": 1000,
+              "weight": 600,
+              "volume": null,
+              "ui4code": "FR0502002",
+              "taxGroup": "BL",
+              "ownProduction": false,
+              "privateLabel": false,
+              "isMark": false,
+              "alcoSetUnits": null,
+              "activeNds": 20
+            },
+            "title": "Торт Шоколадный маковый ручной работы, 600г",
+            "primaryCategory": {
+              "id": 401,
+              "title": "Торты, пирожные",
+              "slug": "torty-piroznye",
+              "isAlcohol": false,
+              "isTobacco": false,
+              "isExciseAlcohol": false,
+              "isAdultContent": false,
+              "displayStyle": 2,
+              "catalogs": [
+                2,
+                4
+              ]
+            },
+            "catalogPrimaryCategory": {
+              "id": 201,
+              "title": "Торты",
+              "slug": "torty",
+              "isAlcohol": false,
+              "isTobacco": false,
+              "isExciseAlcohol": false,
+              "isAdultContent": false,
+              "displayStyle": 2,
+              "catalogs": [
+                1
+              ]
+            },
+            "image": {
+              "id": 1872706,
+              "originName": "4298275 (1) копия.jpg",
+              "fileType": "image",
+              "fileSize": 2050254,
+              "width": 1600,
+              "height": 1600,
+              "cropUrlTemplate": "https://tsx.x5static.net/i/%s/xdelivery/files/60/63/6fbed9c139e850d52e98d6xdd88f.jpg",
+              "publicUrl": null,
+              "uuid": "76b9251c-aeb4-42ab-b68c-960b7f46454d"
+            },
+            "rating": 481,
+            "medianPrice": 119900,
+            "labelCharacteristics": [],
+            "labels": [],
+            "reviewCount": 31,
+            "ratingCount": 138,
+            "priceTag": {
+              "price": 119900,
+              "discountMinimumAmount": 0,
+              "grossPrice": null,
+              "labels": [],
+              "pricePerQuantum": null,
+              "grossPricePerQuantum": null,
+              "potentialPointsForOrangeCard": null
+            },
+            "balanceState": "many"
+          },
+          {
+            "liked": false,
+            "borderStyle": null,
+            "bestReview": null,
+            "advToken": null,
+            "id": 424875,
+            "masterData": {
+              "slug": "tort-mon-realle-meringue-et-cognac-merenga-sokolad-konak-500g",
+              "plu": "4328759",
+              "unit": 1,
+              "unitName": "шт",
+              "quantum": 1000,
+              "quantumStep": 1000,
+              "weight": 500,
+              "volume": null,
+              "ui4code": "FR0502002",
+              "taxGroup": "BL",
+              "ownProduction": false,
+              "privateLabel": false,
+              "isMark": false,
+              "alcoSetUnits": null,
+              "activeNds": 20
+            },
+            "title": "Торт Mon Realle Мeringue Et Cognac меренга-шоколад-коньяк, 500г",
+            "primaryCategory": {
+              "id": 401,
+              "title": "Торты, пирожные",
+              "slug": "torty-piroznye",
+              "isAlcohol": false,
+              "isTobacco": false,
+              "isExciseAlcohol": false,
+              "isAdultContent": false,
+              "displayStyle": 2,
+              "catalogs": [
+                2,
+                4
+              ]
+            },
+            "catalogPrimaryCategory": {
+              "id": 201,
+              "title": "Торты",
+              "slug": "torty",
+              "isAlcohol": false,
+              "isTobacco": false,
+              "isExciseAlcohol": false,
+              "isAdultContent": false,
+              "displayStyle": 2,
+              "catalogs": [
+                1
+              ]
+            },
+            "image": {
+              "id": 1872721,
+              "originName": "4328759 (1) копия.jpg",
+              "fileType": "image",
+              "fileSize": 2023567,
+              "width": 1600,
+              "height": 1600,
+              "cropUrlTemplate": "https://tsx.x5static.net/i/%s/xdelivery/files/77/ca/46311a9efa2c038dd65948a547f9.jpg",
+              "publicUrl": null,
+              "uuid": "6643fa24-9c3f-4b13-a0f5-a4dad8a20366"
+            },
+            "rating": 475,
+            "medianPrice": 97999,
+            "labelCharacteristics": [],
+            "labels": [],
+            "reviewCount": 77,
+            "ratingCount": 298,
+            "priceTag": {
+              "price": 99999,
+              "discountMinimumAmount": 0,
+              "grossPrice": null,
+              "labels": [],
+              "pricePerQuantum": null,
+              "grossPricePerQuantum": null,
+              "potentialPointsForOrangeCard": null
+            },
+            "balanceState": "many"
+          },
+          {
+            "liked": false,
+            "borderStyle": null,
+            "bestReview": null,
+            "advToken": null,
+            "id": 429976,
+            "masterData": {
+              "slug": "tort-leberge-lajm-s-bazilikom-480g",
+              "plu": "4346400",
+              "unit": 1,
+              "unitName": "шт",
+              "quantum": 1000,
+              "quantumStep": 1000,
+              "weight": 480,
+              "volume": null,
+              "ui4code": "FR0502002",
+              "taxGroup": "BL",
+              "ownProduction": false,
+              "privateLabel": false,
+              "isMark": false,
+              "alcoSetUnits": null,
+              "activeNds": 20
+            },
+            "title": "Торт Leberge Лайм с базиликом, 480г",
+            "primaryCategory": {
+              "id": 401,
+              "title": "Торты, пирожные",
+              "slug": "torty-piroznye",
+              "isAlcohol": false,
+              "isTobacco": false,
+              "isExciseAlcohol": false,
+              "isAdultContent": false,
+              "displayStyle": 2,
+              "catalogs": [
+                2,
+                4
+              ]
+            },
+            "catalogPrimaryCategory": {
+              "id": 201,
+              "title": "Торты",
+              "slug": "torty",
+              "isAlcohol": false,
+              "isTobacco": false,
+              "isExciseAlcohol": false,
+              "isAdultContent": false,
+              "displayStyle": 2,
+              "catalogs": [
+                1
+              ]
+            },
+            "image": {
+              "id": 2189331,
+              "originName": "4346400 (1).jpg",
+              "fileType": "image",
+              "fileSize": 112392,
+              "width": 1600,
+              "height": 1600,
+              "cropUrlTemplate": "https://tsx.x5static.net/i/%s/xdelivery/files/50/68/8a5b34ec151902ae88a5dc4a9340.jpg",
+              "publicUrl": null,
+              "uuid": "b157467f-9122-48be-8fcf-9f60b2fc6502"
+            },
+            "rating": 465,
+            "medianPrice": 77999,
+            "labelCharacteristics": [],
+            "labels": [],
+            "reviewCount": 24,
+            "ratingCount": 84,
+            "priceTag": {
+              "price": 79999,
+              "discountMinimumAmount": 0,
+              "grossPrice": null,
+              "labels": [],
+              "pricePerQuantum": null,
+              "grossPricePerQuantum": null,
+              "potentialPointsForOrangeCard": null
+            },
+            "balanceState": "many"
+          },
+          {
+            "liked": false,
+            "borderStyle": null,
+            "bestReview": null,
+            "advToken": null,
+            "id": 429780,
+            "masterData": {
+              "slug": "nabor-piroznyh-macaronika-makaron-klassik-96g",
+              "plu": "4349826",
+              "unit": 1,
+              "unitName": "шт",
+              "quantum": 1000,
+              "quantumStep": 1000,
+              "weight": 96,
+              "volume": null,
+              "ui4code": "FR0502001",
+              "taxGroup": "BL",
+              "ownProduction": false,
+              "privateLabel": false,
+              "isMark": false,
+              "alcoSetUnits": null,
+              "activeNds": 20
+            },
+            "title": "Набор пирожных Macaronika Макарон классик, 96г",
+            "primaryCategory": {
+              "id": 401,
+              "title": "Торты, пирожные",
+              "slug": "torty-piroznye",
+              "isAlcohol": false,
+              "isTobacco": false,
+              "isExciseAlcohol": false,
+              "isAdultContent": false,
+              "displayStyle": 2,
+              "catalogs": [
+                2,
+                4
+              ]
+            },
+            "catalogPrimaryCategory": {
+              "id": 704,
+              "title": "Пирожные",
+              "slug": "piroznye",
+              "isAlcohol": false,
+              "isTobacco": false,
+              "isExciseAlcohol": false,
+              "isAdultContent": false,
+              "displayStyle": 2,
+              "catalogs": [
+                1
+              ]
+            },
+            "image": {
+              "id": 1801838,
+              "originName": "4349826 (4).jpg",
+              "fileType": "image",
+              "fileSize": 1791068,
+              "width": 1600,
+              "height": 1600,
+              "cropUrlTemplate": "https://tsx.x5static.net/i/%s/xdelivery/files/25/ed/57ffff1092a417c64a49efbe41aa.jpg",
+              "publicUrl": null,
+              "uuid": "5e833650-2e30-4b07-bcb4-1a768d4eae31"
+            },
+            "rating": 494,
+            "medianPrice": 33999,
+            "labelCharacteristics": [],
+            "labels": [],
+            "reviewCount": 23,
+            "ratingCount": 96,
+            "priceTag": {
+              "price": 33999,
+              "discountMinimumAmount": 0,
+              "grossPrice": null,
+              "labels": [],
+              "pricePerQuantum": null,
+              "grossPricePerQuantum": null,
+              "potentialPointsForOrangeCard": null
+            },
+            "balanceState": "many"
+          },
+          {
+            "liked": false,
+            "borderStyle": null,
+            "bestReview": null,
+            "advToken": null,
+            "id": 32227,
+            "masterData": {
+              "slug": "banany",
+              "plu": "3757",
+              "unit": 2,
+              "unitName": "кг",
+              "quantum": 500,
+              "quantumStep": 200,
+              "weight": null,
+              "volume": null,
+              "ui4code": "FR0907004",
+              "taxGroup": "BL",
+              "ownProduction": false,
+              "privateLabel": true,
+              "isMark": false,
+              "alcoSetUnits": null,
+              "activeNds": 20
+            },
+            "title": "Бананы",
+            "primaryCategory": {
+              "id": 367,
+              "title": "Фрукты, ягоды",
+              "slug": "frukty-agody",
+              "isAlcohol": false,
+              "isTobacco": false,
+              "isExciseAlcohol": false,
+              "isAdultContent": false,
+              "displayStyle": 2,
+              "catalogs": [
+                2,
+                4
+              ]
+            },
+            "catalogPrimaryCategory": {
+              "id": 153,
+              "title": "Фрукты",
+              "slug": "frukty",
+              "isAlcohol": false,
+              "isTobacco": false,
+              "isExciseAlcohol": false,
+              "isAdultContent": false,
+              "displayStyle": 2,
+              "catalogs": [
+                1
+              ]
+            },
+            "image": {
+              "id": 2092824,
+              "originName": "3757 (2)_1.jpg",
+              "fileType": "image",
+              "fileSize": 624594,
+              "width": 1600,
+              "height": 1600,
+              "cropUrlTemplate": "https://tsx.x5static.net/i/%s/xdelivery/files/47/b8/d0a22708c5f41ce73a38a4306b8e.jpg",
+              "publicUrl": null,
+              "uuid": "8e810936-1cd6-4af4-b9d4-b56a0978f92d"
+            },
+            "rating": 491,
+            "medianPrice": 14999,
+            "labelCharacteristics": [],
+            "labels": [],
+            "reviewCount": 5359,
+            "ratingCount": 198698,
+            "priceTag": {
+              "price": 14999,
+              "discountMinimumAmount": 0,
+              "grossPrice": null,
+              "labels": [],
+              "pricePerQuantum": null,
+              "grossPricePerQuantum": null,
+              "potentialPointsForOrangeCard": null
+            },
+            "balanceState": "many"
+          },
+          {
+            "liked": false,
+            "borderStyle": null,
+            "bestReview": null,
+            "advToken": null,
+            "id": 34772,
+            "masterData": {
+              "slug": "nektariny-uzbekistan",
+              "plu": "3639748",
+              "unit": 2,
+              "unitName": "кг",
+              "quantum": 200,
+              "quantumStep": 100,
+              "weight": null,
+              "volume": null,
+              "ui4code": "FR0907005",
+              "taxGroup": "BB",
+              "ownProduction": false,
+              "privateLabel": false,
+              "isMark": false,
+              "alcoSetUnits": null,
+              "activeNds": 10
+            },
+            "title": "Нектарины Узбекистан",
+            "primaryCategory": {
+              "id": 367,
+              "title": "Фрукты, ягоды",
+              "slug": "frukty-agody",
+              "isAlcohol": false,
+              "isTobacco": false,
+              "isExciseAlcohol": false,
+              "isAdultContent": false,
+              "displayStyle": 2,
+              "catalogs": [
+                2,
+                4
+              ]
+            },
+            "catalogPrimaryCategory": {
+              "id": 153,
+              "title": "Фрукты",
+              "slug": "frukty",
+              "isAlcohol": false,
+              "isTobacco": false,
+              "isExciseAlcohol": false,
+              "isAdultContent": false,
+              "displayStyle": 2,
+              "catalogs": [
+                1
+              ]
+            },
+            "image": {
+              "id": 1833753,
+              "originName": "3639748 (9).jpg",
+              "fileType": "image",
+              "fileSize": 890166,
+              "width": 1600,
+              "height": 1600,
+              "cropUrlTemplate": "https://tsx.x5static.net/i/%s/xdelivery/files/3b/ce/231741e455d843ed46e04ebc633b.jpg",
+              "publicUrl": null,
+              "uuid": "0dfb744c-a04a-4c6e-9a17-f676fe710bb5"
+            },
+            "rating": 481,
+            "medianPrice": 18999,
+            "labelCharacteristics": [],
+            "labels": [],
+            "reviewCount": 1641,
+            "ratingCount": 19619,
+            "priceTag": {
+              "price": 17999,
+              "discountMinimumAmount": 0,
+              "grossPrice": null,
+              "labels": [],
+              "pricePerQuantum": null,
+              "grossPricePerQuantum": null,
+              "potentialPointsForOrangeCard": null
+            },
+            "balanceState": "many"
+          },
+          {
+            "liked": false,
+            "borderStyle": null,
+            "bestReview": null,
+            "advToken": null,
+            "id": 66994,
+            "masterData": {
+              "slug": "arbuz-cernyj-princ-bez-kostocek-3-8kg",
+              "plu": "4071854",
+              "unit": 2,
+              "unitName": "кг",
+              "quantum": 4000,
+              "quantumStep": 1000,
+              "weight": null,
+              "volume": null,
+              "ui4code": "FR0908003",
+              "taxGroup": "BB",
+              "ownProduction": false,
+              "privateLabel": false,
+              "isMark": false,
+              "alcoSetUnits": null,
+              "activeNds": 10
+            },
+            "title": "Арбуз Чёрный принц без косточек, 3-8кг",
+            "primaryCategory": {
+              "id": 367,
+              "title": "Фрукты, ягоды",
+              "slug": "frukty-agody",
+              "isAlcohol": false,
+              "isTobacco": false,
+              "isExciseAlcohol": false,
+              "isAdultContent": false,
+              "displayStyle": 2,
+              "catalogs": [
+                2,
+                4
+              ]
+            },
+            "catalogPrimaryCategory": {
+              "id": 154,
+              "title": "Ягоды",
+              "slug": "agody",
+              "isAlcohol": false,
+              "isTobacco": false,
+              "isExciseAlcohol": false,
+              "isAdultContent": false,
+              "displayStyle": 2,
+              "catalogs": [
+                1
+              ]
+            },
+            "image": {
+              "id": 2442666,
+              "originName": "4071854_СПф Арбуз ЧЕРНЫЙ ПРИНЦ резаный_2.jpg",
+              "fileType": "image",
+              "fileSize": 1187875,
+              "width": 1600,
+              "height": 1600,
+              "cropUrlTemplate": "https://tsx.x5static.net/i/%s/xdelivery/files/4a/8c/b1acde68064f380091fd8225c172.jpg",
+              "publicUrl": null,
+              "uuid": "5f1d6ebb-4e50-459d-ac78-dab32520a52f"
+            },
+            "rating": 466,
+            "medianPrice": 6999,
+            "labelCharacteristics": [],
+            "labels": [],
+            "reviewCount": 1048,
+            "ratingCount": 5510,
+            "priceTag": {
+              "price": 6999,
+              "discountMinimumAmount": 0,
+              "grossPrice": 9999,
+              "labels": [
+                {
+                  "type": "yellow",
+                  "text": "-30%"
+                }
+              ],
+              "pricePerQuantum": null,
+              "grossPricePerQuantum": null,
+              "potentialPointsForOrangeCard": null
+            },
+            "balanceState": "many"
+          }
+        ]
+      },
+      {
+        "category": {
+          "id": 1651,
+          "title": "Завтрак перед школой",
+          "slug": "zavtrak-pered-skoloj",
+          "isAlcohol": false,
+          "isTobacco": false,
+          "isExciseAlcohol": false,
+          "isAdultContent": false,
+          "displayStyle": 2,
+          "catalogs": [
+            1
+          ]
+        },
+        "count": 209,
+        "products": [
+          {
+            "liked": false,
+            "borderStyle": null,
+            "bestReview": null,
+            "advToken": null,
+            "id": 4681,
+            "masterData": {
+              "slug": "kasa-molocnaa-risovaa-perekrestok-select-250g",
+              "plu": "3681003",
+              "unit": 1,
+              "unitName": "шт",
+              "quantum": 1000,
+              "quantumStep": 1000,
+              "weight": 250,
+              "volume": null,
+              "ui4code": "FR2305003",
+              "taxGroup": "BL",
+              "ownProduction": false,
+              "privateLabel": true,
+              "isMark": false,
+              "alcoSetUnits": null,
+              "activeNds": 20
+            },
+            "title": "Каша молочная рисовая Перекрёсток Select, 250г",
+            "primaryCategory": {
+              "id": 1118,
+              "title": "Вся готовая еда",
+              "slug": "vsa-gotovaa-eda",
+              "isAlcohol": false,
+              "isTobacco": false,
+              "isExciseAlcohol": false,
+              "isAdultContent": false,
+              "displayStyle": 2,
+              "catalogs": [
+                2,
+                4
+              ]
+            },
+            "catalogPrimaryCategory": {
+              "id": 1651,
+              "title": "Завтрак перед школой",
+              "slug": "zavtrak-pered-skoloj",
+              "isAlcohol": false,
+              "isTobacco": false,
+              "isExciseAlcohol": false,
+              "isAdultContent": false,
+              "displayStyle": 2,
+              "catalogs": [
+                1
+              ]
+            },
+            "image": {
+              "id": 1985216,
+              "originName": "Без названия (2) (1).png",
+              "fileType": "image",
+              "fileSize": 3282559,
+              "width": 1600,
+              "height": 1600,
+              "cropUrlTemplate": "https://tsx.x5static.net/i/%s/xdelivery/files/7d/12/a716c949696298f1613b8b88d01c.png",
+              "publicUrl": null,
+              "uuid": "b9b99e0b-0249-4631-ba51-7ca618d1a018"
+            },
+            "rating": 492,
+            "medianPrice": 22999,
+            "labelCharacteristics": [],
+            "labels": [],
+            "reviewCount": 302,
+            "ratingCount": 3140,
+            "priceTag": {
+              "price": 22999,
+              "discountMinimumAmount": 0,
+              "grossPrice": null,
+              "labels": [],
+              "pricePerQuantum": null,
+              "grossPricePerQuantum": null,
+              "potentialPointsForOrangeCard": null
+            },
+            "balanceState": "many"
+          },
+          {
+            "liked": false,
+            "borderStyle": null,
+            "bestReview": null,
+            "advToken": null,
+            "id": 426719,
+            "masterData": {
+              "slug": "blinciki-bez-nacinki-perekrestok-select-400g",
+              "plu": "4335251",
+              "unit": 1,
+              "unitName": "шт",
+              "quantum": 1000,
+              "quantumStep": 1000,
+              "weight": 400,
+              "volume": null,
+              "ui4code": "FR0205003",
+              "taxGroup": "BL",
+              "ownProduction": false,
+              "privateLabel": true,
+              "isMark": false,
+              "alcoSetUnits": null,
+              "activeNds": 20
+            },
+            "title": "Блинчики без начинки Перекрёсток Select, 400г",
+            "primaryCategory": {
+              "id": 1118,
+              "title": "Вся готовая еда",
+              "slug": "vsa-gotovaa-eda",
+              "isAlcohol": false,
+              "isTobacco": false,
+              "isExciseAlcohol": false,
+              "isAdultContent": false,
+              "displayStyle": 2,
+              "catalogs": [
+                2,
+                4
+              ]
+            },
+            "catalogPrimaryCategory": {
+              "id": 1651,
+              "title": "Завтрак перед школой",
+              "slug": "zavtrak-pered-skoloj",
+              "isAlcohol": false,
+              "isTobacco": false,
+              "isExciseAlcohol": false,
+              "isAdultContent": false,
+              "displayStyle": 2,
+              "catalogs": [
+                1
+              ]
+            },
+            "image": {
+              "id": 2001431,
+              "originName": "Без названия (1).png",
+              "fileType": "image",
+              "fileSize": 3930301,
+              "width": 1600,
+              "height": 1600,
+              "cropUrlTemplate": "https://tsx.x5static.net/i/%s/xdelivery/files/ba/35/581637fddb996b7fcf684e6701e5.png",
+              "publicUrl": null,
+              "uuid": "d5987510-b283-4974-acbc-fbe22e4a7ad4"
+            },
+            "rating": 490,
+            "medianPrice": 36999,
+            "labelCharacteristics": [],
+            "labels": [],
+            "reviewCount": 247,
+            "ratingCount": 1586,
+            "priceTag": {
+              "price": 39999,
+              "discountMinimumAmount": 0,
+              "grossPrice": null,
+              "labels": [],
+              "pricePerQuantum": null,
+              "grossPricePerQuantum": null,
+              "potentialPointsForOrangeCard": null
+            },
+            "balanceState": "many"
+          },
+          {
+            "liked": false,
+            "borderStyle": null,
+            "bestReview": null,
+            "advToken": null,
+            "id": 316017,
+            "masterData": {
+              "slug": "syrniki-zarenye-perekrestok-select-440g",
+              "plu": "4201519",
+              "unit": 1,
+              "unitName": "шт",
+              "quantum": 1000,
+              "quantumStep": 1000,
+              "weight": 440,
+              "volume": null,
+              "ui4code": "FR2305003",
+              "taxGroup": "BB",
+              "ownProduction": false,
+              "privateLabel": true,
+              "isMark": false,
+              "alcoSetUnits": null,
+              "activeNds": 10
+            },
+            "title": "Сырники жареные Перекрёсток Select, 440г",
+            "primaryCategory": {
+              "id": 1118,
+              "title": "Вся готовая еда",
+              "slug": "vsa-gotovaa-eda",
+              "isAlcohol": false,
+              "isTobacco": false,
+              "isExciseAlcohol": false,
+              "isAdultContent": false,
+              "displayStyle": 2,
+              "catalogs": [
+                2,
+                4
+              ]
+            },
+            "catalogPrimaryCategory": {
+              "id": 1651,
+              "title": "Завтрак перед школой",
+              "slug": "zavtrak-pered-skoloj",
+              "isAlcohol": false,
+              "isTobacco": false,
+              "isExciseAlcohol": false,
+              "isAdultContent": false,
+              "displayStyle": 2,
+              "catalogs": [
+                1
+              ]
+            },
+            "image": {
+              "id": 1950410,
+              "originName": "4201519_1.jpg",
+              "fileType": "image",
+              "fileSize": 1528874,
+              "width": 1600,
+              "height": 1600,
+              "cropUrlTemplate": "https://tsx.x5static.net/i/%s/xdelivery/files/30/e4/e37420f0e0ed5c192d167755099b.jpg",
+              "publicUrl": null,
+              "uuid": "4f6e58b1-96af-429a-ac8d-2bfe3e94c429"
+            },
+            "rating": 485,
+            "medianPrice": 54999,
+            "labelCharacteristics": [],
+            "labels": [],
+            "reviewCount": 420,
+            "ratingCount": 2276,
+            "priceTag": {
+              "price": 58999,
+              "discountMinimumAmount": 0,
+              "grossPrice": null,
+              "labels": [],
+              "pricePerQuantum": null,
+              "grossPricePerQuantum": null,
+              "potentialPointsForOrangeCard": null
+            },
+            "balanceState": "many"
+          },
+          {
+            "liked": false,
+            "borderStyle": null,
+            "bestReview": null,
+            "advToken": null,
+            "id": 45307,
+            "masterData": {
+              "slug": "syrniki-tvoroznye-5-zelenaa-linia",
+              "plu": "3671520",
+              "unit": 2,
+              "unitName": "кг",
+              "quantum": 340,
+              "quantumStep": 340,
+              "weight": null,
+              "volume": null,
+              "ui4code": "FR0205003",
+              "taxGroup": "BB",
+              "ownProduction": false,
+              "privateLabel": true,
+              "isMark": false,
+              "alcoSetUnits": null,
+              "activeNds": 10
+            },
+            "title": "Сырники творожные 5% Зелёная Линия",
+            "primaryCategory": {
+              "id": 1119,
+              "title": "Вся готовая еда",
+              "slug": "vsa-gotovaa-eda",
+              "isAlcohol": false,
+              "isTobacco": false,
+              "isExciseAlcohol": false,
+              "isAdultContent": false,
+              "displayStyle": 2,
+              "catalogs": [
+                2,
+                4
+              ]
+            },
+            "catalogPrimaryCategory": {
+              "id": 1651,
+              "title": "Завтрак перед школой",
+              "slug": "zavtrak-pered-skoloj",
+              "isAlcohol": false,
+              "isTobacco": false,
+              "isExciseAlcohol": false,
+              "isAdultContent": false,
+              "displayStyle": 2,
+              "catalogs": [
+                1
+              ]
+            },
+            "image": {
+              "id": 1948016,
+              "originName": "Без названия.jpg",
+              "fileType": "image",
+              "fileSize": 359811,
+              "width": 1600,
+              "height": 1600,
+              "cropUrlTemplate": "https://tsx.x5static.net/i/%s/xdelivery/files/cd/0f/cc07a04f24c933xd035dabf9cb14.jpg",
+              "publicUrl": null,
+              "uuid": "6b35b453-027b-4cf4-8644-d37b32830e70"
+            },
+            "rating": 487,
+            "medianPrice": 87990,
+            "labelCharacteristics": [],
+            "labels": [],
+            "reviewCount": 560,
+            "ratingCount": 3768,
+            "priceTag": {
+              "price": 95990,
+              "discountMinimumAmount": 0,
+              "grossPrice": null,
+              "labels": [],
+              "pricePerQuantum": null,
+              "grossPricePerQuantum": null,
+              "potentialPointsForOrangeCard": null
+            },
+            "balanceState": "many"
+          },
+          {
+            "liked": false,
+            "borderStyle": null,
+            "bestReview": null,
+            "advToken": null,
+            "id": 313074,
+            "masterData": {
+              "slug": "syrniki-zarenye-perekrestok-select-220g",
+              "plu": "4147834",
+              "unit": 1,
+              "unitName": "шт",
+              "quantum": 1000,
+              "quantumStep": 1000,
+              "weight": 220,
+              "volume": null,
+              "ui4code": "FR2305003",
+              "taxGroup": "BB",
+              "ownProduction": false,
+              "privateLabel": true,
+              "isMark": false,
+              "alcoSetUnits": null,
+              "activeNds": 10
+            },
+            "title": "Сырники жареные Перекрёсток Select, 220г",
+            "primaryCategory": {
+              "id": 1118,
+              "title": "Вся готовая еда",
+              "slug": "vsa-gotovaa-eda",
+              "isAlcohol": false,
+              "isTobacco": false,
+              "isExciseAlcohol": false,
+              "isAdultContent": false,
+              "displayStyle": 2,
+              "catalogs": [
+                2,
+                4
+              ]
+            },
+            "catalogPrimaryCategory": {
+              "id": 1651,
+              "title": "Завтрак перед школой",
+              "slug": "zavtrak-pered-skoloj",
+              "isAlcohol": false,
+              "isTobacco": false,
+              "isExciseAlcohol": false,
+              "isAdultContent": false,
+              "displayStyle": 2,
+              "catalogs": [
+                1
+              ]
+            },
+            "image": {
+              "id": 1985201,
+              "originName": "Без названия (1).png",
+              "fileType": "image",
+              "fileSize": 3417505,
+              "width": 1600,
+              "height": 1600,
+              "cropUrlTemplate": "https://tsx.x5static.net/i/%s/xdelivery/files/de/76/3769e0ba328716c6802b7068f62b.png",
+              "publicUrl": null,
+              "uuid": "2b6e5149-7139-45be-bc32-c77c3f897714"
+            },
+            "rating": 483,
+            "medianPrice": 32999,
+            "labelCharacteristics": [],
+            "labels": [],
+            "reviewCount": 542,
+            "ratingCount": 3607,
+            "priceTag": {
+              "price": 32999,
+              "discountMinimumAmount": 0,
+              "grossPrice": null,
+              "labels": [],
+              "pricePerQuantum": null,
+              "grossPricePerQuantum": null,
+              "potentialPointsForOrangeCard": null
+            },
+            "balanceState": "many"
+          },
+          {
+            "liked": false,
+            "borderStyle": null,
+            "bestReview": null,
+            "advToken": null,
+            "id": 480336,
+            "masterData": {
+              "slug": "blinciki-s-kuricej-i-gribami-v-slivocnom-souse-perekrestok-select-400g",
+              "plu": "4407903",
+              "unit": 1,
+              "unitName": "шт",
+              "quantum": 1000,
+              "quantumStep": 1000,
+              "weight": 400,
+              "volume": null,
+              "ui4code": "FR2305003",
+              "taxGroup": "BB",
+              "ownProduction": false,
+              "privateLabel": false,
+              "isMark": false,
+              "alcoSetUnits": null,
+              "activeNds": 10
+            },
+            "title": "Блинчики с курицей и грибами в сливочном соусе Перекрёсток Select, 400г",
+            "primaryCategory": {
+              "id": 1118,
+              "title": "Вся готовая еда",
+              "slug": "vsa-gotovaa-eda",
+              "isAlcohol": false,
+              "isTobacco": false,
+              "isExciseAlcohol": false,
+              "isAdultContent": false,
+              "displayStyle": 2,
+              "catalogs": [
+                2,
+                4
+              ]
+            },
+            "catalogPrimaryCategory": {
+              "id": 1651,
+              "title": "Завтрак перед школой",
+              "slug": "zavtrak-pered-skoloj",
+              "isAlcohol": false,
+              "isTobacco": false,
+              "isExciseAlcohol": false,
+              "isAdultContent": false,
+              "displayStyle": 2,
+              "catalogs": [
+                1
+              ]
+            },
+            "image": {
+              "id": 2373044,
+              "originName": "4407903_1.jpg",
+              "fileType": "image",
+              "fileSize": 2121881,
+              "width": 1600,
+              "height": 1600,
+              "cropUrlTemplate": "https://tsx.x5static.net/i/%s/xdelivery/files/c6/f4/69ce9ffa11972783568f27821d64.jpg",
+              "publicUrl": null,
+              "uuid": "e51f092c-a576-4c6a-b65a-29d4e7c0a479"
+            },
+            "rating": 483,
+            "medianPrice": 44999,
+            "labelCharacteristics": [],
+            "labels": [],
+            "reviewCount": 38,
+            "ratingCount": 231,
+            "priceTag": {
+              "price": 48999,
+              "discountMinimumAmount": 0,
+              "grossPrice": null,
+              "labels": [],
+              "pricePerQuantum": null,
+              "grossPricePerQuantum": null,
+              "potentialPointsForOrangeCard": null
+            },
+            "balanceState": "many"
+          },
+          {
+            "liked": false,
+            "borderStyle": null,
+            "bestReview": null,
+            "advToken": null,
+            "id": 51220,
+            "masterData": {
+              "slug": "moloko-sgusennoe-alekseevskoe-celnoe-s-saharom-8-5-270g",
+              "plu": "3332809",
+              "unit": 1,
+              "unitName": "шт",
+              "quantum": 1000,
+              "quantumStep": 1000,
+              "weight": 270,
+              "volume": null,
+              "ui4code": "FR0604004",
+              "taxGroup": "BB",
+              "ownProduction": false,
+              "privateLabel": false,
+              "isMark": true,
+              "alcoSetUnits": null,
+              "activeNds": 10
+            },
+            "title": "Молоко сгущённое Алексеевское цельное с сахаром 8.5%, 270г",
+            "primaryCategory": {
+              "id": 370,
+              "title": "Молоко, сметана",
+              "slug": "moloko-smetana",
+              "isAlcohol": false,
+              "isTobacco": false,
+              "isExciseAlcohol": false,
+              "isAdultContent": false,
+              "displayStyle": 2,
+              "catalogs": [
+                2,
+                4
+              ]
+            },
+            "catalogPrimaryCategory": {
+              "id": 1651,
+              "title": "Завтрак перед школой",
+              "slug": "zavtrak-pered-skoloj",
+              "isAlcohol": false,
+              "isTobacco": false,
+              "isExciseAlcohol": false,
+              "isAdultContent": false,
+              "displayStyle": 2,
+              "catalogs": [
+                1
+              ]
+            },
+            "image": {
+              "id": 572750,
+              "originName": "3332809.jpg",
+              "fileType": "image",
+              "fileSize": 796646,
+              "width": 1600,
+              "height": 1600,
+              "cropUrlTemplate": "https://tsx.x5static.net/i/%s/xdelivery/files/ba/9b/1a85fa53014c5923b0d469beb904.jpg",
+              "publicUrl": null,
+              "uuid": "43bf8c0c-503b-4ae6-b974-162aabc1ce15"
+            },
+            "rating": 496,
+            "medianPrice": 13999,
+            "labelCharacteristics": [],
+            "labels": [],
+            "reviewCount": 481,
+            "ratingCount": 14072,
+            "priceTag": {
+              "price": 11999,
+              "discountMinimumAmount": 0,
+              "grossPrice": null,
+              "labels": [],
+              "pricePerQuantum": null,
+              "grossPricePerQuantum": null,
+              "potentialPointsForOrangeCard": null
+            },
+            "balanceState": "many"
+          },
+          {
+            "liked": false,
+            "borderStyle": null,
+            "bestReview": null,
+            "advToken": null,
+            "id": 314234,
+            "masterData": {
+              "slug": "syrniki-s-izumom-perekrestok-select-220g",
+              "plu": "4147835",
+              "unit": 1,
+              "unitName": "шт",
+              "quantum": 1000,
+              "quantumStep": 1000,
+              "weight": 220,
+              "volume": null,
+              "ui4code": "FR2305003",
+              "taxGroup": "BB",
+              "ownProduction": false,
+              "privateLabel": true,
+              "isMark": false,
+              "alcoSetUnits": null,
+              "activeNds": 10
+            },
+            "title": "Сырники с изюмом Перекрёсток Select, 220г",
+            "primaryCategory": {
+              "id": 1118,
+              "title": "Вся готовая еда",
+              "slug": "vsa-gotovaa-eda",
+              "isAlcohol": false,
+              "isTobacco": false,
+              "isExciseAlcohol": false,
+              "isAdultContent": false,
+              "displayStyle": 2,
+              "catalogs": [
+                2,
+                4
+              ]
+            },
+            "catalogPrimaryCategory": {
+              "id": 1651,
+              "title": "Завтрак перед школой",
+              "slug": "zavtrak-pered-skoloj",
+              "isAlcohol": false,
+              "isTobacco": false,
+              "isExciseAlcohol": false,
+              "isAdultContent": false,
+              "displayStyle": 2,
+              "catalogs": [
+                1
+              ]
+            },
+            "image": {
+              "id": 2094990,
+              "originName": "4147835_1 (2).jpg",
+              "fileType": "image",
+              "fileSize": 611780,
+              "width": 1600,
+              "height": 1600,
+              "cropUrlTemplate": "https://tsx.x5static.net/i/%s/xdelivery/files/62/ee/71bc1ff8e22137109770522ede8c.jpg",
+              "publicUrl": null,
+              "uuid": "c02b3f53-b75c-457e-a194-ca88280bc521"
+            },
+            "rating": 480,
+            "medianPrice": 35999,
+            "labelCharacteristics": [],
+            "labels": [],
+            "reviewCount": 328,
+            "ratingCount": 2192,
+            "priceTag": {
+              "price": 38999,
+              "discountMinimumAmount": 0,
+              "grossPrice": null,
+              "labels": [],
+              "pricePerQuantum": null,
+              "grossPricePerQuantum": null,
+              "potentialPointsForOrangeCard": null
+            },
+            "balanceState": "many"
+          }
+        ]
+      }
+    ],
+    "currentSorting": {
+      "orderBy": "popularity",
+      "orderDirection": "desc"
+    }
+  }
+}

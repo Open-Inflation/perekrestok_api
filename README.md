@@ -12,7 +12,7 @@
 
 Perekrestok (Перекрёсток) - https://www.perekrestok.ru/
 
-**[⭐ Star us on GitHub](https://github.com/Open-Inflation/perekrestok_api)** | **[📚 Read the Docs](https://Open-Inflation/perekrestok_api.github.io/)** | **[🐛 Report Bug](https://github.com/Open-Inflation/perekrestok_api/issues)**
+**[⭐ Star us on GitHub](https://github.com/Open-Inflation/perekrestok_api)** | **[📚 Read the Docs](https://open-inflation.github.io/perekrestok_api/quick_start)** | **[🐛 Report Bug](https://github.com/Open-Inflation/perekrestok_api/issues)**
 
 ### Принцип работы
 
@@ -63,7 +63,7 @@ if __name__ == "__main__":
 > Первый товар: Пиво Василеостровское Тройной пшеничный эль нефильтрованное 6.9%, 750мл (66750)
 ```
 
-Для более подробной информации смотрите референсы [документации](https://Open-Inflation/perekrestok_api.github.io/).
+Для более подробной информации смотрите референсы [документации](https://open-inflation.github.io/perekrestok_api/quick_start).
 
 ---
 

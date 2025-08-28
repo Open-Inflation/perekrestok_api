@@ -20,9 +20,7 @@ class ClassGeolocation:
     def __init__(self, parent, CATALOG_URL: str):
         self._parent = parent
         self.Selection = GeolocationSelection(parent=self._parent, CATALOG_URL=CATALOG_URL)
-        """Доступ к методам выбора точек доставки и магазинов."""
         self.Shop = ShopService(parent=self._parent, CATALOG_URL=CATALOG_URL)
-        """Доступ к методам работы с магазинами."""
         self.CATALOG_URL = CATALOG_URL
 
     def current(self) -> Response:
