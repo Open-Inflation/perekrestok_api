@@ -1,0 +1,19 @@
+{
+  "content": {
+    "available": false,
+    "state": null,
+    "hasAvailableDeliveryInterval": false,
+    "delay": null,
+    "deliveryRange": null,
+    "day": null,
+    "minDeliveryCost": null,
+    "orderCostForFreeDelivery": null,
+    "orderOperationTime": null,
+    "deliveryConditions": null,
+    "minCost": null,
+    "maxCost": null,
+    "cost": null,
+    "surge": false,
+    "surgeDescription": null
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "content": {
+    "mode": "courier",
+    "shop": null,
+    "address": {
+      "uuid": "5011c1f0-1d4f-4c2e-9d1b-641d0422bb12",
+      "title": "Малая Бронная улица, 44",
+      "fullAddress": "Москва, Малая Бронная улица, 44",
+      "apartment": null,
+      "entrance": null,
+      "floor": null,
+      "intercom": null,
+      "comment": null,
+      "isCurrent": true,
+      "location": {
+        "type": "Point",
+        "coordinates": [
+          37.5916321,
+          55.7655519
+        ]
+      },
+      "subtitle": null,
+      "dontRingDoorbell": false,
+      "contactlessDelivery": false
+    }
+  }
+}

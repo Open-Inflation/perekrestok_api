@@ -1,0 +1,292 @@
+{
+  "content": {
+    "items": [
+      {
+        "id": 18603,
+        "slug": "snova-v-skolu-w35-36-sajt",
+        "title": null,
+        "action": "blocks",
+        "color": {
+          "red": 0,
+          "green": 0,
+          "blue": 0,
+          "alpha": 0
+        },
+        "link": null,
+        "webViewType": "default",
+        "textForImage": null,
+        "images": [
+          {
+            "image": {
+              "id": 2487556,
+              "originName": "Подборка размер 816х452яыа.png",
+              "fileType": "image",
+              "fileSize": 563929,
+              "width": 816,
+              "height": 452,
+              "cropUrlTemplate": "https://tsx.x5static.net/i/%s/xdelivery/files/97/ea/f0a7211f00e3a5cd0400f34e58f1.png",
+              "publicUrl": null,
+              "uuid": "1ebd3fe8-c5e9-43b6-aa18-eb2f3eb6a099"
+            },
+            "scales": [
+              {
+                "scaleName": "default",
+                "image": {
+                  "id": 2487556,
+                  "originName": "Подборка размер 816х452яыа.png",
+                  "fileType": "image",
+                  "fileSize": 563929,
+                  "width": 816,
+                  "height": 452,
+                  "cropUrlTemplate": "https://tsx.x5static.net/i/%s/xdelivery/files/97/ea/f0a7211f00e3a5cd0400f34e58f1.png",
+                  "publicUrl": null,
+                  "uuid": "1ebd3fe8-c5e9-43b6-aa18-eb2f3eb6a099"
+                }
+              }
+            ],
+            "type": "main",
+            "advToken": null
+          }
+        ],
+        "place": "main_web_banners",
+        "leftSubtitle": null,
+        "rightSubtitle": null,
+        "content": null,
+        "blockTypes": [
+          "image",
+          "product_list"
+        ],
+        "analyticsInfo": [
+          {
+            "name": "bannerName",
+            "type": "text",
+            "value": "Снова в школу W35-36 сайт"
+          }
+        ],
+        "positions": [
+          {
+            "key": "main_web_banners",
+            "title": "WEB_Главные в слайдере"
+          }
+        ],
+        "key": null,
+        "deepLink": null
+      },
+      {
+        "id": 18488,
+        "slug": "import-vkusy-mira-sajt",
+        "title": null,
+        "action": "blocks",
+        "color": {
+          "red": 0,
+          "green": 0,
+          "blue": 0,
+          "alpha": 0
+        },
+        "link": null,
+        "webViewType": "default",
+        "textForImage": null,
+        "images": [
+          {
+            "image": {
+              "id": 2477501,
+              "originName": "Подборка размер 816х452.png",
+              "fileType": "image",
+              "fileSize": 488149,
+              "width": 816,
+              "height": 452,
+              "cropUrlTemplate": "https://tsx.x5static.net/i/%s/xdelivery/files/1c/db/07634c33e93834c111bfeffed2f6.png",
+              "publicUrl": null,
+              "uuid": "45e025a6-9419-407d-a98c-a10b31c1284d"
+            },
+            "scales": [
+              {
+                "scaleName": "default",
+                "image": {
+                  "id": 2477501,
+                  "originName": "Подборка размер 816х452.png",
+                  "fileType": "image",
+                  "fileSize": 488149,
+                  "width": 816,
+                  "height": 452,
+                  "cropUrlTemplate": "https://tsx.x5static.net/i/%s/xdelivery/files/1c/db/07634c33e93834c111bfeffed2f6.png",
+                  "publicUrl": null,
+                  "uuid": "45e025a6-9419-407d-a98c-a10b31c1284d"
+                }
+              }
+            ],
+            "type": "main",
+            "advToken": null
+          }
+        ],
+        "place": "main_web_banners",
+        "leftSubtitle": null,
+        "rightSubtitle": null,
+        "content": null,
+        "blockTypes": [
+          "image",
+          "product_list"
+        ],
+        "analyticsInfo": [
+          {
+            "name": "bannerName",
+            "type": "text",
+            "value": "Импорт \"Вкусы мира\" сайт"
+          }
+        ],
+        "positions": [
+          {
+            "key": "main_web_banners",
+            "title": "WEB_Главные в слайдере"
+          }
+        ],
+        "key": null,
+        "deepLink": null
+      },
+      {
+        "id": 18594,
+        "slug": "frov-35-mango",
+        "title": null,
+        "action": "blocks",
+        "color": {
+          "red": 0,
+          "green": 0,
+          "blue": 0,
+          "alpha": 0
+        },
+        "link": null,
+        "webViewType": "default",
+        "textForImage": null,
+        "images": [
+          {
+            "image": {
+              "id": 2481930,
+              "originName": "Подборка размер 816х452 (1).png",
+              "fileType": "image",
+              "fileSize": 9572620,
+              "width": 3264,
+              "height": 1808,
+              "cropUrlTemplate": "https://tsx.x5static.net/i/%s/xdelivery/files/97/9a/a7a69ffexd41b88c9a22d1fc5e55.png",
+              "publicUrl": null,
+              "uuid": "0dd88086-a246-436b-a12d-be68ee98988e"
+            },
+            "scales": [
+              {
+                "scaleName": "default",
+                "image": {
+                  "id": 2481930,
+                  "originName": "Подборка размер 816х452 (1).png",
+                  "fileType": "image",
+                  "fileSize": 9572620,
+                  "width": 3264,
+                  "height": 1808,
+                  "cropUrlTemplate": "https://tsx.x5static.net/i/%s/xdelivery/files/97/9a/a7a69ffexd41b88c9a22d1fc5e55.png",
+                  "publicUrl": null,
+                  "uuid": "0dd88086-a246-436b-a12d-be68ee98988e"
+                }
+              }
+            ],
+            "type": "main",
+            "advToken": null
+          }
+        ],
+        "place": "main_web_banners",
+        "leftSubtitle": null,
+        "rightSubtitle": null,
+        "content": null,
+        "blockTypes": [
+          "image",
+          "product_list"
+        ],
+        "analyticsInfo": [
+          {
+            "name": "bannerName",
+            "type": "text",
+            "value": "ФРОВ 35 Манго"
+          }
+        ],
+        "positions": [
+          {
+            "key": "main_web_banners",
+            "title": "WEB_Главные в слайдере"
+          }
+        ],
+        "key": null,
+        "deepLink": null
+      },
+      {
+        "id": 18425,
+        "slug": "supercena-w33",
+        "title": null,
+        "action": "blocks",
+        "color": {
+          "red": 255,
+          "green": 255,
+          "blue": 255,
+          "alpha": 100
+        },
+        "link": null,
+        "webViewType": "default",
+        "textForImage": null,
+        "images": [
+          {
+            "image": {
+              "id": 2475256,
+              "originName": "816x452.png",
+              "fileType": "image",
+              "fileSize": 2771567,
+              "width": 2448,
+              "height": 1356,
+              "cropUrlTemplate": "https://tsx.x5static.net/i/%s/xdelivery/files/f3/29/01b9da3b5db3c591df1e5af65cd3.png",
+              "publicUrl": null,
+              "uuid": "86f37b2d-6273-4cd7-bc47-291c77789987"
+            },
+            "scales": [
+              {
+                "scaleName": "default",
+                "image": {
+                  "id": 2475256,
+                  "originName": "816x452.png",
+                  "fileType": "image",
+                  "fileSize": 2771567,
+                  "width": 2448,
+                  "height": 1356,
+                  "cropUrlTemplate": "https://tsx.x5static.net/i/%s/xdelivery/files/f3/29/01b9da3b5db3c591df1e5af65cd3.png",
+                  "publicUrl": null,
+                  "uuid": "86f37b2d-6273-4cd7-bc47-291c77789987"
+                }
+              }
+            ],
+            "type": "main",
+            "advToken": null
+          }
+        ],
+        "place": "main_web_banners",
+        "leftSubtitle": null,
+        "rightSubtitle": null,
+        "content": null,
+        "blockTypes": [
+          "image",
+          "product_list",
+          "text"
+        ],
+        "analyticsInfo": [
+          {
+            "name": "bannerName",
+            "type": "text",
+            "value": "Суперцена W33"
+          }
+        ],
+        "positions": [
+          {
+            "key": "main_web_banners",
+            "title": "WEB_Главные в слайдере"
+          }
+        ],
+        "key": null,
+        "deepLink": null
+      }
+    ],
+    "tags": []
+  }
+}

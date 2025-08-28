@@ -1,0 +1,181 @@
+{
+  "content": {
+    "analyticsInfo": [
+      {
+        "name": "cardRecommendationModel",
+        "type": "text",
+        "value": "similar"
+      }
+    ],
+    "items": [
+      {
+        "liked": false,
+        "borderStyle": null,
+        "bestReview": null,
+        "advToken": null,
+        "id": 61727,
+        "masterData": {
+          "slug": "tetrad-skolnaa-pzbm-a5-v-kletku-12-listov-10st",
+          "plu": "3956332",
+          "unit": 1,
+          "unitName": "шт",
+          "quantum": 1000,
+          "quantumStep": 1000,
+          "weight": 29,
+          "volume": null,
+          "ui4code": "NF0701006",
+          "taxGroup": "BB",
+          "ownProduction": false,
+          "privateLabel": false,
+          "isMark": false,
+          "alcoSetUnits": null,
+          "activeNds": 10
+        },
+        "title": "Тетрадь школьная ПЗБМ A5 в клетку 12 листов, 10шт",
+        "primaryCategory": {
+          "id": 455,
+          "title": "Бумага, ручки, краски",
+          "slug": "bumaga-rucki-kraski",
+          "isAlcohol": false,
+          "isTobacco": false,
+          "isExciseAlcohol": false,
+          "isAdultContent": false,
+          "displayStyle": 2,
+          "catalogs": [
+            2,
+            4
+          ]
+        },
+        "catalogPrimaryCategory": {
+          "id": 53,
+          "title": "Канцелярия",
+          "slug": "kancelaria",
+          "isAlcohol": false,
+          "isTobacco": false,
+          "isExciseAlcohol": false,
+          "isAdultContent": false,
+          "displayStyle": 2,
+          "catalogs": [
+            1
+          ]
+        },
+        "image": {
+          "id": 1208976,
+          "originName": "3956332.jpg",
+          "fileType": "image",
+          "fileSize": 87783,
+          "width": 1600,
+          "height": 1600,
+          "cropUrlTemplate": "https://tsx.x5static.net/i/%s/xdelivery/files/1c/df/651c0c79df3880993363f4d07657.jpg",
+          "publicUrl": null,
+          "uuid": "68cd5e3e-d06a-4a67-b88c-b149c55abc39"
+        },
+        "rating": 495,
+        "medianPrice": 4399,
+        "labelCharacteristics": [],
+        "labels": [],
+        "reviewCount": 11,
+        "ratingCount": 280,
+        "priceTag": {
+          "price": 4399,
+          "discountMinimumAmount": 0,
+          "grossPrice": 4999,
+          "labels": [
+            {
+              "type": "yellow",
+              "text": "-12%"
+            }
+          ],
+          "pricePerQuantum": null,
+          "grossPricePerQuantum": null,
+          "potentialPointsForOrangeCard": null
+        },
+        "balanceState": "many"
+      },
+      {
+        "liked": false,
+        "borderStyle": null,
+        "bestReview": null,
+        "advToken": null,
+        "id": 26277,
+        "masterData": {
+          "slug": "stikery-na-odezdu-obuv-sumki-pe-1010025",
+          "plu": "4042861",
+          "unit": 1,
+          "unitName": "шт",
+          "quantum": 1000,
+          "quantumStep": 1000,
+          "weight": 8,
+          "volume": null,
+          "ui4code": "NF0701001",
+          "taxGroup": "BL",
+          "ownProduction": false,
+          "privateLabel": false,
+          "isMark": false,
+          "alcoSetUnits": null,
+          "activeNds": 20
+        },
+        "title": "Стикеры на одежду-обувь-сумки ПЕ-1010025",
+        "primaryCategory": {
+          "id": 455,
+          "title": "Бумага, ручки, краски",
+          "slug": "bumaga-rucki-kraski",
+          "isAlcohol": false,
+          "isTobacco": false,
+          "isExciseAlcohol": false,
+          "isAdultContent": false,
+          "displayStyle": 2,
+          "catalogs": [
+            2,
+            4
+          ]
+        },
+        "catalogPrimaryCategory": {
+          "id": 53,
+          "title": "Канцелярия",
+          "slug": "kancelaria",
+          "isAlcohol": false,
+          "isTobacco": false,
+          "isExciseAlcohol": false,
+          "isAdultContent": false,
+          "displayStyle": 2,
+          "catalogs": [
+            1
+          ]
+        },
+        "image": {
+          "id": 232634,
+          "originName": "4042861.jpg",
+          "fileType": "image",
+          "fileSize": 875036,
+          "width": 1242,
+          "height": 1242,
+          "cropUrlTemplate": "https://tsx.x5static.net/i/%s/xdelivery/files/35/6b/03ee872a2c3d3f1fbc4ea2c728a6.jpg",
+          "publicUrl": null,
+          "uuid": "3a7d5105-b69c-4734-9b02-b5671739eb89"
+        },
+        "rating": 500,
+        "medianPrice": 4399,
+        "labelCharacteristics": [],
+        "labels": [],
+        "reviewCount": 0,
+        "ratingCount": 7,
+        "priceTag": {
+          "price": 4399,
+          "discountMinimumAmount": 0,
+          "grossPrice": 4999,
+          "labels": [
+            {
+              "type": "yellow",
+              "text": "-12%"
+            }
+          ],
+          "pricePerQuantum": null,
+          "grossPricePerQuantum": null,
+          "potentialPointsForOrangeCard": null
+        },
+        "balanceState": "many"
+      }
+    ]
+  }
+}

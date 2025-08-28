@@ -1,0 +1,90 @@
+{
+  "content": {
+    "items": [
+      {
+        "id": 4,
+        "key": "kofe-point",
+        "title": "Кофе-поинт",
+        "description": null,
+        "showOnPublicMap": true
+      },
+      {
+        "id": 3,
+        "key": "shaurma",
+        "title": "Шаурма",
+        "description": null,
+        "showOnPublicMap": true
+      },
+      {
+        "id": 2,
+        "key": "rolly",
+        "title": "Роллы",
+        "description": null,
+        "showOnPublicMap": true
+      },
+      {
+        "id": 1,
+        "key": "picca",
+        "title": "Пицца",
+        "description": null,
+        "showOnPublicMap": true
+      },
+      {
+        "id": 5,
+        "key": "kafe",
+        "title": "Кафе",
+        "description": null,
+        "showOnPublicMap": true
+      },
+      {
+        "id": 6,
+        "key": "priem-batareek",
+        "title": "Приём батареек",
+        "description": null,
+        "showOnPublicMap": false
+      },
+      {
+        "id": 7,
+        "key": "priem-pet-butylok",
+        "title": "Приём ПЭТ-бутылок",
+        "description": null,
+        "showOnPublicMap": false
+      },
+      {
+        "id": 8,
+        "key": "priem-aluminievyh-banok",
+        "title": "Приём алюминиевых банок",
+        "description": null,
+        "showOnPublicMap": false
+      },
+      {
+        "id": 9,
+        "key": "priem-staryh-zubnyh-shchetok",
+        "title": "Приём старых зубных щеток",
+        "description": null,
+        "showOnPublicMap": false
+      },
+      {
+        "id": 10,
+        "key": "konteiner-dobrye-kryshechki",
+        "title": "Контейнер \"Добрые крышечки\"",
+        "description": null,
+        "showOnPublicMap": false
+      },
+      {
+        "id": 11,
+        "key": "priem-aerozolnyh-ballonov",
+        "title": "Приём аэрозольных баллонов",
+        "description": null,
+        "showOnPublicMap": false
+      },
+      {
+        "id": 12,
+        "key": "sbor-odejdy",
+        "title": "Сбор одежды",
+        "description": null,
+        "showOnPublicMap": false
+      }
+    ]
+  }
+}

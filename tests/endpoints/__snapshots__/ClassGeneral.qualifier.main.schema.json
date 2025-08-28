@@ -70,15 +70,6 @@
                   "url": {
                     "type": "string"
                   },
-                  "imageWebLg": {
-                    "type": "string"
-                  },
-                  "imageWebMd": {
-                    "type": "string"
-                  },
-                  "imageWebSm": {
-                    "type": "string"
-                  },
                   "imgLK": {
                     "type": "string"
                   },
@@ -110,6 +101,15 @@
                     "type": "string"
                   },
                   "description": {
+                    "type": "string"
+                  },
+                  "imageWebLg": {
+                    "type": "string"
+                  },
+                  "imageWebMd": {
+                    "type": "string"
+                  },
+                  "imageWebSm": {
                     "type": "string"
                   },
                   "notificationText": {

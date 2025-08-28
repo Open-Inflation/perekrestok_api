@@ -1,0 +1,129 @@
+{
+  "content": {
+    "items": [
+      {
+        "id": 3,
+        "title": "Запросить товар",
+        "sort": 0,
+        "pageUrls": [
+          "/"
+        ],
+        "blocks": [
+          {
+            "id": 22,
+            "sort": 1,
+            "type": "textarea",
+            "required": false,
+            "question": "Что добавить? Какие новые товары вы хотели бы видеть в нашем каталоге?",
+            "payload": {},
+            "settings": {
+              "role": null,
+              "rules": {
+                "validationExp": null,
+                "validationText": null
+              },
+              "placeholder": "Название или ссылка на товар"
+            }
+          },
+          {
+            "id": 19,
+            "sort": 2,
+            "type": "textarea",
+            "required": false,
+            "question": "Email для связи:",
+            "payload": {},
+            "settings": {
+              "role": "guest",
+              "rules": {
+                "validationExp": null,
+                "validationText": null
+              },
+              "placeholder": "example@mail.ru"
+            }
+          }
+        ]
+      },
+      {
+        "id": 2,
+        "title": "Насколько удобно пользоваться нашим сайтом?",
+        "sort": 0,
+        "pageUrls": [
+          "/"
+        ],
+        "blocks": [
+          {
+            "id": 9,
+            "sort": 1,
+            "type": "stars",
+            "required": true,
+            "question": "Оцените наш сайт",
+            "payload": {},
+            "settings": {}
+          },
+          {
+            "id": 21,
+            "sort": 2,
+            "type": "textarea",
+            "required": true,
+            "question": "Текст отзыва",
+            "payload": {},
+            "settings": {
+              "role": null,
+              "rules": {
+                "validationExp": null,
+                "validationText": null
+              },
+              "placeholder": null
+            }
+          }
+        ]
+      },
+      {
+        "id": 1,
+        "title": "Заявка на покупку франшизы сети «Перекрёсток»",
+        "sort": 0,
+        "pageUrls": [
+          "/franchise"
+        ],
+        "blocks": [
+          {
+            "id": 13,
+            "sort": 1,
+            "type": "textarea",
+            "required": true,
+            "question": "Имя",
+            "payload": {},
+            "settings": {}
+          },
+          {
+            "id": 14,
+            "sort": 2,
+            "type": "textarea",
+            "required": true,
+            "question": "Телефон",
+            "payload": {},
+            "settings": {}
+          },
+          {
+            "id": 15,
+            "sort": 3,
+            "type": "textarea",
+            "required": true,
+            "question": "E-mail",
+            "payload": {},
+            "settings": {}
+          },
+          {
+            "id": 16,
+            "sort": 4,
+            "type": "textarea",
+            "required": true,
+            "question": "Город",
+            "payload": {},
+            "settings": {}
+          }
+        ]
+      }
+    ]
+  }
+}

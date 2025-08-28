@@ -1,0 +1,57 @@
+{
+  "content": {
+    "items": [
+      {
+        "isDeliveryAvailable": true,
+        "isPickupAvailable": true,
+        "id": 81,
+        "name": "Москва",
+        "slug": "moskva",
+        "location": {
+          "type": "Point",
+          "coordinates": [
+            37.6172999,
+            55.755826
+          ]
+        },
+        "area": null,
+        "isPrimary": true,
+        "key": "moskva"
+      },
+      {
+        "isDeliveryAvailable": true,
+        "isPickupAvailable": true,
+        "id": 138,
+        "name": "Щербинка (Москва)",
+        "slug": "scherbinka-moskva",
+        "location": {
+          "type": "Point",
+          "coordinates": [
+            37.5573199,
+            55.5005584
+          ]
+        },
+        "area": null,
+        "isPrimary": false,
+        "key": "scherbinka-moskva"
+      },
+      {
+        "isDeliveryAvailable": true,
+        "isPickupAvailable": true,
+        "id": 107,
+        "name": "Москва, д.Рогозино",
+        "slug": "moskva-d-rogozino",
+        "location": {
+          "type": "Point",
+          "coordinates": [
+            37.6172999,
+            55.755826
+          ]
+        },
+        "area": null,
+        "isPrimary": false,
+        "key": "moskva-d-rogozino"
+      }
+    ]
+  }
+}

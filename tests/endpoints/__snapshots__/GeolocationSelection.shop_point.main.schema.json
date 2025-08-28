@@ -1,0 +1,56 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "type": "object",
+  "properties": {
+    "content": {
+      "type": "object",
+      "properties": {
+        "mode": {
+          "type": "string"
+        },
+        "shop": {
+          "type": "object",
+          "properties": {
+            "id": {
+              "type": "integer"
+            },
+            "sapId": {
+              "type": "string"
+            },
+            "title": {
+              "type": "string"
+            },
+            "address": {
+              "type": "string"
+            },
+            "schedule": {
+              "type": "string"
+            },
+            "isCatalogAvailable": {
+              "type": "boolean"
+            }
+          },
+          "required": [
+            "address",
+            "id",
+            "isCatalogAvailable",
+            "sapId",
+            "schedule",
+            "title"
+          ]
+        },
+        "address": {
+          "type": "null"
+        }
+      },
+      "required": [
+        "address",
+        "mode",
+        "shop"
+      ]
+    }
+  },
+  "required": [
+    "content"
+  ]
+}

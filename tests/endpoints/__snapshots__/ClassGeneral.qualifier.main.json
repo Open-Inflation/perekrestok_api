@@ -1,0 +1,141 @@
+{
+  "content": {
+    "items": [
+      {
+        "key": "discount_details_epl",
+        "payload": {}
+      },
+      {
+        "key": "new_general_chat",
+        "payload": {}
+      },
+      {
+        "key": "bar_club_forms_epl",
+        "payload": {}
+      },
+      {
+        "key": "favorite_category_v2_epl",
+        "payload": {
+          "image1": "10146",
+          "image2": "10145",
+          "image3": "10147",
+          "title1": "Кешбэк можно получить не более 10 раз за календарный месяц",
+          "title2": "Общий размер кешбэка в одном чеке не может превышать 5000 Апельсинок",
+          "title3": "Кешбэк не начисляется за покупку алкоголя и товаров с ценообразованием ниже минимальной допустимой цены по законодательству России, акционных товаров «Суперцена» и «Выгодно»",
+          "rulesUrl": "https://www.perekrestok.ru/help"
+        }
+      },
+      {
+        "key": "packet_promo_web_epl",
+        "payload": {
+          "urlError": "https://x5paket.ru/?utm_source=perek_site&utm_medium=marketing&utm_campaign=x5_tcx-web_general_promo_free-paket_0924&utm_content=tcx-web_0924_support_price-0rub&erid=2SDnjcEaPTp",
+          "urlBanner": "https://x5paket.ru/fastbuy_bally?promocode=PLASTIKX&utm_source=perek_site&utm_medium=marketing&utm_campaign=x5_tcx-web_auth-points_intergration_0325&utm_content=tcx-web_intergration_0325_price-1rub-full-points&erid=2SDnjeN9a44",
+          "urlSuccess": "https://x5paket.ru/?utm_source=perek_site&utm_medium=marketing&utm_campaign=x5_tcx-web_general_promo_free-paket_0924&utm_content=tcx-web_0924_detail_price-0rub&erid=2SDnjcEaPTp",
+          "imageWeb1Lg": "https://files.perekrestok.ru/static/files/8f/8e/8e2f66bxdf22288376ce85694554.png",
+          "imageWeb1Md": "https://files.perekrestok.ru/static/files/25/94/1d3178c6ff8eb8af83de9b25cb32.png",
+          "imageWeb1Sm": "https://cdn-img.perekrestok.ru/i/1600x1600-fit/xdelivery/files/9c/a2/788d8a5fff7478d3e63258f703f6.png",
+          "imageWeb2Lg": "https://cdn-img.perekrestok.ru/i/1600x1600-fit/xdelivery/files/93/27/e2f6126a91edb86f5be76c035521.png",
+          "imageWeb2Sm": "https://cdn-img.perekrestok.ru/i/1600x1600-fit/xdelivery/files/c1/de/63e91c6a61734ca1fcf78ebdfe9b.png",
+          "imageWeb3Lg": "https://cdn-img.perekrestok.ru/i/1600x1600-fit/xdelivery/files/bb/6f/d80cf9fdc0258d5db42a69b2e715.png",
+          "imageWeb3Sm": "https://cdn-img.perekrestok.ru/i/1600x1600-fit/xdelivery/files/3c/d0/096d3b265f118eb2c582f122e52f.png"
+        }
+      },
+      {
+        "key": "vip_details_epl",
+        "payload": {
+          "url": "https://x5club.ru/vipcard",
+          "imgLK": "10691",
+          "imgTC5": "9576",
+          "imgTCL": "9575",
+          "imgTCX": "9577",
+          "imgSale": "10692",
+          "imgTCVP": "9574",
+          "imgCashback": "9573",
+          "imgDeliveryCashback": "9572"
+        }
+      },
+      {
+        "key": "preorder_x5d",
+        "payload": {}
+      },
+      {
+        "key": "orange_cashback_epl",
+        "payload": {}
+      },
+      {
+        "key": "orange_banner_epl",
+        "payload": {
+          "url": "https://myapelsin.ru/accumulate?utm_source=tcx&utm_medium=apelsin_app&utm_campaign=perekrestok_2806&utm_content=x5club",
+          "title": "Хочу увеличить кешбэк",
+          "webviewType": "custom_auth_webview"
+        }
+      },
+      {
+        "key": "edinyi_razdel_x5_epl",
+        "payload": {}
+      },
+      {
+        "key": "loyalty_achievement",
+        "payload": {
+          "title": "Получай награды за выполнение заданий в Клубе и наших партнёров!",
+          "description": "Информация о покупках обрабатывается в течение 48 часов"
+        }
+      },
+      {
+        "key": "partners_web_epl",
+        "payload": {
+          "url": "https://x5club.ru/lk/partners",
+          "imageWebLg": "https://cdn-img.perekrestok.ru/i/1600x1600-fit/xdelivery/files/d6/f8/378967ba2532d94b900da7dc8a16.png",
+          "imageWebMd": "https://cdn-img.perekrestok.ru/i/1600x1600-fit/xdelivery/files/5f/d1/3f2d3dda17dd26e6471788854f49.png",
+          "imageWebSm": "https://cdn-img.perekrestok.ru/i/1600x1600-fit/xdelivery/files/da/4a/01e04daabcd1d1bddd85f433a9df.png"
+        }
+      },
+      {
+        "key": "checkout_promo",
+        "payload": {}
+      },
+      {
+        "key": "product_review_web",
+        "payload": {}
+      },
+      {
+        "key": "tag_trees",
+        "payload": {}
+      },
+      {
+        "key": "loyalty_levels",
+        "payload": {}
+      },
+      {
+        "key": "purchase_history_notification",
+        "payload": {
+          "notificationText": "Начисления и списания баллов могут отображаться с задержкой до 48 часов"
+        }
+      },
+      {
+        "key": "spam_trap",
+        "payload": {
+          "promoId": "1122"
+        }
+      },
+      {
+        "key": "ab_exp_web",
+        "payload": {
+          "main_promotions": "h3xCN9_OSIegdJm7wfyVXw",
+          "categories_carousel": "swcV4HAzQC2zDt9Xkiz5OA",
+          "sticky_product_info": "qOCA241pRt-Vydpjt9sQYQ",
+          "home_bought_products": "IQtwqCHLRPy2awG3hmnf9g",
+          "favorite_promolistings": "KQxq0nVNTF6SPo9iXWHMnA"
+        }
+      },
+      {
+        "key": "product_review_upload_image",
+        "payload": {}
+      },
+      {
+        "key": "basket_delivery_banner_web",
+        "payload": {}
+      }
+    ]
+  }
+}

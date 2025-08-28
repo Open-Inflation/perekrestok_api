@@ -1,12 +1,15 @@
 perekrestok_api documentation
 =============================
 
-.. include:: ../../README.md
-   :parser: myst_parser.sphinx_
+.. toctree::
+   :maxdepth: 4
+   :caption: Basic use
+
+   quick_start
 
 .. toctree::
    :maxdepth: 4
-   :caption: Документация
+   :caption: References
 
    perekrestok_api
    api

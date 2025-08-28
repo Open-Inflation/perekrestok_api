@@ -1,0 +1,16 @@
+{
+  "content": {
+    "title": "Красная площадь, 1",
+    "fullAddress": "Москва, Красная площадь, 1",
+    "location": {
+      "type": "Point",
+      "coordinates": [
+        37.61768,
+        55.755277
+      ]
+    },
+    "isMaxPrecision": true,
+    "street": "Красная площадь",
+    "house": "1"
+  }
+}

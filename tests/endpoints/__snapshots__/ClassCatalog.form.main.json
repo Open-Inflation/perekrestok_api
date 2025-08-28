@@ -1,0 +1,277 @@
+{
+  "content": {
+    "priceFrom": 499,
+    "priceTo": 449900,
+    "productCount": 1084,
+    "searchFeatures": [
+      {
+        "title": "Бренд",
+        "key": "brand",
+        "enumList": [
+          {
+            "title": "4Life",
+            "fullTitle": null,
+            "image": null,
+            "hideCategory": false,
+            "value": "4life",
+            "productCount": 2
+          },
+          {
+            "title": "7 Days",
+            "fullTitle": null,
+            "image": null,
+            "hideCategory": false,
+            "value": "7-days",
+            "productCount": 6
+          },
+          {
+            "title": "Ahmad Tea",
+            "fullTitle": null,
+            "image": null,
+            "hideCategory": false,
+            "value": "ahmad-tea",
+            "productCount": 4
+          },
+          {
+            "title": "Alpen Gold",
+            "fullTitle": null,
+            "image": null,
+            "hideCategory": false,
+            "value": "alpen-gold",
+            "productCount": 7
+          },
+          {
+            "title": "Amarancho",
+            "fullTitle": null,
+            "image": null,
+            "hideCategory": false,
+            "value": "amarancho",
+            "productCount": 1
+          }
+        ],
+        "enumCount": 239
+      },
+      {
+        "title": "Категория товара",
+        "key": "category-tovara",
+        "enumList": [
+          {
+            "title": "Бумага и салфетки",
+            "fullTitle": null,
+            "image": null,
+            "hideCategory": false,
+            "value": "bumaga-i-salfetki",
+            "productCount": 4
+          },
+          {
+            "title": "Бумага, ручки, краски",
+            "fullTitle": null,
+            "image": null,
+            "hideCategory": false,
+            "value": "bumaga-rucki-kraski",
+            "productCount": 9
+          },
+          {
+            "title": "Бумажная и ватная продукция",
+            "fullTitle": null,
+            "image": null,
+            "hideCategory": false,
+            "value": "bumaznaa-i-vatnaa-produkcia",
+            "productCount": 11
+          },
+          {
+            "title": "Веган",
+            "fullTitle": null,
+            "image": null,
+            "hideCategory": false,
+            "value": "vegan",
+            "productCount": 3
+          },
+          {
+            "title": "Вода",
+            "fullTitle": null,
+            "image": null,
+            "hideCategory": false,
+            "value": "voda",
+            "productCount": 2
+          }
+        ],
+        "enumCount": 30
+      },
+      {
+        "title": "Тип продукта",
+        "key": "tip-produkta",
+        "enumList": [
+          {
+            "title": "Альбом для рисования",
+            "fullTitle": null,
+            "image": null,
+            "hideCategory": false,
+            "value": "albom-dla-risovania",
+            "productCount": 1
+          },
+          {
+            "title": "Батончик",
+            "fullTitle": null,
+            "image": null,
+            "hideCategory": false,
+            "value": "batoncik",
+            "productCount": 9
+          },
+          {
+            "title": "Биойогурт",
+            "fullTitle": null,
+            "image": null,
+            "hideCategory": false,
+            "value": "biojogurt",
+            "productCount": 2
+          },
+          {
+            "title": "Блок для записей",
+            "fullTitle": null,
+            "image": null,
+            "hideCategory": false,
+            "value": "blok-dla-zapisej",
+            "productCount": 1
+          },
+          {
+            "title": "Варенье",
+            "fullTitle": null,
+            "image": null,
+            "hideCategory": false,
+            "value": "varene",
+            "productCount": 24
+          }
+        ],
+        "enumCount": 74
+      },
+      {
+        "title": "Особенности",
+        "key": "osobennosti",
+        "enumList": [
+          {
+            "title": "Без ароматизаторов",
+            "fullTitle": null,
+            "image": null,
+            "hideCategory": false,
+            "value": "bez-aromatizatorov",
+            "productCount": 4
+          },
+          {
+            "title": "Без глютена",
+            "fullTitle": null,
+            "image": {
+              "id": 857791,
+              "originName": "Тип=Без глютена.png",
+              "fileType": "image",
+              "fileSize": 1637,
+              "width": 64,
+              "height": 64,
+              "cropUrlTemplate": "https://tsx.x5static.net/i/%s/xdelivery/files/8d/ff/a5b2591edc5522f83a6xd97cbdc6.png",
+              "publicUrl": null,
+              "uuid": "9e8f57be-ce97-4afe-8c3b-e2fa7b018f8e"
+            },
+            "hideCategory": false,
+            "value": "bez-glutena",
+            "productCount": 28
+          },
+          {
+            "title": "Без лактозы",
+            "fullTitle": null,
+            "image": {
+              "id": 857796,
+              "originName": "Тип=Без лактозы.png",
+              "fileType": "image",
+              "fileSize": 1222,
+              "width": 64,
+              "height": 64,
+              "cropUrlTemplate": "https://tsx.x5static.net/i/%s/xdelivery/files/9e/e3/6a933ed5f4a7c8a321fa99fbc294.png",
+              "publicUrl": null,
+              "uuid": "e1412f58-1c02-4dc5-a344-e9335ed24b6b"
+            },
+            "hideCategory": false,
+            "value": "bez-laktozy",
+            "productCount": 48
+          },
+          {
+            "title": "Без сахара",
+            "fullTitle": null,
+            "image": {
+              "id": 857727,
+              "originName": "Без сахара.png",
+              "fileType": "image",
+              "fileSize": 3437,
+              "width": 160,
+              "height": 160,
+              "cropUrlTemplate": "https://tsx.x5static.net/i/%s/xdelivery/files/4c/94/e7cddf739ec474b7258d13e4796a.png",
+              "publicUrl": null,
+              "uuid": "79ecce41-782e-458e-b034-c0014d1cc7f5"
+            },
+            "hideCategory": false,
+            "value": "bez-sahara",
+            "productCount": 124
+          },
+          {
+            "title": "Богат протеином",
+            "fullTitle": null,
+            "image": {
+              "id": 910440,
+              "originName": "Богат протеином.png",
+              "fileType": "image",
+              "fileSize": 7336,
+              "width": 512,
+              "height": 512,
+              "cropUrlTemplate": "https://tsx.x5static.net/i/%s/xdelivery/files/22/4a/7a5eec351e5fdde07bb027fb66d5.png",
+              "publicUrl": null,
+              "uuid": "b73efada-6520-4037-a2ed-70c941132630"
+            },
+            "hideCategory": false,
+            "value": "bogat-proteinom",
+            "productCount": 10
+          }
+        ],
+        "enumCount": 9
+      }
+    ],
+    "productGroups": [],
+    "hasAdultContent": true,
+    "hasAlcohol": false,
+    "hasExciseAlcohol": false,
+    "hasPromo": true,
+    "hasTobacco": false,
+    "orderByInfo": [
+      {
+        "orderBy": "popularity",
+        "orderDirection": "desc",
+        "orderByTitle": "Рекомендуемые",
+        "isSelected": true
+      },
+      {
+        "orderBy": "price",
+        "orderDirection": "asc",
+        "orderByTitle": "Сначала дешевле",
+        "isSelected": false
+      },
+      {
+        "orderBy": "price",
+        "orderDirection": "desc",
+        "orderByTitle": "Сначала дороже",
+        "isSelected": false
+      },
+      {
+        "orderBy": "discount",
+        "orderDirection": "desc",
+        "orderByTitle": "По размеру скидки",
+        "isSelected": false
+      },
+      {
+        "orderBy": "rating",
+        "orderDirection": "desc",
+        "orderByTitle": "По рейтингу",
+        "isSelected": false
+      }
+    ],
+    "ratingValue": null,
+    "ratingCount": null
+  }
+}

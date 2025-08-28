@@ -1,0 +1,220 @@
+{
+  "content": {
+    "items": [
+      {
+        "id": 49027879,
+        "rating": 500,
+        "comment": "Тетрадь как тетрадь",
+        "username": "",
+        "notes": [
+          {
+            "key": "Kachestvo",
+            "value": "Качество"
+          }
+        ],
+        "createdAt": 1740490579770,
+        "points": 0,
+        "approvedImages": [],
+        "reaction": {
+          "likes": 0,
+          "dislikes": 0,
+          "balance": 0,
+          "vote": 0,
+          "isAvailable": true
+        },
+        "isContent": false
+      },
+      {
+        "id": 48599742,
+        "rating": 500,
+        "comment": "Обычная тетрадь",
+        "username": "",
+        "notes": [
+          {
+            "key": "Kachestvo",
+            "value": "Качество"
+          }
+        ],
+        "createdAt": 1739263551829,
+        "points": 0,
+        "approvedImages": [],
+        "reaction": {
+          "likes": 0,
+          "dislikes": 0,
+          "balance": 0,
+          "vote": 0,
+          "isAvailable": true
+        },
+        "isContent": false
+      },
+      {
+        "id": 48358673,
+        "rating": 500,
+        "comment": "хорошая цена ,брали по акции",
+        "username": "",
+        "notes": [],
+        "createdAt": 1738657682093,
+        "points": 0,
+        "approvedImages": [],
+        "reaction": {
+          "likes": 0,
+          "dislikes": 0,
+          "balance": 0,
+          "vote": 0,
+          "isAvailable": true
+        },
+        "isContent": false
+      },
+      {
+        "id": 45521398,
+        "rating": 500,
+        "comment": "обычная тетрадь",
+        "username": "",
+        "notes": [],
+        "createdAt": 1733172355026,
+        "points": 0,
+        "approvedImages": [],
+        "reaction": {
+          "likes": 0,
+          "dislikes": 0,
+          "balance": 0,
+          "vote": 0,
+          "isAvailable": true
+        },
+        "isContent": false
+      },
+      {
+        "id": 44777499,
+        "rating": 500,
+        "comment": "пригодится",
+        "username": "",
+        "notes": [],
+        "createdAt": 1731863760369,
+        "points": 0,
+        "approvedImages": [],
+        "reaction": {
+          "likes": 0,
+          "dislikes": 1,
+          "balance": -1,
+          "vote": 0,
+          "isAvailable": true
+        },
+        "isContent": false
+      },
+      {
+        "id": 43245476,
+        "rating": 500,
+        "comment": "Хорошие тетради, если кому важно, в крупную линию.",
+        "username": "",
+        "notes": [
+          {
+            "key": "Kachestvo",
+            "value": "Качество"
+          }
+        ],
+        "createdAt": 1728994445469,
+        "points": 0,
+        "approvedImages": [],
+        "reaction": {
+          "likes": 7,
+          "dislikes": 0,
+          "balance": 7,
+          "vote": 0,
+          "isAvailable": true
+        },
+        "isContent": false
+      },
+      {
+        "id": 43078779,
+        "rating": 500,
+        "comment": "супер спасибо",
+        "username": "",
+        "notes": [
+          {
+            "key": "Kachestvo",
+            "value": "Качество"
+          },
+          {
+            "key": "Upakovka",
+            "value": "Упаковка"
+          }
+        ],
+        "createdAt": 1728566292805,
+        "points": 0,
+        "approvedImages": [],
+        "reaction": {
+          "likes": 0,
+          "dislikes": 0,
+          "balance": 0,
+          "vote": 0,
+          "isAvailable": true
+        },
+        "isContent": false
+      },
+      {
+        "id": 42494462,
+        "rating": 400,
+        "comment": "Не люблю мягкие обложки, мнутся ужасно",
+        "username": "",
+        "notes": [],
+        "createdAt": 1727119218537,
+        "points": 0,
+        "approvedImages": [],
+        "reaction": {
+          "likes": 1,
+          "dislikes": 0,
+          "balance": 1,
+          "vote": 0,
+          "isAvailable": true
+        },
+        "isContent": false
+      },
+      {
+        "id": 42277852,
+        "rating": 500,
+        "comment": "Качественные тетради",
+        "username": "",
+        "notes": [
+          {
+            "key": "Kachestvo",
+            "value": "Качество"
+          }
+        ],
+        "createdAt": 1726490124994,
+        "points": 0,
+        "approvedImages": [],
+        "reaction": {
+          "likes": 0,
+          "dislikes": 0,
+          "balance": 0,
+          "vote": 0,
+          "isAvailable": true
+        },
+        "isContent": false
+      },
+      {
+        "id": 42150557,
+        "rating": 500,
+        "comment": "Топ тетрадь",
+        "username": "",
+        "notes": [],
+        "createdAt": 1726087204354,
+        "points": 0,
+        "approvedImages": [],
+        "reaction": {
+          "likes": 0,
+          "dislikes": 0,
+          "balance": 0,
+          "vote": 0,
+          "isAvailable": true
+        },
+        "isContent": false
+      }
+    ],
+    "paginator": {
+      "step": 10,
+      "current": 1,
+      "nextPageExists": true
+    }
+  }
+}
