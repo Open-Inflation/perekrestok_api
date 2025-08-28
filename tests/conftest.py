@@ -14,7 +14,7 @@ def is_not_error(response: Any) -> None:
     - тело корректно JSON-декодится
     - нет ключа 'error' в корне
     """
-    time.sleep(1)  # слегка притормаживаем частоту запросов
+    time.sleep(0.5)  # слегка притормаживаем частоту запросов
 
     status = getattr(response, "status_code", 200)
     if status >= 400:
