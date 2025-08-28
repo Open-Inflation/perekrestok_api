@@ -2,7 +2,7 @@
 
 # Perekrestok API (not official)
 
-[![Tests](https://github.com/Open-Inflation/perekrestok_api/actions/workflows/check-tests.yml/badge.svg)](https://github.com/Open-Inflation/perekrestok_api/actions/workflows/check-tests.yml)
+[![Tests](https://github.com/Open-Inflation/perekrestok_api/actions/workflows/tests.yml/badge.svg)](https://github.com/Open-Inflation/perekrestok_api/actions/workflows/tests.yml)
 ![PyPI - Python Version](https://img.shields.io/pypi/pyversions/perekrestok_api)
 ![PyPI - Package Version](https://img.shields.io/pypi/v/perekrestok_api?color=blue)
 [![PyPI - Downloads](https://img.shields.io/pypi/dm/perekrestok_api?label=PyPi%20downloads)](https://pypi.org/project/perekrestok-api/)
