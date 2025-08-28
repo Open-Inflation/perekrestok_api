@@ -55,7 +55,6 @@ jobs:
         with:
           path: |
             docs/_build/html
-
   deploy-docs:
     if: ${{ github.event.inputs.target == 'docs' || github.event.inputs.target == 'all' }}
     name: Deploy docs to GitHub Pages
