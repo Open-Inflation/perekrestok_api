@@ -112,10 +112,11 @@ multi_line_parameter_list = True
 python_maximum_signature_line_length = 60
 
 default_role = "any"                             # упрощает кросс-ссылки
-nitpicky = True                                  # строгие ссылки
-# Если мешают отдельные сторонние типы/алиасы — можно приглушить:
+
+nitpicky = True  # если хотите строгий режим
 nitpick_ignore_regex = [
-    # ("py:class", r"typing\..+"),
+    ("py:class", r"hrequests\..*"),
+    ("py:class", r".*NoneType"),  # если всплывает для typing | None и т.п.
 ]
 
 # ──────────────────────────────────────────────────────────────────────────────

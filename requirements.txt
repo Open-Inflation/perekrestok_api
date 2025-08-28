@@ -3,10 +3,3 @@ requests
 
 pytest
 pytest-jsonschema-snapshot
-coverage
-coverage-badge
-sphinx
-sphinx-autoapi
-myst-parser
-jsoncrack-for-sphinx
-furo
