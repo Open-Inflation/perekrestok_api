@@ -2,6 +2,7 @@
 
 # Perekrestok API (not official)
 
+![Tests last run (ISO)](https://img.shields.io/badge/dynamic/json?label=Tests%20last%20run&query=%24.workflow_runs%5B0%5D.updated_at&url=https%3A%2F%2Fapi.github.com%2Frepos%2FOpen-Inflation%2Fperekrestok_api%2Factions%2Fworkflows%2Ftests.yml%2Fruns%3Fper_page%3D1%26status%3Dcompleted&logo=githubactions&cacheSeconds=300)
 [![Tests](https://github.com/Open-Inflation/perekrestok_api/actions/workflows/tests.yml/badge.svg)](https://github.com/Open-Inflation/perekrestok_api/actions/workflows/tests.yml)
 ![PyPI - Python Version](https://img.shields.io/pypi/pyversions/perekrestok_api)
 ![PyPI - Package Version](https://img.shields.io/pypi/v/perekrestok_api?color=blue)
