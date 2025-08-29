@@ -57,7 +57,6 @@ class PerekrestokAPI:
         self.session = hrequests.Session(
             self.browser,
             timeout=self.timeout,
-            proxy=self.proxy,         # ← автоподхват из env, если есть
         )
         self.access_token = self.access_token  # применит setter
 
@@ -114,6 +113,7 @@ class PerekrestokAPI:
                 session=self.session,
                 browser=self.browser,
                 headless=self.headless,
+                proxy=self.proxy,
                 **self.browser_opts,
             ) as page:
                 page.goto(MAIN_SITE_URL)
@@ -144,7 +144,7 @@ class PerekrestokAPI:
             json_body: Тело запроса в формате JSON (опционально)
         """
         # Единая точка входа в чужую библиотеку для удобства
-        resp = self.session.request(method.upper(), url, json=json_body, timeout=self.timeout)
+        resp = self.session.request(method.upper(), url, json=json_body, timeout=self.timeout, proxy=self.proxy)
         if hasattr(resp, "request"):
             raise RuntimeError(
                 "Response object does have `request` attribute. "
