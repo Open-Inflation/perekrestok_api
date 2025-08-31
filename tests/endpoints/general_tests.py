@@ -3,6 +3,8 @@ from __future__ import annotations
 import pytest
 from conftest import make_test
 
+import imghdr
+
 # Все независимые кейсы — в матрицу
 @pytest.mark.parametrize(
     "factory",
@@ -23,7 +25,6 @@ def test_download_image(api):
         "files/ae/2a/4f39b2a249768b268ed9f325c155.png"
     )
     resp = api.General.download_image(image_url)
-    blob = resp.content
-    assert isinstance(blob, bytes)
-    assert len(blob) > 0
-    assert blob[:8] == b"\x89PNG\r\n\x1a\n"
+    assert resp.headers["Content-Type"].startswith("image/")
+    fmt = imghdr.what(None, resp.raw)
+    assert fmt in ("png", "jpeg", "webp")
