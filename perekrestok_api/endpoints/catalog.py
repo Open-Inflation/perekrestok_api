@@ -2,22 +2,27 @@
 from .. import abstraction
 from hrequests import Response
 
+from typing import TYPE_CHECKING
+
+if TYPE_CHECKING:
+    from ..manager import PerekrestokAPI
+
 
 class ClassCatalog:
     """Методы для работы с каталогом товаров.
     
     Включает поиск товаров, получение информации о категориях,
     работу с фидами товаров и отзывами.
-
-    Attributes
-    ----------
-    Product : ProductService
-        Сервис для работы с товарами в каталоге.
     """
-    def __init__(self, parent, CATALOG_URL: str):
-        self._parent = parent
-        self.CATALOG_URL = CATALOG_URL
-        self.Product = ProductService(parent=self._parent, CATALOG_URL=CATALOG_URL)
+    
+
+    def __init__(self, parent: "PerekrestokAPI", CATALOG_URL: str):
+        self._parent: "PerekrestokAPI" = parent
+        
+        self.CATALOG_URL: str = CATALOG_URL
+
+        self.Product: ProductService = ProductService(parent=self._parent, CATALOG_URL=self.CATALOG_URL)
+        """Сервис для работы с товарами в каталоге."""
 
     def category_reviews(self, category_id: int | list[int]) -> Response:
         """Получить отзывы о товарах в категории или категориях по её ID."""
@@ -91,10 +96,10 @@ class ClassCatalog:
 
 class ProductService:
     """Сервис для работы с товарами в каталоге."""
-    def __init__(self, parent, CATALOG_URL: str):
-        self._parent = parent
-        self.CATALOG_URL = CATALOG_URL
-    
+    def __init__(self, parent: "PerekrestokAPI", CATALOG_URL: str):
+        self._parent: "PerekrestokAPI" = parent
+        self.CATALOG_URL: str = CATALOG_URL
+
     def _check_plu(self, product_plu: int | str) -> str:
         """Проверка и нормализация PLU товара.
         

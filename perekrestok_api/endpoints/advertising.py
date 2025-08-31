@@ -2,15 +2,20 @@
 from .. import abstraction
 from hrequests import Response
 
+from typing import TYPE_CHECKING
+
+if TYPE_CHECKING:
+    from ..manager import PerekrestokAPI
+
 
 class ClassAdvertising:
     """Методы для работы с рекламными материалами Перекрёстка.
     
     Включает получение баннеров, слайдеров, буклетов и другого рекламного контента.
     """
-    def __init__(self, parent, CATALOG_URL: str):
-        self._parent = parent
-        self.CATALOG_URL = CATALOG_URL
+    def __init__(self, parent: "PerekrestokAPI", CATALOG_URL: str):
+        self._parent: "PerekrestokAPI" = parent
+        self.CATALOG_URL: str = CATALOG_URL
 
     def banner(self, places: list[abstraction.BannerPlace]) -> Response:
         """Получить баннеры для указанных мест размещения.

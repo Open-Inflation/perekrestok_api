@@ -1,7 +1,12 @@
 """Геолокация"""
 from .. import abstraction
 from hrequests import Response
-from urllib.parse import quote, unquote
+from urllib.parse import quote
+
+from typing import TYPE_CHECKING
+
+if TYPE_CHECKING:
+    from ..manager import PerekrestokAPI
 
 
 class ClassGeolocation:
@@ -9,19 +14,17 @@ class ClassGeolocation:
     
     Включает получение информации о городах, адресах, поиск магазинов
     и управление настройками доставки.
-
-    Attributes
-    ----------
-    Selection : GeolocationSelection
-        Доступ к методам выбора точек доставки и магазинов.
-    Shop : ShopService
-        Доступ к методам работы с магазинами.
     """
-    def __init__(self, parent, CATALOG_URL: str):
-        self._parent = parent
-        self.Selection = GeolocationSelection(parent=self._parent, CATALOG_URL=CATALOG_URL)
-        self.Shop = ShopService(parent=self._parent, CATALOG_URL=CATALOG_URL)
-        self.CATALOG_URL = CATALOG_URL
+    def __init__(self, parent: "PerekrestokAPI", CATALOG_URL: str):
+        self._parent: "PerekrestokAPI" = parent
+        
+        self.Selection: GeolocationSelection = GeolocationSelection(parent=self._parent, CATALOG_URL=CATALOG_URL)
+        """Сервис для выбора точек доставки и магазинов."""
+
+        self.Shop: ShopService = ShopService(parent=self._parent, CATALOG_URL=CATALOG_URL)
+        """Сервис для работы с информацией о магазинах."""
+
+        self.CATALOG_URL: str = CATALOG_URL
 
     def current(self) -> Response:
         """Получить информацию о текущем выбранном городе."""
@@ -63,9 +66,9 @@ class ClassGeolocation:
 
 class ShopService:
     """Сервис для работы с информацией о магазинах."""
-    def __init__(self, parent, CATALOG_URL: str):
-        self._parent = parent
-        self.CATALOG_URL = CATALOG_URL
+    def __init__(self, parent: "PerekrestokAPI", CATALOG_URL: str):
+        self._parent: "PerekrestokAPI" = parent
+        self.CATALOG_URL: str = CATALOG_URL
 
     def all(self) -> Response:
         """Получить список всех точек магазинов."""
@@ -117,9 +120,9 @@ class ShopService:
 
 class GeolocationSelection:
     """Сервис для выбора точек доставки и магазинов."""
-    def __init__(self, parent, CATALOG_URL: str):
-        self._parent = parent
-        self.CATALOG_URL = CATALOG_URL
+    def __init__(self, parent: "PerekrestokAPI", CATALOG_URL: str):
+        self._parent: "PerekrestokAPI" = parent
+        self.CATALOG_URL: str = CATALOG_URL
 
     def shop_point(self, shop_id: int) -> Response:
         """Выбрать магазин. Изменяет содержимое каталога.

@@ -29,19 +29,7 @@ def _pick_https_proxy() -> str | None:
 
 @dataclass
 class PerekrestokAPI:
-    """Клиент Перекрёстка.
-
-    Attributes
-    ----------
-    Geolocation : ClassGeolocation
-        Клиент геолокации.
-    Catalog : ClassCatalog
-        Методы каталога.
-    Advertising : ClassAdvertising
-        Методы рекламы.
-    General : ClassGeneral
-        Общие методы (например, для формы обратной связи).
-    """
+    """Клиент Перекрёстка."""
 
     timeout: float          = 15.0
     browser: str            = "firefox"
@@ -51,6 +39,15 @@ class PerekrestokAPI:
 
     # будет создана в __post_init__
     session: hrequests.Session = field(init=False, repr=False)
+
+    Geolocation: ClassGeolocation = field(init=False)
+    """Клиент геолокации."""
+    Catalog:     ClassCatalog     = field(init=False)
+    """Клиент каталога."""
+    Advertising: ClassAdvertising = field(init=False)
+    """Клиент рекламы."""
+    General:     ClassGeneral     = field(init=False)
+    """Общие методы (например, для формы обратной связи)."""
 
     # ───── lifecycle ─────
     def __post_init__(self) -> None:

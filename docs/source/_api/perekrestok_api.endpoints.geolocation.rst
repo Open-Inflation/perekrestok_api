@@ -9,7 +9,6 @@
    .. autosummary::
    
       quote
-      unquote
    
    .. rubric:: Classes
 
