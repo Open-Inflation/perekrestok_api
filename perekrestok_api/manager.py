@@ -2,7 +2,7 @@ from __future__ import annotations
 
 import json
 import urllib.parse
-from typing import Any
+from typing import Any, Literal
 
 import hrequests
 from requests import Request
@@ -32,7 +32,7 @@ class PerekrestokAPI:
     """Клиент Перекрёстка."""
 
     timeout: float          = 15.0
-    browser: str            = "firefox"
+    browser: Literal["firefox", "chrome"] = "firefox"
     headless: bool          = True
     proxy: str | None       = field(default_factory=_pick_https_proxy)
     browser_opts: dict[str, Any] = field(default_factory=dict)
