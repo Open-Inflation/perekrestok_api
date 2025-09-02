@@ -1,13 +1,13 @@
 {
-  "$schema": "http://json-schema.org/schema#",
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
   "type": "object",
   "properties": {
     "content": {
       "type": "object",
       "properties": {
         "uuid": {
-          "type": "string",
-          "format": "uuid"
+          "format": "uuid",
+          "type": "string"
         },
         "x5id": {
           "type": "null"

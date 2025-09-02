@@ -1,31 +1,6 @@
 {
   "content": {
-    "pickupPlaceInfo": {
-      "title": "Касса № 7",
-      "pickupPlaceDescription": null,
-      "pickupPlacePrimaryImage": {
-        "id": 918832,
-        "originName": "2582.jpeg",
-        "fileType": "image",
-        "fileSize": 171035,
-        "width": 898,
-        "height": 898,
-        "cropUrlTemplate": "https://tsx.x5static.net/i/%s/xdelivery/files/4e/21/2fca192f74d11d27f95310b5233b.jpg",
-        "publicUrl": null,
-        "uuid": "9c231078-e028-428f-895a-dde4e8549060"
-      },
-      "pickupPlaceSecondaryImage": {
-        "id": 918833,
-        "originName": "2582(1).jpeg",
-        "fileType": "image",
-        "fileSize": 145120,
-        "width": 720,
-        "height": 719,
-        "cropUrlTemplate": "https://tsx.x5static.net/i/%s/xdelivery/files/11/cc/5a4c5ff638fbec651340782e4151.jpg",
-        "publicUrl": null,
-        "uuid": "06c93753-9906-41ce-b42d-8b6e24ebd1a2"
-      }
-    },
+    "pickupPlaceInfo": null,
     "id": 1,
     "title": "ТЦ Белгород",
     "phone": "8 800-200-9555",
@@ -34,7 +9,7 @@
     "schedule": "08:00-21:00",
     "isDeliveryAvailable": true,
     "isCatalogAvailable": true,
-    "isPickupAvailable": true,
+    "isPickupAvailable": false,
     "city": {
       "id": 1,
       "name": "Белгород",

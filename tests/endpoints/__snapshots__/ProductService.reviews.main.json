@@ -2,132 +2,9 @@
   "content": {
     "items": [
       {
-        "id": 49027879,
+        "id": 53213135,
         "rating": 500,
-        "comment": "Тетрадь как тетрадь",
-        "username": "",
-        "notes": [
-          {
-            "key": "Kachestvo",
-            "value": "Качество"
-          }
-        ],
-        "createdAt": 1740490579770,
-        "points": 0,
-        "approvedImages": [],
-        "reaction": {
-          "likes": 0,
-          "dislikes": 0,
-          "balance": 0,
-          "vote": 0,
-          "isAvailable": true
-        },
-        "isContent": false
-      },
-      {
-        "id": 48599742,
-        "rating": 500,
-        "comment": "Обычная тетрадь",
-        "username": "",
-        "notes": [
-          {
-            "key": "Kachestvo",
-            "value": "Качество"
-          }
-        ],
-        "createdAt": 1739263551829,
-        "points": 0,
-        "approvedImages": [],
-        "reaction": {
-          "likes": 0,
-          "dislikes": 0,
-          "balance": 0,
-          "vote": 0,
-          "isAvailable": true
-        },
-        "isContent": false
-      },
-      {
-        "id": 48358673,
-        "rating": 500,
-        "comment": "хорошая цена ,брали по акции",
-        "username": "",
-        "notes": [],
-        "createdAt": 1738657682093,
-        "points": 0,
-        "approvedImages": [],
-        "reaction": {
-          "likes": 0,
-          "dislikes": 0,
-          "balance": 0,
-          "vote": 0,
-          "isAvailable": true
-        },
-        "isContent": false
-      },
-      {
-        "id": 45521398,
-        "rating": 500,
-        "comment": "обычная тетрадь",
-        "username": "",
-        "notes": [],
-        "createdAt": 1733172355026,
-        "points": 0,
-        "approvedImages": [],
-        "reaction": {
-          "likes": 0,
-          "dislikes": 0,
-          "balance": 0,
-          "vote": 0,
-          "isAvailable": true
-        },
-        "isContent": false
-      },
-      {
-        "id": 44777499,
-        "rating": 500,
-        "comment": "пригодится",
-        "username": "",
-        "notes": [],
-        "createdAt": 1731863760369,
-        "points": 0,
-        "approvedImages": [],
-        "reaction": {
-          "likes": 0,
-          "dislikes": 1,
-          "balance": -1,
-          "vote": 0,
-          "isAvailable": true
-        },
-        "isContent": false
-      },
-      {
-        "id": 43245476,
-        "rating": 500,
-        "comment": "Хорошие тетради, если кому важно, в крупную линию.",
-        "username": "",
-        "notes": [
-          {
-            "key": "Kachestvo",
-            "value": "Качество"
-          }
-        ],
-        "createdAt": 1728994445469,
-        "points": 0,
-        "approvedImages": [],
-        "reaction": {
-          "likes": 7,
-          "dislikes": 0,
-          "balance": 7,
-          "vote": 0,
-          "isAvailable": true
-        },
-        "isContent": false
-      },
-      {
-        "id": 43078779,
-        "rating": 500,
-        "comment": "супер спасибо",
+        "comment": "отлично доставили, не мятое",
         "username": "",
         "notes": [
           {
@@ -137,9 +14,13 @@
           {
             "key": "Upakovka",
             "value": "Упаковка"
+          },
+          {
+            "key": "Drugoe",
+            "value": "Другое"
           }
         ],
-        "createdAt": 1728566292805,
+        "createdAt": 1749916683548,
         "points": 0,
         "approvedImages": [],
         "reaction": {
@@ -152,27 +33,27 @@
         "isContent": false
       },
       {
-        "id": 42494462,
-        "rating": 400,
-        "comment": "Не люблю мягкие обложки, мнутся ужасно",
+        "id": 48424199,
+        "rating": 500,
+        "comment": "Гуд  просто",
         "username": "",
         "notes": [],
-        "createdAt": 1727119218537,
-        "points": 0,
+        "createdAt": 1738781540165,
+        "points": null,
         "approvedImages": [],
         "reaction": {
-          "likes": 1,
+          "likes": 0,
           "dislikes": 0,
-          "balance": 1,
+          "balance": 0,
           "vote": 0,
           "isAvailable": true
         },
         "isContent": false
       },
       {
-        "id": 42277852,
+        "id": 47978741,
         "rating": 500,
-        "comment": "Качественные тетради",
+        "comment": "цена , качество .",
         "username": "",
         "notes": [
           {
@@ -180,7 +61,7 @@
             "value": "Качество"
           }
         ],
-        "createdAt": 1726490124994,
+        "createdAt": 1737712232897,
         "points": 0,
         "approvedImages": [],
         "reaction": {
@@ -193,12 +74,138 @@
         "isContent": false
       },
       {
-        "id": 42150557,
+        "id": 45521409,
         "rating": 500,
-        "comment": "Топ тетрадь",
+        "comment": "обычная тетрадь",
         "username": "",
         "notes": [],
-        "createdAt": 1726087204354,
+        "createdAt": 1733172355023,
+        "points": 0,
+        "approvedImages": [],
+        "reaction": {
+          "likes": 0,
+          "dislikes": 0,
+          "balance": 0,
+          "vote": 0,
+          "isAvailable": true
+        },
+        "isContent": false
+      },
+      {
+        "id": 45005232,
+        "rating": 500,
+        "comment": "Нормальные",
+        "username": "",
+        "notes": [],
+        "createdAt": 1732300174062,
+        "points": 0,
+        "approvedImages": [],
+        "reaction": {
+          "likes": 0,
+          "dislikes": 0,
+          "balance": 0,
+          "vote": 0,
+          "isAvailable": true
+        },
+        "isContent": false
+      },
+      {
+        "id": 43001135,
+        "rating": 500,
+        "comment": "Прекрасные тетради, клетка не яркая, что надо.",
+        "username": "",
+        "notes": [],
+        "createdAt": 1728381762406,
+        "points": 0,
+        "approvedImages": [],
+        "reaction": {
+          "likes": 0,
+          "dislikes": 0,
+          "balance": 0,
+          "vote": 0,
+          "isAvailable": true
+        },
+        "isContent": false
+      },
+      {
+        "id": 42307102,
+        "rating": 500,
+        "comment": "хорошие недорогие тетради.",
+        "username": "",
+        "notes": [],
+        "createdAt": 1726595091822,
+        "points": 0,
+        "approvedImages": [],
+        "reaction": {
+          "likes": 0,
+          "dislikes": 0,
+          "balance": 0,
+          "vote": 0,
+          "isAvailable": true
+        },
+        "isContent": false
+      },
+      {
+        "id": 42277553,
+        "rating": 500,
+        "comment": "Тетради вегда нужны школьникам! Рекомендую!",
+        "username": "",
+        "notes": [
+          {
+            "key": "Kachestvo",
+            "value": "Качество"
+          }
+        ],
+        "createdAt": 1726490125050,
+        "points": 0,
+        "approvedImages": [],
+        "reaction": {
+          "likes": 0,
+          "dislikes": 0,
+          "balance": 0,
+          "vote": 0,
+          "isAvailable": true
+        },
+        "isContent": false
+      },
+      {
+        "id": 42269798,
+        "rating": 500,
+        "comment": "нормальные тетради",
+        "username": "",
+        "notes": [],
+        "createdAt": 1726479646891,
+        "points": 0,
+        "approvedImages": [],
+        "reaction": {
+          "likes": 0,
+          "dislikes": 0,
+          "balance": 0,
+          "vote": 0,
+          "isAvailable": true
+        },
+        "isContent": false
+      },
+      {
+        "id": 42153359,
+        "rating": 500,
+        "comment": "хорошая бумага",
+        "username": "",
+        "notes": [
+          {
+            "key": "Kachestvo",
+            "value": "Качество"
+          },
+          {
+            "key": "Upakovka",
+            "value": "Упаковка"
+          },
+          {
+            "key": "Drugoe",
+            "value": "Другое"
+          }
+        ],
+        "createdAt": 1726138159865,
         "points": 0,
         "approvedImages": [],
         "reaction": {

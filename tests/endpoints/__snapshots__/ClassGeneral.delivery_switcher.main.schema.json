@@ -1,5 +1,5 @@
 {
-  "$schema": "http://json-schema.org/schema#",
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
   "type": "object",
   "properties": {
     "content": {
@@ -82,15 +82,15 @@
                             "type": "integer"
                           },
                           "cropUrlTemplate": {
-                            "type": "string",
-                            "format": "uri"
+                            "format": "uri",
+                            "type": "string"
                           },
                           "publicUrl": {
                             "type": "null"
                           },
                           "uuid": {
-                            "type": "string",
-                            "format": "uuid"
+                            "format": "uuid",
+                            "type": "string"
                           }
                         },
                         "required": [
@@ -200,15 +200,15 @@
                   "type": "integer"
                 },
                 "cropUrlTemplate": {
-                  "type": "string",
-                  "format": "uri"
+                  "format": "uri",
+                  "type": "string"
                 },
                 "publicUrl": {
                   "type": "null"
                 },
                 "uuid": {
-                  "type": "string",
-                  "format": "uuid"
+                  "format": "uuid",
+                  "type": "string"
                 }
               },
               "required": [

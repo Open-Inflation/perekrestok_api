@@ -13,6 +13,85 @@
         "borderStyle": null,
         "bestReview": null,
         "advToken": null,
+        "id": 61722,
+        "masterData": {
+          "slug": "tetrad-skolnaa-pzbm-a5-v-linejku-12-listov",
+          "plu": "3956331",
+          "unit": 1,
+          "unitName": "шт",
+          "quantum": 1000,
+          "quantumStep": 1000,
+          "weight": 29,
+          "volume": null,
+          "ui4code": "NF0701006",
+          "taxGroup": "BB",
+          "ownProduction": false,
+          "privateLabel": false,
+          "isMark": false,
+          "alcoSetUnits": null,
+          "activeNds": 10
+        },
+        "title": "Тетрадь школьная ПЗБМ A5 в линейку, 12 листов",
+        "primaryCategory": {
+          "id": 455,
+          "title": "Бумага, ручки, краски",
+          "slug": "bumaga-rucki-kraski",
+          "isAlcohol": false,
+          "isTobacco": false,
+          "isExciseAlcohol": false,
+          "isAdultContent": false,
+          "displayStyle": 2,
+          "catalogs": [
+            2,
+            4
+          ]
+        },
+        "catalogPrimaryCategory": {
+          "id": 53,
+          "title": "Канцелярия",
+          "slug": "kancelaria",
+          "isAlcohol": false,
+          "isTobacco": false,
+          "isExciseAlcohol": false,
+          "isAdultContent": false,
+          "displayStyle": 2,
+          "catalogs": [
+            1
+          ]
+        },
+        "image": {
+          "id": 1208978,
+          "originName": "3956331.jpg",
+          "fileType": "image",
+          "fileSize": 86636,
+          "width": 1600,
+          "height": 1600,
+          "cropUrlTemplate": "https://tsx.x5static.net/i/%s/xdelivery/files/fd/34/f7e8136494ba35200cafe8a29989.jpg",
+          "publicUrl": null,
+          "uuid": "b436ca4b-e923-445b-9fc7-08d3b7bf21f3"
+        },
+        "rating": 492,
+        "medianPrice": 499,
+        "labelCharacteristics": [],
+        "labels": [],
+        "reviewCount": 22,
+        "ratingCount": 564,
+        "priceTag": {
+          "price": 499,
+          "discountMinimumAmount": 0,
+          "grossPrice": null,
+          "labels": [],
+          "pricePerQuantum": null,
+          "grossPricePerQuantum": null,
+          "potentialPointsForOrangeCard": null
+        },
+        "balanceState": "many"
+      },
+      {
+        "liked": false,
+        "borderStyle": null,
+        "bestReview": null,
+        "advToken": null,
         "id": 61727,
         "masterData": {
           "slug": "tetrad-skolnaa-pzbm-a5-v-kletku-12-listov-10st",

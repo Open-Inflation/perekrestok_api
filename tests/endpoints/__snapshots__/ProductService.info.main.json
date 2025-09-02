@@ -1,9 +1,9 @@
 {
   "content": {
-    "id": 61722,
+    "id": 61718,
     "masterData": {
-      "slug": "tetrad-skolnaa-pzbm-a5-v-linejku-12-listov",
-      "plu": "3956331",
+      "slug": "tetrad-skolnaa-pzbm-a5-v-kletku-12-listov",
+      "plu": "3956330",
       "unit": 1,
       "unitName": "шт",
       "quantum": 1000,
@@ -18,11 +18,11 @@
       "alcoSetUnits": null,
       "activeNds": 10
     },
-    "title": "Тетрадь школьная ПЗБМ A5 в линейку, 12 листов",
+    "title": "Тетрадь школьная ПЗБМ A5 в клетку, 12 листов",
     "briefTitle": null,
     "description": "Тетрадь ученическая 12 листов. Формат А5+ (165 х 203 мм). Вид крепления-скрепка. Внутренний блок - бумага офсетная 92% белизны, плотностью 60гр/м2. Обложка - бумага обложечная зелёная, плотностью 80гр/м2.",
-    "plu": "3956331",
-    "rating": 492,
+    "plu": "3956330",
+    "rating": 494,
     "primaryCategory": {
       "id": 455,
       "title": "Бумага, ручки, краски",
@@ -51,51 +51,51 @@
       ]
     },
     "primaryImage": {
-      "id": 1208978,
-      "originName": "3956331.jpg",
+      "id": 1208975,
+      "originName": "3956330.jpg",
       "fileType": "image",
-      "fileSize": 86636,
+      "fileSize": 88005,
       "width": 1600,
       "height": 1600,
-      "cropUrlTemplate": "https://tsx.x5static.net/i/%s/xdelivery/files/fd/34/f7e8136494ba35200cafe8a29989.jpg",
+      "cropUrlTemplate": "https://tsx.x5static.net/i/%s/xdelivery/files/8f/fd/5210824d505351612bf6bf9a1d66.jpg",
       "publicUrl": null,
-      "uuid": "b436ca4b-e923-445b-9fc7-08d3b7bf21f3"
+      "uuid": "b46df98a-76e3-4c75-9232-ef791473dfd6"
     },
     "primaryMedia": {
-      "id": 1208978,
-      "originName": "3956331.jpg",
+      "id": 1208975,
+      "originName": "3956330.jpg",
       "fileType": "image",
-      "fileSize": 86636,
+      "fileSize": 88005,
       "width": 1600,
       "height": 1600,
-      "cropUrlTemplate": "https://tsx.x5static.net/i/%s/xdelivery/files/fd/34/f7e8136494ba35200cafe8a29989.jpg",
+      "cropUrlTemplate": "https://tsx.x5static.net/i/%s/xdelivery/files/8f/fd/5210824d505351612bf6bf9a1d66.jpg",
       "publicUrl": null,
-      "uuid": "b436ca4b-e923-445b-9fc7-08d3b7bf21f3"
+      "uuid": "b46df98a-76e3-4c75-9232-ef791473dfd6"
     },
     "images": [
       {
-        "id": 1208978,
-        "originName": "3956331.jpg",
+        "id": 1208975,
+        "originName": "3956330.jpg",
         "fileType": "image",
-        "fileSize": 86636,
+        "fileSize": 88005,
         "width": 1600,
         "height": 1600,
-        "cropUrlTemplate": "https://tsx.x5static.net/i/%s/xdelivery/files/fd/34/f7e8136494ba35200cafe8a29989.jpg",
+        "cropUrlTemplate": "https://tsx.x5static.net/i/%s/xdelivery/files/8f/fd/5210824d505351612bf6bf9a1d66.jpg",
         "publicUrl": null,
-        "uuid": "b436ca4b-e923-445b-9fc7-08d3b7bf21f3"
+        "uuid": "b46df98a-76e3-4c75-9232-ef791473dfd6"
       }
     ],
     "media": [
       {
-        "id": 1208978,
-        "originName": "3956331.jpg",
+        "id": 1208975,
+        "originName": "3956330.jpg",
         "fileType": "image",
-        "fileSize": 86636,
+        "fileSize": 88005,
         "width": 1600,
         "height": 1600,
-        "cropUrlTemplate": "https://tsx.x5static.net/i/%s/xdelivery/files/fd/34/f7e8136494ba35200cafe8a29989.jpg",
+        "cropUrlTemplate": "https://tsx.x5static.net/i/%s/xdelivery/files/8f/fd/5210824d505351612bf6bf9a1d66.jpg",
         "publicUrl": null,
-        "uuid": "b436ca4b-e923-445b-9fc7-08d3b7bf21f3"
+        "uuid": "b46df98a-76e3-4c75-9232-ef791473dfd6"
       }
     ],
     "features": [
@@ -147,13 +147,13 @@
             "collapseValue": false,
             "key": "vid",
             "displayValues": [
-              "В линейку"
+              "В клетку"
             ],
             "values": [
-              "v-linejku"
+              "v-kletku"
             ],
             "enumIds": [
-              55472
+              55471
             ],
             "isSearchable": true,
             "productBrand": null
@@ -381,8 +381,8 @@
     "liked": false,
     "isReviewAvailable": false,
     "productReview": null,
-    "ratingCount": 562,
-    "reviewCount": 22,
+    "ratingCount": 620,
+    "reviewCount": 29,
     "ratingCountAlias": "Более 100 оценок",
     "borderStyle": null,
     "medianPrice": 499,
@@ -391,23 +391,18 @@
     "labelStock": null,
     "labels": [],
     "bestProductReview": {
-      "id": 43245476,
+      "id": 28499321,
       "rating": 500,
-      "comment": "Хорошие тетради, если кому важно, в крупную линию.",
+      "comment": "то, что нужно для контрольных работ 🔥",
       "username": "",
-      "notes": [
-        {
-          "key": "Kachestvo",
-          "value": "Качество"
-        }
-      ],
-      "createdAt": 1728994445469,
+      "notes": [],
+      "createdAt": 1696662127653,
       "points": 0,
       "approvedImages": [],
       "reaction": {
-        "likes": 7,
+        "likes": 1,
         "dislikes": 0,
-        "balance": 7,
+        "balance": 1,
         "vote": 0,
         "isAvailable": true
       },
@@ -459,16 +454,21 @@
     "analyticsInfo": [],
     "video": [],
     "availableAdditionalOption": null,
-    "balanceStock": 9000,
+    "balanceStock": 2000,
     "priceTag": {
       "price": 499,
       "discountMinimumAmount": 0,
-      "grossPrice": null,
-      "labels": [],
+      "grossPrice": 999,
+      "labels": [
+        {
+          "type": "yellow",
+          "text": "-50%"
+        }
+      ],
       "pricePerQuantum": null,
       "grossPricePerQuantum": null,
       "potentialPointsForOrangeCard": null
     },
-    "balanceState": "many"
+    "balanceState": "few-left"
   }
 }

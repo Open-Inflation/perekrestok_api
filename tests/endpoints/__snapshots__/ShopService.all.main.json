@@ -13,7 +13,7 @@
         "withCafe": false,
         "isDeliveryAvailable": true,
         "isCatalogAvailable": true,
-        "isPickupAvailable": true,
+        "isPickupAvailable": false,
         "electronicReceipt": false,
         "features": [
           {
@@ -37,7 +37,7 @@
         "withCafe": false,
         "isDeliveryAvailable": true,
         "isCatalogAvailable": true,
-        "isPickupAvailable": true,
+        "isPickupAvailable": false,
         "electronicReceipt": false,
         "features": []
       },
@@ -53,7 +53,7 @@
         "withCafe": false,
         "isDeliveryAvailable": true,
         "isCatalogAvailable": true,
-        "isPickupAvailable": true,
+        "isPickupAvailable": false,
         "electronicReceipt": false,
         "features": [
           {
@@ -77,7 +77,7 @@
         "withCafe": false,
         "isDeliveryAvailable": false,
         "isCatalogAvailable": true,
-        "isPickupAvailable": true,
+        "isPickupAvailable": false,
         "electronicReceipt": false,
         "features": [
           {
@@ -101,7 +101,7 @@
         "withCafe": false,
         "isDeliveryAvailable": true,
         "isCatalogAvailable": true,
-        "isPickupAvailable": true,
+        "isPickupAvailable": false,
         "electronicReceipt": false,
         "features": []
       },
@@ -117,7 +117,7 @@
         "withCafe": false,
         "isDeliveryAvailable": true,
         "isCatalogAvailable": true,
-        "isPickupAvailable": true,
+        "isPickupAvailable": false,
         "electronicReceipt": false,
         "features": []
       },
@@ -133,7 +133,7 @@
         "withCafe": false,
         "isDeliveryAvailable": true,
         "isCatalogAvailable": true,
-        "isPickupAvailable": true,
+        "isPickupAvailable": false,
         "electronicReceipt": false,
         "features": [
           {
@@ -426,7 +426,7 @@
         "withCafe": false,
         "isDeliveryAvailable": true,
         "isCatalogAvailable": true,
-        "isPickupAvailable": true,
+        "isPickupAvailable": false,
         "electronicReceipt": false,
         "features": [
           {
@@ -450,7 +450,7 @@
         "withCafe": false,
         "isDeliveryAvailable": true,
         "isCatalogAvailable": true,
-        "isPickupAvailable": true,
+        "isPickupAvailable": false,
         "electronicReceipt": false,
         "features": [
           {
@@ -474,7 +474,7 @@
         "withCafe": false,
         "isDeliveryAvailable": true,
         "isCatalogAvailable": true,
-        "isPickupAvailable": true,
+        "isPickupAvailable": false,
         "electronicReceipt": false,
         "features": [
           {
@@ -505,7 +505,7 @@
         "withCafe": false,
         "isDeliveryAvailable": true,
         "isCatalogAvailable": true,
-        "isPickupAvailable": true,
+        "isPickupAvailable": false,
         "electronicReceipt": false,
         "features": [
           {
@@ -529,7 +529,7 @@
         "withCafe": false,
         "isDeliveryAvailable": true,
         "isCatalogAvailable": true,
-        "isPickupAvailable": true,
+        "isPickupAvailable": false,
         "electronicReceipt": false,
         "features": [
           {
@@ -577,7 +577,7 @@
         "withCafe": false,
         "isDeliveryAvailable": true,
         "isCatalogAvailable": true,
-        "isPickupAvailable": true,
+        "isPickupAvailable": false,
         "electronicReceipt": false,
         "features": [
           {
@@ -622,7 +622,7 @@
         "withCafe": false,
         "isDeliveryAvailable": true,
         "isCatalogAvailable": true,
-        "isPickupAvailable": true,
+        "isPickupAvailable": false,
         "electronicReceipt": false,
         "features": []
       },
@@ -638,7 +638,7 @@
         "withCafe": false,
         "isDeliveryAvailable": true,
         "isCatalogAvailable": true,
-        "isPickupAvailable": true,
+        "isPickupAvailable": false,
         "electronicReceipt": false,
         "features": [
           {
@@ -692,7 +692,7 @@
         "withCafe": false,
         "isDeliveryAvailable": true,
         "isCatalogAvailable": true,
-        "isPickupAvailable": true,
+        "isPickupAvailable": false,
         "electronicReceipt": false,
         "features": []
       },
@@ -856,7 +856,7 @@
         "withCafe": true,
         "isDeliveryAvailable": true,
         "isCatalogAvailable": true,
-        "isPickupAvailable": true,
+        "isPickupAvailable": false,
         "electronicReceipt": false,
         "features": [
           {
@@ -955,7 +955,7 @@
         "withCafe": false,
         "isDeliveryAvailable": false,
         "isCatalogAvailable": true,
-        "isPickupAvailable": true,
+        "isPickupAvailable": false,
         "electronicReceipt": false,
         "features": [
           {
@@ -979,7 +979,7 @@
         "withCafe": false,
         "isDeliveryAvailable": true,
         "isCatalogAvailable": true,
-        "isPickupAvailable": true,
+        "isPickupAvailable": false,
         "electronicReceipt": true,
         "features": [
           {
@@ -1017,7 +1017,7 @@
         "withCafe": false,
         "isDeliveryAvailable": true,
         "isCatalogAvailable": true,
-        "isPickupAvailable": true,
+        "isPickupAvailable": false,
         "electronicReceipt": false,
         "features": [
           {
@@ -1041,7 +1041,7 @@
         "withCafe": false,
         "isDeliveryAvailable": true,
         "isCatalogAvailable": true,
-        "isPickupAvailable": true,
+        "isPickupAvailable": false,
         "electronicReceipt": false,
         "features": [
           {
@@ -1072,7 +1072,7 @@
         "withCafe": false,
         "isDeliveryAvailable": true,
         "isCatalogAvailable": true,
-        "isPickupAvailable": true,
+        "isPickupAvailable": false,
         "electronicReceipt": false,
         "features": [
           {
@@ -1103,7 +1103,7 @@
         "withCafe": false,
         "isDeliveryAvailable": true,
         "isCatalogAvailable": true,
-        "isPickupAvailable": true,
+        "isPickupAvailable": false,
         "electronicReceipt": false,
         "features": [
           {
@@ -1127,7 +1127,7 @@
         "withCafe": false,
         "isDeliveryAvailable": true,
         "isCatalogAvailable": true,
-        "isPickupAvailable": true,
+        "isPickupAvailable": false,
         "electronicReceipt": false,
         "features": [
           {
@@ -1158,7 +1158,7 @@
         "withCafe": true,
         "isDeliveryAvailable": true,
         "isCatalogAvailable": true,
-        "isPickupAvailable": true,
+        "isPickupAvailable": false,
         "electronicReceipt": false,
         "features": [
           {
@@ -1210,7 +1210,7 @@
         "withCafe": false,
         "isDeliveryAvailable": true,
         "isCatalogAvailable": true,
-        "isPickupAvailable": true,
+        "isPickupAvailable": false,
         "electronicReceipt": true,
         "features": [
           {
@@ -1241,7 +1241,7 @@
         "withCafe": true,
         "isDeliveryAvailable": true,
         "isCatalogAvailable": true,
-        "isPickupAvailable": true,
+        "isPickupAvailable": false,
         "electronicReceipt": false,
         "features": [
           {
@@ -1286,7 +1286,7 @@
         "withCafe": false,
         "isDeliveryAvailable": true,
         "isCatalogAvailable": true,
-        "isPickupAvailable": true,
+        "isPickupAvailable": false,
         "electronicReceipt": false,
         "features": [
           {
@@ -1310,7 +1310,7 @@
         "withCafe": false,
         "isDeliveryAvailable": true,
         "isCatalogAvailable": true,
-        "isPickupAvailable": true,
+        "isPickupAvailable": false,
         "electronicReceipt": false,
         "features": [
           {
@@ -1341,7 +1341,7 @@
         "withCafe": false,
         "isDeliveryAvailable": true,
         "isCatalogAvailable": true,
-        "isPickupAvailable": true,
+        "isPickupAvailable": false,
         "electronicReceipt": false,
         "features": [
           {
@@ -1365,7 +1365,7 @@
         "withCafe": false,
         "isDeliveryAvailable": true,
         "isCatalogAvailable": true,
-        "isPickupAvailable": true,
+        "isPickupAvailable": false,
         "electronicReceipt": false,
         "features": [
           {
@@ -1396,7 +1396,7 @@
         "withCafe": false,
         "isDeliveryAvailable": true,
         "isCatalogAvailable": true,
-        "isPickupAvailable": true,
+        "isPickupAvailable": false,
         "electronicReceipt": false,
         "features": []
       },
@@ -1412,7 +1412,7 @@
         "withCafe": false,
         "isDeliveryAvailable": true,
         "isCatalogAvailable": true,
-        "isPickupAvailable": true,
+        "isPickupAvailable": false,
         "electronicReceipt": false,
         "features": [
           {
@@ -1443,7 +1443,7 @@
         "withCafe": false,
         "isDeliveryAvailable": true,
         "isCatalogAvailable": true,
-        "isPickupAvailable": true,
+        "isPickupAvailable": false,
         "electronicReceipt": false,
         "features": [
           {
@@ -1505,7 +1505,7 @@
         "withCafe": false,
         "isDeliveryAvailable": true,
         "isCatalogAvailable": true,
-        "isPickupAvailable": true,
+        "isPickupAvailable": false,
         "electronicReceipt": false,
         "features": [
           {
@@ -1560,7 +1560,7 @@
         "withCafe": false,
         "isDeliveryAvailable": true,
         "isCatalogAvailable": true,
-        "isPickupAvailable": true,
+        "isPickupAvailable": false,
         "electronicReceipt": false,
         "features": [
           {
@@ -1591,7 +1591,7 @@
         "withCafe": false,
         "isDeliveryAvailable": true,
         "isCatalogAvailable": true,
-        "isPickupAvailable": true,
+        "isPickupAvailable": false,
         "electronicReceipt": false,
         "features": [
           {
@@ -1622,7 +1622,7 @@
         "withCafe": false,
         "isDeliveryAvailable": true,
         "isCatalogAvailable": true,
-        "isPickupAvailable": true,
+        "isPickupAvailable": false,
         "electronicReceipt": false,
         "features": [
           {
@@ -1887,7 +1887,7 @@
         "withCafe": false,
         "isDeliveryAvailable": true,
         "isCatalogAvailable": true,
-        "isPickupAvailable": true,
+        "isPickupAvailable": false,
         "electronicReceipt": false,
         "features": []
       },
@@ -1903,7 +1903,7 @@
         "withCafe": false,
         "isDeliveryAvailable": true,
         "isCatalogAvailable": true,
-        "isPickupAvailable": true,
+        "isPickupAvailable": false,
         "electronicReceipt": false,
         "features": []
       },
@@ -2761,7 +2761,7 @@
         "withCafe": false,
         "isDeliveryAvailable": true,
         "isCatalogAvailable": true,
-        "isPickupAvailable": true,
+        "isPickupAvailable": false,
         "electronicReceipt": false,
         "features": []
       },
@@ -2777,7 +2777,7 @@
         "withCafe": false,
         "isDeliveryAvailable": true,
         "isCatalogAvailable": true,
-        "isPickupAvailable": true,
+        "isPickupAvailable": false,
         "electronicReceipt": false,
         "features": [
           {
@@ -2801,7 +2801,7 @@
         "withCafe": false,
         "isDeliveryAvailable": true,
         "isCatalogAvailable": true,
-        "isPickupAvailable": true,
+        "isPickupAvailable": false,
         "electronicReceipt": false,
         "features": [
           {
@@ -2832,7 +2832,7 @@
         "withCafe": false,
         "isDeliveryAvailable": true,
         "isCatalogAvailable": true,
-        "isPickupAvailable": true,
+        "isPickupAvailable": false,
         "electronicReceipt": true,
         "features": [
           {
@@ -2863,7 +2863,7 @@
         "withCafe": false,
         "isDeliveryAvailable": true,
         "isCatalogAvailable": true,
-        "isPickupAvailable": true,
+        "isPickupAvailable": false,
         "electronicReceipt": false,
         "features": [
           {
@@ -2887,7 +2887,7 @@
         "withCafe": true,
         "isDeliveryAvailable": true,
         "isCatalogAvailable": true,
-        "isPickupAvailable": true,
+        "isPickupAvailable": false,
         "electronicReceipt": false,
         "features": [
           {
@@ -2932,7 +2932,7 @@
         "withCafe": false,
         "isDeliveryAvailable": true,
         "isCatalogAvailable": true,
-        "isPickupAvailable": true,
+        "isPickupAvailable": false,
         "electronicReceipt": false,
         "features": [
           {
@@ -2956,7 +2956,7 @@
         "withCafe": false,
         "isDeliveryAvailable": false,
         "isCatalogAvailable": true,
-        "isPickupAvailable": true,
+        "isPickupAvailable": false,
         "electronicReceipt": false,
         "features": [
           {
@@ -2980,7 +2980,7 @@
         "withCafe": false,
         "isDeliveryAvailable": true,
         "isCatalogAvailable": true,
-        "isPickupAvailable": true,
+        "isPickupAvailable": false,
         "electronicReceipt": false,
         "features": [
           {
@@ -3004,7 +3004,7 @@
         "withCafe": false,
         "isDeliveryAvailable": true,
         "isCatalogAvailable": true,
-        "isPickupAvailable": true,
+        "isPickupAvailable": false,
         "electronicReceipt": false,
         "features": [
           {
@@ -3035,7 +3035,7 @@
         "withCafe": false,
         "isDeliveryAvailable": true,
         "isCatalogAvailable": true,
-        "isPickupAvailable": true,
+        "isPickupAvailable": false,
         "electronicReceipt": true,
         "features": [
           {
@@ -3066,7 +3066,7 @@
         "withCafe": true,
         "isDeliveryAvailable": false,
         "isCatalogAvailable": true,
-        "isPickupAvailable": true,
+        "isPickupAvailable": false,
         "electronicReceipt": false,
         "features": [
           {
@@ -3118,7 +3118,7 @@
         "withCafe": false,
         "isDeliveryAvailable": true,
         "isCatalogAvailable": true,
-        "isPickupAvailable": true,
+        "isPickupAvailable": false,
         "electronicReceipt": false,
         "features": [
           {
@@ -3156,7 +3156,7 @@
         "withCafe": false,
         "isDeliveryAvailable": true,
         "isCatalogAvailable": true,
-        "isPickupAvailable": true,
+        "isPickupAvailable": false,
         "electronicReceipt": false,
         "features": [
           {
@@ -3187,7 +3187,7 @@
         "withCafe": false,
         "isDeliveryAvailable": true,
         "isCatalogAvailable": true,
-        "isPickupAvailable": true,
+        "isPickupAvailable": false,
         "electronicReceipt": false,
         "features": [
           {
@@ -3218,7 +3218,7 @@
         "withCafe": false,
         "isDeliveryAvailable": true,
         "isCatalogAvailable": true,
-        "isPickupAvailable": true,
+        "isPickupAvailable": false,
         "electronicReceipt": false,
         "features": [
           {
@@ -3249,7 +3249,7 @@
         "withCafe": false,
         "isDeliveryAvailable": true,
         "isCatalogAvailable": true,
-        "isPickupAvailable": true,
+        "isPickupAvailable": false,
         "electronicReceipt": false,
         "features": [
           {
@@ -3273,7 +3273,7 @@
         "withCafe": false,
         "isDeliveryAvailable": true,
         "isCatalogAvailable": true,
-        "isPickupAvailable": true,
+        "isPickupAvailable": false,
         "electronicReceipt": false,
         "features": []
       },
@@ -3289,7 +3289,7 @@
         "withCafe": false,
         "isDeliveryAvailable": true,
         "isCatalogAvailable": true,
-        "isPickupAvailable": true,
+        "isPickupAvailable": false,
         "electronicReceipt": false,
         "features": [
           {
@@ -3320,7 +3320,7 @@
         "withCafe": true,
         "isDeliveryAvailable": true,
         "isCatalogAvailable": true,
-        "isPickupAvailable": true,
+        "isPickupAvailable": false,
         "electronicReceipt": false,
         "features": [
           {
@@ -3365,7 +3365,7 @@
         "withCafe": false,
         "isDeliveryAvailable": true,
         "isCatalogAvailable": true,
-        "isPickupAvailable": true,
+        "isPickupAvailable": false,
         "electronicReceipt": false,
         "features": [
           {
@@ -3396,7 +3396,7 @@
         "withCafe": false,
         "isDeliveryAvailable": true,
         "isCatalogAvailable": true,
-        "isPickupAvailable": true,
+        "isPickupAvailable": false,
         "electronicReceipt": false,
         "features": [
           {
@@ -3420,7 +3420,7 @@
         "withCafe": false,
         "isDeliveryAvailable": true,
         "isCatalogAvailable": true,
-        "isPickupAvailable": true,
+        "isPickupAvailable": false,
         "electronicReceipt": false,
         "features": [
           {
@@ -3451,7 +3451,7 @@
         "withCafe": false,
         "isDeliveryAvailable": true,
         "isCatalogAvailable": true,
-        "isPickupAvailable": true,
+        "isPickupAvailable": false,
         "electronicReceipt": false,
         "features": [
           {
@@ -3482,7 +3482,7 @@
         "withCafe": true,
         "isDeliveryAvailable": true,
         "isCatalogAvailable": true,
-        "isPickupAvailable": true,
+        "isPickupAvailable": false,
         "electronicReceipt": true,
         "features": [
           {
@@ -3520,7 +3520,7 @@
         "withCafe": false,
         "isDeliveryAvailable": true,
         "isCatalogAvailable": true,
-        "isPickupAvailable": true,
+        "isPickupAvailable": false,
         "electronicReceipt": true,
         "features": [
           {
@@ -3589,7 +3589,7 @@
         "withCafe": false,
         "isDeliveryAvailable": true,
         "isCatalogAvailable": true,
-        "isPickupAvailable": true,
+        "isPickupAvailable": false,
         "electronicReceipt": false,
         "features": [
           {
@@ -3634,7 +3634,7 @@
         "withCafe": false,
         "isDeliveryAvailable": false,
         "isCatalogAvailable": true,
-        "isPickupAvailable": true,
+        "isPickupAvailable": false,
         "electronicReceipt": false,
         "features": [
           {
@@ -3658,7 +3658,7 @@
         "withCafe": false,
         "isDeliveryAvailable": true,
         "isCatalogAvailable": true,
-        "isPickupAvailable": true,
+        "isPickupAvailable": false,
         "electronicReceipt": true,
         "features": [
           {
@@ -3689,7 +3689,7 @@
         "withCafe": true,
         "isDeliveryAvailable": true,
         "isCatalogAvailable": true,
-        "isPickupAvailable": true,
+        "isPickupAvailable": false,
         "electronicReceipt": false,
         "features": [
           {
@@ -3859,7 +3859,7 @@
         "withCafe": false,
         "isDeliveryAvailable": true,
         "isCatalogAvailable": true,
-        "isPickupAvailable": true,
+        "isPickupAvailable": false,
         "electronicReceipt": false,
         "features": []
       },
@@ -4441,7 +4441,7 @@
         "withCafe": true,
         "isDeliveryAvailable": true,
         "isCatalogAvailable": true,
-        "isPickupAvailable": true,
+        "isPickupAvailable": false,
         "electronicReceipt": false,
         "features": [
           {
@@ -6311,7 +6311,7 @@
         "withCafe": false,
         "isDeliveryAvailable": true,
         "isCatalogAvailable": true,
-        "isPickupAvailable": true,
+        "isPickupAvailable": false,
         "electronicReceipt": false,
         "features": [
           {
@@ -7053,7 +7053,7 @@
         "withCafe": false,
         "isDeliveryAvailable": true,
         "isCatalogAvailable": true,
-        "isPickupAvailable": true,
+        "isPickupAvailable": false,
         "electronicReceipt": false,
         "features": [
           {
@@ -7077,7 +7077,7 @@
         "withCafe": false,
         "isDeliveryAvailable": true,
         "isCatalogAvailable": true,
-        "isPickupAvailable": true,
+        "isPickupAvailable": false,
         "electronicReceipt": false,
         "features": [
           {
@@ -7108,7 +7108,7 @@
         "withCafe": false,
         "isDeliveryAvailable": true,
         "isCatalogAvailable": true,
-        "isPickupAvailable": true,
+        "isPickupAvailable": false,
         "electronicReceipt": false,
         "features": [
           {
@@ -7139,7 +7139,7 @@
         "withCafe": false,
         "isDeliveryAvailable": true,
         "isCatalogAvailable": true,
-        "isPickupAvailable": true,
+        "isPickupAvailable": false,
         "electronicReceipt": false,
         "features": [
           {
@@ -7170,7 +7170,7 @@
         "withCafe": false,
         "isDeliveryAvailable": true,
         "isCatalogAvailable": true,
-        "isPickupAvailable": true,
+        "isPickupAvailable": false,
         "electronicReceipt": false,
         "features": [
           {
@@ -7201,7 +7201,7 @@
         "withCafe": false,
         "isDeliveryAvailable": true,
         "isCatalogAvailable": true,
-        "isPickupAvailable": true,
+        "isPickupAvailable": false,
         "electronicReceipt": false,
         "features": [
           {
@@ -7225,7 +7225,7 @@
         "withCafe": false,
         "isDeliveryAvailable": true,
         "isCatalogAvailable": true,
-        "isPickupAvailable": true,
+        "isPickupAvailable": false,
         "electronicReceipt": false,
         "features": [
           {
@@ -7256,7 +7256,7 @@
         "withCafe": false,
         "isDeliveryAvailable": true,
         "isCatalogAvailable": true,
-        "isPickupAvailable": true,
+        "isPickupAvailable": false,
         "electronicReceipt": false,
         "features": [
           {
@@ -7491,7 +7491,7 @@
         "withCafe": false,
         "isDeliveryAvailable": true,
         "isCatalogAvailable": true,
-        "isPickupAvailable": true,
+        "isPickupAvailable": false,
         "electronicReceipt": false,
         "features": [
           {
@@ -7529,7 +7529,7 @@
         "withCafe": false,
         "isDeliveryAvailable": true,
         "isCatalogAvailable": true,
-        "isPickupAvailable": true,
+        "isPickupAvailable": false,
         "electronicReceipt": false,
         "features": [
           {
@@ -7567,7 +7567,7 @@
         "withCafe": true,
         "isDeliveryAvailable": true,
         "isCatalogAvailable": true,
-        "isPickupAvailable": true,
+        "isPickupAvailable": false,
         "electronicReceipt": false,
         "features": [
           {
@@ -7612,7 +7612,7 @@
         "withCafe": true,
         "isDeliveryAvailable": true,
         "isCatalogAvailable": true,
-        "isPickupAvailable": true,
+        "isPickupAvailable": false,
         "electronicReceipt": false,
         "features": [
           {
@@ -7657,7 +7657,7 @@
         "withCafe": false,
         "isDeliveryAvailable": true,
         "isCatalogAvailable": true,
-        "isPickupAvailable": true,
+        "isPickupAvailable": false,
         "electronicReceipt": false,
         "features": [
           {
@@ -7688,7 +7688,7 @@
         "withCafe": false,
         "isDeliveryAvailable": true,
         "isCatalogAvailable": true,
-        "isPickupAvailable": true,
+        "isPickupAvailable": false,
         "electronicReceipt": false,
         "features": [
           {
@@ -7719,7 +7719,7 @@
         "withCafe": false,
         "isDeliveryAvailable": true,
         "isCatalogAvailable": true,
-        "isPickupAvailable": true,
+        "isPickupAvailable": false,
         "electronicReceipt": false,
         "features": [
           {
@@ -7743,7 +7743,7 @@
         "withCafe": false,
         "isDeliveryAvailable": true,
         "isCatalogAvailable": true,
-        "isPickupAvailable": true,
+        "isPickupAvailable": false,
         "electronicReceipt": false,
         "features": []
       },
@@ -7759,7 +7759,7 @@
         "withCafe": false,
         "isDeliveryAvailable": true,
         "isCatalogAvailable": true,
-        "isPickupAvailable": true,
+        "isPickupAvailable": false,
         "electronicReceipt": false,
         "features": [
           {
@@ -7790,7 +7790,7 @@
         "withCafe": false,
         "isDeliveryAvailable": true,
         "isCatalogAvailable": true,
-        "isPickupAvailable": true,
+        "isPickupAvailable": false,
         "electronicReceipt": false,
         "features": [
           {
@@ -7821,7 +7821,7 @@
         "withCafe": false,
         "isDeliveryAvailable": true,
         "isCatalogAvailable": true,
-        "isPickupAvailable": true,
+        "isPickupAvailable": false,
         "electronicReceipt": false,
         "features": [
           {
@@ -7852,7 +7852,7 @@
         "withCafe": true,
         "isDeliveryAvailable": true,
         "isCatalogAvailable": true,
-        "isPickupAvailable": true,
+        "isPickupAvailable": false,
         "electronicReceipt": false,
         "features": [
           {
@@ -15224,7 +15224,7 @@
         "withCafe": false,
         "isDeliveryAvailable": true,
         "isCatalogAvailable": true,
-        "isPickupAvailable": true,
+        "isPickupAvailable": false,
         "electronicReceipt": true,
         "features": [
           {
@@ -20046,7 +20046,7 @@
         "withCafe": false,
         "isDeliveryAvailable": true,
         "isCatalogAvailable": true,
-        "isPickupAvailable": true,
+        "isPickupAvailable": false,
         "electronicReceipt": true,
         "features": [
           {
@@ -21003,7 +21003,7 @@
         "withCafe": false,
         "isDeliveryAvailable": true,
         "isCatalogAvailable": true,
-        "isPickupAvailable": true,
+        "isPickupAvailable": false,
         "electronicReceipt": false,
         "features": [
           {
@@ -21034,7 +21034,7 @@
         "withCafe": true,
         "isDeliveryAvailable": true,
         "isCatalogAvailable": true,
-        "isPickupAvailable": true,
+        "isPickupAvailable": false,
         "electronicReceipt": false,
         "features": [
           {
@@ -21065,7 +21065,7 @@
         "withCafe": false,
         "isDeliveryAvailable": true,
         "isCatalogAvailable": true,
-        "isPickupAvailable": true,
+        "isPickupAvailable": false,
         "electronicReceipt": false,
         "features": [
           {
@@ -21089,7 +21089,7 @@
         "withCafe": false,
         "isDeliveryAvailable": true,
         "isCatalogAvailable": true,
-        "isPickupAvailable": true,
+        "isPickupAvailable": false,
         "electronicReceipt": false,
         "features": [
           {
@@ -21127,7 +21127,7 @@
         "withCafe": false,
         "isDeliveryAvailable": true,
         "isCatalogAvailable": true,
-        "isPickupAvailable": true,
+        "isPickupAvailable": false,
         "electronicReceipt": false,
         "features": [
           {
@@ -21165,7 +21165,7 @@
         "withCafe": false,
         "isDeliveryAvailable": true,
         "isCatalogAvailable": true,
-        "isPickupAvailable": true,
+        "isPickupAvailable": false,
         "electronicReceipt": false,
         "features": [
           {
@@ -21203,7 +21203,7 @@
         "withCafe": false,
         "isDeliveryAvailable": true,
         "isCatalogAvailable": true,
-        "isPickupAvailable": true,
+        "isPickupAvailable": false,
         "electronicReceipt": false,
         "features": [
           {
@@ -21702,7 +21702,7 @@
         "withCafe": false,
         "isDeliveryAvailable": true,
         "isCatalogAvailable": true,
-        "isPickupAvailable": true,
+        "isPickupAvailable": false,
         "electronicReceipt": false,
         "features": [
           {
@@ -21726,7 +21726,7 @@
         "withCafe": true,
         "isDeliveryAvailable": true,
         "isCatalogAvailable": true,
-        "isPickupAvailable": true,
+        "isPickupAvailable": false,
         "electronicReceipt": false,
         "features": [
           {
@@ -21764,7 +21764,7 @@
         "withCafe": false,
         "isDeliveryAvailable": true,
         "isCatalogAvailable": true,
-        "isPickupAvailable": true,
+        "isPickupAvailable": false,
         "electronicReceipt": false,
         "features": [
           {
@@ -21788,7 +21788,7 @@
         "withCafe": false,
         "isDeliveryAvailable": true,
         "isCatalogAvailable": true,
-        "isPickupAvailable": true,
+        "isPickupAvailable": false,
         "electronicReceipt": false,
         "features": [
           {
@@ -21880,7 +21880,7 @@
         "withCafe": false,
         "isDeliveryAvailable": true,
         "isCatalogAvailable": true,
-        "isPickupAvailable": true,
+        "isPickupAvailable": false,
         "electronicReceipt": false,
         "features": []
       },
@@ -21927,7 +21927,7 @@
         "withCafe": false,
         "isDeliveryAvailable": true,
         "isCatalogAvailable": true,
-        "isPickupAvailable": true,
+        "isPickupAvailable": false,
         "electronicReceipt": false,
         "features": [
           {
@@ -21958,7 +21958,7 @@
         "withCafe": false,
         "isDeliveryAvailable": true,
         "isCatalogAvailable": true,
-        "isPickupAvailable": true,
+        "isPickupAvailable": false,
         "electronicReceipt": false,
         "features": [
           {
@@ -21989,7 +21989,7 @@
         "withCafe": false,
         "isDeliveryAvailable": true,
         "isCatalogAvailable": true,
-        "isPickupAvailable": true,
+        "isPickupAvailable": false,
         "electronicReceipt": false,
         "features": [
           {
@@ -22043,7 +22043,7 @@
         "withCafe": false,
         "isDeliveryAvailable": true,
         "isCatalogAvailable": true,
-        "isPickupAvailable": true,
+        "isPickupAvailable": false,
         "electronicReceipt": false,
         "features": [
           {
@@ -22121,7 +22121,7 @@
         "withCafe": false,
         "isDeliveryAvailable": true,
         "isCatalogAvailable": true,
-        "isPickupAvailable": true,
+        "isPickupAvailable": false,
         "electronicReceipt": false,
         "features": [
           {
@@ -22152,7 +22152,7 @@
         "withCafe": false,
         "isDeliveryAvailable": true,
         "isCatalogAvailable": true,
-        "isPickupAvailable": true,
+        "isPickupAvailable": false,
         "electronicReceipt": false,
         "features": []
       },
@@ -22329,7 +22329,7 @@
         "withCafe": false,
         "isDeliveryAvailable": true,
         "isCatalogAvailable": true,
-        "isPickupAvailable": false,
+        "isPickupAvailable": true,
         "electronicReceipt": false,
         "features": [
           {
@@ -22422,7 +22422,7 @@
         "withCafe": false,
         "isDeliveryAvailable": true,
         "isCatalogAvailable": true,
-        "isPickupAvailable": true,
+        "isPickupAvailable": false,
         "electronicReceipt": false,
         "features": [
           {
@@ -22446,7 +22446,7 @@
         "withCafe": false,
         "isDeliveryAvailable": true,
         "isCatalogAvailable": true,
-        "isPickupAvailable": true,
+        "isPickupAvailable": false,
         "electronicReceipt": false,
         "features": [
           {
@@ -22484,7 +22484,7 @@
         "withCafe": false,
         "isDeliveryAvailable": true,
         "isCatalogAvailable": true,
-        "isPickupAvailable": true,
+        "isPickupAvailable": false,
         "electronicReceipt": false,
         "features": [
           {
@@ -22515,7 +22515,7 @@
         "withCafe": false,
         "isDeliveryAvailable": true,
         "isCatalogAvailable": true,
-        "isPickupAvailable": true,
+        "isPickupAvailable": false,
         "electronicReceipt": false,
         "features": [
           {
@@ -22546,7 +22546,7 @@
         "withCafe": false,
         "isDeliveryAvailable": true,
         "isCatalogAvailable": true,
-        "isPickupAvailable": true,
+        "isPickupAvailable": false,
         "electronicReceipt": false,
         "features": [
           {
@@ -22570,7 +22570,7 @@
         "withCafe": false,
         "isDeliveryAvailable": true,
         "isCatalogAvailable": true,
-        "isPickupAvailable": true,
+        "isPickupAvailable": false,
         "electronicReceipt": false,
         "features": [
           {
@@ -22707,7 +22707,7 @@
         "withCafe": true,
         "isDeliveryAvailable": true,
         "isCatalogAvailable": true,
-        "isPickupAvailable": true,
+        "isPickupAvailable": false,
         "electronicReceipt": false,
         "features": [
           {
@@ -22961,7 +22961,7 @@
         "withCafe": false,
         "isDeliveryAvailable": true,
         "isCatalogAvailable": true,
-        "isPickupAvailable": true,
+        "isPickupAvailable": false,
         "electronicReceipt": false,
         "features": [
           {
@@ -22985,7 +22985,7 @@
         "withCafe": false,
         "isDeliveryAvailable": true,
         "isCatalogAvailable": true,
-        "isPickupAvailable": true,
+        "isPickupAvailable": false,
         "electronicReceipt": false,
         "features": []
       },
@@ -23077,7 +23077,7 @@
         "withCafe": false,
         "isDeliveryAvailable": false,
         "isCatalogAvailable": true,
-        "isPickupAvailable": true,
+        "isPickupAvailable": false,
         "electronicReceipt": false,
         "features": [
           {
@@ -23101,7 +23101,7 @@
         "withCafe": false,
         "isDeliveryAvailable": true,
         "isCatalogAvailable": true,
-        "isPickupAvailable": true,
+        "isPickupAvailable": false,
         "electronicReceipt": false,
         "features": [
           {
@@ -23125,7 +23125,7 @@
         "withCafe": false,
         "isDeliveryAvailable": true,
         "isCatalogAvailable": true,
-        "isPickupAvailable": true,
+        "isPickupAvailable": false,
         "electronicReceipt": false,
         "features": [
           {
@@ -23156,7 +23156,7 @@
         "withCafe": false,
         "isDeliveryAvailable": true,
         "isCatalogAvailable": true,
-        "isPickupAvailable": true,
+        "isPickupAvailable": false,
         "electronicReceipt": false,
         "features": [
           {
@@ -23187,7 +23187,7 @@
         "withCafe": false,
         "isDeliveryAvailable": true,
         "isCatalogAvailable": true,
-        "isPickupAvailable": true,
+        "isPickupAvailable": false,
         "electronicReceipt": false,
         "features": [
           {
@@ -23218,7 +23218,7 @@
         "withCafe": true,
         "isDeliveryAvailable": true,
         "isCatalogAvailable": true,
-        "isPickupAvailable": true,
+        "isPickupAvailable": false,
         "electronicReceipt": true,
         "features": [
           {
@@ -23270,7 +23270,7 @@
         "withCafe": false,
         "isDeliveryAvailable": true,
         "isCatalogAvailable": true,
-        "isPickupAvailable": true,
+        "isPickupAvailable": false,
         "electronicReceipt": false,
         "features": [
           {
@@ -23308,7 +23308,7 @@
         "withCafe": false,
         "isDeliveryAvailable": false,
         "isCatalogAvailable": true,
-        "isPickupAvailable": true,
+        "isPickupAvailable": false,
         "electronicReceipt": false,
         "features": []
       },
@@ -23324,7 +23324,7 @@
         "withCafe": false,
         "isDeliveryAvailable": true,
         "isCatalogAvailable": true,
-        "isPickupAvailable": true,
+        "isPickupAvailable": false,
         "electronicReceipt": false,
         "features": [
           {
@@ -23348,7 +23348,7 @@
         "withCafe": false,
         "isDeliveryAvailable": true,
         "isCatalogAvailable": true,
-        "isPickupAvailable": true,
+        "isPickupAvailable": false,
         "electronicReceipt": false,
         "features": [
           {
@@ -23386,7 +23386,7 @@
         "withCafe": false,
         "isDeliveryAvailable": true,
         "isCatalogAvailable": true,
-        "isPickupAvailable": true,
+        "isPickupAvailable": false,
         "electronicReceipt": true,
         "features": [
           {
@@ -23410,7 +23410,7 @@
         "withCafe": false,
         "isDeliveryAvailable": true,
         "isCatalogAvailable": true,
-        "isPickupAvailable": true,
+        "isPickupAvailable": false,
         "electronicReceipt": false,
         "features": [
           {
@@ -24190,7 +24190,7 @@
         "withCafe": false,
         "isDeliveryAvailable": true,
         "isCatalogAvailable": true,
-        "isPickupAvailable": true,
+        "isPickupAvailable": false,
         "electronicReceipt": false,
         "features": [
           {
@@ -24276,7 +24276,7 @@
         "withCafe": false,
         "isDeliveryAvailable": true,
         "isCatalogAvailable": true,
-        "isPickupAvailable": true,
+        "isPickupAvailable": false,
         "electronicReceipt": false,
         "features": [
           {
@@ -24482,7 +24482,7 @@
         "withCafe": false,
         "isDeliveryAvailable": true,
         "isCatalogAvailable": true,
-        "isPickupAvailable": true,
+        "isPickupAvailable": false,
         "electronicReceipt": false,
         "features": [
           {
@@ -24693,7 +24693,7 @@
         "withCafe": false,
         "isDeliveryAvailable": true,
         "isCatalogAvailable": true,
-        "isPickupAvailable": true,
+        "isPickupAvailable": false,
         "electronicReceipt": false,
         "features": [
           {
@@ -24717,7 +24717,7 @@
         "withCafe": false,
         "isDeliveryAvailable": false,
         "isCatalogAvailable": true,
-        "isPickupAvailable": true,
+        "isPickupAvailable": false,
         "electronicReceipt": false,
         "features": [
           {
@@ -24965,7 +24965,7 @@
         "withCafe": false,
         "isDeliveryAvailable": true,
         "isCatalogAvailable": true,
-        "isPickupAvailable": true,
+        "isPickupAvailable": false,
         "electronicReceipt": false,
         "features": [
           {
@@ -24996,7 +24996,7 @@
         "withCafe": false,
         "isDeliveryAvailable": true,
         "isCatalogAvailable": true,
-        "isPickupAvailable": true,
+        "isPickupAvailable": false,
         "electronicReceipt": false,
         "features": [
           {
@@ -25383,7 +25383,7 @@
         "withCafe": false,
         "isDeliveryAvailable": true,
         "isCatalogAvailable": true,
-        "isPickupAvailable": true,
+        "isPickupAvailable": false,
         "electronicReceipt": false,
         "features": [
           {
@@ -25469,7 +25469,7 @@
         "withCafe": true,
         "isDeliveryAvailable": true,
         "isCatalogAvailable": true,
-        "isPickupAvailable": true,
+        "isPickupAvailable": false,
         "electronicReceipt": false,
         "features": [
           {
@@ -25552,7 +25552,7 @@
         "withCafe": false,
         "isDeliveryAvailable": true,
         "isCatalogAvailable": true,
-        "isPickupAvailable": true,
+        "isPickupAvailable": false,
         "electronicReceipt": false,
         "features": [
           {
@@ -25704,7 +25704,7 @@
         "withCafe": false,
         "isDeliveryAvailable": false,
         "isCatalogAvailable": true,
-        "isPickupAvailable": true,
+        "isPickupAvailable": false,
         "electronicReceipt": false,
         "features": [
           {
@@ -25787,7 +25787,7 @@
         "withCafe": true,
         "isDeliveryAvailable": true,
         "isCatalogAvailable": true,
-        "isPickupAvailable": true,
+        "isPickupAvailable": false,
         "electronicReceipt": false,
         "features": [
           {
@@ -25901,7 +25901,7 @@
         "withCafe": false,
         "isDeliveryAvailable": true,
         "isCatalogAvailable": true,
-        "isPickupAvailable": true,
+        "isPickupAvailable": false,
         "electronicReceipt": false,
         "features": [
           {
@@ -26011,7 +26011,7 @@
         "withCafe": false,
         "isDeliveryAvailable": true,
         "isCatalogAvailable": true,
-        "isPickupAvailable": true,
+        "isPickupAvailable": false,
         "electronicReceipt": false,
         "features": [
           {
@@ -26097,7 +26097,7 @@
         "withCafe": false,
         "isDeliveryAvailable": false,
         "isCatalogAvailable": true,
-        "isPickupAvailable": true,
+        "isPickupAvailable": false,
         "electronicReceipt": false,
         "features": [
           {
@@ -26128,7 +26128,7 @@
         "withCafe": false,
         "isDeliveryAvailable": true,
         "isCatalogAvailable": true,
-        "isPickupAvailable": true,
+        "isPickupAvailable": false,
         "electronicReceipt": false,
         "features": [
           {
@@ -26159,7 +26159,7 @@
         "withCafe": false,
         "isDeliveryAvailable": true,
         "isCatalogAvailable": true,
-        "isPickupAvailable": true,
+        "isPickupAvailable": false,
         "electronicReceipt": false,
         "features": [
           {
@@ -26183,7 +26183,7 @@
         "withCafe": false,
         "isDeliveryAvailable": true,
         "isCatalogAvailable": true,
-        "isPickupAvailable": true,
+        "isPickupAvailable": false,
         "electronicReceipt": false,
         "features": [
           {
@@ -26414,7 +26414,7 @@
         "withCafe": true,
         "isDeliveryAvailable": true,
         "isCatalogAvailable": true,
-        "isPickupAvailable": true,
+        "isPickupAvailable": false,
         "electronicReceipt": false,
         "features": [
           {
@@ -26473,7 +26473,7 @@
         "withCafe": true,
         "isDeliveryAvailable": true,
         "isCatalogAvailable": true,
-        "isPickupAvailable": true,
+        "isPickupAvailable": false,
         "electronicReceipt": false,
         "features": [
           {
@@ -26525,7 +26525,7 @@
         "withCafe": false,
         "isDeliveryAvailable": true,
         "isCatalogAvailable": true,
-        "isPickupAvailable": true,
+        "isPickupAvailable": false,
         "electronicReceipt": false,
         "features": [
           {
@@ -26549,7 +26549,7 @@
         "withCafe": false,
         "isDeliveryAvailable": true,
         "isCatalogAvailable": true,
-        "isPickupAvailable": true,
+        "isPickupAvailable": false,
         "electronicReceipt": false,
         "features": [
           {
@@ -26580,7 +26580,7 @@
         "withCafe": true,
         "isDeliveryAvailable": true,
         "isCatalogAvailable": true,
-        "isPickupAvailable": true,
+        "isPickupAvailable": false,
         "electronicReceipt": false,
         "features": [
           {
@@ -26611,7 +26611,7 @@
         "withCafe": false,
         "isDeliveryAvailable": true,
         "isCatalogAvailable": true,
-        "isPickupAvailable": true,
+        "isPickupAvailable": false,
         "electronicReceipt": false,
         "features": [
           {
@@ -26635,7 +26635,7 @@
         "withCafe": false,
         "isDeliveryAvailable": true,
         "isCatalogAvailable": true,
-        "isPickupAvailable": true,
+        "isPickupAvailable": false,
         "electronicReceipt": false,
         "features": [
           {
@@ -26659,7 +26659,7 @@
         "withCafe": false,
         "isDeliveryAvailable": true,
         "isCatalogAvailable": true,
-        "isPickupAvailable": true,
+        "isPickupAvailable": false,
         "electronicReceipt": false,
         "features": [
           {
@@ -26690,7 +26690,7 @@
         "withCafe": true,
         "isDeliveryAvailable": true,
         "isCatalogAvailable": true,
-        "isPickupAvailable": true,
+        "isPickupAvailable": false,
         "electronicReceipt": false,
         "features": [
           {
@@ -26742,7 +26742,7 @@
         "withCafe": true,
         "isDeliveryAvailable": true,
         "isCatalogAvailable": true,
-        "isPickupAvailable": true,
+        "isPickupAvailable": false,
         "electronicReceipt": false,
         "features": [
           {
@@ -26856,7 +26856,7 @@
         "withCafe": false,
         "isDeliveryAvailable": true,
         "isCatalogAvailable": true,
-        "isPickupAvailable": true,
+        "isPickupAvailable": false,
         "electronicReceipt": false,
         "features": [
           {
@@ -26966,7 +26966,7 @@
         "withCafe": true,
         "isDeliveryAvailable": true,
         "isCatalogAvailable": true,
-        "isPickupAvailable": true,
+        "isPickupAvailable": false,
         "electronicReceipt": false,
         "features": [
           {
@@ -27228,7 +27228,7 @@
         "withCafe": false,
         "isDeliveryAvailable": true,
         "isCatalogAvailable": true,
-        "isPickupAvailable": true,
+        "isPickupAvailable": false,
         "electronicReceipt": false,
         "features": [
           {
@@ -27259,7 +27259,7 @@
         "withCafe": true,
         "isDeliveryAvailable": true,
         "isCatalogAvailable": true,
-        "isPickupAvailable": true,
+        "isPickupAvailable": false,
         "electronicReceipt": false,
         "features": [
           {
@@ -27297,7 +27297,7 @@
         "withCafe": false,
         "isDeliveryAvailable": true,
         "isCatalogAvailable": true,
-        "isPickupAvailable": true,
+        "isPickupAvailable": false,
         "electronicReceipt": false,
         "features": [
           {
@@ -27473,7 +27473,7 @@
         "withCafe": true,
         "isDeliveryAvailable": true,
         "isCatalogAvailable": true,
-        "isPickupAvailable": true,
+        "isPickupAvailable": false,
         "electronicReceipt": false,
         "features": [
           {
@@ -27511,7 +27511,7 @@
         "withCafe": true,
         "isDeliveryAvailable": true,
         "isCatalogAvailable": true,
-        "isPickupAvailable": true,
+        "isPickupAvailable": false,
         "electronicReceipt": false,
         "features": [
           {
@@ -27549,7 +27549,7 @@
         "withCafe": true,
         "isDeliveryAvailable": true,
         "isCatalogAvailable": true,
-        "isPickupAvailable": true,
+        "isPickupAvailable": false,
         "electronicReceipt": false,
         "features": [
           {
@@ -27587,7 +27587,7 @@
         "withCafe": true,
         "isDeliveryAvailable": true,
         "isCatalogAvailable": true,
-        "isPickupAvailable": true,
+        "isPickupAvailable": false,
         "electronicReceipt": false,
         "features": [
           {
@@ -28193,7 +28193,7 @@
         "withCafe": false,
         "isDeliveryAvailable": true,
         "isCatalogAvailable": true,
-        "isPickupAvailable": true,
+        "isPickupAvailable": false,
         "electronicReceipt": false,
         "features": [
           {
@@ -28271,7 +28271,7 @@
         "withCafe": true,
         "isDeliveryAvailable": true,
         "isCatalogAvailable": true,
-        "isPickupAvailable": true,
+        "isPickupAvailable": false,
         "electronicReceipt": false,
         "features": [
           {
@@ -28821,7 +28821,7 @@
         "withCafe": false,
         "isDeliveryAvailable": true,
         "isCatalogAvailable": true,
-        "isPickupAvailable": true,
+        "isPickupAvailable": false,
         "electronicReceipt": false,
         "features": []
       },
@@ -29093,7 +29093,7 @@
         "withCafe": false,
         "isDeliveryAvailable": true,
         "isCatalogAvailable": true,
-        "isPickupAvailable": true,
+        "isPickupAvailable": false,
         "electronicReceipt": false,
         "features": []
       },
@@ -29141,7 +29141,7 @@
         "withCafe": false,
         "isDeliveryAvailable": true,
         "isCatalogAvailable": true,
-        "isPickupAvailable": true,
+        "isPickupAvailable": false,
         "electronicReceipt": false,
         "features": []
       },
@@ -29221,7 +29221,7 @@
         "withCafe": false,
         "isDeliveryAvailable": true,
         "isCatalogAvailable": true,
-        "isPickupAvailable": true,
+        "isPickupAvailable": false,
         "electronicReceipt": false,
         "features": []
       },
@@ -29253,7 +29253,7 @@
         "withCafe": false,
         "isDeliveryAvailable": true,
         "isCatalogAvailable": true,
-        "isPickupAvailable": true,
+        "isPickupAvailable": false,
         "electronicReceipt": false,
         "features": []
       },
@@ -29269,7 +29269,7 @@
         "withCafe": false,
         "isDeliveryAvailable": true,
         "isCatalogAvailable": true,
-        "isPickupAvailable": true,
+        "isPickupAvailable": false,
         "electronicReceipt": false,
         "features": []
       },
@@ -29285,7 +29285,7 @@
         "withCafe": false,
         "isDeliveryAvailable": true,
         "isCatalogAvailable": true,
-        "isPickupAvailable": true,
+        "isPickupAvailable": false,
         "electronicReceipt": false,
         "features": []
       },
@@ -29301,7 +29301,7 @@
         "withCafe": false,
         "isDeliveryAvailable": true,
         "isCatalogAvailable": true,
-        "isPickupAvailable": true,
+        "isPickupAvailable": false,
         "electronicReceipt": false,
         "features": []
       },
@@ -29317,7 +29317,7 @@
         "withCafe": false,
         "isDeliveryAvailable": true,
         "isCatalogAvailable": true,
-        "isPickupAvailable": true,
+        "isPickupAvailable": false,
         "electronicReceipt": false,
         "features": []
       },
@@ -29381,7 +29381,7 @@
         "withCafe": false,
         "isDeliveryAvailable": false,
         "isCatalogAvailable": true,
-        "isPickupAvailable": true,
+        "isPickupAvailable": false,
         "electronicReceipt": false,
         "features": []
       },
@@ -29829,6 +29829,22 @@
         "withCafe": false,
         "isDeliveryAvailable": true,
         "isCatalogAvailable": true,
+        "isPickupAvailable": false,
+        "electronicReceipt": false,
+        "features": []
+      },
+      {
+        "id": 1214,
+        "location": {
+          "type": "Point",
+          "coordinates": [
+            37.52976212,
+            55.53698186
+          ]
+        },
+        "withCafe": false,
+        "isDeliveryAvailable": false,
+        "isCatalogAvailable": true,
         "isPickupAvailable": true,
         "electronicReceipt": false,
         "features": []
@@ -29957,7 +29973,7 @@
         "withCafe": false,
         "isDeliveryAvailable": true,
         "isCatalogAvailable": true,
-        "isPickupAvailable": true,
+        "isPickupAvailable": false,
         "electronicReceipt": false,
         "features": []
       },
@@ -29990,6 +30006,22 @@
         "isDeliveryAvailable": true,
         "isCatalogAvailable": true,
         "isPickupAvailable": true,
+        "electronicReceipt": false,
+        "features": []
+      },
+      {
+        "id": 1226,
+        "location": {
+          "type": "Point",
+          "coordinates": [
+            37.66603529,
+            54.19457972
+          ]
+        },
+        "withCafe": false,
+        "isDeliveryAvailable": false,
+        "isCatalogAvailable": true,
+        "isPickupAvailable": false,
         "electronicReceipt": false,
         "features": []
       },
@@ -30152,6 +30184,38 @@
           "coordinates": [
             37.51255,
             54.011565
+          ]
+        },
+        "withCafe": false,
+        "isDeliveryAvailable": false,
+        "isCatalogAvailable": true,
+        "isPickupAvailable": false,
+        "electronicReceipt": false,
+        "features": []
+      },
+      {
+        "id": 1241,
+        "location": {
+          "type": "Point",
+          "coordinates": [
+            38.90701875,
+            45.09317427
+          ]
+        },
+        "withCafe": false,
+        "isDeliveryAvailable": false,
+        "isCatalogAvailable": true,
+        "isPickupAvailable": false,
+        "electronicReceipt": false,
+        "features": []
+      },
+      {
+        "id": 1242,
+        "location": {
+          "type": "Point",
+          "coordinates": [
+            38.90701875,
+            45.09317427
           ]
         },
         "withCafe": false,

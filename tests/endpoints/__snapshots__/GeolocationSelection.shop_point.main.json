@@ -1,6 +1,6 @@
 {
   "content": {
-    "mode": "pickup",
+    "mode": "catalog",
     "shop": {
       "id": 1,
       "sapId": "2582",

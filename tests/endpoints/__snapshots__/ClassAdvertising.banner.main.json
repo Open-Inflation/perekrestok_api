@@ -144,8 +144,8 @@
         "deepLink": null
       },
       {
-        "id": 18594,
-        "slug": "frov-35-mango",
+        "id": 18727,
+        "slug": "frov-36-tomaty",
         "title": null,
         "action": "blocks",
         "color": {
@@ -160,29 +160,29 @@
         "images": [
           {
             "image": {
-              "id": 2481930,
-              "originName": "Подборка размер 816х452 (1).png",
+              "id": 2496703,
+              "originName": "Подборка размер 816х452 (2).png",
               "fileType": "image",
-              "fileSize": 9572620,
+              "fileSize": 8856727,
               "width": 3264,
               "height": 1808,
-              "cropUrlTemplate": "https://tsx.x5static.net/i/%s/xdelivery/files/97/9a/a7a69ffexd41b88c9a22d1fc5e55.png",
+              "cropUrlTemplate": "https://tsx.x5static.net/i/%s/xdelivery/files/d8/ab/d7ecd0f4eced19e96856b54d958b.png",
               "publicUrl": null,
-              "uuid": "0dd88086-a246-436b-a12d-be68ee98988e"
+              "uuid": "94910136-aa86-4aae-a9aa-131c23606ee2"
             },
             "scales": [
               {
                 "scaleName": "default",
                 "image": {
-                  "id": 2481930,
-                  "originName": "Подборка размер 816х452 (1).png",
+                  "id": 2496703,
+                  "originName": "Подборка размер 816х452 (2).png",
                   "fileType": "image",
-                  "fileSize": 9572620,
+                  "fileSize": 8856727,
                   "width": 3264,
                   "height": 1808,
-                  "cropUrlTemplate": "https://tsx.x5static.net/i/%s/xdelivery/files/97/9a/a7a69ffexd41b88c9a22d1fc5e55.png",
+                  "cropUrlTemplate": "https://tsx.x5static.net/i/%s/xdelivery/files/d8/ab/d7ecd0f4eced19e96856b54d958b.png",
                   "publicUrl": null,
-                  "uuid": "0dd88086-a246-436b-a12d-be68ee98988e"
+                  "uuid": "94910136-aa86-4aae-a9aa-131c23606ee2"
                 }
               }
             ],
@@ -202,7 +202,7 @@
           {
             "name": "bannerName",
             "type": "text",
-            "value": "ФРОВ 35 Манго"
+            "value": "ФРОВ 36 Томаты"
           }
         ],
         "positions": [
@@ -215,15 +215,15 @@
         "deepLink": null
       },
       {
-        "id": 18425,
-        "slug": "supercena-w33",
+        "id": 18638,
+        "slug": "loalnost-lk-sentabr",
         "title": null,
-        "action": "blocks",
+        "action": "deep-link",
         "color": {
-          "red": 255,
-          "green": 255,
-          "blue": 255,
-          "alpha": 100
+          "red": 0,
+          "green": 0,
+          "blue": 0,
+          "alpha": 0
         },
         "link": null,
         "webViewType": "default",
@@ -231,29 +231,29 @@
         "images": [
           {
             "image": {
-              "id": 2475256,
-              "originName": "816x452.png",
+              "id": 2489567,
+              "originName": "Баннер сларрйдер на сайте_1.png",
               "fileType": "image",
-              "fileSize": 2771567,
-              "width": 2448,
-              "height": 1356,
-              "cropUrlTemplate": "https://tsx.x5static.net/i/%s/xdelivery/files/f3/29/01b9da3b5db3c591df1e5af65cd3.png",
+              "fileSize": 2611379,
+              "width": 3268,
+              "height": 1808,
+              "cropUrlTemplate": "https://tsx.x5static.net/i/%s/xdelivery/files/f6/4b/d7c3396f245dba34f618b77215fa.png",
               "publicUrl": null,
-              "uuid": "86f37b2d-6273-4cd7-bc47-291c77789987"
+              "uuid": "202158ac-e574-4aee-8d52-94fd75f5578c"
             },
             "scales": [
               {
                 "scaleName": "default",
                 "image": {
-                  "id": 2475256,
-                  "originName": "816x452.png",
+                  "id": 2489567,
+                  "originName": "Баннер сларрйдер на сайте_1.png",
                   "fileType": "image",
-                  "fileSize": 2771567,
-                  "width": 2448,
-                  "height": 1356,
-                  "cropUrlTemplate": "https://tsx.x5static.net/i/%s/xdelivery/files/f3/29/01b9da3b5db3c591df1e5af65cd3.png",
+                  "fileSize": 2611379,
+                  "width": 3268,
+                  "height": 1808,
+                  "cropUrlTemplate": "https://tsx.x5static.net/i/%s/xdelivery/files/f6/4b/d7c3396f245dba34f618b77215fa.png",
                   "publicUrl": null,
-                  "uuid": "86f37b2d-6273-4cd7-bc47-291c77789987"
+                  "uuid": "202158ac-e574-4aee-8d52-94fd75f5578c"
                 }
               }
             ],
@@ -265,16 +265,12 @@
         "leftSubtitle": null,
         "rightSubtitle": null,
         "content": null,
-        "blockTypes": [
-          "image",
-          "product_list",
-          "text"
-        ],
+        "blockTypes": [],
         "analyticsInfo": [
           {
             "name": "bannerName",
             "type": "text",
-            "value": "Суперцена W33"
+            "value": "Лояльность_ЛК_Сентябрь"
           }
         ],
         "positions": [
@@ -284,7 +280,10 @@
           }
         ],
         "key": null,
-        "deepLink": null
+        "deepLink": {
+          "url": "https://www.perekrestok.ru/profile/x5-club",
+          "tsx_type": "internal_webview"
+        }
       }
     ],
     "tags": []

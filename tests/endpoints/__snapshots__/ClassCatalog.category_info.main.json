@@ -242,6 +242,65 @@
         "hasAvailableProducts": true,
         "children": [],
         "promoProducts": null
+      },
+      {
+        "category": {
+          "id": 1651,
+          "title": "Завтрак перед школой",
+          "slug": "zavtrak-pered-skoloj",
+          "parentId": 1644,
+          "smallImage": null,
+          "bigImage": null,
+          "squareSmallImage": {
+            "id": 2463097,
+            "originName": "Завтрак перед школой.png",
+            "fileType": "image",
+            "fileSize": 89141,
+            "width": 224,
+            "height": 224,
+            "cropUrlTemplate": "https://tsx.x5static.net/i/%s/xdelivery/files/64/72/fe5f6c276ff6d4b733b401e1e561.png",
+            "publicUrl": null,
+            "uuid": "cdc53270-8f2a-4071-bbe5-f8a773c422b7"
+          },
+          "isAlcohol": false,
+          "isTobacco": false,
+          "showInSearch": false,
+          "isAdultContent": false,
+          "backgroundColor": {
+            "red": 255,
+            "green": 255,
+            "blue": 255,
+            "alpha": 100
+          },
+          "textColor": {
+            "red": 0,
+            "green": 0,
+            "blue": 0,
+            "alpha": 100
+          },
+          "isLiquid": false,
+          "displayStyle": 2,
+          "subtitle": null,
+          "categoryImage": null,
+          "smallCategoryImage": {
+            "id": 2463098,
+            "originName": "Завтрак для детей.png",
+            "fileType": "image",
+            "fileSize": 112590,
+            "width": 327,
+            "height": 228,
+            "cropUrlTemplate": "https://tsx.x5static.net/i/%s/xdelivery/files/3c/38/f47e49c1a2b44889afa9ca9b2201.png",
+            "publicUrl": null,
+            "uuid": "d9c7624f-4315-43c5-959d-62ff87385715"
+          },
+          "deepLink": null,
+          "smallDisplayStyleForParent": false,
+          "isBigDesignStyle": false,
+          "isMarkingRequired": false
+        },
+        "hasAvailableProducts": true,
+        "children": [],
+        "promoProducts": null
       }
     ],
     "promoProducts": null

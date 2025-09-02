@@ -2,6 +2,58 @@
   "content": {
     "items": [
       {
+        "id": 57628,
+        "key": "sess",
+        "title": "Сьёсс",
+        "fullTitle": null,
+        "hideCategory": null,
+        "image": null,
+        "productBrand": {
+          "id": 49,
+          "sliderImage": {
+            "id": 2492447,
+            "originName": "лого карусель копия (2).png",
+            "fileType": "image",
+            "fileSize": 14698,
+            "width": 474,
+            "height": 300,
+            "cropUrlTemplate": "https://tsx.x5static.net/i/%s/xdelivery/files/b9/e0/2458711d8e69ca3f4fdae8617069.png",
+            "publicUrl": null,
+            "uuid": "9bff363e-eb07-4b95-bc13-b8d7a1707b08"
+          },
+          "mobileBannerImage": {
+            "id": 2497088,
+            "originName": "бз 1440х360 2 копия 2.png",
+            "fileType": "image",
+            "fileSize": 304604,
+            "width": 1440,
+            "height": 360,
+            "cropUrlTemplate": "https://tsx.x5static.net/i/%s/xdelivery/files/f0/df/4ee1a90d4a48bf080b85c17bb09e.png",
+            "publicUrl": null,
+            "uuid": "52f1a905-91b6-4ac6-be5e-75bdee506dac"
+          },
+          "desktopBannerImage": {
+            "id": 2497087,
+            "originName": "бз 1440х360 2 копия 2.png",
+            "fileType": "image",
+            "fileSize": 304604,
+            "width": 1440,
+            "height": 360,
+            "cropUrlTemplate": "https://tsx.x5static.net/i/%s/xdelivery/files/f0/df/4ee1a90d4a48bf080b85c17bb09e.png",
+            "publicUrl": null,
+            "uuid": "49f78487-3a61-4607-aab0-c3d17413a986"
+          },
+          "paidProductCardLogo": true,
+          "color": {
+            "red": 0,
+            "green": 0,
+            "blue": 0,
+            "alpha": 100
+          },
+          "imageLink": null
+        }
+      },
+      {
         "id": 3382,
         "key": "titbit",
         "title": "Titbit",
@@ -214,48 +266,6 @@
             "red": 255,
             "green": 255,
             "blue": 255,
-            "alpha": 100
-          },
-          "imageLink": null
-        }
-      },
-      {
-        "id": 2334,
-        "key": "miratorg",
-        "title": "Мираторг",
-        "fullTitle": null,
-        "hideCategory": null,
-        "image": {
-          "id": 1086353,
-          "originName": "Мираторг.jpg",
-          "fileType": "image",
-          "fileSize": 30256,
-          "width": 600,
-          "height": 600,
-          "cropUrlTemplate": "https://tsx.x5static.net/i/%s/xdelivery/files/39/03/008b61e74143c4cdba02e9f80300.jpg",
-          "publicUrl": null,
-          "uuid": "b5314f8a-9446-4a5e-8061-8de35cf9e06c"
-        },
-        "productBrand": {
-          "id": 32,
-          "sliderImage": {
-            "id": 848214,
-            "originName": "Frame 29.png",
-            "fileType": "image",
-            "fileSize": 8923,
-            "width": 675,
-            "height": 550,
-            "cropUrlTemplate": "https://tsx.x5static.net/i/%s/xdelivery/files/1d/8a/a9b179ff1f1bcd2a6473d7xde7c5.png",
-            "publicUrl": null,
-            "uuid": "aa8509a3-6221-46d9-be94-63a77ec10374"
-          },
-          "mobileBannerImage": null,
-          "desktopBannerImage": null,
-          "paidProductCardLogo": true,
-          "color": {
-            "red": 0,
-            "green": 0,
-            "blue": 0,
             "alpha": 100
           },
           "imageLink": null

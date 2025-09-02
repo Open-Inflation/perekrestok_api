@@ -1,5 +1,5 @@
 {
-  "$schema": "http://json-schema.org/schema#",
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
   "type": "object",
   "properties": {
     "content": {
@@ -204,15 +204,15 @@
               "type": "integer"
             },
             "cropUrlTemplate": {
-              "type": "string",
-              "format": "uri"
+              "format": "uri",
+              "type": "string"
             },
             "publicUrl": {
               "type": "null"
             },
             "uuid": {
-              "type": "string",
-              "format": "uuid"
+              "format": "uuid",
+              "type": "string"
             }
           },
           "required": [
@@ -249,15 +249,15 @@
               "type": "integer"
             },
             "cropUrlTemplate": {
-              "type": "string",
-              "format": "uri"
+              "format": "uri",
+              "type": "string"
             },
             "publicUrl": {
               "type": "null"
             },
             "uuid": {
-              "type": "string",
-              "format": "uuid"
+              "format": "uuid",
+              "type": "string"
             }
           },
           "required": [
@@ -296,15 +296,15 @@
                 "type": "integer"
               },
               "cropUrlTemplate": {
-                "type": "string",
-                "format": "uri"
+                "format": "uri",
+                "type": "string"
               },
               "publicUrl": {
                 "type": "null"
               },
               "uuid": {
-                "type": "string",
-                "format": "uuid"
+                "format": "uuid",
+                "type": "string"
               }
             },
             "required": [
@@ -344,15 +344,15 @@
                 "type": "integer"
               },
               "cropUrlTemplate": {
-                "type": "string",
-                "format": "uri"
+                "format": "uri",
+                "type": "string"
               },
               "publicUrl": {
                 "type": "null"
               },
               "uuid": {
-                "type": "string",
-                "format": "uuid"
+                "format": "uuid",
+                "type": "string"
               }
             },
             "required": [
@@ -612,15 +612,15 @@
                     "type": "integer"
                   },
                   "cropUrlTemplate": {
-                    "type": "string",
-                    "format": "uri"
+                    "format": "uri",
+                    "type": "string"
                   },
                   "publicUrl": {
                     "type": "null"
                   },
                   "uuid": {
-                    "type": "string",
-                    "format": "uuid"
+                    "format": "uuid",
+                    "type": "string"
                   }
                 },
                 "required": [
@@ -723,10 +723,28 @@
               "type": "integer"
             },
             "grossPrice": {
-              "type": "null"
+              "type": [
+                "integer",
+                "null"
+              ]
             },
             "labels": {
-              "type": "array"
+              "type": "array",
+              "items": {
+                "type": "object",
+                "properties": {
+                  "type": {
+                    "type": "string"
+                  },
+                  "text": {
+                    "type": "string"
+                  }
+                },
+                "required": [
+                  "text",
+                  "type"
+                ]
+              }
             },
             "pricePerQuantum": {
               "type": "null"

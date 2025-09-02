@@ -6,6 +6,90 @@
         "borderStyle": null,
         "bestReview": null,
         "advToken": null,
+        "id": 61718,
+        "masterData": {
+          "slug": "tetrad-skolnaa-pzbm-a5-v-kletku-12-listov",
+          "plu": "3956330",
+          "unit": 1,
+          "unitName": "шт",
+          "quantum": 1000,
+          "quantumStep": 1000,
+          "weight": 29,
+          "volume": null,
+          "ui4code": "NF0701006",
+          "taxGroup": "BB",
+          "ownProduction": false,
+          "privateLabel": false,
+          "isMark": false,
+          "alcoSetUnits": null,
+          "activeNds": 10
+        },
+        "title": "Тетрадь школьная ПЗБМ A5 в клетку, 12 листов",
+        "primaryCategory": {
+          "id": 455,
+          "title": "Бумага, ручки, краски",
+          "slug": "bumaga-rucki-kraski",
+          "isAlcohol": false,
+          "isTobacco": false,
+          "isExciseAlcohol": false,
+          "isAdultContent": false,
+          "displayStyle": 2,
+          "catalogs": [
+            2,
+            4
+          ]
+        },
+        "catalogPrimaryCategory": {
+          "id": 53,
+          "title": "Канцелярия",
+          "slug": "kancelaria",
+          "isAlcohol": false,
+          "isTobacco": false,
+          "isExciseAlcohol": false,
+          "isAdultContent": false,
+          "displayStyle": 2,
+          "catalogs": [
+            1
+          ]
+        },
+        "image": {
+          "id": 1208975,
+          "originName": "3956330.jpg",
+          "fileType": "image",
+          "fileSize": 88005,
+          "width": 1600,
+          "height": 1600,
+          "cropUrlTemplate": "https://tsx.x5static.net/i/%s/xdelivery/files/8f/fd/5210824d505351612bf6bf9a1d66.jpg",
+          "publicUrl": null,
+          "uuid": "b46df98a-76e3-4c75-9232-ef791473dfd6"
+        },
+        "rating": 494,
+        "medianPrice": 499,
+        "labelCharacteristics": [],
+        "labels": [],
+        "reviewCount": 29,
+        "ratingCount": 620,
+        "priceTag": {
+          "price": 499,
+          "discountMinimumAmount": 0,
+          "grossPrice": 999,
+          "labels": [
+            {
+              "type": "yellow",
+              "text": "-50%"
+            }
+          ],
+          "pricePerQuantum": null,
+          "grossPricePerQuantum": null,
+          "potentialPointsForOrangeCard": null
+        },
+        "balanceState": "many"
+      },
+      {
+        "liked": false,
+        "borderStyle": null,
+        "bestReview": null,
+        "advToken": null,
         "id": 61722,
         "masterData": {
           "slug": "tetrad-skolnaa-pzbm-a5-v-linejku-12-listov",
@@ -68,7 +152,7 @@
         "labelCharacteristics": [],
         "labels": [],
         "reviewCount": 22,
-        "ratingCount": 562,
+        "ratingCount": 564,
         "priceTag": {
           "price": 499,
           "discountMinimumAmount": 0,
@@ -147,7 +231,7 @@
         "labelCharacteristics": [],
         "labels": [],
         "reviewCount": 12,
-        "ratingCount": 206,
+        "ratingCount": 209,
         "priceTag": {
           "price": 499,
           "discountMinimumAmount": 0,
@@ -225,8 +309,8 @@
         "medianPrice": 999,
         "labelCharacteristics": [],
         "labels": [],
-        "reviewCount": 80,
-        "ratingCount": 1243,
+        "reviewCount": 82,
+        "ratingCount": 1249,
         "priceTag": {
           "price": 999,
           "discountMinimumAmount": 0,
@@ -248,17 +332,17 @@
         "borderStyle": null,
         "bestReview": null,
         "advToken": null,
-        "id": 432484,
+        "id": 481418,
         "masterData": {
-          "slug": "linejka-centrum-v-assortimente-20sm",
-          "plu": "2037878",
+          "slug": "karandas-meshu-robopets-cernografitnyj-s-lastikom-v-assortimente",
+          "plu": "4408630",
           "unit": 1,
           "unitName": "шт",
           "quantum": 1000,
           "quantumStep": 1000,
-          "weight": 100,
+          "weight": 7,
           "volume": null,
-          "ui4code": "NF0701008",
+          "ui4code": "NF0701010",
           "taxGroup": "BL",
           "ownProduction": false,
           "privateLabel": false,
@@ -266,7 +350,7 @@
           "alcoSetUnits": null,
           "activeNds": 20
         },
-        "title": "Линейка Centrum в ассортименте, 20см",
+        "title": "Карандаш Meshu Robopets чернографитный с ластиком в ассортименте",
         "primaryCategory": {
           "id": 455,
           "title": "Бумага, ручки, краски",
@@ -295,114 +379,30 @@
           ]
         },
         "image": {
-          "id": 1739188,
-          "originName": "2037878.jpg",
+          "id": 2388768,
+          "originName": "remote_upl_686618731d35c9.17063501",
           "fileType": "image",
-          "fileSize": 225172,
-          "width": 1600,
-          "height": 1600,
-          "cropUrlTemplate": "https://tsx.x5static.net/i/%s/xdelivery/files/82/ce/1269894bbaa1c5e61c5296e7afaf.jpg",
+          "fileSize": 382657,
+          "width": 1200,
+          "height": 1200,
+          "cropUrlTemplate": "https://tsx.x5static.net/i/%s/xdelivery/files/c2/c4/5546a95869b5a18ab851e2e10bfb.jpg",
           "publicUrl": null,
-          "uuid": "c737d46a-a882-4ed5-8f10-7a96a5bfcf93"
+          "uuid": "bc683de8-445e-4f09-84cb-7b907fed747d"
         },
-        "rating": 495,
-        "medianPrice": 1299,
-        "labelCharacteristics": [],
-        "labels": [],
-        "reviewCount": 21,
-        "ratingCount": 222,
-        "priceTag": {
-          "price": 1299,
-          "discountMinimumAmount": 0,
-          "grossPrice": 2999,
-          "labels": [
-            {
-              "type": "yellow",
-              "text": "-56%"
-            }
-          ],
-          "pricePerQuantum": null,
-          "grossPricePerQuantum": null,
-          "potentialPointsForOrangeCard": null
-        },
-        "balanceState": "many"
-      },
-      {
-        "liked": false,
-        "borderStyle": null,
-        "bestReview": null,
-        "advToken": null,
-        "id": 325429,
-        "masterData": {
-          "slug": "tetrad-skolnaa-prof-press-v-linejku-12-listov",
-          "plu": "4231567",
-          "unit": 1,
-          "unitName": "шт",
-          "quantum": 1000,
-          "quantumStep": 1000,
-          "weight": 37,
-          "volume": null,
-          "ui4code": "NF0701006",
-          "taxGroup": "BB",
-          "ownProduction": false,
-          "privateLabel": false,
-          "isMark": false,
-          "alcoSetUnits": null,
-          "activeNds": 10
-        },
-        "title": "Тетрадь школьная Prof-Press в линейку, 12 листов",
-        "primaryCategory": {
-          "id": 455,
-          "title": "Бумага, ручки, краски",
-          "slug": "bumaga-rucki-kraski",
-          "isAlcohol": false,
-          "isTobacco": false,
-          "isExciseAlcohol": false,
-          "isAdultContent": false,
-          "displayStyle": 2,
-          "catalogs": [
-            2,
-            4
-          ]
-        },
-        "catalogPrimaryCategory": {
-          "id": 53,
-          "title": "Канцелярия",
-          "slug": "kancelaria",
-          "isAlcohol": false,
-          "isTobacco": false,
-          "isExciseAlcohol": false,
-          "isAdultContent": false,
-          "displayStyle": 2,
-          "catalogs": [
-            1
-          ]
-        },
-        "image": {
-          "id": 1209024,
-          "originName": "4231567.jpg",
-          "fileType": "image",
-          "fileSize": 880975,
-          "width": 1600,
-          "height": 1600,
-          "cropUrlTemplate": "https://tsx.x5static.net/i/%s/xdelivery/files/5e/7e/654e1c5c1985027cb1ceba69ea16.jpg",
-          "publicUrl": null,
-          "uuid": "cc395ce3-e68f-4e3f-a7b3-8ac7f12dcfef"
-        },
-        "rating": 496,
+        "rating": 500,
         "medianPrice": 1499,
         "labelCharacteristics": [],
         "labels": [],
-        "reviewCount": 1,
-        "ratingCount": 140,
+        "reviewCount": 0,
+        "ratingCount": 9,
         "priceTag": {
-          "price": 1499,
+          "price": 999,
           "discountMinimumAmount": 0,
-          "grossPrice": 3499,
+          "grossPrice": 3999,
           "labels": [
             {
               "type": "yellow",
-              "text": "-57%"
+              "text": "-75%"
             }
           ],
           "pricePerQuantum": null,

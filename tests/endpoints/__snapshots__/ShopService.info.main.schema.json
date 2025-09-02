@@ -1,115 +1,122 @@
 {
-  "$schema": "http://json-schema.org/schema#",
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
   "type": "object",
   "properties": {
     "content": {
       "type": "object",
       "properties": {
         "pickupPlaceInfo": {
-          "type": "object",
-          "properties": {
-            "title": {
-              "type": "string"
-            },
-            "pickupPlaceDescription": {
+          "anyOf": [
+            {
               "type": "null"
             },
-            "pickupPlacePrimaryImage": {
+            {
               "type": "object",
               "properties": {
-                "id": {
-                  "type": "integer"
-                },
-                "originName": {
+                "title": {
                   "type": "string"
                 },
-                "fileType": {
-                  "type": "string"
-                },
-                "fileSize": {
-                  "type": "integer"
-                },
-                "width": {
-                  "type": "integer"
-                },
-                "height": {
-                  "type": "integer"
-                },
-                "cropUrlTemplate": {
-                  "type": "string",
-                  "format": "uri"
-                },
-                "publicUrl": {
+                "pickupPlaceDescription": {
                   "type": "null"
                 },
-                "uuid": {
-                  "type": "string",
-                  "format": "uuid"
+                "pickupPlacePrimaryImage": {
+                  "type": "object",
+                  "properties": {
+                    "id": {
+                      "type": "integer"
+                    },
+                    "originName": {
+                      "type": "string"
+                    },
+                    "fileType": {
+                      "type": "string"
+                    },
+                    "fileSize": {
+                      "type": "integer"
+                    },
+                    "width": {
+                      "type": "integer"
+                    },
+                    "height": {
+                      "type": "integer"
+                    },
+                    "cropUrlTemplate": {
+                      "format": "uri",
+                      "type": "string"
+                    },
+                    "publicUrl": {
+                      "type": "null"
+                    },
+                    "uuid": {
+                      "format": "uuid",
+                      "type": "string"
+                    }
+                  },
+                  "required": [
+                    "cropUrlTemplate",
+                    "fileSize",
+                    "fileType",
+                    "height",
+                    "id",
+                    "originName",
+                    "publicUrl",
+                    "uuid",
+                    "width"
+                  ]
+                },
+                "pickupPlaceSecondaryImage": {
+                  "type": "object",
+                  "properties": {
+                    "id": {
+                      "type": "integer"
+                    },
+                    "originName": {
+                      "type": "string"
+                    },
+                    "fileType": {
+                      "type": "string"
+                    },
+                    "fileSize": {
+                      "type": "integer"
+                    },
+                    "width": {
+                      "type": "integer"
+                    },
+                    "height": {
+                      "type": "integer"
+                    },
+                    "cropUrlTemplate": {
+                      "format": "uri",
+                      "type": "string"
+                    },
+                    "publicUrl": {
+                      "type": "null"
+                    },
+                    "uuid": {
+                      "format": "uuid",
+                      "type": "string"
+                    }
+                  },
+                  "required": [
+                    "cropUrlTemplate",
+                    "fileSize",
+                    "fileType",
+                    "height",
+                    "id",
+                    "originName",
+                    "publicUrl",
+                    "uuid",
+                    "width"
+                  ]
                 }
               },
               "required": [
-                "cropUrlTemplate",
-                "fileSize",
-                "fileType",
-                "height",
-                "id",
-                "originName",
-                "publicUrl",
-                "uuid",
-                "width"
-              ]
-            },
-            "pickupPlaceSecondaryImage": {
-              "type": "object",
-              "properties": {
-                "id": {
-                  "type": "integer"
-                },
-                "originName": {
-                  "type": "string"
-                },
-                "fileType": {
-                  "type": "string"
-                },
-                "fileSize": {
-                  "type": "integer"
-                },
-                "width": {
-                  "type": "integer"
-                },
-                "height": {
-                  "type": "integer"
-                },
-                "cropUrlTemplate": {
-                  "type": "string",
-                  "format": "uri"
-                },
-                "publicUrl": {
-                  "type": "null"
-                },
-                "uuid": {
-                  "type": "string",
-                  "format": "uuid"
-                }
-              },
-              "required": [
-                "cropUrlTemplate",
-                "fileSize",
-                "fileType",
-                "height",
-                "id",
-                "originName",
-                "publicUrl",
-                "uuid",
-                "width"
+                "pickupPlaceDescription",
+                "pickupPlacePrimaryImage",
+                "pickupPlaceSecondaryImage",
+                "title"
               ]
             }
-          },
-          "required": [
-            "pickupPlaceDescription",
-            "pickupPlacePrimaryImage",
-            "pickupPlaceSecondaryImage",
-            "title"
           ]
         },
         "id": {
@@ -300,15 +307,15 @@
                     "type": "integer"
                   },
                   "cropUrlTemplate": {
-                    "type": "string",
-                    "format": "uri"
+                    "format": "uri",
+                    "type": "string"
                   },
                   "publicUrl": {
                     "type": "null"
                   },
                   "uuid": {
-                    "type": "string",
-                    "format": "uuid"
+                    "format": "uuid",
+                    "type": "string"
                   }
                 },
                 "required": [
@@ -351,15 +358,15 @@
                     "type": "integer"
                   },
                   "cropUrlTemplate": {
-                    "type": "string",
-                    "format": "uri"
+                    "format": "uri",
+                    "type": "string"
                   },
                   "publicUrl": {
                     "type": "null"
                   },
                   "uuid": {
-                    "type": "string",
-                    "format": "uuid"
+                    "format": "uuid",
+                    "type": "string"
                   }
                 },
                 "required": [

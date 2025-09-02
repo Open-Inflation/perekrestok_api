@@ -2,7 +2,7 @@
   "content": {
     "priceFrom": 499,
     "priceTo": 449900,
-    "productCount": 1084,
+    "productCount": 1027,
     "searchFeatures": [
       {
         "title": "Бренд",
@@ -22,7 +22,7 @@
             "image": null,
             "hideCategory": false,
             "value": "7-days",
-            "productCount": 6
+            "productCount": 7
           },
           {
             "title": "Ahmad Tea",
@@ -41,15 +41,15 @@
             "productCount": 7
           },
           {
-            "title": "Amarancho",
+            "title": "Anthon Berg",
             "fullTitle": null,
             "image": null,
             "hideCategory": false,
-            "value": "amarancho",
+            "value": "anthon-berg",
             "productCount": 1
           }
         ],
-        "enumCount": 239
+        "enumCount": 237
       },
       {
         "title": "Категория товара",
@@ -61,7 +61,7 @@
             "image": null,
             "hideCategory": false,
             "value": "bumaga-i-salfetki",
-            "productCount": 4
+            "productCount": 3
           },
           {
             "title": "Бумага, ручки, краски",
@@ -96,7 +96,7 @@
             "productCount": 2
           }
         ],
-        "enumCount": 30
+        "enumCount": 29
       },
       {
         "title": "Тип продукта",
@@ -119,14 +119,6 @@
             "productCount": 9
           },
           {
-            "title": "Биойогурт",
-            "fullTitle": null,
-            "image": null,
-            "hideCategory": false,
-            "value": "biojogurt",
-            "productCount": 2
-          },
-          {
             "title": "Блок для записей",
             "fullTitle": null,
             "image": null,
@@ -141,9 +133,17 @@
             "hideCategory": false,
             "value": "varene",
             "productCount": 24
+          },
+          {
+            "title": "Вафли",
+            "fullTitle": null,
+            "image": null,
+            "hideCategory": false,
+            "value": "vafli",
+            "productCount": 12
           }
         ],
-        "enumCount": 74
+        "enumCount": 71
       },
       {
         "title": "Особенности",
@@ -173,7 +173,7 @@
             },
             "hideCategory": false,
             "value": "bez-glutena",
-            "productCount": 28
+            "productCount": 25
           },
           {
             "title": "Без лактозы",
@@ -191,7 +191,7 @@
             },
             "hideCategory": false,
             "value": "bez-laktozy",
-            "productCount": 48
+            "productCount": 45
           },
           {
             "title": "Без сахара",
@@ -209,7 +209,7 @@
             },
             "hideCategory": false,
             "value": "bez-sahara",
-            "productCount": 124
+            "productCount": 115
           },
           {
             "title": "Богат протеином",
@@ -227,7 +227,7 @@
             },
             "hideCategory": false,
             "value": "bogat-proteinom",
-            "productCount": 10
+            "productCount": 4
           }
         ],
         "enumCount": 9

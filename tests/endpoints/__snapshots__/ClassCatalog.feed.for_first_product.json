@@ -6,10 +6,10 @@
         "borderStyle": null,
         "bestReview": null,
         "advToken": null,
-        "id": 61722,
+        "id": 61718,
         "masterData": {
-          "slug": "tetrad-skolnaa-pzbm-a5-v-linejku-12-listov",
-          "plu": "3956331",
+          "slug": "tetrad-skolnaa-pzbm-a5-v-kletku-12-listov",
+          "plu": "3956330",
           "unit": 1,
           "unitName": "шт",
           "quantum": 1000,
@@ -24,7 +24,7 @@
           "alcoSetUnits": null,
           "activeNds": 10
         },
-        "title": "Тетрадь школьная ПЗБМ A5 в линейку, 12 листов",
+        "title": "Тетрадь школьная ПЗБМ A5 в клетку, 12 листов",
         "primaryCategory": {
           "id": 455,
           "title": "Бумага, ручки, краски",
@@ -53,27 +53,32 @@
           ]
         },
         "image": {
-          "id": 1208978,
-          "originName": "3956331.jpg",
+          "id": 1208975,
+          "originName": "3956330.jpg",
           "fileType": "image",
-          "fileSize": 86636,
+          "fileSize": 88005,
           "width": 1600,
           "height": 1600,
-          "cropUrlTemplate": "https://tsx.x5static.net/i/%s/xdelivery/files/fd/34/f7e8136494ba35200cafe8a29989.jpg",
+          "cropUrlTemplate": "https://tsx.x5static.net/i/%s/xdelivery/files/8f/fd/5210824d505351612bf6bf9a1d66.jpg",
           "publicUrl": null,
-          "uuid": "b436ca4b-e923-445b-9fc7-08d3b7bf21f3"
+          "uuid": "b46df98a-76e3-4c75-9232-ef791473dfd6"
         },
-        "rating": 492,
+        "rating": 494,
         "medianPrice": 499,
         "labelCharacteristics": [],
         "labels": [],
-        "reviewCount": 22,
-        "ratingCount": 562,
+        "reviewCount": 29,
+        "ratingCount": 620,
         "priceTag": {
           "price": 499,
           "discountMinimumAmount": 0,
-          "grossPrice": null,
-          "labels": [],
+          "grossPrice": 999,
+          "labels": [
+            {
+              "type": "yellow",
+              "text": "-50%"
+            }
+          ],
           "pricePerQuantum": null,
           "grossPricePerQuantum": null,
           "potentialPointsForOrangeCard": null

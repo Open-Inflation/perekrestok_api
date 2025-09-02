@@ -244,6 +244,65 @@
             "hasAvailableProducts": true,
             "children": [],
             "promoProducts": null
+          },
+          {
+            "category": {
+              "id": 1651,
+              "title": "Завтрак перед школой",
+              "slug": "zavtrak-pered-skoloj",
+              "parentId": 1644,
+              "smallImage": null,
+              "bigImage": null,
+              "squareSmallImage": {
+                "id": 2463097,
+                "originName": "Завтрак перед школой.png",
+                "fileType": "image",
+                "fileSize": 89141,
+                "width": 224,
+                "height": 224,
+                "cropUrlTemplate": "https://tsx.x5static.net/i/%s/xdelivery/files/64/72/fe5f6c276ff6d4b733b401e1e561.png",
+                "publicUrl": null,
+                "uuid": "cdc53270-8f2a-4071-bbe5-f8a773c422b7"
+              },
+              "isAlcohol": false,
+              "isTobacco": false,
+              "showInSearch": false,
+              "isAdultContent": false,
+              "backgroundColor": {
+                "red": 255,
+                "green": 255,
+                "blue": 255,
+                "alpha": 100
+              },
+              "textColor": {
+                "red": 0,
+                "green": 0,
+                "blue": 0,
+                "alpha": 100
+              },
+              "isLiquid": false,
+              "displayStyle": 2,
+              "subtitle": null,
+              "categoryImage": null,
+              "smallCategoryImage": {
+                "id": 2463098,
+                "originName": "Завтрак для детей.png",
+                "fileType": "image",
+                "fileSize": 112590,
+                "width": 327,
+                "height": 228,
+                "cropUrlTemplate": "https://tsx.x5static.net/i/%s/xdelivery/files/3c/38/f47e49c1a2b44889afa9ca9b2201.png",
+                "publicUrl": null,
+                "uuid": "d9c7624f-4315-43c5-959d-62ff87385715"
+              },
+              "deepLink": null,
+              "smallDisplayStyleForParent": false,
+              "isBigDesignStyle": false,
+              "isMarkingRequired": false
+            },
+            "hasAvailableProducts": true,
+            "children": [],
+            "promoProducts": null
           }
         ],
         "promoProducts": null
@@ -5266,55 +5325,6 @@
           },
           {
             "category": {
-              "id": 210,
-              "title": "Холодный чай",
-              "slug": "holodnyj-caj",
-              "parentId": 205,
-              "smallImage": null,
-              "bigImage": null,
-              "squareSmallImage": {
-                "id": 1129514,
-                "originName": "Холодный чай-1.png",
-                "fileType": "image",
-                "fileSize": 203742,
-                "width": 224,
-                "height": 224,
-                "cropUrlTemplate": "https://tsx.x5static.net/i/%s/xdelivery/files/af/da/7e26144cfbb9d11ec6a48eb18548.png",
-                "publicUrl": null,
-                "uuid": "59e5e56c-3ab9-452d-a035-5a753095ac25"
-              },
-              "isAlcohol": false,
-              "isTobacco": false,
-              "showInSearch": false,
-              "isAdultContent": false,
-              "backgroundColor": {
-                "red": 255,
-                "green": 255,
-                "blue": 255,
-                "alpha": 100
-              },
-              "textColor": {
-                "red": 0,
-                "green": 0,
-                "blue": 0,
-                "alpha": 100
-              },
-              "isLiquid": true,
-              "displayStyle": 2,
-              "subtitle": null,
-              "categoryImage": null,
-              "smallCategoryImage": null,
-              "deepLink": null,
-              "smallDisplayStyleForParent": false,
-              "isBigDesignStyle": false,
-              "isMarkingRequired": false
-            },
-            "hasAvailableProducts": true,
-            "children": [],
-            "promoProducts": null
-          },
-          {
-            "category": {
               "id": 215,
               "title": "Растительные напитки",
               "slug": "rastitelnye-napitki",
@@ -5364,22 +5374,22 @@
           },
           {
             "category": {
-              "id": 739,
-              "title": "Безалкогольное вино",
-              "slug": "bezalkogolnoe-vino",
+              "id": 210,
+              "title": "Холодный чай",
+              "slug": "holodnyj-caj",
               "parentId": 205,
               "smallImage": null,
               "bigImage": null,
               "squareSmallImage": {
-                "id": 1139764,
-                "originName": "Безалкогольное вино.png",
+                "id": 1129514,
+                "originName": "Холодный чай-1.png",
                 "fileType": "image",
-                "fileSize": 77659,
+                "fileSize": 203742,
                 "width": 224,
                 "height": 224,
-                "cropUrlTemplate": "https://tsx.x5static.net/i/%s/xdelivery/files/dd/54/01b5xdf867114093cecea37250c0.png",
+                "cropUrlTemplate": "https://tsx.x5static.net/i/%s/xdelivery/files/af/da/7e26144cfbb9d11ec6a48eb18548.png",
                 "publicUrl": null,
-                "uuid": "1666ecd2-a1c9-4c87-8b08-a3755f367887"
+                "uuid": "59e5e56c-3ab9-452d-a035-5a753095ac25"
               },
               "isAlcohol": false,
               "isTobacco": false,
@@ -5429,6 +5439,55 @@
                 "cropUrlTemplate": "https://tsx.x5static.net/i/%s/xdelivery/files/f2/b5/3e253xdced8967bc87c061103756.png",
                 "publicUrl": null,
                 "uuid": "eebd2654-b45e-4897-8a5a-42633c6c5216"
+              },
+              "isAlcohol": false,
+              "isTobacco": false,
+              "showInSearch": false,
+              "isAdultContent": false,
+              "backgroundColor": {
+                "red": 255,
+                "green": 255,
+                "blue": 255,
+                "alpha": 100
+              },
+              "textColor": {
+                "red": 0,
+                "green": 0,
+                "blue": 0,
+                "alpha": 100
+              },
+              "isLiquid": true,
+              "displayStyle": 2,
+              "subtitle": null,
+              "categoryImage": null,
+              "smallCategoryImage": null,
+              "deepLink": null,
+              "smallDisplayStyleForParent": false,
+              "isBigDesignStyle": false,
+              "isMarkingRequired": false
+            },
+            "hasAvailableProducts": true,
+            "children": [],
+            "promoProducts": null
+          },
+          {
+            "category": {
+              "id": 739,
+              "title": "Безалкогольное вино",
+              "slug": "bezalkogolnoe-vino",
+              "parentId": 205,
+              "smallImage": null,
+              "bigImage": null,
+              "squareSmallImage": {
+                "id": 1139764,
+                "originName": "Безалкогольное вино.png",
+                "fileType": "image",
+                "fileSize": 77659,
+                "width": 224,
+                "height": 224,
+                "cropUrlTemplate": "https://tsx.x5static.net/i/%s/xdelivery/files/dd/54/01b5xdf867114093cecea37250c0.png",
+                "publicUrl": null,
+                "uuid": "1666ecd2-a1c9-4c87-8b08-a3755f367887"
               },
               "isAlcohol": false,
               "isTobacco": false,
@@ -5924,6 +5983,55 @@
         "children": [
           {
             "category": {
+              "id": 196,
+              "title": "Наша пекарня",
+              "slug": "nasa-pekarna",
+              "parentId": 242,
+              "smallImage": null,
+              "bigImage": null,
+              "squareSmallImage": {
+                "id": 628709,
+                "originName": "свежая выпечка.png",
+                "fileType": "image",
+                "fileSize": 127638,
+                "width": 300,
+                "height": 300,
+                "cropUrlTemplate": "https://tsx.x5static.net/i/%s/xdelivery/files/b2/00/0436f361f73855f3832f5e00f3b2.png",
+                "publicUrl": null,
+                "uuid": "5468ca67-4ec8-40dc-a5f8-2c1073075ec7"
+              },
+              "isAlcohol": false,
+              "isTobacco": false,
+              "showInSearch": false,
+              "isAdultContent": false,
+              "backgroundColor": {
+                "red": 255,
+                "green": 255,
+                "blue": 255,
+                "alpha": 100
+              },
+              "textColor": {
+                "red": 0,
+                "green": 0,
+                "blue": 0,
+                "alpha": 100
+              },
+              "isLiquid": false,
+              "displayStyle": 2,
+              "subtitle": null,
+              "categoryImage": null,
+              "smallCategoryImage": null,
+              "deepLink": null,
+              "smallDisplayStyleForParent": false,
+              "isBigDesignStyle": false,
+              "isMarkingRequired": false
+            },
+            "hasAvailableProducts": true,
+            "children": [],
+            "promoProducts": null
+          },
+          {
+            "category": {
               "id": 243,
               "title": "Хлеб",
               "slug": "hleb",
@@ -6288,55 +6396,6 @@
           },
           {
             "category": {
-              "id": 951,
-              "title": "Шашлык",
-              "slug": "saslyk",
-              "parentId": 132,
-              "smallImage": null,
-              "bigImage": null,
-              "squareSmallImage": {
-                "id": 1129045,
-                "originName": "9ec7573bb5772290a71d71e9e252.png",
-                "fileType": "image",
-                "fileSize": 79255,
-                "width": 224,
-                "height": 224,
-                "cropUrlTemplate": "https://tsx.x5static.net/i/%s/xdelivery/files/9e/73/b5f6aaabaf8be11xdb54fa181dd1.png",
-                "publicUrl": null,
-                "uuid": "5e0cadd6-f8e0-446e-8590-465fb6f97ab8"
-              },
-              "isAlcohol": false,
-              "isTobacco": false,
-              "showInSearch": false,
-              "isAdultContent": false,
-              "backgroundColor": {
-                "red": 255,
-                "green": 255,
-                "blue": 255,
-                "alpha": 100
-              },
-              "textColor": {
-                "red": 0,
-                "green": 0,
-                "blue": 0,
-                "alpha": 100
-              },
-              "isLiquid": false,
-              "displayStyle": 2,
-              "subtitle": null,
-              "categoryImage": null,
-              "smallCategoryImage": null,
-              "deepLink": null,
-              "smallDisplayStyleForParent": false,
-              "isBigDesignStyle": false,
-              "isMarkingRequired": false
-            },
-            "hasAvailableProducts": true,
-            "children": [],
-            "promoProducts": null
-          },
-          {
-            "category": {
               "id": 138,
               "title": "Мясо птицы",
               "slug": "maso-pticy",
@@ -6386,22 +6445,22 @@
           },
           {
             "category": {
-              "id": 142,
-              "title": "Говядина",
-              "slug": "govadina",
+              "id": 951,
+              "title": "Шашлык",
+              "slug": "saslyk",
               "parentId": 132,
               "smallImage": null,
               "bigImage": null,
               "squareSmallImage": {
-                "id": 628713,
-                "originName": "Мясо.png",
+                "id": 1129045,
+                "originName": "9ec7573bb5772290a71d71e9e252.png",
                 "fileType": "image",
-                "fileSize": 184822,
-                "width": 300,
-                "height": 300,
-                "cropUrlTemplate": "https://tsx.x5static.net/i/%s/xdelivery/files/5a/d3/48e5dc5c309b732f93d516b7c38d.png",
+                "fileSize": 79255,
+                "width": 224,
+                "height": 224,
+                "cropUrlTemplate": "https://tsx.x5static.net/i/%s/xdelivery/files/9e/73/b5f6aaabaf8be11xdb54fa181dd1.png",
                 "publicUrl": null,
-                "uuid": "c056f6ab-c73b-44d7-9169-d8e4a0c37ba3"
+                "uuid": "5e0cadd6-f8e0-446e-8590-465fb6f97ab8"
               },
               "isAlcohol": false,
               "isTobacco": false,
@@ -6435,22 +6494,22 @@
           },
           {
             "category": {
-              "id": 137,
-              "title": "Баранина",
-              "slug": "baranina",
+              "id": 142,
+              "title": "Говядина",
+              "slug": "govadina",
               "parentId": 132,
               "smallImage": null,
               "bigImage": null,
               "squareSmallImage": {
-                "id": 1139481,
-                "originName": "Баранина.png",
+                "id": 628713,
+                "originName": "Мясо.png",
                 "fileType": "image",
-                "fileSize": 91822,
-                "width": 224,
-                "height": 224,
-                "cropUrlTemplate": "https://tsx.x5static.net/i/%s/xdelivery/files/4d/81/4a5cd1057808a91fb85f2c7de157.png",
+                "fileSize": 184822,
+                "width": 300,
+                "height": 300,
+                "cropUrlTemplate": "https://tsx.x5static.net/i/%s/xdelivery/files/5a/d3/48e5dc5c309b732f93d516b7c38d.png",
                 "publicUrl": null,
-                "uuid": "2064013d-392e-4dbf-aa82-3080feec8098"
+                "uuid": "c056f6ab-c73b-44d7-9169-d8e4a0c37ba3"
               },
               "isAlcohol": false,
               "isTobacco": false,
