@@ -82,7 +82,10 @@
           "type": "null"
         },
         "description": {
-          "type": "string"
+          "type": [
+            "null",
+            "string"
+          ]
         },
         "plu": {
           "type": "string"
@@ -418,7 +421,106 @@
                       "type": "boolean"
                     },
                     "productBrand": {
-                      "type": "null"
+                      "anyOf": [
+                        {
+                          "type": "null"
+                        },
+                        {
+                          "type": "object",
+                          "properties": {
+                            "id": {
+                              "type": "integer"
+                            },
+                            "sliderImage": {
+                              "type": "object",
+                              "properties": {
+                                "id": {
+                                  "type": "integer"
+                                },
+                                "originName": {
+                                  "type": "string"
+                                },
+                                "fileType": {
+                                  "type": "string"
+                                },
+                                "fileSize": {
+                                  "type": "integer"
+                                },
+                                "width": {
+                                  "type": "integer"
+                                },
+                                "height": {
+                                  "type": "integer"
+                                },
+                                "cropUrlTemplate": {
+                                  "type": "string"
+                                },
+                                "publicUrl": {
+                                  "type": "null"
+                                },
+                                "uuid": {
+                                  "type": "string"
+                                }
+                              },
+                              "required": [
+                                "cropUrlTemplate",
+                                "fileSize",
+                                "fileType",
+                                "height",
+                                "id",
+                                "originName",
+                                "publicUrl",
+                                "uuid",
+                                "width"
+                              ]
+                            },
+                            "mobileBannerImage": {
+                              "type": "null"
+                            },
+                            "desktopBannerImage": {
+                              "type": "null"
+                            },
+                            "paidProductCardLogo": {
+                              "type": "boolean"
+                            },
+                            "color": {
+                              "type": "object",
+                              "properties": {
+                                "red": {
+                                  "type": "integer"
+                                },
+                                "green": {
+                                  "type": "integer"
+                                },
+                                "blue": {
+                                  "type": "integer"
+                                },
+                                "alpha": {
+                                  "type": "integer"
+                                }
+                              },
+                              "required": [
+                                "alpha",
+                                "blue",
+                                "green",
+                                "red"
+                              ]
+                            },
+                            "imageLink": {
+                              "type": "null"
+                            }
+                          },
+                          "required": [
+                            "color",
+                            "desktopBannerImage",
+                            "id",
+                            "imageLink",
+                            "mobileBannerImage",
+                            "paidProductCardLogo",
+                            "sliderImage"
+                          ]
+                        }
+                      ]
                     }
                   },
                   "required": [
@@ -643,10 +745,15 @@
                   },
                   "category_id": {
                     "type": "integer"
+                  },
+                  "feature_key": {
+                    "type": "string"
+                  },
+                  "enum_key": {
+                    "type": "string"
                   }
                 },
                 "required": [
-                  "category_id",
                   "tsx_type"
                 ]
               },
@@ -702,7 +809,26 @@
           }
         },
         "analyticsInfo": {
-          "type": "array"
+          "type": "array",
+          "items": {
+            "type": "object",
+            "properties": {
+              "name": {
+                "type": "string"
+              },
+              "type": {
+                "type": "string"
+              },
+              "value": {
+                "type": "string"
+              }
+            },
+            "required": [
+              "name",
+              "type",
+              "value"
+            ]
+          }
         },
         "video": {
           "type": "array"

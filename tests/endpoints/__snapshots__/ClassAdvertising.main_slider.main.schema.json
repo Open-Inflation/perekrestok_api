@@ -52,12 +52,14 @@
                         "type": "integer"
                       },
                       "cropUrlTemplate": {
+                        "format": "uri",
                         "type": "string"
                       },
                       "publicUrl": {
                         "type": "null"
                       },
                       "uuid": {
+                        "format": "uuid",
                         "type": "string"
                       }
                     },

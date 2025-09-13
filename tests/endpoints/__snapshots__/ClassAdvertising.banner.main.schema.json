@@ -46,7 +46,10 @@
                 ]
               },
               "link": {
-                "type": "null"
+                "type": [
+                  "null",
+                  "string"
+                ]
               },
               "webViewType": {
                 "type": "string"

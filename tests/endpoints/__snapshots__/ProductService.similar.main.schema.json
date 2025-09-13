@@ -264,7 +264,60 @@
                 "type": "array"
               },
               "labels": {
-                "type": "array"
+                "type": "array",
+                "items": {
+                  "type": "object",
+                  "properties": {
+                    "listingImage": {
+                      "type": "object",
+                      "properties": {
+                        "id": {
+                          "type": "integer"
+                        },
+                        "originName": {
+                          "type": "string"
+                        },
+                        "fileType": {
+                          "type": "string"
+                        },
+                        "fileSize": {
+                          "type": "integer"
+                        },
+                        "width": {
+                          "type": "integer"
+                        },
+                        "height": {
+                          "type": "integer"
+                        },
+                        "cropUrlTemplate": {
+                          "format": "uri",
+                          "type": "string"
+                        },
+                        "publicUrl": {
+                          "type": "null"
+                        },
+                        "uuid": {
+                          "format": "uuid",
+                          "type": "string"
+                        }
+                      },
+                      "required": [
+                        "cropUrlTemplate",
+                        "fileSize",
+                        "fileType",
+                        "height",
+                        "id",
+                        "originName",
+                        "publicUrl",
+                        "uuid",
+                        "width"
+                      ]
+                    }
+                  },
+                  "required": [
+                    "listingImage"
+                  ]
+                }
               },
               "reviewCount": {
                 "type": "integer"

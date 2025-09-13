@@ -1,32 +1,32 @@
 {
   "content": {
-    "id": 61718,
+    "id": 339752,
     "masterData": {
-      "slug": "tetrad-skolnaa-pzbm-a5-v-kletku-12-listov",
-      "plu": "3956330",
+      "slug": "razryhlitel-dla-testa-pr-st-10g",
+      "plu": "4236368",
       "unit": 1,
       "unitName": "шт",
       "quantum": 1000,
       "quantumStep": 1000,
-      "weight": 29,
+      "weight": 10,
       "volume": null,
-      "ui4code": "NF0701006",
-      "taxGroup": "BB",
+      "ui4code": "FD0223005",
+      "taxGroup": "BL",
       "ownProduction": false,
-      "privateLabel": false,
+      "privateLabel": true,
       "isMark": false,
       "alcoSetUnits": null,
-      "activeNds": 10
+      "activeNds": 20
     },
-    "title": "Тетрадь школьная ПЗБМ A5 в клетку, 12 листов",
+    "title": "Разрыхлитель для теста Пр!ст, 10г",
     "briefTitle": null,
-    "description": "Тетрадь ученическая 12 листов. Формат А5+ (165 х 203 мм). Вид крепления-скрепка. Внутренний блок - бумага офсетная 92% белизны, плотностью 60гр/м2. Обложка - бумага обложечная зелёная, плотностью 80гр/м2.",
-    "plu": "3956330",
-    "rating": 494,
+    "description": null,
+    "plu": "4236368",
+    "rating": 496,
     "primaryCategory": {
-      "id": 455,
-      "title": "Бумага, ручки, краски",
-      "slug": "bumaga-rucki-kraski",
+      "id": 396,
+      "title": "Мука, дрожжи",
+      "slug": "muka-drozzi",
       "isAlcohol": false,
       "isTobacco": false,
       "isExciseAlcohol": false,
@@ -38,9 +38,9 @@
       ]
     },
     "catalogPrimaryCategory": {
-      "id": 53,
-      "title": "Канцелярия",
-      "slug": "kancelaria",
+      "id": 102,
+      "title": "Компоненты для выпечки",
+      "slug": "komponenty-dla-vypecki",
       "isAlcohol": false,
       "isTobacco": false,
       "isExciseAlcohol": false,
@@ -51,54 +51,120 @@
       ]
     },
     "primaryImage": {
-      "id": 1208975,
-      "originName": "3956330.jpg",
+      "id": 783156,
+      "originName": "4236368_1.jpg",
       "fileType": "image",
-      "fileSize": 88005,
+      "fileSize": 410363,
       "width": 1600,
       "height": 1600,
-      "cropUrlTemplate": "https://tsx.x5static.net/i/%s/xdelivery/files/8f/fd/5210824d505351612bf6bf9a1d66.jpg",
+      "cropUrlTemplate": "https://tsx.x5static.net/i/%s/xdelivery/files/d7/72/25f158ea0742e8c186016fdcxddf.jpg",
       "publicUrl": null,
-      "uuid": "b46df98a-76e3-4c75-9232-ef791473dfd6"
+      "uuid": "b77c1193-a521-4813-b42b-afc24e45ce79"
     },
     "primaryMedia": {
-      "id": 1208975,
-      "originName": "3956330.jpg",
+      "id": 783156,
+      "originName": "4236368_1.jpg",
       "fileType": "image",
-      "fileSize": 88005,
+      "fileSize": 410363,
       "width": 1600,
       "height": 1600,
-      "cropUrlTemplate": "https://tsx.x5static.net/i/%s/xdelivery/files/8f/fd/5210824d505351612bf6bf9a1d66.jpg",
+      "cropUrlTemplate": "https://tsx.x5static.net/i/%s/xdelivery/files/d7/72/25f158ea0742e8c186016fdcxddf.jpg",
       "publicUrl": null,
-      "uuid": "b46df98a-76e3-4c75-9232-ef791473dfd6"
+      "uuid": "b77c1193-a521-4813-b42b-afc24e45ce79"
     },
     "images": [
       {
-        "id": 1208975,
-        "originName": "3956330.jpg",
+        "id": 783156,
+        "originName": "4236368_1.jpg",
         "fileType": "image",
-        "fileSize": 88005,
+        "fileSize": 410363,
         "width": 1600,
         "height": 1600,
-        "cropUrlTemplate": "https://tsx.x5static.net/i/%s/xdelivery/files/8f/fd/5210824d505351612bf6bf9a1d66.jpg",
+        "cropUrlTemplate": "https://tsx.x5static.net/i/%s/xdelivery/files/d7/72/25f158ea0742e8c186016fdcxddf.jpg",
         "publicUrl": null,
-        "uuid": "b46df98a-76e3-4c75-9232-ef791473dfd6"
+        "uuid": "b77c1193-a521-4813-b42b-afc24e45ce79"
       }
     ],
     "media": [
       {
-        "id": 1208975,
-        "originName": "3956330.jpg",
+        "id": 783156,
+        "originName": "4236368_1.jpg",
         "fileType": "image",
-        "fileSize": 88005,
+        "fileSize": 410363,
         "width": 1600,
         "height": 1600,
-        "cropUrlTemplate": "https://tsx.x5static.net/i/%s/xdelivery/files/8f/fd/5210824d505351612bf6bf9a1d66.jpg",
+        "cropUrlTemplate": "https://tsx.x5static.net/i/%s/xdelivery/files/d7/72/25f158ea0742e8c186016fdcxddf.jpg",
         "publicUrl": null,
-        "uuid": "b46df98a-76e3-4c75-9232-ef791473dfd6"
+        "uuid": "b77c1193-a521-4813-b42b-afc24e45ce79"
       }
     ],
     "features": [
+      {
+        "title": "Пищевая ценность на 100г",
+        "displayStyle": 2,
+        "items": [
+          {
+            "title": "Ккал",
+            "hideTitle": false,
+            "collapseValue": false,
+            "key": "kkal",
+            "displayValues": [
+              "76.0"
+            ],
+            "values": [
+              "76000"
+            ],
+            "enumIds": [],
+            "isSearchable": false,
+            "productBrand": null
+          },
+          {
+            "title": "Белки",
+            "hideTitle": false,
+            "collapseValue": false,
+            "key": "belki",
+            "displayValues": [
+              "0.0 г"
+            ],
+            "values": [
+              "0"
+            ],
+            "enumIds": [],
+            "isSearchable": false,
+            "productBrand": null
+          },
+          {
+            "title": "Жиры",
+            "hideTitle": false,
+            "collapseValue": false,
+            "key": "jiry",
+            "displayValues": [
+              "0.0 г"
+            ],
+            "values": [
+              "0"
+            ],
+            "enumIds": [],
+            "isSearchable": false,
+            "productBrand": null
+          },
+          {
+            "title": "Углеводы",
+            "hideTitle": false,
+            "collapseValue": false,
+            "key": "uglevody",
+            "displayValues": [
+              "19.0 г"
+            ],
+            "values": [
+              "19000"
+            ],
+            "enumIds": [],
+            "isSearchable": false,
+            "productBrand": null
+          }
+        ]
+      },
       {
         "title": "Состав",
         "displayStyle": 1,
@@ -109,10 +175,10 @@
             "collapseValue": false,
             "key": "sostav",
             "displayValues": [
-              "Бумага."
+              "Разрыхлители: гидрокарбонат натрия, дигидропирофосфат натрия, мука пшеничная высшего сорта."
             ],
             "values": [
-              "Бумага."
+              "Разрыхлители: гидрокарбонат натрия, дигидропирофосфат натрия, мука пшеничная высшего сорта."
             ],
             "enumIds": [],
             "isSearchable": false,
@@ -130,30 +196,13 @@
             "collapseValue": false,
             "key": "tip-produkta",
             "displayValues": [
-              "Тетрадь"
+              "Разрыхлитель теста"
             ],
             "values": [
-              "tetrad"
+              "razryhlitel-testa"
             ],
             "enumIds": [
-              16939
-            ],
-            "isSearchable": true,
-            "productBrand": null
-          },
-          {
-            "title": "Вид",
-            "hideTitle": false,
-            "collapseValue": false,
-            "key": "vid",
-            "displayValues": [
-              "В клетку"
-            ],
-            "values": [
-              "v-kletku"
-            ],
-            "enumIds": [
-              55471
+              8519
             ],
             "isSearchable": true,
             "productBrand": null
@@ -164,16 +213,56 @@
             "collapseValue": false,
             "key": "proizvoditel",
             "displayValues": [
-              "Полотняно-Заводская бумажная мануфактура"
+              "Рузком"
             ],
             "values": [
-              "polotnano-zavodskaa-bumaznaa-manufaktura"
+              "ruzkom"
             ],
             "enumIds": [
-              16869
+              42754
             ],
             "isSearchable": false,
             "productBrand": null
+          },
+          {
+            "title": "Бренд",
+            "hideTitle": false,
+            "collapseValue": false,
+            "key": "brand",
+            "displayValues": [
+              "Пр!ст"
+            ],
+            "values": [
+              "pr-st"
+            ],
+            "enumIds": [
+              40052
+            ],
+            "isSearchable": true,
+            "productBrand": {
+              "id": 13,
+              "sliderImage": {
+                "id": 619578,
+                "originName": "Prosto.png",
+                "fileType": "image",
+                "fileSize": 9236,
+                "width": 474,
+                "height": 300,
+                "cropUrlTemplate": "https://tsx.x5static.net/i/%s/xdelivery/files/a3/5d/8dfc2f16003e787xd500cf94eb0c.png",
+                "publicUrl": null,
+                "uuid": "35867d60-b76b-46e4-992b-7450a5214e47"
+              },
+              "mobileBannerImage": null,
+              "desktopBannerImage": null,
+              "paidProductCardLogo": false,
+              "color": {
+                "red": 0,
+                "green": 0,
+                "blue": 0,
+                "alpha": 100
+              },
+              "imageLink": null
+            }
           },
           {
             "title": "Страна",
@@ -188,144 +277,6 @@
             ],
             "enumIds": [
               187
-            ],
-            "isSearchable": false,
-            "productBrand": null
-          },
-          {
-            "title": "Пол",
-            "hideTitle": false,
-            "collapseValue": false,
-            "key": "pol",
-            "displayValues": [
-              "Унисекс"
-            ],
-            "values": [
-              "uniseks"
-            ],
-            "enumIds": [
-              16338
-            ],
-            "isSearchable": false,
-            "productBrand": null
-          },
-          {
-            "title": "Материал",
-            "hideTitle": false,
-            "collapseValue": false,
-            "key": "material",
-            "displayValues": [
-              "Бумага"
-            ],
-            "values": [
-              "bumaga"
-            ],
-            "enumIds": [
-              2845
-            ],
-            "isSearchable": false,
-            "productBrand": null
-          },
-          {
-            "title": "Набор",
-            "hideTitle": false,
-            "collapseValue": false,
-            "key": "nabor",
-            "displayValues": [
-              "Нет"
-            ],
-            "values": [
-              "net"
-            ],
-            "enumIds": [
-              2840
-            ],
-            "isSearchable": false,
-            "productBrand": null
-          },
-          {
-            "title": "Тип школьных принадлежностей",
-            "hideTitle": false,
-            "collapseValue": false,
-            "key": "tip-shkola",
-            "displayValues": [
-              "Тетрадь"
-            ],
-            "values": [
-              "tetrad"
-            ],
-            "enumIds": [
-              16941
-            ],
-            "isSearchable": false,
-            "productBrand": null
-          },
-          {
-            "title": "Материал корпуса",
-            "hideTitle": false,
-            "collapseValue": false,
-            "key": "material-korpusa",
-            "displayValues": [
-              "Бумага"
-            ],
-            "values": [
-              "bumaga"
-            ],
-            "enumIds": [
-              43633
-            ],
-            "isSearchable": false,
-            "productBrand": null
-          }
-        ]
-      },
-      {
-        "title": "Характеристики товара",
-        "displayStyle": 1,
-        "items": [
-          {
-            "title": "Кол-во в упаковке",
-            "hideTitle": false,
-            "collapseValue": false,
-            "key": "kol-vo-v-upakovke",
-            "displayValues": [
-              "1 шт"
-            ],
-            "values": [
-              "1"
-            ],
-            "enumIds": [],
-            "isSearchable": false,
-            "productBrand": null
-          },
-          {
-            "title": "Кол-во листов",
-            "hideTitle": false,
-            "collapseValue": false,
-            "key": "kol-vo-listov",
-            "displayValues": [
-              "12"
-            ],
-            "values": [
-              "12"
-            ],
-            "enumIds": [],
-            "isSearchable": false,
-            "productBrand": null
-          },
-          {
-            "title": "Формат",
-            "hideTitle": false,
-            "collapseValue": false,
-            "key": "format-bumaga",
-            "displayValues": [
-              "А5"
-            ],
-            "values": [
-              "a5"
-            ],
-            "enumIds": [
-              16940
             ],
             "isSearchable": true,
             "productBrand": null
@@ -342,36 +293,28 @@
             "collapseValue": false,
             "key": "srok-hraneniya-maks",
             "displayValues": [
-              "9999 дней"
+              "365 дней"
             ],
             "values": [
-              "9999"
+              "365"
             ],
             "enumIds": [],
             "isSearchable": false,
             "productBrand": null
-          }
-        ]
-      },
-      {
-        "title": "Свойства товара",
-        "displayStyle": 3,
-        "items": [
+          },
           {
-            "title": "Цвет",
+            "title": "Температура хранения макс.",
             "hideTitle": false,
             "collapseValue": false,
-            "key": "tsvet",
+            "key": "temperatura-hraneniya-maks",
             "displayValues": [
-              "Зеленый"
+              "25 ℃"
             ],
             "values": [
-              "zelenyj"
+              "25000"
             ],
-            "enumIds": [
-              2932
-            ],
-            "isSearchable": true,
+            "enumIds": [],
+            "isSearchable": false,
             "productBrand": null
           }
         ]
@@ -381,28 +324,33 @@
     "liked": false,
     "isReviewAvailable": false,
     "productReview": null,
-    "ratingCount": 620,
-    "reviewCount": 29,
+    "ratingCount": 6743,
+    "reviewCount": 365,
     "ratingCountAlias": "Более 100 оценок",
     "borderStyle": null,
-    "medianPrice": 499,
+    "medianPrice": 799,
     "socialProof": null,
     "labelCharacteristics": [],
     "labelStock": null,
     "labels": [],
     "bestProductReview": {
-      "id": 28499321,
+      "id": 21945901,
       "rating": 500,
-      "comment": "то, что нужно для контрольных работ 🔥",
+      "comment": "разрыхлитель работает ничуть не хуже остальных,да и цена приемлемая.",
       "username": "",
-      "notes": [],
-      "createdAt": 1696662127653,
+      "notes": [
+        {
+          "key": "quality",
+          "value": "Качество"
+        }
+      ],
+      "createdAt": 1668941728384,
       "points": 0,
       "approvedImages": [],
       "reaction": {
-        "likes": 1,
+        "likes": 2,
         "dislikes": 0,
-        "balance": 1,
+        "balance": 2,
         "vote": 0,
         "isAvailable": true
       },
@@ -414,22 +362,22 @@
     "advToken": null,
     "primaryInfo": [
       {
-        "title": "Бумага, ручки, краски",
+        "title": "Мука, дрожжи",
         "subTitle": "Категория",
         "image": {
-          "id": 1237098,
-          "originName": "Новый проект.png",
+          "id": 553808,
+          "originName": "Мука и все для выпечки.png",
           "fileType": "image",
-          "fileSize": 53768,
-          "width": 224,
-          "height": 224,
-          "cropUrlTemplate": "https://tsx.x5static.net/i/%s/xdelivery/files/3b/d3/fd4981f24b64b99a4eb3611a13ed.png",
+          "fileSize": 166778,
+          "width": 300,
+          "height": 300,
+          "cropUrlTemplate": "https://tsx.x5static.net/i/%s/xdelivery/files/d9/52/5b7f825a6bee384e9a9b5200532e.png",
           "publicUrl": null,
-          "uuid": "2e08dc57-d0c8-4735-adf2-25dd8a77bfb7"
+          "uuid": "7ecd7463-0e0e-4ab9-9d02-53fceb9606c9"
         },
         "deepLink": {
           "tsx_type": "feed",
-          "category_id": 455
+          "category_id": 396
         },
         "eventInfo": [
           {
@@ -439,36 +387,80 @@
               {
                 "name": "categoryName",
                 "type": "text",
-                "value": "Бумага, ручки, краски"
+                "value": "Мука, дрожжи"
               },
               {
                 "name": "categoryId",
                 "type": "int",
-                "value": "455"
+                "value": "396"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "title": "Пр!ст",
+        "subTitle": "Бренд",
+        "image": {
+          "id": 1813889,
+          "originName": "Без названия (2).png",
+          "fileType": "image",
+          "fileSize": 41088,
+          "width": 600,
+          "height": 600,
+          "cropUrlTemplate": "https://tsx.x5static.net/i/%s/xdelivery/files/4a/d2/155aa7896c08b20a962defe136ec.png",
+          "publicUrl": null,
+          "uuid": "0baa40f5-e33e-4769-868a-b0f11430aa90"
+        },
+        "deepLink": {
+          "tsx_type": "feed",
+          "feature_key": "brand",
+          "enum_key": "pr-st"
+        },
+        "eventInfo": [
+          {
+            "type": "click",
+            "name": "product_details_brand_click",
+            "analyticsInfo": [
+              {
+                "name": "brandName",
+                "type": "text",
+                "value": "Пр!ст"
+              },
+              {
+                "name": "brandId",
+                "type": "int",
+                "value": "40052"
               }
             ]
           }
         ]
       }
     ],
-    "analyticsInfo": [],
+    "analyticsInfo": [
+      {
+        "name": "brandId",
+        "type": "int",
+        "value": "40052"
+      },
+      {
+        "name": "brandName",
+        "type": "text",
+        "value": "Пр!ст"
+      }
+    ],
     "video": [],
     "availableAdditionalOption": null,
-    "balanceStock": 2000,
+    "balanceStock": 4000,
     "priceTag": {
-      "price": 499,
+      "price": 799,
       "discountMinimumAmount": 0,
-      "grossPrice": 999,
-      "labels": [
-        {
-          "type": "yellow",
-          "text": "-50%"
-        }
-      ],
+      "grossPrice": null,
+      "labels": [],
       "pricePerQuantum": null,
       "grossPricePerQuantum": null,
       "potentialPointsForOrangeCard": null
     },
-    "balanceState": "few-left"
+    "balanceState": "many"
   }
 }

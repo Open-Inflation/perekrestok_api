@@ -2,8 +2,8 @@
   "content": {
     "items": [
       {
-        "id": 18603,
-        "slug": "snova-v-skolu-w35-36-sajt",
+        "id": 18819,
+        "slug": "hity-perekrestka-w37-sajt",
         "title": null,
         "action": "blocks",
         "color": {
@@ -18,29 +18,29 @@
         "images": [
           {
             "image": {
-              "id": 2487556,
-              "originName": "Подборка размер 816х452яыа.png",
+              "id": 2505633,
+              "originName": "816x452szgt.png",
               "fileType": "image",
-              "fileSize": 563929,
+              "fileSize": 479611,
               "width": 816,
               "height": 452,
-              "cropUrlTemplate": "https://tsx.x5static.net/i/%s/xdelivery/files/97/ea/f0a7211f00e3a5cd0400f34e58f1.png",
+              "cropUrlTemplate": "https://tsx.x5static.net/i/%s/xdelivery/files/4c/d6/d6934c2f58009xdfa476b6a13ffa.png",
               "publicUrl": null,
-              "uuid": "1ebd3fe8-c5e9-43b6-aa18-eb2f3eb6a099"
+              "uuid": "936f48d4-4d8f-4a7f-8e9c-2b8222ea6fd3"
             },
             "scales": [
               {
                 "scaleName": "default",
                 "image": {
-                  "id": 2487556,
-                  "originName": "Подборка размер 816х452яыа.png",
+                  "id": 2505633,
+                  "originName": "816x452szgt.png",
                   "fileType": "image",
-                  "fileSize": 563929,
+                  "fileSize": 479611,
                   "width": 816,
                   "height": 452,
-                  "cropUrlTemplate": "https://tsx.x5static.net/i/%s/xdelivery/files/97/ea/f0a7211f00e3a5cd0400f34e58f1.png",
+                  "cropUrlTemplate": "https://tsx.x5static.net/i/%s/xdelivery/files/4c/d6/d6934c2f58009xdfa476b6a13ffa.png",
                   "publicUrl": null,
-                  "uuid": "1ebd3fe8-c5e9-43b6-aa18-eb2f3eb6a099"
+                  "uuid": "936f48d4-4d8f-4a7f-8e9c-2b8222ea6fd3"
                 }
               }
             ],
@@ -60,7 +60,75 @@
           {
             "name": "bannerName",
             "type": "text",
-            "value": "Снова в школу W35-36 сайт"
+            "value": "Хиты Перекрестка w37 сайт"
+          }
+        ],
+        "positions": [
+          {
+            "key": "main_web_banners",
+            "title": "WEB_Главные в слайдере"
+          }
+        ],
+        "key": null,
+        "deepLink": null
+      },
+      {
+        "id": 18516,
+        "slug": "rozygrys-bts",
+        "title": null,
+        "action": "link",
+        "color": {
+          "red": 0,
+          "green": 0,
+          "blue": 0,
+          "alpha": 0
+        },
+        "link": "https://promo.perekrestok.ru?utm_source=slider",
+        "webViewType": "fullScreen",
+        "textForImage": null,
+        "images": [
+          {
+            "image": {
+              "id": 2474159,
+              "originName": "816x452.png",
+              "fileType": "image",
+              "fileSize": 3729449,
+              "width": 2448,
+              "height": 1356,
+              "cropUrlTemplate": "https://tsx.x5static.net/i/%s/xdelivery/files/00/ec/55da56f0e02198b84e10c12aa43d.png",
+              "publicUrl": null,
+              "uuid": "52d0590d-a89c-4b3a-9860-5ec78d4fee32"
+            },
+            "scales": [
+              {
+                "scaleName": "default",
+                "image": {
+                  "id": 2474159,
+                  "originName": "816x452.png",
+                  "fileType": "image",
+                  "fileSize": 3729449,
+                  "width": 2448,
+                  "height": 1356,
+                  "cropUrlTemplate": "https://tsx.x5static.net/i/%s/xdelivery/files/00/ec/55da56f0e02198b84e10c12aa43d.png",
+                  "publicUrl": null,
+                  "uuid": "52d0590d-a89c-4b3a-9860-5ec78d4fee32"
+                }
+              }
+            ],
+            "type": "main",
+            "advToken": null
+          }
+        ],
+        "place": "main_web_banners",
+        "leftSubtitle": null,
+        "rightSubtitle": null,
+        "content": null,
+        "blockTypes": [],
+        "analyticsInfo": [
+          {
+            "name": "bannerName",
+            "type": "text",
+            "value": "Розыгрыш БТС"
           }
         ],
         "positions": [
@@ -144,8 +212,8 @@
         "deepLink": null
       },
       {
-        "id": 18727,
-        "slug": "frov-36-tomaty",
+        "id": 18834,
+        "slug": "frov-37-mango",
         "title": null,
         "action": "blocks",
         "color": {
@@ -160,29 +228,29 @@
         "images": [
           {
             "image": {
-              "id": 2496703,
-              "originName": "Подборка размер 816х452 (2).png",
+              "id": 2509367,
+              "originName": "Подборка размер 816х452-1.png",
               "fileType": "image",
-              "fileSize": 8856727,
-              "width": 3264,
-              "height": 1808,
-              "cropUrlTemplate": "https://tsx.x5static.net/i/%s/xdelivery/files/d8/ab/d7ecd0f4eced19e96856b54d958b.png",
+              "fileSize": 2248970,
+              "width": 1632,
+              "height": 904,
+              "cropUrlTemplate": "https://tsx.x5static.net/i/%s/xdelivery/files/25/5b/eddfc56c6effa5b93edab06253a7.png",
               "publicUrl": null,
-              "uuid": "94910136-aa86-4aae-a9aa-131c23606ee2"
+              "uuid": "98900b34-4fb3-4e4e-b1c0-6e0f926f652b"
             },
             "scales": [
               {
                 "scaleName": "default",
                 "image": {
-                  "id": 2496703,
-                  "originName": "Подборка размер 816х452 (2).png",
+                  "id": 2509367,
+                  "originName": "Подборка размер 816х452-1.png",
                   "fileType": "image",
-                  "fileSize": 8856727,
-                  "width": 3264,
-                  "height": 1808,
-                  "cropUrlTemplate": "https://tsx.x5static.net/i/%s/xdelivery/files/d8/ab/d7ecd0f4eced19e96856b54d958b.png",
+                  "fileSize": 2248970,
+                  "width": 1632,
+                  "height": 904,
+                  "cropUrlTemplate": "https://tsx.x5static.net/i/%s/xdelivery/files/25/5b/eddfc56c6effa5b93edab06253a7.png",
                   "publicUrl": null,
-                  "uuid": "94910136-aa86-4aae-a9aa-131c23606ee2"
+                  "uuid": "98900b34-4fb3-4e4e-b1c0-6e0f926f652b"
                 }
               }
             ],
@@ -202,7 +270,149 @@
           {
             "name": "bannerName",
             "type": "text",
-            "value": "ФРОВ 36 Томаты"
+            "value": "ФРОВ 37 Манго"
+          }
+        ],
+        "positions": [
+          {
+            "key": "main_web_banners",
+            "title": "WEB_Главные в слайдере"
+          }
+        ],
+        "key": null,
+        "deepLink": null
+      },
+      {
+        "id": 18425,
+        "slug": "supercena-w33",
+        "title": null,
+        "action": "blocks",
+        "color": {
+          "red": 255,
+          "green": 255,
+          "blue": 255,
+          "alpha": 100
+        },
+        "link": null,
+        "webViewType": "default",
+        "textForImage": null,
+        "images": [
+          {
+            "image": {
+              "id": 2516290,
+              "originName": "816х452.png",
+              "fileType": "image",
+              "fileSize": 4502456,
+              "width": 2448,
+              "height": 1356,
+              "cropUrlTemplate": "https://tsx.x5static.net/i/%s/xdelivery/files/b1/89/796ac02df0067b4d984a4c07d7xd.png",
+              "publicUrl": null,
+              "uuid": "3e5598ba-34d2-4b8d-bb5a-010594b82c0a"
+            },
+            "scales": [
+              {
+                "scaleName": "default",
+                "image": {
+                  "id": 2516290,
+                  "originName": "816х452.png",
+                  "fileType": "image",
+                  "fileSize": 4502456,
+                  "width": 2448,
+                  "height": 1356,
+                  "cropUrlTemplate": "https://tsx.x5static.net/i/%s/xdelivery/files/b1/89/796ac02df0067b4d984a4c07d7xd.png",
+                  "publicUrl": null,
+                  "uuid": "3e5598ba-34d2-4b8d-bb5a-010594b82c0a"
+                }
+              }
+            ],
+            "type": "main",
+            "advToken": null
+          }
+        ],
+        "place": "main_web_banners",
+        "leftSubtitle": null,
+        "rightSubtitle": null,
+        "content": null,
+        "blockTypes": [
+          "image",
+          "product_list",
+          "text"
+        ],
+        "analyticsInfo": [
+          {
+            "name": "bannerName",
+            "type": "text",
+            "value": "Суперцена W33"
+          }
+        ],
+        "positions": [
+          {
+            "key": "main_web_banners",
+            "title": "WEB_Главные в слайдере"
+          }
+        ],
+        "key": null,
+        "deepLink": null
+      },
+      {
+        "id": 18774,
+        "slug": "sezonnaa-rasprodaza-36",
+        "title": null,
+        "action": "blocks",
+        "color": {
+          "red": 0,
+          "green": 0,
+          "blue": 0,
+          "alpha": 0
+        },
+        "link": null,
+        "webViewType": "default",
+        "textForImage": null,
+        "images": [
+          {
+            "image": {
+              "id": 2501132,
+              "originName": "Подб13форка размер 816х452.png",
+              "fileType": "image",
+              "fileSize": 4013952,
+              "width": 3264,
+              "height": 1808,
+              "cropUrlTemplate": "https://tsx.x5static.net/i/%s/xdelivery/files/6f/da/a5e01d6ba987c16b4b214c182e25.png",
+              "publicUrl": null,
+              "uuid": "9ce430aa-6273-48b3-9b05-8bc351915a9f"
+            },
+            "scales": [
+              {
+                "scaleName": "default",
+                "image": {
+                  "id": 2501132,
+                  "originName": "Подб13форка размер 816х452.png",
+                  "fileType": "image",
+                  "fileSize": 4013952,
+                  "width": 3264,
+                  "height": 1808,
+                  "cropUrlTemplate": "https://tsx.x5static.net/i/%s/xdelivery/files/6f/da/a5e01d6ba987c16b4b214c182e25.png",
+                  "publicUrl": null,
+                  "uuid": "9ce430aa-6273-48b3-9b05-8bc351915a9f"
+                }
+              }
+            ],
+            "type": "main",
+            "advToken": null
+          }
+        ],
+        "place": "main_web_banners",
+        "leftSubtitle": null,
+        "rightSubtitle": null,
+        "content": null,
+        "blockTypes": [
+          "image"
+        ],
+        "analyticsInfo": [
+          {
+            "name": "bannerName",
+            "type": "text",
+            "value": "Сезонная распродажа 36"
           }
         ],
         "positions": [

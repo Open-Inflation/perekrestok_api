@@ -13,29 +13,29 @@
         "borderStyle": null,
         "bestReview": null,
         "advToken": null,
-        "id": 61722,
+        "id": 336511,
         "masterData": {
-          "slug": "tetrad-skolnaa-pzbm-a5-v-linejku-12-listov",
-          "plu": "3956331",
+          "slug": "zelatin-pisevoj-pr-st-20g",
+          "plu": "4236371",
           "unit": 1,
           "unitName": "шт",
           "quantum": 1000,
           "quantumStep": 1000,
-          "weight": 29,
+          "weight": 20,
           "volume": null,
-          "ui4code": "NF0701006",
-          "taxGroup": "BB",
+          "ui4code": "FD0223002",
+          "taxGroup": "BL",
           "ownProduction": false,
-          "privateLabel": false,
+          "privateLabel": true,
           "isMark": false,
           "alcoSetUnits": null,
-          "activeNds": 10
+          "activeNds": 20
         },
-        "title": "Тетрадь школьная ПЗБМ A5 в линейку, 12 листов",
+        "title": "Желатин пищевой Пр!ст, 20г",
         "primaryCategory": {
-          "id": 455,
-          "title": "Бумага, ручки, краски",
-          "slug": "bumaga-rucki-kraski",
+          "id": 396,
+          "title": "Мука, дрожжи",
+          "slug": "muka-drozzi",
           "isAlcohol": false,
           "isTobacco": false,
           "isExciseAlcohol": false,
@@ -47,9 +47,9 @@
           ]
         },
         "catalogPrimaryCategory": {
-          "id": 53,
-          "title": "Канцелярия",
-          "slug": "kancelaria",
+          "id": 102,
+          "title": "Компоненты для выпечки",
+          "slug": "komponenty-dla-vypecki",
           "isAlcohol": false,
           "isTobacco": false,
           "isExciseAlcohol": false,
@@ -60,24 +60,38 @@
           ]
         },
         "image": {
-          "id": 1208978,
-          "originName": "3956331.jpg",
+          "id": 1503825,
+          "originName": "Шаблон.jpg",
           "fileType": "image",
-          "fileSize": 86636,
+          "fileSize": 1237394,
           "width": 1600,
           "height": 1600,
-          "cropUrlTemplate": "https://tsx.x5static.net/i/%s/xdelivery/files/fd/34/f7e8136494ba35200cafe8a29989.jpg",
+          "cropUrlTemplate": "https://tsx.x5static.net/i/%s/xdelivery/files/df/5e/81c2f243f830ef8e0c55798d2a61.jpg",
           "publicUrl": null,
-          "uuid": "b436ca4b-e923-445b-9fc7-08d3b7bf21f3"
+          "uuid": "f2743aa9-266c-44bb-8e51-ed0eaac3c8cc"
         },
-        "rating": 492,
-        "medianPrice": 499,
+        "rating": 493,
+        "medianPrice": 4599,
         "labelCharacteristics": [],
-        "labels": [],
-        "reviewCount": 22,
-        "ratingCount": 564,
+        "labels": [
+          {
+            "listingImage": {
+              "id": 882965,
+              "originName": "Тип=Богат протеином.png",
+              "fileType": "image",
+              "fileSize": 7336,
+              "width": 512,
+              "height": 512,
+              "cropUrlTemplate": "https://tsx.x5static.net/i/%s/xdelivery/files/22/4a/7a5eec351e5fdde07bb027fb66d5.png",
+              "publicUrl": null,
+              "uuid": "7f95a4b5-1c14-4b9b-9ca9-1d2fd5a4f5d6"
+            }
+          }
+        ],
+        "reviewCount": 144,
+        "ratingCount": 1878,
         "priceTag": {
-          "price": 499,
+          "price": 4599,
           "discountMinimumAmount": 0,
           "grossPrice": null,
           "labels": [],
@@ -92,29 +106,29 @@
         "borderStyle": null,
         "bestReview": null,
         "advToken": null,
-        "id": 61727,
+        "id": 336627,
         "masterData": {
-          "slug": "tetrad-skolnaa-pzbm-a5-v-kletku-12-listov-10st",
-          "plu": "3956332",
+          "slug": "kislota-limonnaa-pr-st-250g",
+          "plu": "4236367",
           "unit": 1,
           "unitName": "шт",
           "quantum": 1000,
           "quantumStep": 1000,
-          "weight": 29,
+          "weight": 250,
           "volume": null,
-          "ui4code": "NF0701006",
-          "taxGroup": "BB",
+          "ui4code": "FD0223005",
+          "taxGroup": "BL",
           "ownProduction": false,
-          "privateLabel": false,
+          "privateLabel": true,
           "isMark": false,
           "alcoSetUnits": null,
-          "activeNds": 10
+          "activeNds": 20
         },
-        "title": "Тетрадь школьная ПЗБМ A5 в клетку 12 листов, 10шт",
+        "title": "Кислота лимонная Пр!ст, 250г",
         "primaryCategory": {
-          "id": 455,
-          "title": "Бумага, ручки, краски",
-          "slug": "bumaga-rucki-kraski",
+          "id": 396,
+          "title": "Мука, дрожжи",
+          "slug": "muka-drozzi",
           "isAlcohol": false,
           "isTobacco": false,
           "isExciseAlcohol": false,
@@ -126,9 +140,9 @@
           ]
         },
         "catalogPrimaryCategory": {
-          "id": 53,
-          "title": "Канцелярия",
-          "slug": "kancelaria",
+          "id": 102,
+          "title": "Компоненты для выпечки",
+          "slug": "komponenty-dla-vypecki",
           "isAlcohol": false,
           "isTobacco": false,
           "isExciseAlcohol": false,
@@ -139,30 +153,425 @@
           ]
         },
         "image": {
-          "id": 1208976,
-          "originName": "3956332.jpg",
+          "id": 836942,
+          "originName": "4236367_0.jpg",
           "fileType": "image",
-          "fileSize": 87783,
+          "fileSize": 1389885,
           "width": 1600,
           "height": 1600,
-          "cropUrlTemplate": "https://tsx.x5static.net/i/%s/xdelivery/files/1c/df/651c0c79df3880993363f4d07657.jpg",
+          "cropUrlTemplate": "https://tsx.x5static.net/i/%s/xdelivery/files/f6/0b/a8df3c60d74511a8ab3b8c2e4dd9.jpg",
           "publicUrl": null,
-          "uuid": "68cd5e3e-d06a-4a67-b88c-b149c55abc39"
+          "uuid": "fe0f1df9-3ddd-470c-918f-773658da54af"
         },
-        "rating": 495,
-        "medianPrice": 4399,
+        "rating": 498,
+        "medianPrice": 12999,
         "labelCharacteristics": [],
         "labels": [],
-        "reviewCount": 11,
-        "ratingCount": 280,
+        "reviewCount": 260,
+        "ratingCount": 4803,
         "priceTag": {
-          "price": 4399,
+          "price": 12999,
           "discountMinimumAmount": 0,
-          "grossPrice": 4999,
+          "grossPrice": null,
+          "labels": [],
+          "pricePerQuantum": null,
+          "grossPricePerQuantum": null,
+          "potentialPointsForOrangeCard": null
+        },
+        "balanceState": "many"
+      },
+      {
+        "liked": false,
+        "borderStyle": null,
+        "bestReview": null,
+        "advToken": null,
+        "id": 345183,
+        "masterData": {
+          "slug": "struzka-kokosovaa-vysusennaa-pr-st-80g",
+          "plu": "4236369",
+          "unit": 1,
+          "unitName": "шт",
+          "quantum": 1000,
+          "quantumStep": 1000,
+          "weight": 80,
+          "volume": null,
+          "ui4code": "FD0223005",
+          "taxGroup": "BL",
+          "ownProduction": false,
+          "privateLabel": true,
+          "isMark": false,
+          "alcoSetUnits": null,
+          "activeNds": 20
+        },
+        "title": "Стружка кокосовая высушенная Пр!ст, 80г",
+        "primaryCategory": {
+          "id": 396,
+          "title": "Мука, дрожжи",
+          "slug": "muka-drozzi",
+          "isAlcohol": false,
+          "isTobacco": false,
+          "isExciseAlcohol": false,
+          "isAdultContent": false,
+          "displayStyle": 2,
+          "catalogs": [
+            2,
+            4
+          ]
+        },
+        "catalogPrimaryCategory": {
+          "id": 102,
+          "title": "Компоненты для выпечки",
+          "slug": "komponenty-dla-vypecki",
+          "isAlcohol": false,
+          "isTobacco": false,
+          "isExciseAlcohol": false,
+          "isAdultContent": false,
+          "displayStyle": 2,
+          "catalogs": [
+            1
+          ]
+        },
+        "image": {
+          "id": 1034605,
+          "originName": "4236369_1.jpg",
+          "fileType": "image",
+          "fileSize": 923673,
+          "width": 1600,
+          "height": 1600,
+          "cropUrlTemplate": "https://tsx.x5static.net/i/%s/xdelivery/files/68/fa/770xdc1aabd75530ef3f3c9c8ca0.jpg",
+          "publicUrl": null,
+          "uuid": "503b663b-2efe-4079-8d93-35ecd8e129f2"
+        },
+        "rating": 493,
+        "medianPrice": 7999,
+        "labelCharacteristics": [],
+        "labels": [],
+        "reviewCount": 174,
+        "ratingCount": 2131,
+        "priceTag": {
+          "price": 7999,
+          "discountMinimumAmount": 0,
+          "grossPrice": null,
+          "labels": [],
+          "pricePerQuantum": null,
+          "grossPricePerQuantum": null,
+          "potentialPointsForOrangeCard": null
+        },
+        "balanceState": "many"
+      },
+      {
+        "liked": false,
+        "borderStyle": null,
+        "bestReview": null,
+        "advToken": null,
+        "id": 362516,
+        "masterData": {
+          "slug": "pudra-saharnaa-pr-st-230g",
+          "plu": "4255400",
+          "unit": 1,
+          "unitName": "шт",
+          "quantum": 1000,
+          "quantumStep": 1000,
+          "weight": 230,
+          "volume": null,
+          "ui4code": "FD0223005",
+          "taxGroup": "BB",
+          "ownProduction": false,
+          "privateLabel": true,
+          "isMark": false,
+          "alcoSetUnits": null,
+          "activeNds": 10
+        },
+        "title": "Пудра сахарная Пр!ст, 230г",
+        "primaryCategory": {
+          "id": 396,
+          "title": "Мука, дрожжи",
+          "slug": "muka-drozzi",
+          "isAlcohol": false,
+          "isTobacco": false,
+          "isExciseAlcohol": false,
+          "isAdultContent": false,
+          "displayStyle": 2,
+          "catalogs": [
+            2,
+            4
+          ]
+        },
+        "catalogPrimaryCategory": {
+          "id": 102,
+          "title": "Компоненты для выпечки",
+          "slug": "komponenty-dla-vypecki",
+          "isAlcohol": false,
+          "isTobacco": false,
+          "isExciseAlcohol": false,
+          "isAdultContent": false,
+          "displayStyle": 2,
+          "catalogs": [
+            1
+          ]
+        },
+        "image": {
+          "id": 976932,
+          "originName": "4255400_1.jpg",
+          "fileType": "image",
+          "fileSize": 1678585,
+          "width": 1600,
+          "height": 1600,
+          "cropUrlTemplate": "https://tsx.x5static.net/i/%s/xdelivery/files/93/fb/xdc9b805d8a11c0ce11fbf3158a6.jpg",
+          "publicUrl": null,
+          "uuid": "3a0d83f0-4b1a-44eb-8c18-1c9498cdcd8a"
+        },
+        "rating": 496,
+        "medianPrice": 5999,
+        "labelCharacteristics": [],
+        "labels": [],
+        "reviewCount": 305,
+        "ratingCount": 4742,
+        "priceTag": {
+          "price": 6299,
+          "discountMinimumAmount": 0,
+          "grossPrice": null,
+          "labels": [],
+          "pricePerQuantum": null,
+          "grossPricePerQuantum": null,
+          "potentialPointsForOrangeCard": null
+        },
+        "balanceState": "many"
+      },
+      {
+        "liked": false,
+        "borderStyle": null,
+        "bestReview": null,
+        "advToken": null,
+        "id": 375161,
+        "masterData": {
+          "slug": "krahmal-kukuruznyj-pr-st-200g",
+          "plu": "4268659",
+          "unit": 1,
+          "unitName": "шт",
+          "quantum": 1000,
+          "quantumStep": 1000,
+          "weight": 200,
+          "volume": null,
+          "ui4code": "FD0223003",
+          "taxGroup": "BL",
+          "ownProduction": false,
+          "privateLabel": true,
+          "isMark": false,
+          "alcoSetUnits": null,
+          "activeNds": 20
+        },
+        "title": "Крахмал кукурузный Пр!ст, 200г",
+        "primaryCategory": {
+          "id": 396,
+          "title": "Мука, дрожжи",
+          "slug": "muka-drozzi",
+          "isAlcohol": false,
+          "isTobacco": false,
+          "isExciseAlcohol": false,
+          "isAdultContent": false,
+          "displayStyle": 2,
+          "catalogs": [
+            2,
+            4
+          ]
+        },
+        "catalogPrimaryCategory": {
+          "id": 102,
+          "title": "Компоненты для выпечки",
+          "slug": "komponenty-dla-vypecki",
+          "isAlcohol": false,
+          "isTobacco": false,
+          "isExciseAlcohol": false,
+          "isAdultContent": false,
+          "displayStyle": 2,
+          "catalogs": [
+            1
+          ]
+        },
+        "image": {
+          "id": 1061384,
+          "originName": "4268659.jpg",
+          "fileType": "image",
+          "fileSize": 846755,
+          "width": 1600,
+          "height": 1600,
+          "cropUrlTemplate": "https://tsx.x5static.net/i/%s/xdelivery/files/db/31/eb36d83447f62c07dc67e8cbbc19.jpg",
+          "publicUrl": null,
+          "uuid": "735654f1-21f3-4f3d-a938-0a25c32063ae"
+        },
+        "rating": 497,
+        "medianPrice": 4599,
+        "labelCharacteristics": [],
+        "labels": [],
+        "reviewCount": 326,
+        "ratingCount": 5267,
+        "priceTag": {
+          "price": 4599,
+          "discountMinimumAmount": 0,
+          "grossPrice": null,
+          "labels": [],
+          "pricePerQuantum": null,
+          "grossPricePerQuantum": null,
+          "potentialPointsForOrangeCard": null
+        },
+        "balanceState": "many"
+      },
+      {
+        "liked": false,
+        "borderStyle": null,
+        "bestReview": null,
+        "advToken": null,
+        "id": 375162,
+        "masterData": {
+          "slug": "krahmal-kartofelnyj-pr-st-200g",
+          "plu": "4268660",
+          "unit": 1,
+          "unitName": "шт",
+          "quantum": 1000,
+          "quantumStep": 1000,
+          "weight": 200,
+          "volume": null,
+          "ui4code": "FD0223003",
+          "taxGroup": "BL",
+          "ownProduction": false,
+          "privateLabel": true,
+          "isMark": false,
+          "alcoSetUnits": null,
+          "activeNds": 20
+        },
+        "title": "Крахмал картофельный Пр!ст, 200г",
+        "primaryCategory": {
+          "id": 396,
+          "title": "Мука, дрожжи",
+          "slug": "muka-drozzi",
+          "isAlcohol": false,
+          "isTobacco": false,
+          "isExciseAlcohol": false,
+          "isAdultContent": false,
+          "displayStyle": 2,
+          "catalogs": [
+            2,
+            4
+          ]
+        },
+        "catalogPrimaryCategory": {
+          "id": 102,
+          "title": "Компоненты для выпечки",
+          "slug": "komponenty-dla-vypecki",
+          "isAlcohol": false,
+          "isTobacco": false,
+          "isExciseAlcohol": false,
+          "isAdultContent": false,
+          "displayStyle": 2,
+          "catalogs": [
+            1
+          ]
+        },
+        "image": {
+          "id": 1061386,
+          "originName": "4268660.jpg",
+          "fileType": "image",
+          "fileSize": 828205,
+          "width": 1600,
+          "height": 1600,
+          "cropUrlTemplate": "https://tsx.x5static.net/i/%s/xdelivery/files/55/7a/153c89df7f99957c3aaf473a0438.jpg",
+          "publicUrl": null,
+          "uuid": "c00be40d-0e14-4b46-96ee-4f327f147da1"
+        },
+        "rating": 495,
+        "medianPrice": 6199,
+        "labelCharacteristics": [],
+        "labels": [],
+        "reviewCount": 130,
+        "ratingCount": 2273,
+        "priceTag": {
+          "price": 6199,
+          "discountMinimumAmount": 0,
+          "grossPrice": null,
+          "labels": [],
+          "pricePerQuantum": null,
+          "grossPricePerQuantum": null,
+          "potentialPointsForOrangeCard": null
+        },
+        "balanceState": "many"
+      },
+      {
+        "liked": false,
+        "borderStyle": null,
+        "bestReview": null,
+        "advToken": null,
+        "id": 19168,
+        "masterData": {
+          "slug": "drozzi-suhie-saf-moment-bystrodejstvuusie-hlebopekarnye-11g",
+          "plu": "17366",
+          "unit": 1,
+          "unitName": "шт",
+          "quantum": 1000,
+          "quantumStep": 1000,
+          "weight": 11,
+          "volume": null,
+          "ui4code": "FD0223001",
+          "taxGroup": "BL",
+          "ownProduction": false,
+          "privateLabel": false,
+          "isMark": false,
+          "alcoSetUnits": null,
+          "activeNds": 20
+        },
+        "title": "Дрожжи сухие Саф-Момент быстродействующие хлебопекарные, 11г",
+        "primaryCategory": {
+          "id": 396,
+          "title": "Мука, дрожжи",
+          "slug": "muka-drozzi",
+          "isAlcohol": false,
+          "isTobacco": false,
+          "isExciseAlcohol": false,
+          "isAdultContent": false,
+          "displayStyle": 2,
+          "catalogs": [
+            2,
+            4
+          ]
+        },
+        "catalogPrimaryCategory": {
+          "id": 102,
+          "title": "Компоненты для выпечки",
+          "slug": "komponenty-dla-vypecki",
+          "isAlcohol": false,
+          "isTobacco": false,
+          "isExciseAlcohol": false,
+          "isAdultContent": false,
+          "displayStyle": 2,
+          "catalogs": [
+            1
+          ]
+        },
+        "image": {
+          "id": 478914,
+          "originName": "17366_0.jpg",
+          "fileType": "image",
+          "fileSize": 150740,
+          "width": 1600,
+          "height": 1600,
+          "cropUrlTemplate": "https://tsx.x5static.net/i/%s/xdelivery/files/80/57/4d6c1cbaae919c931c3624cfc503.jpg",
+          "publicUrl": null,
+          "uuid": "603629b4-6c0b-4ce2-86ef-30104f153cf5"
+        },
+        "rating": 497,
+        "medianPrice": 1999,
+        "labelCharacteristics": [],
+        "labels": [],
+        "reviewCount": 345,
+        "ratingCount": 10516,
+        "priceTag": {
+          "price": 1999,
+          "discountMinimumAmount": 0,
+          "grossPrice": 2999,
           "labels": [
             {
               "type": "yellow",
-              "text": "-12%"
+              "text": "-33%"
             }
           ],
           "pricePerQuantum": null,
@@ -176,29 +585,29 @@
         "borderStyle": null,
         "bestReview": null,
         "advToken": null,
-        "id": 26277,
+        "id": 19233,
         "masterData": {
-          "slug": "stikery-na-odezdu-obuv-sumki-pe-1010025",
-          "plu": "4042861",
+          "slug": "muka-makfa-vyssego-sorta-2kg",
+          "plu": "91304",
           "unit": 1,
           "unitName": "шт",
           "quantum": 1000,
           "quantumStep": 1000,
-          "weight": 8,
+          "weight": 2000,
           "volume": null,
-          "ui4code": "NF0701001",
-          "taxGroup": "BL",
+          "ui4code": "FD0213002",
+          "taxGroup": "BB",
           "ownProduction": false,
           "privateLabel": false,
           "isMark": false,
           "alcoSetUnits": null,
-          "activeNds": 20
+          "activeNds": 10
         },
-        "title": "Стикеры на одежду-обувь-сумки ПЕ-1010025",
+        "title": "Мука Makfa высшего сорта, 2кг",
         "primaryCategory": {
-          "id": 455,
-          "title": "Бумага, ручки, краски",
-          "slug": "bumaga-rucki-kraski",
+          "id": 396,
+          "title": "Мука, дрожжи",
+          "slug": "muka-drozzi",
           "isAlcohol": false,
           "isTobacco": false,
           "isExciseAlcohol": false,
@@ -210,9 +619,9 @@
           ]
         },
         "catalogPrimaryCategory": {
-          "id": 53,
-          "title": "Канцелярия",
-          "slug": "kancelaria",
+          "id": 106,
+          "title": "Мука",
+          "slug": "muka",
           "isAlcohol": false,
           "isTobacco": false,
           "isExciseAlcohol": false,
@@ -223,32 +632,511 @@
           ]
         },
         "image": {
-          "id": 232634,
-          "originName": "4042861.jpg",
+          "id": 1071056,
+          "originName": "91304_1.jpg",
           "fileType": "image",
-          "fileSize": 875036,
-          "width": 1242,
-          "height": 1242,
-          "cropUrlTemplate": "https://tsx.x5static.net/i/%s/xdelivery/files/35/6b/03ee872a2c3d3f1fbc4ea2c728a6.jpg",
+          "fileSize": 675835,
+          "width": 1600,
+          "height": 1600,
+          "cropUrlTemplate": "https://tsx.x5static.net/i/%s/xdelivery/files/ac/80/9334aa53719d324aed667b238d2c.jpg",
           "publicUrl": null,
-          "uuid": "3a7d5105-b69c-4734-9b02-b5671739eb89"
+          "uuid": "f390a62c-bbf9-448e-926f-b3f4aec13bd4"
         },
-        "rating": 500,
-        "medianPrice": 4399,
+        "rating": 497,
+        "medianPrice": 12599,
         "labelCharacteristics": [],
         "labels": [],
-        "reviewCount": 0,
-        "ratingCount": 7,
+        "reviewCount": 775,
+        "ratingCount": 28882,
         "priceTag": {
-          "price": 4399,
+          "price": 12599,
           "discountMinimumAmount": 0,
-          "grossPrice": 4999,
+          "grossPrice": 14499,
           "labels": [
             {
               "type": "yellow",
-              "text": "-12%"
+              "text": "-13%"
             }
           ],
+          "pricePerQuantum": null,
+          "grossPricePerQuantum": null,
+          "potentialPointsForOrangeCard": null
+        },
+        "balanceState": "many"
+      },
+      {
+        "liked": false,
+        "borderStyle": null,
+        "bestReview": null,
+        "advToken": null,
+        "id": 19235,
+        "masterData": {
+          "slug": "muka-makfa-psenicnaa-vyssego-sorta-1kg",
+          "plu": "2003107",
+          "unit": 1,
+          "unitName": "шт",
+          "quantum": 1000,
+          "quantumStep": 1000,
+          "weight": 1000,
+          "volume": null,
+          "ui4code": "FD0213002",
+          "taxGroup": "BB",
+          "ownProduction": false,
+          "privateLabel": false,
+          "isMark": false,
+          "alcoSetUnits": null,
+          "activeNds": 10
+        },
+        "title": "Мука Makfa пшеничная высшего сорта, 1кг",
+        "primaryCategory": {
+          "id": 396,
+          "title": "Мука, дрожжи",
+          "slug": "muka-drozzi",
+          "isAlcohol": false,
+          "isTobacco": false,
+          "isExciseAlcohol": false,
+          "isAdultContent": false,
+          "displayStyle": 2,
+          "catalogs": [
+            2,
+            4
+          ]
+        },
+        "catalogPrimaryCategory": {
+          "id": 106,
+          "title": "Мука",
+          "slug": "muka",
+          "isAlcohol": false,
+          "isTobacco": false,
+          "isExciseAlcohol": false,
+          "isAdultContent": false,
+          "displayStyle": 2,
+          "catalogs": [
+            1
+          ]
+        },
+        "image": {
+          "id": 1071064,
+          "originName": "2003107_1.jpg",
+          "fileType": "image",
+          "fileSize": 665717,
+          "width": 1600,
+          "height": 1600,
+          "cropUrlTemplate": "https://tsx.x5static.net/i/%s/xdelivery/files/5c/86/995789a9ceec7db4a65e4e8329e5.jpg",
+          "publicUrl": null,
+          "uuid": "13a65b4d-fbb0-4b44-a24f-4f6f21a20c63"
+        },
+        "rating": 497,
+        "medianPrice": 7199,
+        "labelCharacteristics": [],
+        "labels": [],
+        "reviewCount": 605,
+        "ratingCount": 23130,
+        "priceTag": {
+          "price": 6799,
+          "discountMinimumAmount": 0,
+          "grossPrice": null,
+          "labels": [],
+          "pricePerQuantum": null,
+          "grossPricePerQuantum": null,
+          "potentialPointsForOrangeCard": null
+        },
+        "balanceState": "many"
+      },
+      {
+        "liked": false,
+        "borderStyle": null,
+        "bestReview": null,
+        "advToken": null,
+        "id": 19326,
+        "masterData": {
+          "slug": "muka-psenicnaa-2kg",
+          "plu": "3231328",
+          "unit": 1,
+          "unitName": "шт",
+          "quantum": 1000,
+          "quantumStep": 1000,
+          "weight": 2000,
+          "volume": null,
+          "ui4code": "FD0213002",
+          "taxGroup": "BB",
+          "ownProduction": false,
+          "privateLabel": false,
+          "isMark": false,
+          "alcoSetUnits": null,
+          "activeNds": 10
+        },
+        "title": "Мука Пшеничная, 2кг",
+        "primaryCategory": {
+          "id": 396,
+          "title": "Мука, дрожжи",
+          "slug": "muka-drozzi",
+          "isAlcohol": false,
+          "isTobacco": false,
+          "isExciseAlcohol": false,
+          "isAdultContent": false,
+          "displayStyle": 2,
+          "catalogs": [
+            2,
+            4
+          ]
+        },
+        "catalogPrimaryCategory": {
+          "id": 106,
+          "title": "Мука",
+          "slug": "muka",
+          "isAlcohol": false,
+          "isTobacco": false,
+          "isExciseAlcohol": false,
+          "isAdultContent": false,
+          "displayStyle": 2,
+          "catalogs": [
+            1
+          ]
+        },
+        "image": {
+          "id": 623766,
+          "originName": "3231328_0.jpg",
+          "fileType": "image",
+          "fileSize": 1310333,
+          "width": 1600,
+          "height": 1600,
+          "cropUrlTemplate": "https://tsx.x5static.net/i/%s/xdelivery/files/eb/1b/5a2d4687c78d8d7bc41032d7c50c.jpg",
+          "publicUrl": null,
+          "uuid": "d019c91e-102a-4634-ab8a-8fa4221b9abc"
+        },
+        "rating": 487,
+        "medianPrice": 5599,
+        "labelCharacteristics": [],
+        "labels": [],
+        "reviewCount": 521,
+        "ratingCount": 10209,
+        "priceTag": {
+          "price": 5599,
+          "discountMinimumAmount": 0,
+          "grossPrice": null,
+          "labels": [],
+          "pricePerQuantum": null,
+          "grossPricePerQuantum": null,
+          "potentialPointsForOrangeCard": null
+        },
+        "balanceState": "many"
+      },
+      {
+        "liked": false,
+        "borderStyle": null,
+        "bestReview": null,
+        "advToken": null,
+        "id": 19378,
+        "masterData": {
+          "slug": "muka-pysecka-psenicnaa-hlebopekarnaa-vyssego-sorta-2kg",
+          "plu": "8065",
+          "unit": 1,
+          "unitName": "шт",
+          "quantum": 1000,
+          "quantumStep": 1000,
+          "weight": 2000,
+          "volume": null,
+          "ui4code": "FD0213002",
+          "taxGroup": "BB",
+          "ownProduction": false,
+          "privateLabel": false,
+          "isMark": false,
+          "alcoSetUnits": null,
+          "activeNds": 10
+        },
+        "title": "Мука Пышечка пшеничная хлебопекарная высшего сорта, 2кг",
+        "primaryCategory": {
+          "id": 396,
+          "title": "Мука, дрожжи",
+          "slug": "muka-drozzi",
+          "isAlcohol": false,
+          "isTobacco": false,
+          "isExciseAlcohol": false,
+          "isAdultContent": false,
+          "displayStyle": 2,
+          "catalogs": [
+            2,
+            4
+          ]
+        },
+        "catalogPrimaryCategory": {
+          "id": 106,
+          "title": "Мука",
+          "slug": "muka",
+          "isAlcohol": false,
+          "isTobacco": false,
+          "isExciseAlcohol": false,
+          "isAdultContent": false,
+          "displayStyle": 2,
+          "catalogs": [
+            1
+          ]
+        },
+        "image": {
+          "id": 2249827,
+          "originName": "q4M0NfMFHfCnH2N2Uq00yHfNOfH2sm1737447798333.jpg",
+          "fileType": "image",
+          "fileSize": 403722,
+          "width": 1600,
+          "height": 1600,
+          "cropUrlTemplate": "https://tsx.x5static.net/i/%s/xdelivery/files/00/06/4993770f736ed640098f452eaa9c.jpg",
+          "publicUrl": null,
+          "uuid": "c259f97f-133b-41f0-b016-5b5dd7a1831b"
+        },
+        "rating": 496,
+        "medianPrice": 9499,
+        "labelCharacteristics": [],
+        "labels": [],
+        "reviewCount": 116,
+        "ratingCount": 2758,
+        "priceTag": {
+          "price": 9499,
+          "discountMinimumAmount": 0,
+          "grossPrice": 11999,
+          "labels": [
+            {
+              "type": "yellow",
+              "text": "-20%"
+            }
+          ],
+          "pricePerQuantum": null,
+          "grossPricePerQuantum": null,
+          "potentialPointsForOrangeCard": null
+        },
+        "balanceState": "many"
+      },
+      {
+        "liked": false,
+        "borderStyle": null,
+        "bestReview": null,
+        "advToken": null,
+        "id": 19498,
+        "masterData": {
+          "slug": "zamenitel-suhih-slivok-mr-slivkin-200g",
+          "plu": "3415102",
+          "unit": 1,
+          "unitName": "шт",
+          "quantum": 1000,
+          "quantumStep": 1000,
+          "weight": 200,
+          "volume": null,
+          "ui4code": "FD0223006",
+          "taxGroup": "BL",
+          "ownProduction": false,
+          "privateLabel": false,
+          "isMark": false,
+          "alcoSetUnits": null,
+          "activeNds": 20
+        },
+        "title": "Заменитель сухих сливок Mr. Сливкин, 200г",
+        "primaryCategory": {
+          "id": 396,
+          "title": "Мука, дрожжи",
+          "slug": "muka-drozzi",
+          "isAlcohol": false,
+          "isTobacco": false,
+          "isExciseAlcohol": false,
+          "isAdultContent": false,
+          "displayStyle": 2,
+          "catalogs": [
+            2,
+            4
+          ]
+        },
+        "catalogPrimaryCategory": {
+          "id": 102,
+          "title": "Компоненты для выпечки",
+          "slug": "komponenty-dla-vypecki",
+          "isAlcohol": false,
+          "isTobacco": false,
+          "isExciseAlcohol": false,
+          "isAdultContent": false,
+          "displayStyle": 2,
+          "catalogs": [
+            1
+          ]
+        },
+        "image": {
+          "id": 1239724,
+          "originName": "3415102_1.jpg",
+          "fileType": "image",
+          "fileSize": 646741,
+          "width": 1600,
+          "height": 1600,
+          "cropUrlTemplate": "https://tsx.x5static.net/i/%s/xdelivery/files/9a/92/1216ab634796xd92feb384536ca6.jpg",
+          "publicUrl": null,
+          "uuid": "f601a0b4-5e7e-421a-ab81-3cbdbf6d45c7"
+        },
+        "rating": 477,
+        "medianPrice": 12999,
+        "labelCharacteristics": [],
+        "labels": [],
+        "reviewCount": 36,
+        "ratingCount": 599,
+        "priceTag": {
+          "price": 13499,
+          "discountMinimumAmount": 0,
+          "grossPrice": null,
+          "labels": [],
+          "pricePerQuantum": null,
+          "grossPricePerQuantum": null,
+          "potentialPointsForOrangeCard": null
+        },
+        "balanceState": "many"
+      },
+      {
+        "liked": false,
+        "borderStyle": null,
+        "bestReview": null,
+        "advToken": null,
+        "id": 19664,
+        "masterData": {
+          "slug": "mak-konditerskij-100g",
+          "plu": "3393241",
+          "unit": 1,
+          "unitName": "шт",
+          "quantum": 1000,
+          "quantumStep": 1000,
+          "weight": 100,
+          "volume": null,
+          "ui4code": "FD0223005",
+          "taxGroup": "BB",
+          "ownProduction": false,
+          "privateLabel": false,
+          "isMark": false,
+          "alcoSetUnits": null,
+          "activeNds": 10
+        },
+        "title": "Мак кондитерский, 100г",
+        "primaryCategory": {
+          "id": 396,
+          "title": "Мука, дрожжи",
+          "slug": "muka-drozzi",
+          "isAlcohol": false,
+          "isTobacco": false,
+          "isExciseAlcohol": false,
+          "isAdultContent": false,
+          "displayStyle": 2,
+          "catalogs": [
+            2,
+            4
+          ]
+        },
+        "catalogPrimaryCategory": {
+          "id": 102,
+          "title": "Компоненты для выпечки",
+          "slug": "komponenty-dla-vypecki",
+          "isAlcohol": false,
+          "isTobacco": false,
+          "isExciseAlcohol": false,
+          "isAdultContent": false,
+          "displayStyle": 2,
+          "catalogs": [
+            1
+          ]
+        },
+        "image": {
+          "id": 1028501,
+          "originName": "3393241_1.jpg",
+          "fileType": "image",
+          "fileSize": 1507166,
+          "width": 1600,
+          "height": 1600,
+          "cropUrlTemplate": "https://tsx.x5static.net/i/%s/xdelivery/files/da/76/5b266ba3f490f9c58f146140f317.jpg",
+          "publicUrl": null,
+          "uuid": "0c15f0fc-8ba5-4590-93b2-25efe4731c73"
+        },
+        "rating": 494,
+        "medianPrice": 13499,
+        "labelCharacteristics": [],
+        "labels": [],
+        "reviewCount": 45,
+        "ratingCount": 1313,
+        "priceTag": {
+          "price": 13499,
+          "discountMinimumAmount": 0,
+          "grossPrice": null,
+          "labels": [],
+          "pricePerQuantum": null,
+          "grossPricePerQuantum": null,
+          "potentialPointsForOrangeCard": null
+        },
+        "balanceState": "many"
+      },
+      {
+        "liked": false,
+        "borderStyle": null,
+        "bestReview": null,
+        "advToken": null,
+        "id": 19760,
+        "masterData": {
+          "slug": "korzi-dla-torta-ceroka-napoleon-sloenye-300g",
+          "plu": "3411543",
+          "unit": 1,
+          "unitName": "шт",
+          "quantum": 1000,
+          "quantumStep": 1000,
+          "weight": 300,
+          "volume": null,
+          "ui4code": "FD0605005",
+          "taxGroup": "BL",
+          "ownProduction": false,
+          "privateLabel": false,
+          "isMark": false,
+          "alcoSetUnits": null,
+          "activeNds": 20
+        },
+        "title": "Коржи для торта Черока Наполеон слоёные, 300г",
+        "primaryCategory": {
+          "id": 396,
+          "title": "Мука, дрожжи",
+          "slug": "muka-drozzi",
+          "isAlcohol": false,
+          "isTobacco": false,
+          "isExciseAlcohol": false,
+          "isAdultContent": false,
+          "displayStyle": 2,
+          "catalogs": [
+            2,
+            4
+          ]
+        },
+        "catalogPrimaryCategory": {
+          "id": 102,
+          "title": "Компоненты для выпечки",
+          "slug": "komponenty-dla-vypecki",
+          "isAlcohol": false,
+          "isTobacco": false,
+          "isExciseAlcohol": false,
+          "isAdultContent": false,
+          "displayStyle": 2,
+          "catalogs": [
+            1
+          ]
+        },
+        "image": {
+          "id": 1892374,
+          "originName": "3411543 (1).jpg",
+          "fileType": "image",
+          "fileSize": 349956,
+          "width": 1600,
+          "height": 1600,
+          "cropUrlTemplate": "https://tsx.x5static.net/i/%s/xdelivery/files/08/fb/b5b2c6a63f127e05fd21f5185081.jpg",
+          "publicUrl": null,
+          "uuid": "145b5c62-56fe-4c0a-8b7c-b92276775c19"
+        },
+        "rating": 493,
+        "medianPrice": 18999,
+        "labelCharacteristics": [],
+        "labels": [],
+        "reviewCount": 150,
+        "ratingCount": 1313,
+        "priceTag": {
+          "price": 18999,
+          "discountMinimumAmount": 0,
+          "grossPrice": null,
+          "labels": [],
           "pricePerQuantum": null,
           "grossPricePerQuantum": null,
           "potentialPointsForOrangeCard": null

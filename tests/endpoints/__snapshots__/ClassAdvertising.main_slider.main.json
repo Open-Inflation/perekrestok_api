@@ -7,7 +7,17 @@
         "title": "Сьёсс",
         "fullTitle": null,
         "hideCategory": null,
-        "image": null,
+        "image": {
+          "id": 2502835,
+          "originName": "сьёсс.png",
+          "fileType": "image",
+          "fileSize": 22783,
+          "width": 1600,
+          "height": 1600,
+          "cropUrlTemplate": "https://tsx.x5static.net/i/%s/xdelivery/files/c4/70/ab3e89955b016d5fb6273c4420c4.png",
+          "publicUrl": null,
+          "uuid": "1c2dbf6a-7a9d-4bf1-8989-e24b708e7b8f"
+        },
         "productBrand": {
           "id": 49,
           "sliderImage": {

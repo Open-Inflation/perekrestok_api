@@ -3,312 +3,6 @@
     "items": [
       {
         "category": {
-          "id": 1644,
-          "title": "Снова в школу",
-          "slug": "snova-v-skolu",
-          "parentId": null,
-          "smallImage": {
-            "id": 2463411,
-            "originName": "416.png",
-            "fileType": "image",
-            "fileSize": 115785,
-            "width": 416,
-            "height": 320,
-            "cropUrlTemplate": "https://tsx.x5static.net/i/%s/xdelivery/files/22/81/5b3f49a101a7e54972373e1bd603.png",
-            "publicUrl": null,
-            "uuid": "4c790953-662b-45c6-8c38-2800b84fb22b"
-          },
-          "bigImage": {
-            "id": 2463408,
-            "originName": "512х852.png",
-            "fileType": "image",
-            "fileSize": 675044,
-            "width": 512,
-            "height": 852,
-            "cropUrlTemplate": "https://tsx.x5static.net/i/%s/xdelivery/files/4c/06/xd614617889fb11537ce1fc48291.png",
-            "publicUrl": null,
-            "uuid": "55c29fb7-7bd4-4632-9588-f62442f20cba"
-          },
-          "squareSmallImage": {
-            "id": 2463410,
-            "originName": "330 (5).png",
-            "fileType": "image",
-            "fileSize": 100488,
-            "width": 330,
-            "height": 330,
-            "cropUrlTemplate": "https://tsx.x5static.net/i/%s/xdelivery/files/9e/6e/f40ce9c5a038fa3a8c99c7b8566d.png",
-            "publicUrl": null,
-            "uuid": "c48e2150-6ca1-4acd-912d-a8f542ea018e"
-          },
-          "isAlcohol": false,
-          "isTobacco": false,
-          "showInSearch": false,
-          "isAdultContent": false,
-          "backgroundColor": {
-            "red": 223,
-            "green": 236,
-            "blue": 251,
-            "alpha": 100
-          },
-          "textColor": {
-            "red": 0,
-            "green": 0,
-            "blue": 0,
-            "alpha": 100
-          },
-          "isLiquid": false,
-          "displayStyle": 1,
-          "subtitle": null,
-          "categoryImage": null,
-          "smallCategoryImage": null,
-          "deepLink": null,
-          "smallDisplayStyleForParent": false,
-          "isBigDesignStyle": false,
-          "isMarkingRequired": false
-        },
-        "hasAvailableProducts": true,
-        "children": [
-          {
-            "category": {
-              "id": 1645,
-              "title": "Собрать рюкзак",
-              "slug": "sobrat-rukzak",
-              "parentId": 1644,
-              "smallImage": null,
-              "bigImage": null,
-              "squareSmallImage": {
-                "id": 2463091,
-                "originName": "рюкзак (1).png",
-                "fileType": "image",
-                "fileSize": 61139,
-                "width": 224,
-                "height": 224,
-                "cropUrlTemplate": "https://tsx.x5static.net/i/%s/xdelivery/files/db/f9/8b92e21dab00617950754b8b2825.png",
-                "publicUrl": null,
-                "uuid": "592c286e-f6b9-4c3c-bcd0-ef058c58af4d"
-              },
-              "isAlcohol": false,
-              "isTobacco": false,
-              "showInSearch": false,
-              "isAdultContent": false,
-              "backgroundColor": {
-                "red": 255,
-                "green": 255,
-                "blue": 255,
-                "alpha": 100
-              },
-              "textColor": {
-                "red": 0,
-                "green": 0,
-                "blue": 0,
-                "alpha": 100
-              },
-              "isLiquid": false,
-              "displayStyle": 2,
-              "subtitle": null,
-              "categoryImage": null,
-              "smallCategoryImage": {
-                "id": 2463092,
-                "originName": "рюкзак (2).png",
-                "fileType": "image",
-                "fileSize": 82602,
-                "width": 327,
-                "height": 219,
-                "cropUrlTemplate": "https://tsx.x5static.net/i/%s/xdelivery/files/3a/ea/25621d2ef0a628689cc3e032b318.png",
-                "publicUrl": null,
-                "uuid": "dbe6ad40-beef-4f8c-bfa9-918d0a3f847c"
-              },
-              "deepLink": null,
-              "smallDisplayStyleForParent": false,
-              "isBigDesignStyle": false,
-              "isMarkingRequired": false
-            },
-            "hasAvailableProducts": true,
-            "children": [],
-            "promoProducts": null
-          },
-          {
-            "category": {
-              "id": 1647,
-              "title": "Взять с собой",
-              "slug": "vzat-s-soboj",
-              "parentId": 1644,
-              "smallImage": null,
-              "bigImage": null,
-              "squareSmallImage": {
-                "id": 2463093,
-                "originName": "взять с собой (1).png",
-                "fileType": "image",
-                "fileSize": 55559,
-                "width": 224,
-                "height": 224,
-                "cropUrlTemplate": "https://tsx.x5static.net/i/%s/xdelivery/files/28/0c/80343c44a393273df315acfb1857.png",
-                "publicUrl": null,
-                "uuid": "a04c594c-fe94-42e5-8cc1-675ca5e02df4"
-              },
-              "isAlcohol": false,
-              "isTobacco": false,
-              "showInSearch": false,
-              "isAdultContent": false,
-              "backgroundColor": {
-                "red": 255,
-                "green": 255,
-                "blue": 255,
-                "alpha": 100
-              },
-              "textColor": {
-                "red": 0,
-                "green": 0,
-                "blue": 0,
-                "alpha": 100
-              },
-              "isLiquid": false,
-              "displayStyle": 2,
-              "subtitle": null,
-              "categoryImage": null,
-              "smallCategoryImage": {
-                "id": 2463094,
-                "originName": "взять с собой (2).png",
-                "fileType": "image",
-                "fileSize": 121261,
-                "width": 327,
-                "height": 228,
-                "cropUrlTemplate": "https://tsx.x5static.net/i/%s/xdelivery/files/9f/6d/8f6988689163de8e189e21bd7a2b.png",
-                "publicUrl": null,
-                "uuid": "e03b71f0-653d-47db-aea7-c5a11b9c2773"
-              },
-              "deepLink": null,
-              "smallDisplayStyleForParent": false,
-              "isBigDesignStyle": false,
-              "isMarkingRequired": false
-            },
-            "hasAvailableProducts": true,
-            "children": [],
-            "promoProducts": null
-          },
-          {
-            "category": {
-              "id": 1649,
-              "title": "Подарки",
-              "slug": "podarki",
-              "parentId": 1644,
-              "smallImage": null,
-              "bigImage": null,
-              "squareSmallImage": {
-                "id": 2463095,
-                "originName": "подарки (1).png",
-                "fileType": "image",
-                "fileSize": 83337,
-                "width": 224,
-                "height": 224,
-                "cropUrlTemplate": "https://tsx.x5static.net/i/%s/xdelivery/files/72/96/4113ebc3291116cc1f37e2ba8ff7.png",
-                "publicUrl": null,
-                "uuid": "694029ec-65ee-4087-9bbe-5ebf3decdd08"
-              },
-              "isAlcohol": false,
-              "isTobacco": false,
-              "showInSearch": false,
-              "isAdultContent": false,
-              "backgroundColor": {
-                "red": 255,
-                "green": 255,
-                "blue": 255,
-                "alpha": 100
-              },
-              "textColor": {
-                "red": 0,
-                "green": 0,
-                "blue": 0,
-                "alpha": 100
-              },
-              "isLiquid": false,
-              "displayStyle": 2,
-              "subtitle": null,
-              "categoryImage": null,
-              "smallCategoryImage": {
-                "id": 2463096,
-                "originName": "подарки (2).png",
-                "fileType": "image",
-                "fileSize": 114778,
-                "width": 327,
-                "height": 228,
-                "cropUrlTemplate": "https://tsx.x5static.net/i/%s/xdelivery/files/45/bb/3b73f234d01aef59717ffe8f36e2.png",
-                "publicUrl": null,
-                "uuid": "7c423be9-9264-4a02-8e4e-523a56751514"
-              },
-              "deepLink": null,
-              "smallDisplayStyleForParent": false,
-              "isBigDesignStyle": false,
-              "isMarkingRequired": false
-            },
-            "hasAvailableProducts": true,
-            "children": [],
-            "promoProducts": null
-          },
-          {
-            "category": {
-              "id": 1651,
-              "title": "Завтрак перед школой",
-              "slug": "zavtrak-pered-skoloj",
-              "parentId": 1644,
-              "smallImage": null,
-              "bigImage": null,
-              "squareSmallImage": {
-                "id": 2463097,
-                "originName": "Завтрак перед школой.png",
-                "fileType": "image",
-                "fileSize": 89141,
-                "width": 224,
-                "height": 224,
-                "cropUrlTemplate": "https://tsx.x5static.net/i/%s/xdelivery/files/64/72/fe5f6c276ff6d4b733b401e1e561.png",
-                "publicUrl": null,
-                "uuid": "cdc53270-8f2a-4071-bbe5-f8a773c422b7"
-              },
-              "isAlcohol": false,
-              "isTobacco": false,
-              "showInSearch": false,
-              "isAdultContent": false,
-              "backgroundColor": {
-                "red": 255,
-                "green": 255,
-                "blue": 255,
-                "alpha": 100
-              },
-              "textColor": {
-                "red": 0,
-                "green": 0,
-                "blue": 0,
-                "alpha": 100
-              },
-              "isLiquid": false,
-              "displayStyle": 2,
-              "subtitle": null,
-              "categoryImage": null,
-              "smallCategoryImage": {
-                "id": 2463098,
-                "originName": "Завтрак для детей.png",
-                "fileType": "image",
-                "fileSize": 112590,
-                "width": 327,
-                "height": 228,
-                "cropUrlTemplate": "https://tsx.x5static.net/i/%s/xdelivery/files/3c/38/f47e49c1a2b44889afa9ca9b2201.png",
-                "publicUrl": null,
-                "uuid": "d9c7624f-4315-43c5-959d-62ff87385715"
-              },
-              "deepLink": null,
-              "smallDisplayStyleForParent": false,
-              "isBigDesignStyle": false,
-              "isMarkingRequired": false
-            },
-            "hasAvailableProducts": true,
-            "children": [],
-            "promoProducts": null
-          }
-        ],
-        "promoProducts": null
-      },
-      {
-        "category": {
           "id": 282,
           "title": "От Перекрёстка",
           "slug": "ot-perekrestka",
@@ -985,55 +679,6 @@
           },
           {
             "category": {
-              "id": 1285,
-              "title": "Кафе Select",
-              "slug": "kafe-select",
-              "parentId": 25,
-              "smallImage": null,
-              "bigImage": null,
-              "squareSmallImage": {
-                "id": 1824958,
-                "originName": "Новый проект (17).png",
-                "fileType": "image",
-                "fileSize": 69286,
-                "width": 224,
-                "height": 224,
-                "cropUrlTemplate": "https://tsx.x5static.net/i/%s/xdelivery/files/df/5a/b37f4bf98e6813e599d2815311ec.png",
-                "publicUrl": null,
-                "uuid": "70e64b17-cb30-47b5-b647-c57e0427bbda"
-              },
-              "isAlcohol": false,
-              "isTobacco": false,
-              "showInSearch": false,
-              "isAdultContent": false,
-              "backgroundColor": {
-                "red": 255,
-                "green": 255,
-                "blue": 255,
-                "alpha": 100
-              },
-              "textColor": {
-                "red": 0,
-                "green": 0,
-                "blue": 0,
-                "alpha": 100
-              },
-              "isLiquid": false,
-              "displayStyle": 2,
-              "subtitle": null,
-              "categoryImage": null,
-              "smallCategoryImage": null,
-              "deepLink": null,
-              "smallDisplayStyleForParent": false,
-              "isBigDesignStyle": false,
-              "isMarkingRequired": false
-            },
-            "hasAvailableProducts": true,
-            "children": [],
-            "promoProducts": null
-          },
-          {
-            "category": {
               "id": 306,
               "title": "Сэндвичи",
               "slug": "sendvici",
@@ -1069,55 +714,6 @@
               },
               "isLiquid": false,
               "displayStyle": 2,
-              "subtitle": null,
-              "categoryImage": null,
-              "smallCategoryImage": null,
-              "deepLink": null,
-              "smallDisplayStyleForParent": false,
-              "isBigDesignStyle": false,
-              "isMarkingRequired": false
-            },
-            "hasAvailableProducts": true,
-            "children": [],
-            "promoProducts": null
-          },
-          {
-            "category": {
-              "id": 1153,
-              "title": "Шаурма",
-              "slug": "saurma",
-              "parentId": 25,
-              "smallImage": null,
-              "bigImage": null,
-              "squareSmallImage": {
-                "id": 1584305,
-                "originName": "Новый проект - 2024-04-01T164316.603.png",
-                "fileType": "image",
-                "fileSize": 82363,
-                "width": 224,
-                "height": 224,
-                "cropUrlTemplate": "https://tsx.x5static.net/i/%s/xdelivery/files/3d/fc/1a4218a816e703dc1c0aed329724.png",
-                "publicUrl": null,
-                "uuid": "d142451d-3019-4857-9430-b47c2aec7a41"
-              },
-              "isAlcohol": false,
-              "isTobacco": false,
-              "showInSearch": false,
-              "isAdultContent": false,
-              "backgroundColor": {
-                "red": 255,
-                "green": 255,
-                "blue": 255,
-                "alpha": 100
-              },
-              "textColor": {
-                "red": 0,
-                "green": 0,
-                "blue": 0,
-                "alpha": 100
-              },
-              "isLiquid": false,
-              "displayStyle": 1,
               "subtitle": null,
               "categoryImage": null,
               "smallCategoryImage": null,
@@ -5325,22 +4921,22 @@
           },
           {
             "category": {
-              "id": 215,
-              "title": "Растительные напитки",
-              "slug": "rastitelnye-napitki",
+              "id": 210,
+              "title": "Холодный чай",
+              "slug": "holodnyj-caj",
               "parentId": 205,
               "smallImage": null,
               "bigImage": null,
               "squareSmallImage": {
-                "id": 1139763,
-                "originName": "Замена молока.png",
+                "id": 1129514,
+                "originName": "Холодный чай-1.png",
                 "fileType": "image",
-                "fileSize": 30786,
+                "fileSize": 203742,
                 "width": 224,
                 "height": 224,
-                "cropUrlTemplate": "https://tsx.x5static.net/i/%s/xdelivery/files/c0/ab/506405060ef1ea267fa29c1351b2.png",
+                "cropUrlTemplate": "https://tsx.x5static.net/i/%s/xdelivery/files/af/da/7e26144cfbb9d11ec6a48eb18548.png",
                 "publicUrl": null,
-                "uuid": "58dbb5f9-7e3c-41db-bb7e-d7efb8446f10"
+                "uuid": "59e5e56c-3ab9-452d-a035-5a753095ac25"
               },
               "isAlcohol": false,
               "isTobacco": false,
@@ -5374,22 +4970,22 @@
           },
           {
             "category": {
-              "id": 210,
-              "title": "Холодный чай",
-              "slug": "holodnyj-caj",
+              "id": 215,
+              "title": "Растительные напитки",
+              "slug": "rastitelnye-napitki",
               "parentId": 205,
               "smallImage": null,
               "bigImage": null,
               "squareSmallImage": {
-                "id": 1129514,
-                "originName": "Холодный чай-1.png",
+                "id": 1139763,
+                "originName": "Замена молока.png",
                 "fileType": "image",
-                "fileSize": 203742,
+                "fileSize": 30786,
                 "width": 224,
                 "height": 224,
-                "cropUrlTemplate": "https://tsx.x5static.net/i/%s/xdelivery/files/af/da/7e26144cfbb9d11ec6a48eb18548.png",
+                "cropUrlTemplate": "https://tsx.x5static.net/i/%s/xdelivery/files/c0/ab/506405060ef1ea267fa29c1351b2.png",
                 "publicUrl": null,
-                "uuid": "59e5e56c-3ab9-452d-a035-5a753095ac25"
+                "uuid": "58dbb5f9-7e3c-41db-bb7e-d7efb8446f10"
               },
               "isAlcohol": false,
               "isTobacco": false,
@@ -5521,22 +5117,22 @@
           },
           {
             "category": {
-              "id": 213,
-              "title": "Смузи",
-              "slug": "smuzi",
+              "id": 740,
+              "title": "Сокосодержащие напитки",
+              "slug": "sokosoderzasie-napitki",
               "parentId": 205,
               "smallImage": null,
               "bigImage": null,
               "squareSmallImage": {
-                "id": 628700,
-                "originName": "Сок, нектары.png",
+                "id": 1139765,
+                "originName": "Сокосодержащие напитки.png",
                 "fileType": "image",
-                "fileSize": 97716,
-                "width": 300,
-                "height": 300,
-                "cropUrlTemplate": "https://tsx.x5static.net/i/%s/xdelivery/files/a3/6e/3d17195e8961e06d49ce30c863f2.png",
+                "fileSize": 65036,
+                "width": 224,
+                "height": 224,
+                "cropUrlTemplate": "https://tsx.x5static.net/i/%s/xdelivery/files/7b/cf/d9ac6bba9ac10ecf112b6a7c99cd.png",
                 "publicUrl": null,
-                "uuid": "90994fff-71f7-4d47-9f72-db367168ebf4"
+                "uuid": "cca18702-379b-46e2-9081-b6e5c0869715"
               },
               "isAlcohol": false,
               "isTobacco": false,
@@ -5570,22 +5166,22 @@
           },
           {
             "category": {
-              "id": 740,
-              "title": "Сокосодержащие напитки",
-              "slug": "sokosoderzasie-napitki",
+              "id": 213,
+              "title": "Смузи",
+              "slug": "smuzi",
               "parentId": 205,
               "smallImage": null,
               "bigImage": null,
               "squareSmallImage": {
-                "id": 1139765,
-                "originName": "Сокосодержащие напитки.png",
+                "id": 628700,
+                "originName": "Сок, нектары.png",
                 "fileType": "image",
-                "fileSize": 65036,
-                "width": 224,
-                "height": 224,
-                "cropUrlTemplate": "https://tsx.x5static.net/i/%s/xdelivery/files/7b/cf/d9ac6bba9ac10ecf112b6a7c99cd.png",
+                "fileSize": 97716,
+                "width": 300,
+                "height": 300,
+                "cropUrlTemplate": "https://tsx.x5static.net/i/%s/xdelivery/files/a3/6e/3d17195e8961e06d49ce30c863f2.png",
                 "publicUrl": null,
-                "uuid": "cca18702-379b-46e2-9081-b6e5c0869715"
+                "uuid": "90994fff-71f7-4d47-9f72-db367168ebf4"
               },
               "isAlcohol": false,
               "isTobacco": false,
@@ -6081,55 +5677,6 @@
           },
           {
             "category": {
-              "id": 325,
-              "title": "Пироги",
-              "slug": "pirogi",
-              "parentId": 242,
-              "smallImage": null,
-              "bigImage": null,
-              "squareSmallImage": {
-                "id": 1584247,
-                "originName": "Новый проект - 2024-04-01T160833.111.png",
-                "fileType": "image",
-                "fileSize": 87055,
-                "width": 224,
-                "height": 224,
-                "cropUrlTemplate": "https://tsx.x5static.net/i/%s/xdelivery/files/41/6b/b7c92a0c6e5a1aab0e7fb07dde62.png",
-                "publicUrl": null,
-                "uuid": "8a78952f-0f1a-46f5-a800-0b168eedf8dd"
-              },
-              "isAlcohol": false,
-              "isTobacco": false,
-              "showInSearch": false,
-              "isAdultContent": false,
-              "backgroundColor": {
-                "red": 255,
-                "green": 255,
-                "blue": 255,
-                "alpha": 100
-              },
-              "textColor": {
-                "red": 0,
-                "green": 0,
-                "blue": 0,
-                "alpha": 100
-              },
-              "isLiquid": false,
-              "displayStyle": 1,
-              "subtitle": null,
-              "categoryImage": null,
-              "smallCategoryImage": null,
-              "deepLink": null,
-              "smallDisplayStyleForParent": false,
-              "isBigDesignStyle": false,
-              "isMarkingRequired": false
-            },
-            "hasAvailableProducts": true,
-            "children": [],
-            "promoProducts": null
-          },
-          {
-            "category": {
               "id": 244,
               "title": "Лаваш и лепёшки",
               "slug": "lavas-i-lepeski",
@@ -6543,22 +6090,22 @@
           },
           {
             "category": {
-              "id": 135,
-              "title": "Полуфабрикаты",
-              "slug": "polufabrikaty",
+              "id": 137,
+              "title": "Баранина",
+              "slug": "baranina",
               "parentId": 132,
               "smallImage": null,
               "bigImage": null,
               "squareSmallImage": {
-                "id": 628712,
-                "originName": "Полуфабрикаты.png",
+                "id": 1139481,
+                "originName": "Баранина.png",
                 "fileType": "image",
-                "fileSize": 186962,
-                "width": 300,
-                "height": 300,
-                "cropUrlTemplate": "https://tsx.x5static.net/i/%s/xdelivery/files/3d/44/45f3da1644ec34941739e3ae1040.png",
+                "fileSize": 91822,
+                "width": 224,
+                "height": 224,
+                "cropUrlTemplate": "https://tsx.x5static.net/i/%s/xdelivery/files/4d/81/4a5cd1057808a91fb85f2c7de157.png",
                 "publicUrl": null,
-                "uuid": "3fe1a394-0cde-4b5e-b413-3784253ca00d"
+                "uuid": "2064013d-392e-4dbf-aa82-3080feec8098"
               },
               "isAlcohol": false,
               "isTobacco": false,
@@ -6592,22 +6139,22 @@
           },
           {
             "category": {
-              "id": 143,
-              "title": "Кролик",
-              "slug": "krolik",
+              "id": 135,
+              "title": "Полуфабрикаты",
+              "slug": "polufabrikaty",
               "parentId": 132,
               "smallImage": null,
               "bigImage": null,
               "squareSmallImage": {
-                "id": 1139482,
-                "originName": "Кролик.png",
+                "id": 628712,
+                "originName": "Полуфабрикаты.png",
                 "fileType": "image",
-                "fileSize": 75897,
-                "width": 224,
-                "height": 224,
-                "cropUrlTemplate": "https://tsx.x5static.net/i/%s/xdelivery/files/bd/85/bf6ac6526ee19c0653d95ecc6af8.png",
+                "fileSize": 186962,
+                "width": 300,
+                "height": 300,
+                "cropUrlTemplate": "https://tsx.x5static.net/i/%s/xdelivery/files/3d/44/45f3da1644ec34941739e3ae1040.png",
                 "publicUrl": null,
-                "uuid": "209ee7ff-18cc-4e57-acea-e77058bf5108"
+                "uuid": "3fe1a394-0cde-4b5e-b413-3784253ca00d"
               },
               "isAlcohol": false,
               "isTobacco": false,
@@ -13935,22 +13482,22 @@
           },
           {
             "category": {
-              "id": 259,
-              "title": "Для мытья посуды",
-              "slug": "dla-myta-posudy",
+              "id": 237,
+              "title": "Для стирки и ухода за вещами",
+              "slug": "dla-stirki-i-uhoda-za-vesami",
               "parentId": 236,
               "smallImage": null,
               "bigImage": null,
               "squareSmallImage": {
-                "id": 628777,
-                "originName": "для мытья.png",
+                "id": 628778,
+                "originName": "стирка.png",
                 "fileType": "image",
-                "fileSize": 88725,
+                "fileSize": 118169,
                 "width": 300,
                 "height": 300,
-                "cropUrlTemplate": "https://tsx.x5static.net/i/%s/xdelivery/files/9c/54/a7e1479e4deefcaa89879c5bf869.png",
+                "cropUrlTemplate": "https://tsx.x5static.net/i/%s/xdelivery/files/88/45/ca9fe3d0b68a6ee87a744880f362.png",
                 "publicUrl": null,
-                "uuid": "6db8b482-efe1-45bf-876b-39456fdefbae"
+                "uuid": "e7b779af-eb6d-4dac-82a2-cff701c537e1"
               },
               "isAlcohol": false,
               "isTobacco": false,
@@ -13984,22 +13531,22 @@
           },
           {
             "category": {
-              "id": 237,
-              "title": "Для стирки и ухода за вещами",
-              "slug": "dla-stirki-i-uhoda-za-vesami",
+              "id": 259,
+              "title": "Для мытья посуды",
+              "slug": "dla-myta-posudy",
               "parentId": 236,
               "smallImage": null,
               "bigImage": null,
               "squareSmallImage": {
-                "id": 628778,
-                "originName": "стирка.png",
+                "id": 628777,
+                "originName": "для мытья.png",
                 "fileType": "image",
-                "fileSize": 118169,
+                "fileSize": 88725,
                 "width": 300,
                 "height": 300,
-                "cropUrlTemplate": "https://tsx.x5static.net/i/%s/xdelivery/files/88/45/ca9fe3d0b68a6ee87a744880f362.png",
+                "cropUrlTemplate": "https://tsx.x5static.net/i/%s/xdelivery/files/9c/54/a7e1479e4deefcaa89879c5bf869.png",
                 "publicUrl": null,
-                "uuid": "e7b779af-eb6d-4dac-82a2-cff701c537e1"
+                "uuid": "6db8b482-efe1-45bf-876b-39456fdefbae"
               },
               "isAlcohol": false,
               "isTobacco": false,
@@ -15909,22 +15456,22 @@
           },
           {
             "category": {
-              "id": 5,
-              "title": "Виски",
-              "slug": "viski",
+              "id": 4,
+              "title": "Коньяк",
+              "slug": "konak",
               "parentId": 1,
               "smallImage": null,
               "bigImage": null,
               "squareSmallImage": {
-                "id": 628794,
-                "originName": "крепкие напитки.png",
+                "id": 1139563,
+                "originName": "Коньяк.png",
                 "fileType": "image",
-                "fileSize": 149460,
-                "width": 300,
-                "height": 300,
-                "cropUrlTemplate": "https://tsx.x5static.net/i/%s/xdelivery/files/79/fe/928a41126c53d55f7fdd9a2857ca.png",
+                "fileSize": 68695,
+                "width": 224,
+                "height": 224,
+                "cropUrlTemplate": "https://tsx.x5static.net/i/%s/xdelivery/files/f0/a1/dd3785f0250746097cf6cf0585aa.png",
                 "publicUrl": null,
-                "uuid": "b360a2a3-a913-43d2-b4a5-a9e6b5fb997f"
+                "uuid": "7a6da4d4-48cd-46ec-9513-dbda7c5d8ac6"
               },
               "isAlcohol": true,
               "isTobacco": false,
@@ -15958,22 +15505,22 @@
           },
           {
             "category": {
-              "id": 4,
-              "title": "Коньяк",
-              "slug": "konak",
+              "id": 5,
+              "title": "Виски",
+              "slug": "viski",
               "parentId": 1,
               "smallImage": null,
               "bigImage": null,
               "squareSmallImage": {
-                "id": 1139563,
-                "originName": "Коньяк.png",
+                "id": 628794,
+                "originName": "крепкие напитки.png",
                 "fileType": "image",
-                "fileSize": 68695,
-                "width": 224,
-                "height": 224,
-                "cropUrlTemplate": "https://tsx.x5static.net/i/%s/xdelivery/files/f0/a1/dd3785f0250746097cf6cf0585aa.png",
+                "fileSize": 149460,
+                "width": 300,
+                "height": 300,
+                "cropUrlTemplate": "https://tsx.x5static.net/i/%s/xdelivery/files/79/fe/928a41126c53d55f7fdd9a2857ca.png",
                 "publicUrl": null,
-                "uuid": "7a6da4d4-48cd-46ec-9513-dbda7c5d8ac6"
+                "uuid": "b360a2a3-a913-43d2-b4a5-a9e6b5fb997f"
               },
               "isAlcohol": true,
               "isTobacco": false,
