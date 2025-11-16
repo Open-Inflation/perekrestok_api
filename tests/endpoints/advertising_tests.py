@@ -1,13 +1,16 @@
 from __future__ import annotations
 
-import pytest
 from functools import partial
-from perekrestok_api import abstraction
+
+import pytest
 from conftest import make_test
+
+from perekrestok_api import abstraction
 
 # Локальные константы
 MOSCOW_CITY_ID = 81
 DEFAULT_LIMIT = 5
+
 
 # Независимые кейсы — в матрицу
 @pytest.mark.parametrize(
@@ -21,7 +24,9 @@ DEFAULT_LIMIT = 5
             id="banner",
         ),
         pytest.param(
-            lambda api: partial(api.Advertising.main_slider, page=1, limit=DEFAULT_LIMIT),
+            lambda api: partial(
+                api.Advertising.main_slider, page=1, limit=DEFAULT_LIMIT
+            ),
             id="main_slider",
         ),
         pytest.param(

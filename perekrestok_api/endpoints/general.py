@@ -1,8 +1,10 @@
 """Общий (не класифицируемый) функционал"""
-from .. import abstraction
-from hrequests import Response
 
 from typing import TYPE_CHECKING
+
+from human_requests.abstraction import FetchResponse, HttpMethod
+
+from .. import abstraction
 
 if TYPE_CHECKING:
     from ..manager import PerekrestokAPI
@@ -10,45 +12,49 @@ if TYPE_CHECKING:
 
 class ClassGeneral:
     """Общие методы API Перекрёстка.
-    
+
     Включает методы для работы с изображениями, формой обратной связи,
     получения информации о пользователе и других общих функций.
     """
-    def __init__(self, parent: "PerekrestokAPI", CATALOG_URL: str):
-        self._parent: "PerekrestokAPI" = parent
-        self.CATALOG_URL: str = CATALOG_URL
 
-    def download_image(self, url: str) -> Response:
+    def __init__(self, parent: "PerekrestokAPI"):
+        self._parent: "PerekrestokAPI" = parent
+
+    async def download_image(self, url: str) -> FetchResponse:
         """Скачать изображение по URL.
-        
+
         Args:
             url: URL изображения для скачивания
         """
-        return self._parent._request("GET", url)
+        return await self._parent._request(HttpMethod.GET, url)
 
-    def qualifier(self, selections: list[abstraction.QualifierFeatureKey] | None = None) -> Response:
+    async def qualifier(
+        self, selections: list[abstraction.QualifierFeatureKey] | None = None
+    ) -> FetchResponse:
         """Получить конфигурацию функций API.
-        
+
         Args:
-            selections: Список ключей функций для получения. 
+            selections: Список ключей функций для получения.
                 При None возвращает ответы по всем доступным ключам.
         """
-        url = f"{self.CATALOG_URL}/qualifier"
+        url = f"{self._parent.CATALOG_URL}/qualifier"
         if selections is None:
             selections = abstraction.QualifierFeatureKey.get_all()
-        return self._parent._request("POST", url, json_body={"keys": selections})
+        return await self._parent._request(
+            HttpMethod.POST, url, json_body={"keys": selections}
+        )
 
-    def feedback_form(self) -> Response:
+    async def feedback_form(self) -> FetchResponse:
         """Получить форму обратной связи."""
-        url = f"{self.CATALOG_URL}/feedback/form"
-        return self._parent._request("GET", url)
+        url = f"{self._parent.CATALOG_URL}/feedback/form"
+        return await self._parent._request(HttpMethod.GET, url)
 
-    def delivery_switcher(self) -> Response:
+    async def delivery_switcher(self) -> FetchResponse:
         """Получить информацию о переключателе доставки."""
-        url = f"{self.CATALOG_URL}/delivery/switcher"
-        return self._parent._request("GET", url)
+        url = f"{self._parent.CATALOG_URL}/delivery/switcher"
+        return await self._parent._request(HttpMethod.GET, url)
 
-    def current_user(self) -> Response:
+    async def current_user(self) -> FetchResponse:
         """Получить информацию о текущем пользователе."""
-        url = f"{self.CATALOG_URL}/user/current"
-        return self._parent._request("GET", url)
+        url = f"{self._parent.CATALOG_URL}/user/current"
+        return await self._parent._request(HttpMethod.GET, url)

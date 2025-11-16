@@ -1,9 +1,10 @@
 from __future__ import annotations
 
+import imghdr
+
 import pytest
 from conftest import make_test
 
-import imghdr
 
 # Все независимые кейсы — в матрицу
 @pytest.mark.parametrize(
@@ -17,6 +18,7 @@ import imghdr
 )
 def test_general_matrix(api, schemashot, factory):
     make_test(schemashot, factory(api))
+
 
 # Отдельный тест на бинарную загрузку (PNG)
 def test_download_image(api):

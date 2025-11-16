@@ -13,7 +13,6 @@ class BannerPlace:
     CATEGORY = "web_category"
     """Категория"""
 
-
     class SpecialCategory:
         """Специальная категория"""
 
@@ -25,6 +24,7 @@ class BannerPlace:
 
         RIGHT = "web_spec_category_right"
         """Правый баннер специальной категории"""
+
 
 class QualifierFeatureKey:
     """Ключи функционала API"""
@@ -133,24 +133,26 @@ class QualifierFeatureKey:
 
         DISABLE_CHECKOUT = "emergency_disable_checkout"
         """Отключение оформления заказа"""
-    
+
     @staticmethod
     def get_all() -> list[str]:
         """Собирает все значения из QualifierFeatureKey"""
         keys = []
-        
+
         # Основные ключи
         for attr_name, attr_value in QualifierFeatureKey.__dict__.items():
-            if not attr_name.startswith('_') and isinstance(attr_value, str):
+            if not attr_name.startswith("_") and isinstance(attr_value, str):
                 keys.append(attr_value)
-        
+
         # Ключи из вложенных классов
         for attr_name, attr_value in QualifierFeatureKey.__dict__.items():
             if isinstance(attr_value, type):  # Это класс
                 for nested_attr_name, nested_attr_value in attr_value.__dict__.items():
-                    if not nested_attr_name.startswith('_') and isinstance(nested_attr_value, str):
+                    if not nested_attr_name.startswith("_") and isinstance(
+                        nested_attr_value, str
+                    ):
                         keys.append(nested_attr_value)
-        
+
         return keys
 
 
@@ -159,7 +161,7 @@ class CatalogFeedFilter:
 
     def set_price_range(self, lowest: float, highest: float) -> None:
         """Устанавливает диапазон цен.
-        
+
         Args:
             lowest (float): Минимальная цена.
             highest (float): Максимальная цена.
@@ -171,12 +173,12 @@ class CatalogFeedFilter:
 
     def as_dict(self, use_hidden_key: bool = True) -> dict:
         """Преобразует фильтры в словарь для использования в API запросах.
-        
+
         Является в большей степени внутренним методом.
-        
+
         Args:
             use_hidden_key: Использовать скрытые ключи API вместо понятных имён.
-                hidden_key - это имя фильтра воспринимаемое сервером Перекрестка. 
+                hidden_key - это имя фильтра воспринимаемое сервером Перекрестка.
                 Внутри библиотеки создана обёртка с другими неймами для удобства и ясности.
         """
         filters = {}
@@ -187,7 +189,9 @@ class CatalogFeedFilter:
                 current = filters
 
                 # Исключаем невалидные значения
-                if filter_obj.value == -1 or (isinstance(filter_obj, self.FeaturesFilter) and not filter_obj.value):
+                if filter_obj.value == -1 or (
+                    isinstance(filter_obj, self.FeaturesFilter) and not filter_obj.value
+                ):
                     continue
 
                 # Обработка FEATURES
@@ -224,7 +228,9 @@ class CatalogFeedFilter:
             try:
                 self._value = self._property_type(new_value)
             except (ValueError, TypeError):
-                raise TypeError(f"Value must be of type {self._property_type.__name__}") from None
+                raise TypeError(
+                    f"Value must be of type {self._property_type.__name__}"
+                ) from None
 
         @property
         def hidden_key(self) -> str:
@@ -238,7 +244,7 @@ class CatalogFeedFilter:
 
         def __repr__(self):
             return f"{self.hidden_key}: {self.property_type.__name__} = {self.value}"
-        
+
         def __set__(self, instance, value):
             self.value = value
 
@@ -252,7 +258,7 @@ class CatalogFeedFilter:
 
         def add(self, key: str, value: str):
             """Добавляет новую особенность в FEATURES.
-            
+
             Args:
                 key: Ключ особенности (например, "brand")
                 value: Значение особенности (например, "Nike")
@@ -265,7 +271,7 @@ class CatalogFeedFilter:
 
         def remove(self, key: str, value: str):
             """Удаляет особенность из FEATURES.
-            
+
             Args:
                 key: Ключ особенности для удаления
                 value: Значение особенности для удаления
@@ -277,16 +283,22 @@ class CatalogFeedFilter:
 
         def to_list(self) -> list[dict[str, str]]:
             """Конвертирует структуру FEATURES в список словарей для API."""
-            return [{"key": k, "value": v} for k, values in self._value.items() for v in values]
+            return [
+                {"key": k, "value": v}
+                for k, values in self._value.items()
+                for v in values
+            ]
 
         def __repr__(self):
             return str(self._value)
-        
+
         def __set__(self, instance, value):
-            raise AttributeError(f"{self.hidden_key} не может быть изменён напрямую. Используйте add() и remove()")
+            raise AttributeError(
+                f"{self.hidden_key} не может быть изменён напрямую. Используйте add() и remove()"
+            )
 
     # Определение фильтров с использованием дескриптора
-    CATEGORY_ID = Filter(-1, int, "category") # 1389 - "Фрукты, овощи: акции и скидки"
+    CATEGORY_ID = Filter(-1, int, "category")  # 1389 - "Фрукты, овощи: акции и скидки"
     """ID категорий бывают 2 видов - главные и дочерние. По сути они имеют одинаковый и равный статус для системы."""
 
     PROMO_LISTING = Filter(-1, int, "promoListing")
@@ -325,56 +337,77 @@ class CatalogFeedFilter:
     внутри такого словаря так же будет `enumList` содержащий массив словарей с доступными значениями фильтра в `value`.
     """
 
+
 class SortOption:
     """Базовый класс для создания опций сортировки с направлениями ASC/DESC."""
+
     def __init__(self, order_by: str):
         self.ASC = {"orderBy": order_by, "orderDirection": "asc"}
         self.DESC = {"orderBy": order_by, "orderDirection": "desc"}
 
+
 class CatalogFeedSort:
     """Опции сортировки для фидов каталога товаров."""
+
     Price = SortOption("price")
     """Сортировка по цене"""
-    
+
     Popularity = SortOption("popularity")
     """Сортировка по популярности"""
-    
+
     Discount = SortOption("discount")
     """Сортировка по размеру скидки"""
-    
+
     Rating = SortOption("rating")
     """Сортировка по рейтингу"""
-    
+
     Recommended = SortOption("popularity_without_manual")
     """Рекомендуемая сортировка (популярность без ручной настройки)"""
 
+
 class GeolocationPointSort:
     """Опции сортировки для точек геолокации."""
+
     Distance = SortOption("distance")
     """Сортировка по расстоянию"""
 
+
 class Geoposition:
     """Класс для работы с географическими координатами.
-    
+
     Поддерживает несколько форматов инициализации:
     - Отдельные именованные параметры latitude/longitude
     - Список/кортеж coordinates [долгота, широта] (стандарт Перекрёстка)
     - Два отдельных float аргумента [широта, долгота] (мировой стандарт)
-    
+
     Note:
         При передаче координат через кортеж/массив, они идут как [долгота, широта] (стандарт для ответов от Перекрестка).
         При передаче как отдельных неименованных параметров, они идут как [широта, долгота] (стандарт для мира).
     """
 
-    def __init__(self, *args: list | tuple, longitude: float = None, latitude: float = None, coordinates: list | tuple = None):
-        if coordinates and isinstance(coordinates, (list, tuple)) and len(coordinates) == 2:
+    def __init__(
+        self,
+        *args: list | tuple,
+        longitude: float = None,
+        latitude: float = None,
+        coordinates: list | tuple = None,
+    ):
+        if (
+            coordinates
+            and isinstance(coordinates, (list, tuple))
+            and len(coordinates) == 2
+        ):
             self.longitude, self.latitude = coordinates
         elif latitude is not None and longitude is not None:
             self.latitude = latitude
             self.longitude = longitude
-        elif len(args) == 1 and isinstance(args[0], (list, tuple)) and len(args[0]) == 2:
+        elif (
+            len(args) == 1 and isinstance(args[0], (list, tuple)) and len(args[0]) == 2
+        ):
             self.longitude, self.latitude = args[0]
         elif len(args) == 2 and all(isinstance(arg, float) for arg in args):
             self.latitude, self.longitude = args
         else:
-            raise ValueError("Provide either two floats or a list/tuple with two elements [longitude, latitude], or named parameters.")
+            raise ValueError(
+                "Provide either two floats or a list/tuple with two elements [longitude, latitude], or named parameters."
+            )
