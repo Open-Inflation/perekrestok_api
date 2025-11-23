@@ -10,508 +10,21 @@
     "items": [
       {
         "liked": false,
+        "recSysRecommendationRequestId": null,
         "borderStyle": null,
         "bestReview": null,
         "advToken": null,
-        "id": 336511,
+        "id": 43653,
         "masterData": {
-          "slug": "zelatin-pisevoj-pr-st-20g",
-          "plu": "4236371",
+          "slug": "karamel-chupa-chups-fruit-tella-17g",
+          "plu": "33015",
           "unit": 1,
           "unitName": "шт",
           "quantum": 1000,
           "quantumStep": 1000,
-          "weight": 20,
+          "weight": 17,
           "volume": null,
-          "ui4code": "FD0223002",
-          "taxGroup": "BL",
-          "ownProduction": false,
-          "privateLabel": true,
-          "isMark": false,
-          "alcoSetUnits": null,
-          "activeNds": 20
-        },
-        "title": "Желатин пищевой Пр!ст, 20г",
-        "primaryCategory": {
-          "id": 396,
-          "title": "Мука, дрожжи",
-          "slug": "muka-drozzi",
-          "isAlcohol": false,
-          "isTobacco": false,
-          "isExciseAlcohol": false,
-          "isAdultContent": false,
-          "displayStyle": 2,
-          "catalogs": [
-            2,
-            4
-          ]
-        },
-        "catalogPrimaryCategory": {
-          "id": 102,
-          "title": "Компоненты для выпечки",
-          "slug": "komponenty-dla-vypecki",
-          "isAlcohol": false,
-          "isTobacco": false,
-          "isExciseAlcohol": false,
-          "isAdultContent": false,
-          "displayStyle": 2,
-          "catalogs": [
-            1
-          ]
-        },
-        "image": {
-          "id": 1503825,
-          "originName": "Шаблон.jpg",
-          "fileType": "image",
-          "fileSize": 1237394,
-          "width": 1600,
-          "height": 1600,
-          "cropUrlTemplate": "https://tsx.x5static.net/i/%s/xdelivery/files/df/5e/81c2f243f830ef8e0c55798d2a61.jpg",
-          "publicUrl": null,
-          "uuid": "f2743aa9-266c-44bb-8e51-ed0eaac3c8cc"
-        },
-        "rating": 493,
-        "medianPrice": 4599,
-        "labelCharacteristics": [],
-        "labels": [
-          {
-            "listingImage": {
-              "id": 882965,
-              "originName": "Тип=Богат протеином.png",
-              "fileType": "image",
-              "fileSize": 7336,
-              "width": 512,
-              "height": 512,
-              "cropUrlTemplate": "https://tsx.x5static.net/i/%s/xdelivery/files/22/4a/7a5eec351e5fdde07bb027fb66d5.png",
-              "publicUrl": null,
-              "uuid": "7f95a4b5-1c14-4b9b-9ca9-1d2fd5a4f5d6"
-            }
-          }
-        ],
-        "reviewCount": 144,
-        "ratingCount": 1878,
-        "priceTag": {
-          "price": 4599,
-          "discountMinimumAmount": 0,
-          "grossPrice": null,
-          "labels": [],
-          "pricePerQuantum": null,
-          "grossPricePerQuantum": null,
-          "potentialPointsForOrangeCard": null
-        },
-        "balanceState": "many"
-      },
-      {
-        "liked": false,
-        "borderStyle": null,
-        "bestReview": null,
-        "advToken": null,
-        "id": 336627,
-        "masterData": {
-          "slug": "kislota-limonnaa-pr-st-250g",
-          "plu": "4236367",
-          "unit": 1,
-          "unitName": "шт",
-          "quantum": 1000,
-          "quantumStep": 1000,
-          "weight": 250,
-          "volume": null,
-          "ui4code": "FD0223005",
-          "taxGroup": "BL",
-          "ownProduction": false,
-          "privateLabel": true,
-          "isMark": false,
-          "alcoSetUnits": null,
-          "activeNds": 20
-        },
-        "title": "Кислота лимонная Пр!ст, 250г",
-        "primaryCategory": {
-          "id": 396,
-          "title": "Мука, дрожжи",
-          "slug": "muka-drozzi",
-          "isAlcohol": false,
-          "isTobacco": false,
-          "isExciseAlcohol": false,
-          "isAdultContent": false,
-          "displayStyle": 2,
-          "catalogs": [
-            2,
-            4
-          ]
-        },
-        "catalogPrimaryCategory": {
-          "id": 102,
-          "title": "Компоненты для выпечки",
-          "slug": "komponenty-dla-vypecki",
-          "isAlcohol": false,
-          "isTobacco": false,
-          "isExciseAlcohol": false,
-          "isAdultContent": false,
-          "displayStyle": 2,
-          "catalogs": [
-            1
-          ]
-        },
-        "image": {
-          "id": 836942,
-          "originName": "4236367_0.jpg",
-          "fileType": "image",
-          "fileSize": 1389885,
-          "width": 1600,
-          "height": 1600,
-          "cropUrlTemplate": "https://tsx.x5static.net/i/%s/xdelivery/files/f6/0b/a8df3c60d74511a8ab3b8c2e4dd9.jpg",
-          "publicUrl": null,
-          "uuid": "fe0f1df9-3ddd-470c-918f-773658da54af"
-        },
-        "rating": 498,
-        "medianPrice": 12999,
-        "labelCharacteristics": [],
-        "labels": [],
-        "reviewCount": 260,
-        "ratingCount": 4803,
-        "priceTag": {
-          "price": 12999,
-          "discountMinimumAmount": 0,
-          "grossPrice": null,
-          "labels": [],
-          "pricePerQuantum": null,
-          "grossPricePerQuantum": null,
-          "potentialPointsForOrangeCard": null
-        },
-        "balanceState": "many"
-      },
-      {
-        "liked": false,
-        "borderStyle": null,
-        "bestReview": null,
-        "advToken": null,
-        "id": 345183,
-        "masterData": {
-          "slug": "struzka-kokosovaa-vysusennaa-pr-st-80g",
-          "plu": "4236369",
-          "unit": 1,
-          "unitName": "шт",
-          "quantum": 1000,
-          "quantumStep": 1000,
-          "weight": 80,
-          "volume": null,
-          "ui4code": "FD0223005",
-          "taxGroup": "BL",
-          "ownProduction": false,
-          "privateLabel": true,
-          "isMark": false,
-          "alcoSetUnits": null,
-          "activeNds": 20
-        },
-        "title": "Стружка кокосовая высушенная Пр!ст, 80г",
-        "primaryCategory": {
-          "id": 396,
-          "title": "Мука, дрожжи",
-          "slug": "muka-drozzi",
-          "isAlcohol": false,
-          "isTobacco": false,
-          "isExciseAlcohol": false,
-          "isAdultContent": false,
-          "displayStyle": 2,
-          "catalogs": [
-            2,
-            4
-          ]
-        },
-        "catalogPrimaryCategory": {
-          "id": 102,
-          "title": "Компоненты для выпечки",
-          "slug": "komponenty-dla-vypecki",
-          "isAlcohol": false,
-          "isTobacco": false,
-          "isExciseAlcohol": false,
-          "isAdultContent": false,
-          "displayStyle": 2,
-          "catalogs": [
-            1
-          ]
-        },
-        "image": {
-          "id": 1034605,
-          "originName": "4236369_1.jpg",
-          "fileType": "image",
-          "fileSize": 923673,
-          "width": 1600,
-          "height": 1600,
-          "cropUrlTemplate": "https://tsx.x5static.net/i/%s/xdelivery/files/68/fa/770xdc1aabd75530ef3f3c9c8ca0.jpg",
-          "publicUrl": null,
-          "uuid": "503b663b-2efe-4079-8d93-35ecd8e129f2"
-        },
-        "rating": 493,
-        "medianPrice": 7999,
-        "labelCharacteristics": [],
-        "labels": [],
-        "reviewCount": 174,
-        "ratingCount": 2131,
-        "priceTag": {
-          "price": 7999,
-          "discountMinimumAmount": 0,
-          "grossPrice": null,
-          "labels": [],
-          "pricePerQuantum": null,
-          "grossPricePerQuantum": null,
-          "potentialPointsForOrangeCard": null
-        },
-        "balanceState": "many"
-      },
-      {
-        "liked": false,
-        "borderStyle": null,
-        "bestReview": null,
-        "advToken": null,
-        "id": 362516,
-        "masterData": {
-          "slug": "pudra-saharnaa-pr-st-230g",
-          "plu": "4255400",
-          "unit": 1,
-          "unitName": "шт",
-          "quantum": 1000,
-          "quantumStep": 1000,
-          "weight": 230,
-          "volume": null,
-          "ui4code": "FD0223005",
-          "taxGroup": "BB",
-          "ownProduction": false,
-          "privateLabel": true,
-          "isMark": false,
-          "alcoSetUnits": null,
-          "activeNds": 10
-        },
-        "title": "Пудра сахарная Пр!ст, 230г",
-        "primaryCategory": {
-          "id": 396,
-          "title": "Мука, дрожжи",
-          "slug": "muka-drozzi",
-          "isAlcohol": false,
-          "isTobacco": false,
-          "isExciseAlcohol": false,
-          "isAdultContent": false,
-          "displayStyle": 2,
-          "catalogs": [
-            2,
-            4
-          ]
-        },
-        "catalogPrimaryCategory": {
-          "id": 102,
-          "title": "Компоненты для выпечки",
-          "slug": "komponenty-dla-vypecki",
-          "isAlcohol": false,
-          "isTobacco": false,
-          "isExciseAlcohol": false,
-          "isAdultContent": false,
-          "displayStyle": 2,
-          "catalogs": [
-            1
-          ]
-        },
-        "image": {
-          "id": 976932,
-          "originName": "4255400_1.jpg",
-          "fileType": "image",
-          "fileSize": 1678585,
-          "width": 1600,
-          "height": 1600,
-          "cropUrlTemplate": "https://tsx.x5static.net/i/%s/xdelivery/files/93/fb/xdc9b805d8a11c0ce11fbf3158a6.jpg",
-          "publicUrl": null,
-          "uuid": "3a0d83f0-4b1a-44eb-8c18-1c9498cdcd8a"
-        },
-        "rating": 496,
-        "medianPrice": 5999,
-        "labelCharacteristics": [],
-        "labels": [],
-        "reviewCount": 305,
-        "ratingCount": 4742,
-        "priceTag": {
-          "price": 6299,
-          "discountMinimumAmount": 0,
-          "grossPrice": null,
-          "labels": [],
-          "pricePerQuantum": null,
-          "grossPricePerQuantum": null,
-          "potentialPointsForOrangeCard": null
-        },
-        "balanceState": "many"
-      },
-      {
-        "liked": false,
-        "borderStyle": null,
-        "bestReview": null,
-        "advToken": null,
-        "id": 375161,
-        "masterData": {
-          "slug": "krahmal-kukuruznyj-pr-st-200g",
-          "plu": "4268659",
-          "unit": 1,
-          "unitName": "шт",
-          "quantum": 1000,
-          "quantumStep": 1000,
-          "weight": 200,
-          "volume": null,
-          "ui4code": "FD0223003",
-          "taxGroup": "BL",
-          "ownProduction": false,
-          "privateLabel": true,
-          "isMark": false,
-          "alcoSetUnits": null,
-          "activeNds": 20
-        },
-        "title": "Крахмал кукурузный Пр!ст, 200г",
-        "primaryCategory": {
-          "id": 396,
-          "title": "Мука, дрожжи",
-          "slug": "muka-drozzi",
-          "isAlcohol": false,
-          "isTobacco": false,
-          "isExciseAlcohol": false,
-          "isAdultContent": false,
-          "displayStyle": 2,
-          "catalogs": [
-            2,
-            4
-          ]
-        },
-        "catalogPrimaryCategory": {
-          "id": 102,
-          "title": "Компоненты для выпечки",
-          "slug": "komponenty-dla-vypecki",
-          "isAlcohol": false,
-          "isTobacco": false,
-          "isExciseAlcohol": false,
-          "isAdultContent": false,
-          "displayStyle": 2,
-          "catalogs": [
-            1
-          ]
-        },
-        "image": {
-          "id": 1061384,
-          "originName": "4268659.jpg",
-          "fileType": "image",
-          "fileSize": 846755,
-          "width": 1600,
-          "height": 1600,
-          "cropUrlTemplate": "https://tsx.x5static.net/i/%s/xdelivery/files/db/31/eb36d83447f62c07dc67e8cbbc19.jpg",
-          "publicUrl": null,
-          "uuid": "735654f1-21f3-4f3d-a938-0a25c32063ae"
-        },
-        "rating": 497,
-        "medianPrice": 4599,
-        "labelCharacteristics": [],
-        "labels": [],
-        "reviewCount": 326,
-        "ratingCount": 5267,
-        "priceTag": {
-          "price": 4599,
-          "discountMinimumAmount": 0,
-          "grossPrice": null,
-          "labels": [],
-          "pricePerQuantum": null,
-          "grossPricePerQuantum": null,
-          "potentialPointsForOrangeCard": null
-        },
-        "balanceState": "many"
-      },
-      {
-        "liked": false,
-        "borderStyle": null,
-        "bestReview": null,
-        "advToken": null,
-        "id": 375162,
-        "masterData": {
-          "slug": "krahmal-kartofelnyj-pr-st-200g",
-          "plu": "4268660",
-          "unit": 1,
-          "unitName": "шт",
-          "quantum": 1000,
-          "quantumStep": 1000,
-          "weight": 200,
-          "volume": null,
-          "ui4code": "FD0223003",
-          "taxGroup": "BL",
-          "ownProduction": false,
-          "privateLabel": true,
-          "isMark": false,
-          "alcoSetUnits": null,
-          "activeNds": 20
-        },
-        "title": "Крахмал картофельный Пр!ст, 200г",
-        "primaryCategory": {
-          "id": 396,
-          "title": "Мука, дрожжи",
-          "slug": "muka-drozzi",
-          "isAlcohol": false,
-          "isTobacco": false,
-          "isExciseAlcohol": false,
-          "isAdultContent": false,
-          "displayStyle": 2,
-          "catalogs": [
-            2,
-            4
-          ]
-        },
-        "catalogPrimaryCategory": {
-          "id": 102,
-          "title": "Компоненты для выпечки",
-          "slug": "komponenty-dla-vypecki",
-          "isAlcohol": false,
-          "isTobacco": false,
-          "isExciseAlcohol": false,
-          "isAdultContent": false,
-          "displayStyle": 2,
-          "catalogs": [
-            1
-          ]
-        },
-        "image": {
-          "id": 1061386,
-          "originName": "4268660.jpg",
-          "fileType": "image",
-          "fileSize": 828205,
-          "width": 1600,
-          "height": 1600,
-          "cropUrlTemplate": "https://tsx.x5static.net/i/%s/xdelivery/files/55/7a/153c89df7f99957c3aaf473a0438.jpg",
-          "publicUrl": null,
-          "uuid": "c00be40d-0e14-4b46-96ee-4f327f147da1"
-        },
-        "rating": 495,
-        "medianPrice": 6199,
-        "labelCharacteristics": [],
-        "labels": [],
-        "reviewCount": 130,
-        "ratingCount": 2273,
-        "priceTag": {
-          "price": 6199,
-          "discountMinimumAmount": 0,
-          "grossPrice": null,
-          "labels": [],
-          "pricePerQuantum": null,
-          "grossPricePerQuantum": null,
-          "potentialPointsForOrangeCard": null
-        },
-        "balanceState": "many"
-      },
-      {
-        "liked": false,
-        "borderStyle": null,
-        "bestReview": null,
-        "advToken": null,
-        "id": 19168,
-        "masterData": {
-          "slug": "drozzi-suhie-saf-moment-bystrodejstvuusie-hlebopekarnye-11g",
-          "plu": "17366",
-          "unit": 1,
-          "unitName": "шт",
-          "quantum": 1000,
-          "quantumStep": 1000,
-          "weight": 11,
-          "volume": null,
-          "ui4code": "FD0223001",
+          "ui4code": "FD0606003",
           "taxGroup": "BL",
           "ownProduction": false,
           "privateLabel": false,
@@ -519,11 +32,11 @@
           "alcoSetUnits": null,
           "activeNds": 20
         },
-        "title": "Дрожжи сухие Саф-Момент быстродействующие хлебопекарные, 11г",
+        "title": "Карамель Chupa Chups Fruit-tella, 17г",
         "primaryCategory": {
-          "id": 396,
-          "title": "Мука, дрожжи",
-          "slug": "muka-drozzi",
+          "id": 402,
+          "title": "Шоколад, конфеты",
+          "slug": "sokolad-konfety",
           "isAlcohol": false,
           "isTobacco": false,
           "isExciseAlcohol": false,
@@ -531,13 +44,14 @@
           "displayStyle": 2,
           "catalogs": [
             2,
+            3,
             4
           ]
         },
         "catalogPrimaryCategory": {
-          "id": 102,
-          "title": "Компоненты для выпечки",
-          "slug": "komponenty-dla-vypecki",
+          "id": 193,
+          "title": "Конфеты",
+          "slug": "konfety",
           "isAlcohol": false,
           "isTobacco": false,
           "isExciseAlcohol": false,
@@ -548,30 +62,30 @@
           ]
         },
         "image": {
-          "id": 478914,
-          "originName": "17366_0.jpg",
+          "id": 2618130,
+          "originName": "remote_upl_68e6ecfdd069d8.54660015",
           "fileType": "image",
-          "fileSize": 150740,
-          "width": 1600,
-          "height": 1600,
-          "cropUrlTemplate": "https://tsx.x5static.net/i/%s/xdelivery/files/80/57/4d6c1cbaae919c931c3624cfc503.jpg",
+          "fileSize": 50034,
+          "width": 800,
+          "height": 800,
+          "cropUrlTemplate": "https://tsx.x5static.net/i/%s/xdelivery/files/5e/ed/edbe47fb7c7464b9e05f842dd4d7.jpg",
           "publicUrl": null,
-          "uuid": "603629b4-6c0b-4ce2-86ef-30104f153cf5"
+          "uuid": "dfea1ec4-7a4b-474d-b4d6-10c5d9b21b83"
         },
-        "rating": 497,
+        "rating": 492,
         "medianPrice": 1999,
         "labelCharacteristics": [],
         "labels": [],
-        "reviewCount": 345,
-        "ratingCount": 10516,
+        "reviewCount": 161,
+        "ratingCount": 8548,
         "priceTag": {
           "price": 1999,
           "discountMinimumAmount": 0,
-          "grossPrice": 2999,
+          "grossPrice": 2399,
           "labels": [
             {
               "type": "yellow",
-              "text": "-33%"
+              "text": "-16%"
             }
           ],
           "pricePerQuantum": null,
@@ -582,32 +96,33 @@
       },
       {
         "liked": false,
+        "recSysRecommendationRequestId": null,
         "borderStyle": null,
         "bestReview": null,
         "advToken": null,
-        "id": 19233,
+        "id": 43692,
         "masterData": {
-          "slug": "muka-makfa-vyssego-sorta-2kg",
-          "plu": "91304",
+          "slug": "karamel-chupa-chups-ekzotik-tropik-s-naturalnym-sokom-12g",
+          "plu": "17885",
           "unit": 1,
           "unitName": "шт",
           "quantum": 1000,
           "quantumStep": 1000,
-          "weight": 2000,
+          "weight": 12,
           "volume": null,
-          "ui4code": "FD0213002",
-          "taxGroup": "BB",
+          "ui4code": "FD0606003",
+          "taxGroup": "BL",
           "ownProduction": false,
           "privateLabel": false,
           "isMark": false,
           "alcoSetUnits": null,
-          "activeNds": 10
+          "activeNds": 20
         },
-        "title": "Мука Makfa высшего сорта, 2кг",
+        "title": "Карамель Chupa Chups Экзотик Тропик с натуральным соком, 12г",
         "primaryCategory": {
-          "id": 396,
-          "title": "Мука, дрожжи",
-          "slug": "muka-drozzi",
+          "id": 402,
+          "title": "Шоколад, конфеты",
+          "slug": "sokolad-konfety",
           "isAlcohol": false,
           "isTobacco": false,
           "isExciseAlcohol": false,
@@ -615,13 +130,14 @@
           "displayStyle": 2,
           "catalogs": [
             2,
+            3,
             4
           ]
         },
         "catalogPrimaryCategory": {
-          "id": 106,
-          "title": "Мука",
-          "slug": "muka",
+          "id": 193,
+          "title": "Конфеты",
+          "slug": "konfety",
           "isAlcohol": false,
           "isTobacco": false,
           "isExciseAlcohol": false,
@@ -632,26 +148,365 @@
           ]
         },
         "image": {
-          "id": 1071056,
-          "originName": "91304_1.jpg",
+          "id": 2597453,
+          "originName": "remote_upl_68e4ba7e700de4.82238379",
           "fileType": "image",
-          "fileSize": 675835,
-          "width": 1600,
-          "height": 1600,
-          "cropUrlTemplate": "https://tsx.x5static.net/i/%s/xdelivery/files/ac/80/9334aa53719d324aed667b238d2c.jpg",
+          "fileSize": 29971,
+          "width": 800,
+          "height": 800,
+          "cropUrlTemplate": "https://tsx.x5static.net/i/%s/xdelivery/files/df/dc/951e5423ce5ffe2affbdd93fcb80.jpg",
           "publicUrl": null,
-          "uuid": "f390a62c-bbf9-448e-926f-b3f4aec13bd4"
+          "uuid": "f3980ed3-8e61-428d-b3a2-0b4e385175ee"
         },
-        "rating": 497,
-        "medianPrice": 12599,
+        "rating": 492,
+        "medianPrice": 1699,
         "labelCharacteristics": [],
         "labels": [],
-        "reviewCount": 775,
-        "ratingCount": 28882,
+        "reviewCount": 288,
+        "ratingCount": 12588,
         "priceTag": {
-          "price": 12599,
+          "price": 1699,
           "discountMinimumAmount": 0,
-          "grossPrice": 14499,
+          "grossPrice": null,
+          "labels": [],
+          "pricePerQuantum": null,
+          "grossPricePerQuantum": null,
+          "potentialPointsForOrangeCard": null
+        },
+        "balanceState": "many"
+      },
+      {
+        "liked": false,
+        "recSysRecommendationRequestId": null,
+        "borderStyle": null,
+        "bestReview": null,
+        "advToken": null,
+        "id": 43715,
+        "masterData": {
+          "slug": "karamel-chupa-chups-xxl-trio-s-zevatelnoj-rezinkoj-29g",
+          "plu": "59117",
+          "unit": 1,
+          "unitName": "шт",
+          "quantum": 1000,
+          "quantumStep": 1000,
+          "weight": 29,
+          "volume": null,
+          "ui4code": "FD0606003",
+          "taxGroup": "BL",
+          "ownProduction": false,
+          "privateLabel": false,
+          "isMark": false,
+          "alcoSetUnits": null,
+          "activeNds": 20
+        },
+        "title": "Карамель Chupa Chups XXL Trio с жевательной резинкой, 29г",
+        "primaryCategory": {
+          "id": 402,
+          "title": "Шоколад, конфеты",
+          "slug": "sokolad-konfety",
+          "isAlcohol": false,
+          "isTobacco": false,
+          "isExciseAlcohol": false,
+          "isAdultContent": false,
+          "displayStyle": 2,
+          "catalogs": [
+            2,
+            3,
+            4
+          ]
+        },
+        "catalogPrimaryCategory": {
+          "id": 193,
+          "title": "Конфеты",
+          "slug": "konfety",
+          "isAlcohol": false,
+          "isTobacco": false,
+          "isExciseAlcohol": false,
+          "isAdultContent": false,
+          "displayStyle": 2,
+          "catalogs": [
+            1
+          ]
+        },
+        "image": {
+          "id": 2619965,
+          "originName": "remote_upl_68e6ecfdd56416.52582316",
+          "fileType": "image",
+          "fileSize": 32419,
+          "width": 800,
+          "height": 800,
+          "cropUrlTemplate": "https://tsx.x5static.net/i/%s/xdelivery/files/19/2b/85b7df74f07652759eb3abdac45b.jpg",
+          "publicUrl": null,
+          "uuid": "69d95f40-9177-48ee-afa3-99ef32ed8179"
+        },
+        "rating": 491,
+        "medianPrice": 4399,
+        "labelCharacteristics": [],
+        "labels": [],
+        "reviewCount": 112,
+        "ratingCount": 7514,
+        "priceTag": {
+          "price": 4599,
+          "discountMinimumAmount": 0,
+          "grossPrice": 5199,
+          "labels": [
+            {
+              "type": "yellow",
+              "text": "-11%"
+            }
+          ],
+          "pricePerQuantum": null,
+          "grossPricePerQuantum": null,
+          "potentialPointsForOrangeCard": null
+        },
+        "balanceState": "many"
+      },
+      {
+        "liked": false,
+        "recSysRecommendationRequestId": null,
+        "borderStyle": null,
+        "bestReview": null,
+        "advToken": null,
+        "id": 45195,
+        "masterData": {
+          "slug": "karamel-chupa-chups-so-vkusom-klubniki-725g",
+          "plu": "2037567",
+          "unit": 1,
+          "unitName": "шт",
+          "quantum": 1000,
+          "quantumStep": 1000,
+          "weight": 725,
+          "volume": null,
+          "ui4code": "FD0606003",
+          "taxGroup": "BL",
+          "ownProduction": false,
+          "privateLabel": false,
+          "isMark": false,
+          "alcoSetUnits": null,
+          "activeNds": 20
+        },
+        "title": "Карамель Chupa Chups со вкусом клубники, 725г",
+        "primaryCategory": {
+          "id": 402,
+          "title": "Шоколад, конфеты",
+          "slug": "sokolad-konfety",
+          "isAlcohol": false,
+          "isTobacco": false,
+          "isExciseAlcohol": false,
+          "isAdultContent": false,
+          "displayStyle": 2,
+          "catalogs": [
+            2,
+            3,
+            4
+          ]
+        },
+        "catalogPrimaryCategory": {
+          "id": 193,
+          "title": "Конфеты",
+          "slug": "konfety",
+          "isAlcohol": false,
+          "isTobacco": false,
+          "isExciseAlcohol": false,
+          "isAdultContent": false,
+          "displayStyle": 2,
+          "catalogs": [
+            1
+          ]
+        },
+        "image": {
+          "id": 2617625,
+          "originName": "remote_upl_68e6ecf83f1208.62882687",
+          "fileType": "image",
+          "fileSize": 38192,
+          "width": 800,
+          "height": 800,
+          "cropUrlTemplate": "https://tsx.x5static.net/i/%s/xdelivery/files/57/23/09b64e88fa2bac8d2d277be4fe03.jpg",
+          "publicUrl": null,
+          "uuid": "94b78e30-4b2e-4279-84a8-fbdb9892b89d"
+        },
+        "rating": 483,
+        "medianPrice": 139999,
+        "labelCharacteristics": [],
+        "labels": [],
+        "reviewCount": 12,
+        "ratingCount": 325,
+        "priceTag": {
+          "price": 139999,
+          "discountMinimumAmount": 0,
+          "grossPrice": 169900,
+          "labels": [
+            {
+              "type": "yellow",
+              "text": "-17%"
+            }
+          ],
+          "pricePerQuantum": null,
+          "grossPricePerQuantum": null,
+          "potentialPointsForOrangeCard": null
+        },
+        "balanceState": "many"
+      },
+      {
+        "liked": false,
+        "recSysRecommendationRequestId": null,
+        "borderStyle": null,
+        "bestReview": null,
+        "advToken": null,
+        "id": 61257,
+        "masterData": {
+          "slug": "karamel-chupa-chups-mini-assorti-vkusov-90g",
+          "plu": "3505733",
+          "unit": 1,
+          "unitName": "шт",
+          "quantum": 1000,
+          "quantumStep": 1000,
+          "weight": 90,
+          "volume": null,
+          "ui4code": "FD0606003",
+          "taxGroup": "BL",
+          "ownProduction": false,
+          "privateLabel": false,
+          "isMark": false,
+          "alcoSetUnits": null,
+          "activeNds": 20
+        },
+        "title": "Карамель Chupa Chups Mini ассорти вкусов, 90г",
+        "primaryCategory": {
+          "id": 402,
+          "title": "Шоколад, конфеты",
+          "slug": "sokolad-konfety",
+          "isAlcohol": false,
+          "isTobacco": false,
+          "isExciseAlcohol": false,
+          "isAdultContent": false,
+          "displayStyle": 2,
+          "catalogs": [
+            2,
+            3,
+            4
+          ]
+        },
+        "catalogPrimaryCategory": {
+          "id": 193,
+          "title": "Конфеты",
+          "slug": "konfety",
+          "isAlcohol": false,
+          "isTobacco": false,
+          "isExciseAlcohol": false,
+          "isAdultContent": false,
+          "displayStyle": 2,
+          "catalogs": [
+            1
+          ]
+        },
+        "image": {
+          "id": 2618790,
+          "originName": "remote_upl_68e6ecfedb0112.47303373",
+          "fileType": "image",
+          "fileSize": 116238,
+          "width": 800,
+          "height": 800,
+          "cropUrlTemplate": "https://tsx.x5static.net/i/%s/xdelivery/files/81/49/3d0490311b4fd3f05d72c49dd4b6.jpg",
+          "publicUrl": null,
+          "uuid": "26224859-6e4e-4ce9-80c0-8a59a6408c07"
+        },
+        "rating": 494,
+        "medianPrice": 9399,
+        "labelCharacteristics": [],
+        "labels": [],
+        "reviewCount": 73,
+        "ratingCount": 2885,
+        "priceTag": {
+          "price": 9399,
+          "discountMinimumAmount": 0,
+          "grossPrice": 10999,
+          "labels": [
+            {
+              "type": "yellow",
+              "text": "-14%"
+            }
+          ],
+          "pricePerQuantum": null,
+          "grossPricePerQuantum": null,
+          "potentialPointsForOrangeCard": null
+        },
+        "balanceState": "many"
+      },
+      {
+        "liked": false,
+        "recSysRecommendationRequestId": null,
+        "borderStyle": null,
+        "bestReview": null,
+        "advToken": null,
+        "id": 61728,
+        "masterData": {
+          "slug": "karamel-chupa-chups-mini-assorti-vkusov-klubniki-abloka-apelsina-koly",
+          "plu": "3690389",
+          "unit": 2,
+          "unitName": "кг",
+          "quantum": 100,
+          "quantumStep": 300,
+          "weight": null,
+          "volume": null,
+          "ui4code": "FD0606010",
+          "taxGroup": "BL",
+          "ownProduction": false,
+          "privateLabel": false,
+          "isMark": false,
+          "alcoSetUnits": null,
+          "activeNds": 20
+        },
+        "title": "Карамель Chupa Chups Мини ассорти вкусов клубники-яблока-апельсина-колы",
+        "primaryCategory": {
+          "id": 402,
+          "title": "Шоколад, конфеты",
+          "slug": "sokolad-konfety",
+          "isAlcohol": false,
+          "isTobacco": false,
+          "isExciseAlcohol": false,
+          "isAdultContent": false,
+          "displayStyle": 2,
+          "catalogs": [
+            2,
+            3,
+            4
+          ]
+        },
+        "catalogPrimaryCategory": {
+          "id": 193,
+          "title": "Конфеты",
+          "slug": "konfety",
+          "isAlcohol": false,
+          "isTobacco": false,
+          "isExciseAlcohol": false,
+          "isAdultContent": false,
+          "displayStyle": 2,
+          "catalogs": [
+            1
+          ]
+        },
+        "image": {
+          "id": 2557169,
+          "originName": "remote_upl_68dc60fb61e9a0.03155572",
+          "fileType": "image",
+          "fileSize": 29745,
+          "width": 800,
+          "height": 800,
+          "cropUrlTemplate": "https://tsx.x5static.net/i/%s/xdelivery/files/bc/6e/57c39fce88f9ff7d58c77a1df32b.jpg",
+          "publicUrl": null,
+          "uuid": "8728d39c-6fff-4e2c-bf09-17016912d487"
+        },
+        "rating": 494,
+        "medianPrice": 65990,
+        "labelCharacteristics": [],
+        "labels": [],
+        "reviewCount": 140,
+        "ratingCount": 5541,
+        "priceTag": {
+          "price": 65990,
+          "discountMinimumAmount": 0,
+          "grossPrice": 75990,
           "labels": [
             {
               "type": "yellow",
@@ -666,32 +521,33 @@
       },
       {
         "liked": false,
+        "recSysRecommendationRequestId": null,
         "borderStyle": null,
         "bestReview": null,
         "advToken": null,
-        "id": 19235,
+        "id": 299800,
         "masterData": {
-          "slug": "muka-makfa-psenicnaa-vyssego-sorta-1kg",
-          "plu": "2003107",
+          "slug": "karamel-chupa-chups-tropiceskie-frukty-15g",
+          "plu": "3690030",
           "unit": 1,
           "unitName": "шт",
           "quantum": 1000,
           "quantumStep": 1000,
-          "weight": 1000,
+          "weight": 15,
           "volume": null,
-          "ui4code": "FD0213002",
-          "taxGroup": "BB",
+          "ui4code": "FD0606003",
+          "taxGroup": "BL",
           "ownProduction": false,
           "privateLabel": false,
           "isMark": false,
           "alcoSetUnits": null,
-          "activeNds": 10
+          "activeNds": 20
         },
-        "title": "Мука Makfa пшеничная высшего сорта, 1кг",
+        "title": "Карамель Chupa Chups тропические фрукты, 15г",
         "primaryCategory": {
-          "id": 396,
-          "title": "Мука, дрожжи",
-          "slug": "muka-drozzi",
+          "id": 402,
+          "title": "Шоколад, конфеты",
+          "slug": "sokolad-konfety",
           "isAlcohol": false,
           "isTobacco": false,
           "isExciseAlcohol": false,
@@ -699,13 +555,14 @@
           "displayStyle": 2,
           "catalogs": [
             2,
+            3,
             4
           ]
         },
         "catalogPrimaryCategory": {
-          "id": 106,
-          "title": "Мука",
-          "slug": "muka",
+          "id": 193,
+          "title": "Конфеты",
+          "slug": "konfety",
           "isAlcohol": false,
           "isTobacco": false,
           "isExciseAlcohol": false,
@@ -716,188 +573,30 @@
           ]
         },
         "image": {
-          "id": 1071064,
-          "originName": "2003107_1.jpg",
+          "id": 2632771,
+          "originName": "remote_upl_68eca3795aef11.50505001",
           "fileType": "image",
-          "fileSize": 665717,
-          "width": 1600,
-          "height": 1600,
-          "cropUrlTemplate": "https://tsx.x5static.net/i/%s/xdelivery/files/5c/86/995789a9ceec7db4a65e4e8329e5.jpg",
+          "fileSize": 112644,
+          "width": 800,
+          "height": 800,
+          "cropUrlTemplate": "https://tsx.x5static.net/i/%s/xdelivery/files/9d/fc/5e3cf5c7f729af73a42c42730c51.jpg",
           "publicUrl": null,
-          "uuid": "13a65b4d-fbb0-4b44-a24f-4f6f21a20c63"
+          "uuid": "8cffea7f-d5b0-4611-9596-bf1f9dcb778f"
         },
-        "rating": 497,
-        "medianPrice": 7199,
+        "rating": 490,
+        "medianPrice": 4499,
         "labelCharacteristics": [],
         "labels": [],
-        "reviewCount": 605,
-        "ratingCount": 23130,
+        "reviewCount": 214,
+        "ratingCount": 5042,
         "priceTag": {
-          "price": 6799,
+          "price": 4499,
           "discountMinimumAmount": 0,
-          "grossPrice": null,
-          "labels": [],
-          "pricePerQuantum": null,
-          "grossPricePerQuantum": null,
-          "potentialPointsForOrangeCard": null
-        },
-        "balanceState": "many"
-      },
-      {
-        "liked": false,
-        "borderStyle": null,
-        "bestReview": null,
-        "advToken": null,
-        "id": 19326,
-        "masterData": {
-          "slug": "muka-psenicnaa-2kg",
-          "plu": "3231328",
-          "unit": 1,
-          "unitName": "шт",
-          "quantum": 1000,
-          "quantumStep": 1000,
-          "weight": 2000,
-          "volume": null,
-          "ui4code": "FD0213002",
-          "taxGroup": "BB",
-          "ownProduction": false,
-          "privateLabel": false,
-          "isMark": false,
-          "alcoSetUnits": null,
-          "activeNds": 10
-        },
-        "title": "Мука Пшеничная, 2кг",
-        "primaryCategory": {
-          "id": 396,
-          "title": "Мука, дрожжи",
-          "slug": "muka-drozzi",
-          "isAlcohol": false,
-          "isTobacco": false,
-          "isExciseAlcohol": false,
-          "isAdultContent": false,
-          "displayStyle": 2,
-          "catalogs": [
-            2,
-            4
-          ]
-        },
-        "catalogPrimaryCategory": {
-          "id": 106,
-          "title": "Мука",
-          "slug": "muka",
-          "isAlcohol": false,
-          "isTobacco": false,
-          "isExciseAlcohol": false,
-          "isAdultContent": false,
-          "displayStyle": 2,
-          "catalogs": [
-            1
-          ]
-        },
-        "image": {
-          "id": 623766,
-          "originName": "3231328_0.jpg",
-          "fileType": "image",
-          "fileSize": 1310333,
-          "width": 1600,
-          "height": 1600,
-          "cropUrlTemplate": "https://tsx.x5static.net/i/%s/xdelivery/files/eb/1b/5a2d4687c78d8d7bc41032d7c50c.jpg",
-          "publicUrl": null,
-          "uuid": "d019c91e-102a-4634-ab8a-8fa4221b9abc"
-        },
-        "rating": 487,
-        "medianPrice": 5599,
-        "labelCharacteristics": [],
-        "labels": [],
-        "reviewCount": 521,
-        "ratingCount": 10209,
-        "priceTag": {
-          "price": 5599,
-          "discountMinimumAmount": 0,
-          "grossPrice": null,
-          "labels": [],
-          "pricePerQuantum": null,
-          "grossPricePerQuantum": null,
-          "potentialPointsForOrangeCard": null
-        },
-        "balanceState": "many"
-      },
-      {
-        "liked": false,
-        "borderStyle": null,
-        "bestReview": null,
-        "advToken": null,
-        "id": 19378,
-        "masterData": {
-          "slug": "muka-pysecka-psenicnaa-hlebopekarnaa-vyssego-sorta-2kg",
-          "plu": "8065",
-          "unit": 1,
-          "unitName": "шт",
-          "quantum": 1000,
-          "quantumStep": 1000,
-          "weight": 2000,
-          "volume": null,
-          "ui4code": "FD0213002",
-          "taxGroup": "BB",
-          "ownProduction": false,
-          "privateLabel": false,
-          "isMark": false,
-          "alcoSetUnits": null,
-          "activeNds": 10
-        },
-        "title": "Мука Пышечка пшеничная хлебопекарная высшего сорта, 2кг",
-        "primaryCategory": {
-          "id": 396,
-          "title": "Мука, дрожжи",
-          "slug": "muka-drozzi",
-          "isAlcohol": false,
-          "isTobacco": false,
-          "isExciseAlcohol": false,
-          "isAdultContent": false,
-          "displayStyle": 2,
-          "catalogs": [
-            2,
-            4
-          ]
-        },
-        "catalogPrimaryCategory": {
-          "id": 106,
-          "title": "Мука",
-          "slug": "muka",
-          "isAlcohol": false,
-          "isTobacco": false,
-          "isExciseAlcohol": false,
-          "isAdultContent": false,
-          "displayStyle": 2,
-          "catalogs": [
-            1
-          ]
-        },
-        "image": {
-          "id": 2249827,
-          "originName": "q4M0NfMFHfCnH2N2Uq00yHfNOfH2sm1737447798333.jpg",
-          "fileType": "image",
-          "fileSize": 403722,
-          "width": 1600,
-          "height": 1600,
-          "cropUrlTemplate": "https://tsx.x5static.net/i/%s/xdelivery/files/00/06/4993770f736ed640098f452eaa9c.jpg",
-          "publicUrl": null,
-          "uuid": "c259f97f-133b-41f0-b016-5b5dd7a1831b"
-        },
-        "rating": 496,
-        "medianPrice": 9499,
-        "labelCharacteristics": [],
-        "labels": [],
-        "reviewCount": 116,
-        "ratingCount": 2758,
-        "priceTag": {
-          "price": 9499,
-          "discountMinimumAmount": 0,
-          "grossPrice": 11999,
+          "grossPrice": 5399,
           "labels": [
             {
               "type": "yellow",
-              "text": "-20%"
+              "text": "-16%"
             }
           ],
           "pricePerQuantum": null,
@@ -908,20 +607,21 @@
       },
       {
         "liked": false,
+        "recSysRecommendationRequestId": null,
         "borderStyle": null,
         "bestReview": null,
         "advToken": null,
-        "id": 19498,
+        "id": 374457,
         "masterData": {
-          "slug": "zamenitel-suhih-slivok-mr-slivkin-200g",
-          "plu": "3415102",
+          "slug": "karamel-chupa-chups-the-best-of-120g",
+          "plu": "4272130",
           "unit": 1,
           "unitName": "шт",
           "quantum": 1000,
           "quantumStep": 1000,
-          "weight": 200,
+          "weight": 120,
           "volume": null,
-          "ui4code": "FD0223006",
+          "ui4code": "FD0606003",
           "taxGroup": "BL",
           "ownProduction": false,
           "privateLabel": false,
@@ -929,11 +629,11 @@
           "alcoSetUnits": null,
           "activeNds": 20
         },
-        "title": "Заменитель сухих сливок Mr. Сливкин, 200г",
+        "title": "Карамель Chupa Chups The Best Of, 120г",
         "primaryCategory": {
-          "id": 396,
-          "title": "Мука, дрожжи",
-          "slug": "muka-drozzi",
+          "id": 402,
+          "title": "Шоколад, конфеты",
+          "slug": "sokolad-konfety",
           "isAlcohol": false,
           "isTobacco": false,
           "isExciseAlcohol": false,
@@ -941,13 +641,14 @@
           "displayStyle": 2,
           "catalogs": [
             2,
+            3,
             4
           ]
         },
         "catalogPrimaryCategory": {
-          "id": 102,
-          "title": "Компоненты для выпечки",
-          "slug": "komponenty-dla-vypecki",
+          "id": 193,
+          "title": "Конфеты",
+          "slug": "konfety",
           "isAlcohol": false,
           "isTobacco": false,
           "isExciseAlcohol": false,
@@ -958,27 +659,32 @@
           ]
         },
         "image": {
-          "id": 1239724,
-          "originName": "3415102_1.jpg",
+          "id": 2619371,
+          "originName": "remote_upl_68e6ecfc451903.89628064",
           "fileType": "image",
-          "fileSize": 646741,
-          "width": 1600,
-          "height": 1600,
-          "cropUrlTemplate": "https://tsx.x5static.net/i/%s/xdelivery/files/9a/92/1216ab634796xd92feb384536ca6.jpg",
+          "fileSize": 91944,
+          "width": 800,
+          "height": 800,
+          "cropUrlTemplate": "https://tsx.x5static.net/i/%s/xdelivery/files/6a/41/8f98cc12c0a92544fcc31b3d7c11.jpg",
           "publicUrl": null,
-          "uuid": "f601a0b4-5e7e-421a-ab81-3cbdbf6d45c7"
+          "uuid": "2bd3a1e0-e653-4d46-92df-dc6452967307"
         },
-        "rating": 477,
+        "rating": 493,
         "medianPrice": 12999,
         "labelCharacteristics": [],
         "labels": [],
-        "reviewCount": 36,
-        "ratingCount": 599,
+        "reviewCount": 59,
+        "ratingCount": 953,
         "priceTag": {
-          "price": 13499,
+          "price": 12299,
           "discountMinimumAmount": 0,
           "grossPrice": null,
-          "labels": [],
+          "labels": [
+            {
+              "type": "orange",
+              "text": "Новинка"
+            }
+          ],
           "pricePerQuantum": null,
           "grossPricePerQuantum": null,
           "potentialPointsForOrangeCard": null
@@ -987,99 +693,21 @@
       },
       {
         "liked": false,
+        "recSysRecommendationRequestId": null,
         "borderStyle": null,
         "bestReview": null,
         "advToken": null,
-        "id": 19664,
+        "id": 407123,
         "masterData": {
-          "slug": "mak-konditerskij-100g",
-          "plu": "3393241",
+          "slug": "karamel-chupa-chups-plejlist-vkusov-xxl-v-assortimente-29g",
+          "plu": "4276207",
           "unit": 1,
           "unitName": "шт",
           "quantum": 1000,
           "quantumStep": 1000,
-          "weight": 100,
+          "weight": 29,
           "volume": null,
-          "ui4code": "FD0223005",
-          "taxGroup": "BB",
-          "ownProduction": false,
-          "privateLabel": false,
-          "isMark": false,
-          "alcoSetUnits": null,
-          "activeNds": 10
-        },
-        "title": "Мак кондитерский, 100г",
-        "primaryCategory": {
-          "id": 396,
-          "title": "Мука, дрожжи",
-          "slug": "muka-drozzi",
-          "isAlcohol": false,
-          "isTobacco": false,
-          "isExciseAlcohol": false,
-          "isAdultContent": false,
-          "displayStyle": 2,
-          "catalogs": [
-            2,
-            4
-          ]
-        },
-        "catalogPrimaryCategory": {
-          "id": 102,
-          "title": "Компоненты для выпечки",
-          "slug": "komponenty-dla-vypecki",
-          "isAlcohol": false,
-          "isTobacco": false,
-          "isExciseAlcohol": false,
-          "isAdultContent": false,
-          "displayStyle": 2,
-          "catalogs": [
-            1
-          ]
-        },
-        "image": {
-          "id": 1028501,
-          "originName": "3393241_1.jpg",
-          "fileType": "image",
-          "fileSize": 1507166,
-          "width": 1600,
-          "height": 1600,
-          "cropUrlTemplate": "https://tsx.x5static.net/i/%s/xdelivery/files/da/76/5b266ba3f490f9c58f146140f317.jpg",
-          "publicUrl": null,
-          "uuid": "0c15f0fc-8ba5-4590-93b2-25efe4731c73"
-        },
-        "rating": 494,
-        "medianPrice": 13499,
-        "labelCharacteristics": [],
-        "labels": [],
-        "reviewCount": 45,
-        "ratingCount": 1313,
-        "priceTag": {
-          "price": 13499,
-          "discountMinimumAmount": 0,
-          "grossPrice": null,
-          "labels": [],
-          "pricePerQuantum": null,
-          "grossPricePerQuantum": null,
-          "potentialPointsForOrangeCard": null
-        },
-        "balanceState": "many"
-      },
-      {
-        "liked": false,
-        "borderStyle": null,
-        "bestReview": null,
-        "advToken": null,
-        "id": 19760,
-        "masterData": {
-          "slug": "korzi-dla-torta-ceroka-napoleon-sloenye-300g",
-          "plu": "3411543",
-          "unit": 1,
-          "unitName": "шт",
-          "quantum": 1000,
-          "quantumStep": 1000,
-          "weight": 300,
-          "volume": null,
-          "ui4code": "FD0605005",
+          "ui4code": "FD0606003",
           "taxGroup": "BL",
           "ownProduction": false,
           "privateLabel": false,
@@ -1087,11 +715,11 @@
           "alcoSetUnits": null,
           "activeNds": 20
         },
-        "title": "Коржи для торта Черока Наполеон слоёные, 300г",
+        "title": "Карамель Chupa Chups Плейлист Вкусов XXL в ассортименте, 29г",
         "primaryCategory": {
-          "id": 396,
-          "title": "Мука, дрожжи",
-          "slug": "muka-drozzi",
+          "id": 402,
+          "title": "Шоколад, конфеты",
+          "slug": "sokolad-konfety",
           "isAlcohol": false,
           "isTobacco": false,
           "isExciseAlcohol": false,
@@ -1099,13 +727,14 @@
           "displayStyle": 2,
           "catalogs": [
             2,
+            3,
             4
           ]
         },
         "catalogPrimaryCategory": {
-          "id": 102,
-          "title": "Компоненты для выпечки",
-          "slug": "komponenty-dla-vypecki",
+          "id": 193,
+          "title": "Конфеты",
+          "slug": "konfety",
           "isAlcohol": false,
           "isTobacco": false,
           "isExciseAlcohol": false,
@@ -1116,27 +745,452 @@
           ]
         },
         "image": {
-          "id": 1892374,
-          "originName": "3411543 (1).jpg",
+          "id": 2619430,
+          "originName": "remote_upl_68e6ecfb06aa00.12635177",
           "fileType": "image",
-          "fileSize": 349956,
-          "width": 1600,
-          "height": 1600,
-          "cropUrlTemplate": "https://tsx.x5static.net/i/%s/xdelivery/files/08/fb/b5b2c6a63f127e05fd21f5185081.jpg",
+          "fileSize": 33565,
+          "width": 800,
+          "height": 800,
+          "cropUrlTemplate": "https://tsx.x5static.net/i/%s/xdelivery/files/ef/73/643a5d89f40e6067c3807a21be96.jpg",
           "publicUrl": null,
-          "uuid": "145b5c62-56fe-4c0a-8b7c-b92276775c19"
+          "uuid": "a00aed3b-b85d-4a4a-b3bc-d998529f6b54"
         },
-        "rating": 493,
-        "medianPrice": 18999,
+        "rating": 495,
+        "medianPrice": 4599,
         "labelCharacteristics": [],
         "labels": [],
-        "reviewCount": 150,
-        "ratingCount": 1313,
+        "reviewCount": 25,
+        "ratingCount": 826,
         "priceTag": {
-          "price": 18999,
+          "price": 5899,
           "discountMinimumAmount": 0,
           "grossPrice": null,
           "labels": [],
+          "pricePerQuantum": null,
+          "grossPricePerQuantum": null,
+          "potentialPointsForOrangeCard": null
+        },
+        "balanceState": "many"
+      },
+      {
+        "liked": false,
+        "recSysRecommendationRequestId": null,
+        "borderStyle": null,
+        "bestReview": null,
+        "advToken": null,
+        "id": 436287,
+        "masterData": {
+          "slug": "karamel-chupa-chups-v-assortimente-15g",
+          "plu": "4354045",
+          "unit": 1,
+          "unitName": "шт",
+          "quantum": 1000,
+          "quantumStep": 1000,
+          "weight": 15,
+          "volume": null,
+          "ui4code": "FD0606003",
+          "taxGroup": "BL",
+          "ownProduction": false,
+          "privateLabel": false,
+          "isMark": false,
+          "alcoSetUnits": null,
+          "activeNds": 20
+        },
+        "title": "Карамель Chupa Chups в ассортименте, 15г",
+        "primaryCategory": {
+          "id": 402,
+          "title": "Шоколад, конфеты",
+          "slug": "sokolad-konfety",
+          "isAlcohol": false,
+          "isTobacco": false,
+          "isExciseAlcohol": false,
+          "isAdultContent": false,
+          "displayStyle": 2,
+          "catalogs": [
+            2,
+            3,
+            4
+          ]
+        },
+        "catalogPrimaryCategory": {
+          "id": 193,
+          "title": "Конфеты",
+          "slug": "konfety",
+          "isAlcohol": false,
+          "isTobacco": false,
+          "isExciseAlcohol": false,
+          "isAdultContent": false,
+          "displayStyle": 2,
+          "catalogs": [
+            1
+          ]
+        },
+        "image": {
+          "id": 2598698,
+          "originName": "remote_upl_68e4ba7e2dd285.27382086",
+          "fileType": "image",
+          "fileSize": 72430,
+          "width": 800,
+          "height": 800,
+          "cropUrlTemplate": "https://tsx.x5static.net/i/%s/xdelivery/files/75/10/4e78e837590847ce194603feaf44.jpg",
+          "publicUrl": null,
+          "uuid": "2b7d3ed0-af37-44cd-a1d6-f9d72dbdae66"
+        },
+        "rating": 491,
+        "medianPrice": 3999,
+        "labelCharacteristics": [],
+        "labels": [],
+        "reviewCount": 68,
+        "ratingCount": 1166,
+        "priceTag": {
+          "price": 3999,
+          "discountMinimumAmount": 0,
+          "grossPrice": 6599,
+          "labels": [
+            {
+              "type": "yellow",
+              "text": "-39%"
+            }
+          ],
+          "pricePerQuantum": null,
+          "grossPricePerQuantum": null,
+          "potentialPointsForOrangeCard": null
+        },
+        "balanceState": "many"
+      },
+      {
+        "liked": false,
+        "recSysRecommendationRequestId": null,
+        "borderStyle": null,
+        "bestReview": null,
+        "advToken": null,
+        "id": 436333,
+        "masterData": {
+          "slug": "karamel-chupa-chups-max-choco-so-vkusom-sokolada-s-zevatelnoj-nacinkoj-vnutri-16g",
+          "plu": "4359005",
+          "unit": 1,
+          "unitName": "шт",
+          "quantum": 1000,
+          "quantumStep": 1000,
+          "weight": 16,
+          "volume": null,
+          "ui4code": "FD0606003",
+          "taxGroup": "BL",
+          "ownProduction": false,
+          "privateLabel": false,
+          "isMark": false,
+          "alcoSetUnits": null,
+          "activeNds": 20
+        },
+        "title": "Карамель Chupa Chups Max Choco со вкусом шоколада с жевательной начинкой внутри, 16г",
+        "primaryCategory": {
+          "id": 402,
+          "title": "Шоколад, конфеты",
+          "slug": "sokolad-konfety",
+          "isAlcohol": false,
+          "isTobacco": false,
+          "isExciseAlcohol": false,
+          "isAdultContent": false,
+          "displayStyle": 2,
+          "catalogs": [
+            2,
+            3,
+            4
+          ]
+        },
+        "catalogPrimaryCategory": {
+          "id": 193,
+          "title": "Конфеты",
+          "slug": "konfety",
+          "isAlcohol": false,
+          "isTobacco": false,
+          "isExciseAlcohol": false,
+          "isAdultContent": false,
+          "displayStyle": 2,
+          "catalogs": [
+            1
+          ]
+        },
+        "image": {
+          "id": 2598828,
+          "originName": "remote_upl_68e4ba7d1d7a22.95801912",
+          "fileType": "image",
+          "fileSize": 30239,
+          "width": 800,
+          "height": 800,
+          "cropUrlTemplate": "https://tsx.x5static.net/i/%s/xdelivery/files/8e/e6/b0a690a91510f68791b5255bbde5.jpg",
+          "publicUrl": null,
+          "uuid": "5f9be4a1-fdb8-4395-a1f2-d86db4045046"
+        },
+        "rating": 472,
+        "medianPrice": 1999,
+        "labelCharacteristics": [],
+        "labels": [],
+        "reviewCount": 99,
+        "ratingCount": 1392,
+        "priceTag": {
+          "price": 1999,
+          "discountMinimumAmount": 0,
+          "grossPrice": 2799,
+          "labels": [
+            {
+              "type": "yellow",
+              "text": "-28%"
+            }
+          ],
+          "pricePerQuantum": null,
+          "grossPricePerQuantum": null,
+          "potentialPointsForOrangeCard": null
+        },
+        "balanceState": "many"
+      },
+      {
+        "liked": false,
+        "recSysRecommendationRequestId": null,
+        "borderStyle": null,
+        "bestReview": null,
+        "advToken": null,
+        "id": 440034,
+        "masterData": {
+          "slug": "karamel-chupa-chups-novogodnie-vkusy-120g",
+          "plu": "4366036",
+          "unit": 1,
+          "unitName": "шт",
+          "quantum": 1000,
+          "quantumStep": 1000,
+          "weight": 120,
+          "volume": null,
+          "ui4code": "FD0606003",
+          "taxGroup": "BL",
+          "ownProduction": false,
+          "privateLabel": false,
+          "isMark": false,
+          "alcoSetUnits": null,
+          "activeNds": 20
+        },
+        "title": "Карамель Chupa Chups Новогодние вкусы 120г",
+        "primaryCategory": {
+          "id": 402,
+          "title": "Шоколад, конфеты",
+          "slug": "sokolad-konfety",
+          "isAlcohol": false,
+          "isTobacco": false,
+          "isExciseAlcohol": false,
+          "isAdultContent": false,
+          "displayStyle": 2,
+          "catalogs": [
+            2,
+            3,
+            4
+          ]
+        },
+        "catalogPrimaryCategory": {
+          "id": 1709,
+          "title": "Подарки",
+          "slug": "podarki",
+          "isAlcohol": false,
+          "isTobacco": false,
+          "isExciseAlcohol": false,
+          "isAdultContent": false,
+          "displayStyle": 2,
+          "catalogs": [
+            1
+          ]
+        },
+        "image": {
+          "id": 2685181,
+          "originName": "remote_upl_68fa5f1a07aa86.06434151",
+          "fileType": "image",
+          "fileSize": 96991,
+          "width": 800,
+          "height": 800,
+          "cropUrlTemplate": "https://tsx.x5static.net/i/%s/xdelivery/files/e0/43/cc68a7cb47ddb40208d009da62c1.jpg",
+          "publicUrl": null,
+          "uuid": "47559046-8ee9-4c8b-af60-a9931b020443"
+        },
+        "rating": 488,
+        "medianPrice": 7999,
+        "labelCharacteristics": [],
+        "labels": [],
+        "reviewCount": 35,
+        "ratingCount": 303,
+        "priceTag": {
+          "price": 7999,
+          "discountMinimumAmount": 0,
+          "grossPrice": 11499,
+          "labels": [
+            {
+              "type": "yellow",
+              "text": "-30%"
+            }
+          ],
+          "pricePerQuantum": null,
+          "grossPricePerQuantum": null,
+          "potentialPointsForOrangeCard": null
+        },
+        "balanceState": "many"
+      },
+      {
+        "liked": false,
+        "recSysRecommendationRequestId": null,
+        "borderStyle": null,
+        "bestReview": null,
+        "advToken": null,
+        "id": 43680,
+        "masterData": {
+          "slug": "iris-meller-s-sokoladom-38g",
+          "plu": "27798",
+          "unit": 1,
+          "unitName": "шт",
+          "quantum": 1000,
+          "quantumStep": 1000,
+          "weight": 38,
+          "volume": null,
+          "ui4code": "FD0606002",
+          "taxGroup": "BL",
+          "ownProduction": false,
+          "privateLabel": false,
+          "isMark": true,
+          "alcoSetUnits": null,
+          "activeNds": 20
+        },
+        "title": "Ирис Meller с шоколадом, 38г",
+        "primaryCategory": {
+          "id": 402,
+          "title": "Шоколад, конфеты",
+          "slug": "sokolad-konfety",
+          "isAlcohol": false,
+          "isTobacco": false,
+          "isExciseAlcohol": false,
+          "isAdultContent": false,
+          "displayStyle": 2,
+          "catalogs": [
+            2,
+            3,
+            4
+          ]
+        },
+        "catalogPrimaryCategory": {
+          "id": 193,
+          "title": "Конфеты",
+          "slug": "konfety",
+          "isAlcohol": false,
+          "isTobacco": false,
+          "isExciseAlcohol": false,
+          "isAdultContent": false,
+          "displayStyle": 2,
+          "catalogs": [
+            1
+          ]
+        },
+        "image": {
+          "id": 2623310,
+          "originName": "remote_upl_68e779bf6dbd07.29459402",
+          "fileType": "image",
+          "fileSize": 23276,
+          "width": 800,
+          "height": 800,
+          "cropUrlTemplate": "https://tsx.x5static.net/i/%s/xdelivery/files/1f/f9/7495fd6eb790f4c5fe9xda8c723b.jpg",
+          "publicUrl": null,
+          "uuid": "6b773846-7ac4-4615-8023-906752aa2093"
+        },
+        "rating": 495,
+        "medianPrice": 6099,
+        "labelCharacteristics": [],
+        "labels": [],
+        "reviewCount": 161,
+        "ratingCount": 8511,
+        "priceTag": {
+          "price": 6999,
+          "discountMinimumAmount": 0,
+          "grossPrice": null,
+          "labels": [],
+          "pricePerQuantum": null,
+          "grossPricePerQuantum": null,
+          "potentialPointsForOrangeCard": null
+        },
+        "balanceState": "many"
+      },
+      {
+        "liked": false,
+        "recSysRecommendationRequestId": null,
+        "borderStyle": null,
+        "bestReview": null,
+        "advToken": null,
+        "id": 43887,
+        "masterData": {
+          "slug": "konfety-fruittella-zevatelnye-so-vkusom-klubnicnogo-jogurta-41g",
+          "plu": "3600818",
+          "unit": 1,
+          "unitName": "шт",
+          "quantum": 1000,
+          "quantumStep": 1000,
+          "weight": 41,
+          "volume": null,
+          "ui4code": "FD0606002",
+          "taxGroup": "BL",
+          "ownProduction": false,
+          "privateLabel": false,
+          "isMark": false,
+          "alcoSetUnits": null,
+          "activeNds": 20
+        },
+        "title": "Конфеты Fruittella жевательные со вкусом клубничного йогурта, 41г",
+        "primaryCategory": {
+          "id": 402,
+          "title": "Шоколад, конфеты",
+          "slug": "sokolad-konfety",
+          "isAlcohol": false,
+          "isTobacco": false,
+          "isExciseAlcohol": false,
+          "isAdultContent": false,
+          "displayStyle": 2,
+          "catalogs": [
+            2,
+            3,
+            4
+          ]
+        },
+        "catalogPrimaryCategory": {
+          "id": 193,
+          "title": "Конфеты",
+          "slug": "konfety",
+          "isAlcohol": false,
+          "isTobacco": false,
+          "isExciseAlcohol": false,
+          "isAdultContent": false,
+          "displayStyle": 2,
+          "catalogs": [
+            1
+          ]
+        },
+        "image": {
+          "id": 2618784,
+          "originName": "remote_upl_68e6ecfdcf3323.51973904",
+          "fileType": "image",
+          "fileSize": 38586,
+          "width": 800,
+          "height": 800,
+          "cropUrlTemplate": "https://tsx.x5static.net/i/%s/xdelivery/files/3c/f0/f98efee91f455ecdxd791a162737.jpg",
+          "publicUrl": null,
+          "uuid": "384d4001-f918-47cb-b006-ed29889cfe87"
+        },
+        "rating": 493,
+        "medianPrice": 4499,
+        "labelCharacteristics": [],
+        "labels": [],
+        "reviewCount": 111,
+        "ratingCount": 5306,
+        "priceTag": {
+          "price": 4499,
+          "discountMinimumAmount": 0,
+          "grossPrice": 5199,
+          "labels": [
+            {
+              "type": "yellow",
+              "text": "-13%"
+            }
+          ],
           "pricePerQuantum": null,
           "grossPricePerQuantum": null,
           "potentialPointsForOrangeCard": null

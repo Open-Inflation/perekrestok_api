@@ -1,55 +1,55 @@
 {
   "content": {
-    "priceFrom": 499,
-    "priceTo": 449900,
-    "productCount": 1027,
+    "priceFrom": 999,
+    "priceTo": 824899,
+    "productCount": 1370,
     "searchFeatures": [
       {
         "title": "Бренд",
         "key": "brand",
         "enumList": [
           {
-            "title": "4Life",
+            "title": "1МК",
             "fullTitle": null,
             "image": null,
             "hideCategory": false,
-            "value": "4life",
+            "value": "1mk",
+            "productCount": 1
+          },
+          {
+            "title": "28Olives",
+            "fullTitle": null,
+            "image": null,
+            "hideCategory": false,
+            "value": "28olives",
             "productCount": 2
           },
           {
-            "title": "7 Days",
+            "title": "6 соток",
             "fullTitle": null,
             "image": null,
             "hideCategory": false,
-            "value": "7-days",
-            "productCount": 7
+            "value": "6-sotok",
+            "productCount": 2
           },
           {
-            "title": "Ahmad Tea",
+            "title": "7Days",
             "fullTitle": null,
             "image": null,
             "hideCategory": false,
-            "value": "ahmad-tea",
+            "value": "7days",
             "productCount": 4
           },
           {
-            "title": "Alpen Gold",
+            "title": "Absolute Nature",
             "fullTitle": null,
             "image": null,
             "hideCategory": false,
-            "value": "alpen-gold",
-            "productCount": 7
-          },
-          {
-            "title": "Anthon Berg",
-            "fullTitle": null,
-            "image": null,
-            "hideCategory": false,
-            "value": "anthon-berg",
+            "value": "absolute-nature",
             "productCount": 1
           }
         ],
-        "enumCount": 237
+        "enumCount": 345
       },
       {
         "title": "Категория товара",
@@ -64,51 +64,51 @@
             "productCount": 3
           },
           {
-            "title": "Бумага, ручки, краски",
+            "title": "Выпечка, сдоба",
             "fullTitle": null,
             "image": null,
             "hideCategory": false,
-            "value": "bumaga-rucki-kraski",
-            "productCount": 9
-          },
-          {
-            "title": "Бумажная и ватная продукция",
-            "fullTitle": null,
-            "image": null,
-            "hideCategory": false,
-            "value": "bumaznaa-i-vatnaa-produkcia",
-            "productCount": 11
-          },
-          {
-            "title": "Веган",
-            "fullTitle": null,
-            "image": null,
-            "hideCategory": false,
-            "value": "vegan",
+            "value": "vypecka-sdoba",
             "productCount": 3
           },
           {
-            "title": "Вода",
+            "title": "Галантерейные аксессуары",
             "fullTitle": null,
             "image": null,
             "hideCategory": false,
-            "value": "voda",
-            "productCount": 2
+            "value": "galanterejnye-aksessuary",
+            "productCount": 11
+          },
+          {
+            "title": "Готовая еда",
+            "fullTitle": null,
+            "image": null,
+            "hideCategory": false,
+            "value": "gotovaa-eda",
+            "productCount": 58
+          },
+          {
+            "title": "Деликатесы и копчености",
+            "fullTitle": null,
+            "image": null,
+            "hideCategory": false,
+            "value": "delikatesy-i-kopcenosti",
+            "productCount": 1
           }
         ],
-        "enumCount": 29
+        "enumCount": 39
       },
       {
         "title": "Тип продукта",
         "key": "tip-produkta",
         "enumList": [
           {
-            "title": "Альбом для рисования",
+            "title": "Бальзам для губ",
             "fullTitle": null,
             "image": null,
             "hideCategory": false,
-            "value": "albom-dla-risovania",
-            "productCount": 1
+            "value": "balzam-dla-gub",
+            "productCount": 5
           },
           {
             "title": "Батончик",
@@ -116,47 +116,39 @@
             "image": null,
             "hideCategory": false,
             "value": "batoncik",
-            "productCount": 9
-          },
-          {
-            "title": "Блок для записей",
-            "fullTitle": null,
-            "image": null,
-            "hideCategory": false,
-            "value": "blok-dla-zapisej",
             "productCount": 1
           },
           {
-            "title": "Варенье",
+            "title": "Бекон",
             "fullTitle": null,
             "image": null,
             "hideCategory": false,
-            "value": "varene",
-            "productCount": 24
+            "value": "bekon",
+            "productCount": 1
           },
           {
-            "title": "Вафли",
+            "title": "Бокал",
             "fullTitle": null,
             "image": null,
             "hideCategory": false,
-            "value": "vafli",
-            "productCount": 12
+            "value": "bokal",
+            "productCount": 2
+          },
+          {
+            "title": "Бритва",
+            "fullTitle": null,
+            "image": null,
+            "hideCategory": false,
+            "value": "britva",
+            "productCount": 3
           }
         ],
-        "enumCount": 71
+        "enumCount": 121
       },
       {
         "title": "Особенности",
         "key": "osobennosti",
         "enumList": [
-          {
-            "title": "Без ароматизаторов",
-            "fullTitle": null,
-            "image": null,
-            "hideCategory": false,
-            "value": "bez-aromatizatorov",
-            "productCount": 4
-          },
           {
             "title": "Без глютена",
             "fullTitle": null,
@@ -173,7 +165,7 @@
             },
             "hideCategory": false,
             "value": "bez-glutena",
-            "productCount": 25
+            "productCount": 17
           },
           {
             "title": "Без лактозы",
@@ -191,7 +183,7 @@
             },
             "hideCategory": false,
             "value": "bez-laktozy",
-            "productCount": 45
+            "productCount": 9
           },
           {
             "title": "Без сахара",
@@ -209,7 +201,7 @@
             },
             "hideCategory": false,
             "value": "bez-sahara",
-            "productCount": 115
+            "productCount": 9
           },
           {
             "title": "Богат протеином",
@@ -227,15 +219,33 @@
             },
             "hideCategory": false,
             "value": "bogat-proteinom",
-            "productCount": 4
+            "productCount": 8
+          },
+          {
+            "title": "Веган",
+            "fullTitle": null,
+            "image": {
+              "id": 857728,
+              "originName": "Веган.png",
+              "fileType": "image",
+              "fileSize": 5158,
+              "width": 160,
+              "height": 160,
+              "cropUrlTemplate": "https://tsx.x5static.net/i/%s/xdelivery/files/8b/fa/23c3d1aec9edc4107f737f9f6371.png",
+              "publicUrl": null,
+              "uuid": "33bd93cc-57b4-4027-a4fb-d74f57ba6f38"
+            },
+            "hideCategory": false,
+            "value": "vegan",
+            "productCount": 2
           }
         ],
-        "enumCount": 9
+        "enumCount": 8
       }
     ],
     "productGroups": [],
     "hasAdultContent": true,
-    "hasAlcohol": false,
+    "hasAlcohol": true,
     "hasExciseAlcohol": false,
     "hasPromo": true,
     "hasTobacco": false,

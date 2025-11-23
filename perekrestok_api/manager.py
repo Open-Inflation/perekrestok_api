@@ -174,7 +174,8 @@ class PerekrestokAPI:
             credentials="include" if credentials else "omit",
             timeout_ms=self.timeout_ms,
             referrer=self.MAIN_SITE_URL,
-            headers={"Accept": "application/json, text/plain, */*"}
+            headers={"Accept": "application/json, text/plain, */*",
+                     "Content-Type": "application/json"}
             | (self.unstandard_headers if add_unstandard_headers else {}),
         )
 

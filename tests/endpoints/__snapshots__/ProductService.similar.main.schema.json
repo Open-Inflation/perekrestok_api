@@ -69,7 +69,10 @@
                     "type": "integer"
                   },
                   "weight": {
-                    "type": "integer"
+                    "type": [
+                      "integer",
+                      "null"
+                    ]
                   },
                   "volume": {
                     "type": "null"
@@ -380,6 +383,9 @@
               },
               "balanceState": {
                 "type": "string"
+              },
+              "recSysRecommendationRequestId": {
+                "type": "null"
               }
             },
             "required": [

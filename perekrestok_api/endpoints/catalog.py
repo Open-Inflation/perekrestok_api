@@ -38,7 +38,7 @@ class ClassCatalog:
         url = f"{self._parent.CATALOG_URL}/catalog/category/feed/{category_id}"
         return await self._parent._request(HttpMethod.GET, url)
 
-    async def promo_feed(
+    async def feed(
         self,
         filter: abstraction.CatalogFeedFilter,
         sort: abstraction.CatalogFeedSort = abstraction.CatalogFeedSort.Popularity.ASC,
@@ -47,7 +47,11 @@ class ClassCatalog:
         with_best_reviews_only: bool = False,
     ) -> FetchResponse:
         """
-        Получение фида промо-товаров с фильтрами и сортировкой.
+        Получение фида товаров с фильтрами и сортировкой.
+
+        В формировании основного каталога он не используется (хотя может выдать).
+        Применяется в большей степени для ленты промо-акций.
+        Для получения каталога используйте grouped_feed (надежнее в плане будущего изменения API).
 
         Схема плоской ленты товаров.
         Все товары находятся на одном уровне без объединения в группы.
@@ -72,7 +76,9 @@ class ClassCatalog:
             limit: int = 100,
             with_best_reviews_only: bool = False
         ):
-        """ОСНОВНОЙ СПОСОБ получения товаров по категориям И подкатегориям."""
+        """ОСНОВНОЙ способ получения товаров по подкатегориям все разом.
+        
+        Выдает фиды товаров полностью, при этом уже разбитыми по подкатегориям"""
         url = f"{self._parent.CATALOG_URL}/catalog/product/grouped-feed"
         body = {
             "filter": filter.as_dict(),
@@ -113,6 +119,11 @@ class ClassCatalog:
         """Получить информацию о категории по её ID."""
         url = f"{self._parent.CATALOG_URL}/catalog/category/{category_id}/full"
         return await self._parent._request(HttpMethod.GET, url)
+    
+    # TODO search
+    # https://www.perekrestok.ru/api/customer/1.4.1.0/catalog/search/all?textQuery=%D1%81%D1%83%D1%85%D0%B0%D1%80%D0%B8%D0%BA%D0%B8&entityTypes[]=product&entityTypes[]=category
+    # GET
+
 
 
 class ProductService:

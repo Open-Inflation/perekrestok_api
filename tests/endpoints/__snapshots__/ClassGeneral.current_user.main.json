@@ -1,12 +1,11 @@
 {
   "content": {
-    "uuid": "5623239c-ed43-4d5e-920d-71417c00a906",
+    "uuid": "a819b37c-a497-4a15-8742-e19a67607882",
     "x5id": null,
     "isAnonymous": true,
     "phone": null,
     "deliveryMode": null,
-    "updatedAt": 1756776216109,
-    "justSignedUp": false,
+    "updatedAt": 1763929971023,
     "isProfileFilled": false,
     "x5PacketSubscription": {
       "status": 2,

@@ -1,32 +1,32 @@
 {
   "content": {
-    "id": 339752,
+    "id": 439634,
     "masterData": {
-      "slug": "razryhlitel-dla-testa-pr-st-10g",
-      "plu": "4236368",
+      "slug": "karamel-chupa-chups-abloko-karamel-vanil-mata-mandarin-v-assortimente-12g",
+      "plu": "4366035",
       "unit": 1,
       "unitName": "шт",
       "quantum": 1000,
       "quantumStep": 1000,
-      "weight": 10,
+      "weight": 12,
       "volume": null,
-      "ui4code": "FD0223005",
+      "ui4code": "FD0606003",
       "taxGroup": "BL",
       "ownProduction": false,
-      "privateLabel": true,
+      "privateLabel": false,
       "isMark": false,
       "alcoSetUnits": null,
       "activeNds": 20
     },
-    "title": "Разрыхлитель для теста Пр!ст, 10г",
+    "title": "Карамель Chupa Chups яблоко-карамель/ваниль-мята/мандарин в ассортименте, 12г",
     "briefTitle": null,
     "description": null,
-    "plu": "4236368",
-    "rating": 496,
+    "plu": "4366035",
+    "rating": 493,
     "primaryCategory": {
-      "id": 396,
-      "title": "Мука, дрожжи",
-      "slug": "muka-drozzi",
+      "id": 402,
+      "title": "Шоколад, конфеты",
+      "slug": "sokolad-konfety",
       "isAlcohol": false,
       "isTobacco": false,
       "isExciseAlcohol": false,
@@ -34,13 +34,14 @@
       "displayStyle": 2,
       "catalogs": [
         2,
+        3,
         4
       ]
     },
     "catalogPrimaryCategory": {
-      "id": 102,
-      "title": "Компоненты для выпечки",
-      "slug": "komponenty-dla-vypecki",
+      "id": 1709,
+      "title": "Подарки",
+      "slug": "podarki",
       "isAlcohol": false,
       "isTobacco": false,
       "isExciseAlcohol": false,
@@ -51,51 +52,117 @@
       ]
     },
     "primaryImage": {
-      "id": 783156,
-      "originName": "4236368_1.jpg",
+      "id": 2682150,
+      "originName": "remote_upl_68fa5f28d63773.50181341",
       "fileType": "image",
-      "fileSize": 410363,
-      "width": 1600,
-      "height": 1600,
-      "cropUrlTemplate": "https://tsx.x5static.net/i/%s/xdelivery/files/d7/72/25f158ea0742e8c186016fdcxddf.jpg",
+      "fileSize": 31746,
+      "width": 800,
+      "height": 800,
+      "cropUrlTemplate": "https://tsx.x5static.net/i/%s/xdelivery/files/f2/b3/92cf4fe98b03d0b2868b2b0235d1.jpg",
       "publicUrl": null,
-      "uuid": "b77c1193-a521-4813-b42b-afc24e45ce79"
+      "uuid": "04871d13-a26a-4f0e-bba3-e581c618c419"
     },
     "primaryMedia": {
-      "id": 783156,
-      "originName": "4236368_1.jpg",
+      "id": 2682150,
+      "originName": "remote_upl_68fa5f28d63773.50181341",
       "fileType": "image",
-      "fileSize": 410363,
-      "width": 1600,
-      "height": 1600,
-      "cropUrlTemplate": "https://tsx.x5static.net/i/%s/xdelivery/files/d7/72/25f158ea0742e8c186016fdcxddf.jpg",
+      "fileSize": 31746,
+      "width": 800,
+      "height": 800,
+      "cropUrlTemplate": "https://tsx.x5static.net/i/%s/xdelivery/files/f2/b3/92cf4fe98b03d0b2868b2b0235d1.jpg",
       "publicUrl": null,
-      "uuid": "b77c1193-a521-4813-b42b-afc24e45ce79"
+      "uuid": "04871d13-a26a-4f0e-bba3-e581c618c419"
     },
     "images": [
       {
-        "id": 783156,
-        "originName": "4236368_1.jpg",
+        "id": 2682150,
+        "originName": "remote_upl_68fa5f28d63773.50181341",
         "fileType": "image",
-        "fileSize": 410363,
-        "width": 1600,
-        "height": 1600,
-        "cropUrlTemplate": "https://tsx.x5static.net/i/%s/xdelivery/files/d7/72/25f158ea0742e8c186016fdcxddf.jpg",
+        "fileSize": 31746,
+        "width": 800,
+        "height": 800,
+        "cropUrlTemplate": "https://tsx.x5static.net/i/%s/xdelivery/files/f2/b3/92cf4fe98b03d0b2868b2b0235d1.jpg",
         "publicUrl": null,
-        "uuid": "b77c1193-a521-4813-b42b-afc24e45ce79"
+        "uuid": "04871d13-a26a-4f0e-bba3-e581c618c419"
+      },
+      {
+        "id": 2682204,
+        "originName": "remote_upl_68fa5f28d63d89.29243684",
+        "fileType": "image",
+        "fileSize": 29816,
+        "width": 800,
+        "height": 800,
+        "cropUrlTemplate": "https://tsx.x5static.net/i/%s/xdelivery/files/75/d7/9ae0af23123a8180519692870a90.jpg",
+        "publicUrl": null,
+        "uuid": "0660d529-fe30-42ef-83cf-dc4e078194b3"
+      },
+      {
+        "id": 2682230,
+        "originName": "remote_upl_68fa5f28d64358.93263920",
+        "fileType": "image",
+        "fileSize": 30729,
+        "width": 800,
+        "height": 800,
+        "cropUrlTemplate": "https://tsx.x5static.net/i/%s/xdelivery/files/41/cd/51833e0c672767b8853bced6c325.jpg",
+        "publicUrl": null,
+        "uuid": "b6f62a77-3401-4131-943f-502c9bd60916"
+      },
+      {
+        "id": 2682282,
+        "originName": "remote_upl_68fa5f28d649c7.84052794",
+        "fileType": "image",
+        "fileSize": 97883,
+        "width": 800,
+        "height": 800,
+        "cropUrlTemplate": "https://tsx.x5static.net/i/%s/xdelivery/files/d3/ff/3b51b044fe3cd79d2ac3xd040a66.jpg",
+        "publicUrl": null,
+        "uuid": "05469a82-01d3-4f95-a1dc-0b40247ca9e5"
       }
     ],
     "media": [
       {
-        "id": 783156,
-        "originName": "4236368_1.jpg",
+        "id": 2682150,
+        "originName": "remote_upl_68fa5f28d63773.50181341",
         "fileType": "image",
-        "fileSize": 410363,
-        "width": 1600,
-        "height": 1600,
-        "cropUrlTemplate": "https://tsx.x5static.net/i/%s/xdelivery/files/d7/72/25f158ea0742e8c186016fdcxddf.jpg",
+        "fileSize": 31746,
+        "width": 800,
+        "height": 800,
+        "cropUrlTemplate": "https://tsx.x5static.net/i/%s/xdelivery/files/f2/b3/92cf4fe98b03d0b2868b2b0235d1.jpg",
         "publicUrl": null,
-        "uuid": "b77c1193-a521-4813-b42b-afc24e45ce79"
+        "uuid": "04871d13-a26a-4f0e-bba3-e581c618c419"
+      },
+      {
+        "id": 2682204,
+        "originName": "remote_upl_68fa5f28d63d89.29243684",
+        "fileType": "image",
+        "fileSize": 29816,
+        "width": 800,
+        "height": 800,
+        "cropUrlTemplate": "https://tsx.x5static.net/i/%s/xdelivery/files/75/d7/9ae0af23123a8180519692870a90.jpg",
+        "publicUrl": null,
+        "uuid": "0660d529-fe30-42ef-83cf-dc4e078194b3"
+      },
+      {
+        "id": 2682230,
+        "originName": "remote_upl_68fa5f28d64358.93263920",
+        "fileType": "image",
+        "fileSize": 30729,
+        "width": 800,
+        "height": 800,
+        "cropUrlTemplate": "https://tsx.x5static.net/i/%s/xdelivery/files/41/cd/51833e0c672767b8853bced6c325.jpg",
+        "publicUrl": null,
+        "uuid": "b6f62a77-3401-4131-943f-502c9bd60916"
+      },
+      {
+        "id": 2682282,
+        "originName": "remote_upl_68fa5f28d649c7.84052794",
+        "fileType": "image",
+        "fileSize": 97883,
+        "width": 800,
+        "height": 800,
+        "cropUrlTemplate": "https://tsx.x5static.net/i/%s/xdelivery/files/d3/ff/3b51b044fe3cd79d2ac3xd040a66.jpg",
+        "publicUrl": null,
+        "uuid": "05469a82-01d3-4f95-a1dc-0b40247ca9e5"
       }
     ],
     "features": [
@@ -109,10 +176,10 @@
             "collapseValue": false,
             "key": "kkal",
             "displayValues": [
-              "76.0"
+              "380.0"
             ],
             "values": [
-              "76000"
+              "380000"
             ],
             "enumIds": [],
             "isSearchable": false,
@@ -139,10 +206,10 @@
             "collapseValue": false,
             "key": "jiry",
             "displayValues": [
-              "0.0 г"
+              "0.1 г"
             ],
             "values": [
-              "0"
+              "100"
             ],
             "enumIds": [],
             "isSearchable": false,
@@ -154,10 +221,10 @@
             "collapseValue": false,
             "key": "uglevody",
             "displayValues": [
-              "19.0 г"
+              "95.0 г"
             ],
             "values": [
-              "19000"
+              "95000"
             ],
             "enumIds": [],
             "isSearchable": false,
@@ -175,10 +242,10 @@
             "collapseValue": false,
             "key": "sostav",
             "displayValues": [
-              "Разрыхлители: гидрокарбонат натрия, дигидропирофосфат натрия, мука пшеничная высшего сорта."
+              "Сахар, глюкозный сироп, регулятор кислотности (лимоннaя кислота), ароматизатор, краситель (экстракт паприки)."
             ],
             "values": [
-              "Разрыхлители: гидрокарбонат натрия, дигидропирофосфат натрия, мука пшеничная высшего сорта."
+              "Сахар, глюкозный сироп, регулятор кислотности (лимоннaя кислота), ароматизатор, краситель (экстракт паприки)."
             ],
             "enumIds": [],
             "isSearchable": false,
@@ -196,13 +263,13 @@
             "collapseValue": false,
             "key": "tip-produkta",
             "displayValues": [
-              "Разрыхлитель теста"
+              "Конфеты"
             ],
             "values": [
-              "razryhlitel-testa"
+              "konfety"
             ],
             "enumIds": [
-              8519
+              13472
             ],
             "isSearchable": true,
             "productBrand": null
@@ -213,13 +280,13 @@
             "collapseValue": false,
             "key": "proizvoditel",
             "displayValues": [
-              "Рузком"
+              "ООО Перфетти Ван Мелле"
             ],
             "values": [
-              "ruzkom"
+              "ooo-perfetti-van-melle"
             ],
             "enumIds": [
-              42754
+              39870
             ],
             "isSearchable": false,
             "productBrand": null
@@ -230,39 +297,16 @@
             "collapseValue": false,
             "key": "brand",
             "displayValues": [
-              "Пр!ст"
+              "Chupa Chups"
             ],
             "values": [
-              "pr-st"
+              "chupa-chups"
             ],
             "enumIds": [
-              40052
+              13934
             ],
             "isSearchable": true,
-            "productBrand": {
-              "id": 13,
-              "sliderImage": {
-                "id": 619578,
-                "originName": "Prosto.png",
-                "fileType": "image",
-                "fileSize": 9236,
-                "width": 474,
-                "height": 300,
-                "cropUrlTemplate": "https://tsx.x5static.net/i/%s/xdelivery/files/a3/5d/8dfc2f16003e787xd500cf94eb0c.png",
-                "publicUrl": null,
-                "uuid": "35867d60-b76b-46e4-992b-7450a5214e47"
-              },
-              "mobileBannerImage": null,
-              "desktopBannerImage": null,
-              "paidProductCardLogo": false,
-              "color": {
-                "red": 0,
-                "green": 0,
-                "blue": 0,
-                "alpha": 100
-              },
-              "imageLink": null
-            }
+            "productBrand": null
           },
           {
             "title": "Страна",
@@ -280,6 +324,57 @@
             ],
             "isSearchable": true,
             "productBrand": null
+          },
+          {
+            "title": "Начинка",
+            "hideTitle": false,
+            "collapseValue": false,
+            "key": "nachinka",
+            "displayValues": [
+              "Без начинки"
+            ],
+            "values": [
+              "bez-nacinki"
+            ],
+            "enumIds": [
+              40070
+            ],
+            "isSearchable": true,
+            "productBrand": null
+          },
+          {
+            "title": "Форма выпуска",
+            "hideTitle": false,
+            "collapseValue": false,
+            "key": "forma-vypuska",
+            "displayValues": [
+              "На палочке"
+            ],
+            "values": [
+              "na-palocke"
+            ],
+            "enumIds": [
+              53671
+            ],
+            "isSearchable": true,
+            "productBrand": null
+          },
+          {
+            "title": "Вид конфет",
+            "hideTitle": false,
+            "collapseValue": false,
+            "key": "vid-konfet",
+            "displayValues": [
+              "Карамельные"
+            ],
+            "values": [
+              "karamelnye"
+            ],
+            "enumIds": [
+              13835
+            ],
+            "isSearchable": true,
+            "productBrand": null
           }
         ]
       },
@@ -293,10 +388,10 @@
             "collapseValue": false,
             "key": "srok-hraneniya-maks",
             "displayValues": [
-              "365 дней"
+              "720 дней"
             ],
             "values": [
-              "365"
+              "720"
             ],
             "enumIds": [],
             "isSearchable": false,
@@ -308,10 +403,46 @@
             "collapseValue": false,
             "key": "temperatura-hraneniya-maks",
             "displayValues": [
-              "25 ℃"
+              "40 ℃"
             ],
             "values": [
-              "25000"
+              "40000"
+            ],
+            "enumIds": [],
+            "isSearchable": false,
+            "productBrand": null
+          },
+          {
+            "title": "Температура хранения мин.",
+            "hideTitle": false,
+            "collapseValue": false,
+            "key": "temperatura-hraneniya-min",
+            "displayValues": [
+              "5 ℃"
+            ],
+            "values": [
+              "5000"
+            ],
+            "enumIds": [],
+            "isSearchable": false,
+            "productBrand": null
+          }
+        ]
+      },
+      {
+        "title": "Дополнительная информация",
+        "displayStyle": 1,
+        "items": [
+          {
+            "title": "Информационный блок",
+            "hideTitle": true,
+            "collapseValue": false,
+            "key": "informatsionnyy-blok",
+            "displayValues": [
+              "Товар представлен в ассортименте. Внешний вид может отличаться в зависимости от наличия в конкретном магазине."
+            ],
+            "values": [
+              "Товар представлен в ассортименте. Внешний вид может отличаться в зависимости от наличия в конкретном магазине."
             ],
             "enumIds": [],
             "isSearchable": false,
@@ -324,33 +455,33 @@
     "liked": false,
     "isReviewAvailable": false,
     "productReview": null,
-    "ratingCount": 6743,
-    "reviewCount": 365,
+    "ratingCount": 883,
+    "reviewCount": 70,
     "ratingCountAlias": "Более 100 оценок",
     "borderStyle": null,
-    "medianPrice": 799,
+    "medianPrice": 999,
     "socialProof": null,
     "labelCharacteristics": [],
     "labelStock": null,
     "labels": [],
     "bestProductReview": {
-      "id": 21945901,
+      "id": 45281668,
       "rating": 500,
-      "comment": "разрыхлитель работает ничуть не хуже остальных,да и цена приемлемая.",
+      "comment": "очень вкусные. но почему то больше нет в продаже",
       "username": "",
       "notes": [
         {
-          "key": "quality",
-          "value": "Качество"
+          "key": "Vkus",
+          "value": "Вкус"
         }
       ],
-      "createdAt": 1668941728384,
+      "createdAt": 1732817238238,
       "points": 0,
       "approvedImages": [],
       "reaction": {
-        "likes": 2,
+        "likes": 1,
         "dislikes": 0,
-        "balance": 2,
+        "balance": 1,
         "vote": 0,
         "isAvailable": true
       },
@@ -362,22 +493,22 @@
     "advToken": null,
     "primaryInfo": [
       {
-        "title": "Мука, дрожжи",
+        "title": "Шоколад, конфеты",
         "subTitle": "Категория",
         "image": {
-          "id": 553808,
-          "originName": "Мука и все для выпечки.png",
+          "id": 1300317,
+          "originName": "Шоколад, конфеты.png",
           "fileType": "image",
-          "fileSize": 166778,
+          "fileSize": 108119,
           "width": 300,
           "height": 300,
-          "cropUrlTemplate": "https://tsx.x5static.net/i/%s/xdelivery/files/d9/52/5b7f825a6bee384e9a9b5200532e.png",
+          "cropUrlTemplate": "https://tsx.x5static.net/i/%s/xdelivery/files/b3/10/39c6fd3709cc9f060b7bb97d8b84.png",
           "publicUrl": null,
-          "uuid": "7ecd7463-0e0e-4ab9-9d02-53fceb9606c9"
+          "uuid": "cff87aba-ae86-491f-b048-8d885787d718"
         },
         "deepLink": {
           "tsx_type": "feed",
-          "category_id": 396
+          "category_id": 402
         },
         "eventInfo": [
           {
@@ -387,35 +518,25 @@
               {
                 "name": "categoryName",
                 "type": "text",
-                "value": "Мука, дрожжи"
+                "value": "Шоколад, конфеты"
               },
               {
                 "name": "categoryId",
                 "type": "int",
-                "value": "396"
+                "value": "402"
               }
             ]
           }
         ]
       },
       {
-        "title": "Пр!ст",
+        "title": "Chupa Chups",
         "subTitle": "Бренд",
-        "image": {
-          "id": 1813889,
-          "originName": "Без названия (2).png",
-          "fileType": "image",
-          "fileSize": 41088,
-          "width": 600,
-          "height": 600,
-          "cropUrlTemplate": "https://tsx.x5static.net/i/%s/xdelivery/files/4a/d2/155aa7896c08b20a962defe136ec.png",
-          "publicUrl": null,
-          "uuid": "0baa40f5-e33e-4769-868a-b0f11430aa90"
-        },
+        "image": null,
         "deepLink": {
           "tsx_type": "feed",
           "feature_key": "brand",
-          "enum_key": "pr-st"
+          "enum_key": "chupa-chups"
         },
         "eventInfo": [
           {
@@ -425,12 +546,12 @@
               {
                 "name": "brandName",
                 "type": "text",
-                "value": "Пр!ст"
+                "value": "Chupa Chups"
               },
               {
                 "name": "brandId",
                 "type": "int",
-                "value": "40052"
+                "value": "13934"
               }
             ]
           }
@@ -441,22 +562,27 @@
       {
         "name": "brandId",
         "type": "int",
-        "value": "40052"
+        "value": "13934"
       },
       {
         "name": "brandName",
         "type": "text",
-        "value": "Пр!ст"
+        "value": "Chupa Chups"
       }
     ],
     "video": [],
     "availableAdditionalOption": null,
-    "balanceStock": 4000,
+    "balanceStock": 107000,
     "priceTag": {
-      "price": 799,
+      "price": 999,
       "discountMinimumAmount": 0,
-      "grossPrice": null,
-      "labels": [],
+      "grossPrice": 1199,
+      "labels": [
+        {
+          "type": "yellow",
+          "text": "-16%"
+        }
+      ],
       "pricePerQuantum": null,
       "grossPricePerQuantum": null,
       "potentialPointsForOrangeCard": null

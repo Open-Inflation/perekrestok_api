@@ -2,12 +2,12 @@
   "content": {
     "items": [
       {
-        "id": 55957901,
+        "id": 58201996,
         "rating": 500,
-        "comment": "Редко есть",
+        "comment": "Вкусные",
         "username": "",
         "notes": [],
-        "createdAt": 1757400365248,
+        "createdAt": 1763838408410,
         "points": 0,
         "approvedImages": [],
         "reaction": {
@@ -20,143 +20,12 @@
         "isContent": false
       },
       {
-        "id": 55940403,
-        "rating": 500,
-        "comment": "Испекла манник,очень хорошо поднялся,воздушный.\nРазрыхлитель буду заказывать ещё,хороший!",
-        "username": "",
-        "notes": [
-          {
-            "key": "Kachestvo",
-            "value": "Качество"
-          },
-          {
-            "key": "Upakovka",
-            "value": "Упаковка"
-          }
-        ],
-        "createdAt": 1757356233545,
-        "points": 0,
-        "approvedImages": [],
-        "reaction": {
-          "likes": 0,
-          "dislikes": 0,
-          "balance": 0,
-          "vote": 0,
-          "isAvailable": true
-        },
-        "isContent": false
-      },
-      {
-        "id": 55903484,
-        "rating": 500,
-        "comment": "хороший  разрыхлитель, мне хватило на 3! выпечки!",
-        "username": "",
-        "notes": [
-          {
-            "key": "Kachestvo",
-            "value": "Качество"
-          }
-        ],
-        "createdAt": 1757238843498,
-        "points": 0,
-        "approvedImages": [],
-        "reaction": {
-          "likes": 0,
-          "dislikes": 0,
-          "balance": 0,
-          "vote": 0,
-          "isAvailable": true
-        },
-        "isContent": false
-      },
-      {
-        "id": 55893578,
-        "rating": 500,
-        "comment": "обычный разрыхлитель",
-        "username": "",
-        "notes": [
-          {
-            "key": "Kachestvo",
-            "value": "Качество"
-          }
-        ],
-        "createdAt": 1757180245928,
-        "points": 0,
-        "approvedImages": [],
-        "reaction": {
-          "likes": 0,
-          "dislikes": 0,
-          "balance": 0,
-          "vote": 0,
-          "isAvailable": true
-        },
-        "isContent": false
-      },
-      {
-        "id": 55848829,
-        "rating": 500,
-        "comment": "Хороший разрыхлитель, отличен для оладий.",
-        "username": "",
-        "notes": [
-          {
-            "key": "Svegest",
-            "value": "Свежесть"
-          },
-          {
-            "key": "Kachestvo",
-            "value": "Качество"
-          },
-          {
-            "key": "Upakovka",
-            "value": "Упаковка"
-          }
-        ],
-        "createdAt": 1757086585495,
-        "points": 0,
-        "approvedImages": [],
-        "reaction": {
-          "likes": 0,
-          "dislikes": 0,
-          "balance": 0,
-          "vote": 0,
-          "isAvailable": true
-        },
-        "isContent": false
-      },
-      {
-        "id": 55765486,
-        "rating": 500,
-        "comment": "Цена качество работает отлично и количество норм",
-        "username": "",
-        "notes": [
-          {
-            "key": "Kachestvo",
-            "value": "Качество"
-          },
-          {
-            "key": "Drugoe",
-            "value": "Другое"
-          }
-        ],
-        "createdAt": 1756838596177,
-        "points": 0,
-        "approvedImages": [],
-        "reaction": {
-          "likes": 0,
-          "dislikes": 0,
-          "balance": 0,
-          "vote": 0,
-          "isAvailable": true
-        },
-        "isContent": false
-      },
-      {
-        "id": 55340644,
-        "rating": 500,
-        "comment": "Хороший",
+        "id": 58089385,
+        "rating": 400,
+        "comment": "Вкус на любителя",
         "username": "",
         "notes": [],
-        "createdAt": 1755582688100,
+        "createdAt": 1763562935604,
         "points": 0,
         "approvedImages": [],
         "reaction": {
@@ -169,9 +38,9 @@
         "isContent": false
       },
       {
-        "id": 55158194,
+        "id": 58073715,
         "rating": 500,
-        "comment": "вкусненько",
+        "comment": "Вкусно и крутой чупа-чупс очень понравился но огромный минус очень сложно открывается упаковка!!!!!!!",
         "username": "",
         "notes": [
           {
@@ -179,23 +48,11 @@
             "value": "Вкус"
           },
           {
-            "key": "Svegest",
-            "value": "Свежесть"
-          },
-          {
             "key": "Kachestvo",
             "value": "Качество"
-          },
-          {
-            "key": "Upakovka",
-            "value": "Упаковка"
-          },
-          {
-            "key": "Drugoe",
-            "value": "Другое"
           }
         ],
-        "createdAt": 1755001506477,
+        "createdAt": 1763492834137,
         "points": 0,
         "approvedImages": [],
         "reaction": {
@@ -208,21 +65,21 @@
         "isContent": false
       },
       {
-        "id": 55154414,
+        "id": 57940327,
         "rating": 500,
-        "comment": "Часто пеку кексы по госту и пользуюсь этим разрыхлителем. Пока все устраивает.",
+        "comment": "Вкусные",
         "username": "",
         "notes": [
           {
-            "key": "Kachestvo",
-            "value": "Качество"
+            "key": "Vkus",
+            "value": "Вкус"
           },
           {
-            "key": "Upakovka",
-            "value": "Упаковка"
+            "key": "Kachestvo",
+            "value": "Качество"
           }
         ],
-        "createdAt": 1754998922686,
+        "createdAt": 1763140263350,
         "points": 0,
         "approvedImages": [],
         "reaction": {
@@ -235,17 +92,121 @@
         "isContent": false
       },
       {
-        "id": 54844009,
+        "id": 57884434,
         "rating": 500,
-        "comment": "Отличный дешевый разрыхлитель. Использую в выпечке",
+        "comment": "интересные вкусы.буду покупать ещё",
+        "username": "",
+        "notes": [],
+        "createdAt": 1763010382643,
+        "points": 0,
+        "approvedImages": [],
+        "reaction": {
+          "likes": 0,
+          "dislikes": 0,
+          "balance": 0,
+          "vote": 0,
+          "isAvailable": true
+        },
+        "isContent": false
+      },
+      {
+        "id": 57818093,
+        "rating": 500,
+        "comment": "чупс как  чупс , вкусненько",
+        "username": "",
+        "notes": [],
+        "createdAt": 1762798708710,
+        "points": 0,
+        "approvedImages": [],
+        "reaction": {
+          "likes": 0,
+          "dislikes": 0,
+          "balance": 0,
+          "vote": 0,
+          "isAvailable": true
+        },
+        "isContent": false
+      },
+      {
+        "id": 57614913,
+        "rating": 500,
+        "comment": "интересный вкус",
         "username": "",
         "notes": [
           {
-            "key": "Svegest",
-            "value": "Свежесть"
+            "key": "Vkus",
+            "value": "Вкус"
           }
         ],
-        "createdAt": 1754073338899,
+        "createdAt": 1762239627338,
+        "points": 0,
+        "approvedImages": [],
+        "reaction": {
+          "likes": 0,
+          "dislikes": 0,
+          "balance": 0,
+          "vote": 0,
+          "isAvailable": true
+        },
+        "isContent": false
+      },
+      {
+        "id": 57515809,
+        "rating": 400,
+        "comment": "Специфический вкус, дети не доели",
+        "username": "",
+        "notes": [],
+        "createdAt": 1761997378602,
+        "points": 0,
+        "approvedImages": [],
+        "reaction": {
+          "likes": 0,
+          "dislikes": 0,
+          "balance": 0,
+          "vote": 0,
+          "isAvailable": true
+        },
+        "isContent": false
+      },
+      {
+        "id": 57488752,
+        "rating": 500,
+        "comment": "вкусная карамель",
+        "username": "",
+        "notes": [
+          {
+            "key": "Kachestvo",
+            "value": "Качество"
+          },
+          {
+            "key": "Vkus",
+            "value": "Вкус"
+          }
+        ],
+        "createdAt": 1761899581747,
+        "points": 0,
+        "approvedImages": [],
+        "reaction": {
+          "likes": 0,
+          "dislikes": 0,
+          "balance": 0,
+          "vote": 0,
+          "isAvailable": true
+        },
+        "isContent": false
+      },
+      {
+        "id": 53344795,
+        "rating": 500,
+        "comment": "детям всегда покупаю, они их любят.",
+        "username": "",
+        "notes": [
+          {
+            "key": "Vkus",
+            "value": "Вкус"
+          }
+        ],
+        "createdAt": 1750192873121,
         "points": 0,
         "approvedImages": [],
         "reaction": {

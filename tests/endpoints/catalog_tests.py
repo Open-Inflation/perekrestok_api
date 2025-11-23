@@ -30,7 +30,7 @@ async def first_category_id(api, schemashot) -> int:
     """ID первой категории из корневого дерева."""
     resp = await make_test(schemashot, api.Catalog.tree)
     data = resp.json()
-    return data["content"]["items"][0]["children"][0]["category"]["id"]
+    return data["content"]["items"][0]["category"]["id"]
 
 
 @pytest.fixture()
@@ -71,12 +71,16 @@ async def test_feed_for_category(api, schemashot, first_category_id):
     await make_test(
         schemashot,
         partial(
-            api.Catalog.grouped_feed,
+            api.Catalog.feed,
             filter=flt,
             sort=abstraction.CatalogFeedSort.Price.ASC,
             limit=DEFAULT_LIMIT,
         ),
     )
+
+# TODO grouped_feed
+
+# TODO search
 
 
 @pytest.fixture()
@@ -87,7 +91,7 @@ async def product_ids(api, schemashot, first_category_id):
     resp = await make_test(
         schemashot,
         partial(
-            api.Catalog.grouped_feed,
+            api.Catalog.feed,
             filter=flt,
             sort=abstraction.CatalogFeedSort.Price.ASC,
             limit=1,

@@ -119,7 +119,26 @@
           }
         },
         "productGroups": {
-          "type": "array"
+          "type": "array",
+          "items": {
+            "type": "object",
+            "properties": {
+              "id": {
+                "type": "integer"
+              },
+              "key": {
+                "type": "string"
+              },
+              "title": {
+                "type": "string"
+              }
+            },
+            "required": [
+              "id",
+              "key",
+              "title"
+            ]
+          }
         },
         "hasAdultContent": {
           "type": "boolean"

@@ -3,32 +3,33 @@
     "items": [
       {
         "liked": false,
+        "recSysRecommendationRequestId": null,
         "borderStyle": null,
         "bestReview": null,
         "advToken": null,
-        "id": 339752,
+        "id": 439634,
         "masterData": {
-          "slug": "razryhlitel-dla-testa-pr-st-10g",
-          "plu": "4236368",
+          "slug": "karamel-chupa-chups-abloko-karamel-vanil-mata-mandarin-v-assortimente-12g",
+          "plu": "4366035",
           "unit": 1,
           "unitName": "шт",
           "quantum": 1000,
           "quantumStep": 1000,
-          "weight": 10,
+          "weight": 12,
           "volume": null,
-          "ui4code": "FD0223005",
+          "ui4code": "FD0606003",
           "taxGroup": "BL",
           "ownProduction": false,
-          "privateLabel": true,
+          "privateLabel": false,
           "isMark": false,
           "alcoSetUnits": null,
           "activeNds": 20
         },
-        "title": "Разрыхлитель для теста Пр!ст, 10г",
+        "title": "Карамель Chupa Chups яблоко-карамель/ваниль-мята/мандарин в ассортименте, 12г",
         "primaryCategory": {
-          "id": 396,
-          "title": "Мука, дрожжи",
-          "slug": "muka-drozzi",
+          "id": 402,
+          "title": "Шоколад, конфеты",
+          "slug": "sokolad-konfety",
           "isAlcohol": false,
           "isTobacco": false,
           "isExciseAlcohol": false,
@@ -36,13 +37,14 @@
           "displayStyle": 2,
           "catalogs": [
             2,
+            3,
             4
           ]
         },
         "catalogPrimaryCategory": {
-          "id": 102,
-          "title": "Компоненты для выпечки",
-          "slug": "komponenty-dla-vypecki",
+          "id": 1709,
+          "title": "Подарки",
+          "slug": "podarki",
           "isAlcohol": false,
           "isTobacco": false,
           "isExciseAlcohol": false,
@@ -53,27 +55,32 @@
           ]
         },
         "image": {
-          "id": 783156,
-          "originName": "4236368_1.jpg",
+          "id": 2682150,
+          "originName": "remote_upl_68fa5f28d63773.50181341",
           "fileType": "image",
-          "fileSize": 410363,
-          "width": 1600,
-          "height": 1600,
-          "cropUrlTemplate": "https://tsx.x5static.net/i/%s/xdelivery/files/d7/72/25f158ea0742e8c186016fdcxddf.jpg",
+          "fileSize": 31746,
+          "width": 800,
+          "height": 800,
+          "cropUrlTemplate": "https://tsx.x5static.net/i/%s/xdelivery/files/f2/b3/92cf4fe98b03d0b2868b2b0235d1.jpg",
           "publicUrl": null,
-          "uuid": "b77c1193-a521-4813-b42b-afc24e45ce79"
+          "uuid": "04871d13-a26a-4f0e-bba3-e581c618c419"
         },
-        "rating": 496,
-        "medianPrice": 799,
+        "rating": 493,
+        "medianPrice": 999,
         "labelCharacteristics": [],
         "labels": [],
-        "reviewCount": 365,
-        "ratingCount": 6743,
+        "reviewCount": 70,
+        "ratingCount": 883,
         "priceTag": {
-          "price": 799,
+          "price": 999,
           "discountMinimumAmount": 0,
-          "grossPrice": null,
-          "labels": [],
+          "grossPrice": 1199,
+          "labels": [
+            {
+              "type": "yellow",
+              "text": "-16%"
+            }
+          ],
           "pricePerQuantum": null,
           "grossPricePerQuantum": null,
           "potentialPointsForOrangeCard": null

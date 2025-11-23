@@ -2,431 +2,8 @@
   "content": {
     "items": [
       {
-        "id": 18819,
-        "slug": "hity-perekrestka-w37-sajt",
-        "title": null,
-        "action": "blocks",
-        "color": {
-          "red": 0,
-          "green": 0,
-          "blue": 0,
-          "alpha": 0
-        },
-        "link": null,
-        "webViewType": "default",
-        "textForImage": null,
-        "images": [
-          {
-            "image": {
-              "id": 2505633,
-              "originName": "816x452szgt.png",
-              "fileType": "image",
-              "fileSize": 479611,
-              "width": 816,
-              "height": 452,
-              "cropUrlTemplate": "https://tsx.x5static.net/i/%s/xdelivery/files/4c/d6/d6934c2f58009xdfa476b6a13ffa.png",
-              "publicUrl": null,
-              "uuid": "936f48d4-4d8f-4a7f-8e9c-2b8222ea6fd3"
-            },
-            "scales": [
-              {
-                "scaleName": "default",
-                "image": {
-                  "id": 2505633,
-                  "originName": "816x452szgt.png",
-                  "fileType": "image",
-                  "fileSize": 479611,
-                  "width": 816,
-                  "height": 452,
-                  "cropUrlTemplate": "https://tsx.x5static.net/i/%s/xdelivery/files/4c/d6/d6934c2f58009xdfa476b6a13ffa.png",
-                  "publicUrl": null,
-                  "uuid": "936f48d4-4d8f-4a7f-8e9c-2b8222ea6fd3"
-                }
-              }
-            ],
-            "type": "main",
-            "advToken": null
-          }
-        ],
-        "place": "main_web_banners",
-        "leftSubtitle": null,
-        "rightSubtitle": null,
-        "content": null,
-        "blockTypes": [
-          "image",
-          "product_list"
-        ],
-        "analyticsInfo": [
-          {
-            "name": "bannerName",
-            "type": "text",
-            "value": "Хиты Перекрестка w37 сайт"
-          }
-        ],
-        "positions": [
-          {
-            "key": "main_web_banners",
-            "title": "WEB_Главные в слайдере"
-          }
-        ],
-        "key": null,
-        "deepLink": null
-      },
-      {
-        "id": 18516,
-        "slug": "rozygrys-bts",
-        "title": null,
-        "action": "link",
-        "color": {
-          "red": 0,
-          "green": 0,
-          "blue": 0,
-          "alpha": 0
-        },
-        "link": "https://promo.perekrestok.ru?utm_source=slider",
-        "webViewType": "fullScreen",
-        "textForImage": null,
-        "images": [
-          {
-            "image": {
-              "id": 2474159,
-              "originName": "816x452.png",
-              "fileType": "image",
-              "fileSize": 3729449,
-              "width": 2448,
-              "height": 1356,
-              "cropUrlTemplate": "https://tsx.x5static.net/i/%s/xdelivery/files/00/ec/55da56f0e02198b84e10c12aa43d.png",
-              "publicUrl": null,
-              "uuid": "52d0590d-a89c-4b3a-9860-5ec78d4fee32"
-            },
-            "scales": [
-              {
-                "scaleName": "default",
-                "image": {
-                  "id": 2474159,
-                  "originName": "816x452.png",
-                  "fileType": "image",
-                  "fileSize": 3729449,
-                  "width": 2448,
-                  "height": 1356,
-                  "cropUrlTemplate": "https://tsx.x5static.net/i/%s/xdelivery/files/00/ec/55da56f0e02198b84e10c12aa43d.png",
-                  "publicUrl": null,
-                  "uuid": "52d0590d-a89c-4b3a-9860-5ec78d4fee32"
-                }
-              }
-            ],
-            "type": "main",
-            "advToken": null
-          }
-        ],
-        "place": "main_web_banners",
-        "leftSubtitle": null,
-        "rightSubtitle": null,
-        "content": null,
-        "blockTypes": [],
-        "analyticsInfo": [
-          {
-            "name": "bannerName",
-            "type": "text",
-            "value": "Розыгрыш БТС"
-          }
-        ],
-        "positions": [
-          {
-            "key": "main_web_banners",
-            "title": "WEB_Главные в слайдере"
-          }
-        ],
-        "key": null,
-        "deepLink": null
-      },
-      {
-        "id": 18488,
-        "slug": "import-vkusy-mira-sajt",
-        "title": null,
-        "action": "blocks",
-        "color": {
-          "red": 0,
-          "green": 0,
-          "blue": 0,
-          "alpha": 0
-        },
-        "link": null,
-        "webViewType": "default",
-        "textForImage": null,
-        "images": [
-          {
-            "image": {
-              "id": 2477501,
-              "originName": "Подборка размер 816х452.png",
-              "fileType": "image",
-              "fileSize": 488149,
-              "width": 816,
-              "height": 452,
-              "cropUrlTemplate": "https://tsx.x5static.net/i/%s/xdelivery/files/1c/db/07634c33e93834c111bfeffed2f6.png",
-              "publicUrl": null,
-              "uuid": "45e025a6-9419-407d-a98c-a10b31c1284d"
-            },
-            "scales": [
-              {
-                "scaleName": "default",
-                "image": {
-                  "id": 2477501,
-                  "originName": "Подборка размер 816х452.png",
-                  "fileType": "image",
-                  "fileSize": 488149,
-                  "width": 816,
-                  "height": 452,
-                  "cropUrlTemplate": "https://tsx.x5static.net/i/%s/xdelivery/files/1c/db/07634c33e93834c111bfeffed2f6.png",
-                  "publicUrl": null,
-                  "uuid": "45e025a6-9419-407d-a98c-a10b31c1284d"
-                }
-              }
-            ],
-            "type": "main",
-            "advToken": null
-          }
-        ],
-        "place": "main_web_banners",
-        "leftSubtitle": null,
-        "rightSubtitle": null,
-        "content": null,
-        "blockTypes": [
-          "image",
-          "product_list"
-        ],
-        "analyticsInfo": [
-          {
-            "name": "bannerName",
-            "type": "text",
-            "value": "Импорт \"Вкусы мира\" сайт"
-          }
-        ],
-        "positions": [
-          {
-            "key": "main_web_banners",
-            "title": "WEB_Главные в слайдере"
-          }
-        ],
-        "key": null,
-        "deepLink": null
-      },
-      {
-        "id": 18834,
-        "slug": "frov-37-mango",
-        "title": null,
-        "action": "blocks",
-        "color": {
-          "red": 0,
-          "green": 0,
-          "blue": 0,
-          "alpha": 0
-        },
-        "link": null,
-        "webViewType": "default",
-        "textForImage": null,
-        "images": [
-          {
-            "image": {
-              "id": 2509367,
-              "originName": "Подборка размер 816х452-1.png",
-              "fileType": "image",
-              "fileSize": 2248970,
-              "width": 1632,
-              "height": 904,
-              "cropUrlTemplate": "https://tsx.x5static.net/i/%s/xdelivery/files/25/5b/eddfc56c6effa5b93edab06253a7.png",
-              "publicUrl": null,
-              "uuid": "98900b34-4fb3-4e4e-b1c0-6e0f926f652b"
-            },
-            "scales": [
-              {
-                "scaleName": "default",
-                "image": {
-                  "id": 2509367,
-                  "originName": "Подборка размер 816х452-1.png",
-                  "fileType": "image",
-                  "fileSize": 2248970,
-                  "width": 1632,
-                  "height": 904,
-                  "cropUrlTemplate": "https://tsx.x5static.net/i/%s/xdelivery/files/25/5b/eddfc56c6effa5b93edab06253a7.png",
-                  "publicUrl": null,
-                  "uuid": "98900b34-4fb3-4e4e-b1c0-6e0f926f652b"
-                }
-              }
-            ],
-            "type": "main",
-            "advToken": null
-          }
-        ],
-        "place": "main_web_banners",
-        "leftSubtitle": null,
-        "rightSubtitle": null,
-        "content": null,
-        "blockTypes": [
-          "image",
-          "product_list"
-        ],
-        "analyticsInfo": [
-          {
-            "name": "bannerName",
-            "type": "text",
-            "value": "ФРОВ 37 Манго"
-          }
-        ],
-        "positions": [
-          {
-            "key": "main_web_banners",
-            "title": "WEB_Главные в слайдере"
-          }
-        ],
-        "key": null,
-        "deepLink": null
-      },
-      {
-        "id": 18425,
-        "slug": "supercena-w33",
-        "title": null,
-        "action": "blocks",
-        "color": {
-          "red": 255,
-          "green": 255,
-          "blue": 255,
-          "alpha": 100
-        },
-        "link": null,
-        "webViewType": "default",
-        "textForImage": null,
-        "images": [
-          {
-            "image": {
-              "id": 2516290,
-              "originName": "816х452.png",
-              "fileType": "image",
-              "fileSize": 4502456,
-              "width": 2448,
-              "height": 1356,
-              "cropUrlTemplate": "https://tsx.x5static.net/i/%s/xdelivery/files/b1/89/796ac02df0067b4d984a4c07d7xd.png",
-              "publicUrl": null,
-              "uuid": "3e5598ba-34d2-4b8d-bb5a-010594b82c0a"
-            },
-            "scales": [
-              {
-                "scaleName": "default",
-                "image": {
-                  "id": 2516290,
-                  "originName": "816х452.png",
-                  "fileType": "image",
-                  "fileSize": 4502456,
-                  "width": 2448,
-                  "height": 1356,
-                  "cropUrlTemplate": "https://tsx.x5static.net/i/%s/xdelivery/files/b1/89/796ac02df0067b4d984a4c07d7xd.png",
-                  "publicUrl": null,
-                  "uuid": "3e5598ba-34d2-4b8d-bb5a-010594b82c0a"
-                }
-              }
-            ],
-            "type": "main",
-            "advToken": null
-          }
-        ],
-        "place": "main_web_banners",
-        "leftSubtitle": null,
-        "rightSubtitle": null,
-        "content": null,
-        "blockTypes": [
-          "image",
-          "product_list",
-          "text"
-        ],
-        "analyticsInfo": [
-          {
-            "name": "bannerName",
-            "type": "text",
-            "value": "Суперцена W33"
-          }
-        ],
-        "positions": [
-          {
-            "key": "main_web_banners",
-            "title": "WEB_Главные в слайдере"
-          }
-        ],
-        "key": null,
-        "deepLink": null
-      },
-      {
-        "id": 18774,
-        "slug": "sezonnaa-rasprodaza-36",
-        "title": null,
-        "action": "blocks",
-        "color": {
-          "red": 0,
-          "green": 0,
-          "blue": 0,
-          "alpha": 0
-        },
-        "link": null,
-        "webViewType": "default",
-        "textForImage": null,
-        "images": [
-          {
-            "image": {
-              "id": 2501132,
-              "originName": "Подб13форка размер 816х452.png",
-              "fileType": "image",
-              "fileSize": 4013952,
-              "width": 3264,
-              "height": 1808,
-              "cropUrlTemplate": "https://tsx.x5static.net/i/%s/xdelivery/files/6f/da/a5e01d6ba987c16b4b214c182e25.png",
-              "publicUrl": null,
-              "uuid": "9ce430aa-6273-48b3-9b05-8bc351915a9f"
-            },
-            "scales": [
-              {
-                "scaleName": "default",
-                "image": {
-                  "id": 2501132,
-                  "originName": "Подб13форка размер 816х452.png",
-                  "fileType": "image",
-                  "fileSize": 4013952,
-                  "width": 3264,
-                  "height": 1808,
-                  "cropUrlTemplate": "https://tsx.x5static.net/i/%s/xdelivery/files/6f/da/a5e01d6ba987c16b4b214c182e25.png",
-                  "publicUrl": null,
-                  "uuid": "9ce430aa-6273-48b3-9b05-8bc351915a9f"
-                }
-              }
-            ],
-            "type": "main",
-            "advToken": null
-          }
-        ],
-        "place": "main_web_banners",
-        "leftSubtitle": null,
-        "rightSubtitle": null,
-        "content": null,
-        "blockTypes": [
-          "image"
-        ],
-        "analyticsInfo": [
-          {
-            "name": "bannerName",
-            "type": "text",
-            "value": "Сезонная распродажа 36"
-          }
-        ],
-        "positions": [
-          {
-            "key": "main_web_banners",
-            "title": "WEB_Главные в слайдере"
-          }
-        ],
-        "key": null,
-        "deepLink": null
-      },
-      {
-        "id": 18638,
-        "slug": "loalnost-lk-sentabr",
+        "id": 19745,
+        "slug": "loterea-nevozmoznoe-vozmozno",
         "title": null,
         "action": "deep-link",
         "color": {
@@ -441,29 +18,29 @@
         "images": [
           {
             "image": {
-              "id": 2489567,
-              "originName": "Баннер сларрйдер на сайте_1.png",
+              "id": 2731663,
+              "originName": "Подборка разsda4мер 816х452.png",
               "fileType": "image",
-              "fileSize": 2611379,
-              "width": 3268,
+              "fileSize": 2742775,
+              "width": 3264,
               "height": 1808,
-              "cropUrlTemplate": "https://tsx.x5static.net/i/%s/xdelivery/files/f6/4b/d7c3396f245dba34f618b77215fa.png",
+              "cropUrlTemplate": "https://tsx.x5static.net/i/%s/xdelivery/files/91/10/39e0a23b7ff45b9c53ca97ed68ac.png",
               "publicUrl": null,
-              "uuid": "202158ac-e574-4aee-8d52-94fd75f5578c"
+              "uuid": "37600af2-4e9d-44e3-9792-777563c159a3"
             },
             "scales": [
               {
                 "scaleName": "default",
                 "image": {
-                  "id": 2489567,
-                  "originName": "Баннер сларрйдер на сайте_1.png",
+                  "id": 2731663,
+                  "originName": "Подборка разsda4мер 816х452.png",
                   "fileType": "image",
-                  "fileSize": 2611379,
-                  "width": 3268,
+                  "fileSize": 2742775,
+                  "width": 3264,
                   "height": 1808,
-                  "cropUrlTemplate": "https://tsx.x5static.net/i/%s/xdelivery/files/f6/4b/d7c3396f245dba34f618b77215fa.png",
+                  "cropUrlTemplate": "https://tsx.x5static.net/i/%s/xdelivery/files/91/10/39e0a23b7ff45b9c53ca97ed68ac.png",
                   "publicUrl": null,
-                  "uuid": "202158ac-e574-4aee-8d52-94fd75f5578c"
+                  "uuid": "37600af2-4e9d-44e3-9792-777563c159a3"
                 }
               }
             ],
@@ -480,7 +57,291 @@
           {
             "name": "bannerName",
             "type": "text",
-            "value": "Лояльность_ЛК_Сентябрь"
+            "value": "Лотерея_Невозможное возможно"
+          }
+        ],
+        "positions": [
+          {
+            "key": "main_web_banners",
+            "title": "WEB_Главные в слайдере"
+          }
+        ],
+        "key": null,
+        "deepLink": {
+          "url": "http://promo-perekrestok.ru/",
+          "tsx_type": "internal_webview"
+        }
+      },
+      {
+        "id": 19536,
+        "slug": "festival-prazdnik-sedrosti",
+        "title": null,
+        "action": "blocks",
+        "color": {
+          "red": 0,
+          "green": 0,
+          "blue": 0,
+          "alpha": 0
+        },
+        "link": null,
+        "webViewType": "default",
+        "textForImage": null,
+        "images": [
+          {
+            "image": {
+              "id": 2709514,
+              "originName": "Подборка размер 816х452.png",
+              "fileType": "image",
+              "fileSize": 1570650,
+              "width": 3264,
+              "height": 1808,
+              "cropUrlTemplate": "https://tsx.x5static.net/i/%s/xdelivery/files/78/db/e472982681999363731737e1805d.png",
+              "publicUrl": null,
+              "uuid": "743a4395-630e-4393-bbd0-0b4af759b86f"
+            },
+            "scales": [
+              {
+                "scaleName": "default",
+                "image": {
+                  "id": 2709514,
+                  "originName": "Подборка размер 816х452.png",
+                  "fileType": "image",
+                  "fileSize": 1570650,
+                  "width": 3264,
+                  "height": 1808,
+                  "cropUrlTemplate": "https://tsx.x5static.net/i/%s/xdelivery/files/78/db/e472982681999363731737e1805d.png",
+                  "publicUrl": null,
+                  "uuid": "743a4395-630e-4393-bbd0-0b4af759b86f"
+                }
+              }
+            ],
+            "type": "main",
+            "advToken": null
+          }
+        ],
+        "place": "main_web_banners",
+        "leftSubtitle": null,
+        "rightSubtitle": null,
+        "content": null,
+        "blockTypes": [
+          "image",
+          "product_list"
+        ],
+        "analyticsInfo": [
+          {
+            "name": "bannerName",
+            "type": "text",
+            "value": "Фестиваль Праздник щедрости"
+          }
+        ],
+        "positions": [
+          {
+            "key": "main_web_banners",
+            "title": "WEB_Главные в слайдере"
+          }
+        ],
+        "key": null,
+        "deepLink": null
+      },
+      {
+        "id": 19846,
+        "slug": "frov-47-kivi",
+        "title": null,
+        "action": "blocks",
+        "color": {
+          "red": 0,
+          "green": 0,
+          "blue": 0,
+          "alpha": 0
+        },
+        "link": null,
+        "webViewType": "default",
+        "textForImage": null,
+        "images": [
+          {
+            "image": {
+              "id": 2749349,
+              "originName": "816x452 (34).png",
+              "fileType": "image",
+              "fileSize": 6048495,
+              "width": 3264,
+              "height": 1808,
+              "cropUrlTemplate": "https://tsx.x5static.net/i/%s/xdelivery/files/c8/f3/886f506227e6f3f0003f4215b55e.png",
+              "publicUrl": null,
+              "uuid": "a9bcf787-a628-4cc2-a8e0-7e0e2bb3542c"
+            },
+            "scales": [
+              {
+                "scaleName": "default",
+                "image": {
+                  "id": 2749349,
+                  "originName": "816x452 (34).png",
+                  "fileType": "image",
+                  "fileSize": 6048495,
+                  "width": 3264,
+                  "height": 1808,
+                  "cropUrlTemplate": "https://tsx.x5static.net/i/%s/xdelivery/files/c8/f3/886f506227e6f3f0003f4215b55e.png",
+                  "publicUrl": null,
+                  "uuid": "a9bcf787-a628-4cc2-a8e0-7e0e2bb3542c"
+                }
+              }
+            ],
+            "type": "main",
+            "advToken": null
+          }
+        ],
+        "place": "main_web_banners",
+        "leftSubtitle": null,
+        "rightSubtitle": null,
+        "content": null,
+        "blockTypes": [
+          "image",
+          "product_list"
+        ],
+        "analyticsInfo": [
+          {
+            "name": "bannerName",
+            "type": "text",
+            "value": "ФРОВ 47 Киви"
+          }
+        ],
+        "positions": [
+          {
+            "key": "main_web_banners",
+            "title": "WEB_Главные в слайдере"
+          }
+        ],
+        "key": null,
+        "deepLink": null
+      },
+      {
+        "id": 19906,
+        "slug": "sistema-kacestva-h5",
+        "title": null,
+        "action": "blocks",
+        "color": {
+          "red": 0,
+          "green": 0,
+          "blue": 0,
+          "alpha": 0
+        },
+        "link": null,
+        "webViewType": "default",
+        "textForImage": null,
+        "images": [
+          {
+            "image": {
+              "id": 2761181,
+              "originName": "Подборка размер 816х452.png",
+              "fileType": "image",
+              "fileSize": 1533517,
+              "width": 2448,
+              "height": 1356,
+              "cropUrlTemplate": "https://tsx.x5static.net/i/%s/xdelivery/files/3c/b6/dea835aea66b1eb54361c6a06252.png",
+              "publicUrl": null,
+              "uuid": "6fda3855-2b69-4c11-84a4-3bbef33ce478"
+            },
+            "scales": [
+              {
+                "scaleName": "default",
+                "image": {
+                  "id": 2761181,
+                  "originName": "Подборка размер 816х452.png",
+                  "fileType": "image",
+                  "fileSize": 1533517,
+                  "width": 2448,
+                  "height": 1356,
+                  "cropUrlTemplate": "https://tsx.x5static.net/i/%s/xdelivery/files/3c/b6/dea835aea66b1eb54361c6a06252.png",
+                  "publicUrl": null,
+                  "uuid": "6fda3855-2b69-4c11-84a4-3bbef33ce478"
+                }
+              }
+            ],
+            "type": "main",
+            "advToken": null
+          }
+        ],
+        "place": "main_web_banners",
+        "leftSubtitle": null,
+        "rightSubtitle": null,
+        "content": null,
+        "blockTypes": [
+          "image",
+          "product_list"
+        ],
+        "analyticsInfo": [
+          {
+            "name": "bannerName",
+            "type": "text",
+            "value": "Система качества Х5"
+          }
+        ],
+        "positions": [
+          {
+            "key": "main_web_banners",
+            "title": "WEB_Главные в слайдере"
+          }
+        ],
+        "key": null,
+        "deepLink": null
+      },
+      {
+        "id": 19514,
+        "slug": "loalnost-lk-noabr",
+        "title": null,
+        "action": "deep-link",
+        "color": {
+          "red": 0,
+          "green": 0,
+          "blue": 0,
+          "alpha": 0
+        },
+        "link": null,
+        "webViewType": "default",
+        "textForImage": null,
+        "images": [
+          {
+            "image": {
+              "id": 2707450,
+              "originName": "Баннер слайдыв54ер на сайте_1.png",
+              "fileType": "image",
+              "fileSize": 3147342,
+              "width": 2448,
+              "height": 1356,
+              "cropUrlTemplate": "https://tsx.x5static.net/i/%s/xdelivery/files/b8/92/c234a1cd630c4e694a6d129f783a.png",
+              "publicUrl": null,
+              "uuid": "5ed669a5-f1eb-43ad-9e6d-07a1c883d84c"
+            },
+            "scales": [
+              {
+                "scaleName": "default",
+                "image": {
+                  "id": 2707450,
+                  "originName": "Баннер слайдыв54ер на сайте_1.png",
+                  "fileType": "image",
+                  "fileSize": 3147342,
+                  "width": 2448,
+                  "height": 1356,
+                  "cropUrlTemplate": "https://tsx.x5static.net/i/%s/xdelivery/files/b8/92/c234a1cd630c4e694a6d129f783a.png",
+                  "publicUrl": null,
+                  "uuid": "5ed669a5-f1eb-43ad-9e6d-07a1c883d84c"
+                }
+              }
+            ],
+            "type": "main",
+            "advToken": null
+          }
+        ],
+        "place": "main_web_banners",
+        "leftSubtitle": null,
+        "rightSubtitle": null,
+        "content": null,
+        "blockTypes": [],
+        "analyticsInfo": [
+          {
+            "name": "bannerName",
+            "type": "text",
+            "value": "Лояльность_ЛК_Ноябрь"
           }
         ],
         "positions": [
@@ -493,6 +354,78 @@
         "deepLink": {
           "url": "https://www.perekrestok.ru/profile/x5-club",
           "tsx_type": "internal_webview"
+        }
+      },
+      {
+        "id": 18963,
+        "slug": "paket-oktabr",
+        "title": null,
+        "action": "deep-link",
+        "color": {
+          "red": 0,
+          "green": 0,
+          "blue": 0,
+          "alpha": 0
+        },
+        "link": null,
+        "webViewType": "default",
+        "textForImage": null,
+        "images": [
+          {
+            "image": {
+              "id": 2528963,
+              "originName": "Главная_страница_816x452.png",
+              "fileType": "image",
+              "fileSize": 5101615,
+              "width": 3264,
+              "height": 1808,
+              "cropUrlTemplate": "https://tsx.x5static.net/i/%s/xdelivery/files/56/c6/c60f1091831740305e59815fba39.png",
+              "publicUrl": null,
+              "uuid": "d6af5a7d-1ece-4557-baba-0b6fd502f94d"
+            },
+            "scales": [
+              {
+                "scaleName": "default",
+                "image": {
+                  "id": 2528963,
+                  "originName": "Главная_страница_816x452.png",
+                  "fileType": "image",
+                  "fileSize": 5101615,
+                  "width": 3264,
+                  "height": 1808,
+                  "cropUrlTemplate": "https://tsx.x5static.net/i/%s/xdelivery/files/56/c6/c60f1091831740305e59815fba39.png",
+                  "publicUrl": null,
+                  "uuid": "d6af5a7d-1ece-4557-baba-0b6fd502f94d"
+                }
+              }
+            ],
+            "type": "main",
+            "advToken": null
+          }
+        ],
+        "place": "main_web_banners",
+        "leftSubtitle": null,
+        "rightSubtitle": null,
+        "content": null,
+        "blockTypes": [],
+        "analyticsInfo": [
+          {
+            "name": "bannerName",
+            "type": "text",
+            "value": "Пакет_Октябрь"
+          }
+        ],
+        "positions": [
+          {
+            "key": "main_web_banners",
+            "title": "WEB_Главные в слайдере"
+          }
+        ],
+        "key": null,
+        "deepLink": {
+          "url": "https://x5club.ru/?utm_campaign=x5_tcx-web_redesign-frk_011025&utm_source=perek_web&utm_medium=marketing&utm_content=tcx-web_011025_redesign-frk_main-slider",
+          "tsx_type": "internal_webview",
+          "add_token_to_cookie": true
         }
       }
     ],
