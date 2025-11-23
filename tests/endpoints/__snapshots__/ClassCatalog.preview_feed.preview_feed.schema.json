@@ -490,6 +490,9 @@
                     },
                     "balanceState": {
                       "type": "string"
+                    },
+                    "recSysRecommendationRequestId": {
+                      "type": "null"
                     }
                   },
                   "required": [

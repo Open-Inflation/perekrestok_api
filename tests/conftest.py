@@ -1,5 +1,7 @@
+# Updated conftest.py
 from __future__ import annotations
 
+import asyncio
 import time
 from typing import Any, Callable
 
@@ -8,14 +10,14 @@ import pytest
 from perekrestok_api import PerekrestokAPI
 
 
-def is_not_error(response: Any) -> None:
+async def is_not_error(response: Any) -> None:
     """
     Базовая проверка успешного ответа:
     - HTTP статус < 400
     - тело корректно JSON-декодится
     - нет ключа 'error' в корне
     """
-    time.sleep(0.5)  # слегка притормаживаем частоту запросов
+    await asyncio.sleep(0.5)  # слегка притормаживаем частоту запросов асинхронно
 
     status = getattr(response, "status_code", 200)
     if status >= 400:
@@ -34,7 +36,7 @@ def is_not_error(response: Any) -> None:
         raise AssertionError(f"API returned error: {content['error']}")
 
 
-def make_test(
+async def make_test(
     schemashot,
     call: Callable[..., Any],
     name: str = "main",
@@ -50,8 +52,8 @@ def make_test(
     Аргументы эндпоинта передавайте через kwargs или functools.partial,
     чтобы не перепутать с параметром `name`.
     """
-    resp = call(*args, **kwargs)
-    is_not_error(resp)
+    resp = await call(*args, **kwargs)
+    await is_not_error(resp)
     data = resp.json()
     # Новая версия умеет строить имя по callable; добавим подпуть `name`.
     schemashot.assert_json_match(data, (call, name))
@@ -59,7 +61,16 @@ def make_test(
 
 
 @pytest.fixture(scope="session")
-def api() -> PerekrestokAPI:
+def anyio_backend():
+    """
+    Переопределяет фикстуру anyio_backend, чтобы использовать asyncio
+    для всей сессии, устраняя ScopeMismatch с фикстурой 'api'.
+    """
+    return "asyncio"
+
+
+@pytest.fixture(scope="session")
+async def api() -> PerekrestokAPI:
     """Сессионный клиент API."""
-    with PerekrestokAPI() as client:
+    async with PerekrestokAPI() as client:
         yield client

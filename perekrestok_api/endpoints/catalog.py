@@ -130,7 +130,9 @@ class ProductService:
     async def available_count(self, product_plu: int | str) -> FetchResponse:
         """Получить информацию о количестве товара в магазинах по PLU! НЕ ПУТАТЬ С ID ТОВАРА!"""
         product_plu = self._check_plu(product_plu)
-        url = f"{self._parent.CATALOG_URL}/catalog/{product_plu}/shop-availability/count"
+        url = (
+            f"{self._parent.CATALOG_URL}/catalog/{product_plu}/shop-availability/count"
+        )
         return await self._parent._request(HttpMethod.GET, url)
 
     async def similar(self, product_id: int) -> FetchResponse:

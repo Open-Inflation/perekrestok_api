@@ -53,6 +53,9 @@ version = { attr = "perekrestok_api.__version__" }
 pythonpath = ["."]
 testpaths = ["tests"]
 python_files = ["*_test.py", "*_tests.py"]
-asyncio_mode = "auto"
-asyncio_default_fixture_loop_scope = "session"
+filterwarnings = [
+    "ignore::pytest.PytestUnraisableExceptionWarning",
+    "ignore:Event loop is closed:RuntimeWarning",
+]
+anyio_mode = "auto"
 addopts = "-v --tb=short --disable-warnings"

@@ -64,7 +64,9 @@ class ClassGeolocation:
             search: Название города для поиска
             limit: Максимальное количество результатов
         """
-        url = f"{self._parent.CATALOG_URL}/geo/city?search={quote(search)}&limit={limit}"
+        url = (
+            f"{self._parent.CATALOG_URL}/geo/city?search={quote(search)}&limit={limit}"
+        )
         return await self._parent._request(HttpMethod.GET, url)
 
 

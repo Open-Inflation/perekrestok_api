@@ -55,20 +55,20 @@ MOSCOW_DELIVERY_POINT = abstraction.Geoposition(
         ),
     ],
 )
-def test_geolocation_matrix(api, schemashot, factory):
-    make_test(schemashot, factory(api))
+async def test_geolocation_matrix(api, schemashot, factory):
+    await make_test(schemashot, factory(api))
 
 
 # Зависимая цепочка (нужен shop_id) — фикстура function-scoped
 @pytest.fixture()
-def shop_id(api, schemashot) -> int:
-    resp = make_test(schemashot, api.Geolocation.Shop.all)
+async def shop_id(api, schemashot) -> int:
+    resp = await make_test(schemashot, api.Geolocation.Shop.all)
     return resp.json()["content"]["items"][0]["id"]
 
 
-def test_shop_info(api, schemashot, shop_id):
-    make_test(schemashot, partial(api.Geolocation.Shop.info, shop_id))
+async def test_shop_info(api, schemashot, shop_id):
+    await make_test(schemashot, partial(api.Geolocation.Shop.info, shop_id))
 
 
-def test_select_shop(api, schemashot, shop_id):
-    make_test(schemashot, partial(api.Geolocation.Selection.shop_point, shop_id))
+async def test_select_shop(api, schemashot, shop_id):
+    await make_test(schemashot, partial(api.Geolocation.Selection.shop_point, shop_id))

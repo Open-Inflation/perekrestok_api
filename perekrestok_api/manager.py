@@ -31,7 +31,7 @@ class PerekrestokAPI:
 
     timeout_ms: float = 5000.0
     """Время ожидания ответа от сервера в миллисекундах."""
-    headless: bool = False
+    headless: bool = True
     """Запускать браузер в headless режиме?"""
     proxy: str | dict | None = field(default_factory=_pick_https_proxy)
     """Прокси-сервер для всех запросов (если нужен). По умолчанию берет из окружения (если есть).
@@ -108,8 +108,7 @@ class PerekrestokAPI:
         if not ok:
             raise RuntimeError(self.page.content)
 
-        print(list(map(lambda d: d['name'], await self.page.cookies())))
-        if "session" not in list(map(lambda d: d['name'], await self.page.cookies())):
+        if "session" not in list(map(lambda d: d["name"], await self.page.cookies())):
             raise RuntimeError("Cookie 'session' not found after warmup.")
 
         await sniffer.wait(
@@ -170,7 +169,8 @@ class PerekrestokAPI:
             credentials="include" if credentials else "omit",
             timeout_ms=self.timeout_ms,
             referrer=self.MAIN_SITE_URL,
-            headers={"Accept": "application/json, text/plain, */*"} | (self.unstandard_headers if add_unstandard_headers else {}),
+            headers={"Accept": "application/json, text/plain, */*"}
+            | (self.unstandard_headers if add_unstandard_headers else {}),
         )
 
         return resp

@@ -35,16 +35,18 @@ DEFAULT_LIMIT = 5
         ),
     ],
 )
-def test_advertising_matrix(api, schemashot, factory):
-    make_test(schemashot, factory(api))
+async def test_advertising_matrix(api, schemashot, factory):
+    await make_test(schemashot, factory(api))
 
 
 # Зависимая фикстура — function-scoped
 @pytest.fixture()
-def booklet_id(api, schemashot) -> int:
-    resp = make_test(schemashot, partial(api.Advertising.booklet, city=MOSCOW_CITY_ID))
+async def booklet_id(api, schemashot) -> int:
+    resp = await make_test(
+        schemashot, partial(api.Advertising.booklet, city=MOSCOW_CITY_ID)
+    )
     return resp.json()["content"]["items"][0]["id"]
 
 
-def test_view_booklet(api, schemashot, booklet_id):
-    make_test(schemashot, partial(api.Advertising.view_booklet, booklet_id))
+async def test_view_booklet(api, schemashot, booklet_id):
+    await make_test(schemashot, partial(api.Advertising.view_booklet, booklet_id))

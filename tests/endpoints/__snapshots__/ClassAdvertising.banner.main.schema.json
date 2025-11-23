@@ -252,10 +252,14 @@
                     "type": "object",
                     "properties": {
                       "url": {
+                        "format": "uri",
                         "type": "string"
                       },
                       "tsx_type": {
                         "type": "string"
+                      },
+                      "add_token_to_cookie": {
+                        "type": "boolean"
                       }
                     },
                     "required": [
