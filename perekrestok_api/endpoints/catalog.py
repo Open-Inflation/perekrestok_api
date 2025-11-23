@@ -38,7 +38,7 @@ class ClassCatalog:
         url = f"{self._parent.CATALOG_URL}/catalog/category/feed/{category_id}"
         return await self._parent._request(HttpMethod.GET, url)
 
-    async def feed(
+    async def promo_feed(
         self,
         filter: abstraction.CatalogFeedFilter,
         sort: abstraction.CatalogFeedSort = abstraction.CatalogFeedSort.Popularity.ASC,
@@ -47,14 +47,33 @@ class ClassCatalog:
         with_best_reviews_only: bool = False,
     ) -> FetchResponse:
         """
-        Получение фида товаров с фильтрами и сортировкой.
+        Получение фида промо-товаров с фильтрами и сортировкой.
 
         Схема плоской ленты товаров.
         Все товары находятся на одном уровне без объединения в группы.
         Используется для простых списков с единым порядком сортировки и пагинацией.
-        Подходит для бесконечной прокрутки, поиска и фильтрации без акцентирования на группах или промоблоках.
+        Подходит для бесконечной прокрутки, поиска и фильтрации без акцентирования на группах.
         """
         url = f"{self._parent.CATALOG_URL}/catalog/product/feed"
+        body = {
+            "filter": filter.as_dict(),
+            "page": page,
+            "perPage": limit,
+            "withBestProductReviews": with_best_reviews_only,
+        }
+        body.update(sort)
+        return await self._parent._request(HttpMethod.POST, url, json_body=body)
+
+    async def grouped_feed(
+            self,
+            filter: abstraction.CatalogFeedFilter,
+            sort: abstraction.CatalogFeedSort = abstraction.CatalogFeedSort.Popularity.ASC,
+            page: int = 1,
+            limit: int = 100,
+            with_best_reviews_only: bool = False
+        ):
+        """ОСНОВНОЙ СПОСОБ получения товаров по категориям И подкатегориям."""
+        url = f"{self._parent.CATALOG_URL}/catalog/product/grouped-feed"
         body = {
             "filter": filter.as_dict(),
             "page": page,

@@ -4,6 +4,7 @@ import os
 from collections import defaultdict
 from dataclasses import dataclass, field
 from typing import Any
+import json
 
 from camoufox.async_api import AsyncCamoufox
 from human_requests import HumanBrowser, HumanContext, HumanPage
@@ -31,7 +32,7 @@ class PerekrestokAPI:
 
     timeout_ms: float = 5000.0
     """Время ожидания ответа от сервера в миллисекундах."""
-    headless: bool = True
+    headless: bool = False
     """Запускать браузер в headless режиме?"""
     proxy: str | dict | None = field(default_factory=_pick_https_proxy)
     """Прокси-сервер для всех запросов (если нужен). По умолчанию берет из окружения (если есть).
@@ -161,10 +162,14 @@ class PerekrestokAPI:
             json_body: Тело запроса в формате JSON (опционально)
         """
         # Единая точка входа в чужую библиотеку для удобства
+        body = json_body
+        if json_body:
+            body = json.dumps(body)
+
         resp: FetchResponse = await self.page.fetch(
             url=url,
             method=method,
-            body=json_body,
+            body=body,
             mode="cors",
             credentials="include" if credentials else "omit",
             timeout_ms=self.timeout_ms,

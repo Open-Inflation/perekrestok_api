@@ -18,7 +18,10 @@
               "type": "string"
             },
             "parentId": {
-              "type": "null"
+              "type": [
+                "integer",
+                "null"
+              ]
             },
             "smallImage": {
               "anyOf": [
@@ -73,48 +76,55 @@
               ]
             },
             "bigImage": {
-              "type": "object",
-              "properties": {
-                "id": {
-                  "type": "integer"
-                },
-                "originName": {
-                  "type": "string"
-                },
-                "fileType": {
-                  "type": "string"
-                },
-                "fileSize": {
-                  "type": "integer"
-                },
-                "width": {
-                  "type": "integer"
-                },
-                "height": {
-                  "type": "integer"
-                },
-                "cropUrlTemplate": {
-                  "format": "uri",
-                  "type": "string"
-                },
-                "publicUrl": {
+              "anyOf": [
+                {
                   "type": "null"
                 },
-                "uuid": {
-                  "format": "uuid",
-                  "type": "string"
+                {
+                  "type": "object",
+                  "properties": {
+                    "id": {
+                      "type": "integer"
+                    },
+                    "originName": {
+                      "type": "string"
+                    },
+                    "fileType": {
+                      "type": "string"
+                    },
+                    "fileSize": {
+                      "type": "integer"
+                    },
+                    "width": {
+                      "type": "integer"
+                    },
+                    "height": {
+                      "type": "integer"
+                    },
+                    "cropUrlTemplate": {
+                      "format": "uri",
+                      "type": "string"
+                    },
+                    "publicUrl": {
+                      "type": "null"
+                    },
+                    "uuid": {
+                      "format": "uuid",
+                      "type": "string"
+                    }
+                  },
+                  "required": [
+                    "cropUrlTemplate",
+                    "fileSize",
+                    "fileType",
+                    "height",
+                    "id",
+                    "originName",
+                    "publicUrl",
+                    "uuid",
+                    "width"
+                  ]
                 }
-              },
-              "required": [
-                "cropUrlTemplate",
-                "fileSize",
-                "fileType",
-                "height",
-                "id",
-                "originName",
-                "publicUrl",
-                "uuid",
-                "width"
               ]
             },
             "squareSmallImage": {
@@ -233,7 +243,56 @@
               "type": "null"
             },
             "smallCategoryImage": {
-              "type": "null"
+              "anyOf": [
+                {
+                  "type": "null"
+                },
+                {
+                  "type": "object",
+                  "properties": {
+                    "id": {
+                      "type": "integer"
+                    },
+                    "originName": {
+                      "type": "string"
+                    },
+                    "fileType": {
+                      "type": "string"
+                    },
+                    "fileSize": {
+                      "type": "integer"
+                    },
+                    "width": {
+                      "type": "integer"
+                    },
+                    "height": {
+                      "type": "integer"
+                    },
+                    "cropUrlTemplate": {
+                      "format": "uri",
+                      "type": "string"
+                    },
+                    "publicUrl": {
+                      "type": "null"
+                    },
+                    "uuid": {
+                      "format": "uuid",
+                      "type": "string"
+                    }
+                  },
+                  "required": [
+                    "cropUrlTemplate",
+                    "fileSize",
+                    "fileType",
+                    "height",
+                    "id",
+                    "originName",
+                    "publicUrl",
+                    "uuid",
+                    "width"
+                  ]
+                }
+              ]
             },
             "deepLink": {
               "type": "null"

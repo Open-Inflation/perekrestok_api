@@ -8,7 +8,7 @@ from conftest import make_test
 from perekrestok_api import abstraction
 
 # Локальные константы
-DEFAULT_LIMIT = 5
+DEFAULT_LIMIT = 48
 
 
 # Независимые кейсы — в матрицу
@@ -30,7 +30,7 @@ async def first_category_id(api, schemashot) -> int:
     """ID первой категории из корневого дерева."""
     resp = await make_test(schemashot, api.Catalog.tree)
     data = resp.json()
-    return data["content"]["items"][0]["category"]["id"]
+    return data["content"]["items"][0]["children"][0]["category"]["id"]
 
 
 @pytest.fixture()
@@ -61,17 +61,17 @@ async def test_category_reviews(api, schemashot, first_category_id):
 
 async def test_form_for_category(api, schemashot, first_category_id):
     flt = abstraction.CatalogFeedFilter()
-    flt.CATEGORY_ID = first_category_id
+    flt.SUB_CATEGORY_ID = first_category_id
     await make_test(schemashot, partial(api.Catalog.form, filter=flt))
 
 
 async def test_feed_for_category(api, schemashot, first_category_id):
     flt = abstraction.CatalogFeedFilter()
-    flt.CATEGORY_ID = first_category_id
+    flt.SUB_CATEGORY_ID = first_category_id
     await make_test(
         schemashot,
         partial(
-            api.Catalog.feed,
+            api.Catalog.grouped_feed,
             filter=flt,
             sort=abstraction.CatalogFeedSort.Price.ASC,
             limit=DEFAULT_LIMIT,
@@ -83,11 +83,11 @@ async def test_feed_for_category(api, schemashot, first_category_id):
 async def product_ids(api, schemashot, first_category_id):
     """Берём первый товар из фида категории."""
     flt = abstraction.CatalogFeedFilter()
-    flt.CATEGORY_ID = first_category_id
+    flt.SUB_CATEGORY_ID = first_category_id
     resp = await make_test(
         schemashot,
         partial(
-            api.Catalog.feed,
+            api.Catalog.grouped_feed,
             filter=flt,
             sort=abstraction.CatalogFeedSort.Price.ASC,
             limit=1,
