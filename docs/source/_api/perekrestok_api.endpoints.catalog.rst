@@ -4,11 +4,17 @@
 .. automodule:: perekrestok_api.endpoints.catalog
 
    
+   .. rubric:: Functions
+
+   .. autosummary::
+   
+      quote
+   
    .. rubric:: Classes
 
    .. autosummary::
    
       ClassCatalog
+      FetchResponse
       ProductService
-      Response
    

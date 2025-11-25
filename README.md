@@ -29,22 +29,22 @@ Perekrestok (Перекрёсток) - https://www.perekrestok.ru/
 
 ```bash
 pip install perekrestok_api
-python -m hrequests install
 ```
 
 ```py
 from perekrestok_api import PerekrestokAPI
 from perekrestok_api import abstraction
+import asyncio
 
 
-def main():
-    with PerekrestokAPI() as Api:
-        geopos_handler = Api.Geolocation.current()
+async def main():
+    async with PerekrestokAPI() as Api:
+        geopos_handler = await Api.Geolocation.current()
         geopos = geopos_handler.json()
         print(f'Текущий город сессии {geopos["content"]["city"]["name"]} ({geopos["content"]["city"]["id"]})')
     
         # Получаем список категорий
-        categories = Api.Catalog.tree()
+        categories = await Api.Catalog.tree()
         cat = categories.json()
         print(f'Список категорий: {len(cat["content"]["items"])}')
 
@@ -53,20 +53,22 @@ def main():
         # Получаем список товаров
         filter = abstraction.CatalogFeedFilter()
         filter.CATEGORY_ID = cat["content"]["items"][0]["category"]["id"]
-        products = Api.Catalog.feed(filter=filter)
+        filter.PROMO_LISTING = 27
+        products = await Api.Catalog.feed(filter=filter)
         prod = products.json()
 
         # Выводим первый товар
         print(f'Первый товар: {prod["content"]["items"][0]["title"]} ({prod["content"]["items"][0]["id"]})')
 
+# Запуск асинхронной функции main
 if __name__ == "__main__":
-    main()
+    asyncio.run(main())
 ```
 ```bash
 > Текущий город сессии Москва (81)
 > Список категорий: 31
-> Категория: Летний сезон (1585)
-> Первый товар: Пиво Василеостровское Тройной пшеничный эль нефильтрованное 6.9%, 750мл (66750)
+> Категория: Встречаем Новый год (1692)
+> Первый товар: Икра Камчатское Море горбуши зернистая солёная, 320г (487063)
 ```
 
 Для более подробной информации смотрите референсы [документации](https://open-inflation.github.io/perekrestok_api/quick_start).

@@ -9,5 +9,5 @@
    .. autosummary::
    
       ClassAdvertising
-      Response
+      FetchResponse
    

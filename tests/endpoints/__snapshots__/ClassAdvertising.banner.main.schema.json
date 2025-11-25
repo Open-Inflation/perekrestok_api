@@ -260,11 +260,16 @@
                       },
                       "add_token_to_cookie": {
                         "type": "boolean"
+                      },
+                      "banner_id": {
+                        "type": "integer"
+                      },
+                      "banner_slug": {
+                        "type": "string"
                       }
                     },
                     "required": [
-                      "tsx_type",
-                      "url"
+                      "tsx_type"
                     ]
                   }
                 ]

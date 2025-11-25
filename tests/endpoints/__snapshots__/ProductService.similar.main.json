@@ -77,7 +77,7 @@
         "labelCharacteristics": [],
         "labels": [],
         "reviewCount": 161,
-        "ratingCount": 8548,
+        "ratingCount": 8549,
         "priceTag": {
           "price": 1999,
           "discountMinimumAmount": 0,
@@ -163,7 +163,7 @@
         "labelCharacteristics": [],
         "labels": [],
         "reviewCount": 288,
-        "ratingCount": 12588,
+        "ratingCount": 12591,
         "priceTag": {
           "price": 1699,
           "discountMinimumAmount": 0,
@@ -246,15 +246,10 @@
         "reviewCount": 112,
         "ratingCount": 7514,
         "priceTag": {
-          "price": 4599,
+          "price": 5799,
           "discountMinimumAmount": 0,
-          "grossPrice": 5199,
-          "labels": [
-            {
-              "type": "yellow",
-              "text": "-11%"
-            }
-          ],
+          "grossPrice": null,
+          "labels": [],
           "pricePerQuantum": null,
           "grossPricePerQuantum": null,
           "potentialPointsForOrangeCard": null
@@ -412,21 +407,16 @@
           "uuid": "26224859-6e4e-4ce9-80c0-8a59a6408c07"
         },
         "rating": 494,
-        "medianPrice": 9399,
+        "medianPrice": 9299,
         "labelCharacteristics": [],
         "labels": [],
         "reviewCount": 73,
-        "ratingCount": 2885,
+        "ratingCount": 2890,
         "priceTag": {
-          "price": 9399,
+          "price": 9299,
           "discountMinimumAmount": 0,
-          "grossPrice": 10999,
-          "labels": [
-            {
-              "type": "yellow",
-              "text": "-14%"
-            }
-          ],
+          "grossPrice": null,
+          "labels": [],
           "pricePerQuantum": null,
           "grossPricePerQuantum": null,
           "potentialPointsForOrangeCard": null
@@ -501,8 +491,8 @@
         "medianPrice": 65990,
         "labelCharacteristics": [],
         "labels": [],
-        "reviewCount": 140,
-        "ratingCount": 5541,
+        "reviewCount": 139,
+        "ratingCount": 5540,
         "priceTag": {
           "price": 65990,
           "discountMinimumAmount": 0,
@@ -588,7 +578,7 @@
         "labelCharacteristics": [],
         "labels": [],
         "reviewCount": 214,
-        "ratingCount": 5042,
+        "ratingCount": 5043,
         "priceTag": {
           "price": 4499,
           "discountMinimumAmount": 0,
@@ -670,11 +660,11 @@
           "uuid": "2bd3a1e0-e653-4d46-92df-dc6452967307"
         },
         "rating": 493,
-        "medianPrice": 12999,
+        "medianPrice": 13199,
         "labelCharacteristics": [],
         "labels": [],
         "reviewCount": 59,
-        "ratingCount": 953,
+        "ratingCount": 954,
         "priceTag": {
           "price": 12299,
           "discountMinimumAmount": 0,
@@ -760,7 +750,7 @@
         "labelCharacteristics": [],
         "labels": [],
         "reviewCount": 25,
-        "ratingCount": 826,
+        "ratingCount": 828,
         "priceTag": {
           "price": 5899,
           "discountMinimumAmount": 0,
@@ -840,8 +830,8 @@
         "medianPrice": 3999,
         "labelCharacteristics": [],
         "labels": [],
-        "reviewCount": 68,
-        "ratingCount": 1166,
+        "reviewCount": 70,
+        "ratingCount": 1169,
         "priceTag": {
           "price": 3999,
           "discountMinimumAmount": 0,
@@ -927,7 +917,7 @@
         "labelCharacteristics": [],
         "labels": [],
         "reviewCount": 99,
-        "ratingCount": 1392,
+        "ratingCount": 1396,
         "priceTag": {
           "price": 1999,
           "discountMinimumAmount": 0,
@@ -1012,16 +1002,16 @@
         "medianPrice": 7999,
         "labelCharacteristics": [],
         "labels": [],
-        "reviewCount": 35,
-        "ratingCount": 303,
+        "reviewCount": 36,
+        "ratingCount": 307,
         "priceTag": {
-          "price": 7999,
+          "price": 9999,
           "discountMinimumAmount": 0,
-          "grossPrice": 11499,
+          "grossPrice": 15999,
           "labels": [
             {
               "type": "yellow",
-              "text": "-30%"
+              "text": "-37%"
             }
           ],
           "pricePerQuantum": null,
@@ -1095,13 +1085,13 @@
           "uuid": "6b773846-7ac4-4615-8023-906752aa2093"
         },
         "rating": 495,
-        "medianPrice": 6099,
+        "medianPrice": 5999,
         "labelCharacteristics": [],
         "labels": [],
         "reviewCount": 161,
-        "ratingCount": 8511,
+        "ratingCount": 8520,
         "priceTag": {
-          "price": 6999,
+          "price": 6399,
           "discountMinimumAmount": 0,
           "grossPrice": null,
           "labels": [],
@@ -1180,7 +1170,7 @@
         "labelCharacteristics": [],
         "labels": [],
         "reviewCount": 111,
-        "ratingCount": 5306,
+        "ratingCount": 5309,
         "priceTag": {
           "price": 4499,
           "discountMinimumAmount": 0,

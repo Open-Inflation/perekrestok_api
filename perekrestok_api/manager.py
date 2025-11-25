@@ -1,10 +1,10 @@
 from __future__ import annotations
 
+import json
 import os
 from collections import defaultdict
 from dataclasses import dataclass, field
 from typing import Any
-import json
 
 from camoufox.async_api import AsyncCamoufox
 from human_requests import HumanBrowser, HumanContext, HumanPage
@@ -30,9 +30,9 @@ class PerekrestokAPI:
     Клиент Перекрестка.
     """
 
-    timeout_ms: float = 5000.0
+    timeout_ms: float = 10000.0
     """Время ожидания ответа от сервера в миллисекундах."""
-    headless: bool = False
+    headless: bool = True
     """Запускать браузер в headless режиме?"""
     proxy: str | dict | None = field(default_factory=_pick_https_proxy)
     """Прокси-сервер для всех запросов (если нужен). По умолчанию берет из окружения (если есть).
@@ -81,7 +81,7 @@ class PerekrestokAPI:
         """Прогрев сессии через браузер для получения человекоподобности."""
         br = await AsyncCamoufox(
             headless=self.headless,
-            proxy=Proxy(self.proxy).as_dict() if self.proxy else None,
+            proxy=Proxy(self.proxy).as_dict(),
             **self.browser_opts,
         ).start()
 

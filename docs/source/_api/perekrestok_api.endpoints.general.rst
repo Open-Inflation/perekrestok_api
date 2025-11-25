@@ -8,6 +8,10 @@
 
    .. autosummary::
    
+      BytesIO
       ClassGeneral
-      Response
+      ExponentialRetry
+      FetchResponse
+      Proxy
+      RetryClient
    

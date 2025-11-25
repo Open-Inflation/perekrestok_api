@@ -28,7 +28,7 @@
             1
           ]
         },
-        "count": 330,
+        "count": 333,
         "products": [
           {
             "liked": false,
@@ -98,16 +98,16 @@
             "medianPrice": 4999,
             "labelCharacteristics": [],
             "labels": [],
-            "reviewCount": 2434,
-            "ratingCount": 65276,
+            "reviewCount": 2435,
+            "ratingCount": 65343,
             "priceTag": {
-              "price": 4999,
+              "price": 5999,
               "discountMinimumAmount": 0,
-              "grossPrice": 5999,
+              "grossPrice": 6999,
               "labels": [
                 {
                   "type": "yellow",
-                  "text": "-16%"
+                  "text": "-14%"
                 }
               ],
               "pricePerQuantum": null,
@@ -183,19 +183,29 @@
             "rating": 494,
             "medianPrice": 10499,
             "labelCharacteristics": [],
-            "labels": [],
+            "labels": [
+              {
+                "listingImage": {
+                  "id": 2763722,
+                  "originName": "badge-simple.png",
+                  "fileType": "image",
+                  "fileSize": 47070,
+                  "width": 1580,
+                  "height": 1580,
+                  "cropUrlTemplate": "https://tsx.x5static.net/i/%s/xdelivery/files/0b/e2/1ac712e49474728327e01cd1f024.png",
+                  "publicUrl": null,
+                  "uuid": "c546aaf5-1354-49f8-b908-aec2103ebf96"
+                },
+                "toolTip": null
+              }
+            ],
             "reviewCount": 2522,
-            "ratingCount": 57309,
+            "ratingCount": 57397,
             "priceTag": {
-              "price": 10499,
+              "price": 13799,
               "discountMinimumAmount": 0,
-              "grossPrice": 11999,
-              "labels": [
-                {
-                  "type": "yellow",
-                  "text": "-12%"
-                }
-              ],
+              "grossPrice": null,
+              "labels": [],
               "pricePerQuantum": null,
               "grossPricePerQuantum": null,
               "potentialPointsForOrangeCard": null
@@ -270,8 +280,8 @@
             "medianPrice": 7999,
             "labelCharacteristics": [],
             "labels": [],
-            "reviewCount": 1413,
-            "ratingCount": 24596,
+            "reviewCount": 1414,
+            "ratingCount": 24640,
             "priceTag": {
               "price": 7999,
               "discountMinimumAmount": 0,
@@ -351,18 +361,13 @@
             "medianPrice": 8999,
             "labelCharacteristics": [],
             "labels": [],
-            "reviewCount": 1739,
-            "ratingCount": 50372,
+            "reviewCount": 1740,
+            "ratingCount": 50429,
             "priceTag": {
-              "price": 8999,
+              "price": 9699,
               "discountMinimumAmount": 0,
-              "grossPrice": 9999,
-              "labels": [
-                {
-                  "type": "yellow",
-                  "text": "-10%"
-                }
-              ],
+              "grossPrice": null,
+              "labels": [],
               "pricePerQuantum": null,
               "grossPricePerQuantum": null,
               "potentialPointsForOrangeCard": null
@@ -437,13 +442,18 @@
             "medianPrice": 7999,
             "labelCharacteristics": [],
             "labels": [],
-            "reviewCount": 2217,
-            "ratingCount": 70798,
+            "reviewCount": 2222,
+            "ratingCount": 70878,
             "priceTag": {
-              "price": 7999,
+              "price": 6999,
               "discountMinimumAmount": 0,
-              "grossPrice": null,
-              "labels": [],
+              "grossPrice": 7999,
+              "labels": [
+                {
+                  "type": "yellow",
+                  "text": "-12%"
+                }
+              ],
               "pricePerQuantum": null,
               "grossPricePerQuantum": null,
               "potentialPointsForOrangeCard": null
@@ -518,10 +528,91 @@
             "medianPrice": 5399,
             "labelCharacteristics": [],
             "labels": [],
-            "reviewCount": 1551,
-            "ratingCount": 28991,
+            "reviewCount": 1552,
+            "ratingCount": 29025,
             "priceTag": {
               "price": 5199,
+              "discountMinimumAmount": 0,
+              "grossPrice": null,
+              "labels": [],
+              "pricePerQuantum": null,
+              "grossPricePerQuantum": null,
+              "potentialPointsForOrangeCard": null
+            },
+            "balanceState": "many"
+          },
+          {
+            "liked": false,
+            "recSysRecommendationRequestId": null,
+            "borderStyle": null,
+            "bestReview": null,
+            "advToken": null,
+            "id": 29864,
+            "masterData": {
+              "slug": "smetana-domik-v-derevne-20-300g",
+              "plu": "3664287",
+              "unit": 1,
+              "unitName": "шт",
+              "quantum": 1000,
+              "quantumStep": 1000,
+              "weight": 300,
+              "volume": null,
+              "ui4code": "FR0608001",
+              "taxGroup": "BB",
+              "ownProduction": false,
+              "privateLabel": false,
+              "isMark": true,
+              "alcoSetUnits": null,
+              "activeNds": 10
+            },
+            "title": "Сметана Домик в деревне 20%, 300г",
+            "primaryCategory": {
+              "id": 370,
+              "title": "Молоко, сметана",
+              "slug": "moloko-smetana",
+              "isAlcohol": false,
+              "isTobacco": false,
+              "isExciseAlcohol": false,
+              "isAdultContent": false,
+              "displayStyle": 2,
+              "catalogs": [
+                2,
+                3,
+                4
+              ]
+            },
+            "catalogPrimaryCategory": {
+              "id": 1589,
+              "title": "Окрошка",
+              "slug": "okroska",
+              "isAlcohol": false,
+              "isTobacco": false,
+              "isExciseAlcohol": false,
+              "isAdultContent": false,
+              "displayStyle": 2,
+              "catalogs": [
+                1
+              ]
+            },
+            "image": {
+              "id": 2553568,
+              "originName": "remote_upl_68dc60fc27a6a9.62465231",
+              "fileType": "image",
+              "fileSize": 75510,
+              "width": 800,
+              "height": 800,
+              "cropUrlTemplate": "https://tsx.x5static.net/i/%s/xdelivery/files/19/76/042aa811455138fda2ba988dfd1c.jpg",
+              "publicUrl": null,
+              "uuid": "d18fd2b1-6cec-45e9-b144-c5c56a2aae7a"
+            },
+            "rating": 494,
+            "medianPrice": 9999,
+            "labelCharacteristics": [],
+            "labels": [],
+            "reviewCount": 733,
+            "ratingCount": 31229,
+            "priceTag": {
+              "price": 10899,
               "discountMinimumAmount": 0,
               "grossPrice": null,
               "labels": [],
@@ -599,8 +690,8 @@
             "medianPrice": 11299,
             "labelCharacteristics": [],
             "labels": [],
-            "reviewCount": 992,
-            "ratingCount": 30853,
+            "reviewCount": 997,
+            "ratingCount": 30888,
             "priceTag": {
               "price": 11299,
               "discountMinimumAmount": 0,
@@ -609,92 +700,6 @@
                 {
                   "type": "yellow",
                   "text": "-9%"
-                }
-              ],
-              "pricePerQuantum": null,
-              "grossPricePerQuantum": null,
-              "potentialPointsForOrangeCard": null
-            },
-            "balanceState": "many"
-          },
-          {
-            "liked": false,
-            "recSysRecommendationRequestId": null,
-            "borderStyle": null,
-            "bestReview": null,
-            "advToken": null,
-            "id": 29864,
-            "masterData": {
-              "slug": "smetana-domik-v-derevne-20-300g",
-              "plu": "3664287",
-              "unit": 1,
-              "unitName": "шт",
-              "quantum": 1000,
-              "quantumStep": 1000,
-              "weight": 300,
-              "volume": null,
-              "ui4code": "FR0608001",
-              "taxGroup": "BB",
-              "ownProduction": false,
-              "privateLabel": false,
-              "isMark": true,
-              "alcoSetUnits": null,
-              "activeNds": 10
-            },
-            "title": "Сметана Домик в деревне 20%, 300г",
-            "primaryCategory": {
-              "id": 370,
-              "title": "Молоко, сметана",
-              "slug": "moloko-smetana",
-              "isAlcohol": false,
-              "isTobacco": false,
-              "isExciseAlcohol": false,
-              "isAdultContent": false,
-              "displayStyle": 2,
-              "catalogs": [
-                2,
-                3,
-                4
-              ]
-            },
-            "catalogPrimaryCategory": {
-              "id": 1589,
-              "title": "Окрошка",
-              "slug": "okroska",
-              "isAlcohol": false,
-              "isTobacco": false,
-              "isExciseAlcohol": false,
-              "isAdultContent": false,
-              "displayStyle": 2,
-              "catalogs": [
-                1
-              ]
-            },
-            "image": {
-              "id": 2553568,
-              "originName": "remote_upl_68dc60fc27a6a9.62465231",
-              "fileType": "image",
-              "fileSize": 75510,
-              "width": 800,
-              "height": 800,
-              "cropUrlTemplate": "https://tsx.x5static.net/i/%s/xdelivery/files/19/76/042aa811455138fda2ba988dfd1c.jpg",
-              "publicUrl": null,
-              "uuid": "d18fd2b1-6cec-45e9-b144-c5c56a2aae7a"
-            },
-            "rating": 494,
-            "medianPrice": 9999,
-            "labelCharacteristics": [],
-            "labels": [],
-            "reviewCount": 734,
-            "ratingCount": 31195,
-            "priceTag": {
-              "price": 9999,
-              "discountMinimumAmount": 0,
-              "grossPrice": 12999,
-              "labels": [
-                {
-                  "type": "yellow",
-                  "text": "-23%"
                 }
               ],
               "pricePerQuantum": null,
@@ -719,7 +724,7 @@
             1
           ]
         },
-        "count": 596,
+        "count": 618,
         "products": [
           {
             "liked": false,
@@ -789,18 +794,13 @@
             "medianPrice": 26399,
             "labelCharacteristics": [],
             "labels": [],
-            "reviewCount": 458,
-            "ratingCount": 2255,
+            "reviewCount": 459,
+            "ratingCount": 2261,
             "priceTag": {
-              "price": 19249,
+              "price": 27499,
               "discountMinimumAmount": 0,
-              "grossPrice": 27499,
-              "labels": [
-                {
-                  "type": "yellow",
-                  "text": "-30%"
-                }
-              ],
+              "grossPrice": null,
+              "labels": [],
               "pricePerQuantum": null,
               "grossPricePerQuantum": null,
               "potentialPointsForOrangeCard": null
@@ -876,17 +876,12 @@
             "labelCharacteristics": [],
             "labels": [],
             "reviewCount": 490,
-            "ratingCount": 2076,
+            "ratingCount": 2080,
             "priceTag": {
-              "price": 63999,
+              "price": 79999,
               "discountMinimumAmount": 0,
-              "grossPrice": 79999,
-              "labels": [
-                {
-                  "type": "yellow",
-                  "text": "-20%"
-                }
-              ],
+              "grossPrice": null,
+              "labels": [],
               "pricePerQuantum": null,
               "grossPricePerQuantum": null,
               "potentialPointsForOrangeCard": null
@@ -961,8 +956,8 @@
             "medianPrice": 69999,
             "labelCharacteristics": [],
             "labels": [],
-            "reviewCount": 425,
-            "ratingCount": 1787,
+            "reviewCount": 426,
+            "ratingCount": 1792,
             "priceTag": {
               "price": 69999,
               "discountMinimumAmount": 0,
@@ -1044,21 +1039,16 @@
               "uuid": "649b8ed0-cadc-4370-83f6-380236a79a07"
             },
             "rating": 489,
-            "medianPrice": 68199,
+            "medianPrice": 67999,
             "labelCharacteristics": [],
             "labels": [],
             "reviewCount": 636,
-            "ratingCount": 2714,
+            "ratingCount": 2719,
             "priceTag": {
-              "price": 47739,
+              "price": 68199,
               "discountMinimumAmount": 0,
-              "grossPrice": 68199,
-              "labels": [
-                {
-                  "type": "yellow",
-                  "text": "-30%"
-                }
-              ],
+              "grossPrice": null,
+              "labels": [],
               "pricePerQuantum": null,
               "grossPricePerQuantum": null,
               "potentialPointsForOrangeCard": null
@@ -1130,21 +1120,16 @@
               "uuid": "0551a6fb-f6bd-4b9c-8449-0cc2b00a5b70"
             },
             "rating": 488,
-            "medianPrice": 51199,
+            "medianPrice": 49999,
             "labelCharacteristics": [],
             "labels": [],
-            "reviewCount": 636,
-            "ratingCount": 6705,
+            "reviewCount": 637,
+            "ratingCount": 6710,
             "priceTag": {
-              "price": 51199,
+              "price": 63999,
               "discountMinimumAmount": 0,
-              "grossPrice": 63999,
-              "labels": [
-                {
-                  "type": "yellow",
-                  "text": "-20%"
-                }
-              ],
+              "grossPrice": null,
+              "labels": [],
               "pricePerQuantum": null,
               "grossPricePerQuantum": null,
               "potentialPointsForOrangeCard": null
@@ -1219,18 +1204,13 @@
             "medianPrice": 21199,
             "labelCharacteristics": [],
             "labels": [],
-            "reviewCount": 316,
-            "ratingCount": 6337,
+            "reviewCount": 318,
+            "ratingCount": 6344,
             "priceTag": {
-              "price": 16729,
+              "price": 26999,
               "discountMinimumAmount": 0,
-              "grossPrice": 23899,
-              "labels": [
-                {
-                  "type": "yellow",
-                  "text": "-30%"
-                }
-              ],
+              "grossPrice": null,
+              "labels": [],
               "pricePerQuantum": null,
               "grossPricePerQuantum": null,
               "potentialPointsForOrangeCard": null
@@ -1302,19 +1282,19 @@
               "uuid": "9993ab8e-a777-41f4-a4e8-447c04784aac"
             },
             "rating": 484,
-            "medianPrice": 69999,
+            "medianPrice": 59999,
             "labelCharacteristics": [],
             "labels": [],
             "reviewCount": 371,
-            "ratingCount": 3921,
+            "ratingCount": 3931,
             "priceTag": {
-              "price": 48999,
+              "price": 60799,
               "discountMinimumAmount": 0,
-              "grossPrice": 69999,
+              "grossPrice": 75999,
               "labels": [
                 {
                   "type": "yellow",
-                  "text": "-30%"
+                  "text": "-20%"
                 }
               ],
               "pricePerQuantum": null,
@@ -1392,17 +1372,12 @@
             "labelCharacteristics": [],
             "labels": [],
             "reviewCount": 317,
-            "ratingCount": 3797,
+            "ratingCount": 3801,
             "priceTag": {
-              "price": 60199,
+              "price": 87399,
               "discountMinimumAmount": 0,
-              "grossPrice": 85999,
-              "labels": [
-                {
-                  "type": "yellow",
-                  "text": "-30%"
-                }
-              ],
+              "grossPrice": null,
+              "labels": [],
               "pricePerQuantum": null,
               "grossPricePerQuantum": null,
               "potentialPointsForOrangeCard": null
@@ -1425,7 +1400,7 @@
             1
           ]
         },
-        "count": 74,
+        "count": 75,
         "products": [
           {
             "liked": false,
@@ -1492,11 +1467,11 @@
               "uuid": "9908e800-7a9f-4b30-8fe1-4cf756e35a82"
             },
             "rating": 491,
-            "medianPrice": 15499,
+            "medianPrice": 15899,
             "labelCharacteristics": [],
             "labels": [],
-            "reviewCount": 5574,
-            "ratingCount": 205092,
+            "reviewCount": 5578,
+            "ratingCount": 205254,
             "priceTag": {
               "price": 16499,
               "discountMinimumAmount": 0,
@@ -1573,99 +1548,13 @@
               "uuid": "c119c951-1972-4b85-8406-5e54be2ff091"
             },
             "rating": 486,
-            "medianPrice": 13999,
+            "medianPrice": 15999,
             "labelCharacteristics": [],
             "labels": [],
-            "reviewCount": 2159,
-            "ratingCount": 24618,
+            "reviewCount": 2171,
+            "ratingCount": 24748,
             "priceTag": {
-              "price": 13999,
-              "discountMinimumAmount": 0,
-              "grossPrice": 22999,
-              "labels": [
-                {
-                  "type": "yellow",
-                  "text": "-39%"
-                }
-              ],
-              "pricePerQuantum": null,
-              "grossPricePerQuantum": null,
-              "potentialPointsForOrangeCard": null
-            },
-            "balanceState": "many"
-          },
-          {
-            "liked": false,
-            "recSysRecommendationRequestId": null,
-            "borderStyle": null,
-            "bestReview": null,
-            "advToken": null,
-            "id": 32215,
-            "masterData": {
-              "slug": "banany-fasovannye",
-              "plu": "3639749",
-              "unit": 2,
-              "unitName": "кг",
-              "quantum": 1200,
-              "quantumStep": 1000,
-              "weight": null,
-              "volume": null,
-              "ui4code": "FR0907004",
-              "taxGroup": "BL",
-              "ownProduction": false,
-              "privateLabel": true,
-              "isMark": false,
-              "alcoSetUnits": null,
-              "activeNds": 20
-            },
-            "title": "Бананы фасованные",
-            "primaryCategory": {
-              "id": 367,
-              "title": "Фрукты, ягоды",
-              "slug": "frukty-agody",
-              "isAlcohol": false,
-              "isTobacco": false,
-              "isExciseAlcohol": false,
-              "isAdultContent": false,
-              "displayStyle": 2,
-              "catalogs": [
-                2,
-                3,
-                4
-              ]
-            },
-            "catalogPrimaryCategory": {
-              "id": 153,
-              "title": "Фрукты",
-              "slug": "frukty",
-              "isAlcohol": false,
-              "isTobacco": false,
-              "isExciseAlcohol": false,
-              "isAdultContent": false,
-              "displayStyle": 2,
-              "catalogs": [
-                1
-              ]
-            },
-            "image": {
-              "id": 2670612,
-              "originName": "remote_upl_68f79ffd790355.13839371",
-              "fileType": "image",
-              "fileSize": 36612,
-              "width": 800,
-              "height": 800,
-              "cropUrlTemplate": "https://tsx.x5static.net/i/%s/xdelivery/files/b1/ed/504e85b0c14c5aa0c7e3b9fff5a4.jpg",
-              "publicUrl": null,
-              "uuid": "fef807ee-40c9-408b-a411-c8637ef04ad6"
-            },
-            "rating": 492,
-            "medianPrice": 14499,
-            "labelCharacteristics": [],
-            "labels": [],
-            "reviewCount": 3132,
-            "ratingCount": 106812,
-            "priceTag": {
-              "price": 14499,
+              "price": 22999,
               "discountMinimumAmount": 0,
               "grossPrice": null,
               "labels": [],
@@ -1743,8 +1632,8 @@
             "medianPrice": 14999,
             "labelCharacteristics": [],
             "labels": [],
-            "reviewCount": 1282,
-            "ratingCount": 12020,
+            "reviewCount": 1295,
+            "ratingCount": 12124,
             "priceTag": {
               "price": 14999,
               "discountMinimumAmount": 0,
@@ -1767,9 +1656,90 @@
             "borderStyle": null,
             "bestReview": null,
             "advToken": null,
+            "id": 32215,
+            "masterData": {
+              "slug": "banany-fasovannye",
+              "plu": "3639749",
+              "unit": 2,
+              "unitName": "кг",
+              "quantum": 1200,
+              "quantumStep": 1000,
+              "weight": null,
+              "volume": null,
+              "ui4code": "FR0907004",
+              "taxGroup": "BL",
+              "ownProduction": false,
+              "privateLabel": true,
+              "isMark": false,
+              "alcoSetUnits": null,
+              "activeNds": 20
+            },
+            "title": "Бананы фасованные",
+            "primaryCategory": {
+              "id": 367,
+              "title": "Фрукты, ягоды",
+              "slug": "frukty-agody",
+              "isAlcohol": false,
+              "isTobacco": false,
+              "isExciseAlcohol": false,
+              "isAdultContent": false,
+              "displayStyle": 2,
+              "catalogs": [
+                2,
+                3,
+                4
+              ]
+            },
+            "catalogPrimaryCategory": {
+              "id": 153,
+              "title": "Фрукты",
+              "slug": "frukty",
+              "isAlcohol": false,
+              "isTobacco": false,
+              "isExciseAlcohol": false,
+              "isAdultContent": false,
+              "displayStyle": 2,
+              "catalogs": [
+                1
+              ]
+            },
+            "image": {
+              "id": 2670612,
+              "originName": "remote_upl_68f79ffd790355.13839371",
+              "fileType": "image",
+              "fileSize": 36612,
+              "width": 800,
+              "height": 800,
+              "cropUrlTemplate": "https://tsx.x5static.net/i/%s/xdelivery/files/b1/ed/504e85b0c14c5aa0c7e3b9fff5a4.jpg",
+              "publicUrl": null,
+              "uuid": "fef807ee-40c9-408b-a411-c8637ef04ad6"
+            },
+            "rating": 492,
+            "medianPrice": 14499,
+            "labelCharacteristics": [],
+            "labels": [],
+            "reviewCount": 3138,
+            "ratingCount": 106877,
+            "priceTag": {
+              "price": 14499,
+              "discountMinimumAmount": 0,
+              "grossPrice": null,
+              "labels": [],
+              "pricePerQuantum": null,
+              "grossPricePerQuantum": null,
+              "potentialPointsForOrangeCard": null
+            },
+            "balanceState": "many"
+          },
+          {
+            "liked": false,
+            "recSysRecommendationRequestId": null,
+            "borderStyle": null,
+            "bestReview": null,
+            "advToken": null,
             "id": 435693,
             "masterData": {
-              "slug": "vinograd-sajn-muskat-nefritovyj",
+              "slug": "vinograd-sajn-muskat-nefritovyj-kitaj",
               "plu": "4327381",
               "unit": 2,
               "unitName": "кг",
@@ -1785,7 +1755,7 @@
               "alcoSetUnits": null,
               "activeNds": 10
             },
-            "title": "Виноград Шайн Мускат нефритовый",
+            "title": "Виноград Шайн Мускат нефритовый Китай",
             "primaryCategory": {
               "id": 367,
               "title": "Фрукты, ягоды",
@@ -1829,8 +1799,8 @@
             "medianPrice": 35999,
             "labelCharacteristics": [],
             "labels": [],
-            "reviewCount": 3363,
-            "ratingCount": 21181,
+            "reviewCount": 3386,
+            "ratingCount": 21385,
             "priceTag": {
               "price": 35999,
               "discountMinimumAmount": 0,
@@ -1915,8 +1885,8 @@
             "medianPrice": 15999,
             "labelCharacteristics": [],
             "labels": [],
-            "reviewCount": 6403,
-            "ratingCount": 120592,
+            "reviewCount": 6405,
+            "ratingCount": 120687,
             "priceTag": {
               "price": 15999,
               "discountMinimumAmount": 0,
@@ -1998,21 +1968,16 @@
               "uuid": "c837c7bc-904c-4c56-b355-92f9d79b435d"
             },
             "rating": 488,
-            "medianPrice": 24999,
+            "medianPrice": 26999,
             "labelCharacteristics": [],
             "labels": [],
-            "reviewCount": 2246,
-            "ratingCount": 43083,
+            "reviewCount": 2247,
+            "ratingCount": 43141,
             "priceTag": {
-              "price": 24999,
+              "price": 28999,
               "discountMinimumAmount": 0,
-              "grossPrice": 28999,
-              "labels": [
-                {
-                  "type": "yellow",
-                  "text": "-13%"
-                }
-              ],
+              "grossPrice": null,
+              "labels": [],
               "pricePerQuantum": null,
               "grossPricePerQuantum": null,
               "potentialPointsForOrangeCard": null
@@ -2087,18 +2052,13 @@
             "medianPrice": 12999,
             "labelCharacteristics": [],
             "labels": [],
-            "reviewCount": 3145,
-            "ratingCount": 70116,
+            "reviewCount": 3147,
+            "ratingCount": 70163,
             "priceTag": {
-              "price": 12999,
+              "price": 14999,
               "discountMinimumAmount": 0,
-              "grossPrice": 15999,
-              "labels": [
-                {
-                  "type": "yellow",
-                  "text": "-18%"
-                }
-              ],
+              "grossPrice": null,
+              "labels": [],
               "pricePerQuantum": null,
               "grossPricePerQuantum": null,
               "potentialPointsForOrangeCard": null
@@ -2121,7 +2081,7 @@
             1
           ]
         },
-        "count": 341,
+        "count": 343,
         "products": [
           {
             "liked": false,
@@ -2188,19 +2148,19 @@
               "uuid": "b3ff4067-cd73-4237-bd01-22ea2831cc79"
             },
             "rating": 493,
-            "medianPrice": 17199,
+            "medianPrice": 21599,
             "labelCharacteristics": [],
             "labels": [],
-            "reviewCount": 563,
-            "ratingCount": 8961,
+            "reviewCount": 564,
+            "ratingCount": 8973,
             "priceTag": {
-              "price": 17199,
+              "price": 15999,
               "discountMinimumAmount": 0,
-              "grossPrice": 23999,
+              "grossPrice": 21999,
               "labels": [
                 {
                   "type": "yellow",
-                  "text": "-28%"
+                  "text": "-27%"
                 }
               ],
               "pricePerQuantum": null,
@@ -2278,7 +2238,7 @@
             "labelCharacteristics": [],
             "labels": [],
             "reviewCount": 164,
-            "ratingCount": 1970,
+            "ratingCount": 1994,
             "priceTag": {
               "price": 8299,
               "discountMinimumAmount": 0,
@@ -2359,12 +2319,12 @@
               "publicUrl": null,
               "uuid": "1eb12ad6-3177-4902-90e3-38eed9a450c4"
             },
-            "rating": 492,
+            "rating": 491,
             "medianPrice": 8299,
             "labelCharacteristics": [],
             "labels": [],
-            "reviewCount": 32,
-            "ratingCount": 291,
+            "reviewCount": 39,
+            "ratingCount": 324,
             "priceTag": {
               "price": 8299,
               "discountMinimumAmount": 0,
@@ -2446,11 +2406,11 @@
               "uuid": "ad73e030-e20f-4806-a65b-5e003b951721"
             },
             "rating": 496,
-            "medianPrice": 19999,
+            "medianPrice": 11999,
             "labelCharacteristics": [],
             "labels": [],
             "reviewCount": 357,
-            "ratingCount": 6414,
+            "ratingCount": 6425,
             "priceTag": {
               "price": 20399,
               "discountMinimumAmount": 0,
@@ -2531,15 +2491,15 @@
             "labelCharacteristics": [],
             "labels": [],
             "reviewCount": 95,
-            "ratingCount": 1424,
+            "ratingCount": 1439,
             "priceTag": {
-              "price": 16999,
+              "price": 19999,
               "discountMinimumAmount": 0,
-              "grossPrice": 27999,
+              "grossPrice": 24999,
               "labels": [
                 {
                   "type": "yellow",
-                  "text": "-39%"
+                  "text": "-20%"
                 }
               ],
               "pricePerQuantum": null,
@@ -2617,15 +2577,15 @@
             "labelCharacteristics": [],
             "labels": [],
             "reviewCount": 41,
-            "ratingCount": 520,
+            "ratingCount": 525,
             "priceTag": {
-              "price": 19499,
+              "price": 29999,
               "discountMinimumAmount": 0,
-              "grossPrice": 22999,
+              "grossPrice": 36999,
               "labels": [
                 {
                   "type": "yellow",
-                  "text": "-15%"
+                  "text": "-18%"
                 }
               ],
               "pricePerQuantum": null,
@@ -2699,16 +2659,21 @@
               "uuid": "ea7a7d55-59d6-4f4b-b41f-0decb4a5dbb9"
             },
             "rating": 496,
-            "medianPrice": 25999,
+            "medianPrice": 11999,
             "labelCharacteristics": [],
             "labels": [],
             "reviewCount": 390,
-            "ratingCount": 6751,
+            "ratingCount": 6758,
             "priceTag": {
-              "price": 28999,
-              "discountMinimumAmount": 0,
-              "grossPrice": null,
-              "labels": [],
+              "price": 17999,
+              "discountMinimumAmount": 2000,
+              "grossPrice": 19999,
+              "labels": [
+                {
+                  "type": "yellow",
+                  "text": "-10% от 2 шт."
+                }
+              ],
               "pricePerQuantum": null,
               "grossPricePerQuantum": null,
               "potentialPointsForOrangeCard": null
@@ -2721,29 +2686,29 @@
             "borderStyle": null,
             "bestReview": null,
             "advToken": null,
-            "id": 42410,
+            "id": 439708,
             "masterData": {
-              "slug": "piroznoe-barni-medvezonok-biskvitnoe-s-sokoladnoj-nacinkoj-150g",
-              "plu": "2143824",
+              "slug": "pecene-ubilejnoe-molocnoe-s-glazuru-348g",
+              "plu": "4371424",
               "unit": 1,
               "unitName": "шт",
               "quantum": 1000,
               "quantumStep": 1000,
-              "weight": 150,
+              "weight": 348,
               "volume": null,
-              "ui4code": "FD0605004",
-              "taxGroup": "BB",
+              "ui4code": "FD0607002",
+              "taxGroup": "BL",
               "ownProduction": false,
               "privateLabel": false,
               "isMark": false,
               "alcoSetUnits": null,
-              "activeNds": 10
+              "activeNds": 20
             },
-            "title": "Пирожное  Барни медвежонок бисквитное с шоколадной начинкой 150г",
+            "title": "Печенье Юбилейное молочное с глазурью 348г",
             "primaryCategory": {
-              "id": 401,
-              "title": "Торты, пирожные",
-              "slug": "torty-piroznye",
+              "id": 399,
+              "title": "Печенье, вафли",
+              "slug": "pecene-vafli",
               "isAlcohol": false,
               "isTobacco": false,
               "isExciseAlcohol": false,
@@ -2756,9 +2721,9 @@
               ]
             },
             "catalogPrimaryCategory": {
-              "id": 1709,
-              "title": "Подарки",
-              "slug": "podarki",
+              "id": 197,
+              "title": "Печенье",
+              "slug": "pecene",
               "isAlcohol": false,
               "isTobacco": false,
               "isExciseAlcohol": false,
@@ -2769,30 +2734,30 @@
               ]
             },
             "image": {
-              "id": 2724655,
-              "originName": "remote_upl_690c9be336dec8.56328751",
+              "id": 2724842,
+              "originName": "remote_upl_690c9be3297ac9.94719869",
               "fileType": "image",
-              "fileSize": 70480,
+              "fileSize": 69980,
               "width": 800,
               "height": 800,
-              "cropUrlTemplate": "https://tsx.x5static.net/i/%s/xdelivery/files/1b/08/cd62004f719049044b15cdb4df96.jpg",
+              "cropUrlTemplate": "https://tsx.x5static.net/i/%s/xdelivery/files/9b/e8/75396d4b955457ea50e49773a1f5.jpg",
               "publicUrl": null,
-              "uuid": "30cfa4cb-0e57-4a2c-af83-e2ff23eaf029"
+              "uuid": "591cf20b-27b1-45c1-a844-6eca13477dd3"
             },
             "rating": 495,
-            "medianPrice": 15199,
+            "medianPrice": 14499,
             "labelCharacteristics": [],
             "labels": [],
-            "reviewCount": 260,
-            "ratingCount": 9774,
+            "reviewCount": 132,
+            "ratingCount": 1849,
             "priceTag": {
-              "price": 15199,
+              "price": 14499,
               "discountMinimumAmount": 0,
-              "grossPrice": 18999,
+              "grossPrice": 22999,
               "labels": [
                 {
                   "type": "yellow",
-                  "text": "-20%"
+                  "text": "-36%"
                 }
               ],
               "pricePerQuantum": null,
@@ -2819,6 +2784,92 @@
         },
         "count": 189,
         "products": [
+          {
+            "liked": false,
+            "recSysRecommendationRequestId": null,
+            "borderStyle": null,
+            "bestReview": null,
+            "advToken": null,
+            "id": 411253,
+            "masterData": {
+              "slug": "salfetki-bumaznye-gratias-parovozik-3-sloa-33h33-20st",
+              "plu": "4310840",
+              "unit": 1,
+              "unitName": "шт",
+              "quantum": 1000,
+              "quantumStep": 1000,
+              "weight": 114,
+              "volume": null,
+              "ui4code": "NF1807026",
+              "taxGroup": "BL",
+              "ownProduction": false,
+              "privateLabel": false,
+              "isMark": false,
+              "alcoSetUnits": null,
+              "activeNds": 20
+            },
+            "title": "Салфетки бумажные Gratias Паровозик 3 слоя 33х33, 20шт",
+            "primaryCategory": {
+              "id": 444,
+              "title": "Бумага и салфетки",
+              "slug": "bumaga-i-salfetki",
+              "isAlcohol": false,
+              "isTobacco": false,
+              "isExciseAlcohol": false,
+              "isAdultContent": false,
+              "displayStyle": 2,
+              "catalogs": [
+                2,
+                3,
+                4
+              ]
+            },
+            "catalogPrimaryCategory": {
+              "id": 97,
+              "title": "Бумажная и ватная продукция",
+              "slug": "bumaznaa-i-vatnaa-produkcia",
+              "isAlcohol": false,
+              "isTobacco": false,
+              "isExciseAlcohol": false,
+              "isAdultContent": false,
+              "displayStyle": 2,
+              "catalogs": [
+                1
+              ]
+            },
+            "image": {
+              "id": 2671464,
+              "originName": "remote_upl_68f848ba4de4d1.57465551",
+              "fileType": "image",
+              "fileSize": 124844,
+              "width": 800,
+              "height": 800,
+              "cropUrlTemplate": "https://tsx.x5static.net/i/%s/xdelivery/files/32/5d/6cd582a4ee92b504a0dd8016cf88.jpg",
+              "publicUrl": null,
+              "uuid": "d3c8f7cc-c00f-4867-98fe-3ed0f47c6251"
+            },
+            "rating": 500,
+            "medianPrice": 7999,
+            "labelCharacteristics": [],
+            "labels": [],
+            "reviewCount": 41,
+            "ratingCount": 375,
+            "priceTag": {
+              "price": 7999,
+              "discountMinimumAmount": 0,
+              "grossPrice": 11900,
+              "labels": [
+                {
+                  "type": "yellow",
+                  "text": "-32%"
+                }
+              ],
+              "pricePerQuantum": null,
+              "grossPricePerQuantum": null,
+              "potentialPointsForOrangeCard": null
+            },
+            "balanceState": "many"
+          },
           {
             "liked": false,
             "recSysRecommendationRequestId": null,
@@ -2888,98 +2939,12 @@
             "labelCharacteristics": [],
             "labels": [],
             "reviewCount": 10,
-            "ratingCount": 283,
+            "ratingCount": 284,
             "priceTag": {
               "price": 6599,
               "discountMinimumAmount": 0,
               "grossPrice": null,
               "labels": [],
-              "pricePerQuantum": null,
-              "grossPricePerQuantum": null,
-              "potentialPointsForOrangeCard": null
-            },
-            "balanceState": "many"
-          },
-          {
-            "liked": false,
-            "recSysRecommendationRequestId": null,
-            "borderStyle": null,
-            "bestReview": null,
-            "advToken": null,
-            "id": 411253,
-            "masterData": {
-              "slug": "salfetki-bumaznye-gratias-parovozik-3-sloa-33h33-20st",
-              "plu": "4310840",
-              "unit": 1,
-              "unitName": "шт",
-              "quantum": 1000,
-              "quantumStep": 1000,
-              "weight": 114,
-              "volume": null,
-              "ui4code": "NF1807026",
-              "taxGroup": "BL",
-              "ownProduction": false,
-              "privateLabel": false,
-              "isMark": false,
-              "alcoSetUnits": null,
-              "activeNds": 20
-            },
-            "title": "Салфетки бумажные Gratias Паровозик 3 слоя 33х33, 20шт",
-            "primaryCategory": {
-              "id": 444,
-              "title": "Бумага и салфетки",
-              "slug": "bumaga-i-salfetki",
-              "isAlcohol": false,
-              "isTobacco": false,
-              "isExciseAlcohol": false,
-              "isAdultContent": false,
-              "displayStyle": 2,
-              "catalogs": [
-                2,
-                3,
-                4
-              ]
-            },
-            "catalogPrimaryCategory": {
-              "id": 97,
-              "title": "Бумажная и ватная продукция",
-              "slug": "bumaznaa-i-vatnaa-produkcia",
-              "isAlcohol": false,
-              "isTobacco": false,
-              "isExciseAlcohol": false,
-              "isAdultContent": false,
-              "displayStyle": 2,
-              "catalogs": [
-                1
-              ]
-            },
-            "image": {
-              "id": 2671464,
-              "originName": "remote_upl_68f848ba4de4d1.57465551",
-              "fileType": "image",
-              "fileSize": 124844,
-              "width": 800,
-              "height": 800,
-              "cropUrlTemplate": "https://tsx.x5static.net/i/%s/xdelivery/files/32/5d/6cd582a4ee92b504a0dd8016cf88.jpg",
-              "publicUrl": null,
-              "uuid": "d3c8f7cc-c00f-4867-98fe-3ed0f47c6251"
-            },
-            "rating": 500,
-            "medianPrice": 7999,
-            "labelCharacteristics": [],
-            "labels": [],
-            "reviewCount": 40,
-            "ratingCount": 371,
-            "priceTag": {
-              "price": 7999,
-              "discountMinimumAmount": 0,
-              "grossPrice": 11900,
-              "labels": [
-                {
-                  "type": "yellow",
-                  "text": "-32%"
-                }
-              ],
               "pricePerQuantum": null,
               "grossPricePerQuantum": null,
               "potentialPointsForOrangeCard": null
@@ -3054,8 +3019,8 @@
             "medianPrice": 7999,
             "labelCharacteristics": [],
             "labels": [],
-            "reviewCount": 41,
-            "ratingCount": 358,
+            "reviewCount": 43,
+            "ratingCount": 364,
             "priceTag": {
               "price": 7999,
               "discountMinimumAmount": 0,
@@ -3136,12 +3101,12 @@
               "publicUrl": null,
               "uuid": "34aa653f-2704-4f8f-bcb9-e4a911bae5b4"
             },
-            "rating": 500,
+            "rating": 497,
             "medianPrice": 7999,
             "labelCharacteristics": [],
             "labels": [],
-            "reviewCount": 1,
-            "ratingCount": 27,
+            "reviewCount": 2,
+            "ratingCount": 33,
             "priceTag": {
               "price": 7999,
               "discountMinimumAmount": 0,
@@ -3226,94 +3191,8 @@
             "medianPrice": 7999,
             "labelCharacteristics": [],
             "labels": [],
-            "reviewCount": 6,
-            "ratingCount": 58,
-            "priceTag": {
-              "price": 7999,
-              "discountMinimumAmount": 0,
-              "grossPrice": 11900,
-              "labels": [
-                {
-                  "type": "yellow",
-                  "text": "-32%"
-                }
-              ],
-              "pricePerQuantum": null,
-              "grossPricePerQuantum": null,
-              "potentialPointsForOrangeCard": null
-            },
-            "balanceState": "many"
-          },
-          {
-            "liked": false,
-            "recSysRecommendationRequestId": null,
-            "borderStyle": null,
-            "bestReview": null,
-            "advToken": null,
-            "id": 487416,
-            "masterData": {
-              "slug": "salfetki-gratias-podarki-3sl-33h33sm-20l",
-              "plu": "4429397",
-              "unit": 1,
-              "unitName": "шт",
-              "quantum": 1000,
-              "quantumStep": 1000,
-              "weight": 115,
-              "volume": null,
-              "ui4code": "NF1807026",
-              "taxGroup": "BL",
-              "ownProduction": false,
-              "privateLabel": false,
-              "isMark": false,
-              "alcoSetUnits": null,
-              "activeNds": 20
-            },
-            "title": "Салфетки Gratias Подарки 3сл 33х33см, 20л",
-            "primaryCategory": {
-              "id": 444,
-              "title": "Бумага и салфетки",
-              "slug": "bumaga-i-salfetki",
-              "isAlcohol": false,
-              "isTobacco": false,
-              "isExciseAlcohol": false,
-              "isAdultContent": false,
-              "displayStyle": 2,
-              "catalogs": [
-                2,
-                3,
-                4
-              ]
-            },
-            "catalogPrimaryCategory": {
-              "id": 97,
-              "title": "Бумажная и ватная продукция",
-              "slug": "bumaznaa-i-vatnaa-produkcia",
-              "isAlcohol": false,
-              "isTobacco": false,
-              "isExciseAlcohol": false,
-              "isAdultContent": false,
-              "displayStyle": 2,
-              "catalogs": [
-                1
-              ]
-            },
-            "image": {
-              "id": 2709291,
-              "originName": "remote_upl_6901f3bd642186.82879948",
-              "fileType": "image",
-              "fileSize": 82237,
-              "width": 800,
-              "height": 800,
-              "cropUrlTemplate": "https://tsx.x5static.net/i/%s/xdelivery/files/f5/17/8142434ee6ffab086fb479173b9b.jpg",
-              "publicUrl": null,
-              "uuid": "5de7786b-035e-4d74-80b0-b0a8fc9a8be0"
-            },
-            "rating": 496,
-            "medianPrice": 7999,
-            "labelCharacteristics": [],
-            "labels": [],
-            "reviewCount": 2,
-            "ratingCount": 25,
+            "reviewCount": 7,
+            "ratingCount": 65,
             "priceTag": {
               "price": 7999,
               "discountMinimumAmount": 0,
@@ -3399,7 +3278,93 @@
             "labelCharacteristics": [],
             "labels": [],
             "reviewCount": 44,
-            "ratingCount": 318,
+            "ratingCount": 319,
+            "priceTag": {
+              "price": 7999,
+              "discountMinimumAmount": 0,
+              "grossPrice": 11900,
+              "labels": [
+                {
+                  "type": "yellow",
+                  "text": "-32%"
+                }
+              ],
+              "pricePerQuantum": null,
+              "grossPricePerQuantum": null,
+              "potentialPointsForOrangeCard": null
+            },
+            "balanceState": "many"
+          },
+          {
+            "liked": false,
+            "recSysRecommendationRequestId": null,
+            "borderStyle": null,
+            "bestReview": null,
+            "advToken": null,
+            "id": 487416,
+            "masterData": {
+              "slug": "salfetki-gratias-podarki-3sl-33h33sm-20l",
+              "plu": "4429397",
+              "unit": 1,
+              "unitName": "шт",
+              "quantum": 1000,
+              "quantumStep": 1000,
+              "weight": 115,
+              "volume": null,
+              "ui4code": "NF1807026",
+              "taxGroup": "BL",
+              "ownProduction": false,
+              "privateLabel": false,
+              "isMark": false,
+              "alcoSetUnits": null,
+              "activeNds": 20
+            },
+            "title": "Салфетки Gratias Подарки 3сл 33х33см, 20л",
+            "primaryCategory": {
+              "id": 444,
+              "title": "Бумага и салфетки",
+              "slug": "bumaga-i-salfetki",
+              "isAlcohol": false,
+              "isTobacco": false,
+              "isExciseAlcohol": false,
+              "isAdultContent": false,
+              "displayStyle": 2,
+              "catalogs": [
+                2,
+                3,
+                4
+              ]
+            },
+            "catalogPrimaryCategory": {
+              "id": 97,
+              "title": "Бумажная и ватная продукция",
+              "slug": "bumaznaa-i-vatnaa-produkcia",
+              "isAlcohol": false,
+              "isTobacco": false,
+              "isExciseAlcohol": false,
+              "isAdultContent": false,
+              "displayStyle": 2,
+              "catalogs": [
+                1
+              ]
+            },
+            "image": {
+              "id": 2709291,
+              "originName": "remote_upl_6901f3bd642186.82879948",
+              "fileType": "image",
+              "fileSize": 82237,
+              "width": 800,
+              "height": 800,
+              "cropUrlTemplate": "https://tsx.x5static.net/i/%s/xdelivery/files/f5/17/8142434ee6ffab086fb479173b9b.jpg",
+              "publicUrl": null,
+              "uuid": "5de7786b-035e-4d74-80b0-b0a8fc9a8be0"
+            },
+            "rating": 496,
+            "medianPrice": 7999,
+            "labelCharacteristics": [],
+            "labels": [],
+            "reviewCount": 3,
+            "ratingCount": 27,
             "priceTag": {
               "price": 7999,
               "discountMinimumAmount": 0,
@@ -3485,7 +3450,7 @@
             "labelCharacteristics": [],
             "labels": [],
             "reviewCount": 135,
-            "ratingCount": 1975,
+            "ratingCount": 1980,
             "priceTag": {
               "price": 8799,
               "discountMinimumAmount": 0,

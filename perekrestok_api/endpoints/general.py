@@ -26,15 +26,13 @@ class ClassGeneral:
         self, url: str, retry_attempts: int = 3, timeout: float = 10
     ) -> BytesIO:
         """Скачать изображение по URL."""
-        proxy = Proxy(self._parent.proxy).as_str() if self._parent.proxy else None
-
         retry_options = ExponentialRetry(
             attempts=retry_attempts, start_timeout=3.0, max_timeout=timeout
         )
 
         async with RetryClient(retry_options=retry_options) as retry_client:
             async with retry_client.get(
-                url, raise_for_status=True, proxy=proxy
+                url, raise_for_status=True, proxy=Proxy(self._parent.proxy).as_str()
             ) as resp:
                 body = await resp.read()
                 file = BytesIO(body)

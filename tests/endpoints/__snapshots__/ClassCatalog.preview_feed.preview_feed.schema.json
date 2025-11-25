@@ -422,6 +422,9 @@
                               "uuid",
                               "width"
                             ]
+                          },
+                          "toolTip": {
+                            "type": "null"
                           }
                         },
                         "required": [

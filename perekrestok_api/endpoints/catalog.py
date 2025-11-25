@@ -2,6 +2,7 @@
 
 from typing import TYPE_CHECKING, Literal
 from urllib.parse import quote
+
 from human_requests.abstraction import FetchResponse, HttpMethod
 
 from .. import abstraction
@@ -69,17 +70,17 @@ class ClassCatalog:
         return await self._parent._request(HttpMethod.POST, url, json_body=body)
 
     async def grouped_feed(
-            self,
-            filter: abstraction.CatalogFeedFilter,
-            sort: abstraction.CatalogFeedSort = abstraction.CatalogFeedSort.Popularity.ASC,
-            page: int = 1,
-            limit: int = 100,
-            with_best_reviews_only: bool = False
-        ):
+        self,
+        filter: abstraction.CatalogFeedFilter,
+        sort: abstraction.CatalogFeedSort = abstraction.CatalogFeedSort.Popularity.ASC,
+        page: int = 1,
+        limit: int = 100,
+        with_best_reviews_only: bool = False,
+    ):
         """ОСНОВНОЙ способ получения товаров по подкатегориям все разом.
 
         Принимает ИСКЛЮЧИТЕЛЬНО ПОДКАТЕГОРИИ!
-        
+
         Выдает фиды товаров полностью, при этом уже разбитыми по подкатегориям"""
         url = f"{self._parent.CATALOG_URL}/catalog/product/grouped-feed"
         body = {
@@ -121,17 +122,20 @@ class ClassCatalog:
         """Получить информацию о категории по её ID."""
         url = f"{self._parent.CATALOG_URL}/catalog/category/{category_id}/full"
         return await self._parent._request(HttpMethod.GET, url)
-    
-    async def search(self,
-                     query: str,
-                     entity_types: list[Literal["product", "category"]] = ["product", "category"]) -> FetchResponse:
+
+    async def search(
+        self,
+        query: str,
+        entity_types: list[Literal["product", "category"]] = ["product", "category"],
+    ) -> FetchResponse:
         """Поиск по товарам/категориям (в entity_types указывай где искать)"""
         real_query = quote(query)
         url = f"{self._parent.CATALOG_URL}/catalog/search/all?textQuery={real_query}"
         if len(entity_types) > 0:
-            url += f"&{'&'.join([f'entityTypes[]={entity}' for entity in entity_types])}"
+            url += (
+                f"&{'&'.join([f'entityTypes[]={entity}' for entity in entity_types])}"
+            )
         return await self._parent._request(HttpMethod.GET, url)
-
 
 
 class ProductService:

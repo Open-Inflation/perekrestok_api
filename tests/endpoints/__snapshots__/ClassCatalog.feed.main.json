@@ -70,7 +70,7 @@
         "labelCharacteristics": [],
         "labels": [],
         "reviewCount": 70,
-        "ratingCount": 883,
+        "ratingCount": 886,
         "priceTag": {
           "price": 999,
           "discountMinimumAmount": 0,
@@ -156,7 +156,7 @@
         "labelCharacteristics": [],
         "labels": [],
         "reviewCount": 293,
-        "ratingCount": 11591,
+        "ratingCount": 11603,
         "priceTag": {
           "price": 2599,
           "discountMinimumAmount": 0,
@@ -242,7 +242,7 @@
         "labelCharacteristics": [],
         "labels": [],
         "reviewCount": 71,
-        "ratingCount": 2431,
+        "ratingCount": 2435,
         "priceTag": {
           "price": 2599,
           "discountMinimumAmount": 0,
@@ -324,11 +324,11 @@
           "uuid": "cef11db1-2ad4-46e5-af53-1be5d34218a9"
         },
         "rating": 486,
-        "medianPrice": 2699,
+        "medianPrice": 2799,
         "labelCharacteristics": [],
         "labels": [],
-        "reviewCount": 286,
-        "ratingCount": 8395,
+        "reviewCount": 287,
+        "ratingCount": 8407,
         "priceTag": {
           "price": 2599,
           "discountMinimumAmount": 0,
@@ -409,7 +409,7 @@
         "labelCharacteristics": [],
         "labels": [],
         "reviewCount": 26,
-        "ratingCount": 389,
+        "ratingCount": 391,
         "priceTag": {
           "price": 4199,
           "discountMinimumAmount": 0,
@@ -418,92 +418,6 @@
             {
               "type": "yellow",
               "text": "-6%"
-            }
-          ],
-          "pricePerQuantum": null,
-          "grossPricePerQuantum": null,
-          "potentialPointsForOrangeCard": null
-        },
-        "balanceState": "many"
-      },
-      {
-        "liked": false,
-        "recSysRecommendationRequestId": null,
-        "borderStyle": null,
-        "bestReview": null,
-        "advToken": null,
-        "id": 33323,
-        "masterData": {
-          "slug": "kartofel-mytyj",
-          "plu": "2099571",
-          "unit": 2,
-          "unitName": "кг",
-          "quantum": 400,
-          "quantumStep": 600,
-          "weight": null,
-          "volume": null,
-          "ui4code": "FR0906002",
-          "taxGroup": "BB",
-          "ownProduction": false,
-          "privateLabel": false,
-          "isMark": false,
-          "alcoSetUnits": null,
-          "activeNds": 10
-        },
-        "title": "Картофель мытый",
-        "primaryCategory": {
-          "id": 366,
-          "title": "Овощи, зелень, грибы",
-          "slug": "ovosi-zelen-griby",
-          "isAlcohol": false,
-          "isTobacco": false,
-          "isExciseAlcohol": false,
-          "isAdultContent": false,
-          "displayStyle": 2,
-          "catalogs": [
-            2,
-            3,
-            4
-          ]
-        },
-        "catalogPrimaryCategory": {
-          "id": 1589,
-          "title": "Окрошка",
-          "slug": "okroska",
-          "isAlcohol": false,
-          "isTobacco": false,
-          "isExciseAlcohol": false,
-          "isAdultContent": false,
-          "displayStyle": 2,
-          "catalogs": [
-            1
-          ]
-        },
-        "image": {
-          "id": 2623770,
-          "originName": "remote_upl_68e795e04d35c1.99600535",
-          "fileType": "image",
-          "fileSize": 48834,
-          "width": 800,
-          "height": 800,
-          "cropUrlTemplate": "https://tsx.x5static.net/i/%s/xdelivery/files/2a/b6/421c099477e8d0fffec0d0dca398.jpg",
-          "publicUrl": null,
-          "uuid": "7ed0675b-ee4c-400d-a99b-f1d88b11ae26"
-        },
-        "rating": 488,
-        "medianPrice": 4999,
-        "labelCharacteristics": [],
-        "labels": [],
-        "reviewCount": 2434,
-        "ratingCount": 65278,
-        "priceTag": {
-          "price": 4999,
-          "discountMinimumAmount": 0,
-          "grossPrice": 5999,
-          "labels": [
-            {
-              "type": "yellow",
-              "text": "-16%"
             }
           ],
           "pricePerQuantum": null,
@@ -581,7 +495,7 @@
         "labelCharacteristics": [],
         "labels": [],
         "reviewCount": 20,
-        "ratingCount": 367,
+        "ratingCount": 368,
         "priceTag": {
           "price": 4999,
           "discountMinimumAmount": 0,
@@ -748,7 +662,7 @@
         "labelCharacteristics": [],
         "labels": [],
         "reviewCount": 204,
-        "ratingCount": 7377,
+        "ratingCount": 7385,
         "priceTag": {
           "price": 5099,
           "discountMinimumAmount": 0,
@@ -828,8 +742,8 @@
         "medianPrice": 5399,
         "labelCharacteristics": [],
         "labels": [],
-        "reviewCount": 1551,
-        "ratingCount": 28991,
+        "reviewCount": 1552,
+        "ratingCount": 29026,
         "priceTag": {
           "price": 5199,
           "discountMinimumAmount": 0,
@@ -905,12 +819,12 @@
           "publicUrl": null,
           "uuid": "17c85048-3066-4837-b493-47dbe29cd76c"
         },
-        "rating": 494,
+        "rating": 491,
         "medianPrice": 5199,
         "labelCharacteristics": [],
         "labels": [],
         "reviewCount": 6,
-        "ratingCount": 110,
+        "ratingCount": 113,
         "priceTag": {
           "price": 5199,
           "discountMinimumAmount": 0,
@@ -995,94 +909,8 @@
         "medianPrice": 5199,
         "labelCharacteristics": [],
         "labels": [],
-        "reviewCount": 3,
-        "ratingCount": 49,
-        "priceTag": {
-          "price": 5199,
-          "discountMinimumAmount": 0,
-          "grossPrice": 6999,
-          "labels": [
-            {
-              "type": "yellow",
-              "text": "-25%"
-            }
-          ],
-          "pricePerQuantum": null,
-          "grossPricePerQuantum": null,
-          "potentialPointsForOrangeCard": null
-        },
-        "balanceState": "many"
-      },
-      {
-        "liked": false,
-        "recSysRecommendationRequestId": null,
-        "borderStyle": null,
-        "bestReview": null,
-        "advToken": null,
-        "id": 487377,
-        "masterData": {
-          "slug": "karamel-ledencovaa-strana-elocka-ledencovaa-na-palocke-30g",
-          "plu": "4422699",
-          "unit": 1,
-          "unitName": "шт",
-          "quantum": 1000,
-          "quantumStep": 1000,
-          "weight": 30,
-          "volume": null,
-          "ui4code": "FD0606003",
-          "taxGroup": "BL",
-          "ownProduction": false,
-          "privateLabel": false,
-          "isMark": false,
-          "alcoSetUnits": null,
-          "activeNds": 20
-        },
-        "title": "Карамель Леденцовая Страна Ёлочка леденцовая на палочке, 30г",
-        "primaryCategory": {
-          "id": 402,
-          "title": "Шоколад, конфеты",
-          "slug": "sokolad-konfety",
-          "isAlcohol": false,
-          "isTobacco": false,
-          "isExciseAlcohol": false,
-          "isAdultContent": false,
-          "displayStyle": 2,
-          "catalogs": [
-            2,
-            3,
-            4
-          ]
-        },
-        "catalogPrimaryCategory": {
-          "id": 1709,
-          "title": "Подарки",
-          "slug": "podarki",
-          "isAlcohol": false,
-          "isTobacco": false,
-          "isExciseAlcohol": false,
-          "isAdultContent": false,
-          "displayStyle": 2,
-          "catalogs": [
-            1
-          ]
-        },
-        "image": {
-          "id": 2648954,
-          "originName": "remote_upl_68f124a29774c5.45906062",
-          "fileType": "image",
-          "fileSize": 30483,
-          "width": 800,
-          "height": 800,
-          "cropUrlTemplate": "https://tsx.x5static.net/i/%s/xdelivery/files/5e/51/6cba50a5a19e7d497548964f5f22.jpg",
-          "publicUrl": null,
-          "uuid": "431d46b3-9d6e-42b3-a408-c058cf5d3e41"
-        },
-        "rating": 485,
-        "medianPrice": 5199,
-        "labelCharacteristics": [],
-        "labels": [],
-        "reviewCount": 2,
-        "ratingCount": 48,
+        "reviewCount": 4,
+        "ratingCount": 54,
         "priceTag": {
           "price": 5199,
           "discountMinimumAmount": 0,
@@ -1164,7 +992,7 @@
           "uuid": "9e6165f5-3470-4433-bf0a-09f9d670ff11"
         },
         "rating": 497,
-        "medianPrice": 5799,
+        "medianPrice": 4999,
         "labelCharacteristics": [],
         "labels": [
           {
@@ -1183,12 +1011,17 @@
           }
         ],
         "reviewCount": 376,
-        "ratingCount": 5417,
+        "ratingCount": 5429,
         "priceTag": {
           "price": 5299,
           "discountMinimumAmount": 0,
-          "grossPrice": null,
-          "labels": [],
+          "grossPrice": 6199,
+          "labels": [
+            {
+              "type": "yellow",
+              "text": "-14%"
+            }
+          ],
           "pricePerQuantum": null,
           "grossPricePerQuantum": null,
           "potentialPointsForOrangeCard": null
@@ -1260,13 +1093,13 @@
           "uuid": "2ec50812-115b-4f74-8692-b2137d3b234c"
         },
         "rating": 491,
-        "medianPrice": 5449,
+        "medianPrice": 5399,
         "labelCharacteristics": [],
         "labels": [],
         "reviewCount": 202,
-        "ratingCount": 7670,
+        "ratingCount": 7675,
         "priceTag": {
-          "price": 5449,
+          "price": 5349,
           "discountMinimumAmount": 0,
           "grossPrice": null,
           "labels": [],
@@ -1341,13 +1174,13 @@
           "uuid": "28229940-72aa-49c2-95ef-681c931aa7de"
         },
         "rating": 491,
-        "medianPrice": 5449,
+        "medianPrice": 5399,
         "labelCharacteristics": [],
         "labels": [],
         "reviewCount": 202,
-        "ratingCount": 6425,
+        "ratingCount": 6431,
         "priceTag": {
-          "price": 5449,
+          "price": 5349,
           "discountMinimumAmount": 0,
           "grossPrice": null,
           "labels": [],
@@ -1426,9 +1259,9 @@
         "labelCharacteristics": [],
         "labels": [],
         "reviewCount": 600,
-        "ratingCount": 18669,
+        "ratingCount": 18681,
         "priceTag": {
-          "price": 5599,
+          "price": 5549,
           "discountMinimumAmount": 0,
           "grossPrice": null,
           "labels": [],
@@ -1507,9 +1340,9 @@
         "labelCharacteristics": [],
         "labels": [],
         "reviewCount": 384,
-        "ratingCount": 11932,
+        "ratingCount": 11937,
         "priceTag": {
-          "price": 5599,
+          "price": 5549,
           "discountMinimumAmount": 0,
           "grossPrice": null,
           "labels": [],
@@ -1587,8 +1420,8 @@
         "medianPrice": 5499,
         "labelCharacteristics": [],
         "labels": [],
-        "reviewCount": 247,
-        "ratingCount": 6166,
+        "reviewCount": 246,
+        "ratingCount": 6179,
         "priceTag": {
           "price": 5699,
           "discountMinimumAmount": 0,
@@ -1599,6 +1432,87 @@
               "text": "-10%"
             }
           ],
+          "pricePerQuantum": null,
+          "grossPricePerQuantum": null,
+          "potentialPointsForOrangeCard": null
+        },
+        "balanceState": "many"
+      },
+      {
+        "liked": false,
+        "recSysRecommendationRequestId": null,
+        "borderStyle": null,
+        "bestReview": null,
+        "advToken": null,
+        "id": 41646,
+        "masterData": {
+          "slug": "suhariki-hrusteam-baget-syrnoe-assorti-60g",
+          "plu": "3360550",
+          "unit": 1,
+          "unitName": "шт",
+          "quantum": 1000,
+          "quantumStep": 1000,
+          "weight": 60,
+          "volume": null,
+          "ui4code": "FD0613001",
+          "taxGroup": "BB",
+          "ownProduction": false,
+          "privateLabel": false,
+          "isMark": true,
+          "alcoSetUnits": null,
+          "activeNds": 10
+        },
+        "title": "Сухарики Хрусteam Багет Сырное ассорти, 60г",
+        "primaryCategory": {
+          "id": 400,
+          "title": "Чипсы, снеки",
+          "slug": "cipsy-sneki",
+          "isAlcohol": false,
+          "isTobacco": false,
+          "isExciseAlcohol": false,
+          "isAdultContent": false,
+          "displayStyle": 2,
+          "catalogs": [
+            2,
+            3,
+            4
+          ]
+        },
+        "catalogPrimaryCategory": {
+          "id": 1704,
+          "title": "Салатная классика",
+          "slug": "salatnaa-klassika",
+          "isAlcohol": false,
+          "isTobacco": false,
+          "isExciseAlcohol": false,
+          "isAdultContent": false,
+          "displayStyle": 2,
+          "catalogs": [
+            1
+          ]
+        },
+        "image": {
+          "id": 2577513,
+          "originName": "remote_upl_68de23102f7a23.53938933",
+          "fileType": "image",
+          "fileSize": 78849,
+          "width": 800,
+          "height": 800,
+          "cropUrlTemplate": "https://tsx.x5static.net/i/%s/xdelivery/files/e3/bb/744a9844a2816bbc7e688c11105c.jpg",
+          "publicUrl": null,
+          "uuid": "536f44e8-f8df-43d5-9d64-7ce0b08e0a64"
+        },
+        "rating": 492,
+        "medianPrice": 5899,
+        "labelCharacteristics": [],
+        "labels": [],
+        "reviewCount": 284,
+        "ratingCount": 11487,
+        "priceTag": {
+          "price": 5799,
+          "discountMinimumAmount": 0,
+          "grossPrice": null,
+          "labels": [],
           "pricePerQuantum": null,
           "grossPricePerQuantum": null,
           "potentialPointsForOrangeCard": null
@@ -1674,7 +1588,88 @@
         "labelCharacteristics": [],
         "labels": [],
         "reviewCount": 229,
-        "ratingCount": 9649,
+        "ratingCount": 9656,
+        "priceTag": {
+          "price": 5799,
+          "discountMinimumAmount": 0,
+          "grossPrice": null,
+          "labels": [],
+          "pricePerQuantum": null,
+          "grossPricePerQuantum": null,
+          "potentialPointsForOrangeCard": null
+        },
+        "balanceState": "many"
+      },
+      {
+        "liked": false,
+        "recSysRecommendationRequestId": null,
+        "borderStyle": null,
+        "bestReview": null,
+        "advToken": null,
+        "id": 41657,
+        "masterData": {
+          "slug": "suhariki-hrusteam-baget-korolevskij-krab-60g",
+          "plu": "3385063",
+          "unit": 1,
+          "unitName": "шт",
+          "quantum": 1000,
+          "quantumStep": 1000,
+          "weight": 60,
+          "volume": null,
+          "ui4code": "FD0613001",
+          "taxGroup": "BB",
+          "ownProduction": false,
+          "privateLabel": false,
+          "isMark": true,
+          "alcoSetUnits": null,
+          "activeNds": 10
+        },
+        "title": "Сухарики Хрусteam Багет Королевский краб, 60г",
+        "primaryCategory": {
+          "id": 400,
+          "title": "Чипсы, снеки",
+          "slug": "cipsy-sneki",
+          "isAlcohol": false,
+          "isTobacco": false,
+          "isExciseAlcohol": false,
+          "isAdultContent": false,
+          "displayStyle": 2,
+          "catalogs": [
+            2,
+            3,
+            4
+          ]
+        },
+        "catalogPrimaryCategory": {
+          "id": 1704,
+          "title": "Салатная классика",
+          "slug": "salatnaa-klassika",
+          "isAlcohol": false,
+          "isTobacco": false,
+          "isExciseAlcohol": false,
+          "isAdultContent": false,
+          "displayStyle": 2,
+          "catalogs": [
+            1
+          ]
+        },
+        "image": {
+          "id": 2576528,
+          "originName": "remote_upl_68de22fe78a710.04887116",
+          "fileType": "image",
+          "fileSize": 86290,
+          "width": 800,
+          "height": 800,
+          "cropUrlTemplate": "https://tsx.x5static.net/i/%s/xdelivery/files/a0/10/84acac6b9633e12c9cdcd57ea04a.jpg",
+          "publicUrl": null,
+          "uuid": "195d4c15-ccf8-40df-a0e4-8b35dd8043d6"
+        },
+        "rating": 490,
+        "medianPrice": 5899,
+        "labelCharacteristics": [],
+        "labels": [],
+        "reviewCount": 191,
+        "ratingCount": 7987,
         "priceTag": {
           "price": 5799,
           "discountMinimumAmount": 0,
@@ -1751,16 +1746,274 @@
           "uuid": "44b94ede-3994-4eb0-90bb-d89e6f40dc12"
         },
         "rating": 473,
-        "medianPrice": 5999,
+        "medianPrice": 6099,
         "labelCharacteristics": [],
         "labels": [],
         "reviewCount": 61,
-        "ratingCount": 1066,
+        "ratingCount": 1069,
         "priceTag": {
           "price": 5899,
           "discountMinimumAmount": 0,
           "grossPrice": null,
           "labels": [],
+          "pricePerQuantum": null,
+          "grossPricePerQuantum": null,
+          "potentialPointsForOrangeCard": null
+        },
+        "balanceState": "many"
+      },
+      {
+        "liked": false,
+        "recSysRecommendationRequestId": null,
+        "borderStyle": null,
+        "bestReview": null,
+        "advToken": null,
+        "id": 33323,
+        "masterData": {
+          "slug": "kartofel-mytyj",
+          "plu": "2099571",
+          "unit": 2,
+          "unitName": "кг",
+          "quantum": 400,
+          "quantumStep": 600,
+          "weight": null,
+          "volume": null,
+          "ui4code": "FR0906002",
+          "taxGroup": "BB",
+          "ownProduction": false,
+          "privateLabel": false,
+          "isMark": false,
+          "alcoSetUnits": null,
+          "activeNds": 10
+        },
+        "title": "Картофель мытый",
+        "primaryCategory": {
+          "id": 366,
+          "title": "Овощи, зелень, грибы",
+          "slug": "ovosi-zelen-griby",
+          "isAlcohol": false,
+          "isTobacco": false,
+          "isExciseAlcohol": false,
+          "isAdultContent": false,
+          "displayStyle": 2,
+          "catalogs": [
+            2,
+            3,
+            4
+          ]
+        },
+        "catalogPrimaryCategory": {
+          "id": 1589,
+          "title": "Окрошка",
+          "slug": "okroska",
+          "isAlcohol": false,
+          "isTobacco": false,
+          "isExciseAlcohol": false,
+          "isAdultContent": false,
+          "displayStyle": 2,
+          "catalogs": [
+            1
+          ]
+        },
+        "image": {
+          "id": 2623770,
+          "originName": "remote_upl_68e795e04d35c1.99600535",
+          "fileType": "image",
+          "fileSize": 48834,
+          "width": 800,
+          "height": 800,
+          "cropUrlTemplate": "https://tsx.x5static.net/i/%s/xdelivery/files/2a/b6/421c099477e8d0fffec0d0dca398.jpg",
+          "publicUrl": null,
+          "uuid": "7ed0675b-ee4c-400d-a99b-f1d88b11ae26"
+        },
+        "rating": 488,
+        "medianPrice": 4999,
+        "labelCharacteristics": [],
+        "labels": [],
+        "reviewCount": 2435,
+        "ratingCount": 65344,
+        "priceTag": {
+          "price": 5999,
+          "discountMinimumAmount": 0,
+          "grossPrice": 6999,
+          "labels": [
+            {
+              "type": "yellow",
+              "text": "-14%"
+            }
+          ],
+          "pricePerQuantum": null,
+          "grossPricePerQuantum": null,
+          "potentialPointsForOrangeCard": null
+        },
+        "balanceState": "many"
+      },
+      {
+        "liked": false,
+        "recSysRecommendationRequestId": null,
+        "borderStyle": null,
+        "bestReview": null,
+        "advToken": null,
+        "id": 33373,
+        "masterData": {
+          "slug": "kartofel-krasnyj-mytyj",
+          "plu": "3646068",
+          "unit": 2,
+          "unitName": "кг",
+          "quantum": 350,
+          "quantumStep": 500,
+          "weight": null,
+          "volume": null,
+          "ui4code": "FR0906002",
+          "taxGroup": "BB",
+          "ownProduction": false,
+          "privateLabel": false,
+          "isMark": false,
+          "alcoSetUnits": null,
+          "activeNds": 10
+        },
+        "title": "Картофель красный мытый",
+        "primaryCategory": {
+          "id": 366,
+          "title": "Овощи, зелень, грибы",
+          "slug": "ovosi-zelen-griby",
+          "isAlcohol": false,
+          "isTobacco": false,
+          "isExciseAlcohol": false,
+          "isAdultContent": false,
+          "displayStyle": 2,
+          "catalogs": [
+            2,
+            3,
+            4
+          ]
+        },
+        "catalogPrimaryCategory": {
+          "id": 1589,
+          "title": "Окрошка",
+          "slug": "okroska",
+          "isAlcohol": false,
+          "isTobacco": false,
+          "isExciseAlcohol": false,
+          "isAdultContent": false,
+          "displayStyle": 2,
+          "catalogs": [
+            1
+          ]
+        },
+        "image": {
+          "id": 2551541,
+          "originName": "remote_upl_68dc60ff995714.86324672",
+          "fileType": "image",
+          "fileSize": 72245,
+          "width": 800,
+          "height": 800,
+          "cropUrlTemplate": "https://tsx.x5static.net/i/%s/xdelivery/files/2a/c1/ae599418b036a4f9fef2cf25c6fd.jpg",
+          "publicUrl": null,
+          "uuid": "ecb5d8d1-808a-49c9-99d2-7ce929e58ca6"
+        },
+        "rating": 485,
+        "medianPrice": 7999,
+        "labelCharacteristics": [],
+        "labels": [],
+        "reviewCount": 923,
+        "ratingCount": 18120,
+        "priceTag": {
+          "price": 5999,
+          "discountMinimumAmount": 0,
+          "grossPrice": 7999,
+          "labels": [
+            {
+              "type": "yellow",
+              "text": "-25%"
+            }
+          ],
+          "pricePerQuantum": null,
+          "grossPricePerQuantum": null,
+          "potentialPointsForOrangeCard": null
+        },
+        "balanceState": "many"
+      },
+      {
+        "liked": false,
+        "recSysRecommendationRequestId": null,
+        "borderStyle": null,
+        "bestReview": null,
+        "advToken": null,
+        "id": 37055,
+        "masterData": {
+          "slug": "cesnok-3st",
+          "plu": "17662",
+          "unit": 1,
+          "unitName": "шт",
+          "quantum": 1000,
+          "quantumStep": 1000,
+          "weight": 50,
+          "volume": null,
+          "ui4code": "FR0906004",
+          "taxGroup": "BB",
+          "ownProduction": false,
+          "privateLabel": false,
+          "isMark": false,
+          "alcoSetUnits": null,
+          "activeNds": 10
+        },
+        "title": "Чеснок, 3шт",
+        "primaryCategory": {
+          "id": 366,
+          "title": "Овощи, зелень, грибы",
+          "slug": "ovosi-zelen-griby",
+          "isAlcohol": false,
+          "isTobacco": false,
+          "isExciseAlcohol": false,
+          "isAdultContent": false,
+          "displayStyle": 2,
+          "catalogs": [
+            2,
+            3,
+            4
+          ]
+        },
+        "catalogPrimaryCategory": {
+          "id": 1704,
+          "title": "Салатная классика",
+          "slug": "salatnaa-klassika",
+          "isAlcohol": false,
+          "isTobacco": false,
+          "isExciseAlcohol": false,
+          "isAdultContent": false,
+          "displayStyle": 2,
+          "catalogs": [
+            1
+          ]
+        },
+        "image": {
+          "id": 2547411,
+          "originName": "remote_upl_68dc60ff99e729.02543946",
+          "fileType": "image",
+          "fileSize": 46312,
+          "width": 800,
+          "height": 800,
+          "cropUrlTemplate": "https://tsx.x5static.net/i/%s/xdelivery/files/6c/e4/11265c1d5282faf809a632fe9cef.jpg",
+          "publicUrl": null,
+          "uuid": "fb09e037-57fe-4dd0-aa65-39454848575e"
+        },
+        "rating": 493,
+        "medianPrice": 6999,
+        "labelCharacteristics": [],
+        "labels": [],
+        "reviewCount": 641,
+        "ratingCount": 24612,
+        "priceTag": {
+          "price": 5999,
+          "discountMinimumAmount": 0,
+          "grossPrice": 6999,
+          "labels": [
+            {
+              "type": "yellow",
+              "text": "-14%"
+            }
+          ],
           "pricePerQuantum": null,
           "grossPricePerQuantum": null,
           "potentialPointsForOrangeCard": null
@@ -1835,8 +2088,8 @@
         "medianPrice": 5999,
         "labelCharacteristics": [],
         "labels": [],
-        "reviewCount": 357,
-        "ratingCount": 4865,
+        "reviewCount": 358,
+        "ratingCount": 4880,
         "priceTag": {
           "price": 5999,
           "discountMinimumAmount": 0,
@@ -1922,7 +2175,7 @@
         "labelCharacteristics": [],
         "labels": [],
         "reviewCount": 84,
-        "ratingCount": 1819,
+        "ratingCount": 1820,
         "priceTag": {
           "price": 5999,
           "discountMinimumAmount": 0,
@@ -2008,7 +2261,7 @@
         "labelCharacteristics": [],
         "labels": [],
         "reviewCount": 132,
-        "ratingCount": 1393,
+        "ratingCount": 1395,
         "priceTag": {
           "price": 5999,
           "discountMinimumAmount": 0,
@@ -2094,7 +2347,7 @@
         "labelCharacteristics": [],
         "labels": [],
         "reviewCount": 110,
-        "ratingCount": 1650,
+        "ratingCount": 1651,
         "priceTag": {
           "price": 5999,
           "discountMinimumAmount": 0,
@@ -2180,7 +2433,7 @@
         "labelCharacteristics": [],
         "labels": [],
         "reviewCount": 104,
-        "ratingCount": 1727,
+        "ratingCount": 1731,
         "priceTag": {
           "price": 5999,
           "discountMinimumAmount": 0,
@@ -2191,6 +2444,87 @@
               "text": "-16%"
             }
           ],
+          "pricePerQuantum": null,
+          "grossPricePerQuantum": null,
+          "potentialPointsForOrangeCard": null
+        },
+        "balanceState": "many"
+      },
+      {
+        "liked": false,
+        "recSysRecommendationRequestId": null,
+        "borderStyle": null,
+        "bestReview": null,
+        "advToken": null,
+        "id": 43859,
+        "masterData": {
+          "slug": "napitok-pivnoj-bezalkogolnyj-baltika-no0-grejpfrut-nefiltrovannyj-330ml",
+          "plu": "3909463",
+          "unit": 1,
+          "unitName": "шт",
+          "quantum": 1000,
+          "quantumStep": 1000,
+          "weight": 330,
+          "volume": 330,
+          "ui4code": "FD0804006",
+          "taxGroup": "BL",
+          "ownProduction": false,
+          "privateLabel": false,
+          "isMark": true,
+          "alcoSetUnits": null,
+          "activeNds": 20
+        },
+        "title": "Напиток пивной безалкогольный Балтика №0 Грейпфрут нефильтрованный, 330мл",
+        "primaryCategory": {
+          "id": 460,
+          "title": "Пиво, вино",
+          "slug": "pivo-vino",
+          "isAlcohol": false,
+          "isTobacco": false,
+          "isExciseAlcohol": false,
+          "isAdultContent": false,
+          "displayStyle": 2,
+          "catalogs": [
+            2,
+            3,
+            4
+          ]
+        },
+        "catalogPrimaryCategory": {
+          "id": 1705,
+          "title": "Меню на праздник",
+          "slug": "menu-na-prazdnik",
+          "isAlcohol": false,
+          "isTobacco": false,
+          "isExciseAlcohol": false,
+          "isAdultContent": false,
+          "displayStyle": 2,
+          "catalogs": [
+            1
+          ]
+        },
+        "image": {
+          "id": 2563625,
+          "originName": "remote_upl_68dc7d28297749.46982424",
+          "fileType": "image",
+          "fileSize": 54772,
+          "width": 800,
+          "height": 800,
+          "cropUrlTemplate": "https://tsx.x5static.net/i/%s/xdelivery/files/34/25/1caabec34f4393bc5ef521e86244.jpg",
+          "publicUrl": null,
+          "uuid": "e8ac3305-573a-45fd-9f9e-4d4ef11cc9fe"
+        },
+        "rating": 492,
+        "medianPrice": 6599,
+        "labelCharacteristics": [],
+        "labels": [],
+        "reviewCount": 161,
+        "ratingCount": 4156,
+        "priceTag": {
+          "price": 6099,
+          "discountMinimumAmount": 0,
+          "grossPrice": null,
+          "labels": [],
           "pricePerQuantum": null,
           "grossPricePerQuantum": null,
           "potentialPointsForOrangeCard": null
@@ -2265,8 +2599,8 @@
         "medianPrice": 6099,
         "labelCharacteristics": [],
         "labels": [],
-        "reviewCount": 607,
-        "ratingCount": 28526,
+        "reviewCount": 609,
+        "ratingCount": 28547,
         "priceTag": {
           "price": 6099,
           "discountMinimumAmount": 0,
@@ -2352,7 +2686,7 @@
         "labelCharacteristics": [],
         "labels": [],
         "reviewCount": 468,
-        "ratingCount": 20844,
+        "ratingCount": 20862,
         "priceTag": {
           "price": 6099,
           "discountMinimumAmount": 0,
@@ -2437,8 +2771,8 @@
         "medianPrice": 6199,
         "labelCharacteristics": [],
         "labels": [],
-        "reviewCount": 167,
-        "ratingCount": 2295,
+        "reviewCount": 169,
+        "ratingCount": 2306,
         "priceTag": {
           "price": 6199,
           "discountMinimumAmount": 0,
@@ -2449,87 +2783,6 @@
               "text": "-11%"
             }
           ],
-          "pricePerQuantum": null,
-          "grossPricePerQuantum": null,
-          "potentialPointsForOrangeCard": null
-        },
-        "balanceState": "many"
-      },
-      {
-        "liked": false,
-        "recSysRecommendationRequestId": null,
-        "borderStyle": null,
-        "bestReview": null,
-        "advToken": null,
-        "id": 43859,
-        "masterData": {
-          "slug": "napitok-pivnoj-bezalkogolnyj-baltika-no0-grejpfrut-nefiltrovannyj-330ml",
-          "plu": "3909463",
-          "unit": 1,
-          "unitName": "шт",
-          "quantum": 1000,
-          "quantumStep": 1000,
-          "weight": 330,
-          "volume": 330,
-          "ui4code": "FD0804006",
-          "taxGroup": "BL",
-          "ownProduction": false,
-          "privateLabel": false,
-          "isMark": true,
-          "alcoSetUnits": null,
-          "activeNds": 20
-        },
-        "title": "Напиток пивной безалкогольный Балтика №0 Грейпфрут нефильтрованный, 330мл",
-        "primaryCategory": {
-          "id": 460,
-          "title": "Пиво, вино",
-          "slug": "pivo-vino",
-          "isAlcohol": false,
-          "isTobacco": false,
-          "isExciseAlcohol": false,
-          "isAdultContent": false,
-          "displayStyle": 2,
-          "catalogs": [
-            2,
-            3,
-            4
-          ]
-        },
-        "catalogPrimaryCategory": {
-          "id": 1705,
-          "title": "Меню на праздник",
-          "slug": "menu-na-prazdnik",
-          "isAlcohol": false,
-          "isTobacco": false,
-          "isExciseAlcohol": false,
-          "isAdultContent": false,
-          "displayStyle": 2,
-          "catalogs": [
-            1
-          ]
-        },
-        "image": {
-          "id": 2563625,
-          "originName": "remote_upl_68dc7d28297749.46982424",
-          "fileType": "image",
-          "fileSize": 54772,
-          "width": 800,
-          "height": 800,
-          "cropUrlTemplate": "https://tsx.x5static.net/i/%s/xdelivery/files/34/25/1caabec34f4393bc5ef521e86244.jpg",
-          "publicUrl": null,
-          "uuid": "e8ac3305-573a-45fd-9f9e-4d4ef11cc9fe"
-        },
-        "rating": 492,
-        "medianPrice": 6599,
-        "labelCharacteristics": [],
-        "labels": [],
-        "reviewCount": 161,
-        "ratingCount": 4153,
-        "priceTag": {
-          "price": 6299,
-          "discountMinimumAmount": 0,
-          "grossPrice": null,
-          "labels": [],
           "pricePerQuantum": null,
           "grossPricePerQuantum": null,
           "potentialPointsForOrangeCard": null
@@ -2601,11 +2854,11 @@
           "uuid": "935cece5-91c6-47e8-aea6-29bfa6903fb6"
         },
         "rating": 494,
-        "medianPrice": 6349,
+        "medianPrice": 6299,
         "labelCharacteristics": [],
         "labels": [],
-        "reviewCount": 637,
-        "ratingCount": 18499,
+        "reviewCount": 636,
+        "ratingCount": 18514,
         "priceTag": {
           "price": 6299,
           "discountMinimumAmount": 0,
@@ -2683,172 +2936,10 @@
         "medianPrice": 6299,
         "labelCharacteristics": [],
         "labels": [],
-        "reviewCount": 77,
-        "ratingCount": 764,
+        "reviewCount": 78,
+        "ratingCount": 768,
         "priceTag": {
           "price": 6299,
-          "discountMinimumAmount": 0,
-          "grossPrice": null,
-          "labels": [],
-          "pricePerQuantum": null,
-          "grossPricePerQuantum": null,
-          "potentialPointsForOrangeCard": null
-        },
-        "balanceState": "many"
-      },
-      {
-        "liked": false,
-        "recSysRecommendationRequestId": null,
-        "borderStyle": null,
-        "bestReview": null,
-        "advToken": null,
-        "id": 41646,
-        "masterData": {
-          "slug": "suhariki-hrusteam-baget-syrnoe-assorti-60g",
-          "plu": "3360550",
-          "unit": 1,
-          "unitName": "шт",
-          "quantum": 1000,
-          "quantumStep": 1000,
-          "weight": 60,
-          "volume": null,
-          "ui4code": "FD0613001",
-          "taxGroup": "BB",
-          "ownProduction": false,
-          "privateLabel": false,
-          "isMark": true,
-          "alcoSetUnits": null,
-          "activeNds": 10
-        },
-        "title": "Сухарики Хрусteam Багет Сырное ассорти, 60г",
-        "primaryCategory": {
-          "id": 400,
-          "title": "Чипсы, снеки",
-          "slug": "cipsy-sneki",
-          "isAlcohol": false,
-          "isTobacco": false,
-          "isExciseAlcohol": false,
-          "isAdultContent": false,
-          "displayStyle": 2,
-          "catalogs": [
-            2,
-            3,
-            4
-          ]
-        },
-        "catalogPrimaryCategory": {
-          "id": 1704,
-          "title": "Салатная классика",
-          "slug": "salatnaa-klassika",
-          "isAlcohol": false,
-          "isTobacco": false,
-          "isExciseAlcohol": false,
-          "isAdultContent": false,
-          "displayStyle": 2,
-          "catalogs": [
-            1
-          ]
-        },
-        "image": {
-          "id": 2577513,
-          "originName": "remote_upl_68de23102f7a23.53938933",
-          "fileType": "image",
-          "fileSize": 78849,
-          "width": 800,
-          "height": 800,
-          "cropUrlTemplate": "https://tsx.x5static.net/i/%s/xdelivery/files/e3/bb/744a9844a2816bbc7e688c11105c.jpg",
-          "publicUrl": null,
-          "uuid": "536f44e8-f8df-43d5-9d64-7ce0b08e0a64"
-        },
-        "rating": 492,
-        "medianPrice": 5999,
-        "labelCharacteristics": [],
-        "labels": [],
-        "reviewCount": 284,
-        "ratingCount": 11479,
-        "priceTag": {
-          "price": 6399,
-          "discountMinimumAmount": 0,
-          "grossPrice": null,
-          "labels": [],
-          "pricePerQuantum": null,
-          "grossPricePerQuantum": null,
-          "potentialPointsForOrangeCard": null
-        },
-        "balanceState": "many"
-      },
-      {
-        "liked": false,
-        "recSysRecommendationRequestId": null,
-        "borderStyle": null,
-        "bestReview": null,
-        "advToken": null,
-        "id": 41657,
-        "masterData": {
-          "slug": "suhariki-hrusteam-baget-korolevskij-krab-60g",
-          "plu": "3385063",
-          "unit": 1,
-          "unitName": "шт",
-          "quantum": 1000,
-          "quantumStep": 1000,
-          "weight": 60,
-          "volume": null,
-          "ui4code": "FD0613001",
-          "taxGroup": "BB",
-          "ownProduction": false,
-          "privateLabel": false,
-          "isMark": true,
-          "alcoSetUnits": null,
-          "activeNds": 10
-        },
-        "title": "Сухарики Хрусteam Багет Королевский краб, 60г",
-        "primaryCategory": {
-          "id": 400,
-          "title": "Чипсы, снеки",
-          "slug": "cipsy-sneki",
-          "isAlcohol": false,
-          "isTobacco": false,
-          "isExciseAlcohol": false,
-          "isAdultContent": false,
-          "displayStyle": 2,
-          "catalogs": [
-            2,
-            3,
-            4
-          ]
-        },
-        "catalogPrimaryCategory": {
-          "id": 1704,
-          "title": "Салатная классика",
-          "slug": "salatnaa-klassika",
-          "isAlcohol": false,
-          "isTobacco": false,
-          "isExciseAlcohol": false,
-          "isAdultContent": false,
-          "displayStyle": 2,
-          "catalogs": [
-            1
-          ]
-        },
-        "image": {
-          "id": 2576528,
-          "originName": "remote_upl_68de22fe78a710.04887116",
-          "fileType": "image",
-          "fileSize": 86290,
-          "width": 800,
-          "height": 800,
-          "cropUrlTemplate": "https://tsx.x5static.net/i/%s/xdelivery/files/a0/10/84acac6b9633e12c9cdcd57ea04a.jpg",
-          "publicUrl": null,
-          "uuid": "195d4c15-ccf8-40df-a0e4-8b35dd8043d6"
-        },
-        "rating": 490,
-        "medianPrice": 5999,
-        "labelCharacteristics": [],
-        "labels": [],
-        "reviewCount": 191,
-        "ratingCount": 7981,
-        "priceTag": {
-          "price": 6399,
           "discountMinimumAmount": 0,
           "grossPrice": null,
           "labels": [],
@@ -3004,11 +3095,11 @@
           "uuid": "f7cfdf20-c5ba-493c-958d-a7dd4e6b408e"
         },
         "rating": 491,
-        "medianPrice": 5699,
+        "medianPrice": 5499,
         "labelCharacteristics": [],
         "labels": [],
         "reviewCount": 92,
-        "ratingCount": 3901,
+        "ratingCount": 3906,
         "priceTag": {
           "price": 6399,
           "discountMinimumAmount": 0,
@@ -3168,7 +3259,7 @@
         "labelCharacteristics": [],
         "labels": [],
         "reviewCount": 77,
-        "ratingCount": 1013,
+        "ratingCount": 1015,
         "priceTag": {
           "price": 6599,
           "discountMinimumAmount": 0,
@@ -3249,7 +3340,7 @@
         "labelCharacteristics": [],
         "labels": [],
         "reviewCount": 10,
-        "ratingCount": 283,
+        "ratingCount": 284,
         "priceTag": {
           "price": 6599,
           "discountMinimumAmount": 0,
@@ -3329,8 +3420,8 @@
         "medianPrice": 6699,
         "labelCharacteristics": [],
         "labels": [],
-        "reviewCount": 73,
-        "ratingCount": 2400,
+        "reviewCount": 74,
+        "ratingCount": 2401,
         "priceTag": {
           "price": 6699,
           "discountMinimumAmount": 0,
@@ -3406,12 +3497,12 @@
           "publicUrl": null,
           "uuid": "2881bb8f-7ebd-4136-b97d-1ac2f48178eb"
         },
-        "rating": 485,
+        "rating": 486,
         "medianPrice": 5999,
         "labelCharacteristics": [],
         "labels": [],
-        "reviewCount": 407,
-        "ratingCount": 10495,
+        "reviewCount": 406,
+        "ratingCount": 10502,
         "priceTag": {
           "price": 6899,
           "discountMinimumAmount": 0,
@@ -3492,7 +3583,7 @@
         "labelCharacteristics": [],
         "labels": [],
         "reviewCount": 226,
-        "ratingCount": 4026,
+        "ratingCount": 4029,
         "priceTag": {
           "price": 6999,
           "discountMinimumAmount": 0,
@@ -3510,17 +3601,17 @@
         "borderStyle": null,
         "bestReview": null,
         "advToken": null,
-        "id": 37055,
+        "id": 34444,
         "masterData": {
-          "slug": "cesnok-3st",
-          "plu": "17662",
-          "unit": 1,
-          "unitName": "шт",
-          "quantum": 1000,
-          "quantumStep": 1000,
-          "weight": 50,
+          "slug": "morkov-mytaa",
+          "plu": "52112",
+          "unit": 2,
+          "unitName": "кг",
+          "quantum": 380,
+          "quantumStep": 380,
+          "weight": null,
           "volume": null,
-          "ui4code": "FR0906004",
+          "ui4code": "FR0906003",
           "taxGroup": "BB",
           "ownProduction": false,
           "privateLabel": false,
@@ -3528,7 +3619,7 @@
           "alcoSetUnits": null,
           "activeNds": 10
         },
-        "title": "Чеснок, 3шт",
+        "title": "Морковь мытая",
         "primaryCategory": {
           "id": 366,
           "title": "Овощи, зелень, грибы",
@@ -3558,27 +3649,118 @@
           ]
         },
         "image": {
-          "id": 2547411,
-          "originName": "remote_upl_68dc60ff99e729.02543946",
+          "id": 2558374,
+          "originName": "remote_upl_68dc60ff9d18b5.29120576",
           "fileType": "image",
-          "fileSize": 46312,
+          "fileSize": 45375,
           "width": 800,
           "height": 800,
-          "cropUrlTemplate": "https://tsx.x5static.net/i/%s/xdelivery/files/6c/e4/11265c1d5282faf809a632fe9cef.jpg",
+          "cropUrlTemplate": "https://tsx.x5static.net/i/%s/xdelivery/files/8a/73/d9590e21aa626d9e18a1523af350.jpg",
           "publicUrl": null,
-          "uuid": "fb09e037-57fe-4dd0-aa65-39454848575e"
+          "uuid": "9a5a1f56-f06d-4421-b63c-aa1c24e2a6c6"
         },
-        "rating": 493,
-        "medianPrice": 6999,
+        "rating": 491,
+        "medianPrice": 7999,
         "labelCharacteristics": [],
         "labels": [],
-        "reviewCount": 641,
-        "ratingCount": 24594,
+        "reviewCount": 2222,
+        "ratingCount": 70879,
         "priceTag": {
-          "price": 7299,
+          "price": 6999,
           "discountMinimumAmount": 0,
-          "grossPrice": null,
-          "labels": [],
+          "grossPrice": 7999,
+          "labels": [
+            {
+              "type": "yellow",
+              "text": "-12%"
+            }
+          ],
+          "pricePerQuantum": null,
+          "grossPricePerQuantum": null,
+          "potentialPointsForOrangeCard": null
+        },
+        "balanceState": "many"
+      },
+      {
+        "liked": false,
+        "recSysRecommendationRequestId": null,
+        "borderStyle": null,
+        "bestReview": null,
+        "advToken": null,
+        "id": 487377,
+        "masterData": {
+          "slug": "karamel-ledencovaa-strana-elocka-ledencovaa-na-palocke-30g",
+          "plu": "4422699",
+          "unit": 1,
+          "unitName": "шт",
+          "quantum": 1000,
+          "quantumStep": 1000,
+          "weight": 30,
+          "volume": null,
+          "ui4code": "FD0606003",
+          "taxGroup": "BL",
+          "ownProduction": false,
+          "privateLabel": false,
+          "isMark": false,
+          "alcoSetUnits": null,
+          "activeNds": 20
+        },
+        "title": "Карамель Леденцовая Страна Ёлочка леденцовая на палочке, 30г",
+        "primaryCategory": {
+          "id": 402,
+          "title": "Шоколад, конфеты",
+          "slug": "sokolad-konfety",
+          "isAlcohol": false,
+          "isTobacco": false,
+          "isExciseAlcohol": false,
+          "isAdultContent": false,
+          "displayStyle": 2,
+          "catalogs": [
+            2,
+            3,
+            4
+          ]
+        },
+        "catalogPrimaryCategory": {
+          "id": 1709,
+          "title": "Подарки",
+          "slug": "podarki",
+          "isAlcohol": false,
+          "isTobacco": false,
+          "isExciseAlcohol": false,
+          "isAdultContent": false,
+          "displayStyle": 2,
+          "catalogs": [
+            1
+          ]
+        },
+        "image": {
+          "id": 2648954,
+          "originName": "remote_upl_68f124a29774c5.45906062",
+          "fileType": "image",
+          "fileSize": 30483,
+          "width": 800,
+          "height": 800,
+          "cropUrlTemplate": "https://tsx.x5static.net/i/%s/xdelivery/files/5e/51/6cba50a5a19e7d497548964f5f22.jpg",
+          "publicUrl": null,
+          "uuid": "431d46b3-9d6e-42b3-a408-c058cf5d3e41"
+        },
+        "rating": 488,
+        "medianPrice": 5199,
+        "labelCharacteristics": [],
+        "labels": [],
+        "reviewCount": 3,
+        "ratingCount": 56,
+        "priceTag": {
+          "price": 6999,
+          "discountMinimumAmount": 0,
+          "grossPrice": 9999,
+          "labels": [
+            {
+              "type": "yellow",
+              "text": "-30%"
+            }
+          ],
           "pricePerQuantum": null,
           "grossPricePerQuantum": null,
           "potentialPointsForOrangeCard": null
@@ -3654,9 +3836,9 @@
         "labelCharacteristics": [],
         "labels": [],
         "reviewCount": 209,
-        "ratingCount": 5501,
+        "ratingCount": 5505,
         "priceTag": {
-          "price": 7399,
+          "price": 7299,
           "discountMinimumAmount": 0,
           "grossPrice": null,
           "labels": [],
@@ -3735,9 +3917,9 @@
         "labelCharacteristics": [],
         "labels": [],
         "reviewCount": 228,
-        "ratingCount": 5880,
+        "ratingCount": 5887,
         "priceTag": {
-          "price": 7399,
+          "price": 7299,
           "discountMinimumAmount": 0,
           "grossPrice": null,
           "labels": [],
@@ -3816,171 +3998,9 @@
         "labelCharacteristics": [],
         "labels": [],
         "reviewCount": 123,
-        "ratingCount": 1162,
+        "ratingCount": 1166,
         "priceTag": {
           "price": 7399,
-          "discountMinimumAmount": 0,
-          "grossPrice": null,
-          "labels": [],
-          "pricePerQuantum": null,
-          "grossPricePerQuantum": null,
-          "potentialPointsForOrangeCard": null
-        },
-        "balanceState": "many"
-      },
-      {
-        "liked": false,
-        "recSysRecommendationRequestId": null,
-        "borderStyle": null,
-        "bestReview": null,
-        "advToken": null,
-        "id": 21920,
-        "masterData": {
-          "slug": "pakety-dla-pisevyh-produktov-26h32-home-story-50st",
-          "plu": "3939825",
-          "unit": 1,
-          "unitName": "шт",
-          "quantum": 1000,
-          "quantumStep": 1000,
-          "weight": 60,
-          "volume": null,
-          "ui4code": "FD0913002",
-          "taxGroup": "BL",
-          "ownProduction": false,
-          "privateLabel": true,
-          "isMark": false,
-          "alcoSetUnits": null,
-          "activeNds": 20
-        },
-        "title": "Пакеты для пищевых продуктов 26х32 Home Story, 50шт",
-        "primaryCategory": {
-          "id": 450,
-          "title": "Хозяйственные мелочи",
-          "slug": "hozajstvennye-meloci",
-          "isAlcohol": false,
-          "isTobacco": false,
-          "isExciseAlcohol": false,
-          "isAdultContent": false,
-          "displayStyle": 2,
-          "catalogs": [
-            2,
-            3,
-            4
-          ]
-        },
-        "catalogPrimaryCategory": {
-          "id": 36,
-          "title": "Всё для хранения",
-          "slug": "vse-dla-hranenia",
-          "isAlcohol": false,
-          "isTobacco": false,
-          "isExciseAlcohol": false,
-          "isAdultContent": false,
-          "displayStyle": 2,
-          "catalogs": [
-            1
-          ]
-        },
-        "image": {
-          "id": 2655045,
-          "originName": "remote_upl_68f31ef256da81.40797977",
-          "fileType": "image",
-          "fileSize": 39333,
-          "width": 800,
-          "height": 800,
-          "cropUrlTemplate": "https://tsx.x5static.net/i/%s/xdelivery/files/72/00/8a8a36146be63fd6d3a870637555.jpg",
-          "publicUrl": null,
-          "uuid": "e9aec61d-bd82-481a-8a76-f124da284d41"
-        },
-        "rating": 492,
-        "medianPrice": 7099,
-        "labelCharacteristics": [],
-        "labels": [],
-        "reviewCount": 78,
-        "ratingCount": 2101,
-        "priceTag": {
-          "price": 7499,
-          "discountMinimumAmount": 0,
-          "grossPrice": null,
-          "labels": [],
-          "pricePerQuantum": null,
-          "grossPricePerQuantum": null,
-          "potentialPointsForOrangeCard": null
-        },
-        "balanceState": "many"
-      },
-      {
-        "liked": false,
-        "recSysRecommendationRequestId": null,
-        "borderStyle": null,
-        "bestReview": null,
-        "advToken": null,
-        "id": 311857,
-        "masterData": {
-          "slug": "ajca-volzanin-kurinye-pisevye-stolovye-otbornoj-kategorii-6st",
-          "plu": "4202935",
-          "unit": 1,
-          "unitName": "шт",
-          "quantum": 1000,
-          "quantumStep": 1000,
-          "weight": 390,
-          "volume": null,
-          "ui4code": "FR0607001",
-          "taxGroup": "BB",
-          "ownProduction": false,
-          "privateLabel": false,
-          "isMark": false,
-          "alcoSetUnits": null,
-          "activeNds": 10
-        },
-        "title": "Яйца Волжанин куриные пищевые столовые отборной категории, 6шт",
-        "primaryCategory": {
-          "id": 374,
-          "title": "Яйца",
-          "slug": "ajca",
-          "isAlcohol": false,
-          "isTobacco": false,
-          "isExciseAlcohol": false,
-          "isAdultContent": false,
-          "displayStyle": 2,
-          "catalogs": [
-            2,
-            3,
-            4
-          ]
-        },
-        "catalogPrimaryCategory": {
-          "id": 1589,
-          "title": "Окрошка",
-          "slug": "okroska",
-          "isAlcohol": false,
-          "isTobacco": false,
-          "isExciseAlcohol": false,
-          "isAdultContent": false,
-          "displayStyle": 2,
-          "catalogs": [
-            1
-          ]
-        },
-        "image": {
-          "id": 2708307,
-          "originName": "remote_upl_69016719ed5ac8.27781960",
-          "fileType": "image",
-          "fileSize": 65225,
-          "width": 800,
-          "height": 800,
-          "cropUrlTemplate": "https://tsx.x5static.net/i/%s/xdelivery/files/67/11/0302fe2d12e731e23119891cf3a7.jpg",
-          "publicUrl": null,
-          "uuid": "a526c6d7-c2db-4ef2-9838-50b11c011779"
-        },
-        "rating": 494,
-        "medianPrice": 7199,
-        "labelCharacteristics": [],
-        "labels": [],
-        "reviewCount": 283,
-        "ratingCount": 4772,
-        "priceTag": {
-          "price": 7499,
           "discountMinimumAmount": 0,
           "grossPrice": null,
           "labels": [],

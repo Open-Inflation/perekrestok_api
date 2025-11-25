@@ -2,6 +2,78 @@
   "content": {
     "items": [
       {
+        "id": 19944,
+        "slug": "salatovye-dni-veb-karusel",
+        "title": null,
+        "action": "deep-link",
+        "color": {
+          "red": 0,
+          "green": 0,
+          "blue": 0,
+          "alpha": 0
+        },
+        "link": null,
+        "webViewType": "default",
+        "textForImage": null,
+        "images": [
+          {
+            "image": {
+              "id": 2766002,
+              "originName": "размер 816х452.png",
+              "fileType": "image",
+              "fileSize": 508688,
+              "width": 816,
+              "height": 452,
+              "cropUrlTemplate": "https://tsx.x5static.net/i/%s/xdelivery/files/68/5a/b2df4db69fca443e90a9445f3b25.png",
+              "publicUrl": null,
+              "uuid": "929f53c5-cb71-49e5-9b55-e7d167c4b620"
+            },
+            "scales": [
+              {
+                "scaleName": "default",
+                "image": {
+                  "id": 2766002,
+                  "originName": "размер 816х452.png",
+                  "fileType": "image",
+                  "fileSize": 508688,
+                  "width": 816,
+                  "height": 452,
+                  "cropUrlTemplate": "https://tsx.x5static.net/i/%s/xdelivery/files/68/5a/b2df4db69fca443e90a9445f3b25.png",
+                  "publicUrl": null,
+                  "uuid": "929f53c5-cb71-49e5-9b55-e7d167c4b620"
+                }
+              }
+            ],
+            "type": "main",
+            "advToken": null
+          }
+        ],
+        "place": "main_web_banners",
+        "leftSubtitle": null,
+        "rightSubtitle": null,
+        "content": null,
+        "blockTypes": [],
+        "analyticsInfo": [
+          {
+            "name": "bannerName",
+            "type": "text",
+            "value": "Салатовые дни веб карусель"
+          }
+        ],
+        "positions": [
+          {
+            "key": "main_web_banners",
+            "title": "WEB_Главные в слайдере"
+          }
+        ],
+        "key": null,
+        "deepLink": {
+          "tsx_type": "banner",
+          "banner_id": 19493,
+          "banner_slug": "salatovye-dni-veb-versia"
+        }
+      },
+      {
         "id": 19745,
         "slug": "loterea-nevozmoznoe-vozmozno",
         "title": null,
@@ -144,8 +216,8 @@
         "deepLink": null
       },
       {
-        "id": 19846,
-        "slug": "frov-47-kivi",
+        "id": 19950,
+        "slug": "frov-48-citrus",
         "title": null,
         "action": "blocks",
         "color": {
@@ -160,29 +232,29 @@
         "images": [
           {
             "image": {
-              "id": 2749349,
-              "originName": "816x452 (34).png",
+              "id": 2770566,
+              "originName": "816x452.png",
               "fileType": "image",
-              "fileSize": 6048495,
+              "fileSize": 8050828,
               "width": 3264,
               "height": 1808,
-              "cropUrlTemplate": "https://tsx.x5static.net/i/%s/xdelivery/files/c8/f3/886f506227e6f3f0003f4215b55e.png",
+              "cropUrlTemplate": "https://tsx.x5static.net/i/%s/xdelivery/files/17/d1/be732ccc1dfed2957225234574b9.png",
               "publicUrl": null,
-              "uuid": "a9bcf787-a628-4cc2-a8e0-7e0e2bb3542c"
+              "uuid": "f009ddc8-8356-4d87-bc68-7844aa76f51d"
             },
             "scales": [
               {
                 "scaleName": "default",
                 "image": {
-                  "id": 2749349,
-                  "originName": "816x452 (34).png",
+                  "id": 2770566,
+                  "originName": "816x452.png",
                   "fileType": "image",
-                  "fileSize": 6048495,
+                  "fileSize": 8050828,
                   "width": 3264,
                   "height": 1808,
-                  "cropUrlTemplate": "https://tsx.x5static.net/i/%s/xdelivery/files/c8/f3/886f506227e6f3f0003f4215b55e.png",
+                  "cropUrlTemplate": "https://tsx.x5static.net/i/%s/xdelivery/files/17/d1/be732ccc1dfed2957225234574b9.png",
                   "publicUrl": null,
-                  "uuid": "a9bcf787-a628-4cc2-a8e0-7e0e2bb3542c"
+                  "uuid": "f009ddc8-8356-4d87-bc68-7844aa76f51d"
                 }
               }
             ],
@@ -202,7 +274,153 @@
           {
             "name": "bannerName",
             "type": "text",
-            "value": "ФРОВ 47 Киви"
+            "value": "ФРОВ 48 Цитрус"
+          }
+        ],
+        "positions": [
+          {
+            "key": "main_web_banners",
+            "title": "WEB_Главные в слайдере"
+          }
+        ],
+        "key": null,
+        "deepLink": null
+      },
+      {
+        "id": 19881,
+        "slug": "ge-buratino",
+        "title": null,
+        "action": "blocks",
+        "color": {
+          "red": 0,
+          "green": 0,
+          "blue": 0,
+          "alpha": 100
+        },
+        "link": null,
+        "webViewType": "default",
+        "textForImage": null,
+        "images": [
+          {
+            "image": {
+              "id": 2758073,
+              "originName": "Подборка размер 816х452.png",
+              "fileType": "image",
+              "fileSize": 4801385,
+              "width": 2448,
+              "height": 1356,
+              "cropUrlTemplate": "https://tsx.x5static.net/i/%s/xdelivery/files/4f/52/1f85bb2bd3bac714f63bef0fd240.png",
+              "publicUrl": null,
+              "uuid": "fdde748d-f7fe-4a48-ae9c-84218cbe19db"
+            },
+            "scales": [
+              {
+                "scaleName": "default",
+                "image": {
+                  "id": 2758073,
+                  "originName": "Подборка размер 816х452.png",
+                  "fileType": "image",
+                  "fileSize": 4801385,
+                  "width": 2448,
+                  "height": 1356,
+                  "cropUrlTemplate": "https://tsx.x5static.net/i/%s/xdelivery/files/4f/52/1f85bb2bd3bac714f63bef0fd240.png",
+                  "publicUrl": null,
+                  "uuid": "fdde748d-f7fe-4a48-ae9c-84218cbe19db"
+                }
+              }
+            ],
+            "type": "main",
+            "advToken": null
+          }
+        ],
+        "place": "main_web_banners",
+        "leftSubtitle": null,
+        "rightSubtitle": null,
+        "content": null,
+        "blockTypes": [
+          "button",
+          "image",
+          "list_item",
+          "product_list",
+          "title"
+        ],
+        "analyticsInfo": [
+          {
+            "name": "bannerName",
+            "type": "text",
+            "value": "ГЕ Буратино"
+          }
+        ],
+        "positions": [
+          {
+            "key": "main_web_banners",
+            "title": "WEB_Главные в слайдере"
+          }
+        ],
+        "key": null,
+        "deepLink": null
+      },
+      {
+        "id": 19924,
+        "slug": "supercena-w48",
+        "title": null,
+        "action": "blocks",
+        "color": {
+          "red": 255,
+          "green": 255,
+          "blue": 255,
+          "alpha": 100
+        },
+        "link": null,
+        "webViewType": "default",
+        "textForImage": null,
+        "images": [
+          {
+            "image": {
+              "id": 2761636,
+              "originName": "816х452.png",
+              "fileType": "image",
+              "fileSize": 4449050,
+              "width": 2448,
+              "height": 1356,
+              "cropUrlTemplate": "https://tsx.x5static.net/i/%s/xdelivery/files/61/62/43d60737fcd2c0303773c45a1e4a.png",
+              "publicUrl": null,
+              "uuid": "ef051748-6004-45c9-84ac-7770d78537bb"
+            },
+            "scales": [
+              {
+                "scaleName": "default",
+                "image": {
+                  "id": 2761636,
+                  "originName": "816х452.png",
+                  "fileType": "image",
+                  "fileSize": 4449050,
+                  "width": 2448,
+                  "height": 1356,
+                  "cropUrlTemplate": "https://tsx.x5static.net/i/%s/xdelivery/files/61/62/43d60737fcd2c0303773c45a1e4a.png",
+                  "publicUrl": null,
+                  "uuid": "ef051748-6004-45c9-84ac-7770d78537bb"
+                }
+              }
+            ],
+            "type": "main",
+            "advToken": null
+          }
+        ],
+        "place": "main_web_banners",
+        "leftSubtitle": null,
+        "rightSubtitle": null,
+        "content": null,
+        "blockTypes": [
+          "image",
+          "product_list",
+          "text"
+        ],
+        "analyticsInfo": [
+          {
+            "name": "bannerName",
+            "type": "text",
+            "value": "Суперцена W48"
           }
         ],
         "positions": [

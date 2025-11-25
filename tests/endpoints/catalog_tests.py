@@ -78,6 +78,7 @@ async def test_feed_for_category(api, schemashot, first_category_id):
         ),
     )
 
+
 async def test_grouped_feed_for_category(api, schemashot, first_subcategory_id):
     flt = abstraction.CatalogFeedFilter()
     flt.CATEGORY_ID = first_subcategory_id
@@ -91,10 +92,9 @@ async def test_grouped_feed_for_category(api, schemashot, first_subcategory_id):
         ),
     )
 
+
 async def test_search(api, schemashot):
-    await make_test(
-        schemashot, partial(api.Catalog.search, "молоко")
-    )
+    await make_test(schemashot, partial(api.Catalog.search, "молоко"))
 
 
 @pytest.fixture()

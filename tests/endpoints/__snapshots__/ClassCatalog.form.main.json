@@ -1,8 +1,8 @@
 {
   "content": {
     "priceFrom": 999,
-    "priceTo": 824899,
-    "productCount": 1370,
+    "priceTo": 599900,
+    "productCount": 1384,
     "searchFeatures": [
       {
         "title": "Бренд",
@@ -49,7 +49,7 @@
             "productCount": 1
           }
         ],
-        "enumCount": 345
+        "enumCount": 349
       },
       {
         "title": "Категория товара",
@@ -96,7 +96,7 @@
             "productCount": 1
           }
         ],
-        "enumCount": 39
+        "enumCount": 40
       },
       {
         "title": "Тип продукта",
@@ -143,7 +143,7 @@
             "productCount": 3
           }
         ],
-        "enumCount": 121
+        "enumCount": 125
       },
       {
         "title": "Особенности",

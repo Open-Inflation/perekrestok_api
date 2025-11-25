@@ -1,12 +1,10 @@
 from perekrestok_api import PerekrestokAPI
 from perekrestok_api import abstraction
 import asyncio
-from pprint import pprint
 
 
 async def main():
     async with PerekrestokAPI() as Api:
-        pprint(Api.unstandard_headers)
         geopos_handler = await Api.Geolocation.current()
         geopos = geopos_handler.json()
         print(f'Текущий город сессии {geopos["content"]["city"]["name"]} ({geopos["content"]["city"]["id"]})')
@@ -20,14 +18,12 @@ async def main():
         print(f'Категория: {cat["content"]["items"][0]["category"]["title"]} ({cat["content"]["items"][0]["category"]["id"]})')
         # Получаем список товаров
         filter = abstraction.CatalogFeedFilter()
-        #filter.CATEGORY_ID = cat["content"]["items"][0]["category"]["id"]
+        filter.CATEGORY_ID = cat["content"]["items"][0]["category"]["id"]
         filter.PROMO_LISTING = 27
         products = await Api.Catalog.feed(filter=filter)
         prod = products.json()
 
         # Выводим первый товар
-        pprint(products.request)
-        pprint(prod)
         print(f'Первый товар: {prod["content"]["items"][0]["title"]} ({prod["content"]["items"][0]["id"]})')
 
 # Запуск асинхронной функции main

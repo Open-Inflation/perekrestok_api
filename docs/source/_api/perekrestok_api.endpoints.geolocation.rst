@@ -15,7 +15,7 @@
    .. autosummary::
    
       ClassGeolocation
+      FetchResponse
       GeolocationSelection
-      Response
       ShopService
    

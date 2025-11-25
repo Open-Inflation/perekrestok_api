@@ -23,7 +23,9 @@ async def is_not_error(response: Any) -> None:
     if status >= 400:
         url = getattr(response, "url", "?")
         txt = getattr(response, "text", "")[:500]
-        raise AssertionError(f"HTTP {status} at {url.full_url}\n{txt}\n{response.request}")
+        raise AssertionError(
+            f"HTTP {status} at {url.full_url}\n{txt}\n{response.request}"
+        )
 
     try:
         content = response.json()

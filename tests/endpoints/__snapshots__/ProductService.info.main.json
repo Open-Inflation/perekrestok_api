@@ -455,7 +455,7 @@
     "liked": false,
     "isReviewAvailable": false,
     "productReview": null,
-    "ratingCount": 883,
+    "ratingCount": 886,
     "reviewCount": 70,
     "ratingCountAlias": "Более 100 оценок",
     "borderStyle": null,
@@ -465,9 +465,9 @@
     "labelStock": null,
     "labels": [],
     "bestProductReview": {
-      "id": 45281668,
+      "id": 45231610,
       "rating": 500,
-      "comment": "очень вкусные. но почему то больше нет в продаже",
+      "comment": "дети любят",
       "username": "",
       "notes": [
         {
@@ -475,7 +475,7 @@
           "value": "Вкус"
         }
       ],
-      "createdAt": 1732817238238,
+      "createdAt": 1732730270747,
       "points": 0,
       "approvedImages": [],
       "reaction": {
@@ -572,7 +572,7 @@
     ],
     "video": [],
     "availableAdditionalOption": null,
-    "balanceStock": 107000,
+    "balanceStock": 105000,
     "priceTag": {
       "price": 999,
       "discountMinimumAmount": 0,
