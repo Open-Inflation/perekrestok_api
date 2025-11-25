@@ -61,13 +61,13 @@ async def test_category_reviews(api, schemashot, first_category_id):
 
 async def test_form_for_category(api, schemashot, first_category_id):
     flt = abstraction.CatalogFeedFilter()
-    flt.SUB_CATEGORY_ID = first_category_id
+    flt.CATEGORY_ID = first_category_id
     await make_test(schemashot, partial(api.Catalog.form, filter=flt))
 
 
 async def test_feed_for_category(api, schemashot, first_category_id):
     flt = abstraction.CatalogFeedFilter()
-    flt.SUB_CATEGORY_ID = first_category_id
+    flt.CATEGORY_ID = first_category_id
     await make_test(
         schemashot,
         partial(
@@ -78,16 +78,30 @@ async def test_feed_for_category(api, schemashot, first_category_id):
         ),
     )
 
-# TODO grouped_feed
+async def test_grouped_feed_for_category(api, schemashot, first_subcategory_id):
+    flt = abstraction.CatalogFeedFilter()
+    flt.CATEGORY_ID = first_subcategory_id
+    await make_test(
+        schemashot,
+        partial(
+            api.Catalog.grouped_feed,
+            filter=flt,
+            sort=abstraction.CatalogFeedSort.Price.ASC,
+            limit=DEFAULT_LIMIT,
+        ),
+    )
 
-# TODO search
+async def test_search(api, schemashot):
+    await make_test(
+        schemashot, partial(api.Catalog.search, "молоко")
+    )
 
 
 @pytest.fixture()
 async def product_ids(api, schemashot, first_category_id):
     """Берём первый товар из фида категории."""
     flt = abstraction.CatalogFeedFilter()
-    flt.SUB_CATEGORY_ID = first_category_id
+    flt.CATEGORY_ID = first_category_id
     resp = await make_test(
         schemashot,
         partial(

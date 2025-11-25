@@ -1,7 +1,7 @@
 """Работа с каталогом"""
 
-from typing import TYPE_CHECKING
-
+from typing import TYPE_CHECKING, Literal
+from urllib.parse import quote
 from human_requests.abstraction import FetchResponse, HttpMethod
 
 from .. import abstraction
@@ -77,6 +77,8 @@ class ClassCatalog:
             with_best_reviews_only: bool = False
         ):
         """ОСНОВНОЙ способ получения товаров по подкатегориям все разом.
+
+        Принимает ИСКЛЮЧИТЕЛЬНО ПОДКАТЕГОРИИ!
         
         Выдает фиды товаров полностью, при этом уже разбитыми по подкатегориям"""
         url = f"{self._parent.CATALOG_URL}/catalog/product/grouped-feed"
@@ -120,9 +122,15 @@ class ClassCatalog:
         url = f"{self._parent.CATALOG_URL}/catalog/category/{category_id}/full"
         return await self._parent._request(HttpMethod.GET, url)
     
-    # TODO search
-    # https://www.perekrestok.ru/api/customer/1.4.1.0/catalog/search/all?textQuery=%D1%81%D1%83%D1%85%D0%B0%D1%80%D0%B8%D0%BA%D0%B8&entityTypes[]=product&entityTypes[]=category
-    # GET
+    async def search(self,
+                     query: str,
+                     entity_types: list[Literal["product", "category"]] = ["product", "category"]) -> FetchResponse:
+        """Поиск по товарам/категориям (в entity_types указывай где искать)"""
+        real_query = quote(query)
+        url = f"{self._parent.CATALOG_URL}/catalog/search/all?textQuery={real_query}"
+        if len(entity_types) > 0:
+            url += f"&{'&'.join([f'entityTypes[]={entity}' for entity in entity_types])}"
+        return await self._parent._request(HttpMethod.GET, url)
 
 
 

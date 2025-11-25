@@ -162,20 +162,15 @@ class PerekrestokAPI:
             json_body: Тело запроса в формате JSON (опционально)
         """
         # Единая точка входа в чужую библиотеку для удобства
-        body = json_body
-        if json_body:
-            body = json.dumps(body)
-
         resp: FetchResponse = await self.page.fetch(
             url=url,
             method=method,
-            body=body,
+            body=json_body,
             mode="cors",
             credentials="include" if credentials else "omit",
             timeout_ms=self.timeout_ms,
             referrer=self.MAIN_SITE_URL,
-            headers={"Accept": "application/json, text/plain, */*",
-                     "Content-Type": "application/json"}
+            headers={"Accept": "application/json, text/plain, */*"}
             | (self.unstandard_headers if add_unstandard_headers else {}),
         )
 
