@@ -28,17 +28,18 @@ classifiers = [
     "Topic :: Utilities",
 ]
 dependencies = [
-    "hrequests[all]",
-    "requests",
+    "camoufox",
+    "human_requests",
+    "aiohttp",
+    "aiohttp-retry"
 ]
 
 [project.optional-dependencies]
 tests = [
     "pytest",
-    "pytest-asyncio",
+    "pytest-anyio",
     "pytest-jsonschema-snapshot",
     "jsoncrack-for-sphinx",
-    "furo"
 ]
 
 [project.urls]

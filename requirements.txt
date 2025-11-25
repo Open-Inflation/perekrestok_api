@@ -1,5 +1,9 @@
-hrequests[all]
-requests
+camoufox
+human_requests
+aiohttp
+aiohttp-retry
 
 pytest
+pytest-anyio
 pytest-jsonschema-snapshot
+pillow
