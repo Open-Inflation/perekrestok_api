@@ -21,7 +21,7 @@ concurrency:
 
 jobs:
   tests:
-    runs-on: ubuntu-latest
+    runs-on: [self-hosted, scrapper]  # или просто "scrapper" если это label
 
     steps:
       - name: Check out repository
