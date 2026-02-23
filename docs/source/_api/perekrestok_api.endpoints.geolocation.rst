@@ -8,12 +8,17 @@
 
    .. autosummary::
    
+      api_child_field
+      autotest
+      dataclass
       quote
    
    .. rubric:: Classes
 
    .. autosummary::
    
+      ApiChild
+      ApiParent
       ClassGeolocation
       FetchResponse
       GeolocationSelection

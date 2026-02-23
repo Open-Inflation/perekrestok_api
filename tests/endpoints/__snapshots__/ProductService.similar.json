@@ -1,0 +1,1957 @@
+{
+  "content": {
+    "analyticsInfo": [
+      {
+        "name": "cardRecommendationModel",
+        "type": "text",
+        "value": "similar"
+      }
+    ],
+    "items": [
+      {
+        "liked": false,
+        "recSysRecommendationRequestId": null,
+        "borderStyle": null,
+        "bestReview": null,
+        "advToken": null,
+        "id": 7760,
+        "masterData": {
+          "slug": "paket-art-dizajn-podarocnyj-st-premium-v-assortimente",
+          "plu": "3498315",
+          "unit": 1,
+          "unitName": "шт",
+          "quantum": 1000,
+          "quantumStep": 1000,
+          "weight": 50,
+          "volume": null,
+          "ui4code": "NF1401001",
+          "taxGroup": "HB",
+          "ownProduction": false,
+          "privateLabel": false,
+          "isMark": false,
+          "alcoSetUnits": null,
+          "activeNds": 22
+        },
+        "title": "Пакет Арт Дизайн подарочный ST премиум в ассортименте",
+        "primaryCategory": {
+          "id": 456,
+          "title": "Сезонные товары",
+          "slug": "sezonnye-tovary",
+          "isAlcohol": false,
+          "isTobacco": false,
+          "isExciseAlcohol": false,
+          "isAdultContent": false,
+          "displayStyle": 2,
+          "catalogs": [
+            2,
+            3,
+            4
+          ]
+        },
+        "catalogPrimaryCategory": {
+          "id": 42,
+          "title": "Всё для праздника",
+          "slug": "vse-dla-prazdnika",
+          "isAlcohol": false,
+          "isTobacco": false,
+          "isExciseAlcohol": false,
+          "isAdultContent": false,
+          "displayStyle": 2,
+          "catalogs": [
+            1
+          ]
+        },
+        "image": {
+          "id": 2789234,
+          "originName": "remote_upl_6927867b99b100.53073610",
+          "fileType": "image",
+          "fileSize": 39851,
+          "width": 800,
+          "height": 800,
+          "cropUrlTemplate": "https://tsx.x5static.net/i/%s/xdelivery/files/94/bd/589654e031da13ac2399036881f9.jpg",
+          "publicUrl": null,
+          "uuid": "b30d891f-097c-45d2-bdf9-f67762738063"
+        },
+        "rating": 493,
+        "medianPrice": 18499,
+        "labelCharacteristics": [],
+        "labels": [],
+        "reviewCount": 21,
+        "ratingCount": 901,
+        "priceTag": {
+          "price": 18499,
+          "discountMinimumAmount": 0,
+          "grossPrice": null,
+          "labels": [],
+          "pricePerQuantum": null,
+          "grossPricePerQuantum": null,
+          "potentialPointsForOrangeCard": null
+        },
+        "balanceState": "many"
+      },
+      {
+        "liked": false,
+        "recSysRecommendationRequestId": null,
+        "borderStyle": null,
+        "bestReview": null,
+        "advToken": null,
+        "id": 7782,
+        "masterData": {
+          "slug": "paket-art-i-dizajn-va-premium-36h32sm",
+          "plu": "3504398",
+          "unit": 1,
+          "unitName": "шт",
+          "quantum": 1000,
+          "quantumStep": 1000,
+          "weight": 70,
+          "volume": null,
+          "ui4code": "NF1401001",
+          "taxGroup": "HB",
+          "ownProduction": false,
+          "privateLabel": false,
+          "isMark": false,
+          "alcoSetUnits": null,
+          "activeNds": 22
+        },
+        "title": "Пакет Арт и Дизайн ВА премиум, 36х32см",
+        "primaryCategory": {
+          "id": 456,
+          "title": "Сезонные товары",
+          "slug": "sezonnye-tovary",
+          "isAlcohol": false,
+          "isTobacco": false,
+          "isExciseAlcohol": false,
+          "isAdultContent": false,
+          "displayStyle": 2,
+          "catalogs": [
+            2,
+            3,
+            4
+          ]
+        },
+        "catalogPrimaryCategory": {
+          "id": 42,
+          "title": "Всё для праздника",
+          "slug": "vse-dla-prazdnika",
+          "isAlcohol": false,
+          "isTobacco": false,
+          "isExciseAlcohol": false,
+          "isAdultContent": false,
+          "displayStyle": 2,
+          "catalogs": [
+            1
+          ]
+        },
+        "image": {
+          "id": 2789113,
+          "originName": "remote_upl_69278676b29508.23763132",
+          "fileType": "image",
+          "fileSize": 110625,
+          "width": 800,
+          "height": 800,
+          "cropUrlTemplate": "https://tsx.x5static.net/i/%s/xdelivery/files/27/6f/96e69cdd289282c53f601c598a2f.jpg",
+          "publicUrl": null,
+          "uuid": "a87dbeaf-8ed2-404b-9aeb-696a0b00fa03"
+        },
+        "rating": 491,
+        "medianPrice": 29999,
+        "labelCharacteristics": [],
+        "labels": [],
+        "reviewCount": 13,
+        "ratingCount": 523,
+        "priceTag": {
+          "price": 29999,
+          "discountMinimumAmount": 0,
+          "grossPrice": null,
+          "labels": [],
+          "pricePerQuantum": null,
+          "grossPricePerQuantum": null,
+          "potentialPointsForOrangeCard": null
+        },
+        "balanceState": "many"
+      },
+      {
+        "liked": false,
+        "recSysRecommendationRequestId": null,
+        "borderStyle": null,
+        "bestReview": null,
+        "advToken": null,
+        "id": 7786,
+        "masterData": {
+          "slug": "paket-art-i-dizajn-av-premium-26h32sm-v-assortimente",
+          "plu": "3504397",
+          "unit": 1,
+          "unitName": "шт",
+          "quantum": 1000,
+          "quantumStep": 1000,
+          "weight": 70,
+          "volume": null,
+          "ui4code": "NF1401001",
+          "taxGroup": "HB",
+          "ownProduction": false,
+          "privateLabel": false,
+          "isMark": false,
+          "alcoSetUnits": null,
+          "activeNds": 22
+        },
+        "title": "Пакет Арт и Дизайн АВ премиум 26х32см в ассортименте",
+        "primaryCategory": {
+          "id": 456,
+          "title": "Сезонные товары",
+          "slug": "sezonnye-tovary",
+          "isAlcohol": false,
+          "isTobacco": false,
+          "isExciseAlcohol": false,
+          "isAdultContent": false,
+          "displayStyle": 2,
+          "catalogs": [
+            2,
+            3,
+            4
+          ]
+        },
+        "catalogPrimaryCategory": {
+          "id": 42,
+          "title": "Всё для праздника",
+          "slug": "vse-dla-prazdnika",
+          "isAlcohol": false,
+          "isTobacco": false,
+          "isExciseAlcohol": false,
+          "isAdultContent": false,
+          "displayStyle": 2,
+          "catalogs": [
+            1
+          ]
+        },
+        "image": {
+          "id": 2772446,
+          "originName": "remote_upl_69251bc66dda69.24436799",
+          "fileType": "image",
+          "fileSize": 74742,
+          "width": 800,
+          "height": 800,
+          "cropUrlTemplate": "https://tsx.x5static.net/i/%s/xdelivery/files/34/86/d59905291c0f6xd9a889aabf9ec1.jpg",
+          "publicUrl": null,
+          "uuid": "6727b762-4993-468b-954a-70a217873b9b"
+        },
+        "rating": 493,
+        "medianPrice": 26999,
+        "labelCharacteristics": [],
+        "labels": [],
+        "reviewCount": 21,
+        "ratingCount": 866,
+        "priceTag": {
+          "price": 26999,
+          "discountMinimumAmount": 0,
+          "grossPrice": null,
+          "labels": [],
+          "pricePerQuantum": null,
+          "grossPricePerQuantum": null,
+          "potentialPointsForOrangeCard": null
+        },
+        "balanceState": "many"
+      },
+      {
+        "liked": false,
+        "recSysRecommendationRequestId": null,
+        "borderStyle": null,
+        "bestReview": null,
+        "advToken": null,
+        "id": 7791,
+        "masterData": {
+          "slug": "paket-art-i-dizajn-bc-premium-v-assortimente-17-8h23sm",
+          "plu": "3504396",
+          "unit": 1,
+          "unitName": "шт",
+          "quantum": 1000,
+          "quantumStep": 1000,
+          "weight": 50,
+          "volume": null,
+          "ui4code": "NF1401001",
+          "taxGroup": "HB",
+          "ownProduction": false,
+          "privateLabel": false,
+          "isMark": false,
+          "alcoSetUnits": null,
+          "activeNds": 22
+        },
+        "title": "Пакет Арт и Дизайн BC премиум в ассортименте, 17.8х23см",
+        "primaryCategory": {
+          "id": 456,
+          "title": "Сезонные товары",
+          "slug": "sezonnye-tovary",
+          "isAlcohol": false,
+          "isTobacco": false,
+          "isExciseAlcohol": false,
+          "isAdultContent": false,
+          "displayStyle": 2,
+          "catalogs": [
+            2,
+            3,
+            4
+          ]
+        },
+        "catalogPrimaryCategory": {
+          "id": 42,
+          "title": "Всё для праздника",
+          "slug": "vse-dla-prazdnika",
+          "isAlcohol": false,
+          "isTobacco": false,
+          "isExciseAlcohol": false,
+          "isAdultContent": false,
+          "displayStyle": 2,
+          "catalogs": [
+            1
+          ]
+        },
+        "image": {
+          "id": 2872160,
+          "originName": "remote_upl_692888c50da2e4.40002825",
+          "fileType": "image",
+          "fileSize": 73162,
+          "width": 800,
+          "height": 800,
+          "cropUrlTemplate": "https://tsx.x5static.net/i/%s/xdelivery/files/18/35/3729ae14945b37d3393143e5935c.jpg",
+          "publicUrl": null,
+          "uuid": "40d5dd13-d931-439b-aa26-d6c77623a3da"
+        },
+        "rating": 493,
+        "medianPrice": 16499,
+        "labelCharacteristics": [],
+        "labels": [],
+        "reviewCount": 28,
+        "ratingCount": 846,
+        "priceTag": {
+          "price": 14999,
+          "discountMinimumAmount": 0,
+          "grossPrice": null,
+          "labels": [],
+          "pricePerQuantum": null,
+          "grossPricePerQuantum": null,
+          "potentialPointsForOrangeCard": null
+        },
+        "balanceState": "many"
+      },
+      {
+        "liked": false,
+        "recSysRecommendationRequestId": null,
+        "borderStyle": null,
+        "bestReview": null,
+        "advToken": null,
+        "id": 5255,
+        "masterData": {
+          "slug": "sumka-art-i-dizajn-podarocnaa-vs-5-2h24h20sm",
+          "plu": "2051848",
+          "unit": 1,
+          "unitName": "шт",
+          "quantum": 1000,
+          "quantumStep": 1000,
+          "weight": 90,
+          "volume": null,
+          "ui4code": "NF1401001",
+          "taxGroup": "HB",
+          "ownProduction": false,
+          "privateLabel": false,
+          "isMark": false,
+          "alcoSetUnits": null,
+          "activeNds": 22
+        },
+        "title": "Сумка Арт и Дизайн подарочная ВС, 5.2х24х20см",
+        "primaryCategory": {
+          "id": 456,
+          "title": "Сезонные товары",
+          "slug": "sezonnye-tovary",
+          "isAlcohol": false,
+          "isTobacco": false,
+          "isExciseAlcohol": false,
+          "isAdultContent": false,
+          "displayStyle": 2,
+          "catalogs": [
+            2,
+            3,
+            4
+          ]
+        },
+        "catalogPrimaryCategory": {
+          "id": 42,
+          "title": "Всё для праздника",
+          "slug": "vse-dla-prazdnika",
+          "isAlcohol": false,
+          "isTobacco": false,
+          "isExciseAlcohol": false,
+          "isAdultContent": false,
+          "displayStyle": 2,
+          "catalogs": [
+            1
+          ]
+        },
+        "image": {
+          "id": 2772364,
+          "originName": "remote_upl_69251bc1f0e724.86749482",
+          "fileType": "image",
+          "fileSize": 73994,
+          "width": 800,
+          "height": 800,
+          "cropUrlTemplate": "https://tsx.x5static.net/i/%s/xdelivery/files/75/c5/e506c7b192abf4374540bfd31ea7.jpg",
+          "publicUrl": null,
+          "uuid": "a4d459a1-063a-40e6-b14e-d60fda7c059f"
+        },
+        "rating": 495,
+        "medianPrice": 8999,
+        "labelCharacteristics": [],
+        "labels": [],
+        "reviewCount": 71,
+        "ratingCount": 3248,
+        "priceTag": {
+          "price": 8999,
+          "discountMinimumAmount": 0,
+          "grossPrice": null,
+          "labels": [],
+          "pricePerQuantum": null,
+          "grossPricePerQuantum": null,
+          "potentialPointsForOrangeCard": null
+        },
+        "balanceState": "many"
+      },
+      {
+        "liked": false,
+        "recSysRecommendationRequestId": null,
+        "borderStyle": null,
+        "bestReview": null,
+        "advToken": null,
+        "id": 5257,
+        "masterData": {
+          "slug": "sumka-art-i-dizajn-podarocnaa-av-11-5h36h26sm",
+          "plu": "2051847",
+          "unit": 1,
+          "unitName": "шт",
+          "quantum": 1000,
+          "quantumStep": 1000,
+          "weight": 90,
+          "volume": null,
+          "ui4code": "NF1401001",
+          "taxGroup": "HB",
+          "ownProduction": false,
+          "privateLabel": false,
+          "isMark": false,
+          "alcoSetUnits": null,
+          "activeNds": 22
+        },
+        "title": "Сумка Арт и Дизайн подарочная АВ, 11.5х36х26см",
+        "primaryCategory": {
+          "id": 456,
+          "title": "Сезонные товары",
+          "slug": "sezonnye-tovary",
+          "isAlcohol": false,
+          "isTobacco": false,
+          "isExciseAlcohol": false,
+          "isAdultContent": false,
+          "displayStyle": 2,
+          "catalogs": [
+            2,
+            3,
+            4
+          ]
+        },
+        "catalogPrimaryCategory": {
+          "id": 42,
+          "title": "Всё для праздника",
+          "slug": "vse-dla-prazdnika",
+          "isAlcohol": false,
+          "isTobacco": false,
+          "isExciseAlcohol": false,
+          "isAdultContent": false,
+          "displayStyle": 2,
+          "catalogs": [
+            1
+          ]
+        },
+        "image": {
+          "id": 2732810,
+          "originName": "remote_upl_69126e78e5fb61.30818346",
+          "fileType": "image",
+          "fileSize": 103669,
+          "width": 800,
+          "height": 800,
+          "cropUrlTemplate": "https://tsx.x5static.net/i/%s/xdelivery/files/bd/df/b037417b1b72244d2a0355429143.jpg",
+          "publicUrl": null,
+          "uuid": "3fb8fa6a-a9e5-41ce-b7e2-b4de1c9e120b"
+        },
+        "rating": 493,
+        "medianPrice": 16499,
+        "labelCharacteristics": [],
+        "labels": [],
+        "reviewCount": 67,
+        "ratingCount": 2902,
+        "priceTag": {
+          "price": 16499,
+          "discountMinimumAmount": 0,
+          "grossPrice": null,
+          "labels": [],
+          "pricePerQuantum": null,
+          "grossPricePerQuantum": null,
+          "potentialPointsForOrangeCard": null
+        },
+        "balanceState": "many"
+      },
+      {
+        "liked": false,
+        "recSysRecommendationRequestId": null,
+        "borderStyle": null,
+        "bestReview": null,
+        "advToken": null,
+        "id": 5429,
+        "masterData": {
+          "slug": "sumka-podarocnaa-art-i-dizajn-st",
+          "plu": "2145696",
+          "unit": 1,
+          "unitName": "шт",
+          "quantum": 1000,
+          "quantumStep": 1000,
+          "weight": 90,
+          "volume": null,
+          "ui4code": "NF1401001",
+          "taxGroup": "HB",
+          "ownProduction": false,
+          "privateLabel": false,
+          "isMark": false,
+          "alcoSetUnits": null,
+          "activeNds": 22
+        },
+        "title": "Сумка подарочная Арт и Дизайн ST",
+        "primaryCategory": {
+          "id": 456,
+          "title": "Сезонные товары",
+          "slug": "sezonnye-tovary",
+          "isAlcohol": false,
+          "isTobacco": false,
+          "isExciseAlcohol": false,
+          "isAdultContent": false,
+          "displayStyle": 2,
+          "catalogs": [
+            2,
+            3,
+            4
+          ]
+        },
+        "catalogPrimaryCategory": {
+          "id": 42,
+          "title": "Всё для праздника",
+          "slug": "vse-dla-prazdnika",
+          "isAlcohol": false,
+          "isTobacco": false,
+          "isExciseAlcohol": false,
+          "isAdultContent": false,
+          "displayStyle": 2,
+          "catalogs": [
+            1
+          ]
+        },
+        "image": {
+          "id": 2805852,
+          "originName": "remote_upl_6927a2ff73e462.79932429",
+          "fileType": "image",
+          "fileSize": 33248,
+          "width": 800,
+          "height": 800,
+          "cropUrlTemplate": "https://tsx.x5static.net/i/%s/xdelivery/files/0d/c9/f03249b736a59aa95181371a6401.jpg",
+          "publicUrl": null,
+          "uuid": "5d630bb1-058a-482c-9821-c28b5d9d9b39"
+        },
+        "rating": 491,
+        "medianPrice": 10999,
+        "labelCharacteristics": [],
+        "labels": [],
+        "reviewCount": 15,
+        "ratingCount": 314,
+        "priceTag": {
+          "price": 11499,
+          "discountMinimumAmount": 0,
+          "grossPrice": null,
+          "labels": [],
+          "pricePerQuantum": null,
+          "grossPricePerQuantum": null,
+          "potentialPointsForOrangeCard": null
+        },
+        "balanceState": "many"
+      },
+      {
+        "liked": false,
+        "recSysRecommendationRequestId": null,
+        "borderStyle": null,
+        "bestReview": null,
+        "advToken": null,
+        "id": 5432,
+        "masterData": {
+          "slug": "sumka-art-i-dizajn-podarocnaa-aa-10h45-5h33sm",
+          "plu": "2103433",
+          "unit": 1,
+          "unitName": "шт",
+          "quantum": 1000,
+          "quantumStep": 1000,
+          "weight": 90,
+          "volume": null,
+          "ui4code": "NF1401001",
+          "taxGroup": "HB",
+          "ownProduction": false,
+          "privateLabel": false,
+          "isMark": false,
+          "alcoSetUnits": null,
+          "activeNds": 22
+        },
+        "title": "Сумка Арт и Дизайн подарочная АА, 10х45.5х33см",
+        "primaryCategory": {
+          "id": 456,
+          "title": "Сезонные товары",
+          "slug": "sezonnye-tovary",
+          "isAlcohol": false,
+          "isTobacco": false,
+          "isExciseAlcohol": false,
+          "isAdultContent": false,
+          "displayStyle": 2,
+          "catalogs": [
+            2,
+            3,
+            4
+          ]
+        },
+        "catalogPrimaryCategory": {
+          "id": 42,
+          "title": "Всё для праздника",
+          "slug": "vse-dla-prazdnika",
+          "isAlcohol": false,
+          "isTobacco": false,
+          "isExciseAlcohol": false,
+          "isAdultContent": false,
+          "displayStyle": 2,
+          "catalogs": [
+            1
+          ]
+        },
+        "image": {
+          "id": 2752011,
+          "originName": "remote_upl_691bc51c47fcb5.79202752",
+          "fileType": "image",
+          "fileSize": 59697,
+          "width": 800,
+          "height": 800,
+          "cropUrlTemplate": "https://tsx.x5static.net/i/%s/xdelivery/files/3e/f3/c81be0c24bdf209419d6d7fb4796.jpg",
+          "publicUrl": null,
+          "uuid": "67927a61-aa3b-4aab-b59c-88825bdbcc6f"
+        },
+        "rating": 493,
+        "medianPrice": 17999,
+        "labelCharacteristics": [],
+        "labels": [],
+        "reviewCount": 40,
+        "ratingCount": 1732,
+        "priceTag": {
+          "price": 17999,
+          "discountMinimumAmount": 0,
+          "grossPrice": null,
+          "labels": [],
+          "pricePerQuantum": null,
+          "grossPricePerQuantum": null,
+          "potentialPointsForOrangeCard": null
+        },
+        "balanceState": "many"
+      },
+      {
+        "liked": false,
+        "recSysRecommendationRequestId": null,
+        "borderStyle": null,
+        "bestReview": null,
+        "advToken": null,
+        "id": 7616,
+        "masterData": {
+          "slug": "sumka-art-i-dizajn-langre-plastikovaa",
+          "plu": "3004805",
+          "unit": 1,
+          "unitName": "шт",
+          "quantum": 1000,
+          "quantumStep": 1000,
+          "weight": 810,
+          "volume": null,
+          "ui4code": "NF1401001",
+          "taxGroup": "HB",
+          "ownProduction": false,
+          "privateLabel": false,
+          "isMark": false,
+          "alcoSetUnits": null,
+          "activeNds": 22
+        },
+        "title": "Сумка Арт и Дизайн Langre пластиковая",
+        "primaryCategory": {
+          "id": 456,
+          "title": "Сезонные товары",
+          "slug": "sezonnye-tovary",
+          "isAlcohol": false,
+          "isTobacco": false,
+          "isExciseAlcohol": false,
+          "isAdultContent": false,
+          "displayStyle": 2,
+          "catalogs": [
+            2,
+            3,
+            4
+          ]
+        },
+        "catalogPrimaryCategory": {
+          "id": 42,
+          "title": "Всё для праздника",
+          "slug": "vse-dla-prazdnika",
+          "isAlcohol": false,
+          "isTobacco": false,
+          "isExciseAlcohol": false,
+          "isAdultContent": false,
+          "displayStyle": 2,
+          "catalogs": [
+            1
+          ]
+        },
+        "image": {
+          "id": 2743947,
+          "originName": "remote_upl_6917b47ac80566.31070265",
+          "fileType": "image",
+          "fileSize": 113298,
+          "width": 800,
+          "height": 800,
+          "cropUrlTemplate": "https://tsx.x5static.net/i/%s/xdelivery/files/05/e4/77eeab7d45104d3a86e6c999fd2d.jpg",
+          "publicUrl": null,
+          "uuid": "481ec27c-bb12-4da4-844c-5e3fff6fb7e6"
+        },
+        "rating": 497,
+        "medianPrice": 17999,
+        "labelCharacteristics": [],
+        "labels": [],
+        "reviewCount": 24,
+        "ratingCount": 970,
+        "priceTag": {
+          "price": 17999,
+          "discountMinimumAmount": 0,
+          "grossPrice": null,
+          "labels": [],
+          "pricePerQuantum": null,
+          "grossPricePerQuantum": null,
+          "potentialPointsForOrangeCard": null
+        },
+        "balanceState": "many"
+      },
+      {
+        "liked": false,
+        "recSysRecommendationRequestId": null,
+        "borderStyle": null,
+        "bestReview": null,
+        "advToken": null,
+        "id": 7617,
+        "masterData": {
+          "slug": "sumka-art-i-dizajn-exlarge-plastikovaa",
+          "plu": "3004806",
+          "unit": 1,
+          "unitName": "шт",
+          "quantum": 1000,
+          "quantumStep": 1000,
+          "weight": 185,
+          "volume": null,
+          "ui4code": "NF1401001",
+          "taxGroup": "HB",
+          "ownProduction": false,
+          "privateLabel": false,
+          "isMark": false,
+          "alcoSetUnits": null,
+          "activeNds": 22
+        },
+        "title": "Сумка Арт и Дизайн Exlarge пластиковая",
+        "primaryCategory": {
+          "id": 456,
+          "title": "Сезонные товары",
+          "slug": "sezonnye-tovary",
+          "isAlcohol": false,
+          "isTobacco": false,
+          "isExciseAlcohol": false,
+          "isAdultContent": false,
+          "displayStyle": 2,
+          "catalogs": [
+            2,
+            3,
+            4
+          ]
+        },
+        "catalogPrimaryCategory": {
+          "id": 42,
+          "title": "Всё для праздника",
+          "slug": "vse-dla-prazdnika",
+          "isAlcohol": false,
+          "isTobacco": false,
+          "isExciseAlcohol": false,
+          "isAdultContent": false,
+          "displayStyle": 2,
+          "catalogs": [
+            1
+          ]
+        },
+        "image": {
+          "id": 2743941,
+          "originName": "remote_upl_6917b47a410604.55672566",
+          "fileType": "image",
+          "fileSize": 101513,
+          "width": 800,
+          "height": 800,
+          "cropUrlTemplate": "https://tsx.x5static.net/i/%s/xdelivery/files/4e/70/6736ca3f3f4a6f2f0b23abcc3e62.jpg",
+          "publicUrl": null,
+          "uuid": "b38784c6-ee68-45f8-9a17-51ac7336b0db"
+        },
+        "rating": 495,
+        "medianPrice": 19999,
+        "labelCharacteristics": [],
+        "labels": [],
+        "reviewCount": 14,
+        "ratingCount": 312,
+        "priceTag": {
+          "price": 19999,
+          "discountMinimumAmount": 0,
+          "grossPrice": null,
+          "labels": [],
+          "pricePerQuantum": null,
+          "grossPricePerQuantum": null,
+          "potentialPointsForOrangeCard": null
+        },
+        "balanceState": "many"
+      },
+      {
+        "liked": false,
+        "recSysRecommendationRequestId": null,
+        "borderStyle": null,
+        "bestReview": null,
+        "advToken": null,
+        "id": 7618,
+        "masterData": {
+          "slug": "paket-art-i-dizajn-medium-plastikovyj",
+          "plu": "3500097",
+          "unit": 1,
+          "unitName": "шт",
+          "quantum": 1000,
+          "quantumStep": 1000,
+          "weight": 25,
+          "volume": null,
+          "ui4code": "NF1401001",
+          "taxGroup": "HB",
+          "ownProduction": false,
+          "privateLabel": false,
+          "isMark": false,
+          "alcoSetUnits": null,
+          "activeNds": 22
+        },
+        "title": "Пакет Арт и Дизайн Medium пластиковый",
+        "primaryCategory": {
+          "id": 456,
+          "title": "Сезонные товары",
+          "slug": "sezonnye-tovary",
+          "isAlcohol": false,
+          "isTobacco": false,
+          "isExciseAlcohol": false,
+          "isAdultContent": false,
+          "displayStyle": 2,
+          "catalogs": [
+            2,
+            3,
+            4
+          ]
+        },
+        "catalogPrimaryCategory": {
+          "id": 42,
+          "title": "Всё для праздника",
+          "slug": "vse-dla-prazdnika",
+          "isAlcohol": false,
+          "isTobacco": false,
+          "isExciseAlcohol": false,
+          "isAdultContent": false,
+          "displayStyle": 2,
+          "catalogs": [
+            1
+          ]
+        },
+        "image": {
+          "id": 2754102,
+          "originName": "remote_upl_691be143e4b670.84161897",
+          "fileType": "image",
+          "fileSize": 111316,
+          "width": 800,
+          "height": 800,
+          "cropUrlTemplate": "https://tsx.x5static.net/i/%s/xdelivery/files/b5/98/ddd03741c18dfdaec854c3d1f5d1.jpg",
+          "publicUrl": null,
+          "uuid": "0ecdd799-b906-4d1c-ac96-1433d2b82b21"
+        },
+        "rating": 497,
+        "medianPrice": 14999,
+        "labelCharacteristics": [],
+        "labels": [],
+        "reviewCount": 9,
+        "ratingCount": 463,
+        "priceTag": {
+          "price": 14999,
+          "discountMinimumAmount": 0,
+          "grossPrice": null,
+          "labels": [],
+          "pricePerQuantum": null,
+          "grossPricePerQuantum": null,
+          "potentialPointsForOrangeCard": null
+        },
+        "balanceState": "many"
+      },
+      {
+        "liked": false,
+        "recSysRecommendationRequestId": null,
+        "borderStyle": null,
+        "bestReview": null,
+        "advToken": null,
+        "id": 17179,
+        "masterData": {
+          "slug": "upakovocnaa-bumaga-art-i-dizajn-v-assortimente-1st",
+          "plu": "3382023",
+          "unit": 1,
+          "unitName": "шт",
+          "quantum": 1000,
+          "quantumStep": 1000,
+          "weight": 310,
+          "volume": null,
+          "ui4code": "NF1401001",
+          "taxGroup": "HB",
+          "ownProduction": false,
+          "privateLabel": false,
+          "isMark": false,
+          "alcoSetUnits": null,
+          "activeNds": 22
+        },
+        "title": "Упаковочная бумага Арт и Дизайн в ассортименте, 1шт",
+        "primaryCategory": {
+          "id": 456,
+          "title": "Сезонные товары",
+          "slug": "sezonnye-tovary",
+          "isAlcohol": false,
+          "isTobacco": false,
+          "isExciseAlcohol": false,
+          "isAdultContent": false,
+          "displayStyle": 2,
+          "catalogs": [
+            2,
+            3,
+            4
+          ]
+        },
+        "catalogPrimaryCategory": {
+          "id": 36,
+          "title": "Всё для хранения",
+          "slug": "vse-dla-hranenia",
+          "isAlcohol": false,
+          "isTobacco": false,
+          "isExciseAlcohol": false,
+          "isAdultContent": false,
+          "displayStyle": 2,
+          "catalogs": [
+            1
+          ]
+        },
+        "image": {
+          "id": 2642866,
+          "originName": "remote_upl_68f0277caceb26.94774023",
+          "fileType": "image",
+          "fileSize": 151536,
+          "width": 800,
+          "height": 533,
+          "cropUrlTemplate": "https://tsx.x5static.net/i/%s/xdelivery/files/87/74/33d5b9138cb6c6d78ca8a03f9f4c.jpg",
+          "publicUrl": null,
+          "uuid": "6689429c-e8c2-4ba1-a2bd-dc09bbe359ed"
+        },
+        "rating": 492,
+        "medianPrice": 11999,
+        "labelCharacteristics": [],
+        "labels": [],
+        "reviewCount": 91,
+        "ratingCount": 2540,
+        "priceTag": {
+          "price": 11999,
+          "discountMinimumAmount": 0,
+          "grossPrice": null,
+          "labels": [],
+          "pricePerQuantum": null,
+          "grossPricePerQuantum": null,
+          "potentialPointsForOrangeCard": null
+        },
+        "balanceState": "many"
+      },
+      {
+        "liked": false,
+        "recSysRecommendationRequestId": null,
+        "borderStyle": null,
+        "bestReview": null,
+        "advToken": null,
+        "id": 18769,
+        "masterData": {
+          "slug": "paket-podarocnyj-art-i-dizajn-vs-20h24h10-2sm",
+          "plu": "3689204",
+          "unit": 1,
+          "unitName": "шт",
+          "quantum": 1000,
+          "quantumStep": 1000,
+          "weight": 35,
+          "volume": null,
+          "ui4code": "NF1401001",
+          "taxGroup": "HB",
+          "ownProduction": false,
+          "privateLabel": false,
+          "isMark": false,
+          "alcoSetUnits": null,
+          "activeNds": 22
+        },
+        "title": "Пакет подарочный Арт и Дизайн ВС, 20х24х10.2см",
+        "primaryCategory": {
+          "id": 456,
+          "title": "Сезонные товары",
+          "slug": "sezonnye-tovary",
+          "isAlcohol": false,
+          "isTobacco": false,
+          "isExciseAlcohol": false,
+          "isAdultContent": false,
+          "displayStyle": 2,
+          "catalogs": [
+            2,
+            3,
+            4
+          ]
+        },
+        "catalogPrimaryCategory": {
+          "id": 1709,
+          "title": "Подарки",
+          "slug": "podarki",
+          "isAlcohol": false,
+          "isTobacco": false,
+          "isExciseAlcohol": false,
+          "isAdultContent": false,
+          "displayStyle": 2,
+          "catalogs": [
+            1
+          ]
+        },
+        "image": {
+          "id": 2846714,
+          "originName": "remote_upl_692885c5665219.49589828",
+          "fileType": "image",
+          "fileSize": 63248,
+          "width": 800,
+          "height": 800,
+          "cropUrlTemplate": "https://tsx.x5static.net/i/%s/xdelivery/files/a3/5f/4b6e90e852c5660201c8cca6606d.jpg",
+          "publicUrl": null,
+          "uuid": "2cfe5a49-b799-4930-84ce-44fe94475bb4"
+        },
+        "rating": 489,
+        "medianPrice": 11499,
+        "labelCharacteristics": [],
+        "labels": [],
+        "reviewCount": 4,
+        "ratingCount": 142,
+        "priceTag": {
+          "price": 11499,
+          "discountMinimumAmount": 0,
+          "grossPrice": null,
+          "labels": [],
+          "pricePerQuantum": null,
+          "grossPricePerQuantum": null,
+          "potentialPointsForOrangeCard": null
+        },
+        "balanceState": "many"
+      },
+      {
+        "liked": false,
+        "recSysRecommendationRequestId": null,
+        "borderStyle": null,
+        "bestReview": null,
+        "advToken": null,
+        "id": 18779,
+        "masterData": {
+          "slug": "sumka-podarocnaa-art-i-dizajn-av-26h36sm",
+          "plu": "3689205",
+          "unit": 1,
+          "unitName": "шт",
+          "quantum": 1000,
+          "quantumStep": 1000,
+          "weight": 55,
+          "volume": null,
+          "ui4code": "NF1401001",
+          "taxGroup": "HB",
+          "ownProduction": false,
+          "privateLabel": false,
+          "isMark": false,
+          "alcoSetUnits": null,
+          "activeNds": 22
+        },
+        "title": "Сумка подарочная Арт и Дизайн АВ, 26х36см",
+        "primaryCategory": {
+          "id": 456,
+          "title": "Сезонные товары",
+          "slug": "sezonnye-tovary",
+          "isAlcohol": false,
+          "isTobacco": false,
+          "isExciseAlcohol": false,
+          "isAdultContent": false,
+          "displayStyle": 2,
+          "catalogs": [
+            2,
+            3,
+            4
+          ]
+        },
+        "catalogPrimaryCategory": {
+          "id": 42,
+          "title": "Всё для праздника",
+          "slug": "vse-dla-prazdnika",
+          "isAlcohol": false,
+          "isTobacco": false,
+          "isExciseAlcohol": false,
+          "isAdultContent": false,
+          "displayStyle": 2,
+          "catalogs": [
+            1
+          ]
+        },
+        "image": {
+          "id": 2849618,
+          "originName": "remote_upl_692885e3e9bc55.88119500",
+          "fileType": "image",
+          "fileSize": 64023,
+          "width": 800,
+          "height": 800,
+          "cropUrlTemplate": "https://tsx.x5static.net/i/%s/xdelivery/files/24/d1/98c972460247bb2f1713f5cbd0f1.jpg",
+          "publicUrl": null,
+          "uuid": "a1c8fd56-eddf-4f92-93b8-824b0175aac7"
+        },
+        "rating": 492,
+        "medianPrice": 16999,
+        "labelCharacteristics": [],
+        "labels": [],
+        "reviewCount": 18,
+        "ratingCount": 386,
+        "priceTag": {
+          "price": 16999,
+          "discountMinimumAmount": 0,
+          "grossPrice": null,
+          "labels": [],
+          "pricePerQuantum": null,
+          "grossPricePerQuantum": null,
+          "potentialPointsForOrangeCard": null
+        },
+        "balanceState": "many"
+      },
+      {
+        "liked": false,
+        "recSysRecommendationRequestId": null,
+        "borderStyle": null,
+        "bestReview": null,
+        "advToken": null,
+        "id": 23667,
+        "masterData": {
+          "slug": "paket-podarocnyj-art-i-dizajn-standart-plus-ab",
+          "plu": "3921949",
+          "unit": 1,
+          "unitName": "шт",
+          "quantum": 1000,
+          "quantumStep": 1000,
+          "weight": 60,
+          "volume": null,
+          "ui4code": "NF1401001",
+          "taxGroup": "HB",
+          "ownProduction": false,
+          "privateLabel": false,
+          "isMark": false,
+          "alcoSetUnits": null,
+          "activeNds": 22
+        },
+        "title": "Пакет подарочный Арт и Дизайн стандарт плюс AB",
+        "primaryCategory": {
+          "id": 456,
+          "title": "Сезонные товары",
+          "slug": "sezonnye-tovary",
+          "isAlcohol": false,
+          "isTobacco": false,
+          "isExciseAlcohol": false,
+          "isAdultContent": false,
+          "displayStyle": 2,
+          "catalogs": [
+            2,
+            3,
+            4
+          ]
+        },
+        "catalogPrimaryCategory": {
+          "id": 1709,
+          "title": "Подарки",
+          "slug": "podarki",
+          "isAlcohol": false,
+          "isTobacco": false,
+          "isExciseAlcohol": false,
+          "isAdultContent": false,
+          "displayStyle": 2,
+          "catalogs": [
+            1
+          ]
+        },
+        "image": {
+          "id": 2879390,
+          "originName": "remote_upl_6928a0788e3cf2.59264986",
+          "fileType": "image",
+          "fileSize": 88566,
+          "width": 800,
+          "height": 800,
+          "cropUrlTemplate": "https://tsx.x5static.net/i/%s/xdelivery/files/a8/23/4bf6d6c80731397c1a400c4bc34a.jpg",
+          "publicUrl": null,
+          "uuid": "ed373aa8-ec23-4663-ae34-ca654f4061b9"
+        },
+        "rating": 493,
+        "medianPrice": 19499,
+        "labelCharacteristics": [],
+        "labels": [],
+        "reviewCount": 21,
+        "ratingCount": 989,
+        "priceTag": {
+          "price": 17899,
+          "discountMinimumAmount": 0,
+          "grossPrice": null,
+          "labels": [],
+          "pricePerQuantum": null,
+          "grossPricePerQuantum": null,
+          "potentialPointsForOrangeCard": null
+        },
+        "balanceState": "many"
+      },
+      {
+        "liked": false,
+        "recSysRecommendationRequestId": null,
+        "borderStyle": null,
+        "bestReview": null,
+        "advToken": null,
+        "id": 23668,
+        "masterData": {
+          "slug": "paket-podarocnyj-art-i-dizajn-standart-plus-bb",
+          "plu": "3921951",
+          "unit": 1,
+          "unitName": "шт",
+          "quantum": 1000,
+          "quantumStep": 1000,
+          "weight": 40,
+          "volume": null,
+          "ui4code": "NF1401001",
+          "taxGroup": "HB",
+          "ownProduction": false,
+          "privateLabel": false,
+          "isMark": false,
+          "alcoSetUnits": null,
+          "activeNds": 22
+        },
+        "title": "Пакет подарочный Арт и Дизайн стандарт плюс BB",
+        "primaryCategory": {
+          "id": 456,
+          "title": "Сезонные товары",
+          "slug": "sezonnye-tovary",
+          "isAlcohol": false,
+          "isTobacco": false,
+          "isExciseAlcohol": false,
+          "isAdultContent": false,
+          "displayStyle": 2,
+          "catalogs": [
+            2,
+            3,
+            4
+          ]
+        },
+        "catalogPrimaryCategory": {
+          "id": 1709,
+          "title": "Подарки",
+          "slug": "podarki",
+          "isAlcohol": false,
+          "isTobacco": false,
+          "isExciseAlcohol": false,
+          "isAdultContent": false,
+          "displayStyle": 2,
+          "catalogs": [
+            1
+          ]
+        },
+        "image": {
+          "id": 2883252,
+          "originName": "remote_upl_6928a0b923e913.17536784",
+          "fileType": "image",
+          "fileSize": 112751,
+          "width": 800,
+          "height": 800,
+          "cropUrlTemplate": "https://tsx.x5static.net/i/%s/xdelivery/files/d8/31/915c74ea78aba543a8a2aab927e4.jpg",
+          "publicUrl": null,
+          "uuid": "826ef2b8-316c-4237-aecb-8d87a2984d61"
+        },
+        "rating": 497,
+        "medianPrice": 18199,
+        "labelCharacteristics": [],
+        "labels": [],
+        "reviewCount": 17,
+        "ratingCount": 574,
+        "priceTag": {
+          "price": 19799,
+          "discountMinimumAmount": 0,
+          "grossPrice": null,
+          "labels": [],
+          "pricePerQuantum": null,
+          "grossPricePerQuantum": null,
+          "potentialPointsForOrangeCard": null
+        },
+        "balanceState": "many"
+      },
+      {
+        "liked": false,
+        "recSysRecommendationRequestId": null,
+        "borderStyle": null,
+        "bestReview": null,
+        "advToken": null,
+        "id": 23671,
+        "masterData": {
+          "slug": "paket-podarocnyj-art-i-dizajn-standart-plus-bc-v-assortimente-18h22-3sm",
+          "plu": "3921952",
+          "unit": 1,
+          "unitName": "шт",
+          "quantum": 1000,
+          "quantumStep": 1000,
+          "weight": 29,
+          "volume": null,
+          "ui4code": "NF1401001",
+          "taxGroup": "HB",
+          "ownProduction": false,
+          "privateLabel": false,
+          "isMark": false,
+          "alcoSetUnits": null,
+          "activeNds": 22
+        },
+        "title": "Пакет подарочный Арт и Дизайн стандарт плюс BC в ассортименте 18х22.3см",
+        "primaryCategory": {
+          "id": 456,
+          "title": "Сезонные товары",
+          "slug": "sezonnye-tovary",
+          "isAlcohol": false,
+          "isTobacco": false,
+          "isExciseAlcohol": false,
+          "isAdultContent": false,
+          "displayStyle": 2,
+          "catalogs": [
+            2,
+            3,
+            4
+          ]
+        },
+        "catalogPrimaryCategory": {
+          "id": 1709,
+          "title": "Подарки",
+          "slug": "podarki",
+          "isAlcohol": false,
+          "isTobacco": false,
+          "isExciseAlcohol": false,
+          "isAdultContent": false,
+          "displayStyle": 2,
+          "catalogs": [
+            1
+          ]
+        },
+        "image": {
+          "id": 2833941,
+          "originName": "remote_upl_692884754d4d22.31007765",
+          "fileType": "image",
+          "fileSize": 63839,
+          "width": 800,
+          "height": 800,
+          "cropUrlTemplate": "https://tsx.x5static.net/i/%s/xdelivery/files/33/4b/383d395bc7a9c1bed1657878d71b.jpg",
+          "publicUrl": null,
+          "uuid": "5bdd2a15-5c2a-49f4-b0bb-f696edefda6c"
+        },
+        "rating": 494,
+        "medianPrice": 10999,
+        "labelCharacteristics": [],
+        "labels": [],
+        "reviewCount": 57,
+        "ratingCount": 1291,
+        "priceTag": {
+          "price": 10999,
+          "discountMinimumAmount": 0,
+          "grossPrice": null,
+          "labels": [],
+          "pricePerQuantum": null,
+          "grossPricePerQuantum": null,
+          "potentialPointsForOrangeCard": null
+        },
+        "balanceState": "many"
+      },
+      {
+        "liked": false,
+        "recSysRecommendationRequestId": null,
+        "borderStyle": null,
+        "bestReview": null,
+        "advToken": null,
+        "id": 24523,
+        "masterData": {
+          "slug": "paket-podarocnyj-art-i-dizajn-av",
+          "plu": "3689200",
+          "unit": 1,
+          "unitName": "шт",
+          "quantum": 1000,
+          "quantumStep": 1000,
+          "weight": 55,
+          "volume": null,
+          "ui4code": "NF1401001",
+          "taxGroup": "HB",
+          "ownProduction": false,
+          "privateLabel": false,
+          "isMark": false,
+          "alcoSetUnits": null,
+          "activeNds": 22
+        },
+        "title": "Пакет подарочный Арт и Дизайн АВ",
+        "primaryCategory": {
+          "id": 456,
+          "title": "Сезонные товары",
+          "slug": "sezonnye-tovary",
+          "isAlcohol": false,
+          "isTobacco": false,
+          "isExciseAlcohol": false,
+          "isAdultContent": false,
+          "displayStyle": 2,
+          "catalogs": [
+            2,
+            3,
+            4
+          ]
+        },
+        "catalogPrimaryCategory": {
+          "id": 1709,
+          "title": "Подарки",
+          "slug": "podarki",
+          "isAlcohol": false,
+          "isTobacco": false,
+          "isExciseAlcohol": false,
+          "isAdultContent": false,
+          "displayStyle": 2,
+          "catalogs": [
+            1
+          ]
+        },
+        "image": {
+          "id": 2889021,
+          "originName": "remote_upl_6928a111973563.68756314",
+          "fileType": "image",
+          "fileSize": 105845,
+          "width": 800,
+          "height": 800,
+          "cropUrlTemplate": "https://tsx.x5static.net/i/%s/xdelivery/files/5d/df/dxd7823af8f37ba8eb77fdb6225d.jpg",
+          "publicUrl": null,
+          "uuid": "16776f0c-f3ed-4609-9664-cb81a206c38e"
+        },
+        "rating": 496,
+        "medianPrice": 11499,
+        "labelCharacteristics": [],
+        "labels": [],
+        "reviewCount": 30,
+        "ratingCount": 1294,
+        "priceTag": {
+          "price": 11499,
+          "discountMinimumAmount": 0,
+          "grossPrice": null,
+          "labels": [],
+          "pricePerQuantum": null,
+          "grossPricePerQuantum": null,
+          "potentialPointsForOrangeCard": null
+        },
+        "balanceState": "many"
+      },
+      {
+        "liked": false,
+        "recSysRecommendationRequestId": null,
+        "borderStyle": null,
+        "bestReview": null,
+        "advToken": null,
+        "id": 25258,
+        "masterData": {
+          "slug": "paket-art-dizajn-podarocnyj-standart-plus",
+          "plu": "3999816",
+          "unit": 1,
+          "unitName": "шт",
+          "quantum": 1000,
+          "quantumStep": 1000,
+          "weight": 60,
+          "volume": null,
+          "ui4code": "NF1401001",
+          "taxGroup": "HB",
+          "ownProduction": false,
+          "privateLabel": false,
+          "isMark": false,
+          "alcoSetUnits": null,
+          "activeNds": 22
+        },
+        "title": "Пакет Арт Дизайн подарочный стандарт плюс",
+        "primaryCategory": {
+          "id": 456,
+          "title": "Сезонные товары",
+          "slug": "sezonnye-tovary",
+          "isAlcohol": false,
+          "isTobacco": false,
+          "isExciseAlcohol": false,
+          "isAdultContent": false,
+          "displayStyle": 2,
+          "catalogs": [
+            2,
+            3,
+            4
+          ]
+        },
+        "catalogPrimaryCategory": {
+          "id": 1709,
+          "title": "Подарки",
+          "slug": "podarki",
+          "isAlcohol": false,
+          "isTobacco": false,
+          "isExciseAlcohol": false,
+          "isAdultContent": false,
+          "displayStyle": 2,
+          "catalogs": [
+            1
+          ]
+        },
+        "image": {
+          "id": 2819525,
+          "originName": "remote_upl_6927a398ca08c5.10723152",
+          "fileType": "image",
+          "fileSize": 131566,
+          "width": 800,
+          "height": 800,
+          "cropUrlTemplate": "https://tsx.x5static.net/i/%s/xdelivery/files/ac/2e/c6a2427ec39b861cd15a85a74af9.jpg",
+          "publicUrl": null,
+          "uuid": "851e4d4f-461d-4115-856e-6da2d86af19e"
+        },
+        "rating": 496,
+        "medianPrice": 17999,
+        "labelCharacteristics": [],
+        "labels": [],
+        "reviewCount": 20,
+        "ratingCount": 993,
+        "priceTag": {
+          "price": 17999,
+          "discountMinimumAmount": 0,
+          "grossPrice": null,
+          "labels": [],
+          "pricePerQuantum": null,
+          "grossPricePerQuantum": null,
+          "potentialPointsForOrangeCard": null
+        },
+        "balanceState": "many"
+      },
+      {
+        "liked": false,
+        "recSysRecommendationRequestId": null,
+        "borderStyle": null,
+        "bestReview": null,
+        "advToken": null,
+        "id": 26554,
+        "masterData": {
+          "slug": "paket-podarocnyj-art-i-dizajn-premium-av",
+          "plu": "3689203",
+          "unit": 1,
+          "unitName": "шт",
+          "quantum": 1000,
+          "quantumStep": 1000,
+          "weight": 75,
+          "volume": null,
+          "ui4code": "NF1401001",
+          "taxGroup": "HB",
+          "ownProduction": false,
+          "privateLabel": false,
+          "isMark": false,
+          "alcoSetUnits": null,
+          "activeNds": 22
+        },
+        "title": "Пакет подарочный Арт и Дизайн Премиум АВ",
+        "primaryCategory": {
+          "id": 456,
+          "title": "Сезонные товары",
+          "slug": "sezonnye-tovary",
+          "isAlcohol": false,
+          "isTobacco": false,
+          "isExciseAlcohol": false,
+          "isAdultContent": false,
+          "displayStyle": 2,
+          "catalogs": [
+            2,
+            3,
+            4
+          ]
+        },
+        "catalogPrimaryCategory": {
+          "id": 1709,
+          "title": "Подарки",
+          "slug": "podarki",
+          "isAlcohol": false,
+          "isTobacco": false,
+          "isExciseAlcohol": false,
+          "isAdultContent": false,
+          "displayStyle": 2,
+          "catalogs": [
+            1
+          ]
+        },
+        "image": {
+          "id": 2863561,
+          "originName": "remote_upl_692886ad0a6df8.93345009",
+          "fileType": "image",
+          "fileSize": 47684,
+          "width": 800,
+          "height": 800,
+          "cropUrlTemplate": "https://tsx.x5static.net/i/%s/xdelivery/files/52/79/934bc03fbbf30f0a5ec1b46548c5.jpg",
+          "publicUrl": null,
+          "uuid": "ec3a5149-d818-4a19-aee5-2d29ad5ab93a"
+        },
+        "rating": 494,
+        "medianPrice": 23999,
+        "labelCharacteristics": [],
+        "labels": [],
+        "reviewCount": 18,
+        "ratingCount": 585,
+        "priceTag": {
+          "price": 23999,
+          "discountMinimumAmount": 0,
+          "grossPrice": null,
+          "labels": [],
+          "pricePerQuantum": null,
+          "grossPricePerQuantum": null,
+          "potentialPointsForOrangeCard": null
+        },
+        "balanceState": "many"
+      },
+      {
+        "liked": false,
+        "recSysRecommendationRequestId": null,
+        "borderStyle": null,
+        "bestReview": null,
+        "advToken": null,
+        "id": 26810,
+        "masterData": {
+          "slug": "paket-podarocnyj-art-i-dizajn-vs-v-assortimente",
+          "plu": "3689159",
+          "unit": 1,
+          "unitName": "шт",
+          "quantum": 1000,
+          "quantumStep": 1000,
+          "weight": 35,
+          "volume": null,
+          "ui4code": "NF1401001",
+          "taxGroup": "HB",
+          "ownProduction": false,
+          "privateLabel": false,
+          "isMark": false,
+          "alcoSetUnits": null,
+          "activeNds": 22
+        },
+        "title": "Пакет подарочный Арт и Дизайн ВС в ассортименте",
+        "primaryCategory": {
+          "id": 456,
+          "title": "Сезонные товары",
+          "slug": "sezonnye-tovary",
+          "isAlcohol": false,
+          "isTobacco": false,
+          "isExciseAlcohol": false,
+          "isAdultContent": false,
+          "displayStyle": 2,
+          "catalogs": [
+            2,
+            3,
+            4
+          ]
+        },
+        "catalogPrimaryCategory": {
+          "id": 1709,
+          "title": "Подарки",
+          "slug": "podarki",
+          "isAlcohol": false,
+          "isTobacco": false,
+          "isExciseAlcohol": false,
+          "isAdultContent": false,
+          "displayStyle": 2,
+          "catalogs": [
+            1
+          ]
+        },
+        "image": {
+          "id": 2875805,
+          "originName": "remote_upl_6928a043964b68.59417875",
+          "fileType": "image",
+          "fileSize": 103558,
+          "width": 800,
+          "height": 800,
+          "cropUrlTemplate": "https://tsx.x5static.net/i/%s/xdelivery/files/07/e7/9f3ffe40ecd09399c672ac67a616.jpg",
+          "publicUrl": null,
+          "uuid": "0e91eab3-0edd-4b1e-81af-334994eefc2a"
+        },
+        "rating": 495,
+        "medianPrice": 8999,
+        "labelCharacteristics": [],
+        "labels": [],
+        "reviewCount": 73,
+        "ratingCount": 1465,
+        "priceTag": {
+          "price": 8999,
+          "discountMinimumAmount": 0,
+          "grossPrice": null,
+          "labels": [],
+          "pricePerQuantum": null,
+          "grossPricePerQuantum": null,
+          "potentialPointsForOrangeCard": null
+        },
+        "balanceState": "many"
+      },
+      {
+        "liked": false,
+        "recSysRecommendationRequestId": null,
+        "borderStyle": null,
+        "bestReview": null,
+        "advToken": null,
+        "id": 27054,
+        "masterData": {
+          "slug": "paket-podarocnyj-art-i-dizajn-av-36h26h11-5sm-v-assortimente",
+          "plu": "3693108",
+          "unit": 1,
+          "unitName": "шт",
+          "quantum": 1000,
+          "quantumStep": 1000,
+          "weight": 60,
+          "volume": null,
+          "ui4code": "NF1401001",
+          "taxGroup": "HB",
+          "ownProduction": false,
+          "privateLabel": false,
+          "isMark": false,
+          "alcoSetUnits": null,
+          "activeNds": 22
+        },
+        "title": "Пакет подарочный Арт и Дизайн АВ, 36х26х11.5см в ассортименте",
+        "primaryCategory": {
+          "id": 456,
+          "title": "Сезонные товары",
+          "slug": "sezonnye-tovary",
+          "isAlcohol": false,
+          "isTobacco": false,
+          "isExciseAlcohol": false,
+          "isAdultContent": false,
+          "displayStyle": 2,
+          "catalogs": [
+            2,
+            3,
+            4
+          ]
+        },
+        "catalogPrimaryCategory": {
+          "id": 1709,
+          "title": "Подарки",
+          "slug": "podarki",
+          "isAlcohol": false,
+          "isTobacco": false,
+          "isExciseAlcohol": false,
+          "isAdultContent": false,
+          "displayStyle": 2,
+          "catalogs": [
+            1
+          ]
+        },
+        "image": {
+          "id": 2903057,
+          "originName": "remote_upl_6928d822cf6bd6.08341958",
+          "fileType": "image",
+          "fileSize": 66546,
+          "width": 800,
+          "height": 800,
+          "cropUrlTemplate": "https://tsx.x5static.net/i/%s/xdelivery/files/04/0d/739d748c7d9521255bf2854342be.jpg",
+          "publicUrl": null,
+          "uuid": "60852e3f-c3ed-4299-97e6-76e6ce6b65fb"
+        },
+        "rating": 493,
+        "medianPrice": 15999,
+        "labelCharacteristics": [],
+        "labels": [],
+        "reviewCount": 29,
+        "ratingCount": 642,
+        "priceTag": {
+          "price": 15999,
+          "discountMinimumAmount": 0,
+          "grossPrice": null,
+          "labels": [],
+          "pricePerQuantum": null,
+          "grossPricePerQuantum": null,
+          "potentialPointsForOrangeCard": null
+        },
+        "balanceState": "many"
+      },
+      {
+        "liked": false,
+        "recSysRecommendationRequestId": null,
+        "borderStyle": null,
+        "bestReview": null,
+        "advToken": null,
+        "id": 27057,
+        "masterData": {
+          "slug": "paket-podarocnyj-art-i-dizajn-standart-plus-v-assortimente-80h3",
+          "plu": "3999817",
+          "unit": 1,
+          "unitName": "шт",
+          "quantum": 1000,
+          "quantumStep": 1000,
+          "weight": 38,
+          "volume": null,
+          "ui4code": "NF1401001",
+          "taxGroup": "HB",
+          "ownProduction": false,
+          "privateLabel": false,
+          "isMark": false,
+          "alcoSetUnits": null,
+          "activeNds": 22
+        },
+        "title": "Пакет подарочный Арт и Дизайн Стандарт плюс в ассортименте, 80х3",
+        "primaryCategory": {
+          "id": 456,
+          "title": "Сезонные товары",
+          "slug": "sezonnye-tovary",
+          "isAlcohol": false,
+          "isTobacco": false,
+          "isExciseAlcohol": false,
+          "isAdultContent": false,
+          "displayStyle": 2,
+          "catalogs": [
+            2,
+            3,
+            4
+          ]
+        },
+        "catalogPrimaryCategory": {
+          "id": 1709,
+          "title": "Подарки",
+          "slug": "podarki",
+          "isAlcohol": false,
+          "isTobacco": false,
+          "isExciseAlcohol": false,
+          "isAdultContent": false,
+          "displayStyle": 2,
+          "catalogs": [
+            1
+          ]
+        },
+        "image": {
+          "id": 2789445,
+          "originName": "remote_upl_6927867d6340c2.77387233",
+          "fileType": "image",
+          "fileSize": 94650,
+          "width": 800,
+          "height": 800,
+          "cropUrlTemplate": "https://tsx.x5static.net/i/%s/xdelivery/files/9b/c7/14147787a87eb6dd0339377d2e18.jpg",
+          "publicUrl": null,
+          "uuid": "31e29aa9-64fd-4f35-a99b-51c5b5743966"
+        },
+        "rating": 494,
+        "medianPrice": 9999,
+        "labelCharacteristics": [],
+        "labels": [],
+        "reviewCount": 32,
+        "ratingCount": 878,
+        "priceTag": {
+          "price": 9999,
+          "discountMinimumAmount": 0,
+          "grossPrice": null,
+          "labels": [],
+          "pricePerQuantum": null,
+          "grossPricePerQuantum": null,
+          "potentialPointsForOrangeCard": null
+        },
+        "balanceState": "many"
+      },
+      {
+        "liked": false,
+        "recSysRecommendationRequestId": null,
+        "borderStyle": null,
+        "bestReview": null,
+        "advToken": null,
+        "id": 28186,
+        "masterData": {
+          "slug": "paket-podarocnyj-art-i-dizajn-vs-v-assortimente-18h22h10-2sm",
+          "plu": "3693109",
+          "unit": 1,
+          "unitName": "шт",
+          "quantum": 1000,
+          "quantumStep": 1000,
+          "weight": 60,
+          "volume": null,
+          "ui4code": "NF1401001",
+          "taxGroup": "HB",
+          "ownProduction": false,
+          "privateLabel": false,
+          "isMark": false,
+          "alcoSetUnits": null,
+          "activeNds": 22
+        },
+        "title": "Пакет подарочный Арт и Дизайн ВС в ассортименте, 18х22х10.2см",
+        "primaryCategory": {
+          "id": 456,
+          "title": "Сезонные товары",
+          "slug": "sezonnye-tovary",
+          "isAlcohol": false,
+          "isTobacco": false,
+          "isExciseAlcohol": false,
+          "isAdultContent": false,
+          "displayStyle": 2,
+          "catalogs": [
+            2,
+            3,
+            4
+          ]
+        },
+        "catalogPrimaryCategory": {
+          "id": 1709,
+          "title": "Подарки",
+          "slug": "podarki",
+          "isAlcohol": false,
+          "isTobacco": false,
+          "isExciseAlcohol": false,
+          "isAdultContent": false,
+          "displayStyle": 2,
+          "catalogs": [
+            1
+          ]
+        },
+        "image": {
+          "id": 2883457,
+          "originName": "remote_upl_6928a0b3dc50a4.66933109",
+          "fileType": "image",
+          "fileSize": 55371,
+          "width": 800,
+          "height": 800,
+          "cropUrlTemplate": "https://tsx.x5static.net/i/%s/xdelivery/files/01/7a/3541ae18bb495a1923f777c4b870.jpg",
+          "publicUrl": null,
+          "uuid": "747162a8-f264-4c9e-bf21-2615575942d2"
+        },
+        "rating": 496,
+        "medianPrice": 11499,
+        "labelCharacteristics": [],
+        "labels": [],
+        "reviewCount": 26,
+        "ratingCount": 582,
+        "priceTag": {
+          "price": 11499,
+          "discountMinimumAmount": 0,
+          "grossPrice": null,
+          "labels": [],
+          "pricePerQuantum": null,
+          "grossPricePerQuantum": null,
+          "potentialPointsForOrangeCard": null
+        },
+        "balanceState": "many"
+      }
+    ]
+  }
+}

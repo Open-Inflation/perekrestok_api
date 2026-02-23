@@ -6,6 +6,7 @@ perekrestok_api documentation
    :caption: Basic use
 
    quick_start
+   autotest_testing
 
 .. toctree::
    :maxdepth: 4

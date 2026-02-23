@@ -48,3 +48,5 @@ Quick Start
 
 
 Для более подробной информации смотрите референсы :class:`~perekrestok_api.endpoints.catalog.ClassCatalog`, :class:`~perekrestok_api.endpoints.geolocation.ClassGeolocation`, :class:`~perekrestok_api.endpoints.general.ClassGeneral`, :class:`~perekrestok_api.endpoints.advertising.ClassAdvertising` документации.
+
+По тестовой архитектуре (autotest + snapshots) смотрите :doc:`autotest_testing`.

@@ -4,23 +4,22 @@ from io import BytesIO
 from typing import TYPE_CHECKING
 
 from aiohttp_retry import ExponentialRetry, RetryClient
+from human_requests import autotest
 from human_requests.abstraction import FetchResponse, HttpMethod, Proxy
 
 from .. import abstraction
+from ..api_base import ApiChild
 
 if TYPE_CHECKING:
     from ..manager import PerekrestokAPI
 
 
-class ClassGeneral:
+class ClassGeneral(ApiChild["PerekrestokAPI"]):
     """Общие методы API Перекрёстка.
 
     Включает методы для работы с изображениями, формой обратной связи,
     получения информации о пользователе и других общих функций.
     """
-
-    def __init__(self, parent: "PerekrestokAPI"):
-        self._parent: "PerekrestokAPI" = parent
 
     async def download_image(
         self, url: str, retry_attempts: int = 3, timeout: float = 10
@@ -39,6 +38,7 @@ class ClassGeneral:
                 file.name = url.split("/")[-1]
         return file
 
+    @autotest
     async def qualifier(
         self, selections: list[abstraction.QualifierFeatureKey] | None = None
     ) -> FetchResponse:
@@ -55,16 +55,19 @@ class ClassGeneral:
             HttpMethod.POST, url, json_body={"keys": selections}
         )
 
+    @autotest
     async def feedback_form(self) -> FetchResponse:
         """Получить форму обратной связи."""
         url = f"{self._parent.CATALOG_URL}/feedback/form"
         return await self._parent._request(HttpMethod.GET, url)
 
+    @autotest
     async def delivery_switcher(self) -> FetchResponse:
         """Получить информацию о переключателе доставки."""
         url = f"{self._parent.CATALOG_URL}/delivery/switcher"
         return await self._parent._request(HttpMethod.GET, url)
 
+    @autotest
     async def current_user(self) -> FetchResponse:
         """Получить информацию о текущем пользователе."""
         url = f"{self._parent.CATALOG_URL}/user/current"

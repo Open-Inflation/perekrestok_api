@@ -2,24 +2,24 @@
 
 from typing import TYPE_CHECKING
 
+from human_requests import autotest
 from human_requests.abstraction import FetchResponse, HttpMethod
 
 from .. import abstraction
+from ..api_base import ApiChild
 
 if TYPE_CHECKING:
     from ..manager import PerekrestokAPI
 
 
-class ClassAdvertising:
+class ClassAdvertising(ApiChild["PerekrestokAPI"]):
     """Методы для работы с рекламными материалами Перекрёстка.
 
     Включает получение баннеров, слайдеров, буклетов и другого рекламного контента.
     """
 
-    def __init__(self, parent: "PerekrestokAPI"):
-        self._parent: "PerekrestokAPI" = parent
-
-    async def banner(self, places: list[abstraction.BannerPlace]) -> FetchResponse:
+    @autotest
+    async def banner(self, places: list[str]) -> FetchResponse:
         """Получить баннеры для указанных мест размещения.
 
         Args:
@@ -28,6 +28,7 @@ class ClassAdvertising:
         url = f"{self._parent.CATALOG_URL}/banner?{'&'.join([f'places[]={place}' for place in places])}"
         return await self._parent._request(HttpMethod.GET, url)
 
+    @autotest
     async def main_slider(self, page: int = 1, limit: int = 10) -> FetchResponse:
         """Получить элементы главного слайдера.
 
@@ -38,6 +39,7 @@ class ClassAdvertising:
         url = f"{self._parent.CATALOG_URL}/catalog/product-brand/main-slider?perPage={limit}&page={page}"
         return await self._parent._request(HttpMethod.GET, url)
 
+    @autotest
     async def booklet(self, city: int = 81) -> FetchResponse:
         """Получить список доступных буклетов для города.
 
@@ -47,6 +49,7 @@ class ClassAdvertising:
         url = f"{self._parent.CATALOG_URL}/booklet?city={city}"
         return await self._parent._request(HttpMethod.GET, url)
 
+    @autotest
     async def view_booklet(self, booklet_id: int) -> FetchResponse:
         """Получить содержимое конкретного буклета.
 

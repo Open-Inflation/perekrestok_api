@@ -1,0 +1,4022 @@
+{
+  "content": {
+    "items": [
+      {
+        "liked": false,
+        "recSysRecommendationRequestId": null,
+        "borderStyle": null,
+        "bestReview": null,
+        "advToken": null,
+        "id": 13770,
+        "masterData": {
+          "slug": "sumka-podarocnaa-art-i-dizajn-de-6-3h14-5h11-5sm",
+          "plu": "2103416",
+          "unit": 1,
+          "unitName": "шт",
+          "quantum": 1000,
+          "quantumStep": 1000,
+          "weight": 90,
+          "volume": null,
+          "ui4code": "NF1401001",
+          "taxGroup": "HB",
+          "ownProduction": false,
+          "privateLabel": false,
+          "isMark": false,
+          "alcoSetUnits": null,
+          "activeNds": 22
+        },
+        "title": "Сумка подарочная Арт и Дизайн DE 6.3х14.5х11.5см",
+        "primaryCategory": {
+          "id": 456,
+          "title": "Сезонные товары",
+          "slug": "sezonnye-tovary",
+          "isAlcohol": false,
+          "isTobacco": false,
+          "isExciseAlcohol": false,
+          "isAdultContent": false,
+          "displayStyle": 2,
+          "catalogs": [
+            2,
+            3,
+            4
+          ]
+        },
+        "catalogPrimaryCategory": {
+          "id": 42,
+          "title": "Всё для праздника",
+          "slug": "vse-dla-prazdnika",
+          "isAlcohol": false,
+          "isTobacco": false,
+          "isExciseAlcohol": false,
+          "isAdultContent": false,
+          "displayStyle": 2,
+          "catalogs": [
+            1
+          ]
+        },
+        "image": {
+          "id": 2732791,
+          "originName": "remote_upl_69126e77d4cda2.08719699",
+          "fileType": "image",
+          "fileSize": 51002,
+          "width": 800,
+          "height": 800,
+          "cropUrlTemplate": "https://tsx.x5static.net/i/%s/xdelivery/files/7f/ba/d455ea33a390a70195176xd2c443.jpg",
+          "publicUrl": null,
+          "uuid": "fbb9e66d-b15f-4cb9-bdec-c7978b9d7385"
+        },
+        "rating": 497,
+        "medianPrice": 5199,
+        "labelCharacteristics": [],
+        "labels": [],
+        "reviewCount": 16,
+        "ratingCount": 341,
+        "priceTag": {
+          "price": 5199,
+          "discountMinimumAmount": 0,
+          "grossPrice": null,
+          "labels": [],
+          "pricePerQuantum": null,
+          "grossPricePerQuantum": null,
+          "potentialPointsForOrangeCard": null
+        },
+        "balanceState": "many"
+      },
+      {
+        "liked": false,
+        "recSysRecommendationRequestId": null,
+        "borderStyle": null,
+        "bestReview": null,
+        "advToken": null,
+        "id": 46113,
+        "masterData": {
+          "slug": "voda-pitevaa-senezskaa-negazirovannaa-1-5l",
+          "plu": "37168",
+          "unit": 1,
+          "unitName": "шт",
+          "quantum": 1000,
+          "quantumStep": 1000,
+          "weight": 1500,
+          "volume": 1500,
+          "ui4code": "FD0802002",
+          "taxGroup": "HB",
+          "ownProduction": false,
+          "privateLabel": false,
+          "isMark": true,
+          "alcoSetUnits": null,
+          "activeNds": 22
+        },
+        "title": "Вода питьевая Сенежская негазированная, 1.5л",
+        "primaryCategory": {
+          "id": 424,
+          "title": "Вода",
+          "slug": "voda",
+          "isAlcohol": false,
+          "isTobacco": false,
+          "isExciseAlcohol": false,
+          "isAdultContent": false,
+          "displayStyle": 2,
+          "catalogs": [
+            2,
+            3,
+            4
+          ]
+        },
+        "catalogPrimaryCategory": {
+          "id": 208,
+          "title": "Вода",
+          "slug": "voda",
+          "isAlcohol": false,
+          "isTobacco": false,
+          "isExciseAlcohol": false,
+          "isAdultContent": false,
+          "displayStyle": 2,
+          "catalogs": [
+            1
+          ]
+        },
+        "image": {
+          "id": 2551951,
+          "originName": "remote_upl_68dc611d564547.43392264",
+          "fileType": "image",
+          "fileSize": 24154,
+          "width": 203,
+          "height": 800,
+          "cropUrlTemplate": "https://tsx.x5static.net/i/%s/xdelivery/files/58/e6/e81d4dfb92309194bd3f9b09ce64.jpg",
+          "publicUrl": null,
+          "uuid": "5d018077-0576-446b-9669-88f61a6c001e"
+        },
+        "rating": 492,
+        "medianPrice": 5699,
+        "labelCharacteristics": [],
+        "labels": [],
+        "reviewCount": 627,
+        "ratingCount": 19359,
+        "priceTag": {
+          "price": 5699,
+          "discountMinimumAmount": 6000,
+          "grossPrice": null,
+          "labels": [
+            {
+              "type": "yellow",
+              "text": "-21% от 6 шт."
+            }
+          ],
+          "pricePerQuantum": null,
+          "grossPricePerQuantum": null,
+          "potentialPointsForOrangeCard": null
+        },
+        "balanceState": "many"
+      },
+      {
+        "liked": false,
+        "recSysRecommendationRequestId": null,
+        "borderStyle": null,
+        "bestReview": null,
+        "advToken": null,
+        "id": 46115,
+        "masterData": {
+          "slug": "voda-pitevaa-senezskaa-gazirovannaa-1-5l",
+          "plu": "37169",
+          "unit": 1,
+          "unitName": "шт",
+          "quantum": 1000,
+          "quantumStep": 1000,
+          "weight": 1500,
+          "volume": 1500,
+          "ui4code": "FD0802002",
+          "taxGroup": "HB",
+          "ownProduction": false,
+          "privateLabel": false,
+          "isMark": true,
+          "alcoSetUnits": null,
+          "activeNds": 22
+        },
+        "title": "Вода питьевая Сенежская газированная, 1.5л",
+        "primaryCategory": {
+          "id": 424,
+          "title": "Вода",
+          "slug": "voda",
+          "isAlcohol": false,
+          "isTobacco": false,
+          "isExciseAlcohol": false,
+          "isAdultContent": false,
+          "displayStyle": 2,
+          "catalogs": [
+            2,
+            3,
+            4
+          ]
+        },
+        "catalogPrimaryCategory": {
+          "id": 208,
+          "title": "Вода",
+          "slug": "voda",
+          "isAlcohol": false,
+          "isTobacco": false,
+          "isExciseAlcohol": false,
+          "isAdultContent": false,
+          "displayStyle": 2,
+          "catalogs": [
+            1
+          ]
+        },
+        "image": {
+          "id": 2563912,
+          "originName": "remote_upl_68dc7d1e0b2c08.84572623",
+          "fileType": "image",
+          "fileSize": 25572,
+          "width": 201,
+          "height": 800,
+          "cropUrlTemplate": "https://tsx.x5static.net/i/%s/xdelivery/files/78/c9/9ffd978e67fb6d76b7a7edb009f7.jpg",
+          "publicUrl": null,
+          "uuid": "d59a9097-0936-48b4-ac44-ccbf6f429395"
+        },
+        "rating": 493,
+        "medianPrice": 5699,
+        "labelCharacteristics": [],
+        "labels": [],
+        "reviewCount": 401,
+        "ratingCount": 12379,
+        "priceTag": {
+          "price": 5699,
+          "discountMinimumAmount": 6000,
+          "grossPrice": null,
+          "labels": [
+            {
+              "type": "yellow",
+              "text": "-21% от 6 шт."
+            }
+          ],
+          "pricePerQuantum": null,
+          "grossPricePerQuantum": null,
+          "potentialPointsForOrangeCard": null
+        },
+        "balanceState": "many"
+      },
+      {
+        "liked": false,
+        "recSysRecommendationRequestId": null,
+        "borderStyle": null,
+        "bestReview": null,
+        "advToken": null,
+        "id": 46552,
+        "masterData": {
+          "slug": "voda-siskin-les-pitevaa-negazirovannaa-1l",
+          "plu": "35863",
+          "unit": 1,
+          "unitName": "шт",
+          "quantum": 1000,
+          "quantumStep": 1000,
+          "weight": 1000,
+          "volume": 1000,
+          "ui4code": "FD0802002",
+          "taxGroup": "HB",
+          "ownProduction": false,
+          "privateLabel": false,
+          "isMark": true,
+          "alcoSetUnits": null,
+          "activeNds": 22
+        },
+        "title": "Вода Шишкин лес питьевая негазированная, 1л",
+        "primaryCategory": {
+          "id": 424,
+          "title": "Вода",
+          "slug": "voda",
+          "isAlcohol": false,
+          "isTobacco": false,
+          "isExciseAlcohol": false,
+          "isAdultContent": false,
+          "displayStyle": 2,
+          "catalogs": [
+            2,
+            3,
+            4
+          ]
+        },
+        "catalogPrimaryCategory": {
+          "id": 208,
+          "title": "Вода",
+          "slug": "voda",
+          "isAlcohol": false,
+          "isTobacco": false,
+          "isExciseAlcohol": false,
+          "isAdultContent": false,
+          "displayStyle": 2,
+          "catalogs": [
+            1
+          ]
+        },
+        "image": {
+          "id": 2554314,
+          "originName": "remote_upl_68dc60fc2c1a07.96735971",
+          "fileType": "image",
+          "fileSize": 37730,
+          "width": 800,
+          "height": 800,
+          "cropUrlTemplate": "https://tsx.x5static.net/i/%s/xdelivery/files/68/9e/6f2517d412f74a31bb076f5c7840.jpg",
+          "publicUrl": null,
+          "uuid": "935cece5-91c6-47e8-aea6-29bfa6903fb6"
+        },
+        "rating": 494,
+        "medianPrice": 5999,
+        "labelCharacteristics": [],
+        "labels": [],
+        "reviewCount": 664,
+        "ratingCount": 19211,
+        "priceTag": {
+          "price": 5949,
+          "discountMinimumAmount": 6000,
+          "grossPrice": null,
+          "labels": [
+            {
+              "type": "yellow",
+              "text": "-17% от 6 шт."
+            }
+          ],
+          "pricePerQuantum": null,
+          "grossPricePerQuantum": null,
+          "potentialPointsForOrangeCard": null
+        },
+        "balanceState": "many"
+      },
+      {
+        "liked": false,
+        "recSysRecommendationRequestId": null,
+        "borderStyle": null,
+        "bestReview": null,
+        "advToken": null,
+        "id": 37055,
+        "masterData": {
+          "slug": "cesnok-3st",
+          "plu": "17662",
+          "unit": 1,
+          "unitName": "шт",
+          "quantum": 1000,
+          "quantumStep": 1000,
+          "weight": 50,
+          "volume": null,
+          "ui4code": "FR0906004",
+          "taxGroup": "BB",
+          "ownProduction": false,
+          "privateLabel": false,
+          "isMark": false,
+          "alcoSetUnits": null,
+          "activeNds": 10
+        },
+        "title": "Чеснок, 3шт",
+        "primaryCategory": {
+          "id": 366,
+          "title": "Овощи, зелень, грибы",
+          "slug": "ovosi-zelen-griby",
+          "isAlcohol": false,
+          "isTobacco": false,
+          "isExciseAlcohol": false,
+          "isAdultContent": false,
+          "displayStyle": 2,
+          "catalogs": [
+            2,
+            3
+          ]
+        },
+        "catalogPrimaryCategory": {
+          "id": 1704,
+          "title": "Салатная классика",
+          "slug": "salatnaa-klassika",
+          "isAlcohol": false,
+          "isTobacco": false,
+          "isExciseAlcohol": false,
+          "isAdultContent": false,
+          "displayStyle": 2,
+          "catalogs": [
+            1
+          ]
+        },
+        "image": {
+          "id": 3022140,
+          "originName": "remote_upl_6964f068e19566.23199427",
+          "fileType": "image",
+          "fileSize": 33305,
+          "width": 800,
+          "height": 800,
+          "cropUrlTemplate": "https://tsx.x5static.net/i/%s/xdelivery/files/e4/9b/820ecf27efcbd690783875d0a4f6.jpg",
+          "publicUrl": null,
+          "uuid": "65226651-9d31-47a0-991f-3fbe4816988d"
+        },
+        "rating": 493,
+        "medianPrice": 5999,
+        "labelCharacteristics": [],
+        "labels": [],
+        "reviewCount": 703,
+        "ratingCount": 26690,
+        "priceTag": {
+          "price": 5999,
+          "discountMinimumAmount": 2000,
+          "grossPrice": 6999,
+          "labels": [
+            {
+              "type": "yellow",
+              "text": "-14% от 2 шт."
+            }
+          ],
+          "pricePerQuantum": null,
+          "grossPricePerQuantum": null,
+          "potentialPointsForOrangeCard": null
+        },
+        "balanceState": "many"
+      },
+      {
+        "liked": false,
+        "recSysRecommendationRequestId": null,
+        "borderStyle": null,
+        "bestReview": null,
+        "advToken": null,
+        "id": 53245,
+        "masterData": {
+          "slug": "voda-arhyz-gornaa-prirodnaa-pitevaa-stolovaa-negazirovannaa-1-5l",
+          "plu": "3966336",
+          "unit": 1,
+          "unitName": "шт",
+          "quantum": 1000,
+          "quantumStep": 1000,
+          "weight": 1500,
+          "volume": 1500,
+          "ui4code": "FD0802002",
+          "taxGroup": "BB",
+          "ownProduction": false,
+          "privateLabel": false,
+          "isMark": true,
+          "alcoSetUnits": null,
+          "activeNds": 10
+        },
+        "title": "Вода Архыз Горная природная питьевая столовая негазированная, 1.5л",
+        "primaryCategory": {
+          "id": 424,
+          "title": "Вода",
+          "slug": "voda",
+          "isAlcohol": false,
+          "isTobacco": false,
+          "isExciseAlcohol": false,
+          "isAdultContent": false,
+          "displayStyle": 2,
+          "catalogs": [
+            2,
+            3,
+            4
+          ]
+        },
+        "catalogPrimaryCategory": {
+          "id": 276,
+          "title": "Вода и напитки",
+          "slug": "voda-i-napitki",
+          "isAlcohol": false,
+          "isTobacco": false,
+          "isExciseAlcohol": false,
+          "isAdultContent": false,
+          "displayStyle": 2,
+          "catalogs": [
+            1
+          ]
+        },
+        "image": {
+          "id": 2556550,
+          "originName": "remote_upl_68dc610bb96dc1.44254483",
+          "fileType": "image",
+          "fileSize": 31220,
+          "width": 800,
+          "height": 800,
+          "cropUrlTemplate": "https://tsx.x5static.net/i/%s/xdelivery/files/72/73/77755cb69391fde552a87e9acb11.jpg",
+          "publicUrl": null,
+          "uuid": "b4b019c5-9964-4ebf-a311-7e0610880754"
+        },
+        "rating": 495,
+        "medianPrice": 5999,
+        "labelCharacteristics": [],
+        "labels": [],
+        "reviewCount": 288,
+        "ratingCount": 6994,
+        "priceTag": {
+          "price": 5999,
+          "discountMinimumAmount": 0,
+          "grossPrice": 6399,
+          "labels": [
+            {
+              "type": "yellow",
+              "text": "-6%"
+            }
+          ],
+          "pricePerQuantum": null,
+          "grossPricePerQuantum": null,
+          "potentialPointsForOrangeCard": null
+        },
+        "balanceState": "many"
+      },
+      {
+        "liked": false,
+        "recSysRecommendationRequestId": null,
+        "borderStyle": null,
+        "bestReview": null,
+        "advToken": null,
+        "id": 446488,
+        "masterData": {
+          "slug": "voda-edelvejs-mineralnaa-prirodnaa-lecebno-stolovaa-gazirovannaa-1l",
+          "plu": "4391568",
+          "unit": 1,
+          "unitName": "шт",
+          "quantum": 1000,
+          "quantumStep": 1000,
+          "weight": 1000,
+          "volume": 1000,
+          "ui4code": "FD0802001",
+          "taxGroup": "HB",
+          "ownProduction": false,
+          "privateLabel": false,
+          "isMark": true,
+          "alcoSetUnits": null,
+          "activeNds": 22
+        },
+        "title": "Вода Эдельвейс минеральная природная лечебно-столовая газированная, 1л",
+        "primaryCategory": {
+          "id": 424,
+          "title": "Вода",
+          "slug": "voda",
+          "isAlcohol": false,
+          "isTobacco": false,
+          "isExciseAlcohol": false,
+          "isAdultContent": false,
+          "displayStyle": 2,
+          "catalogs": [
+            2,
+            3,
+            4
+          ]
+        },
+        "catalogPrimaryCategory": {
+          "id": 208,
+          "title": "Вода",
+          "slug": "voda",
+          "isAlcohol": false,
+          "isTobacco": false,
+          "isExciseAlcohol": false,
+          "isAdultContent": false,
+          "displayStyle": 2,
+          "catalogs": [
+            1
+          ]
+        },
+        "image": {
+          "id": 2561421,
+          "originName": "remote_upl_68dc60fc2b2421.46007820",
+          "fileType": "image",
+          "fileSize": 25940,
+          "width": 800,
+          "height": 800,
+          "cropUrlTemplate": "https://tsx.x5static.net/i/%s/xdelivery/files/80/9e/04b60eb68dd1aea460a329ae13e0.jpg",
+          "publicUrl": null,
+          "uuid": "6f6d31ea-9fa7-4b10-95c3-977250345da7"
+        },
+        "rating": 494,
+        "medianPrice": 6999,
+        "labelCharacteristics": [],
+        "labels": [],
+        "reviewCount": 226,
+        "ratingCount": 3170,
+        "priceTag": {
+          "price": 6299,
+          "discountMinimumAmount": 0,
+          "grossPrice": null,
+          "labels": [],
+          "pricePerQuantum": null,
+          "grossPricePerQuantum": null,
+          "potentialPointsForOrangeCard": null
+        },
+        "balanceState": "many"
+      },
+      {
+        "liked": false,
+        "recSysRecommendationRequestId": null,
+        "borderStyle": null,
+        "bestReview": null,
+        "advToken": null,
+        "id": 46103,
+        "masterData": {
+          "slug": "voda-svatoj-istocnik-prirodnaa-pitevaa-gazirovannaa-1-5l",
+          "plu": "20388",
+          "unit": 1,
+          "unitName": "шт",
+          "quantum": 1000,
+          "quantumStep": 1000,
+          "weight": 1500,
+          "volume": 1500,
+          "ui4code": "FD0802002",
+          "taxGroup": "HB",
+          "ownProduction": false,
+          "privateLabel": false,
+          "isMark": true,
+          "alcoSetUnits": null,
+          "activeNds": 22
+        },
+        "title": "Вода Святой источник природная питьевая газированная, 1.5л",
+        "primaryCategory": {
+          "id": 424,
+          "title": "Вода",
+          "slug": "voda",
+          "isAlcohol": false,
+          "isTobacco": false,
+          "isExciseAlcohol": false,
+          "isAdultContent": false,
+          "displayStyle": 2,
+          "catalogs": [
+            2,
+            3,
+            4
+          ]
+        },
+        "catalogPrimaryCategory": {
+          "id": 208,
+          "title": "Вода",
+          "slug": "voda",
+          "isAlcohol": false,
+          "isTobacco": false,
+          "isExciseAlcohol": false,
+          "isAdultContent": false,
+          "displayStyle": 2,
+          "catalogs": [
+            1
+          ]
+        },
+        "image": {
+          "id": 2546663,
+          "originName": "remote_upl_68dc60fc6e2071.30517065",
+          "fileType": "image",
+          "fileSize": 29170,
+          "width": 800,
+          "height": 800,
+          "cropUrlTemplate": "https://tsx.x5static.net/i/%s/xdelivery/files/f8/78/a89bf7b0c8e1c2cf04fd5c0421d9.jpg",
+          "publicUrl": null,
+          "uuid": "b0aa1d65-6218-4a91-bd22-a3f821de90fc"
+        },
+        "rating": 495,
+        "medianPrice": 6699,
+        "labelCharacteristics": [],
+        "labels": [],
+        "reviewCount": 504,
+        "ratingCount": 22279,
+        "priceTag": {
+          "price": 6699,
+          "discountMinimumAmount": 0,
+          "grossPrice": null,
+          "labels": [],
+          "pricePerQuantum": null,
+          "grossPricePerQuantum": null,
+          "potentialPointsForOrangeCard": null
+        },
+        "balanceState": "many"
+      },
+      {
+        "liked": false,
+        "recSysRecommendationRequestId": null,
+        "borderStyle": null,
+        "bestReview": null,
+        "advToken": null,
+        "id": 60941,
+        "masterData": {
+          "slug": "krem-detskij-avanta-s-vitaminami-i-romaskoj-v-futlare-46ml",
+          "plu": "3138354",
+          "unit": 1,
+          "unitName": "шт",
+          "quantum": 1000,
+          "quantumStep": 1000,
+          "weight": 46,
+          "volume": 46,
+          "ui4code": "FD0301005",
+          "taxGroup": "HB",
+          "ownProduction": false,
+          "privateLabel": false,
+          "isMark": true,
+          "alcoSetUnits": null,
+          "activeNds": 22
+        },
+        "title": "Крем детский Аванта с витаминами и ромашкой в футляре, 46мл",
+        "primaryCategory": {
+          "id": 437,
+          "title": "Детская гигиена",
+          "slug": "detskaa-gigiena",
+          "isAlcohol": false,
+          "isTobacco": false,
+          "isExciseAlcohol": false,
+          "isAdultContent": false,
+          "displayStyle": 2,
+          "catalogs": [
+            2,
+            3,
+            4
+          ]
+        },
+        "catalogPrimaryCategory": {
+          "id": 231,
+          "title": "Гигиена и уход",
+          "slug": "gigiena-i-uhod",
+          "isAlcohol": false,
+          "isTobacco": false,
+          "isExciseAlcohol": false,
+          "isAdultContent": false,
+          "displayStyle": 2,
+          "catalogs": [
+            1
+          ]
+        },
+        "image": {
+          "id": 2755268,
+          "originName": "remote_upl_691c35c77ffca4.14589041",
+          "fileType": "image",
+          "fileSize": 97565,
+          "width": 800,
+          "height": 800,
+          "cropUrlTemplate": "https://tsx.x5static.net/i/%s/xdelivery/files/d7/7d/b29c57751be89243473b07bce205.jpg",
+          "publicUrl": null,
+          "uuid": "08d483fa-7d73-4096-a76e-8836afdafa4d"
+        },
+        "rating": 494,
+        "medianPrice": 6799,
+        "labelCharacteristics": [],
+        "labels": [],
+        "reviewCount": 103,
+        "ratingCount": 2225,
+        "priceTag": {
+          "price": 6799,
+          "discountMinimumAmount": 0,
+          "grossPrice": null,
+          "labels": [],
+          "pricePerQuantum": null,
+          "grossPricePerQuantum": null,
+          "potentialPointsForOrangeCard": null
+        },
+        "balanceState": "many"
+      },
+      {
+        "liked": false,
+        "recSysRecommendationRequestId": null,
+        "borderStyle": null,
+        "bestReview": null,
+        "advToken": null,
+        "id": 456394,
+        "masterData": {
+          "slug": "kukis-tri-sokolada-70g",
+          "plu": "78036450",
+          "unit": 1,
+          "unitName": "шт",
+          "quantum": 1000,
+          "quantumStep": 1000,
+          "weight": 70,
+          "volume": null,
+          "ui4code": "FR1608001",
+          "taxGroup": "HB",
+          "ownProduction": true,
+          "privateLabel": false,
+          "isMark": false,
+          "alcoSetUnits": null,
+          "activeNds": 22
+        },
+        "title": "Кукис Три Шоколада, 70г",
+        "primaryCategory": {
+          "id": 377,
+          "title": "Свежая выпечка",
+          "slug": "svezaa-vypecka",
+          "isAlcohol": false,
+          "isTobacco": false,
+          "isExciseAlcohol": false,
+          "isAdultContent": false,
+          "displayStyle": 2,
+          "catalogs": [
+            2,
+            3,
+            4
+          ]
+        },
+        "catalogPrimaryCategory": {
+          "id": 196,
+          "title": "Наша пекарня",
+          "slug": "nasa-pekarna",
+          "isAlcohol": false,
+          "isTobacco": false,
+          "isExciseAlcohol": false,
+          "isAdultContent": false,
+          "displayStyle": 2,
+          "catalogs": [
+            1
+          ]
+        },
+        "image": {
+          "id": 2573494,
+          "originName": "remote_upl_68ddb27acdde16.66592172",
+          "fileType": "image",
+          "fileSize": 78237,
+          "width": 800,
+          "height": 800,
+          "cropUrlTemplate": "https://tsx.x5static.net/i/%s/xdelivery/files/28/9e/7461b4191b481f290870203fa4c7.jpg",
+          "publicUrl": null,
+          "uuid": "ae2176d5-93f8-4ef7-b22d-2779837d8a65"
+        },
+        "rating": 473,
+        "medianPrice": 6999,
+        "labelCharacteristics": [],
+        "labels": [],
+        "reviewCount": 111,
+        "ratingCount": 1005,
+        "priceTag": {
+          "price": 6998,
+          "discountMinimumAmount": 0,
+          "grossPrice": null,
+          "labels": [],
+          "pricePerQuantum": null,
+          "grossPricePerQuantum": null,
+          "potentialPointsForOrangeCard": null
+        },
+        "balanceState": "many"
+      },
+      {
+        "liked": false,
+        "recSysRecommendationRequestId": null,
+        "borderStyle": null,
+        "bestReview": null,
+        "advToken": null,
+        "id": 456395,
+        "masterData": {
+          "slug": "kukis-dvojnoj-sokolad-70g",
+          "plu": "78036451",
+          "unit": 1,
+          "unitName": "шт",
+          "quantum": 1000,
+          "quantumStep": 1000,
+          "weight": 70,
+          "volume": null,
+          "ui4code": "FR1608001",
+          "taxGroup": "HB",
+          "ownProduction": true,
+          "privateLabel": false,
+          "isMark": false,
+          "alcoSetUnits": null,
+          "activeNds": 22
+        },
+        "title": "Кукис Двойной Шоколад, 70г",
+        "primaryCategory": {
+          "id": 377,
+          "title": "Свежая выпечка",
+          "slug": "svezaa-vypecka",
+          "isAlcohol": false,
+          "isTobacco": false,
+          "isExciseAlcohol": false,
+          "isAdultContent": false,
+          "displayStyle": 2,
+          "catalogs": [
+            2,
+            3,
+            4
+          ]
+        },
+        "catalogPrimaryCategory": {
+          "id": 196,
+          "title": "Наша пекарня",
+          "slug": "nasa-pekarna",
+          "isAlcohol": false,
+          "isTobacco": false,
+          "isExciseAlcohol": false,
+          "isAdultContent": false,
+          "displayStyle": 2,
+          "catalogs": [
+            1
+          ]
+        },
+        "image": {
+          "id": 2597175,
+          "originName": "remote_upl_68e4661b4bd8a4.48071365",
+          "fileType": "image",
+          "fileSize": 109340,
+          "width": 800,
+          "height": 800,
+          "cropUrlTemplate": "https://tsx.x5static.net/i/%s/xdelivery/files/c5/59/328454905c269bfca458c885d0dc.jpg",
+          "publicUrl": null,
+          "uuid": "20e7afe2-1053-49b8-9ddd-2bf74e29e6b8"
+        },
+        "rating": 484,
+        "medianPrice": 6999,
+        "labelCharacteristics": [],
+        "labels": [],
+        "reviewCount": 159,
+        "ratingCount": 1328,
+        "priceTag": {
+          "price": 6998,
+          "discountMinimumAmount": 0,
+          "grossPrice": null,
+          "labels": [],
+          "pricePerQuantum": null,
+          "grossPricePerQuantum": null,
+          "potentialPointsForOrangeCard": null
+        },
+        "balanceState": "many"
+      },
+      {
+        "liked": false,
+        "recSysRecommendationRequestId": null,
+        "borderStyle": null,
+        "bestReview": null,
+        "advToken": null,
+        "id": 49712,
+        "masterData": {
+          "slug": "voda-psyz-mineralnaa-pitevaa-lecebno-stolovaa-gazirovannaa-1l",
+          "plu": "3629622",
+          "unit": 1,
+          "unitName": "шт",
+          "quantum": 1000,
+          "quantumStep": 1000,
+          "weight": 1000,
+          "volume": 1000,
+          "ui4code": "FD0802001",
+          "taxGroup": "HB",
+          "ownProduction": false,
+          "privateLabel": false,
+          "isMark": true,
+          "alcoSetUnits": null,
+          "activeNds": 22
+        },
+        "title": "Вода Псыж минеральная питьевая лечебно-столовая газированная, 1л",
+        "primaryCategory": {
+          "id": 424,
+          "title": "Вода",
+          "slug": "voda",
+          "isAlcohol": false,
+          "isTobacco": false,
+          "isExciseAlcohol": false,
+          "isAdultContent": false,
+          "displayStyle": 2,
+          "catalogs": [
+            2,
+            3,
+            4
+          ]
+        },
+        "catalogPrimaryCategory": {
+          "id": 208,
+          "title": "Вода",
+          "slug": "voda",
+          "isAlcohol": false,
+          "isTobacco": false,
+          "isExciseAlcohol": false,
+          "isAdultContent": false,
+          "displayStyle": 2,
+          "catalogs": [
+            1
+          ]
+        },
+        "image": {
+          "id": 2574579,
+          "originName": "remote_upl_68ddce9cbba089.70799459",
+          "fileType": "image",
+          "fileSize": 31288,
+          "width": 800,
+          "height": 800,
+          "cropUrlTemplate": "https://tsx.x5static.net/i/%s/xdelivery/files/b1/0d/4feaf8xdf73d3f4b99xda69e457d.jpg",
+          "publicUrl": null,
+          "uuid": "bfbb5a61-10f0-476f-b07a-4872c2722f10"
+        },
+        "rating": 496,
+        "medianPrice": 6999,
+        "labelCharacteristics": [],
+        "labels": [],
+        "reviewCount": 1018,
+        "ratingCount": 19892,
+        "priceTag": {
+          "price": 6999,
+          "discountMinimumAmount": 0,
+          "grossPrice": null,
+          "labels": [],
+          "pricePerQuantum": null,
+          "grossPricePerQuantum": null,
+          "potentialPointsForOrangeCard": null
+        },
+        "balanceState": "many"
+      },
+      {
+        "liked": false,
+        "recSysRecommendationRequestId": null,
+        "borderStyle": null,
+        "bestReview": null,
+        "advToken": null,
+        "id": 488049,
+        "masterData": {
+          "slug": "napitok-party-time-asia-jelly-k-pop-so-vkusom-marmeladnyh-misek-gazirovannyj-500ml",
+          "plu": "4403239",
+          "unit": 1,
+          "unitName": "шт",
+          "quantum": 1000,
+          "quantumStep": 1000,
+          "weight": 500,
+          "volume": 500,
+          "ui4code": "FD0803002",
+          "taxGroup": "HB",
+          "ownProduction": false,
+          "privateLabel": false,
+          "isMark": true,
+          "alcoSetUnits": null,
+          "activeNds": 22
+        },
+        "title": "Напиток Party Time Asia Jelly K-Pop со вкусом мармеладных мишек газированный, 500мл",
+        "primaryCategory": {
+          "id": 423,
+          "title": "Газировка",
+          "slug": "gazirovka",
+          "isAlcohol": false,
+          "isTobacco": false,
+          "isExciseAlcohol": false,
+          "isAdultContent": false,
+          "displayStyle": 2,
+          "catalogs": [
+            2,
+            3,
+            4
+          ]
+        },
+        "catalogPrimaryCategory": null,
+        "image": {
+          "id": 3054463,
+          "originName": "remote_upl_6978d32e3e8058.69608802",
+          "fileType": "image",
+          "fileSize": 47571,
+          "width": 800,
+          "height": 800,
+          "cropUrlTemplate": "https://tsx.x5static.net/i/%s/xdelivery/files/01/30/ce414d120f54cbba81edc38b0e57.jpg",
+          "publicUrl": null,
+          "uuid": "322faa6a-f8dd-49a0-baf6-f072c71a0daf"
+        },
+        "rating": 458,
+        "medianPrice": 7499,
+        "labelCharacteristics": [],
+        "labels": [],
+        "reviewCount": 0,
+        "ratingCount": 12,
+        "priceTag": {
+          "price": 7499,
+          "discountMinimumAmount": 0,
+          "grossPrice": 9999,
+          "labels": [
+            {
+              "type": "yellow",
+              "text": "-25%"
+            }
+          ],
+          "pricePerQuantum": null,
+          "grossPricePerQuantum": null,
+          "potentialPointsForOrangeCard": null
+        },
+        "balanceState": "many"
+      },
+      {
+        "liked": false,
+        "recSysRecommendationRequestId": null,
+        "borderStyle": null,
+        "bestReview": null,
+        "advToken": null,
+        "id": 488050,
+        "masterData": {
+          "slug": "napitok-party-time-dj-marshmallow-so-vkusom-marsmellou-gazirovannyj-500ml",
+          "plu": "4403241",
+          "unit": 1,
+          "unitName": "шт",
+          "quantum": 1000,
+          "quantumStep": 1000,
+          "weight": 500,
+          "volume": 500,
+          "ui4code": "FD0803002",
+          "taxGroup": "HB",
+          "ownProduction": false,
+          "privateLabel": false,
+          "isMark": true,
+          "alcoSetUnits": null,
+          "activeNds": 22
+        },
+        "title": "Напиток Party Time DJ Marshmallow со вкусом маршмеллоу газированный, 500мл",
+        "primaryCategory": {
+          "id": 423,
+          "title": "Газировка",
+          "slug": "gazirovka",
+          "isAlcohol": false,
+          "isTobacco": false,
+          "isExciseAlcohol": false,
+          "isAdultContent": false,
+          "displayStyle": 2,
+          "catalogs": [
+            2,
+            3,
+            4
+          ]
+        },
+        "catalogPrimaryCategory": null,
+        "image": {
+          "id": 3054473,
+          "originName": "remote_upl_6978d32e3e8314.01495221",
+          "fileType": "image",
+          "fileSize": 42994,
+          "width": 800,
+          "height": 800,
+          "cropUrlTemplate": "https://tsx.x5static.net/i/%s/xdelivery/files/83/fb/babf8ebb9cf4ba55dffa4488xde9.jpg",
+          "publicUrl": null,
+          "uuid": "c6eb19f2-d847-493e-a24f-7daec6aa0ce2"
+        },
+        "rating": 445,
+        "medianPrice": 7499,
+        "labelCharacteristics": [],
+        "labels": [],
+        "reviewCount": 1,
+        "ratingCount": 20,
+        "priceTag": {
+          "price": 7499,
+          "discountMinimumAmount": 0,
+          "grossPrice": 9999,
+          "labels": [
+            {
+              "type": "yellow",
+              "text": "-25%"
+            }
+          ],
+          "pricePerQuantum": null,
+          "grossPricePerQuantum": null,
+          "potentialPointsForOrangeCard": null
+        },
+        "balanceState": "many"
+      },
+      {
+        "liked": false,
+        "recSysRecommendationRequestId": null,
+        "borderStyle": null,
+        "bestReview": null,
+        "advToken": null,
+        "id": 456393,
+        "masterData": {
+          "slug": "kukis-sokoladnaa-kroska-70g",
+          "plu": "78036449",
+          "unit": 1,
+          "unitName": "шт",
+          "quantum": 1000,
+          "quantumStep": 1000,
+          "weight": 70,
+          "volume": null,
+          "ui4code": "FR1608001",
+          "taxGroup": "HB",
+          "ownProduction": true,
+          "privateLabel": false,
+          "isMark": false,
+          "alcoSetUnits": null,
+          "activeNds": 22
+        },
+        "title": "Кукис Шоколадная Крошка, 70г",
+        "primaryCategory": {
+          "id": 377,
+          "title": "Свежая выпечка",
+          "slug": "svezaa-vypecka",
+          "isAlcohol": false,
+          "isTobacco": false,
+          "isExciseAlcohol": false,
+          "isAdultContent": false,
+          "displayStyle": 2,
+          "catalogs": [
+            2,
+            3,
+            4
+          ]
+        },
+        "catalogPrimaryCategory": {
+          "id": 196,
+          "title": "Наша пекарня",
+          "slug": "nasa-pekarna",
+          "isAlcohol": false,
+          "isTobacco": false,
+          "isExciseAlcohol": false,
+          "isAdultContent": false,
+          "displayStyle": 2,
+          "catalogs": [
+            1
+          ]
+        },
+        "image": {
+          "id": 2597162,
+          "originName": "remote_upl_68e4661b4b8613.55389131",
+          "fileType": "image",
+          "fileSize": 81051,
+          "width": 800,
+          "height": 800,
+          "cropUrlTemplate": "https://tsx.x5static.net/i/%s/xdelivery/files/4a/f8/0479b372774ba43a9a81e9683d9a.jpg",
+          "publicUrl": null,
+          "uuid": "a73fed7d-54aa-443a-9a02-b95bae8e986c"
+        },
+        "rating": 479,
+        "medianPrice": 6999,
+        "labelCharacteristics": [],
+        "labels": [],
+        "reviewCount": 59,
+        "ratingCount": 628,
+        "priceTag": {
+          "price": 7999,
+          "discountMinimumAmount": 0,
+          "grossPrice": null,
+          "labels": [],
+          "pricePerQuantum": null,
+          "grossPricePerQuantum": null,
+          "potentialPointsForOrangeCard": null
+        },
+        "balanceState": "many"
+      },
+      {
+        "liked": false,
+        "recSysRecommendationRequestId": null,
+        "borderStyle": null,
+        "bestReview": null,
+        "advToken": null,
+        "id": 65050,
+        "masterData": {
+          "slug": "poncik-perekrestok-berlinskij-s-varenoj-sgusenkoj-2h64g",
+          "plu": "78010688",
+          "unit": 1,
+          "unitName": "шт",
+          "quantum": 1000,
+          "quantumStep": 1000,
+          "weight": 128,
+          "volume": null,
+          "ui4code": "FR1606003",
+          "taxGroup": "BB",
+          "ownProduction": true,
+          "privateLabel": false,
+          "isMark": false,
+          "alcoSetUnits": null,
+          "activeNds": 10
+        },
+        "title": "Пончик Перекрёсток Берлинский с варёной сгущёнкой, 2х64г",
+        "primaryCategory": {
+          "id": 1619,
+          "title": "Вся готовая еда",
+          "slug": "vsa-gotovaa-eda",
+          "isAlcohol": false,
+          "isTobacco": false,
+          "isExciseAlcohol": false,
+          "isAdultContent": false,
+          "displayStyle": 2,
+          "catalogs": [
+            2,
+            3,
+            4
+          ]
+        },
+        "catalogPrimaryCategory": {
+          "id": 196,
+          "title": "Наша пекарня",
+          "slug": "nasa-pekarna",
+          "isAlcohol": false,
+          "isTobacco": false,
+          "isExciseAlcohol": false,
+          "isAdultContent": false,
+          "displayStyle": 2,
+          "catalogs": [
+            1
+          ]
+        },
+        "image": {
+          "id": 2625166,
+          "originName": "remote_upl_68e7ea23286b63.19909622",
+          "fileType": "image",
+          "fileSize": 58048,
+          "width": 800,
+          "height": 800,
+          "cropUrlTemplate": "https://tsx.x5static.net/i/%s/xdelivery/files/8d/69/62795c0a052ffc63826e5c48e256.jpg",
+          "publicUrl": null,
+          "uuid": "f958cf81-db91-4ca7-b49b-c800e59275c8"
+        },
+        "rating": 477,
+        "medianPrice": 7999,
+        "labelCharacteristics": [],
+        "labels": [],
+        "reviewCount": 568,
+        "ratingCount": 9250,
+        "priceTag": {
+          "price": 8799,
+          "discountMinimumAmount": 0,
+          "grossPrice": null,
+          "labels": [],
+          "pricePerQuantum": null,
+          "grossPricePerQuantum": null,
+          "potentialPointsForOrangeCard": null
+        },
+        "balanceState": "many"
+      },
+      {
+        "liked": false,
+        "recSysRecommendationRequestId": null,
+        "borderStyle": null,
+        "bestReview": null,
+        "advToken": null,
+        "id": 302200,
+        "masterData": {
+          "slug": "donat-klubnika-55g",
+          "plu": "78029843",
+          "unit": 1,
+          "unitName": "шт",
+          "quantum": 1000,
+          "quantumStep": 1000,
+          "weight": 55,
+          "volume": null,
+          "ui4code": "FR1606003",
+          "taxGroup": "BB",
+          "ownProduction": true,
+          "privateLabel": false,
+          "isMark": false,
+          "alcoSetUnits": null,
+          "activeNds": 10
+        },
+        "title": "Донат Клубника, 55г",
+        "primaryCategory": {
+          "id": 1619,
+          "title": "Вся готовая еда",
+          "slug": "vsa-gotovaa-eda",
+          "isAlcohol": false,
+          "isTobacco": false,
+          "isExciseAlcohol": false,
+          "isAdultContent": false,
+          "displayStyle": 2,
+          "catalogs": [
+            2,
+            3,
+            4
+          ]
+        },
+        "catalogPrimaryCategory": {
+          "id": 196,
+          "title": "Наша пекарня",
+          "slug": "nasa-pekarna",
+          "isAlcohol": false,
+          "isTobacco": false,
+          "isExciseAlcohol": false,
+          "isAdultContent": false,
+          "displayStyle": 2,
+          "catalogs": [
+            1
+          ]
+        },
+        "image": {
+          "id": 2625329,
+          "originName": "remote_upl_68e7ea22610791.47441015",
+          "fileType": "image",
+          "fileSize": 119398,
+          "width": 800,
+          "height": 800,
+          "cropUrlTemplate": "https://tsx.x5static.net/i/%s/xdelivery/files/1d/cb/7f78facf8e13b07840fb9f499d20.jpg",
+          "publicUrl": null,
+          "uuid": "077ba2cb-0fce-4c27-b245-d9434ab06775"
+        },
+        "rating": 488,
+        "medianPrice": 7999,
+        "labelCharacteristics": [],
+        "labels": [],
+        "reviewCount": 310,
+        "ratingCount": 5509,
+        "priceTag": {
+          "price": 8799,
+          "discountMinimumAmount": 0,
+          "grossPrice": null,
+          "labels": [],
+          "pricePerQuantum": null,
+          "grossPricePerQuantum": null,
+          "potentialPointsForOrangeCard": null
+        },
+        "balanceState": "many"
+      },
+      {
+        "liked": false,
+        "recSysRecommendationRequestId": null,
+        "borderStyle": null,
+        "bestReview": null,
+        "advToken": null,
+        "id": 305806,
+        "masterData": {
+          "slug": "donat-s-sokoladnoj-nacinkoj-glazirovannyj-65g",
+          "plu": "78030228",
+          "unit": 1,
+          "unitName": "шт",
+          "quantum": 1000,
+          "quantumStep": 1000,
+          "weight": 65,
+          "volume": null,
+          "ui4code": "FR1606003",
+          "taxGroup": "BB",
+          "ownProduction": true,
+          "privateLabel": false,
+          "isMark": false,
+          "alcoSetUnits": null,
+          "activeNds": 10
+        },
+        "title": "Донат с шоколадной начинкой глазированный, 65г",
+        "primaryCategory": {
+          "id": 1619,
+          "title": "Вся готовая еда",
+          "slug": "vsa-gotovaa-eda",
+          "isAlcohol": false,
+          "isTobacco": false,
+          "isExciseAlcohol": false,
+          "isAdultContent": false,
+          "displayStyle": 2,
+          "catalogs": [
+            2,
+            3,
+            4
+          ]
+        },
+        "catalogPrimaryCategory": {
+          "id": 196,
+          "title": "Наша пекарня",
+          "slug": "nasa-pekarna",
+          "isAlcohol": false,
+          "isTobacco": false,
+          "isExciseAlcohol": false,
+          "isAdultContent": false,
+          "displayStyle": 2,
+          "catalogs": [
+            1
+          ]
+        },
+        "image": {
+          "id": 2625339,
+          "originName": "remote_upl_68e7ea22610ed4.54842384",
+          "fileType": "image",
+          "fileSize": 92621,
+          "width": 800,
+          "height": 800,
+          "cropUrlTemplate": "https://tsx.x5static.net/i/%s/xdelivery/files/2d/d8/c8729601d93af686c654421b43fe.jpg",
+          "publicUrl": null,
+          "uuid": "852bc36c-f9d0-4572-9853-964fce7562f1"
+        },
+        "rating": 491,
+        "medianPrice": 7999,
+        "labelCharacteristics": [],
+        "labels": [],
+        "reviewCount": 255,
+        "ratingCount": 4576,
+        "priceTag": {
+          "price": 8799,
+          "discountMinimumAmount": 0,
+          "grossPrice": null,
+          "labels": [],
+          "pricePerQuantum": null,
+          "grossPricePerQuantum": null,
+          "potentialPointsForOrangeCard": null
+        },
+        "balanceState": "many"
+      },
+      {
+        "liked": false,
+        "recSysRecommendationRequestId": null,
+        "borderStyle": null,
+        "bestReview": null,
+        "advToken": null,
+        "id": 409607,
+        "masterData": {
+          "slug": "napitok-gazirovannyj-cernogolovka-mandarin-1l",
+          "plu": "4306405",
+          "unit": 1,
+          "unitName": "шт",
+          "quantum": 1000,
+          "quantumStep": 1000,
+          "weight": 1000,
+          "volume": 1000,
+          "ui4code": "FD0803002",
+          "taxGroup": "HB",
+          "ownProduction": false,
+          "privateLabel": false,
+          "isMark": true,
+          "alcoSetUnits": null,
+          "activeNds": 22
+        },
+        "title": "Напиток газированный Черноголовка Мандарин, 1л",
+        "primaryCategory": {
+          "id": 423,
+          "title": "Газировка",
+          "slug": "gazirovka",
+          "isAlcohol": false,
+          "isTobacco": false,
+          "isExciseAlcohol": false,
+          "isAdultContent": false,
+          "displayStyle": 2,
+          "catalogs": [
+            2,
+            3,
+            4
+          ]
+        },
+        "catalogPrimaryCategory": {
+          "id": 1705,
+          "title": "Меню на праздник",
+          "slug": "menu-na-prazdnik",
+          "isAlcohol": false,
+          "isTobacco": false,
+          "isExciseAlcohol": false,
+          "isAdultContent": false,
+          "displayStyle": 2,
+          "catalogs": [
+            1
+          ]
+        },
+        "image": {
+          "id": 2595892,
+          "originName": "remote_upl_68e449f79eaee9.66967534",
+          "fileType": "image",
+          "fileSize": 33424,
+          "width": 800,
+          "height": 800,
+          "cropUrlTemplate": "https://tsx.x5static.net/i/%s/xdelivery/files/e4/95/fe8600bed589467dd46eef37cbaf.jpg",
+          "publicUrl": null,
+          "uuid": "13068702-ca0e-4428-9f8f-87df12ce5cb4"
+        },
+        "rating": 491,
+        "medianPrice": 8799,
+        "labelCharacteristics": [],
+        "labels": [],
+        "reviewCount": 103,
+        "ratingCount": 2390,
+        "priceTag": {
+          "price": 8799,
+          "discountMinimumAmount": 0,
+          "grossPrice": null,
+          "labels": [],
+          "pricePerQuantum": null,
+          "grossPricePerQuantum": null,
+          "potentialPointsForOrangeCard": null
+        },
+        "balanceState": "many"
+      },
+      {
+        "liked": false,
+        "recSysRecommendationRequestId": null,
+        "borderStyle": null,
+        "bestReview": null,
+        "advToken": null,
+        "id": 5255,
+        "masterData": {
+          "slug": "sumka-art-i-dizajn-podarocnaa-vs-5-2h24h20sm",
+          "plu": "2051848",
+          "unit": 1,
+          "unitName": "шт",
+          "quantum": 1000,
+          "quantumStep": 1000,
+          "weight": 90,
+          "volume": null,
+          "ui4code": "NF1401001",
+          "taxGroup": "HB",
+          "ownProduction": false,
+          "privateLabel": false,
+          "isMark": false,
+          "alcoSetUnits": null,
+          "activeNds": 22
+        },
+        "title": "Сумка Арт и Дизайн подарочная ВС, 5.2х24х20см",
+        "primaryCategory": {
+          "id": 456,
+          "title": "Сезонные товары",
+          "slug": "sezonnye-tovary",
+          "isAlcohol": false,
+          "isTobacco": false,
+          "isExciseAlcohol": false,
+          "isAdultContent": false,
+          "displayStyle": 2,
+          "catalogs": [
+            2,
+            3,
+            4
+          ]
+        },
+        "catalogPrimaryCategory": {
+          "id": 42,
+          "title": "Всё для праздника",
+          "slug": "vse-dla-prazdnika",
+          "isAlcohol": false,
+          "isTobacco": false,
+          "isExciseAlcohol": false,
+          "isAdultContent": false,
+          "displayStyle": 2,
+          "catalogs": [
+            1
+          ]
+        },
+        "image": {
+          "id": 2772364,
+          "originName": "remote_upl_69251bc1f0e724.86749482",
+          "fileType": "image",
+          "fileSize": 73994,
+          "width": 800,
+          "height": 800,
+          "cropUrlTemplate": "https://tsx.x5static.net/i/%s/xdelivery/files/75/c5/e506c7b192abf4374540bfd31ea7.jpg",
+          "publicUrl": null,
+          "uuid": "a4d459a1-063a-40e6-b14e-d60fda7c059f"
+        },
+        "rating": 495,
+        "medianPrice": 8999,
+        "labelCharacteristics": [],
+        "labels": [],
+        "reviewCount": 71,
+        "ratingCount": 3248,
+        "priceTag": {
+          "price": 8999,
+          "discountMinimumAmount": 0,
+          "grossPrice": null,
+          "labels": [],
+          "pricePerQuantum": null,
+          "grossPricePerQuantum": null,
+          "potentialPointsForOrangeCard": null
+        },
+        "balanceState": "many"
+      },
+      {
+        "liked": false,
+        "recSysRecommendationRequestId": null,
+        "borderStyle": null,
+        "bestReview": null,
+        "advToken": null,
+        "id": 53575,
+        "masterData": {
+          "slug": "voda-essentuki-no4-mineralnaa-prirodnaa-pitevaa-lecebno-stolovaa-gazirovannaa-450ml",
+          "plu": "3977405",
+          "unit": 1,
+          "unitName": "шт",
+          "quantum": 1000,
+          "quantumStep": 1000,
+          "weight": 450,
+          "volume": 450,
+          "ui4code": "FD0802001",
+          "taxGroup": "HB",
+          "ownProduction": false,
+          "privateLabel": false,
+          "isMark": true,
+          "alcoSetUnits": null,
+          "activeNds": 22
+        },
+        "title": "Вода Ессентуки №4 минеральная природная питьевая лечебно-столовая газированная, 450мл",
+        "primaryCategory": {
+          "id": 424,
+          "title": "Вода",
+          "slug": "voda",
+          "isAlcohol": false,
+          "isTobacco": false,
+          "isExciseAlcohol": false,
+          "isAdultContent": false,
+          "displayStyle": 2,
+          "catalogs": [
+            2,
+            3,
+            4
+          ]
+        },
+        "catalogPrimaryCategory": {
+          "id": 208,
+          "title": "Вода",
+          "slug": "voda",
+          "isAlcohol": false,
+          "isTobacco": false,
+          "isExciseAlcohol": false,
+          "isAdultContent": false,
+          "displayStyle": 2,
+          "catalogs": [
+            1
+          ]
+        },
+        "image": {
+          "id": 2583046,
+          "originName": "remote_upl_68df202547ea71.99716967",
+          "fileType": "image",
+          "fileSize": 41260,
+          "width": 800,
+          "height": 800,
+          "cropUrlTemplate": "https://tsx.x5static.net/i/%s/xdelivery/files/95/de/a39c6fecda53457ac3d54ed6f9b7.jpg",
+          "publicUrl": null,
+          "uuid": "83dc53ef-b95b-431d-b5e2-d989b658c1a3"
+        },
+        "rating": 496,
+        "medianPrice": 9199,
+        "labelCharacteristics": [],
+        "labels": [],
+        "reviewCount": 286,
+        "ratingCount": 8628,
+        "priceTag": {
+          "price": 9199,
+          "discountMinimumAmount": 0,
+          "grossPrice": null,
+          "labels": [],
+          "pricePerQuantum": null,
+          "grossPricePerQuantum": null,
+          "potentialPointsForOrangeCard": null
+        },
+        "balanceState": "many"
+      },
+      {
+        "liked": false,
+        "recSysRecommendationRequestId": null,
+        "borderStyle": null,
+        "bestReview": null,
+        "advToken": null,
+        "id": 372294,
+        "masterData": {
+          "slug": "tonik-chillout-premium-english-tonic-900ml",
+          "plu": "4258882",
+          "unit": 1,
+          "unitName": "шт",
+          "quantum": 1000,
+          "quantumStep": 1000,
+          "weight": 900,
+          "volume": 900,
+          "ui4code": "FD0803002",
+          "taxGroup": "HB",
+          "ownProduction": false,
+          "privateLabel": false,
+          "isMark": true,
+          "alcoSetUnits": null,
+          "activeNds": 22
+        },
+        "title": "Тоник Chillout Premium English Tonic, 900мл",
+        "primaryCategory": {
+          "id": 423,
+          "title": "Газировка",
+          "slug": "gazirovka",
+          "isAlcohol": false,
+          "isTobacco": false,
+          "isExciseAlcohol": false,
+          "isAdultContent": false,
+          "displayStyle": 2,
+          "catalogs": [
+            2,
+            3,
+            4
+          ]
+        },
+        "catalogPrimaryCategory": {
+          "id": 209,
+          "title": "Газированные напитки",
+          "slug": "gazirovannye-napitki",
+          "isAlcohol": false,
+          "isTobacco": false,
+          "isExciseAlcohol": false,
+          "isAdultContent": false,
+          "displayStyle": 2,
+          "catalogs": [
+            1
+          ]
+        },
+        "image": {
+          "id": 3107683,
+          "originName": "remote_upl_6992dd9c968a87.02933578",
+          "fileType": "image",
+          "fileSize": 28430,
+          "width": 800,
+          "height": 800,
+          "cropUrlTemplate": "https://tsx.x5static.net/i/%s/xdelivery/files/3f/6b/2b9ff68b903a30928xdce27a88e6.jpg",
+          "publicUrl": null,
+          "uuid": "31c82cbe-0ab9-4480-8e5f-b7efb12c5d81"
+        },
+        "rating": 491,
+        "medianPrice": 9799,
+        "labelCharacteristics": [],
+        "labels": [],
+        "reviewCount": 122,
+        "ratingCount": 1922,
+        "priceTag": {
+          "price": 9299,
+          "discountMinimumAmount": 0,
+          "grossPrice": null,
+          "labels": [],
+          "pricePerQuantum": null,
+          "grossPricePerQuantum": null,
+          "potentialPointsForOrangeCard": null
+        },
+        "balanceState": "many"
+      },
+      {
+        "liked": false,
+        "recSysRecommendationRequestId": null,
+        "borderStyle": null,
+        "bestReview": null,
+        "advToken": null,
+        "id": 409598,
+        "masterData": {
+          "slug": "tonik-chillout-bitter-lemon-900ml",
+          "plu": "4307059",
+          "unit": 1,
+          "unitName": "шт",
+          "quantum": 1000,
+          "quantumStep": 1000,
+          "weight": 900,
+          "volume": 900,
+          "ui4code": "FD0803002",
+          "taxGroup": "HB",
+          "ownProduction": false,
+          "privateLabel": false,
+          "isMark": true,
+          "alcoSetUnits": null,
+          "activeNds": 22
+        },
+        "title": "Тоник Chillout Bitter Lemon, 900мл",
+        "primaryCategory": {
+          "id": 423,
+          "title": "Газировка",
+          "slug": "gazirovka",
+          "isAlcohol": false,
+          "isTobacco": false,
+          "isExciseAlcohol": false,
+          "isAdultContent": false,
+          "displayStyle": 2,
+          "catalogs": [
+            2,
+            3,
+            4
+          ]
+        },
+        "catalogPrimaryCategory": {
+          "id": 209,
+          "title": "Газированные напитки",
+          "slug": "gazirovannye-napitki",
+          "isAlcohol": false,
+          "isTobacco": false,
+          "isExciseAlcohol": false,
+          "isAdultContent": false,
+          "displayStyle": 2,
+          "catalogs": [
+            1
+          ]
+        },
+        "image": {
+          "id": 2596239,
+          "originName": "remote_upl_68e449f8a8ce48.10978217",
+          "fileType": "image",
+          "fileSize": 27519,
+          "width": 800,
+          "height": 800,
+          "cropUrlTemplate": "https://tsx.x5static.net/i/%s/xdelivery/files/7f/a4/5fb97c4453642e6e6ef6c5d26262.jpg",
+          "publicUrl": null,
+          "uuid": "af4abd26-37e7-405e-84c9-240a0da73b5c"
+        },
+        "rating": 490,
+        "medianPrice": 9299,
+        "labelCharacteristics": [],
+        "labels": [],
+        "reviewCount": 183,
+        "ratingCount": 2599,
+        "priceTag": {
+          "price": 9299,
+          "discountMinimumAmount": 0,
+          "grossPrice": null,
+          "labels": [],
+          "pricePerQuantum": null,
+          "grossPricePerQuantum": null,
+          "potentialPointsForOrangeCard": null
+        },
+        "balanceState": "many"
+      },
+      {
+        "liked": false,
+        "recSysRecommendationRequestId": null,
+        "borderStyle": null,
+        "bestReview": null,
+        "advToken": null,
+        "id": 409599,
+        "masterData": {
+          "slug": "tonik-chillout-bitter-grapefruit-900ml",
+          "plu": "4307060",
+          "unit": 1,
+          "unitName": "шт",
+          "quantum": 1000,
+          "quantumStep": 1000,
+          "weight": 900,
+          "volume": 900,
+          "ui4code": "FD0803002",
+          "taxGroup": "HB",
+          "ownProduction": false,
+          "privateLabel": false,
+          "isMark": true,
+          "alcoSetUnits": null,
+          "activeNds": 22
+        },
+        "title": "Тоник Chillout Bitter Grapefruit, 900мл",
+        "primaryCategory": {
+          "id": 423,
+          "title": "Газировка",
+          "slug": "gazirovka",
+          "isAlcohol": false,
+          "isTobacco": false,
+          "isExciseAlcohol": false,
+          "isAdultContent": false,
+          "displayStyle": 2,
+          "catalogs": [
+            2,
+            3,
+            4
+          ]
+        },
+        "catalogPrimaryCategory": {
+          "id": 209,
+          "title": "Газированные напитки",
+          "slug": "gazirovannye-napitki",
+          "isAlcohol": false,
+          "isTobacco": false,
+          "isExciseAlcohol": false,
+          "isAdultContent": false,
+          "displayStyle": 2,
+          "catalogs": [
+            1
+          ]
+        },
+        "image": {
+          "id": 2596906,
+          "originName": "remote_upl_68e4661b0e5c97.62937030",
+          "fileType": "image",
+          "fileSize": 29277,
+          "width": 800,
+          "height": 800,
+          "cropUrlTemplate": "https://tsx.x5static.net/i/%s/xdelivery/files/d3/06/1840e9ab152b1d82535bdf3cfd37.jpg",
+          "publicUrl": null,
+          "uuid": "50fbd17c-94a9-40b4-ad40-918662680355"
+        },
+        "rating": 488,
+        "medianPrice": 9299,
+        "labelCharacteristics": [],
+        "labels": [],
+        "reviewCount": 169,
+        "ratingCount": 2473,
+        "priceTag": {
+          "price": 9299,
+          "discountMinimumAmount": 0,
+          "grossPrice": null,
+          "labels": [],
+          "pricePerQuantum": null,
+          "grossPricePerQuantum": null,
+          "potentialPointsForOrangeCard": null
+        },
+        "balanceState": "many"
+      },
+      {
+        "liked": false,
+        "recSysRecommendationRequestId": null,
+        "borderStyle": null,
+        "bestReview": null,
+        "advToken": null,
+        "id": 44808,
+        "masterData": {
+          "slug": "tonik-evervess-indian-tonik-1l",
+          "plu": "3684900",
+          "unit": 1,
+          "unitName": "шт",
+          "quantum": 1000,
+          "quantumStep": 1000,
+          "weight": 1038,
+          "volume": 1000,
+          "ui4code": "FD0803002",
+          "taxGroup": "HB",
+          "ownProduction": false,
+          "privateLabel": false,
+          "isMark": true,
+          "alcoSetUnits": null,
+          "activeNds": 22
+        },
+        "title": "Тоник Evervess Индиан Тоник, 1л",
+        "primaryCategory": {
+          "id": 423,
+          "title": "Газировка",
+          "slug": "gazirovka",
+          "isAlcohol": false,
+          "isTobacco": false,
+          "isExciseAlcohol": false,
+          "isAdultContent": false,
+          "displayStyle": 2,
+          "catalogs": [
+            2,
+            3,
+            4
+          ]
+        },
+        "catalogPrimaryCategory": {
+          "id": 209,
+          "title": "Газированные напитки",
+          "slug": "gazirovannye-napitki",
+          "isAlcohol": false,
+          "isTobacco": false,
+          "isExciseAlcohol": false,
+          "isAdultContent": false,
+          "displayStyle": 2,
+          "catalogs": [
+            1
+          ]
+        },
+        "image": {
+          "id": 2556778,
+          "originName": "remote_upl_68dc60fb6b6e20.58745801",
+          "fileType": "image",
+          "fileSize": 27034,
+          "width": 800,
+          "height": 800,
+          "cropUrlTemplate": "https://tsx.x5static.net/i/%s/xdelivery/files/9b/74/e509a834ed84456db5ecc36a4bdc.jpg",
+          "publicUrl": null,
+          "uuid": "6ad09018-3cd8-4e33-8e29-414957df3371"
+        },
+        "rating": 492,
+        "medianPrice": 9999,
+        "labelCharacteristics": [],
+        "labels": [],
+        "reviewCount": 254,
+        "ratingCount": 6529,
+        "priceTag": {
+          "price": 9499,
+          "discountMinimumAmount": 0,
+          "grossPrice": null,
+          "labels": [],
+          "pricePerQuantum": null,
+          "grossPricePerQuantum": null,
+          "potentialPointsForOrangeCard": null
+        },
+        "balanceState": "many"
+      },
+      {
+        "liked": false,
+        "recSysRecommendationRequestId": null,
+        "borderStyle": null,
+        "bestReview": null,
+        "advToken": null,
+        "id": 46646,
+        "masterData": {
+          "slug": "voda-bagiatti-mineralnaa-lecebno-stolovaa-gazirovannaa-1-5l",
+          "plu": "2105576",
+          "unit": 1,
+          "unitName": "шт",
+          "quantum": 1000,
+          "quantumStep": 1000,
+          "weight": 1500,
+          "volume": 1500,
+          "ui4code": "FD0802001",
+          "taxGroup": "HB",
+          "ownProduction": false,
+          "privateLabel": false,
+          "isMark": true,
+          "alcoSetUnits": null,
+          "activeNds": 22
+        },
+        "title": "Вода Багиатти минеральная лечебно-столовая газированная, 1.5л",
+        "primaryCategory": {
+          "id": 424,
+          "title": "Вода",
+          "slug": "voda",
+          "isAlcohol": false,
+          "isTobacco": false,
+          "isExciseAlcohol": false,
+          "isAdultContent": false,
+          "displayStyle": 2,
+          "catalogs": [
+            2,
+            3,
+            4
+          ]
+        },
+        "catalogPrimaryCategory": {
+          "id": 208,
+          "title": "Вода",
+          "slug": "voda",
+          "isAlcohol": false,
+          "isTobacco": false,
+          "isExciseAlcohol": false,
+          "isAdultContent": false,
+          "displayStyle": 2,
+          "catalogs": [
+            1
+          ]
+        },
+        "image": {
+          "id": 2649329,
+          "originName": "remote_upl_68f1951a8aae41.02702099",
+          "fileType": "image",
+          "fileSize": 26484,
+          "width": 214,
+          "height": 800,
+          "cropUrlTemplate": "https://tsx.x5static.net/i/%s/xdelivery/files/17/2d/6e500bdd481c74f9af3207aa8c69.jpg",
+          "publicUrl": null,
+          "uuid": "a74046dd-4c08-4161-b0c3-6379873a6888"
+        },
+        "rating": 492,
+        "medianPrice": 9499,
+        "labelCharacteristics": [],
+        "labels": [],
+        "reviewCount": 269,
+        "ratingCount": 5916,
+        "priceTag": {
+          "price": 9499,
+          "discountMinimumAmount": 0,
+          "grossPrice": 11499,
+          "labels": [
+            {
+              "type": "yellow",
+              "text": "-17%"
+            }
+          ],
+          "pricePerQuantum": null,
+          "grossPricePerQuantum": null,
+          "potentialPointsForOrangeCard": null
+        },
+        "balanceState": "many"
+      },
+      {
+        "liked": false,
+        "recSysRecommendationRequestId": null,
+        "borderStyle": null,
+        "bestReview": null,
+        "advToken": null,
+        "id": 349257,
+        "masterData": {
+          "slug": "salfetki-bumaznye-gratias-belye-2sl-24h24-100st",
+          "plu": "4250535",
+          "unit": 1,
+          "unitName": "шт",
+          "quantum": 1000,
+          "quantumStep": 1000,
+          "weight": 196,
+          "volume": null,
+          "ui4code": "FD0915002",
+          "taxGroup": "HB",
+          "ownProduction": false,
+          "privateLabel": false,
+          "isMark": false,
+          "alcoSetUnits": null,
+          "activeNds": 22
+        },
+        "title": "Салфетки бумажные Gratias белые 2сл 24х24, 100шт",
+        "primaryCategory": {
+          "id": 444,
+          "title": "Бумага и салфетки",
+          "slug": "bumaga-i-salfetki",
+          "isAlcohol": false,
+          "isTobacco": false,
+          "isExciseAlcohol": false,
+          "isAdultContent": false,
+          "displayStyle": 2,
+          "catalogs": [
+            2,
+            3,
+            4
+          ]
+        },
+        "catalogPrimaryCategory": {
+          "id": 97,
+          "title": "Бумажная и ватная продукция",
+          "slug": "bumaznaa-i-vatnaa-produkcia",
+          "isAlcohol": false,
+          "isTobacco": false,
+          "isExciseAlcohol": false,
+          "isAdultContent": false,
+          "displayStyle": 2,
+          "catalogs": [
+            1
+          ]
+        },
+        "image": {
+          "id": 2619330,
+          "originName": "remote_upl_68e6ecfb065d68.14890304",
+          "fileType": "image",
+          "fileSize": 119373,
+          "width": 800,
+          "height": 800,
+          "cropUrlTemplate": "https://tsx.x5static.net/i/%s/xdelivery/files/7b/d0/be8f872ec7e33875fe7fe14b4bd6.jpg",
+          "publicUrl": null,
+          "uuid": "7d1b7b75-4d33-472d-8f5b-dfeeddf503c7"
+        },
+        "rating": 497,
+        "medianPrice": 11499,
+        "labelCharacteristics": [],
+        "labels": [],
+        "reviewCount": 291,
+        "ratingCount": 4750,
+        "priceTag": {
+          "price": 9799,
+          "discountMinimumAmount": 0,
+          "grossPrice": 10999,
+          "labels": [
+            {
+              "type": "yellow",
+              "text": "-10%"
+            }
+          ],
+          "pricePerQuantum": null,
+          "grossPricePerQuantum": null,
+          "potentialPointsForOrangeCard": null
+        },
+        "balanceState": "many"
+      },
+      {
+        "liked": false,
+        "recSysRecommendationRequestId": null,
+        "borderStyle": null,
+        "bestReview": null,
+        "advToken": null,
+        "id": 45789,
+        "masterData": {
+          "slug": "sok-sady-pridona-ablocnyj-pramogo-otzima-bez-sahara-1l",
+          "plu": "26869",
+          "unit": 1,
+          "unitName": "шт",
+          "quantum": 1000,
+          "quantumStep": 1000,
+          "weight": 1000,
+          "volume": 1000,
+          "ui4code": "FD0805002",
+          "taxGroup": "BB",
+          "ownProduction": false,
+          "privateLabel": false,
+          "isMark": true,
+          "alcoSetUnits": null,
+          "activeNds": 10
+        },
+        "title": "Сок Сады Придонья яблочный прямого отжима без сахара, 1л",
+        "primaryCategory": {
+          "id": 425,
+          "title": "Сок, морс",
+          "slug": "sok-mors",
+          "isAlcohol": false,
+          "isTobacco": false,
+          "isExciseAlcohol": false,
+          "isAdultContent": false,
+          "displayStyle": 2,
+          "catalogs": [
+            2,
+            3,
+            4
+          ]
+        },
+        "catalogPrimaryCategory": {
+          "id": 1705,
+          "title": "Меню на праздник",
+          "slug": "menu-na-prazdnik",
+          "isAlcohol": false,
+          "isTobacco": false,
+          "isExciseAlcohol": false,
+          "isAdultContent": false,
+          "displayStyle": 2,
+          "catalogs": [
+            1
+          ]
+        },
+        "image": {
+          "id": 2573535,
+          "originName": "remote_upl_68ddce9da62b87.49525110",
+          "fileType": "image",
+          "fileSize": 60854,
+          "width": 800,
+          "height": 800,
+          "cropUrlTemplate": "https://tsx.x5static.net/i/%s/xdelivery/files/35/a0/e39b407b0056f3f94e60e8d50e36.jpg",
+          "publicUrl": null,
+          "uuid": "3c14acba-2892-4192-9cc3-1b6aa22f0a09"
+        },
+        "rating": 495,
+        "medianPrice": 9999,
+        "labelCharacteristics": [],
+        "labels": [
+          {
+            "listingImage": {
+              "id": 3082440,
+              "originName": "Frame 2131330266.png",
+              "fileType": "image",
+              "fileSize": 188139,
+              "width": 400,
+              "height": 400,
+              "cropUrlTemplate": "https://tsx.x5static.net/i/%s/xdelivery/files/5a/18/d68e23897ac5e6cee6522c7d5b5c.png",
+              "publicUrl": null,
+              "uuid": "fc207c06-cc32-4be9-ad38-91cb423faa26"
+            },
+            "toolTip": null
+          }
+        ],
+        "reviewCount": 639,
+        "ratingCount": 17799,
+        "priceTag": {
+          "price": 9999,
+          "discountMinimumAmount": 0,
+          "grossPrice": null,
+          "labels": [],
+          "pricePerQuantum": null,
+          "grossPricePerQuantum": null,
+          "potentialPointsForOrangeCard": null
+        },
+        "balanceState": "many"
+      },
+      {
+        "liked": false,
+        "recSysRecommendationRequestId": null,
+        "borderStyle": null,
+        "bestReview": null,
+        "advToken": null,
+        "id": 373557,
+        "masterData": {
+          "slug": "luk-salatnyj",
+          "plu": "4272905",
+          "unit": 2,
+          "unitName": "кг",
+          "quantum": 200,
+          "quantumStep": 200,
+          "weight": null,
+          "volume": null,
+          "ui4code": "FR0906004",
+          "taxGroup": "BB",
+          "ownProduction": false,
+          "privateLabel": false,
+          "isMark": false,
+          "alcoSetUnits": null,
+          "activeNds": 10
+        },
+        "title": "Лук салатный",
+        "primaryCategory": {
+          "id": 366,
+          "title": "Овощи, зелень, грибы",
+          "slug": "ovosi-zelen-griby",
+          "isAlcohol": false,
+          "isTobacco": false,
+          "isExciseAlcohol": false,
+          "isAdultContent": false,
+          "displayStyle": 2,
+          "catalogs": [
+            2,
+            3
+          ]
+        },
+        "catalogPrimaryCategory": {
+          "id": 1704,
+          "title": "Салатная классика",
+          "slug": "salatnaa-klassika",
+          "isAlcohol": false,
+          "isTobacco": false,
+          "isExciseAlcohol": false,
+          "isAdultContent": false,
+          "displayStyle": 2,
+          "catalogs": [
+            1
+          ]
+        },
+        "image": {
+          "id": 2551598,
+          "originName": "remote_upl_68dc6101363693.04613914",
+          "fileType": "image",
+          "fileSize": 34201,
+          "width": 800,
+          "height": 800,
+          "cropUrlTemplate": "https://tsx.x5static.net/i/%s/xdelivery/files/31/b8/1d4c1ab658596d4a4cbc9dbb7be5.jpg",
+          "publicUrl": null,
+          "uuid": "c0f0532a-caca-4b93-98aa-eaaa727e1261"
+        },
+        "rating": 483,
+        "medianPrice": 9999,
+        "labelCharacteristics": [],
+        "labels": [],
+        "reviewCount": 472,
+        "ratingCount": 4922,
+        "priceTag": {
+          "price": 9999,
+          "discountMinimumAmount": 0,
+          "grossPrice": 11999,
+          "labels": [
+            {
+              "type": "yellow",
+              "text": "-16%"
+            }
+          ],
+          "pricePerQuantum": null,
+          "grossPricePerQuantum": null,
+          "potentialPointsForOrangeCard": null
+        },
+        "balanceState": "many"
+      },
+      {
+        "liked": false,
+        "recSysRecommendationRequestId": null,
+        "borderStyle": null,
+        "bestReview": null,
+        "advToken": null,
+        "id": 53583,
+        "masterData": {
+          "slug": "voda-essentuki-no17-gazirovannaa-lecebnaa-450ml",
+          "plu": "3977406",
+          "unit": 1,
+          "unitName": "шт",
+          "quantum": 1000,
+          "quantumStep": 1000,
+          "weight": 450,
+          "volume": 450,
+          "ui4code": "FD0802001",
+          "taxGroup": "HB",
+          "ownProduction": false,
+          "privateLabel": false,
+          "isMark": true,
+          "alcoSetUnits": null,
+          "activeNds": 22
+        },
+        "title": "Вода Ессентуки №17 газированная лечебная 450мл",
+        "primaryCategory": {
+          "id": 424,
+          "title": "Вода",
+          "slug": "voda",
+          "isAlcohol": false,
+          "isTobacco": false,
+          "isExciseAlcohol": false,
+          "isAdultContent": false,
+          "displayStyle": 2,
+          "catalogs": [
+            2,
+            3,
+            4
+          ]
+        },
+        "catalogPrimaryCategory": {
+          "id": 208,
+          "title": "Вода",
+          "slug": "voda",
+          "isAlcohol": false,
+          "isTobacco": false,
+          "isExciseAlcohol": false,
+          "isAdultContent": false,
+          "displayStyle": 2,
+          "catalogs": [
+            1
+          ]
+        },
+        "image": {
+          "id": 3056257,
+          "originName": "remote_upl_6979d074302164.97953353",
+          "fileType": "image",
+          "fileSize": 39956,
+          "width": 800,
+          "height": 800,
+          "cropUrlTemplate": "https://tsx.x5static.net/i/%s/xdelivery/files/3f/f4/d1ccf96612f04be2f26cdc8be736.jpg",
+          "publicUrl": null,
+          "uuid": "b5ee310a-edc2-4b85-9d37-ca5d710e9f64"
+        },
+        "rating": 496,
+        "medianPrice": 10199,
+        "labelCharacteristics": [],
+        "labels": [],
+        "reviewCount": 225,
+        "ratingCount": 6764,
+        "priceTag": {
+          "price": 10199,
+          "discountMinimumAmount": 0,
+          "grossPrice": null,
+          "labels": [],
+          "pricePerQuantum": null,
+          "grossPricePerQuantum": null,
+          "potentialPointsForOrangeCard": null
+        },
+        "balanceState": "many"
+      },
+      {
+        "liked": false,
+        "recSysRecommendationRequestId": null,
+        "borderStyle": null,
+        "bestReview": null,
+        "advToken": null,
+        "id": 45006,
+        "masterData": {
+          "slug": "sok-j7-apelsinovyj-s-makotu-300ml",
+          "plu": "3965623",
+          "unit": 1,
+          "unitName": "шт",
+          "quantum": 1000,
+          "quantumStep": 1000,
+          "weight": 313,
+          "volume": 300,
+          "ui4code": "FD0805002",
+          "taxGroup": "BB",
+          "ownProduction": false,
+          "privateLabel": false,
+          "isMark": true,
+          "alcoSetUnits": null,
+          "activeNds": 10
+        },
+        "title": "Сок J7 Апельсиновый с мякотью, 300мл",
+        "primaryCategory": {
+          "id": 425,
+          "title": "Сок, морс",
+          "slug": "sok-mors",
+          "isAlcohol": false,
+          "isTobacco": false,
+          "isExciseAlcohol": false,
+          "isAdultContent": false,
+          "displayStyle": 2,
+          "catalogs": [
+            2,
+            3,
+            4
+          ]
+        },
+        "catalogPrimaryCategory": {
+          "id": 1705,
+          "title": "Меню на праздник",
+          "slug": "menu-na-prazdnik",
+          "isAlcohol": false,
+          "isTobacco": false,
+          "isExciseAlcohol": false,
+          "isAdultContent": false,
+          "displayStyle": 2,
+          "catalogs": [
+            1
+          ]
+        },
+        "image": {
+          "id": 2567026,
+          "originName": "remote_upl_68dcd17f12d651.53920627",
+          "fileType": "image",
+          "fileSize": 47539,
+          "width": 800,
+          "height": 800,
+          "cropUrlTemplate": "https://tsx.x5static.net/i/%s/xdelivery/files/8a/32/b6ff78ff2bd35b5fe0c745ce6d2d.jpg",
+          "publicUrl": null,
+          "uuid": "7ad55b9b-30b0-4467-9aac-b8bc346164c4"
+        },
+        "rating": 495,
+        "medianPrice": 10499,
+        "labelCharacteristics": [],
+        "labels": [],
+        "reviewCount": 102,
+        "ratingCount": 2026,
+        "priceTag": {
+          "price": 10499,
+          "discountMinimumAmount": 0,
+          "grossPrice": 11299,
+          "labels": [
+            {
+              "type": "yellow",
+              "text": "-7%"
+            }
+          ],
+          "pricePerQuantum": null,
+          "grossPricePerQuantum": null,
+          "potentialPointsForOrangeCard": null
+        },
+        "balanceState": "many"
+      },
+      {
+        "liked": false,
+        "recSysRecommendationRequestId": null,
+        "borderStyle": null,
+        "bestReview": null,
+        "advToken": null,
+        "id": 445841,
+        "masterData": {
+          "slug": "bumaga-art-i-dizajn-obertocnaa-70h100-sm",
+          "plu": "4384589",
+          "unit": 1,
+          "unitName": "шт",
+          "quantum": 1000,
+          "quantumStep": 1000,
+          "weight": 8,
+          "volume": null,
+          "ui4code": "NF1401001",
+          "taxGroup": "HB",
+          "ownProduction": false,
+          "privateLabel": false,
+          "isMark": false,
+          "alcoSetUnits": null,
+          "activeNds": 22
+        },
+        "title": "Бумага Арт и Дизайн обёрточная 70х100 см",
+        "primaryCategory": {
+          "id": 456,
+          "title": "Сезонные товары",
+          "slug": "sezonnye-tovary",
+          "isAlcohol": false,
+          "isTobacco": false,
+          "isExciseAlcohol": false,
+          "isAdultContent": false,
+          "displayStyle": 2,
+          "catalogs": [
+            2,
+            3,
+            4
+          ]
+        },
+        "catalogPrimaryCategory": {
+          "id": 42,
+          "title": "Всё для праздника",
+          "slug": "vse-dla-prazdnika",
+          "isAlcohol": false,
+          "isTobacco": false,
+          "isExciseAlcohol": false,
+          "isAdultContent": false,
+          "displayStyle": 2,
+          "catalogs": [
+            1
+          ]
+        },
+        "image": {
+          "id": 2690292,
+          "originName": "remote_upl_68fb4035b11e01.78128356",
+          "fileType": "image",
+          "fileSize": 117657,
+          "width": 800,
+          "height": 800,
+          "cropUrlTemplate": "https://tsx.x5static.net/i/%s/xdelivery/files/0a/0a/f7e120456b124dbb1f4d80db59d6.jpg",
+          "publicUrl": null,
+          "uuid": "9bb7af27-2724-4095-80a8-6513a9900ae1"
+        },
+        "rating": 497,
+        "medianPrice": 10999,
+        "labelCharacteristics": [],
+        "labels": [],
+        "reviewCount": 10,
+        "ratingCount": 79,
+        "priceTag": {
+          "price": 10499,
+          "discountMinimumAmount": 0,
+          "grossPrice": null,
+          "labels": [],
+          "pricePerQuantum": null,
+          "grossPricePerQuantum": null,
+          "potentialPointsForOrangeCard": null
+        },
+        "balanceState": "many"
+      },
+      {
+        "liked": false,
+        "recSysRecommendationRequestId": null,
+        "borderStyle": null,
+        "bestReview": null,
+        "advToken": null,
+        "id": 454131,
+        "masterData": {
+          "slug": "vetcina-cerkizovo-dla-tostov-iz-svininy-varenaa-100g",
+          "plu": "4400358",
+          "unit": 1,
+          "unitName": "шт",
+          "quantum": 1000,
+          "quantumStep": 1000,
+          "weight": 100,
+          "volume": null,
+          "ui4code": "FR0701028",
+          "taxGroup": "BB",
+          "ownProduction": false,
+          "privateLabel": false,
+          "isMark": false,
+          "alcoSetUnits": null,
+          "activeNds": 10
+        },
+        "title": "Ветчина Черкизово для тостов из свинины варёная, 100г",
+        "primaryCategory": {
+          "id": 384,
+          "title": "Колбаса, бекон, паштет",
+          "slug": "kolbasa-bekon-pastet",
+          "isAlcohol": false,
+          "isTobacco": false,
+          "isExciseAlcohol": false,
+          "isAdultContent": false,
+          "displayStyle": 2,
+          "catalogs": [
+            2,
+            3,
+            4
+          ]
+        },
+        "catalogPrimaryCategory": {
+          "id": 783,
+          "title": "Ветчина",
+          "slug": "vetcina",
+          "isAlcohol": false,
+          "isTobacco": false,
+          "isExciseAlcohol": false,
+          "isAdultContent": false,
+          "displayStyle": 2,
+          "catalogs": [
+            1
+          ]
+        },
+        "image": {
+          "id": 2580150,
+          "originName": "remote_upl_68de23033616f4.21404199",
+          "fileType": "image",
+          "fileSize": 65005,
+          "width": 800,
+          "height": 800,
+          "cropUrlTemplate": "https://tsx.x5static.net/i/%s/xdelivery/files/8b/43/c21c81e4632fc55027b736a3bd71.jpg",
+          "publicUrl": null,
+          "uuid": "051676a6-4705-48b4-861c-b3d9a359182c"
+        },
+        "rating": 490,
+        "medianPrice": 10499,
+        "labelCharacteristics": [],
+        "labels": [],
+        "reviewCount": 185,
+        "ratingCount": 2038,
+        "priceTag": {
+          "price": 10499,
+          "discountMinimumAmount": 0,
+          "grossPrice": 16999,
+          "labels": [
+            {
+              "type": "yellow",
+              "text": "-38%"
+            }
+          ],
+          "pricePerQuantum": null,
+          "grossPricePerQuantum": null,
+          "potentialPointsForOrangeCard": null
+        },
+        "balanceState": "many"
+      },
+      {
+        "liked": false,
+        "recSysRecommendationRequestId": null,
+        "borderStyle": null,
+        "bestReview": null,
+        "advToken": null,
+        "id": 23671,
+        "masterData": {
+          "slug": "paket-podarocnyj-art-i-dizajn-standart-plus-bc-v-assortimente-18h22-3sm",
+          "plu": "3921952",
+          "unit": 1,
+          "unitName": "шт",
+          "quantum": 1000,
+          "quantumStep": 1000,
+          "weight": 29,
+          "volume": null,
+          "ui4code": "NF1401001",
+          "taxGroup": "HB",
+          "ownProduction": false,
+          "privateLabel": false,
+          "isMark": false,
+          "alcoSetUnits": null,
+          "activeNds": 22
+        },
+        "title": "Пакет подарочный Арт и Дизайн стандарт плюс BC в ассортименте 18х22.3см",
+        "primaryCategory": {
+          "id": 456,
+          "title": "Сезонные товары",
+          "slug": "sezonnye-tovary",
+          "isAlcohol": false,
+          "isTobacco": false,
+          "isExciseAlcohol": false,
+          "isAdultContent": false,
+          "displayStyle": 2,
+          "catalogs": [
+            2,
+            3,
+            4
+          ]
+        },
+        "catalogPrimaryCategory": {
+          "id": 1709,
+          "title": "Подарки",
+          "slug": "podarki",
+          "isAlcohol": false,
+          "isTobacco": false,
+          "isExciseAlcohol": false,
+          "isAdultContent": false,
+          "displayStyle": 2,
+          "catalogs": [
+            1
+          ]
+        },
+        "image": {
+          "id": 2833941,
+          "originName": "remote_upl_692884754d4d22.31007765",
+          "fileType": "image",
+          "fileSize": 63839,
+          "width": 800,
+          "height": 800,
+          "cropUrlTemplate": "https://tsx.x5static.net/i/%s/xdelivery/files/33/4b/383d395bc7a9c1bed1657878d71b.jpg",
+          "publicUrl": null,
+          "uuid": "5bdd2a15-5c2a-49f4-b0bb-f696edefda6c"
+        },
+        "rating": 494,
+        "medianPrice": 10999,
+        "labelCharacteristics": [],
+        "labels": [],
+        "reviewCount": 57,
+        "ratingCount": 1291,
+        "priceTag": {
+          "price": 10999,
+          "discountMinimumAmount": 0,
+          "grossPrice": null,
+          "labels": [],
+          "pricePerQuantum": null,
+          "grossPricePerQuantum": null,
+          "potentialPointsForOrangeCard": null
+        },
+        "balanceState": "many"
+      },
+      {
+        "liked": false,
+        "recSysRecommendationRequestId": null,
+        "borderStyle": null,
+        "bestReview": null,
+        "advToken": null,
+        "id": 302336,
+        "masterData": {
+          "slug": "assorti-svezie-petruska-ukrop-luk-100g",
+          "plu": "3364060",
+          "unit": 1,
+          "unitName": "шт",
+          "quantum": 1000,
+          "quantumStep": 1000,
+          "weight": 100,
+          "volume": null,
+          "ui4code": "FR0906001",
+          "taxGroup": "BB",
+          "ownProduction": false,
+          "privateLabel": false,
+          "isMark": false,
+          "alcoSetUnits": null,
+          "activeNds": 10
+        },
+        "title": "Ассорти свежие петрушка-укроп-лук, 100г",
+        "primaryCategory": {
+          "id": 366,
+          "title": "Овощи, зелень, грибы",
+          "slug": "ovosi-zelen-griby",
+          "isAlcohol": false,
+          "isTobacco": false,
+          "isExciseAlcohol": false,
+          "isAdultContent": false,
+          "displayStyle": 2,
+          "catalogs": [
+            2,
+            3
+          ]
+        },
+        "catalogPrimaryCategory": {
+          "id": 1589,
+          "title": "Окрошка",
+          "slug": "okroska",
+          "isAlcohol": false,
+          "isTobacco": false,
+          "isExciseAlcohol": false,
+          "isAdultContent": false,
+          "displayStyle": 2,
+          "catalogs": [
+            1
+          ]
+        },
+        "image": {
+          "id": 2548008,
+          "originName": "remote_upl_68dc60ffa0b2d8.13514887",
+          "fileType": "image",
+          "fileSize": 65232,
+          "width": 800,
+          "height": 800,
+          "cropUrlTemplate": "https://tsx.x5static.net/i/%s/xdelivery/files/53/d2/547f2c75a19a2563a819e1500251.jpg",
+          "publicUrl": null,
+          "uuid": "eff0a6c6-4983-4c46-b0b2-43b85f6bb467"
+        },
+        "rating": 488,
+        "medianPrice": 10999,
+        "labelCharacteristics": [],
+        "labels": [],
+        "reviewCount": 161,
+        "ratingCount": 3402,
+        "priceTag": {
+          "price": 10999,
+          "discountMinimumAmount": 0,
+          "grossPrice": null,
+          "labels": [],
+          "pricePerQuantum": null,
+          "grossPricePerQuantum": null,
+          "potentialPointsForOrangeCard": null
+        },
+        "balanceState": "many"
+      },
+      {
+        "liked": false,
+        "recSysRecommendationRequestId": null,
+        "borderStyle": null,
+        "bestReview": null,
+        "advToken": null,
+        "id": 362569,
+        "masterData": {
+          "slug": "kristally-baffy-kupajsa-veselo-v-assortimente-10g",
+          "plu": "4255856",
+          "unit": 1,
+          "unitName": "шт",
+          "quantum": 1000,
+          "quantumStep": 1000,
+          "weight": 10,
+          "volume": null,
+          "ui4code": "FD0301002",
+          "taxGroup": "HB",
+          "ownProduction": false,
+          "privateLabel": false,
+          "isMark": true,
+          "alcoSetUnits": null,
+          "activeNds": 22
+        },
+        "title": "Кристаллы Baffy Купайся весело в ассортименте 10г",
+        "primaryCategory": {
+          "id": 437,
+          "title": "Детская гигиена",
+          "slug": "detskaa-gigiena",
+          "isAlcohol": false,
+          "isTobacco": false,
+          "isExciseAlcohol": false,
+          "isAdultContent": false,
+          "displayStyle": 2,
+          "catalogs": [
+            2,
+            3,
+            4
+          ]
+        },
+        "catalogPrimaryCategory": {
+          "id": 231,
+          "title": "Гигиена и уход",
+          "slug": "gigiena-i-uhod",
+          "isAlcohol": false,
+          "isTobacco": false,
+          "isExciseAlcohol": false,
+          "isAdultContent": false,
+          "displayStyle": 2,
+          "catalogs": [
+            1
+          ]
+        },
+        "image": {
+          "id": 2638925,
+          "originName": "remote_upl_68eed5fa6c18c2.95911591",
+          "fileType": "image",
+          "fileSize": 77741,
+          "width": 800,
+          "height": 800,
+          "cropUrlTemplate": "https://tsx.x5static.net/i/%s/xdelivery/files/c0/58/97d2881fd01f44338d5510789c4f.jpg",
+          "publicUrl": null,
+          "uuid": "3322a98b-2204-4744-b1ad-34185efa20eb"
+        },
+        "rating": 490,
+        "medianPrice": 10999,
+        "labelCharacteristics": [],
+        "labels": [],
+        "reviewCount": 54,
+        "ratingCount": 610,
+        "priceTag": {
+          "price": 10999,
+          "discountMinimumAmount": 0,
+          "grossPrice": null,
+          "labels": [],
+          "pricePerQuantum": null,
+          "grossPricePerQuantum": null,
+          "potentialPointsForOrangeCard": null
+        },
+        "balanceState": "many"
+      },
+      {
+        "liked": false,
+        "recSysRecommendationRequestId": null,
+        "borderStyle": null,
+        "bestReview": null,
+        "advToken": null,
+        "id": 488760,
+        "masterData": {
+          "slug": "napitok-gazirovannyj-kola-sneznaa-iriska-1l",
+          "plu": "4429394",
+          "unit": 1,
+          "unitName": "шт",
+          "quantum": 1000,
+          "quantumStep": 1000,
+          "weight": 1000,
+          "volume": 1000,
+          "ui4code": "FD0803002",
+          "taxGroup": "HB",
+          "ownProduction": false,
+          "privateLabel": false,
+          "isMark": true,
+          "alcoSetUnits": null,
+          "activeNds": 22
+        },
+        "title": "Напиток газированный Кола Снежная Ириска, 1л",
+        "primaryCategory": {
+          "id": 423,
+          "title": "Газировка",
+          "slug": "gazirovka",
+          "isAlcohol": false,
+          "isTobacco": false,
+          "isExciseAlcohol": false,
+          "isAdultContent": false,
+          "displayStyle": 2,
+          "catalogs": [
+            2,
+            3,
+            4
+          ]
+        },
+        "catalogPrimaryCategory": {
+          "id": 209,
+          "title": "Газированные напитки",
+          "slug": "gazirovannye-napitki",
+          "isAlcohol": false,
+          "isTobacco": false,
+          "isExciseAlcohol": false,
+          "isAdultContent": false,
+          "displayStyle": 2,
+          "catalogs": [
+            1
+          ]
+        },
+        "image": {
+          "id": 2721927,
+          "originName": "remote_upl_690a4d39929830.75958314",
+          "fileType": "image",
+          "fileSize": 38799,
+          "width": 800,
+          "height": 800,
+          "cropUrlTemplate": "https://tsx.x5static.net/i/%s/xdelivery/files/3e/d3/e8d4de5xd649918fa77fa00318f9.jpg",
+          "publicUrl": null,
+          "uuid": "e23bc874-b6cc-4ef8-92a6-233aee8a0b26"
+        },
+        "rating": 472,
+        "medianPrice": 10999,
+        "labelCharacteristics": [],
+        "labels": [],
+        "reviewCount": 72,
+        "ratingCount": 619,
+        "priceTag": {
+          "price": 10999,
+          "discountMinimumAmount": 0,
+          "grossPrice": null,
+          "labels": [],
+          "pricePerQuantum": null,
+          "grossPricePerQuantum": null,
+          "potentialPointsForOrangeCard": null
+        },
+        "balanceState": "many"
+      },
+      {
+        "liked": false,
+        "recSysRecommendationRequestId": null,
+        "borderStyle": null,
+        "bestReview": null,
+        "advToken": null,
+        "id": 18769,
+        "masterData": {
+          "slug": "paket-podarocnyj-art-i-dizajn-vs-20h24h10-2sm",
+          "plu": "3689204",
+          "unit": 1,
+          "unitName": "шт",
+          "quantum": 1000,
+          "quantumStep": 1000,
+          "weight": 35,
+          "volume": null,
+          "ui4code": "NF1401001",
+          "taxGroup": "HB",
+          "ownProduction": false,
+          "privateLabel": false,
+          "isMark": false,
+          "alcoSetUnits": null,
+          "activeNds": 22
+        },
+        "title": "Пакет подарочный Арт и Дизайн ВС, 20х24х10.2см",
+        "primaryCategory": {
+          "id": 456,
+          "title": "Сезонные товары",
+          "slug": "sezonnye-tovary",
+          "isAlcohol": false,
+          "isTobacco": false,
+          "isExciseAlcohol": false,
+          "isAdultContent": false,
+          "displayStyle": 2,
+          "catalogs": [
+            2,
+            3,
+            4
+          ]
+        },
+        "catalogPrimaryCategory": {
+          "id": 1709,
+          "title": "Подарки",
+          "slug": "podarki",
+          "isAlcohol": false,
+          "isTobacco": false,
+          "isExciseAlcohol": false,
+          "isAdultContent": false,
+          "displayStyle": 2,
+          "catalogs": [
+            1
+          ]
+        },
+        "image": {
+          "id": 2846714,
+          "originName": "remote_upl_692885c5665219.49589828",
+          "fileType": "image",
+          "fileSize": 63248,
+          "width": 800,
+          "height": 800,
+          "cropUrlTemplate": "https://tsx.x5static.net/i/%s/xdelivery/files/a3/5f/4b6e90e852c5660201c8cca6606d.jpg",
+          "publicUrl": null,
+          "uuid": "2cfe5a49-b799-4930-84ce-44fe94475bb4"
+        },
+        "rating": 489,
+        "medianPrice": 11499,
+        "labelCharacteristics": [],
+        "labels": [],
+        "reviewCount": 4,
+        "ratingCount": 142,
+        "priceTag": {
+          "price": 11499,
+          "discountMinimumAmount": 0,
+          "grossPrice": null,
+          "labels": [],
+          "pricePerQuantum": null,
+          "grossPricePerQuantum": null,
+          "potentialPointsForOrangeCard": null
+        },
+        "balanceState": "many"
+      },
+      {
+        "liked": false,
+        "recSysRecommendationRequestId": null,
+        "borderStyle": null,
+        "bestReview": null,
+        "advToken": null,
+        "id": 378389,
+        "masterData": {
+          "slug": "napitok-gazirovannyj-evervess-kola-1l",
+          "plu": "4279557",
+          "unit": 1,
+          "unitName": "шт",
+          "quantum": 1000,
+          "quantumStep": 1000,
+          "weight": 1000,
+          "volume": 1000,
+          "ui4code": "FD0803002",
+          "taxGroup": "HB",
+          "ownProduction": false,
+          "privateLabel": false,
+          "isMark": true,
+          "alcoSetUnits": null,
+          "activeNds": 22
+        },
+        "title": "Напиток газированный Evervess Кола, 1л",
+        "primaryCategory": {
+          "id": 423,
+          "title": "Газировка",
+          "slug": "gazirovka",
+          "isAlcohol": false,
+          "isTobacco": false,
+          "isExciseAlcohol": false,
+          "isAdultContent": false,
+          "displayStyle": 2,
+          "catalogs": [
+            2,
+            3,
+            4
+          ]
+        },
+        "catalogPrimaryCategory": {
+          "id": 209,
+          "title": "Газированные напитки",
+          "slug": "gazirovannye-napitki",
+          "isAlcohol": false,
+          "isTobacco": false,
+          "isExciseAlcohol": false,
+          "isAdultContent": false,
+          "displayStyle": 2,
+          "catalogs": [
+            1
+          ]
+        },
+        "image": {
+          "id": 2953100,
+          "originName": "remote_upl_69316a0c3ae045.65168935",
+          "fileType": "image",
+          "fileSize": 34960,
+          "width": 800,
+          "height": 800,
+          "cropUrlTemplate": "https://tsx.x5static.net/i/%s/xdelivery/files/a4/14/3142e0efdxd48e14c6fc6d38ec74.jpg",
+          "publicUrl": null,
+          "uuid": "39852206-2725-431c-a757-ea89d1584f6d"
+        },
+        "rating": 491,
+        "medianPrice": 11499,
+        "labelCharacteristics": [],
+        "labels": [],
+        "reviewCount": 548,
+        "ratingCount": 11669,
+        "priceTag": {
+          "price": 11499,
+          "discountMinimumAmount": 0,
+          "grossPrice": null,
+          "labels": [],
+          "pricePerQuantum": null,
+          "grossPricePerQuantum": null,
+          "potentialPointsForOrangeCard": null
+        },
+        "balanceState": "many"
+      },
+      {
+        "liked": false,
+        "recSysRecommendationRequestId": null,
+        "borderStyle": null,
+        "bestReview": null,
+        "advToken": null,
+        "id": 17179,
+        "masterData": {
+          "slug": "upakovocnaa-bumaga-art-i-dizajn-v-assortimente-1st",
+          "plu": "3382023",
+          "unit": 1,
+          "unitName": "шт",
+          "quantum": 1000,
+          "quantumStep": 1000,
+          "weight": 310,
+          "volume": null,
+          "ui4code": "NF1401001",
+          "taxGroup": "HB",
+          "ownProduction": false,
+          "privateLabel": false,
+          "isMark": false,
+          "alcoSetUnits": null,
+          "activeNds": 22
+        },
+        "title": "Упаковочная бумага Арт и Дизайн в ассортименте, 1шт",
+        "primaryCategory": {
+          "id": 456,
+          "title": "Сезонные товары",
+          "slug": "sezonnye-tovary",
+          "isAlcohol": false,
+          "isTobacco": false,
+          "isExciseAlcohol": false,
+          "isAdultContent": false,
+          "displayStyle": 2,
+          "catalogs": [
+            2,
+            3,
+            4
+          ]
+        },
+        "catalogPrimaryCategory": {
+          "id": 36,
+          "title": "Всё для хранения",
+          "slug": "vse-dla-hranenia",
+          "isAlcohol": false,
+          "isTobacco": false,
+          "isExciseAlcohol": false,
+          "isAdultContent": false,
+          "displayStyle": 2,
+          "catalogs": [
+            1
+          ]
+        },
+        "image": {
+          "id": 2642866,
+          "originName": "remote_upl_68f0277caceb26.94774023",
+          "fileType": "image",
+          "fileSize": 151536,
+          "width": 800,
+          "height": 533,
+          "cropUrlTemplate": "https://tsx.x5static.net/i/%s/xdelivery/files/87/74/33d5b9138cb6c6d78ca8a03f9f4c.jpg",
+          "publicUrl": null,
+          "uuid": "6689429c-e8c2-4ba1-a2bd-dc09bbe359ed"
+        },
+        "rating": 492,
+        "medianPrice": 11999,
+        "labelCharacteristics": [],
+        "labels": [],
+        "reviewCount": 91,
+        "ratingCount": 2540,
+        "priceTag": {
+          "price": 11999,
+          "discountMinimumAmount": 0,
+          "grossPrice": null,
+          "labels": [],
+          "pricePerQuantum": null,
+          "grossPricePerQuantum": null,
+          "potentialPointsForOrangeCard": null
+        },
+        "balanceState": "many"
+      },
+      {
+        "liked": false,
+        "recSysRecommendationRequestId": null,
+        "borderStyle": null,
+        "bestReview": null,
+        "advToken": null,
+        "id": 35839,
+        "masterData": {
+          "slug": "selderej-cereskovyj-1st",
+          "plu": "2065179",
+          "unit": 1,
+          "unitName": "шт",
+          "quantum": 1000,
+          "quantumStep": 1000,
+          "weight": 250,
+          "volume": null,
+          "ui4code": "FR0906007",
+          "taxGroup": "BB",
+          "ownProduction": false,
+          "privateLabel": false,
+          "isMark": false,
+          "alcoSetUnits": null,
+          "activeNds": 10
+        },
+        "title": "Сельдерей черешковый, 1шт",
+        "primaryCategory": {
+          "id": 366,
+          "title": "Овощи, зелень, грибы",
+          "slug": "ovosi-zelen-griby",
+          "isAlcohol": false,
+          "isTobacco": false,
+          "isExciseAlcohol": false,
+          "isAdultContent": false,
+          "displayStyle": 2,
+          "catalogs": [
+            2,
+            3
+          ]
+        },
+        "catalogPrimaryCategory": {
+          "id": 150,
+          "title": "Овощи",
+          "slug": "ovosi",
+          "isAlcohol": false,
+          "isTobacco": false,
+          "isExciseAlcohol": false,
+          "isAdultContent": false,
+          "displayStyle": 2,
+          "catalogs": [
+            1
+          ]
+        },
+        "image": {
+          "id": 2623779,
+          "originName": "remote_upl_68e795e1e76ec0.77285202",
+          "fileType": "image",
+          "fileSize": 40487,
+          "width": 800,
+          "height": 800,
+          "cropUrlTemplate": "https://tsx.x5static.net/i/%s/xdelivery/files/2c/c1/52fcfb541487ac8ce9460d3d57ec.jpg",
+          "publicUrl": null,
+          "uuid": "c9926095-ff01-4ea5-9a38-469e84fa5bf1"
+        },
+        "rating": 485,
+        "medianPrice": 11999,
+        "labelCharacteristics": [],
+        "labels": [],
+        "reviewCount": 1635,
+        "ratingCount": 29899,
+        "priceTag": {
+          "price": 11999,
+          "discountMinimumAmount": 0,
+          "grossPrice": 13999,
+          "labels": [
+            {
+              "type": "yellow",
+              "text": "-14%"
+            }
+          ],
+          "pricePerQuantum": null,
+          "grossPricePerQuantum": null,
+          "potentialPointsForOrangeCard": null
+        },
+        "balanceState": "many"
+      },
+      {
+        "liked": false,
+        "recSysRecommendationRequestId": null,
+        "borderStyle": null,
+        "bestReview": null,
+        "advToken": null,
+        "id": 45808,
+        "masterData": {
+          "slug": "sok-sady-pridona-abloko-visna-dla-detskogo-pitania-1l",
+          "plu": "80181",
+          "unit": 1,
+          "unitName": "шт",
+          "quantum": 1000,
+          "quantumStep": 1000,
+          "weight": 1000,
+          "volume": 1000,
+          "ui4code": "FD0805002",
+          "taxGroup": "BB",
+          "ownProduction": false,
+          "privateLabel": false,
+          "isMark": true,
+          "alcoSetUnits": null,
+          "activeNds": 10
+        },
+        "title": "Сок Сады Придонья яблоко-вишня для детского питания, 1л",
+        "primaryCategory": {
+          "id": 425,
+          "title": "Сок, морс",
+          "slug": "sok-mors",
+          "isAlcohol": false,
+          "isTobacco": false,
+          "isExciseAlcohol": false,
+          "isAdultContent": false,
+          "displayStyle": 2,
+          "catalogs": [
+            2,
+            3,
+            4
+          ]
+        },
+        "catalogPrimaryCategory": {
+          "id": 1705,
+          "title": "Меню на праздник",
+          "slug": "menu-na-prazdnik",
+          "isAlcohol": false,
+          "isTobacco": false,
+          "isExciseAlcohol": false,
+          "isAdultContent": false,
+          "displayStyle": 2,
+          "catalogs": [
+            1
+          ]
+        },
+        "image": {
+          "id": 2575896,
+          "originName": "remote_upl_68ddce9d0f2274.96354352",
+          "fileType": "image",
+          "fileSize": 56944,
+          "width": 800,
+          "height": 800,
+          "cropUrlTemplate": "https://tsx.x5static.net/i/%s/xdelivery/files/6b/b1/e4d4037c0cc0cdc47e7d5ea3a194.jpg",
+          "publicUrl": null,
+          "uuid": "d6393ddd-d962-499e-af95-2ab4a82de932"
+        },
+        "rating": 495,
+        "medianPrice": 11999,
+        "labelCharacteristics": [],
+        "labels": [
+          {
+            "listingImage": {
+              "id": 3082440,
+              "originName": "Frame 2131330266.png",
+              "fileType": "image",
+              "fileSize": 188139,
+              "width": 400,
+              "height": 400,
+              "cropUrlTemplate": "https://tsx.x5static.net/i/%s/xdelivery/files/5a/18/d68e23897ac5e6cee6522c7d5b5c.png",
+              "publicUrl": null,
+              "uuid": "fc207c06-cc32-4be9-ad38-91cb423faa26"
+            },
+            "toolTip": null
+          }
+        ],
+        "reviewCount": 524,
+        "ratingCount": 15616,
+        "priceTag": {
+          "price": 11999,
+          "discountMinimumAmount": 0,
+          "grossPrice": 14999,
+          "labels": [
+            {
+              "type": "yellow",
+              "text": "-20%"
+            }
+          ],
+          "pricePerQuantum": null,
+          "grossPricePerQuantum": null,
+          "potentialPointsForOrangeCard": null
+        },
+        "balanceState": "many"
+      },
+      {
+        "liked": false,
+        "recSysRecommendationRequestId": null,
+        "borderStyle": null,
+        "bestReview": null,
+        "advToken": null,
+        "id": 267133,
+        "masterData": {
+          "slug": "servelat-vareno-kopcenyj-ostankino-svejcarskij-v-narezke-100g",
+          "plu": "4064566",
+          "unit": 1,
+          "unitName": "шт",
+          "quantum": 1000,
+          "quantumStep": 1000,
+          "weight": 100,
+          "volume": null,
+          "ui4code": "FR0701027",
+          "taxGroup": "BB",
+          "ownProduction": false,
+          "privateLabel": false,
+          "isMark": false,
+          "alcoSetUnits": null,
+          "activeNds": 10
+        },
+        "title": "Сервелат варёно-копчёный Останкино Швейцарский в нарезке, 100г",
+        "primaryCategory": {
+          "id": 384,
+          "title": "Колбаса, бекон, паштет",
+          "slug": "kolbasa-bekon-pastet",
+          "isAlcohol": false,
+          "isTobacco": false,
+          "isExciseAlcohol": false,
+          "isAdultContent": false,
+          "displayStyle": 2,
+          "catalogs": [
+            2,
+            3,
+            4
+          ]
+        },
+        "catalogPrimaryCategory": {
+          "id": 133,
+          "title": "Колбаса",
+          "slug": "kolbasa",
+          "isAlcohol": false,
+          "isTobacco": false,
+          "isExciseAlcohol": false,
+          "isAdultContent": false,
+          "displayStyle": 2,
+          "catalogs": [
+            1
+          ]
+        },
+        "image": {
+          "id": 2707495,
+          "originName": "remote_upl_6900da916165f9.69861580",
+          "fileType": "image",
+          "fileSize": 68228,
+          "width": 800,
+          "height": 800,
+          "cropUrlTemplate": "https://tsx.x5static.net/i/%s/xdelivery/files/07/ac/eae8f811c3c161491b9797d9396e.jpg",
+          "publicUrl": null,
+          "uuid": "daf0f3cd-a1c5-45f4-a8ac-eafeaeba3271"
+        },
+        "rating": 489,
+        "medianPrice": 11999,
+        "labelCharacteristics": [],
+        "labels": [],
+        "reviewCount": 229,
+        "ratingCount": 5542,
+        "priceTag": {
+          "price": 11999,
+          "discountMinimumAmount": 0,
+          "grossPrice": 19799,
+          "labels": [
+            {
+              "type": "yellow",
+              "text": "-39%"
+            }
+          ],
+          "pricePerQuantum": null,
+          "grossPricePerQuantum": null,
+          "potentialPointsForOrangeCard": null
+        },
+        "balanceState": "many"
+      },
+      {
+        "liked": false,
+        "recSysRecommendationRequestId": null,
+        "borderStyle": null,
+        "bestReview": null,
+        "advToken": null,
+        "id": 284834,
+        "masterData": {
+          "slug": "rukola-mytaa-market-fresh-50g",
+          "plu": "3358128",
+          "unit": 1,
+          "unitName": "шт",
+          "quantum": 1000,
+          "quantumStep": 1000,
+          "weight": 50,
+          "volume": null,
+          "ui4code": "FR0906012",
+          "taxGroup": "BB",
+          "ownProduction": false,
+          "privateLabel": true,
+          "isMark": false,
+          "alcoSetUnits": null,
+          "activeNds": 10
+        },
+        "title": "Рукола мытая Маркет Fresh, 50г",
+        "primaryCategory": {
+          "id": 366,
+          "title": "Овощи, зелень, грибы",
+          "slug": "ovosi-zelen-griby",
+          "isAlcohol": false,
+          "isTobacco": false,
+          "isExciseAlcohol": false,
+          "isAdultContent": false,
+          "displayStyle": 2,
+          "catalogs": [
+            2,
+            3
+          ]
+        },
+        "catalogPrimaryCategory": {
+          "id": 1704,
+          "title": "Салатная классика",
+          "slug": "salatnaa-klassika",
+          "isAlcohol": false,
+          "isTobacco": false,
+          "isExciseAlcohol": false,
+          "isAdultContent": false,
+          "displayStyle": 2,
+          "catalogs": [
+            1
+          ]
+        },
+        "image": {
+          "id": 2594312,
+          "originName": "remote_upl_68e3d97cb67f32.50053883",
+          "fileType": "image",
+          "fileSize": 79545,
+          "width": 800,
+          "height": 800,
+          "cropUrlTemplate": "https://tsx.x5static.net/i/%s/xdelivery/files/db/51/815df2000f5ba0b7c4a22ab89061.jpg",
+          "publicUrl": null,
+          "uuid": "4dbbc983-8b07-4d2a-910d-c84c0432a345"
+        },
+        "rating": 488,
+        "medianPrice": 12999,
+        "labelCharacteristics": [],
+        "labels": [],
+        "reviewCount": 509,
+        "ratingCount": 8195,
+        "priceTag": {
+          "price": 11999,
+          "discountMinimumAmount": 0,
+          "grossPrice": 16999,
+          "labels": [
+            {
+              "type": "yellow",
+              "text": "-29%"
+            }
+          ],
+          "pricePerQuantum": null,
+          "grossPricePerQuantum": null,
+          "potentialPointsForOrangeCard": null
+        },
+        "balanceState": "many"
+      },
+      {
+        "liked": false,
+        "recSysRecommendationRequestId": null,
+        "borderStyle": null,
+        "bestReview": null,
+        "advToken": null,
+        "id": 324260,
+        "masterData": {
+          "slug": "napitok-gazirovannyj-fancy-1-5l",
+          "plu": "4223138",
+          "unit": 1,
+          "unitName": "шт",
+          "quantum": 1000,
+          "quantumStep": 1000,
+          "weight": 1500,
+          "volume": 1500,
+          "ui4code": "FD0803002",
+          "taxGroup": "HB",
+          "ownProduction": false,
+          "privateLabel": false,
+          "isMark": true,
+          "alcoSetUnits": null,
+          "activeNds": 22
+        },
+        "title": "Напиток газированный Fancy, 1.5л",
+        "primaryCategory": {
+          "id": 423,
+          "title": "Газировка",
+          "slug": "gazirovka",
+          "isAlcohol": false,
+          "isTobacco": false,
+          "isExciseAlcohol": false,
+          "isAdultContent": false,
+          "displayStyle": 2,
+          "catalogs": [
+            2,
+            3,
+            4
+          ]
+        },
+        "catalogPrimaryCategory": {
+          "id": 209,
+          "title": "Газированные напитки",
+          "slug": "gazirovannye-napitki",
+          "isAlcohol": false,
+          "isTobacco": false,
+          "isExciseAlcohol": false,
+          "isAdultContent": false,
+          "displayStyle": 2,
+          "catalogs": [
+            1
+          ]
+        },
+        "image": {
+          "id": 2578050,
+          "originName": "remote_upl_68de22fede9823.60683007",
+          "fileType": "image",
+          "fileSize": 27993,
+          "width": 800,
+          "height": 800,
+          "cropUrlTemplate": "https://tsx.x5static.net/i/%s/xdelivery/files/b7/2e/c53c938e58e7249859f511c5cd67.jpg",
+          "publicUrl": null,
+          "uuid": "1abd665b-7710-4976-9048-e8f2e43dde03"
+        },
+        "rating": 487,
+        "medianPrice": 11999,
+        "labelCharacteristics": [],
+        "labels": [],
+        "reviewCount": 145,
+        "ratingCount": 4159,
+        "priceTag": {
+          "price": 11999,
+          "discountMinimumAmount": 0,
+          "grossPrice": null,
+          "labels": [],
+          "pricePerQuantum": null,
+          "grossPricePerQuantum": null,
+          "potentialPointsForOrangeCard": null
+        },
+        "balanceState": "many"
+      },
+      {
+        "liked": false,
+        "recSysRecommendationRequestId": null,
+        "borderStyle": null,
+        "bestReview": null,
+        "advToken": null,
+        "id": 324376,
+        "masterData": {
+          "slug": "napitok-gazirovannyj-street-1-5l",
+          "plu": "4223137",
+          "unit": 1,
+          "unitName": "шт",
+          "quantum": 1000,
+          "quantumStep": 1000,
+          "weight": 1500,
+          "volume": 1500,
+          "ui4code": "FD0803002",
+          "taxGroup": "HB",
+          "ownProduction": false,
+          "privateLabel": false,
+          "isMark": true,
+          "alcoSetUnits": null,
+          "activeNds": 22
+        },
+        "title": "Напиток газированный Street, 1.5л",
+        "primaryCategory": {
+          "id": 423,
+          "title": "Газировка",
+          "slug": "gazirovka",
+          "isAlcohol": false,
+          "isTobacco": false,
+          "isExciseAlcohol": false,
+          "isAdultContent": false,
+          "displayStyle": 2,
+          "catalogs": [
+            2,
+            3,
+            4
+          ]
+        },
+        "catalogPrimaryCategory": {
+          "id": 209,
+          "title": "Газированные напитки",
+          "slug": "gazirovannye-napitki",
+          "isAlcohol": false,
+          "isTobacco": false,
+          "isExciseAlcohol": false,
+          "isAdultContent": false,
+          "displayStyle": 2,
+          "catalogs": [
+            1
+          ]
+        },
+        "image": {
+          "id": 2578726,
+          "originName": "remote_upl_68de2306b58859.70013988",
+          "fileType": "image",
+          "fileSize": 29120,
+          "width": 800,
+          "height": 800,
+          "cropUrlTemplate": "https://tsx.x5static.net/i/%s/xdelivery/files/a6/9b/43ff42b68123a28ca36d9a4984d3.jpg",
+          "publicUrl": null,
+          "uuid": "d3bba223-48a9-4f45-ad4f-86aed6611d91"
+        },
+        "rating": 489,
+        "medianPrice": 11999,
+        "labelCharacteristics": [],
+        "labels": [],
+        "reviewCount": 210,
+        "ratingCount": 6368,
+        "priceTag": {
+          "price": 11999,
+          "discountMinimumAmount": 0,
+          "grossPrice": null,
+          "labels": [],
+          "pricePerQuantum": null,
+          "grossPricePerQuantum": null,
+          "potentialPointsForOrangeCard": null
+        },
+        "balanceState": "many"
+      },
+      {
+        "liked": false,
+        "recSysRecommendationRequestId": null,
+        "borderStyle": null,
+        "bestReview": null,
+        "advToken": null,
+        "id": 357270,
+        "masterData": {
+          "slug": "napitok-gazirovannyj-cool-cola-zero-1-5l",
+          "plu": "4255568",
+          "unit": 1,
+          "unitName": "шт",
+          "quantum": 1000,
+          "quantumStep": 1000,
+          "weight": 1500,
+          "volume": 1500,
+          "ui4code": "FD0803002",
+          "taxGroup": "HB",
+          "ownProduction": false,
+          "privateLabel": false,
+          "isMark": true,
+          "alcoSetUnits": null,
+          "activeNds": 22
+        },
+        "title": "Напиток газированный Cool Cola Zero, 1.5л",
+        "primaryCategory": {
+          "id": 423,
+          "title": "Газировка",
+          "slug": "gazirovka",
+          "isAlcohol": false,
+          "isTobacco": false,
+          "isExciseAlcohol": false,
+          "isAdultContent": false,
+          "displayStyle": 2,
+          "catalogs": [
+            2,
+            3,
+            4
+          ]
+        },
+        "catalogPrimaryCategory": {
+          "id": 209,
+          "title": "Газированные напитки",
+          "slug": "gazirovannye-napitki",
+          "isAlcohol": false,
+          "isTobacco": false,
+          "isExciseAlcohol": false,
+          "isAdultContent": false,
+          "displayStyle": 2,
+          "catalogs": [
+            1
+          ]
+        },
+        "image": {
+          "id": 2578729,
+          "originName": "remote_upl_68de230651f0d0.39117584",
+          "fileType": "image",
+          "fileSize": 29291,
+          "width": 800,
+          "height": 800,
+          "cropUrlTemplate": "https://tsx.x5static.net/i/%s/xdelivery/files/36/d8/965a268b37df180a1dc0668fbf2e.jpg",
+          "publicUrl": null,
+          "uuid": "2b84a85b-dee0-4286-a7c6-728f92cf61bb"
+        },
+        "rating": 487,
+        "medianPrice": 11999,
+        "labelCharacteristics": [],
+        "labels": [],
+        "reviewCount": 349,
+        "ratingCount": 7314,
+        "priceTag": {
+          "price": 11999,
+          "discountMinimumAmount": 0,
+          "grossPrice": null,
+          "labels": [],
+          "pricePerQuantum": null,
+          "grossPricePerQuantum": null,
+          "potentialPointsForOrangeCard": null
+        },
+        "balanceState": "many"
+      },
+      {
+        "liked": false,
+        "recSysRecommendationRequestId": null,
+        "borderStyle": null,
+        "bestReview": null,
+        "advToken": null,
+        "id": 408966,
+        "masterData": {
+          "slug": "napitok-gazirovannyj-rich-bitter-grejpfrut-1l",
+          "plu": "4304881",
+          "unit": 1,
+          "unitName": "шт",
+          "quantum": 1000,
+          "quantumStep": 1000,
+          "weight": 1000,
+          "volume": 1000,
+          "ui4code": "FD0803002",
+          "taxGroup": "HB",
+          "ownProduction": false,
+          "privateLabel": false,
+          "isMark": true,
+          "alcoSetUnits": null,
+          "activeNds": 22
+        },
+        "title": "Напиток газированный Rich bitter грейпфрут, 1л",
+        "primaryCategory": {
+          "id": 423,
+          "title": "Газировка",
+          "slug": "gazirovka",
+          "isAlcohol": false,
+          "isTobacco": false,
+          "isExciseAlcohol": false,
+          "isAdultContent": false,
+          "displayStyle": 2,
+          "catalogs": [
+            2,
+            3,
+            4
+          ]
+        },
+        "catalogPrimaryCategory": {
+          "id": 209,
+          "title": "Газированные напитки",
+          "slug": "gazirovannye-napitki",
+          "isAlcohol": false,
+          "isTobacco": false,
+          "isExciseAlcohol": false,
+          "isAdultContent": false,
+          "displayStyle": 2,
+          "catalogs": [
+            1
+          ]
+        },
+        "image": {
+          "id": 2558397,
+          "originName": "remote_upl_68dc60fbc38617.32823507",
+          "fileType": "image",
+          "fileSize": 26652,
+          "width": 800,
+          "height": 800,
+          "cropUrlTemplate": "https://tsx.x5static.net/i/%s/xdelivery/files/f3/c7/f1b1839df2b8ce9109714173f8a8.jpg",
+          "publicUrl": null,
+          "uuid": "19177ee6-d700-4cb9-8169-6f3f4ffbba23"
+        },
+        "rating": 495,
+        "medianPrice": 11999,
+        "labelCharacteristics": [],
+        "labels": [],
+        "reviewCount": 153,
+        "ratingCount": 2630,
+        "priceTag": {
+          "price": 11999,
+          "discountMinimumAmount": 0,
+          "grossPrice": null,
+          "labels": [],
+          "pricePerQuantum": null,
+          "grossPricePerQuantum": null,
+          "potentialPointsForOrangeCard": null
+        },
+        "balanceState": "many"
+      }
+    ],
+    "paginator": {
+      "step": 48,
+      "current": 1,
+      "nextPageExists": true
+    },
+    "currentSorting": {
+      "orderBy": "price",
+      "orderDirection": "asc"
+    },
+    "canonical": null,
+    "orderByInfoItems": [
+      {
+        "orderBy": "popularity",
+        "orderDirection": "desc",
+        "orderByTitle": "Рекомендуемые",
+        "isSelected": false
+      },
+      {
+        "orderBy": "price",
+        "orderDirection": "asc",
+        "orderByTitle": "Сначала дешевле",
+        "isSelected": true
+      },
+      {
+        "orderBy": "price",
+        "orderDirection": "desc",
+        "orderByTitle": "Сначала дороже",
+        "isSelected": false
+      },
+      {
+        "orderBy": "discount",
+        "orderDirection": "desc",
+        "orderByTitle": "По размеру скидки",
+        "isSelected": false
+      },
+      {
+        "orderBy": "rating",
+        "orderDirection": "desc",
+        "orderByTitle": "По рейтингу",
+        "isSelected": false
+      }
+    ],
+    "searchQueryId": null,
+    "searchType": "strict",
+    "catalogs": [
+      1
+    ]
+  }
+}

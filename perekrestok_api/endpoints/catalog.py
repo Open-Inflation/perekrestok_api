@@ -1,29 +1,39 @@
 """Работа с каталогом"""
 
+from __future__ import annotations
+
+from dataclasses import dataclass
 from typing import TYPE_CHECKING, Literal
 from urllib.parse import quote
 
+from human_requests import autotest
 from human_requests.abstraction import FetchResponse, HttpMethod
 
 from .. import abstraction
+from ..api_base import ApiChild, ApiParent, api_child_field
 
 if TYPE_CHECKING:
     from ..manager import PerekrestokAPI
 
 
-class ClassCatalog:
+@dataclass(init=False)
+class ClassCatalog(ApiChild["PerekrestokAPI"], ApiParent):
     """Методы для работы с каталогом товаров.
 
     Включает поиск товаров, получение информации о категориях,
     работу с фидами товаров и отзывами.
     """
 
+    Product: ProductService = api_child_field(
+        lambda parent: ProductService(parent.parent)
+    )
+    """Сервис для работы с товарами в каталоге."""
+
     def __init__(self, parent: "PerekrestokAPI"):
-        self._parent: "PerekrestokAPI" = parent
+        super().__init__(parent)
+        ApiParent.__post_init__(self)
 
-        self.Product: ProductService = ProductService(parent=self._parent)
-        """Сервис для работы с товарами в каталоге."""
-
+    @autotest
     async def category_reviews(self, category_id: int | list[int]) -> FetchResponse:
         """Получить отзывы о товарах в категории или категориях по её ID."""
         url = f"{self._parent.CATALOG_URL}/catalog/category/review/aggregate"
@@ -33,16 +43,18 @@ class ClassCatalog:
             HttpMethod.POST, url, json_body={"categories": category_id}
         )
 
+    @autotest
     async def preview_feed(self, category_id: int) -> FetchResponse:
         """Получение превью фида товаров разбитых на подкатегории.
         Работает исключительно с КАТЕГОРИЯМИ, а не с подкатегориями."""
         url = f"{self._parent.CATALOG_URL}/catalog/category/feed/{category_id}"
         return await self._parent._request(HttpMethod.GET, url)
 
+    @autotest
     async def feed(
         self,
         filter: abstraction.CatalogFeedFilter,
-        sort: abstraction.CatalogFeedSort = abstraction.CatalogFeedSort.Popularity.ASC,
+        sort: dict[str, str] = abstraction.CatalogFeedSort.Popularity.ASC,
         page: int = 1,
         limit: int = 100,
         with_best_reviews_only: bool = False,
@@ -69,10 +81,11 @@ class ClassCatalog:
         body.update(sort)
         return await self._parent._request(HttpMethod.POST, url, json_body=body)
 
+    @autotest
     async def grouped_feed(
         self,
         filter: abstraction.CatalogFeedFilter,
-        sort: abstraction.CatalogFeedSort = abstraction.CatalogFeedSort.Popularity.ASC,
+        sort: dict[str, str] = abstraction.CatalogFeedSort.Popularity.ASC,
         page: int = 1,
         limit: int = 100,
         with_best_reviews_only: bool = False,
@@ -92,6 +105,7 @@ class ClassCatalog:
         body.update(sort)
         return await self._parent._request(HttpMethod.POST, url, json_body=body)
 
+    @autotest
     async def form(
         self,
         filter: abstraction.CatalogFeedFilter,
@@ -113,16 +127,19 @@ class ClassCatalog:
         }
         return await self._parent._request(HttpMethod.POST, url, json_body=body)
 
+    @autotest
     async def tree(self) -> FetchResponse:
         """Получить дерево категорий каталога."""
         url = f"{self._parent.CATALOG_URL}/catalog/tree"
         return await self._parent._request(HttpMethod.POST, url)
 
+    @autotest
     async def category_info(self, category_id: int) -> FetchResponse:
         """Получить информацию о категории по её ID."""
         url = f"{self._parent.CATALOG_URL}/catalog/category/{category_id}/full"
         return await self._parent._request(HttpMethod.GET, url)
 
+    @autotest
     async def search(
         self,
         query: str,
@@ -138,11 +155,8 @@ class ClassCatalog:
         return await self._parent._request(HttpMethod.GET, url)
 
 
-class ProductService:
+class ProductService(ApiChild["PerekrestokAPI"]):
     """Сервис для работы с товарами в каталоге."""
-
-    def __init__(self, parent: "PerekrestokAPI"):
-        self._parent: "PerekrestokAPI" = parent
 
     def _check_plu(self, product_plu: int | str) -> str:
         """Проверка и нормализация PLU товара.
@@ -163,12 +177,14 @@ class ProductService:
             raise ValueError("ID товара должен быть int или str структуры pluXXX.")
         return product_plu
 
+    @autotest
     async def info(self, product_plu: int | str) -> FetchResponse:
         """Получить информацию о товаре по PLU! НЕ ПУТАТЬ С ID ТОВАРА!"""
         product_plu = self._check_plu(product_plu)
         url = f"{self._parent.CATALOG_URL}/catalog/product/{product_plu}"
         return await self._parent._request(HttpMethod.GET, url)
 
+    @autotest
     async def available_count(self, product_plu: int | str) -> FetchResponse:
         """Получить информацию о количестве товара в магазинах по PLU! НЕ ПУТАТЬ С ID ТОВАРА!"""
         product_plu = self._check_plu(product_plu)
@@ -177,23 +193,27 @@ class ProductService:
         )
         return await self._parent._request(HttpMethod.GET, url)
 
+    @autotest
     async def similar(self, product_id: int) -> FetchResponse:
         """Получить похожие товары по ID! НЕ ПУТАТЬ С PLU!"""
         url = f"{self._parent.CATALOG_URL}/catalog/product/{product_id}/similar"
         return await self._parent._request(HttpMethod.GET, url)
 
+    @autotest
     async def categories(self, product_plu: int | str) -> FetchResponse:
         """Получить списка категорий которым относится товар - по PLU! НЕ ПУТАТЬ С ID ТОВАРА!"""
         product_plu = self._check_plu(product_plu)
         url = f"{self._parent.CATALOG_URL}/catalog/product/{product_plu}/categories"
         return await self._parent._request(HttpMethod.GET, url)
 
+    @autotest
     async def reviews_count(self, product_plu: int | str) -> FetchResponse:
         """Получить количество отзывов о товаре по PLU! НЕ ПУТАТЬ С ID ТОВАРА!"""
         product_plu = self._check_plu(product_plu)
         url = f"{self._parent.CATALOG_URL}/catalog/product/{product_plu}/review/count"
         return await self._parent._request(HttpMethod.GET, url)
 
+    @autotest
     async def reviews(
         self, product_plu: int | str, page: int = 1, limit: int = 10
     ) -> FetchResponse:

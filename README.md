@@ -75,6 +75,41 @@ if __name__ == "__main__":
 
 ---
 
+## Автотесты API (pytest + snapshots)
+
+В проекте используется автотест-фреймворк из `human_requests`:
+
+- endpoint-методы в бизнес-коде помечаются `@autotest`;
+- pytest-плагин сам находит эти методы и запускает их;
+- JSON-ответы проверяются через `pytest-jsonschema-snapshot` (`schemashot`);
+- параметры вызова и пост-обработка результата регистрируются в `tests/endpoints/*` через:
+  - `@autotest_params`
+  - `@autotest_hook`
+  - `@autotest_depends_on`
+
+Минимальная конфигурация уже включена в `pyproject.toml`:
+
+```ini
+[tool.pytest.ini_options]
+anyio_mode = "auto"
+autotest_start_class = "perekrestok_api.PerekrestokAPI"
+autotest_typecheck = "strict"
+```
+
+Запуск тестов:
+
+```bash
+pytest
+```
+
+Важно:
+
+- используется `pytest-anyio` (не `pytest-asyncio`);
+- проверка типов аргументов `@autotest_params` берётся из аннотаций endpoint-методов (`autotest_typecheck = "strict"`);
+- ручные тесты остаются только для кейсов, которые не относятся к JSON-схемам endpoint-методов (например, `download_image`).
+
+---
+
 <div align="center">
 
 ### Report

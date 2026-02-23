@@ -209,7 +209,7 @@ jsoncrack_default_options = {
     "render": RenderConfig(mode=RenderMode.OnClick()),
     "container": ContainerConfig(direction=Directions.DOWN, height="500", width="100%"),
     "theme": Theme.AUTO,
-    "search_policy": SearchPolicy(custom_patterns=['{class_name}.{method_name}.main.json']),
+    "search_policy": SearchPolicy(custom_patterns=['{class_name}.{method_name}.json']),
     "autodoc_ignore": [
         "perekrestok_api.abstraction",
     ],

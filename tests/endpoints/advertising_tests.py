@@ -1,52 +1,45 @@
 from __future__ import annotations
 
-from functools import partial
+from typing import Any
 
 import pytest
-from conftest import make_test
+from human_requests import autotest_depends_on, autotest_hook, autotest_params
+from human_requests.autotest import AutotestCallContext, AutotestContext
 
 from perekrestok_api import abstraction
+from perekrestok_api.endpoints.advertising import ClassAdvertising
 
-# Локальные константы
 MOSCOW_CITY_ID = 81
 DEFAULT_LIMIT = 5
 
 
-# Независимые кейсы — в матрицу
-@pytest.mark.parametrize(
-    "factory",
-    [
-        pytest.param(
-            lambda api: partial(
-                api.Advertising.banner,
-                [abstraction.BannerPlace.MAIN_BANNERS],
-            ),
-            id="banner",
-        ),
-        pytest.param(
-            lambda api: partial(
-                api.Advertising.main_slider, page=1, limit=DEFAULT_LIMIT
-            ),
-            id="main_slider",
-        ),
-        pytest.param(
-            lambda api: partial(api.Advertising.booklet, city=MOSCOW_CITY_ID),
-            id="booklet",
-        ),
-    ],
-)
-async def test_advertising_matrix(api, schemashot, factory):
-    await make_test(schemashot, factory(api))
+@autotest_params(target=ClassAdvertising.banner)
+def _banner_params(_ctx: AutotestCallContext):
+    return {"places": [abstraction.BannerPlace.MAIN_BANNERS]}
 
 
-# Зависимая фикстура — function-scoped
-@pytest.fixture()
-async def booklet_id(api, schemashot) -> int:
-    resp = await make_test(
-        schemashot, partial(api.Advertising.booklet, city=MOSCOW_CITY_ID)
-    )
-    return resp.json()["content"]["items"][0]["id"]
+@autotest_params(target=ClassAdvertising.main_slider)
+def _main_slider_params(_ctx: AutotestCallContext):
+    return {"page": 1, "limit": DEFAULT_LIMIT}
 
 
-async def test_view_booklet(api, schemashot, booklet_id):
-    await make_test(schemashot, partial(api.Advertising.view_booklet, booklet_id))
+@autotest_params(target=ClassAdvertising.booklet)
+def _booklet_params(_ctx: AutotestCallContext):
+    return {"city": MOSCOW_CITY_ID}
+
+
+@autotest_hook(target=ClassAdvertising.booklet)
+def _capture_booklet_id(_resp: Any, data: dict[str, Any], ctx: AutotestContext) -> None:
+    try:
+        booklet_id = data["content"]["items"][0]["id"]
+    except (KeyError, IndexError, TypeError):
+        pytest.fail("Advertising.booklet did not return booklet id.")
+    if not isinstance(booklet_id, int):
+        pytest.fail("Advertising.booklet returned non-int booklet id.")
+    ctx.state["autotest_booklet_id"] = booklet_id
+
+
+@autotest_depends_on(ClassAdvertising.booklet)
+@autotest_params(target=ClassAdvertising.view_booklet)
+def _view_booklet_params(ctx: AutotestCallContext):
+    return {"booklet_id": ctx.state["autotest_booklet_id"]}

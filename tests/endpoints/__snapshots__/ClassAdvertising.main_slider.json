@@ -1,0 +1,271 @@
+{
+  "content": {
+    "items": [
+      {
+        "id": 3382,
+        "key": "titbit",
+        "title": "Titbit",
+        "fullTitle": null,
+        "hideCategory": null,
+        "image": null,
+        "productBrand": {
+          "id": 46,
+          "sliderImage": {
+            "id": 1551023,
+            "originName": "Логотип в карусели 400х240 1 (1).png",
+            "fileType": "image",
+            "fileSize": 29935,
+            "width": 500,
+            "height": 300,
+            "cropUrlTemplate": "https://tsx.x5static.net/i/%s/xdelivery/files/e3/ef/7d62f85711a3d02d864f86391e41.png",
+            "publicUrl": null,
+            "uuid": "6c21d985-271b-4eed-914f-87ca92b9c245"
+          },
+          "mobileBannerImage": {
+            "id": 1551022,
+            "originName": "Баннер 1440х360 1 (1).png",
+            "fileType": "image",
+            "fileSize": 527423,
+            "width": 4320,
+            "height": 1080,
+            "cropUrlTemplate": "https://tsx.x5static.net/i/%s/xdelivery/files/2f/1c/e8868abf3076535e242e0a507236.png",
+            "publicUrl": null,
+            "uuid": "0c66b870-9cda-42e1-824a-bd499ed94814"
+          },
+          "desktopBannerImage": {
+            "id": 1551021,
+            "originName": "Баннер 1440х360 1 (1).png",
+            "fileType": "image",
+            "fileSize": 527423,
+            "width": 4320,
+            "height": 1080,
+            "cropUrlTemplate": "https://tsx.x5static.net/i/%s/xdelivery/files/2f/1c/e8868abf3076535e242e0a507236.png",
+            "publicUrl": null,
+            "uuid": "d99f1938-1fcf-4ff2-b621-c1495b039e90"
+          },
+          "paidProductCardLogo": true,
+          "color": {
+            "red": 67,
+            "green": 123,
+            "blue": 114,
+            "alpha": 100
+          },
+          "imageLink": null
+        }
+      },
+      {
+        "id": 10310,
+        "key": "prostokvasino",
+        "title": "Простоквашино",
+        "fullTitle": null,
+        "hideCategory": null,
+        "image": {
+          "id": 1086370,
+          "originName": "Простоквашино.jpg",
+          "fileType": "image",
+          "fileSize": 193056,
+          "width": 600,
+          "height": 600,
+          "cropUrlTemplate": "https://tsx.x5static.net/i/%s/xdelivery/files/79/72/7bd008db2a3a90c0b481d95aba84.jpg",
+          "publicUrl": null,
+          "uuid": "b5d6dbd8-1315-4204-963b-b7804ed14f6a"
+        },
+        "productBrand": {
+          "id": 29,
+          "sliderImage": {
+            "id": 848210,
+            "originName": "Frame 23.png",
+            "fileType": "image",
+            "fileSize": 192599,
+            "width": 675,
+            "height": 550,
+            "cropUrlTemplate": "https://tsx.x5static.net/i/%s/xdelivery/files/f6/41/88dd4de59889ea86c272c9eb6317.png",
+            "publicUrl": null,
+            "uuid": "e4b9f93f-2522-4765-8d23-1649309ec020"
+          },
+          "mobileBannerImage": null,
+          "desktopBannerImage": null,
+          "paidProductCardLogo": true,
+          "color": {
+            "red": 0,
+            "green": 0,
+            "blue": 0,
+            "alpha": 100
+          },
+          "imageLink": null
+        }
+      },
+      {
+        "id": 3345,
+        "key": "whiskas",
+        "title": "Whiskas",
+        "fullTitle": null,
+        "hideCategory": null,
+        "image": {
+          "id": 1086205,
+          "originName": "Whiskas.jpg",
+          "fileType": "image",
+          "fileSize": 88903,
+          "width": 600,
+          "height": 600,
+          "cropUrlTemplate": "https://tsx.x5static.net/i/%s/xdelivery/files/7f/d8/7ab166e1cc2fd730fe00ae6e061b.jpg",
+          "publicUrl": null,
+          "uuid": "fecfc0e3-457e-4579-8fd2-d1a1d9b884b7"
+        },
+        "productBrand": {
+          "id": 19,
+          "sliderImage": {
+            "id": 848345,
+            "originName": "Frame 5 (3).png",
+            "fileType": "image",
+            "fileSize": 333587,
+            "width": 675,
+            "height": 550,
+            "cropUrlTemplate": "https://tsx.x5static.net/i/%s/xdelivery/files/65/52/a8b7d8c2fd946dffe817522d505a.png",
+            "publicUrl": null,
+            "uuid": "96e0e2b3-4b16-430d-8bbb-cfa51e19c457"
+          },
+          "mobileBannerImage": {
+            "id": 745309,
+            "originName": "WHS-banners-Perekrestok-listing-1440x360px.jpg",
+            "fileType": "image",
+            "fileSize": 152228,
+            "width": 1440,
+            "height": 360,
+            "cropUrlTemplate": "https://tsx.x5static.net/i/%s/xdelivery/files/0e/5f/e27e4742d0cda5e0a7caac0ec7c7.jpg",
+            "publicUrl": null,
+            "uuid": "f06aad88-ab2f-40b1-b0e3-6fddc9551042"
+          },
+          "desktopBannerImage": {
+            "id": 745308,
+            "originName": "WHS-banners-Perekrestok-listing-1440x360px.jpg",
+            "fileType": "image",
+            "fileSize": 152228,
+            "width": 1440,
+            "height": 360,
+            "cropUrlTemplate": "https://tsx.x5static.net/i/%s/xdelivery/files/0e/5f/e27e4742d0cda5e0a7caac0ec7c7.jpg",
+            "publicUrl": null,
+            "uuid": "08a6ffca-8269-4827-b6ed-b265946efc2c"
+          },
+          "paidProductCardLogo": true,
+          "color": {
+            "red": 167,
+            "green": 33,
+            "blue": 132,
+            "alpha": 100
+          },
+          "imageLink": null
+        }
+      },
+      {
+        "id": 3304,
+        "key": "gourmet",
+        "title": "Гурмэ",
+        "fullTitle": null,
+        "hideCategory": null,
+        "image": {
+          "id": 1131837,
+          "originName": "Perek_Logo_Gourmet_474x300@3x.jpg",
+          "fileType": "image",
+          "fileSize": 68985,
+          "width": 1422,
+          "height": 900,
+          "cropUrlTemplate": "https://tsx.x5static.net/i/%s/xdelivery/files/71/dd/f1294c3dd54367e4574aae63fb21.jpg",
+          "publicUrl": null,
+          "uuid": "808c4804-1eb3-4357-a93f-83e0b3510776"
+        },
+        "productBrand": {
+          "id": 44,
+          "sliderImage": {
+            "id": 1131834,
+            "originName": "Perek_Logo_Gourmet_474x300@3x.jpg",
+            "fileType": "image",
+            "fileSize": 68985,
+            "width": 1422,
+            "height": 900,
+            "cropUrlTemplate": "https://tsx.x5static.net/i/%s/xdelivery/files/71/dd/f1294c3dd54367e4574aae63fb21.jpg",
+            "publicUrl": null,
+            "uuid": "2c9ad99b-5af6-465c-ba61-fd4481471302"
+          },
+          "mobileBannerImage": {
+            "id": 1131836,
+            "originName": "Perek_Header_Гурмэ_1440x360.jpg",
+            "fileType": "image",
+            "fileSize": 279244,
+            "width": 1440,
+            "height": 360,
+            "cropUrlTemplate": "https://tsx.x5static.net/i/%s/xdelivery/files/e7/20/714a34deba0ff6b362f3ab387xd2.jpg",
+            "publicUrl": null,
+            "uuid": "3dffe84e-34b3-4261-8a16-b10bf88bfe20"
+          },
+          "desktopBannerImage": {
+            "id": 1131835,
+            "originName": "Perek_Header_Гурмэ_1440x360.jpg",
+            "fileType": "image",
+            "fileSize": 279244,
+            "width": 1440,
+            "height": 360,
+            "cropUrlTemplate": "https://tsx.x5static.net/i/%s/xdelivery/files/e7/20/714a34deba0ff6b362f3ab387xd2.jpg",
+            "publicUrl": null,
+            "uuid": "545443b8-85cd-46c2-ac84-99a8726cc10c"
+          },
+          "paidProductCardLogo": true,
+          "color": {
+            "red": 255,
+            "green": 255,
+            "blue": 255,
+            "alpha": 100
+          },
+          "imageLink": null
+        }
+      },
+      {
+        "id": 2334,
+        "key": "miratorg",
+        "title": "Мираторг",
+        "fullTitle": null,
+        "hideCategory": null,
+        "image": {
+          "id": 1086353,
+          "originName": "Мираторг.jpg",
+          "fileType": "image",
+          "fileSize": 30256,
+          "width": 600,
+          "height": 600,
+          "cropUrlTemplate": "https://tsx.x5static.net/i/%s/xdelivery/files/39/03/008b61e74143c4cdba02e9f80300.jpg",
+          "publicUrl": null,
+          "uuid": "b5314f8a-9446-4a5e-8061-8de35cf9e06c"
+        },
+        "productBrand": {
+          "id": 32,
+          "sliderImage": {
+            "id": 848214,
+            "originName": "Frame 29.png",
+            "fileType": "image",
+            "fileSize": 8923,
+            "width": 675,
+            "height": 550,
+            "cropUrlTemplate": "https://tsx.x5static.net/i/%s/xdelivery/files/1d/8a/a9b179ff1f1bcd2a6473d7xde7c5.png",
+            "publicUrl": null,
+            "uuid": "aa8509a3-6221-46d9-be94-63a77ec10374"
+          },
+          "mobileBannerImage": null,
+          "desktopBannerImage": null,
+          "paidProductCardLogo": true,
+          "color": {
+            "red": 0,
+            "green": 0,
+            "blue": 0,
+            "alpha": 100
+          },
+          "imageLink": null
+        }
+      }
+    ],
+    "paginator": {
+      "step": 5,
+      "current": 1,
+      "nextPageExists": true
+    }
+  }
+}

@@ -1,0 +1,249 @@
+{
+  "content": {
+    "category": {
+      "id": 1728,
+      "title": "Поздравляем любимых",
+      "slug": "pozdravlaem-lubimyh",
+      "parentId": null,
+      "smallImage": {
+        "id": 3090168,
+        "originName": "Без названия (2).png",
+        "fileType": "image",
+        "fileSize": 91378,
+        "width": 416,
+        "height": 320,
+        "cropUrlTemplate": "https://tsx.x5static.net/i/%s/xdelivery/files/d8/0a/001bf44f527650aa05a991993aa6.png",
+        "publicUrl": null,
+        "uuid": "070e2863-46e3-4637-9dff-8d3c908684ee"
+      },
+      "bigImage": {
+        "id": 3090165,
+        "originName": "Без названия (1).png",
+        "fileType": "image",
+        "fileSize": 355609,
+        "width": 512,
+        "height": 852,
+        "cropUrlTemplate": "https://tsx.x5static.net/i/%s/xdelivery/files/12/ed/exdd274c95e3a57c609f5c3d5696.png",
+        "publicUrl": null,
+        "uuid": "e8ef4f03-4500-4f34-ad58-42cf15e3f4ed"
+      },
+      "squareSmallImage": {
+        "id": 3090166,
+        "originName": "Без названия.png",
+        "fileType": "image",
+        "fileSize": 82097,
+        "width": 330,
+        "height": 330,
+        "cropUrlTemplate": "https://tsx.x5static.net/i/%s/xdelivery/files/53/fa/b5ff7e6e7729f3b3e0241a04063a.png",
+        "publicUrl": null,
+        "uuid": "f7edd3d0-79ee-43eb-b7ea-1738cb13b516"
+      },
+      "isAlcohol": false,
+      "isTobacco": false,
+      "showInSearch": false,
+      "isAdultContent": false,
+      "backgroundColor": {
+        "red": 0,
+        "green": 0,
+        "blue": 0,
+        "alpha": 0
+      },
+      "textColor": {
+        "red": 0,
+        "green": 0,
+        "blue": 0,
+        "alpha": 100
+      },
+      "isLiquid": false,
+      "displayStyle": 1,
+      "subtitle": null,
+      "categoryImage": null,
+      "smallCategoryImage": null,
+      "deepLink": null,
+      "smallDisplayStyleForParent": false,
+      "isBigDesignStyle": false,
+      "isMarkingRequired": false
+    },
+    "hasAvailableProducts": true,
+    "children": [
+      {
+        "category": {
+          "id": 1729,
+          "title": "Праздничный стол",
+          "slug": "prazdnicnyj-stol",
+          "parentId": 1728,
+          "smallImage": null,
+          "bigImage": null,
+          "squareSmallImage": {
+            "id": 3091010,
+            "originName": "СТАРЫЙ КАТАЛОГ224х224.png",
+            "fileType": "image",
+            "fileSize": 107594,
+            "width": 224,
+            "height": 224,
+            "cropUrlTemplate": "https://tsx.x5static.net/i/%s/xdelivery/files/a2/5d/bf6f40ff313d62fc6ddd87c569f0.png",
+            "publicUrl": null,
+            "uuid": "b7b060b4-5e04-44d9-a298-ce793b7b4d9a"
+          },
+          "isAlcohol": false,
+          "isTobacco": false,
+          "showInSearch": false,
+          "isAdultContent": false,
+          "backgroundColor": {
+            "red": 0,
+            "green": 0,
+            "blue": 0,
+            "alpha": 0
+          },
+          "textColor": {
+            "red": 0,
+            "green": 0,
+            "blue": 0,
+            "alpha": 100
+          },
+          "isLiquid": false,
+          "displayStyle": 2,
+          "subtitle": null,
+          "categoryImage": null,
+          "smallCategoryImage": {
+            "id": 3091008,
+            "originName": "НОВЫЙ КАТАЛОГ.png",
+            "fileType": "image",
+            "fileSize": 148678,
+            "width": 327,
+            "height": 228,
+            "cropUrlTemplate": "https://tsx.x5static.net/i/%s/xdelivery/files/9c/d4/7690e2b36519a5f0ec3c692b4257.png",
+            "publicUrl": null,
+            "uuid": "75365114-ccf9-4ebb-ba44-c8c01076712a"
+          },
+          "deepLink": null,
+          "smallDisplayStyleForParent": false,
+          "isBigDesignStyle": false,
+          "isMarkingRequired": false
+        },
+        "hasAvailableProducts": true,
+        "children": [],
+        "promoProducts": null
+      },
+      {
+        "category": {
+          "id": 1731,
+          "title": "Подарки",
+          "slug": "podarki",
+          "parentId": 1728,
+          "smallImage": null,
+          "bigImage": null,
+          "squareSmallImage": {
+            "id": 3091019,
+            "originName": "СТАРЫЙ КАТАЛОГ 224х224.png",
+            "fileType": "image",
+            "fileSize": 57124,
+            "width": 224,
+            "height": 224,
+            "cropUrlTemplate": "https://tsx.x5static.net/i/%s/xdelivery/files/e0/63/2f79d303e40a931807819c511ecc.png",
+            "publicUrl": null,
+            "uuid": "26414e3b-d078-4af7-8196-08cd1b8d1b4d"
+          },
+          "isAlcohol": false,
+          "isTobacco": false,
+          "showInSearch": false,
+          "isAdultContent": false,
+          "backgroundColor": {
+            "red": 0,
+            "green": 0,
+            "blue": 0,
+            "alpha": 0
+          },
+          "textColor": {
+            "red": 0,
+            "green": 0,
+            "blue": 0,
+            "alpha": 100
+          },
+          "isLiquid": false,
+          "displayStyle": 2,
+          "subtitle": null,
+          "categoryImage": null,
+          "smallCategoryImage": {
+            "id": 3091018,
+            "originName": "НОВЫЙ КАТАЛОГ.png",
+            "fileType": "image",
+            "fileSize": 116231,
+            "width": 327,
+            "height": 228,
+            "cropUrlTemplate": "https://tsx.x5static.net/i/%s/xdelivery/files/12/95/2dc0xdbfd1f66894362a9ae49b46.png",
+            "publicUrl": null,
+            "uuid": "e72df689-d315-400f-bed2-7e7676a5d2e0"
+          },
+          "deepLink": null,
+          "smallDisplayStyleForParent": false,
+          "isBigDesignStyle": false,
+          "isMarkingRequired": false
+        },
+        "hasAvailableProducts": true,
+        "children": [],
+        "promoProducts": null
+      },
+      {
+        "category": {
+          "id": 1732,
+          "title": "Сладкий комплимент",
+          "slug": "sladkij-kompliment",
+          "parentId": 1728,
+          "smallImage": null,
+          "bigImage": null,
+          "squareSmallImage": {
+            "id": 3091023,
+            "originName": "224х224.png",
+            "fileType": "image",
+            "fileSize": 84620,
+            "width": 224,
+            "height": 224,
+            "cropUrlTemplate": "https://tsx.x5static.net/i/%s/xdelivery/files/e1/61/81bf0d26d803fb4e5721b31c8526.png",
+            "publicUrl": null,
+            "uuid": "f79b4f31-50de-4d96-a8d3-2ed1de371f64"
+          },
+          "isAlcohol": false,
+          "isTobacco": false,
+          "showInSearch": false,
+          "isAdultContent": false,
+          "backgroundColor": {
+            "red": 0,
+            "green": 0,
+            "blue": 0,
+            "alpha": 0
+          },
+          "textColor": {
+            "red": 0,
+            "green": 0,
+            "blue": 0,
+            "alpha": 100
+          },
+          "isLiquid": false,
+          "displayStyle": 2,
+          "subtitle": null,
+          "categoryImage": null,
+          "smallCategoryImage": {
+            "id": 3091022,
+            "originName": "109х73.png",
+            "fileType": "image",
+            "fileSize": 116457,
+            "width": 327,
+            "height": 228,
+            "cropUrlTemplate": "https://tsx.x5static.net/i/%s/xdelivery/files/50/a6/ccafddb5137a5b978578e788c7fc.png",
+            "publicUrl": null,
+            "uuid": "f4a2c6e1-728c-4e25-9097-32c01e5a5116"
+          },
+          "deepLink": null,
+          "smallDisplayStyleForParent": false,
+          "isBigDesignStyle": false,
+          "isMarkingRequired": false
+        },
+        "hasAvailableProducts": true,
+        "children": [],
+        "promoProducts": null
+      }
+    ],
+    "promoProducts": null
+  }
+}

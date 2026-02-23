@@ -1,0 +1,2075 @@
+{
+  "content": {
+    "category": {
+      "id": 1728,
+      "title": "Поздравляем любимых",
+      "slug": "pozdravlaem-lubimyh",
+      "isAlcohol": false,
+      "isTobacco": false,
+      "isExciseAlcohol": false,
+      "isAdultContent": false,
+      "displayStyle": 1,
+      "catalogs": [
+        1
+      ]
+    },
+    "items": [
+      {
+        "category": {
+          "id": 1729,
+          "title": "Праздничный стол",
+          "slug": "prazdnicnyj-stol",
+          "isAlcohol": false,
+          "isTobacco": false,
+          "isExciseAlcohol": false,
+          "isAdultContent": false,
+          "displayStyle": 2,
+          "catalogs": [
+            1
+          ]
+        },
+        "count": 461,
+        "products": [
+          {
+            "liked": false,
+            "recSysRecommendationRequestId": null,
+            "borderStyle": null,
+            "bestReview": null,
+            "advToken": null,
+            "id": 32227,
+            "masterData": {
+              "slug": "banany",
+              "plu": "3757",
+              "unit": 2,
+              "unitName": "кг",
+              "quantum": 350,
+              "quantumStep": 500,
+              "weight": null,
+              "volume": null,
+              "ui4code": "FR0907004",
+              "taxGroup": "HB",
+              "ownProduction": false,
+              "privateLabel": true,
+              "isMark": false,
+              "alcoSetUnits": null,
+              "activeNds": 22
+            },
+            "title": "Бананы",
+            "primaryCategory": {
+              "id": 367,
+              "title": "Фрукты, ягоды",
+              "slug": "frukty-agody",
+              "isAlcohol": false,
+              "isTobacco": false,
+              "isExciseAlcohol": false,
+              "isAdultContent": false,
+              "displayStyle": 2,
+              "catalogs": [
+                2,
+                3
+              ]
+            },
+            "catalogPrimaryCategory": {
+              "id": 153,
+              "title": "Фрукты",
+              "slug": "frukty",
+              "isAlcohol": false,
+              "isTobacco": false,
+              "isExciseAlcohol": false,
+              "isAdultContent": false,
+              "displayStyle": 2,
+              "catalogs": [
+                1
+              ]
+            },
+            "image": {
+              "id": 2594340,
+              "originName": "remote_upl_68e3d97ceef502.51626806",
+              "fileType": "image",
+              "fileSize": 52870,
+              "width": 800,
+              "height": 800,
+              "cropUrlTemplate": "https://tsx.x5static.net/i/%s/xdelivery/files/a3/b9/2e0bd511a949101a41116ca9b255.jpg",
+              "publicUrl": null,
+              "uuid": "9908e800-7a9f-4b30-8fe1-4cf756e35a82"
+            },
+            "rating": 492,
+            "medianPrice": 14499,
+            "labelCharacteristics": [],
+            "labels": [],
+            "reviewCount": 6105,
+            "ratingCount": 216374,
+            "priceTag": {
+              "price": 14499,
+              "discountMinimumAmount": 0,
+              "grossPrice": null,
+              "labels": [],
+              "pricePerQuantum": null,
+              "grossPricePerQuantum": null,
+              "potentialPointsForOrangeCard": null
+            },
+            "balanceState": "many"
+          },
+          {
+            "liked": false,
+            "recSysRecommendationRequestId": null,
+            "borderStyle": null,
+            "bestReview": null,
+            "advToken": null,
+            "id": 32215,
+            "masterData": {
+              "slug": "banany-fasovannye",
+              "plu": "3639749",
+              "unit": 2,
+              "unitName": "кг",
+              "quantum": 1200,
+              "quantumStep": 1000,
+              "weight": null,
+              "volume": null,
+              "ui4code": "FR0907004",
+              "taxGroup": "HB",
+              "ownProduction": false,
+              "privateLabel": true,
+              "isMark": false,
+              "alcoSetUnits": null,
+              "activeNds": 22
+            },
+            "title": "Бананы фасованные",
+            "primaryCategory": {
+              "id": 367,
+              "title": "Фрукты, ягоды",
+              "slug": "frukty-agody",
+              "isAlcohol": false,
+              "isTobacco": false,
+              "isExciseAlcohol": false,
+              "isAdultContent": false,
+              "displayStyle": 2,
+              "catalogs": [
+                2,
+                3
+              ]
+            },
+            "catalogPrimaryCategory": {
+              "id": 153,
+              "title": "Фрукты",
+              "slug": "frukty",
+              "isAlcohol": false,
+              "isTobacco": false,
+              "isExciseAlcohol": false,
+              "isAdultContent": false,
+              "displayStyle": 2,
+              "catalogs": [
+                1
+              ]
+            },
+            "image": {
+              "id": 2670612,
+              "originName": "remote_upl_68f79ffd790355.13839371",
+              "fileType": "image",
+              "fileSize": 36612,
+              "width": 800,
+              "height": 800,
+              "cropUrlTemplate": "https://tsx.x5static.net/i/%s/xdelivery/files/b1/ed/504e85b0c14c5aa0c7e3b9fff5a4.jpg",
+              "publicUrl": null,
+              "uuid": "fef807ee-40c9-408b-a411-c8637ef04ad6"
+            },
+            "rating": 492,
+            "medianPrice": 13499,
+            "labelCharacteristics": [],
+            "labels": [],
+            "reviewCount": 3420,
+            "ratingCount": 112437,
+            "priceTag": {
+              "price": 13499,
+              "discountMinimumAmount": 0,
+              "grossPrice": null,
+              "labels": [],
+              "pricePerQuantum": null,
+              "grossPricePerQuantum": null,
+              "potentialPointsForOrangeCard": null
+            },
+            "balanceState": "many"
+          },
+          {
+            "liked": false,
+            "recSysRecommendationRequestId": null,
+            "borderStyle": null,
+            "bestReview": null,
+            "advToken": null,
+            "id": 49712,
+            "masterData": {
+              "slug": "voda-psyz-mineralnaa-pitevaa-lecebno-stolovaa-gazirovannaa-1l",
+              "plu": "3629622",
+              "unit": 1,
+              "unitName": "шт",
+              "quantum": 1000,
+              "quantumStep": 1000,
+              "weight": 1000,
+              "volume": 1000,
+              "ui4code": "FD0802001",
+              "taxGroup": "HB",
+              "ownProduction": false,
+              "privateLabel": false,
+              "isMark": true,
+              "alcoSetUnits": null,
+              "activeNds": 22
+            },
+            "title": "Вода Псыж минеральная питьевая лечебно-столовая газированная, 1л",
+            "primaryCategory": {
+              "id": 424,
+              "title": "Вода",
+              "slug": "voda",
+              "isAlcohol": false,
+              "isTobacco": false,
+              "isExciseAlcohol": false,
+              "isAdultContent": false,
+              "displayStyle": 2,
+              "catalogs": [
+                2,
+                3,
+                4
+              ]
+            },
+            "catalogPrimaryCategory": {
+              "id": 208,
+              "title": "Вода",
+              "slug": "voda",
+              "isAlcohol": false,
+              "isTobacco": false,
+              "isExciseAlcohol": false,
+              "isAdultContent": false,
+              "displayStyle": 2,
+              "catalogs": [
+                1
+              ]
+            },
+            "image": {
+              "id": 2574579,
+              "originName": "remote_upl_68ddce9cbba089.70799459",
+              "fileType": "image",
+              "fileSize": 31288,
+              "width": 800,
+              "height": 800,
+              "cropUrlTemplate": "https://tsx.x5static.net/i/%s/xdelivery/files/b1/0d/4feaf8xdf73d3f4b99xda69e457d.jpg",
+              "publicUrl": null,
+              "uuid": "bfbb5a61-10f0-476f-b07a-4872c2722f10"
+            },
+            "rating": 496,
+            "medianPrice": 6999,
+            "labelCharacteristics": [],
+            "labels": [],
+            "reviewCount": 1018,
+            "ratingCount": 19891,
+            "priceTag": {
+              "price": 6999,
+              "discountMinimumAmount": 0,
+              "grossPrice": null,
+              "labels": [],
+              "pricePerQuantum": null,
+              "grossPricePerQuantum": null,
+              "potentialPointsForOrangeCard": null
+            },
+            "balanceState": "many"
+          },
+          {
+            "liked": false,
+            "recSysRecommendationRequestId": null,
+            "borderStyle": null,
+            "bestReview": null,
+            "advToken": null,
+            "id": 270207,
+            "masterData": {
+              "slug": "mandariny-marokko",
+              "plu": "3034500",
+              "unit": 2,
+              "unitName": "кг",
+              "quantum": 1000,
+              "quantumStep": 300,
+              "weight": null,
+              "volume": null,
+              "ui4code": "FR0908005",
+              "taxGroup": "BB",
+              "ownProduction": false,
+              "privateLabel": false,
+              "isMark": false,
+              "alcoSetUnits": null,
+              "activeNds": 10
+            },
+            "title": "Мандарины Марокко",
+            "primaryCategory": {
+              "id": 367,
+              "title": "Фрукты, ягоды",
+              "slug": "frukty-agody",
+              "isAlcohol": false,
+              "isTobacco": false,
+              "isExciseAlcohol": false,
+              "isAdultContent": false,
+              "displayStyle": 2,
+              "catalogs": [
+                2,
+                3
+              ]
+            },
+            "catalogPrimaryCategory": {
+              "id": 153,
+              "title": "Фрукты",
+              "slug": "frukty",
+              "isAlcohol": false,
+              "isTobacco": false,
+              "isExciseAlcohol": false,
+              "isAdultContent": false,
+              "displayStyle": 2,
+              "catalogs": [
+                1
+              ]
+            },
+            "image": {
+              "id": 2570207,
+              "originName": "remote_upl_68dceda8f2ae58.05302405",
+              "fileType": "image",
+              "fileSize": 56714,
+              "width": 800,
+              "height": 800,
+              "cropUrlTemplate": "https://tsx.x5static.net/i/%s/xdelivery/files/64/88/0212de5be806d5fa1850b7cfb5eb.jpg",
+              "publicUrl": null,
+              "uuid": "c8a2a3e8-8f7e-42e9-8e75-cc4cc027f451"
+            },
+            "rating": 486,
+            "medianPrice": 18999,
+            "labelCharacteristics": [],
+            "labels": [],
+            "reviewCount": 1799,
+            "ratingCount": 17724,
+            "priceTag": {
+              "price": 18999,
+              "discountMinimumAmount": 0,
+              "grossPrice": 22999,
+              "labels": [
+                {
+                  "type": "yellow",
+                  "text": "-17%"
+                }
+              ],
+              "pricePerQuantum": null,
+              "grossPricePerQuantum": null,
+              "potentialPointsForOrangeCard": null
+            },
+            "balanceState": "many"
+          },
+          {
+            "liked": false,
+            "recSysRecommendationRequestId": null,
+            "borderStyle": null,
+            "bestReview": null,
+            "advToken": null,
+            "id": 376332,
+            "masterData": {
+              "slug": "napitok-gazirovannyj-dobryj-cola-bez-sahara-1-5l",
+              "plu": "4274867",
+              "unit": 1,
+              "unitName": "шт",
+              "quantum": 1000,
+              "quantumStep": 1000,
+              "weight": 1500,
+              "volume": 1500,
+              "ui4code": "FD0803002",
+              "taxGroup": "HB",
+              "ownProduction": false,
+              "privateLabel": false,
+              "isMark": true,
+              "alcoSetUnits": null,
+              "activeNds": 22
+            },
+            "title": "Напиток газированный Добрый Cola без сахара, 1.5л",
+            "primaryCategory": {
+              "id": 423,
+              "title": "Газировка",
+              "slug": "gazirovka",
+              "isAlcohol": false,
+              "isTobacco": false,
+              "isExciseAlcohol": false,
+              "isAdultContent": false,
+              "displayStyle": 2,
+              "catalogs": [
+                2,
+                3,
+                4
+              ]
+            },
+            "catalogPrimaryCategory": {
+              "id": 209,
+              "title": "Газированные напитки",
+              "slug": "gazirovannye-napitki",
+              "isAlcohol": false,
+              "isTobacco": false,
+              "isExciseAlcohol": false,
+              "isAdultContent": false,
+              "displayStyle": 2,
+              "catalogs": [
+                1
+              ]
+            },
+            "image": {
+              "id": 2640463,
+              "originName": "remote_upl_68ef0e3b8686c3.07692485",
+              "fileType": "image",
+              "fileSize": 28288,
+              "width": 800,
+              "height": 800,
+              "cropUrlTemplate": "https://tsx.x5static.net/i/%s/xdelivery/files/0e/a2/26d0e703ca4a7c67a788d6ee9ea6.jpg",
+              "publicUrl": null,
+              "uuid": "c2ee44e8-767f-442d-bee0-be8329df8364"
+            },
+            "rating": 493,
+            "medianPrice": 13699,
+            "labelCharacteristics": [],
+            "labels": [],
+            "reviewCount": 782,
+            "ratingCount": 17691,
+            "priceTag": {
+              "price": 13699,
+              "discountMinimumAmount": 0,
+              "grossPrice": 17499,
+              "labels": [
+                {
+                  "type": "yellow",
+                  "text": "-21%"
+                }
+              ],
+              "pricePerQuantum": null,
+              "grossPricePerQuantum": null,
+              "potentialPointsForOrangeCard": null
+            },
+            "balanceState": "many"
+          },
+          {
+            "liked": false,
+            "recSysRecommendationRequestId": null,
+            "borderStyle": null,
+            "bestReview": null,
+            "advToken": null,
+            "id": 298990,
+            "masterData": {
+              "slug": "tomaty-medovye-cerri-krasnye-kruglye-200g",
+              "plu": "3676649",
+              "unit": 1,
+              "unitName": "шт",
+              "quantum": 1000,
+              "quantumStep": 1000,
+              "weight": 200,
+              "volume": null,
+              "ui4code": "FR0905006",
+              "taxGroup": "BB",
+              "ownProduction": false,
+              "privateLabel": true,
+              "isMark": false,
+              "alcoSetUnits": null,
+              "activeNds": 10
+            },
+            "title": "Томаты Медовые черри красные круглые, 200г",
+            "primaryCategory": {
+              "id": 366,
+              "title": "Овощи, зелень, грибы",
+              "slug": "ovosi-zelen-griby",
+              "isAlcohol": false,
+              "isTobacco": false,
+              "isExciseAlcohol": false,
+              "isAdultContent": false,
+              "displayStyle": 2,
+              "catalogs": [
+                2,
+                3
+              ]
+            },
+            "catalogPrimaryCategory": {
+              "id": 150,
+              "title": "Овощи",
+              "slug": "ovosi",
+              "isAlcohol": false,
+              "isTobacco": false,
+              "isExciseAlcohol": false,
+              "isAdultContent": false,
+              "displayStyle": 2,
+              "catalogs": [
+                1
+              ]
+            },
+            "image": {
+              "id": 2966105,
+              "originName": "remote_upl_693bd9c28fb384.37385122",
+              "fileType": "image",
+              "fileSize": 54792,
+              "width": 800,
+              "height": 800,
+              "cropUrlTemplate": "https://tsx.x5static.net/i/%s/xdelivery/files/c8/59/3b192445c5ee81336930fc6f9d9c.jpg",
+              "publicUrl": null,
+              "uuid": "c0c36c89-2e0a-437c-b6d6-c89838d52b41"
+            },
+            "rating": 495,
+            "medianPrice": 26999,
+            "labelCharacteristics": [],
+            "labels": [],
+            "reviewCount": 4300,
+            "ratingCount": 55682,
+            "priceTag": {
+              "price": 26999,
+              "discountMinimumAmount": 0,
+              "grossPrice": 29999,
+              "labels": [
+                {
+                  "type": "yellow",
+                  "text": "-10%"
+                }
+              ],
+              "pricePerQuantum": null,
+              "grossPricePerQuantum": null,
+              "potentialPointsForOrangeCard": null
+            },
+            "balanceState": "many"
+          },
+          {
+            "liked": false,
+            "recSysRecommendationRequestId": null,
+            "borderStyle": null,
+            "bestReview": null,
+            "advToken": null,
+            "id": 31197,
+            "masterData": {
+              "slug": "tuska-cyplenka-1-sort-ohlazdennaa",
+              "plu": "3153446",
+              "unit": 2,
+              "unitName": "кг",
+              "quantum": 2250,
+              "quantumStep": 2250,
+              "weight": null,
+              "volume": null,
+              "ui4code": "FR1301003",
+              "taxGroup": "BB",
+              "ownProduction": false,
+              "privateLabel": false,
+              "isMark": false,
+              "alcoSetUnits": null,
+              "activeNds": 10
+            },
+            "title": "Тушка цыплёнка 1 сорт охлаждённая",
+            "primaryCategory": {
+              "id": 381,
+              "title": "Мясо, птица",
+              "slug": "maso-ptica",
+              "isAlcohol": false,
+              "isTobacco": false,
+              "isExciseAlcohol": false,
+              "isAdultContent": false,
+              "displayStyle": 2,
+              "catalogs": [
+                2,
+                3,
+                4
+              ]
+            },
+            "catalogPrimaryCategory": {
+              "id": 1320,
+              "title": "Всё мясо",
+              "slug": "vse-maso",
+              "isAlcohol": false,
+              "isTobacco": false,
+              "isExciseAlcohol": false,
+              "isAdultContent": false,
+              "displayStyle": 1,
+              "catalogs": [
+                1
+              ]
+            },
+            "image": {
+              "id": 2585562,
+              "originName": "remote_upl_68e055788c6409.02932683",
+              "fileType": "image",
+              "fileSize": 58076,
+              "width": 800,
+              "height": 800,
+              "cropUrlTemplate": "https://tsx.x5static.net/i/%s/xdelivery/files/23/b2/43b68e6xdffa7d7133c924a476ac.jpg",
+              "publicUrl": null,
+              "uuid": "d1c23e93-6de2-48fb-94d8-140a91dc12aa"
+            },
+            "rating": 488,
+            "medianPrice": 18999,
+            "labelCharacteristics": [],
+            "labels": [],
+            "reviewCount": 2183,
+            "ratingCount": 46435,
+            "priceTag": {
+              "price": 19999,
+              "discountMinimumAmount": 0,
+              "grossPrice": null,
+              "labels": [],
+              "pricePerQuantum": null,
+              "grossPricePerQuantum": null,
+              "potentialPointsForOrangeCard": null
+            },
+            "balanceState": "many"
+          },
+          {
+            "liked": false,
+            "recSysRecommendationRequestId": null,
+            "borderStyle": null,
+            "bestReview": null,
+            "advToken": null,
+            "id": 46103,
+            "masterData": {
+              "slug": "voda-svatoj-istocnik-prirodnaa-pitevaa-gazirovannaa-1-5l",
+              "plu": "20388",
+              "unit": 1,
+              "unitName": "шт",
+              "quantum": 1000,
+              "quantumStep": 1000,
+              "weight": 1500,
+              "volume": 1500,
+              "ui4code": "FD0802002",
+              "taxGroup": "HB",
+              "ownProduction": false,
+              "privateLabel": false,
+              "isMark": true,
+              "alcoSetUnits": null,
+              "activeNds": 22
+            },
+            "title": "Вода Святой источник природная питьевая газированная, 1.5л",
+            "primaryCategory": {
+              "id": 424,
+              "title": "Вода",
+              "slug": "voda",
+              "isAlcohol": false,
+              "isTobacco": false,
+              "isExciseAlcohol": false,
+              "isAdultContent": false,
+              "displayStyle": 2,
+              "catalogs": [
+                2,
+                3,
+                4
+              ]
+            },
+            "catalogPrimaryCategory": {
+              "id": 208,
+              "title": "Вода",
+              "slug": "voda",
+              "isAlcohol": false,
+              "isTobacco": false,
+              "isExciseAlcohol": false,
+              "isAdultContent": false,
+              "displayStyle": 2,
+              "catalogs": [
+                1
+              ]
+            },
+            "image": {
+              "id": 2546663,
+              "originName": "remote_upl_68dc60fc6e2071.30517065",
+              "fileType": "image",
+              "fileSize": 29170,
+              "width": 800,
+              "height": 800,
+              "cropUrlTemplate": "https://tsx.x5static.net/i/%s/xdelivery/files/f8/78/a89bf7b0c8e1c2cf04fd5c0421d9.jpg",
+              "publicUrl": null,
+              "uuid": "b0aa1d65-6218-4a91-bd22-a3f821de90fc"
+            },
+            "rating": 495,
+            "medianPrice": 6699,
+            "labelCharacteristics": [],
+            "labels": [],
+            "reviewCount": 504,
+            "ratingCount": 22278,
+            "priceTag": {
+              "price": 6699,
+              "discountMinimumAmount": 0,
+              "grossPrice": null,
+              "labels": [],
+              "pricePerQuantum": null,
+              "grossPricePerQuantum": null,
+              "potentialPointsForOrangeCard": null
+            },
+            "balanceState": "many"
+          }
+        ]
+      },
+      {
+        "category": {
+          "id": 1731,
+          "title": "Подарки",
+          "slug": "podarki",
+          "isAlcohol": false,
+          "isTobacco": false,
+          "isExciseAlcohol": false,
+          "isAdultContent": false,
+          "displayStyle": 2,
+          "catalogs": [
+            1
+          ]
+        },
+        "count": 216,
+        "products": [
+          {
+            "liked": false,
+            "recSysRecommendationRequestId": null,
+            "borderStyle": null,
+            "bestReview": null,
+            "advToken": null,
+            "id": 60941,
+            "masterData": {
+              "slug": "krem-detskij-avanta-s-vitaminami-i-romaskoj-v-futlare-46ml",
+              "plu": "3138354",
+              "unit": 1,
+              "unitName": "шт",
+              "quantum": 1000,
+              "quantumStep": 1000,
+              "weight": 46,
+              "volume": 46,
+              "ui4code": "FD0301005",
+              "taxGroup": "HB",
+              "ownProduction": false,
+              "privateLabel": false,
+              "isMark": true,
+              "alcoSetUnits": null,
+              "activeNds": 22
+            },
+            "title": "Крем детский Аванта с витаминами и ромашкой в футляре, 46мл",
+            "primaryCategory": {
+              "id": 437,
+              "title": "Детская гигиена",
+              "slug": "detskaa-gigiena",
+              "isAlcohol": false,
+              "isTobacco": false,
+              "isExciseAlcohol": false,
+              "isAdultContent": false,
+              "displayStyle": 2,
+              "catalogs": [
+                2,
+                3,
+                4
+              ]
+            },
+            "catalogPrimaryCategory": {
+              "id": 231,
+              "title": "Гигиена и уход",
+              "slug": "gigiena-i-uhod",
+              "isAlcohol": false,
+              "isTobacco": false,
+              "isExciseAlcohol": false,
+              "isAdultContent": false,
+              "displayStyle": 2,
+              "catalogs": [
+                1
+              ]
+            },
+            "image": {
+              "id": 2755268,
+              "originName": "remote_upl_691c35c77ffca4.14589041",
+              "fileType": "image",
+              "fileSize": 97565,
+              "width": 800,
+              "height": 800,
+              "cropUrlTemplate": "https://tsx.x5static.net/i/%s/xdelivery/files/d7/7d/b29c57751be89243473b07bce205.jpg",
+              "publicUrl": null,
+              "uuid": "08d483fa-7d73-4096-a76e-8836afdafa4d"
+            },
+            "rating": 494,
+            "medianPrice": 6799,
+            "labelCharacteristics": [],
+            "labels": [],
+            "reviewCount": 103,
+            "ratingCount": 2225,
+            "priceTag": {
+              "price": 6799,
+              "discountMinimumAmount": 0,
+              "grossPrice": null,
+              "labels": [],
+              "pricePerQuantum": null,
+              "grossPricePerQuantum": null,
+              "potentialPointsForOrangeCard": null
+            },
+            "balanceState": "many"
+          },
+          {
+            "liked": false,
+            "recSysRecommendationRequestId": null,
+            "borderStyle": null,
+            "bestReview": null,
+            "advToken": null,
+            "id": 357874,
+            "masterData": {
+              "slug": "krem-gel-dav-dla-dusa-glubokoe-pitanie-i-uvlaznenie-610ml",
+              "plu": "4256375",
+              "unit": 1,
+              "unitName": "шт",
+              "quantum": 1000,
+              "quantumStep": 1000,
+              "weight": 490,
+              "volume": 610,
+              "ui4code": "FD0909001",
+              "taxGroup": "HB",
+              "ownProduction": false,
+              "privateLabel": false,
+              "isMark": true,
+              "alcoSetUnits": null,
+              "activeNds": 22
+            },
+            "title": "Крем-гель Дав для душа Глубокое питание и увлажнение, 610мл",
+            "primaryCategory": {
+              "id": 1225,
+              "title": "Для душа и ванны",
+              "slug": "dla-dusa-i-vanny",
+              "isAlcohol": false,
+              "isTobacco": false,
+              "isExciseAlcohol": false,
+              "isAdultContent": false,
+              "displayStyle": 2,
+              "catalogs": [
+                2,
+                3,
+                4
+              ]
+            },
+            "catalogPrimaryCategory": {
+              "id": 86,
+              "title": "Гели для душа",
+              "slug": "geli-dla-dusa",
+              "isAlcohol": false,
+              "isTobacco": false,
+              "isExciseAlcohol": false,
+              "isAdultContent": false,
+              "displayStyle": 2,
+              "catalogs": [
+                1
+              ]
+            },
+            "image": {
+              "id": 2648380,
+              "originName": "remote_upl_68f0ec63a27ab6.20228438",
+              "fileType": "image",
+              "fileSize": 27719,
+              "width": 800,
+              "height": 800,
+              "cropUrlTemplate": "https://tsx.x5static.net/i/%s/xdelivery/files/52/5d/89ab47280368xd4c4419037851c1.jpg",
+              "publicUrl": null,
+              "uuid": "a48bae01-da57-4046-9df6-274a0efe112d"
+            },
+            "rating": 492,
+            "medianPrice": 39800,
+            "labelCharacteristics": [],
+            "labels": [],
+            "reviewCount": 103,
+            "ratingCount": 1385,
+            "priceTag": {
+              "price": 39800,
+              "discountMinimumAmount": 0,
+              "grossPrice": 66100,
+              "labels": [
+                {
+                  "type": "yellow",
+                  "text": "-39%"
+                }
+              ],
+              "pricePerQuantum": null,
+              "grossPricePerQuantum": null,
+              "potentialPointsForOrangeCard": null
+            },
+            "balanceState": "many"
+          },
+          {
+            "liked": false,
+            "recSysRecommendationRequestId": null,
+            "borderStyle": null,
+            "bestReview": null,
+            "advToken": null,
+            "id": 16534,
+            "masterData": {
+              "slug": "sampun-pantene-pro-v-gustye-i-krepkie-400ml",
+              "plu": "2092382",
+              "unit": 1,
+              "unitName": "шт",
+              "quantum": 1000,
+              "quantumStep": 1000,
+              "weight": 400,
+              "volume": 400,
+              "ui4code": "FD0908004",
+              "taxGroup": "HB",
+              "ownProduction": false,
+              "privateLabel": false,
+              "isMark": true,
+              "alcoSetUnits": null,
+              "activeNds": 22
+            },
+            "title": "Шампунь Pantene Pro-V густые и крепкие, 400мл",
+            "primaryCategory": {
+              "id": 442,
+              "title": "Уход за волосами",
+              "slug": "uhod-za-volosami",
+              "isAlcohol": false,
+              "isTobacco": false,
+              "isExciseAlcohol": false,
+              "isAdultContent": false,
+              "displayStyle": 2,
+              "catalogs": [
+                2,
+                4,
+                3
+              ]
+            },
+            "catalogPrimaryCategory": {
+              "id": 91,
+              "title": "Уход для волос",
+              "slug": "uhod-dla-volos",
+              "isAlcohol": false,
+              "isTobacco": false,
+              "isExciseAlcohol": false,
+              "isAdultContent": false,
+              "displayStyle": 2,
+              "catalogs": [
+                1
+              ]
+            },
+            "image": {
+              "id": 2643260,
+              "originName": "remote_upl_68f0439b490ef4.56932732",
+              "fileType": "image",
+              "fileSize": 25984,
+              "width": 800,
+              "height": 800,
+              "cropUrlTemplate": "https://tsx.x5static.net/i/%s/xdelivery/files/cf/41/7e60e9fa62b1ca914038382b71e3.jpg",
+              "publicUrl": null,
+              "uuid": "cefa3715-fdb1-4308-84b7-80e12af500ae"
+            },
+            "rating": 495,
+            "medianPrice": 34999,
+            "labelCharacteristics": [],
+            "labels": [],
+            "reviewCount": 41,
+            "ratingCount": 1380,
+            "priceTag": {
+              "price": 34999,
+              "discountMinimumAmount": 0,
+              "grossPrice": 45999,
+              "labels": [
+                {
+                  "type": "yellow",
+                  "text": "-23%"
+                }
+              ],
+              "pricePerQuantum": null,
+              "grossPricePerQuantum": null,
+              "potentialPointsForOrangeCard": null
+            },
+            "balanceState": "many"
+          },
+          {
+            "liked": false,
+            "recSysRecommendationRequestId": null,
+            "borderStyle": null,
+            "bestReview": null,
+            "advToken": null,
+            "id": 479578,
+            "masterData": {
+              "slug": "sampun-head-shoulders-protiv-perhoti-2v1-osnovnoj-uhod-360ml",
+              "plu": "4406843",
+              "unit": 1,
+              "unitName": "шт",
+              "quantum": 1000,
+              "quantumStep": 1000,
+              "weight": 372,
+              "volume": 360,
+              "ui4code": "FD0908004",
+              "taxGroup": "HB",
+              "ownProduction": false,
+              "privateLabel": false,
+              "isMark": true,
+              "alcoSetUnits": null,
+              "activeNds": 22
+            },
+            "title": "Шампунь Head&Shoulders против перхоти 2в1 Основной Уход, 360мл",
+            "primaryCategory": {
+              "id": 442,
+              "title": "Уход за волосами",
+              "slug": "uhod-za-volosami",
+              "isAlcohol": false,
+              "isTobacco": false,
+              "isExciseAlcohol": false,
+              "isAdultContent": false,
+              "displayStyle": 2,
+              "catalogs": [
+                2,
+                4,
+                3
+              ]
+            },
+            "catalogPrimaryCategory": null,
+            "image": {
+              "id": 3056312,
+              "originName": "remote_upl_6979d0728f6571.23068303",
+              "fileType": "image",
+              "fileSize": 41479,
+              "width": 800,
+              "height": 800,
+              "cropUrlTemplate": "https://tsx.x5static.net/i/%s/xdelivery/files/33/66/5b2b5fd6784e2a2d1285e42c6d84.jpg",
+              "publicUrl": null,
+              "uuid": "48977fd3-0bb6-45c5-8483-140189265a41"
+            },
+            "rating": 498,
+            "medianPrice": 37999,
+            "labelCharacteristics": [],
+            "labels": [],
+            "reviewCount": 12,
+            "ratingCount": 237,
+            "priceTag": {
+              "price": 37999,
+              "discountMinimumAmount": 0,
+              "grossPrice": 63999,
+              "labels": [
+                {
+                  "type": "yellow",
+                  "text": "-40%"
+                }
+              ],
+              "pricePerQuantum": null,
+              "grossPricePerQuantum": null,
+              "potentialPointsForOrangeCard": null
+            },
+            "balanceState": "many"
+          },
+          {
+            "liked": false,
+            "recSysRecommendationRequestId": null,
+            "borderStyle": null,
+            "bestReview": null,
+            "advToken": null,
+            "id": 13794,
+            "masterData": {
+              "slug": "sampun-dav-vosstanovlenie-s-kurkumoj-i-kokosovym-maslom-380ml",
+              "plu": "4045740",
+              "unit": 1,
+              "unitName": "шт",
+              "quantum": 1000,
+              "quantumStep": 1000,
+              "weight": 391,
+              "volume": 380,
+              "ui4code": "FD0908004",
+              "taxGroup": "HB",
+              "ownProduction": false,
+              "privateLabel": false,
+              "isMark": true,
+              "alcoSetUnits": null,
+              "activeNds": 22
+            },
+            "title": "Шампунь Дав восстановление с куркумой и кокосовым маслом, 380мл",
+            "primaryCategory": {
+              "id": 442,
+              "title": "Уход за волосами",
+              "slug": "uhod-za-volosami",
+              "isAlcohol": false,
+              "isTobacco": false,
+              "isExciseAlcohol": false,
+              "isAdultContent": false,
+              "displayStyle": 2,
+              "catalogs": [
+                2,
+                4,
+                3
+              ]
+            },
+            "catalogPrimaryCategory": {
+              "id": 91,
+              "title": "Уход для волос",
+              "slug": "uhod-dla-volos",
+              "isAlcohol": false,
+              "isTobacco": false,
+              "isExciseAlcohol": false,
+              "isAdultContent": false,
+              "displayStyle": 2,
+              "catalogs": [
+                1
+              ]
+            },
+            "image": {
+              "id": 2552978,
+              "originName": "remote_upl_68dc610fa665e6.80082303",
+              "fileType": "image",
+              "fileSize": 23798,
+              "width": 800,
+              "height": 800,
+              "cropUrlTemplate": "https://tsx.x5static.net/i/%s/xdelivery/files/61/6b/3931d16af93313b72caa008705b9.jpg",
+              "publicUrl": null,
+              "uuid": "b9556bc5-a406-4d5a-a1fa-96791d48608c"
+            },
+            "rating": 495,
+            "medianPrice": 28300,
+            "labelCharacteristics": [],
+            "labels": [],
+            "reviewCount": 64,
+            "ratingCount": 1330,
+            "priceTag": {
+              "price": 28300,
+              "discountMinimumAmount": 0,
+              "grossPrice": 52100,
+              "labels": [
+                {
+                  "type": "yellow",
+                  "text": "-45%"
+                }
+              ],
+              "pricePerQuantum": null,
+              "grossPricePerQuantum": null,
+              "potentialPointsForOrangeCard": null
+            },
+            "balanceState": "many"
+          },
+          {
+            "liked": false,
+            "recSysRecommendationRequestId": null,
+            "borderStyle": null,
+            "bestReview": null,
+            "advToken": null,
+            "id": 14303,
+            "masterData": {
+              "slug": "pena-dla-brita-arko-man-sensitive-200ml",
+              "plu": "56529",
+              "unit": 1,
+              "unitName": "шт",
+              "quantum": 1000,
+              "quantumStep": 1000,
+              "weight": 200,
+              "volume": 200,
+              "ui4code": "FD0907003",
+              "taxGroup": "HB",
+              "ownProduction": false,
+              "privateLabel": false,
+              "isMark": true,
+              "alcoSetUnits": null,
+              "activeNds": 22
+            },
+            "title": "Пена для бритья Arko Man Sensitive, 200мл",
+            "primaryCategory": {
+              "id": 440,
+              "title": "Уход за лицом",
+              "slug": "uhod-za-licom",
+              "isAlcohol": false,
+              "isTobacco": false,
+              "isExciseAlcohol": false,
+              "isAdultContent": false,
+              "displayStyle": 2,
+              "catalogs": [
+                2,
+                3,
+                4
+              ]
+            },
+            "catalogPrimaryCategory": {
+              "id": 95,
+              "title": "Средства для бритья",
+              "slug": "sredstva-dla-brita",
+              "isAlcohol": false,
+              "isTobacco": false,
+              "isExciseAlcohol": false,
+              "isAdultContent": false,
+              "displayStyle": 2,
+              "catalogs": [
+                1
+              ]
+            },
+            "image": {
+              "id": 2761010,
+              "originName": "remote_upl_691ebc7ce3a4a9.11739707",
+              "fileType": "image",
+              "fileSize": 29446,
+              "width": 800,
+              "height": 800,
+              "cropUrlTemplate": "https://tsx.x5static.net/i/%s/xdelivery/files/25/d3/1847f012e6656577d41bd517bcc4.jpg",
+              "publicUrl": null,
+              "uuid": "83b78bc3-825c-4853-8522-9d5cedd7d09b"
+            },
+            "rating": 489,
+            "medianPrice": 20999,
+            "labelCharacteristics": [],
+            "labels": [],
+            "reviewCount": 33,
+            "ratingCount": 1122,
+            "priceTag": {
+              "price": 20999,
+              "discountMinimumAmount": 0,
+              "grossPrice": 28999,
+              "labels": [
+                {
+                  "type": "yellow",
+                  "text": "-27%"
+                }
+              ],
+              "pricePerQuantum": null,
+              "grossPricePerQuantum": null,
+              "potentialPointsForOrangeCard": null
+            },
+            "balanceState": "many"
+          },
+          {
+            "liked": false,
+            "recSysRecommendationRequestId": null,
+            "borderStyle": null,
+            "bestReview": null,
+            "advToken": null,
+            "id": 14004,
+            "masterData": {
+              "slug": "sampun-cistaa-linia-krapiva-dla-vseh-tipov-volos-ukreplausij-400ml",
+              "plu": "3065062",
+              "unit": 1,
+              "unitName": "шт",
+              "quantum": 1000,
+              "quantumStep": 1000,
+              "weight": 400,
+              "volume": 400,
+              "ui4code": "FD0908004",
+              "taxGroup": "HB",
+              "ownProduction": false,
+              "privateLabel": false,
+              "isMark": true,
+              "alcoSetUnits": null,
+              "activeNds": 22
+            },
+            "title": "Шампунь Чистая Линия Крапива для всех типов волос укрепляющий, 400мл",
+            "primaryCategory": {
+              "id": 442,
+              "title": "Уход за волосами",
+              "slug": "uhod-za-volosami",
+              "isAlcohol": false,
+              "isTobacco": false,
+              "isExciseAlcohol": false,
+              "isAdultContent": false,
+              "displayStyle": 2,
+              "catalogs": [
+                2,
+                4,
+                3
+              ]
+            },
+            "catalogPrimaryCategory": {
+              "id": 91,
+              "title": "Уход для волос",
+              "slug": "uhod-dla-volos",
+              "isAlcohol": false,
+              "isTobacco": false,
+              "isExciseAlcohol": false,
+              "isAdultContent": false,
+              "displayStyle": 2,
+              "catalogs": [
+                1
+              ]
+            },
+            "image": {
+              "id": 2550305,
+              "originName": "remote_upl_68dc6107299d06.27687426",
+              "fileType": "image",
+              "fileSize": 35001,
+              "width": 800,
+              "height": 800,
+              "cropUrlTemplate": "https://tsx.x5static.net/i/%s/xdelivery/files/ed/a2/4c7013b85dc0c480a5d608488ac7.jpg",
+              "publicUrl": null,
+              "uuid": "d467e14e-614a-40f3-96a0-dafefb8d5d6d"
+            },
+            "rating": 490,
+            "medianPrice": 22999,
+            "labelCharacteristics": [],
+            "labels": [],
+            "reviewCount": 61,
+            "ratingCount": 1678,
+            "priceTag": {
+              "price": 22099,
+              "discountMinimumAmount": 0,
+              "grossPrice": null,
+              "labels": [],
+              "pricePerQuantum": null,
+              "grossPricePerQuantum": null,
+              "potentialPointsForOrangeCard": null
+            },
+            "balanceState": "many"
+          },
+          {
+            "liked": false,
+            "recSysRecommendationRequestId": null,
+            "borderStyle": null,
+            "bestReview": null,
+            "advToken": null,
+            "id": 23667,
+            "masterData": {
+              "slug": "paket-podarocnyj-art-i-dizajn-standart-plus-ab",
+              "plu": "3921949",
+              "unit": 1,
+              "unitName": "шт",
+              "quantum": 1000,
+              "quantumStep": 1000,
+              "weight": 60,
+              "volume": null,
+              "ui4code": "NF1401001",
+              "taxGroup": "HB",
+              "ownProduction": false,
+              "privateLabel": false,
+              "isMark": false,
+              "alcoSetUnits": null,
+              "activeNds": 22
+            },
+            "title": "Пакет подарочный Арт и Дизайн стандарт плюс AB",
+            "primaryCategory": {
+              "id": 456,
+              "title": "Сезонные товары",
+              "slug": "sezonnye-tovary",
+              "isAlcohol": false,
+              "isTobacco": false,
+              "isExciseAlcohol": false,
+              "isAdultContent": false,
+              "displayStyle": 2,
+              "catalogs": [
+                2,
+                3,
+                4
+              ]
+            },
+            "catalogPrimaryCategory": {
+              "id": 1709,
+              "title": "Подарки",
+              "slug": "podarki",
+              "isAlcohol": false,
+              "isTobacco": false,
+              "isExciseAlcohol": false,
+              "isAdultContent": false,
+              "displayStyle": 2,
+              "catalogs": [
+                1
+              ]
+            },
+            "image": {
+              "id": 2879390,
+              "originName": "remote_upl_6928a0788e3cf2.59264986",
+              "fileType": "image",
+              "fileSize": 88566,
+              "width": 800,
+              "height": 800,
+              "cropUrlTemplate": "https://tsx.x5static.net/i/%s/xdelivery/files/a8/23/4bf6d6c80731397c1a400c4bc34a.jpg",
+              "publicUrl": null,
+              "uuid": "ed373aa8-ec23-4663-ae34-ca654f4061b9"
+            },
+            "rating": 493,
+            "medianPrice": 19499,
+            "labelCharacteristics": [],
+            "labels": [],
+            "reviewCount": 21,
+            "ratingCount": 989,
+            "priceTag": {
+              "price": 17899,
+              "discountMinimumAmount": 0,
+              "grossPrice": null,
+              "labels": [],
+              "pricePerQuantum": null,
+              "grossPricePerQuantum": null,
+              "potentialPointsForOrangeCard": null
+            },
+            "balanceState": "many"
+          }
+        ]
+      },
+      {
+        "category": {
+          "id": 1732,
+          "title": "Сладкий комплимент",
+          "slug": "sladkij-kompliment",
+          "isAlcohol": false,
+          "isTobacco": false,
+          "isExciseAlcohol": false,
+          "isAdultContent": false,
+          "displayStyle": 2,
+          "catalogs": [
+            1
+          ]
+        },
+        "count": 102,
+        "products": [
+          {
+            "liked": false,
+            "recSysRecommendationRequestId": null,
+            "borderStyle": null,
+            "bestReview": null,
+            "advToken": null,
+            "id": 44189,
+            "masterData": {
+              "slug": "sokolad-molocnyj-ritter-sport-celnyj-lesnoj-oreh-100g",
+              "plu": "3490515",
+              "unit": 1,
+              "unitName": "шт",
+              "quantum": 1000,
+              "quantumStep": 1000,
+              "weight": 100,
+              "volume": null,
+              "ui4code": "FD0611002",
+              "taxGroup": "HB",
+              "ownProduction": false,
+              "privateLabel": false,
+              "isMark": false,
+              "alcoSetUnits": null,
+              "activeNds": 22
+            },
+            "title": "Шоколад молочный Ritter Sport цельный лесной орех 100г",
+            "primaryCategory": {
+              "id": 402,
+              "title": "Шоколад, конфеты",
+              "slug": "sokolad-konfety",
+              "isAlcohol": false,
+              "isTobacco": false,
+              "isExciseAlcohol": false,
+              "isAdultContent": false,
+              "displayStyle": 2,
+              "catalogs": [
+                2,
+                3,
+                4
+              ]
+            },
+            "catalogPrimaryCategory": {
+              "id": 195,
+              "title": "Шоколад",
+              "slug": "sokolad",
+              "isAlcohol": false,
+              "isTobacco": false,
+              "isExciseAlcohol": false,
+              "isAdultContent": false,
+              "displayStyle": 2,
+              "catalogs": [
+                1
+              ]
+            },
+            "image": {
+              "id": 2576502,
+              "originName": "remote_upl_68de22fddd24c6.89965244",
+              "fileType": "image",
+              "fileSize": 70856,
+              "width": 800,
+              "height": 800,
+              "cropUrlTemplate": "https://tsx.x5static.net/i/%s/xdelivery/files/a8/28/573a8744071bf40dcbda1c4db28c.jpg",
+              "publicUrl": null,
+              "uuid": "5a162d8d-e9b7-4b00-b261-4b5b6e31d3b9"
+            },
+            "rating": 496,
+            "medianPrice": 18899,
+            "labelCharacteristics": [],
+            "labels": [],
+            "reviewCount": 517,
+            "ratingCount": 14120,
+            "priceTag": {
+              "price": 18899,
+              "discountMinimumAmount": 0,
+              "grossPrice": 30999,
+              "labels": [
+                {
+                  "type": "yellow",
+                  "text": "-39%"
+                }
+              ],
+              "pricePerQuantum": null,
+              "grossPricePerQuantum": null,
+              "potentialPointsForOrangeCard": null
+            },
+            "balanceState": "many"
+          },
+          {
+            "liked": false,
+            "recSysRecommendationRequestId": null,
+            "borderStyle": null,
+            "bestReview": null,
+            "advToken": null,
+            "id": 43596,
+            "masterData": {
+              "slug": "sokolad-molocnyj-kinder-chocolate-s-molocnoj-nacinkoj-100g",
+              "plu": "17333",
+              "unit": 1,
+              "unitName": "шт",
+              "quantum": 1000,
+              "quantumStep": 1000,
+              "weight": 100,
+              "volume": null,
+              "ui4code": "FD0611002",
+              "taxGroup": "HB",
+              "ownProduction": false,
+              "privateLabel": false,
+              "isMark": true,
+              "alcoSetUnits": null,
+              "activeNds": 22
+            },
+            "title": "Шоколад молочный Kinder chocolate с молочной начинкой 100г",
+            "primaryCategory": {
+              "id": 402,
+              "title": "Шоколад, конфеты",
+              "slug": "sokolad-konfety",
+              "isAlcohol": false,
+              "isTobacco": false,
+              "isExciseAlcohol": false,
+              "isAdultContent": false,
+              "displayStyle": 2,
+              "catalogs": [
+                2,
+                3,
+                4
+              ]
+            },
+            "catalogPrimaryCategory": {
+              "id": 195,
+              "title": "Шоколад",
+              "slug": "sokolad",
+              "isAlcohol": false,
+              "isTobacco": false,
+              "isExciseAlcohol": false,
+              "isAdultContent": false,
+              "displayStyle": 2,
+              "catalogs": [
+                1
+              ]
+            },
+            "image": {
+              "id": 3096631,
+              "originName": "remote_upl_698d7ae2c65f80.81828912",
+              "fileType": "image",
+              "fileSize": 72161,
+              "width": 800,
+              "height": 800,
+              "cropUrlTemplate": "https://tsx.x5static.net/i/%s/xdelivery/files/88/04/dbc61a52259b297bc55076ec9935.jpg",
+              "publicUrl": null,
+              "uuid": "6d5ed6d6-4fa9-4b9d-ad2c-8fc73144d1da"
+            },
+            "rating": 496,
+            "medianPrice": 24299,
+            "labelCharacteristics": [],
+            "labels": [],
+            "reviewCount": 426,
+            "ratingCount": 17958,
+            "priceTag": {
+              "price": 23599,
+              "discountMinimumAmount": 0,
+              "grossPrice": null,
+              "labels": [],
+              "pricePerQuantum": null,
+              "grossPricePerQuantum": null,
+              "potentialPointsForOrangeCard": null
+            },
+            "balanceState": "many"
+          },
+          {
+            "liked": false,
+            "recSysRecommendationRequestId": null,
+            "borderStyle": null,
+            "bestReview": null,
+            "advToken": null,
+            "id": 65050,
+            "masterData": {
+              "slug": "poncik-perekrestok-berlinskij-s-varenoj-sgusenkoj-2h64g",
+              "plu": "78010688",
+              "unit": 1,
+              "unitName": "шт",
+              "quantum": 1000,
+              "quantumStep": 1000,
+              "weight": 128,
+              "volume": null,
+              "ui4code": "FR1606003",
+              "taxGroup": "BB",
+              "ownProduction": true,
+              "privateLabel": false,
+              "isMark": false,
+              "alcoSetUnits": null,
+              "activeNds": 10
+            },
+            "title": "Пончик Перекрёсток Берлинский с варёной сгущёнкой, 2х64г",
+            "primaryCategory": {
+              "id": 1619,
+              "title": "Вся готовая еда",
+              "slug": "vsa-gotovaa-eda",
+              "isAlcohol": false,
+              "isTobacco": false,
+              "isExciseAlcohol": false,
+              "isAdultContent": false,
+              "displayStyle": 2,
+              "catalogs": [
+                2,
+                3,
+                4
+              ]
+            },
+            "catalogPrimaryCategory": {
+              "id": 196,
+              "title": "Наша пекарня",
+              "slug": "nasa-pekarna",
+              "isAlcohol": false,
+              "isTobacco": false,
+              "isExciseAlcohol": false,
+              "isAdultContent": false,
+              "displayStyle": 2,
+              "catalogs": [
+                1
+              ]
+            },
+            "image": {
+              "id": 2625166,
+              "originName": "remote_upl_68e7ea23286b63.19909622",
+              "fileType": "image",
+              "fileSize": 58048,
+              "width": 800,
+              "height": 800,
+              "cropUrlTemplate": "https://tsx.x5static.net/i/%s/xdelivery/files/8d/69/62795c0a052ffc63826e5c48e256.jpg",
+              "publicUrl": null,
+              "uuid": "f958cf81-db91-4ca7-b49b-c800e59275c8"
+            },
+            "rating": 477,
+            "medianPrice": 7999,
+            "labelCharacteristics": [],
+            "labels": [],
+            "reviewCount": 568,
+            "ratingCount": 9250,
+            "priceTag": {
+              "price": 8799,
+              "discountMinimumAmount": 0,
+              "grossPrice": null,
+              "labels": [],
+              "pricePerQuantum": null,
+              "grossPricePerQuantum": null,
+              "potentialPointsForOrangeCard": null
+            },
+            "balanceState": "many"
+          },
+          {
+            "liked": false,
+            "recSysRecommendationRequestId": null,
+            "borderStyle": null,
+            "bestReview": null,
+            "advToken": null,
+            "id": 44003,
+            "masterData": {
+              "slug": "konfety-raffaello-mindal-i-kokos-150g",
+              "plu": "18162",
+              "unit": 1,
+              "unitName": "шт",
+              "quantum": 1000,
+              "quantumStep": 1000,
+              "weight": 150,
+              "volume": null,
+              "ui4code": "FD0606005",
+              "taxGroup": "HB",
+              "ownProduction": false,
+              "privateLabel": false,
+              "isMark": false,
+              "alcoSetUnits": null,
+              "activeNds": 22
+            },
+            "title": "Конфеты Raffaello миндаль и кокос 150г",
+            "primaryCategory": {
+              "id": 402,
+              "title": "Шоколад, конфеты",
+              "slug": "sokolad-konfety",
+              "isAlcohol": false,
+              "isTobacco": false,
+              "isExciseAlcohol": false,
+              "isAdultContent": false,
+              "displayStyle": 2,
+              "catalogs": [
+                2,
+                3,
+                4
+              ]
+            },
+            "catalogPrimaryCategory": {
+              "id": 193,
+              "title": "Конфеты",
+              "slug": "konfety",
+              "isAlcohol": false,
+              "isTobacco": false,
+              "isExciseAlcohol": false,
+              "isAdultContent": false,
+              "displayStyle": 2,
+              "catalogs": [
+                1
+              ]
+            },
+            "image": {
+              "id": 3054399,
+              "originName": "remote_upl_6978d32e48c1c3.81712406",
+              "fileType": "image",
+              "fileSize": 55194,
+              "width": 800,
+              "height": 800,
+              "cropUrlTemplate": "https://tsx.x5static.net/i/%s/xdelivery/files/52/6e/50f05d9f64eface3ee4b68801bf4.jpg",
+              "publicUrl": null,
+              "uuid": "d27a5411-a44b-43fc-bf7b-c59c249f1f48"
+            },
+            "rating": 497,
+            "medianPrice": 36999,
+            "labelCharacteristics": [],
+            "labels": [
+              {
+                "listingImage": {
+                  "id": 3082440,
+                  "originName": "Frame 2131330266.png",
+                  "fileType": "image",
+                  "fileSize": 188139,
+                  "width": 400,
+                  "height": 400,
+                  "cropUrlTemplate": "https://tsx.x5static.net/i/%s/xdelivery/files/5a/18/d68e23897ac5e6cee6522c7d5b5c.png",
+                  "publicUrl": null,
+                  "uuid": "fc207c06-cc32-4be9-ad38-91cb423faa26"
+                },
+                "toolTip": null
+              }
+            ],
+            "reviewCount": 491,
+            "ratingCount": 15451,
+            "priceTag": {
+              "price": 36999,
+              "discountMinimumAmount": 0,
+              "grossPrice": null,
+              "labels": [],
+              "pricePerQuantum": null,
+              "grossPricePerQuantum": null,
+              "potentialPointsForOrangeCard": null
+            },
+            "balanceState": "many"
+          },
+          {
+            "liked": false,
+            "recSysRecommendationRequestId": null,
+            "borderStyle": null,
+            "bestReview": null,
+            "advToken": null,
+            "id": 47953,
+            "masterData": {
+              "slug": "sokolad-molocnyj-kinder-chocolate-so-zlakami-94g",
+              "plu": "3447877",
+              "unit": 1,
+              "unitName": "шт",
+              "quantum": 1000,
+              "quantumStep": 1000,
+              "weight": 94,
+              "volume": null,
+              "ui4code": "FD0611002",
+              "taxGroup": "HB",
+              "ownProduction": false,
+              "privateLabel": false,
+              "isMark": false,
+              "alcoSetUnits": null,
+              "activeNds": 22
+            },
+            "title": "Шоколад молочный Kinder Chocolate со злаками, 94г",
+            "primaryCategory": {
+              "id": 402,
+              "title": "Шоколад, конфеты",
+              "slug": "sokolad-konfety",
+              "isAlcohol": false,
+              "isTobacco": false,
+              "isExciseAlcohol": false,
+              "isAdultContent": false,
+              "displayStyle": 2,
+              "catalogs": [
+                2,
+                3,
+                4
+              ]
+            },
+            "catalogPrimaryCategory": {
+              "id": 195,
+              "title": "Шоколад",
+              "slug": "sokolad",
+              "isAlcohol": false,
+              "isTobacco": false,
+              "isExciseAlcohol": false,
+              "isAdultContent": false,
+              "displayStyle": 2,
+              "catalogs": [
+                1
+              ]
+            },
+            "image": {
+              "id": 2568498,
+              "originName": "remote_upl_68dcd1a2860949.28054062",
+              "fileType": "image",
+              "fileSize": 61341,
+              "width": 800,
+              "height": 800,
+              "cropUrlTemplate": "https://tsx.x5static.net/i/%s/xdelivery/files/75/f9/104be2caa9903cf918201b7c8170.jpg",
+              "publicUrl": null,
+              "uuid": "14594a5a-29c5-4551-b623-e5f252ced0f8"
+            },
+            "rating": 496,
+            "medianPrice": 29999,
+            "labelCharacteristics": [],
+            "labels": [],
+            "reviewCount": 169,
+            "ratingCount": 4109,
+            "priceTag": {
+              "price": 27999,
+              "discountMinimumAmount": 0,
+              "grossPrice": null,
+              "labels": [],
+              "pricePerQuantum": null,
+              "grossPricePerQuantum": null,
+              "potentialPointsForOrangeCard": null
+            },
+            "balanceState": "many"
+          },
+          {
+            "liked": false,
+            "recSysRecommendationRequestId": null,
+            "borderStyle": null,
+            "bestReview": null,
+            "advToken": null,
+            "id": 47951,
+            "masterData": {
+              "slug": "sokolad-molocnyj-kinder-maksi-s-molocnoj-nacinkoj-84g",
+              "plu": "3448606",
+              "unit": 1,
+              "unitName": "шт",
+              "quantum": 1000,
+              "quantumStep": 1000,
+              "weight": 84,
+              "volume": null,
+              "ui4code": "FD0611002",
+              "taxGroup": "HB",
+              "ownProduction": false,
+              "privateLabel": false,
+              "isMark": false,
+              "alcoSetUnits": null,
+              "activeNds": 22
+            },
+            "title": "Шоколад молочный Kinder Макси с молочной начинкой, 84г",
+            "primaryCategory": {
+              "id": 402,
+              "title": "Шоколад, конфеты",
+              "slug": "sokolad-konfety",
+              "isAlcohol": false,
+              "isTobacco": false,
+              "isExciseAlcohol": false,
+              "isAdultContent": false,
+              "displayStyle": 2,
+              "catalogs": [
+                2,
+                3,
+                4
+              ]
+            },
+            "catalogPrimaryCategory": {
+              "id": 195,
+              "title": "Шоколад",
+              "slug": "sokolad",
+              "isAlcohol": false,
+              "isTobacco": false,
+              "isExciseAlcohol": false,
+              "isAdultContent": false,
+              "displayStyle": 2,
+              "catalogs": [
+                1
+              ]
+            },
+            "image": {
+              "id": 2591190,
+              "originName": "remote_upl_68e2dc59c8a7b6.09336159",
+              "fileType": "image",
+              "fileSize": 76061,
+              "width": 800,
+              "height": 800,
+              "cropUrlTemplate": "https://tsx.x5static.net/i/%s/xdelivery/files/b9/c8/4106c2efaafb6e3986037e244d65.jpg",
+              "publicUrl": null,
+              "uuid": "37af11a0-1bf8-425b-93b8-f34b14660b21"
+            },
+            "rating": 497,
+            "medianPrice": 18899,
+            "labelCharacteristics": [],
+            "labels": [],
+            "reviewCount": 95,
+            "ratingCount": 2735,
+            "priceTag": {
+              "price": 18899,
+              "discountMinimumAmount": 0,
+              "grossPrice": 23999,
+              "labels": [
+                {
+                  "type": "yellow",
+                  "text": "-21%"
+                }
+              ],
+              "pricePerQuantum": null,
+              "grossPricePerQuantum": null,
+              "potentialPointsForOrangeCard": null
+            },
+            "balanceState": "many"
+          },
+          {
+            "liked": false,
+            "recSysRecommendationRequestId": null,
+            "borderStyle": null,
+            "bestReview": null,
+            "advToken": null,
+            "id": 44074,
+            "masterData": {
+              "slug": "nabor-konfet-merci-sokoladnye-assorti-8-vidov-sokolada-250g",
+              "plu": "22245",
+              "unit": 1,
+              "unitName": "шт",
+              "quantum": 1000,
+              "quantumStep": 1000,
+              "weight": 250,
+              "volume": null,
+              "ui4code": "FD0606005",
+              "taxGroup": "HB",
+              "ownProduction": false,
+              "privateLabel": false,
+              "isMark": false,
+              "alcoSetUnits": null,
+              "activeNds": 22
+            },
+            "title": "Набор конфет Merci шоколадные ассорти 8 видов шоколада, 250г",
+            "primaryCategory": {
+              "id": 402,
+              "title": "Шоколад, конфеты",
+              "slug": "sokolad-konfety",
+              "isAlcohol": false,
+              "isTobacco": false,
+              "isExciseAlcohol": false,
+              "isAdultContent": false,
+              "displayStyle": 2,
+              "catalogs": [
+                2,
+                3,
+                4
+              ]
+            },
+            "catalogPrimaryCategory": {
+              "id": 193,
+              "title": "Конфеты",
+              "slug": "konfety",
+              "isAlcohol": false,
+              "isTobacco": false,
+              "isExciseAlcohol": false,
+              "isAdultContent": false,
+              "displayStyle": 2,
+              "catalogs": [
+                1
+              ]
+            },
+            "image": {
+              "id": 2549030,
+              "originName": "remote_upl_68dc61072f5cc3.02666406",
+              "fileType": "image",
+              "fileSize": 72224,
+              "width": 800,
+              "height": 649,
+              "cropUrlTemplate": "https://tsx.x5static.net/i/%s/xdelivery/files/cc/6b/49aeaa7db829168b64401f37362e.jpg",
+              "publicUrl": null,
+              "uuid": "13cd5e76-25a3-421f-a066-c110bf3776b5"
+            },
+            "rating": 497,
+            "medianPrice": 59999,
+            "labelCharacteristics": [],
+            "labels": [],
+            "reviewCount": 339,
+            "ratingCount": 10374,
+            "priceTag": {
+              "price": 54799,
+              "discountMinimumAmount": 0,
+              "grossPrice": null,
+              "labels": [],
+              "pricePerQuantum": null,
+              "grossPricePerQuantum": null,
+              "potentialPointsForOrangeCard": null
+            },
+            "balanceState": "many"
+          },
+          {
+            "liked": false,
+            "recSysRecommendationRequestId": null,
+            "borderStyle": null,
+            "bestReview": null,
+            "advToken": null,
+            "id": 407547,
+            "masterData": {
+              "slug": "konfety-trufel-market-collection-150g",
+              "plu": "4305316",
+              "unit": 1,
+              "unitName": "шт",
+              "quantum": 1000,
+              "quantumStep": 1000,
+              "weight": 150,
+              "volume": null,
+              "ui4code": "FD0606005",
+              "taxGroup": "HB",
+              "ownProduction": false,
+              "privateLabel": true,
+              "isMark": false,
+              "alcoSetUnits": null,
+              "activeNds": 22
+            },
+            "title": "Конфеты Трюфель Маркет Collection, 150г",
+            "primaryCategory": {
+              "id": 402,
+              "title": "Шоколад, конфеты",
+              "slug": "sokolad-konfety",
+              "isAlcohol": false,
+              "isTobacco": false,
+              "isExciseAlcohol": false,
+              "isAdultContent": false,
+              "displayStyle": 2,
+              "catalogs": [
+                2,
+                3,
+                4
+              ]
+            },
+            "catalogPrimaryCategory": {
+              "id": 193,
+              "title": "Конфеты",
+              "slug": "konfety",
+              "isAlcohol": false,
+              "isTobacco": false,
+              "isExciseAlcohol": false,
+              "isAdultContent": false,
+              "displayStyle": 2,
+              "catalogs": [
+                1
+              ]
+            },
+            "image": {
+              "id": 2576867,
+              "originName": "remote_upl_68de22fee54610.53711579",
+              "fileType": "image",
+              "fileSize": 42644,
+              "width": 800,
+              "height": 800,
+              "cropUrlTemplate": "https://tsx.x5static.net/i/%s/xdelivery/files/f2/4e/89260f9354171161c55f92150ef8.jpg",
+              "publicUrl": null,
+              "uuid": "3cb5c54d-8dee-459c-b69c-eac4be39504c"
+            },
+            "rating": 490,
+            "medianPrice": 16999,
+            "labelCharacteristics": [],
+            "labels": [],
+            "reviewCount": 360,
+            "ratingCount": 2069,
+            "priceTag": {
+              "price": 16999,
+              "discountMinimumAmount": 0,
+              "grossPrice": 19999,
+              "labels": [
+                {
+                  "type": "yellow",
+                  "text": "-15%"
+                }
+              ],
+              "pricePerQuantum": null,
+              "grossPricePerQuantum": null,
+              "potentialPointsForOrangeCard": null
+            },
+            "balanceState": "many"
+          }
+        ]
+      }
+    ],
+    "currentSorting": {
+      "orderBy": "popularity",
+      "orderDirection": "desc"
+    }
+  }
+}

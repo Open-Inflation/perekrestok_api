@@ -1,0 +1,1067 @@
+{
+  "content": {
+    "textQuery": "молоко",
+    "products": [
+      {
+        "category": {
+          "id": 370,
+          "title": "Молоко, сметана",
+          "slug": "moloko-smetana",
+          "parentId": 328,
+          "parentTitle": "Молоко, сыр, яйца",
+          "isAlcohol": false,
+          "isTobacco": false,
+          "isAdultContent": false,
+          "displayStyle": 2
+        },
+        "liked": false,
+        "recSysRecommendationRequestId": null,
+        "borderStyle": null,
+        "bestReview": null,
+        "advToken": null,
+        "id": 30983,
+        "masterData": {
+          "slug": "moloko-pitevoe-ultrapasterizovannoe-3-2-pr-st-970ml",
+          "plu": "3431579",
+          "unit": 1,
+          "unitName": "шт",
+          "quantum": 1000,
+          "quantumStep": 1000,
+          "weight": 970,
+          "volume": 970,
+          "ui4code": "FR0604002",
+          "taxGroup": "BB",
+          "ownProduction": false,
+          "privateLabel": true,
+          "isMark": true,
+          "alcoSetUnits": null,
+          "activeNds": 10
+        },
+        "title": "Молоко питьевое ультрапастеризованное 3.2% Пр!ст, 970мл",
+        "primaryCategory": {
+          "id": 370,
+          "title": "Молоко, сметана",
+          "slug": "moloko-smetana",
+          "isAlcohol": false,
+          "isTobacco": false,
+          "isExciseAlcohol": false,
+          "isAdultContent": false,
+          "displayStyle": 2,
+          "catalogs": [
+            2,
+            3,
+            4
+          ]
+        },
+        "catalogPrimaryCategory": {
+          "id": 114,
+          "title": "Молоко",
+          "slug": "moloko",
+          "isAlcohol": false,
+          "isTobacco": false,
+          "isExciseAlcohol": false,
+          "isAdultContent": false,
+          "displayStyle": 2,
+          "catalogs": [
+            1
+          ]
+        },
+        "image": {
+          "id": 3113549,
+          "originName": "remote_upl_6995b825b0bd20.78102178",
+          "fileType": "image",
+          "fileSize": 53732,
+          "width": 800,
+          "height": 800,
+          "cropUrlTemplate": "https://tsx.x5static.net/i/%s/xdelivery/files/59/b7/06ae325xd16739524760e67f3a33.jpg",
+          "publicUrl": null,
+          "uuid": "7932cd24-f1b1-4e93-8688-c81fb177ded9"
+        },
+        "rating": 489,
+        "medianPrice": 8999,
+        "labelCharacteristics": [],
+        "labels": [],
+        "reviewCount": 838,
+        "ratingCount": 17922,
+        "priceTag": {
+          "price": 8999,
+          "discountMinimumAmount": 0,
+          "grossPrice": null,
+          "labels": [],
+          "pricePerQuantum": null,
+          "grossPricePerQuantum": null,
+          "potentialPointsForOrangeCard": null
+        },
+        "balanceState": "many"
+      },
+      {
+        "category": {
+          "id": 370,
+          "title": "Молоко, сметана",
+          "slug": "moloko-smetana",
+          "parentId": 328,
+          "parentTitle": "Молоко, сыр, яйца",
+          "isAlcohol": false,
+          "isTobacco": false,
+          "isAdultContent": false,
+          "displayStyle": 2
+        },
+        "liked": false,
+        "recSysRecommendationRequestId": null,
+        "borderStyle": null,
+        "bestReview": null,
+        "advToken": null,
+        "id": 343349,
+        "masterData": {
+          "slug": "moloko-pitevoe-ultrapasterizovannoe-3-2-molocnyj-znak-973ml",
+          "plu": "4244242",
+          "unit": 1,
+          "unitName": "шт",
+          "quantum": 1000,
+          "quantumStep": 1000,
+          "weight": 973,
+          "volume": 973,
+          "ui4code": "FR0604002",
+          "taxGroup": "BB",
+          "ownProduction": false,
+          "privateLabel": true,
+          "isMark": true,
+          "alcoSetUnits": null,
+          "activeNds": 10
+        },
+        "title": "Молоко питьевое ультрапастеризованное 3.2% Молочный знак, 973мл",
+        "primaryCategory": {
+          "id": 370,
+          "title": "Молоко, сметана",
+          "slug": "moloko-smetana",
+          "isAlcohol": false,
+          "isTobacco": false,
+          "isExciseAlcohol": false,
+          "isAdultContent": false,
+          "displayStyle": 2,
+          "catalogs": [
+            2,
+            3,
+            4
+          ]
+        },
+        "catalogPrimaryCategory": {
+          "id": 114,
+          "title": "Молоко",
+          "slug": "moloko",
+          "isAlcohol": false,
+          "isTobacco": false,
+          "isExciseAlcohol": false,
+          "isAdultContent": false,
+          "displayStyle": 2,
+          "catalogs": [
+            1
+          ]
+        },
+        "image": {
+          "id": 3024275,
+          "originName": "remote_upl_6966422749d6c1.51528304",
+          "fileType": "image",
+          "fileSize": 41436,
+          "width": 800,
+          "height": 800,
+          "cropUrlTemplate": "https://tsx.x5static.net/i/%s/xdelivery/files/63/20/af167d1ebd4cc70540dcaabab2ee.jpg",
+          "publicUrl": null,
+          "uuid": "f9bd9b2c-d2ba-47fd-a5af-7e786f2207d3"
+        },
+        "rating": 491,
+        "medianPrice": 10299,
+        "labelCharacteristics": [],
+        "labels": [],
+        "reviewCount": 995,
+        "ratingCount": 15041,
+        "priceTag": {
+          "price": 10299,
+          "discountMinimumAmount": 0,
+          "grossPrice": 10999,
+          "labels": [
+            {
+              "type": "yellow",
+              "text": "-6%"
+            }
+          ],
+          "pricePerQuantum": null,
+          "grossPricePerQuantum": null,
+          "potentialPointsForOrangeCard": null
+        },
+        "balanceState": "many"
+      },
+      {
+        "category": {
+          "id": 370,
+          "title": "Молоко, сметана",
+          "slug": "moloko-smetana",
+          "parentId": 328,
+          "parentTitle": "Молоко, сыр, яйца",
+          "isAlcohol": false,
+          "isTobacco": false,
+          "isAdultContent": false,
+          "displayStyle": 2
+        },
+        "liked": false,
+        "recSysRecommendationRequestId": null,
+        "borderStyle": null,
+        "bestReview": null,
+        "advToken": null,
+        "id": 408446,
+        "masterData": {
+          "slug": "moloko-molocnyj-znak-pitevoe-pasterizovannoe-2-5-900g",
+          "plu": "4310700",
+          "unit": 1,
+          "unitName": "шт",
+          "quantum": 1000,
+          "quantumStep": 1000,
+          "weight": 900,
+          "volume": 900,
+          "ui4code": "FR0604001",
+          "taxGroup": "BB",
+          "ownProduction": false,
+          "privateLabel": true,
+          "isMark": true,
+          "alcoSetUnits": null,
+          "activeNds": 10
+        },
+        "title": "Молоко Молочный Знак питьевое пастеризованное 2.5%, 900г",
+        "primaryCategory": {
+          "id": 370,
+          "title": "Молоко, сметана",
+          "slug": "moloko-smetana",
+          "isAlcohol": false,
+          "isTobacco": false,
+          "isExciseAlcohol": false,
+          "isAdultContent": false,
+          "displayStyle": 2,
+          "catalogs": [
+            2,
+            3,
+            4
+          ]
+        },
+        "catalogPrimaryCategory": {
+          "id": 114,
+          "title": "Молоко",
+          "slug": "moloko",
+          "isAlcohol": false,
+          "isTobacco": false,
+          "isExciseAlcohol": false,
+          "isAdultContent": false,
+          "displayStyle": 2,
+          "catalogs": [
+            1
+          ]
+        },
+        "image": {
+          "id": 2625064,
+          "originName": "remote_upl_68e7ea225af198.59324156",
+          "fileType": "image",
+          "fileSize": 25957,
+          "width": 800,
+          "height": 800,
+          "cropUrlTemplate": "https://tsx.x5static.net/i/%s/xdelivery/files/86/3a/d27e706e101b47146222484a8700.jpg",
+          "publicUrl": null,
+          "uuid": "a170d87b-a0e6-4e4f-a6c8-a92706243b56"
+        },
+        "rating": 491,
+        "medianPrice": 8199,
+        "labelCharacteristics": [],
+        "labels": [],
+        "reviewCount": 889,
+        "ratingCount": 13567,
+        "priceTag": {
+          "price": 8199,
+          "discountMinimumAmount": 0,
+          "grossPrice": null,
+          "labels": [],
+          "pricePerQuantum": null,
+          "grossPricePerQuantum": null,
+          "potentialPointsForOrangeCard": null
+        },
+        "balanceState": "many"
+      },
+      {
+        "category": {
+          "id": 370,
+          "title": "Молоко, сметана",
+          "slug": "moloko-smetana",
+          "parentId": 328,
+          "parentTitle": "Молоко, сыр, яйца",
+          "isAlcohol": false,
+          "isTobacco": false,
+          "isAdultContent": false,
+          "displayStyle": 2
+        },
+        "liked": false,
+        "recSysRecommendationRequestId": null,
+        "borderStyle": null,
+        "bestReview": null,
+        "advToken": null,
+        "id": 41346,
+        "masterData": {
+          "slug": "moloko-detskoe-ultrapasterizovannoe-3-2-sarafanovo-970ml",
+          "plu": "3645807",
+          "unit": 1,
+          "unitName": "шт",
+          "quantum": 1000,
+          "quantumStep": 1000,
+          "weight": 970,
+          "volume": 970,
+          "ui4code": "FR0604002",
+          "taxGroup": "BB",
+          "ownProduction": false,
+          "privateLabel": true,
+          "isMark": true,
+          "alcoSetUnits": null,
+          "activeNds": 10
+        },
+        "title": "Молоко детское ультрапастеризованное 3.2% Сарафаново, 970мл",
+        "primaryCategory": {
+          "id": 370,
+          "title": "Молоко, сметана",
+          "slug": "moloko-smetana",
+          "isAlcohol": false,
+          "isTobacco": false,
+          "isExciseAlcohol": false,
+          "isAdultContent": false,
+          "displayStyle": 2,
+          "catalogs": [
+            2,
+            3,
+            4
+          ]
+        },
+        "catalogPrimaryCategory": {
+          "id": 114,
+          "title": "Молоко",
+          "slug": "moloko",
+          "isAlcohol": false,
+          "isTobacco": false,
+          "isExciseAlcohol": false,
+          "isAdultContent": false,
+          "displayStyle": 2,
+          "catalogs": [
+            1
+          ]
+        },
+        "image": {
+          "id": 2592309,
+          "originName": "remote_upl_68e3149a72ed30.18770779",
+          "fileType": "image",
+          "fileSize": 67306,
+          "width": 800,
+          "height": 800,
+          "cropUrlTemplate": "https://tsx.x5static.net/i/%s/xdelivery/files/df/b1/0926a19a87d938d1f9ef2f989bb8.jpg",
+          "publicUrl": null,
+          "uuid": "374627f2-9e6c-41c4-8a9e-3cbb98ad9b7b"
+        },
+        "rating": 494,
+        "medianPrice": 10499,
+        "labelCharacteristics": [],
+        "labels": [],
+        "reviewCount": 517,
+        "ratingCount": 17204,
+        "priceTag": {
+          "price": 10499,
+          "discountMinimumAmount": 0,
+          "grossPrice": 12699,
+          "labels": [
+            {
+              "type": "yellow",
+              "text": "-17%"
+            }
+          ],
+          "pricePerQuantum": null,
+          "grossPricePerQuantum": null,
+          "potentialPointsForOrangeCard": null
+        },
+        "balanceState": "many"
+      },
+      {
+        "category": {
+          "id": 370,
+          "title": "Молоко, сметана",
+          "slug": "moloko-smetana",
+          "parentId": 328,
+          "parentTitle": "Молоко, сыр, яйца",
+          "isAlcohol": false,
+          "isTobacco": false,
+          "isAdultContent": false,
+          "displayStyle": 2
+        },
+        "liked": false,
+        "recSysRecommendationRequestId": null,
+        "borderStyle": null,
+        "bestReview": null,
+        "advToken": null,
+        "id": 411959,
+        "masterData": {
+          "slug": "moloko-sarafanovo-bezlaktoznoe-ultrapasterizovannoe-1-5-970ml",
+          "plu": "4308790",
+          "unit": 1,
+          "unitName": "шт",
+          "quantum": 1000,
+          "quantumStep": 1000,
+          "weight": 998,
+          "volume": 970,
+          "ui4code": "FR0604002",
+          "taxGroup": "BB",
+          "ownProduction": false,
+          "privateLabel": true,
+          "isMark": true,
+          "alcoSetUnits": null,
+          "activeNds": 10
+        },
+        "title": "Молоко Сарафаново безлактозное ультрапастеризованное 1.5%, 970мл",
+        "primaryCategory": {
+          "id": 370,
+          "title": "Молоко, сметана",
+          "slug": "moloko-smetana",
+          "isAlcohol": false,
+          "isTobacco": false,
+          "isExciseAlcohol": false,
+          "isAdultContent": false,
+          "displayStyle": 2,
+          "catalogs": [
+            2,
+            3,
+            4
+          ]
+        },
+        "catalogPrimaryCategory": {
+          "id": 114,
+          "title": "Молоко",
+          "slug": "moloko",
+          "isAlcohol": false,
+          "isTobacco": false,
+          "isExciseAlcohol": false,
+          "isAdultContent": false,
+          "displayStyle": 2,
+          "catalogs": [
+            1
+          ]
+        },
+        "image": {
+          "id": 2647770,
+          "originName": "remote_upl_68f0d0409bc143.60814365",
+          "fileType": "image",
+          "fileSize": 70473,
+          "width": 800,
+          "height": 800,
+          "cropUrlTemplate": "https://tsx.x5static.net/i/%s/xdelivery/files/01/8a/a5500149207d20a167b46f67e6c6.jpg",
+          "publicUrl": null,
+          "uuid": "5c9ccf85-72ee-4b06-ad52-0bf1466abbd9"
+        },
+        "rating": 492,
+        "medianPrice": 13999,
+        "labelCharacteristics": [],
+        "labels": [
+          {
+            "listingImage": {
+              "id": 882979,
+              "originName": "Тип=Без лактозы.png",
+              "fileType": "image",
+              "fileSize": 7846,
+              "width": 512,
+              "height": 512,
+              "cropUrlTemplate": "https://tsx.x5static.net/i/%s/xdelivery/files/3f/bb/1a3c8e0fe2aa40f574e6c7e478ec.png",
+              "publicUrl": null,
+              "uuid": "c1375c3e-bd35-4de7-9a5e-5a685b65f888"
+            },
+            "toolTip": null
+          }
+        ],
+        "reviewCount": 659,
+        "ratingCount": 6018,
+        "priceTag": {
+          "price": 13999,
+          "discountMinimumAmount": 0,
+          "grossPrice": 15999,
+          "labels": [
+            {
+              "type": "yellow",
+              "text": "-12%"
+            }
+          ],
+          "pricePerQuantum": null,
+          "grossPricePerQuantum": null,
+          "potentialPointsForOrangeCard": null
+        },
+        "balanceState": "many"
+      },
+      {
+        "category": {
+          "id": 370,
+          "title": "Молоко, сметана",
+          "slug": "moloko-smetana",
+          "parentId": 328,
+          "parentTitle": "Молоко, сыр, яйца",
+          "isAlcohol": false,
+          "isTobacco": false,
+          "isAdultContent": false,
+          "displayStyle": 2
+        },
+        "liked": false,
+        "recSysRecommendationRequestId": null,
+        "borderStyle": null,
+        "bestReview": null,
+        "advToken": null,
+        "id": 30997,
+        "masterData": {
+          "slug": "moloko-pitevoe-ultrapasterizovannoe-1-5-pr-st-970ml",
+          "plu": "3474103",
+          "unit": 1,
+          "unitName": "шт",
+          "quantum": 1000,
+          "quantumStep": 1000,
+          "weight": 970,
+          "volume": 970,
+          "ui4code": "FR0604002",
+          "taxGroup": "BB",
+          "ownProduction": false,
+          "privateLabel": true,
+          "isMark": true,
+          "alcoSetUnits": null,
+          "activeNds": 10
+        },
+        "title": "Молоко питьевое ультрапастеризованное 1.5% Пр!ст, 970мл",
+        "primaryCategory": {
+          "id": 370,
+          "title": "Молоко, сметана",
+          "slug": "moloko-smetana",
+          "isAlcohol": false,
+          "isTobacco": false,
+          "isExciseAlcohol": false,
+          "isAdultContent": false,
+          "displayStyle": 2,
+          "catalogs": [
+            2,
+            3,
+            4
+          ]
+        },
+        "catalogPrimaryCategory": {
+          "id": 114,
+          "title": "Молоко",
+          "slug": "moloko",
+          "isAlcohol": false,
+          "isTobacco": false,
+          "isExciseAlcohol": false,
+          "isAdultContent": false,
+          "displayStyle": 2,
+          "catalogs": [
+            1
+          ]
+        },
+        "image": {
+          "id": 3113617,
+          "originName": "remote_upl_6995b825b20b89.83812477",
+          "fileType": "image",
+          "fileSize": 56542,
+          "width": 800,
+          "height": 800,
+          "cropUrlTemplate": "https://tsx.x5static.net/i/%s/xdelivery/files/fa/6e/b424d1170e15ae75196af464ff53.jpg",
+          "publicUrl": null,
+          "uuid": "7aab1c2b-a259-4094-b592-a3539ae9d80e"
+        },
+        "rating": 491,
+        "medianPrice": 6999,
+        "labelCharacteristics": [],
+        "labels": [],
+        "reviewCount": 468,
+        "ratingCount": 8769,
+        "priceTag": {
+          "price": 6999,
+          "discountMinimumAmount": 0,
+          "grossPrice": null,
+          "labels": [],
+          "pricePerQuantum": null,
+          "grossPricePerQuantum": null,
+          "potentialPointsForOrangeCard": null
+        },
+        "balanceState": "many"
+      },
+      {
+        "category": {
+          "id": 370,
+          "title": "Молоко, сметана",
+          "slug": "moloko-smetana",
+          "parentId": 328,
+          "parentTitle": "Молоко, сыр, яйца",
+          "isAlcohol": false,
+          "isTobacco": false,
+          "isAdultContent": false,
+          "displayStyle": 2
+        },
+        "liked": false,
+        "recSysRecommendationRequestId": null,
+        "borderStyle": null,
+        "bestReview": null,
+        "advToken": null,
+        "id": 287761,
+        "masterData": {
+          "slug": "moloko-zelenaa-linia-otbornoe-pasterizovannoe-3-4-6-900ml",
+          "plu": "4137917",
+          "unit": 1,
+          "unitName": "шт",
+          "quantum": 1000,
+          "quantumStep": 1000,
+          "weight": 930,
+          "volume": 900,
+          "ui4code": "FR0604001",
+          "taxGroup": "BB",
+          "ownProduction": false,
+          "privateLabel": true,
+          "isMark": true,
+          "alcoSetUnits": null,
+          "activeNds": 10
+        },
+        "title": "Молоко Зелёная Линия отборное пастеризованное 3.4-6%, 900мл",
+        "primaryCategory": {
+          "id": 370,
+          "title": "Молоко, сметана",
+          "slug": "moloko-smetana",
+          "isAlcohol": false,
+          "isTobacco": false,
+          "isExciseAlcohol": false,
+          "isAdultContent": false,
+          "displayStyle": 2,
+          "catalogs": [
+            2,
+            3,
+            4
+          ]
+        },
+        "catalogPrimaryCategory": {
+          "id": 114,
+          "title": "Молоко",
+          "slug": "moloko",
+          "isAlcohol": false,
+          "isTobacco": false,
+          "isExciseAlcohol": false,
+          "isAdultContent": false,
+          "displayStyle": 2,
+          "catalogs": [
+            1
+          ]
+        },
+        "image": {
+          "id": 2774611,
+          "originName": "remote_upl_6925c4b22e2f42.68430285",
+          "fileType": "image",
+          "fileSize": 24111,
+          "width": 800,
+          "height": 800,
+          "cropUrlTemplate": "https://tsx.x5static.net/i/%s/xdelivery/files/3d/ca/2eaa2824ccf37f9a15d409eecb42.jpg",
+          "publicUrl": null,
+          "uuid": "2458ec51-96a2-407a-b364-ab18ea109da0"
+        },
+        "rating": 495,
+        "medianPrice": 8999,
+        "labelCharacteristics": [],
+        "labels": [],
+        "reviewCount": 972,
+        "ratingCount": 16873,
+        "priceTag": {
+          "price": 8999,
+          "discountMinimumAmount": 0,
+          "grossPrice": 9599,
+          "labels": [
+            {
+              "type": "yellow",
+              "text": "-6%"
+            }
+          ],
+          "pricePerQuantum": null,
+          "grossPricePerQuantum": null,
+          "potentialPointsForOrangeCard": null
+        },
+        "balanceState": "many"
+      },
+      {
+        "category": {
+          "id": 370,
+          "title": "Молоко, сметана",
+          "slug": "moloko-smetana",
+          "parentId": 328,
+          "parentTitle": "Молоко, сыр, яйца",
+          "isAlcohol": false,
+          "isTobacco": false,
+          "isAdultContent": false,
+          "displayStyle": 2
+        },
+        "liked": false,
+        "recSysRecommendationRequestId": null,
+        "borderStyle": null,
+        "bestReview": null,
+        "advToken": null,
+        "id": 36657,
+        "masterData": {
+          "slug": "moloko-sarafanovo-pasterizovannoe-2-5-930ml",
+          "plu": "3613024",
+          "unit": 1,
+          "unitName": "шт",
+          "quantum": 1000,
+          "quantumStep": 1000,
+          "weight": 930,
+          "volume": 930,
+          "ui4code": "FR0604001",
+          "taxGroup": "BB",
+          "ownProduction": false,
+          "privateLabel": true,
+          "isMark": true,
+          "alcoSetUnits": null,
+          "activeNds": 10
+        },
+        "title": "Молоко Сарафаново пастеризованное 2.5%, 930мл",
+        "primaryCategory": {
+          "id": 370,
+          "title": "Молоко, сметана",
+          "slug": "moloko-smetana",
+          "isAlcohol": false,
+          "isTobacco": false,
+          "isExciseAlcohol": false,
+          "isAdultContent": false,
+          "displayStyle": 2,
+          "catalogs": [
+            2,
+            3,
+            4
+          ]
+        },
+        "catalogPrimaryCategory": {
+          "id": 114,
+          "title": "Молоко",
+          "slug": "moloko",
+          "isAlcohol": false,
+          "isTobacco": false,
+          "isExciseAlcohol": false,
+          "isAdultContent": false,
+          "displayStyle": 2,
+          "catalogs": [
+            1
+          ]
+        },
+        "image": {
+          "id": 2555855,
+          "originName": "remote_upl_68dc60fc2919a6.77826744",
+          "fileType": "image",
+          "fileSize": 40627,
+          "width": 800,
+          "height": 800,
+          "cropUrlTemplate": "https://tsx.x5static.net/i/%s/xdelivery/files/c5/c1/29b42fede58d28de7363fe08c5a5.jpg",
+          "publicUrl": null,
+          "uuid": "63122f4a-0b56-46c8-b30f-cc250ed7341b"
+        },
+        "rating": 491,
+        "medianPrice": 9999,
+        "labelCharacteristics": [],
+        "labels": [],
+        "reviewCount": 355,
+        "ratingCount": 16465,
+        "priceTag": {
+          "price": 9999,
+          "discountMinimumAmount": 0,
+          "grossPrice": null,
+          "labels": [],
+          "pricePerQuantum": null,
+          "grossPricePerQuantum": null,
+          "potentialPointsForOrangeCard": null
+        },
+        "balanceState": "many"
+      },
+      {
+        "category": {
+          "id": 370,
+          "title": "Молоко, сметана",
+          "slug": "moloko-smetana",
+          "parentId": 328,
+          "parentTitle": "Молоко, сыр, яйца",
+          "isAlcohol": false,
+          "isTobacco": false,
+          "isAdultContent": false,
+          "displayStyle": 2
+        },
+        "liked": false,
+        "recSysRecommendationRequestId": null,
+        "borderStyle": null,
+        "bestReview": null,
+        "advToken": null,
+        "id": 65588,
+        "masterData": {
+          "slug": "moloko-prostokvasino-pasterizovannoe-2-5-bzmz-930ml",
+          "plu": "2093081",
+          "unit": 1,
+          "unitName": "шт",
+          "quantum": 1000,
+          "quantumStep": 1000,
+          "weight": 958,
+          "volume": 930,
+          "ui4code": "FR0604001",
+          "taxGroup": "BB",
+          "ownProduction": false,
+          "privateLabel": false,
+          "isMark": true,
+          "alcoSetUnits": null,
+          "activeNds": 10
+        },
+        "title": "Молоко Простоквашино пастеризованное 2.5% БЗМЖ, 930мл",
+        "primaryCategory": {
+          "id": 370,
+          "title": "Молоко, сметана",
+          "slug": "moloko-smetana",
+          "isAlcohol": false,
+          "isTobacco": false,
+          "isExciseAlcohol": false,
+          "isAdultContent": false,
+          "displayStyle": 2,
+          "catalogs": [
+            2,
+            3,
+            4
+          ]
+        },
+        "catalogPrimaryCategory": {
+          "id": 114,
+          "title": "Молоко",
+          "slug": "moloko",
+          "isAlcohol": false,
+          "isTobacco": false,
+          "isExciseAlcohol": false,
+          "isAdultContent": false,
+          "displayStyle": 2,
+          "catalogs": [
+            1
+          ]
+        },
+        "image": {
+          "id": 3075500,
+          "originName": "remote_upl_6981b93eee9f53.80921416",
+          "fileType": "image",
+          "fileSize": 41822,
+          "width": 800,
+          "height": 800,
+          "cropUrlTemplate": "https://tsx.x5static.net/i/%s/xdelivery/files/de/dc/4e17c372d61be65ca42570b2255c.jpg",
+          "publicUrl": null,
+          "uuid": "2fb74341-11ad-4519-81af-0397c550c5ab"
+        },
+        "rating": 494,
+        "medianPrice": 8499,
+        "labelCharacteristics": [],
+        "labels": [],
+        "reviewCount": 1472,
+        "ratingCount": 55983,
+        "priceTag": {
+          "price": 9999,
+          "discountMinimumAmount": 0,
+          "grossPrice": null,
+          "labels": [],
+          "pricePerQuantum": null,
+          "grossPricePerQuantum": null,
+          "potentialPointsForOrangeCard": null
+        },
+        "balanceState": "many"
+      },
+      {
+        "category": {
+          "id": 370,
+          "title": "Молоко, сметана",
+          "slug": "moloko-smetana",
+          "parentId": 328,
+          "parentTitle": "Молоко, сыр, яйца",
+          "isAlcohol": false,
+          "isTobacco": false,
+          "isAdultContent": false,
+          "displayStyle": 2
+        },
+        "liked": false,
+        "recSysRecommendationRequestId": null,
+        "borderStyle": null,
+        "bestReview": null,
+        "advToken": null,
+        "id": 371577,
+        "masterData": {
+          "slug": "moloko-prostokvasino-pitevoe-pasterizovannoe-3-2-1-4l",
+          "plu": "4259100",
+          "unit": 1,
+          "unitName": "шт",
+          "quantum": 1000,
+          "quantumStep": 1000,
+          "weight": 1442,
+          "volume": 1400,
+          "ui4code": "FR0604001",
+          "taxGroup": "BB",
+          "ownProduction": false,
+          "privateLabel": false,
+          "isMark": true,
+          "alcoSetUnits": null,
+          "activeNds": 10
+        },
+        "title": "Молоко Простоквашино питьевое пастеризованное 3.2%, 1.4л",
+        "primaryCategory": {
+          "id": 370,
+          "title": "Молоко, сметана",
+          "slug": "moloko-smetana",
+          "isAlcohol": false,
+          "isTobacco": false,
+          "isExciseAlcohol": false,
+          "isAdultContent": false,
+          "displayStyle": 2,
+          "catalogs": [
+            2,
+            3,
+            4
+          ]
+        },
+        "catalogPrimaryCategory": {
+          "id": 114,
+          "title": "Молоко",
+          "slug": "moloko",
+          "isAlcohol": false,
+          "isTobacco": false,
+          "isExciseAlcohol": false,
+          "isAdultContent": false,
+          "displayStyle": 2,
+          "catalogs": [
+            1
+          ]
+        },
+        "image": {
+          "id": 2564966,
+          "originName": "remote_upl_68dc7d1e0f1304.78364534",
+          "fileType": "image",
+          "fileSize": 44072,
+          "width": 800,
+          "height": 800,
+          "cropUrlTemplate": "https://tsx.x5static.net/i/%s/xdelivery/files/f1/dc/4731873cbbb497a01d49f7dcf5b2.jpg",
+          "publicUrl": null,
+          "uuid": "f5caaba0-321b-438e-91c7-517a2df368ed"
+        },
+        "rating": 497,
+        "medianPrice": 15999,
+        "labelCharacteristics": [],
+        "labels": [],
+        "reviewCount": 734,
+        "ratingCount": 16214,
+        "priceTag": {
+          "price": 15499,
+          "discountMinimumAmount": 0,
+          "grossPrice": null,
+          "labels": [],
+          "pricePerQuantum": null,
+          "grossPricePerQuantum": null,
+          "potentialPointsForOrangeCard": null
+        },
+        "balanceState": "many"
+      }
+    ],
+    "categories": [
+      {
+        "id": 114,
+        "title": "Молоко",
+        "slug": "moloko",
+        "parentId": 113,
+        "parentTitle": "Молоко, сыр, яйца",
+        "isAlcohol": false,
+        "isTobacco": false,
+        "isAdultContent": false,
+        "displayStyle": 2
+      }
+    ],
+    "features": [],
+    "totalProductCount": 439,
+    "suggests": [
+      "молоко детское",
+      "молоко топленое",
+      "молоко агуша",
+      "молоко 3.2",
+      "молоко 2.5",
+      "молоко 1.5",
+      "молоко безлактозное",
+      "молоко кокосовое",
+      "молоко 0.5",
+      "молоко просто"
+    ],
+    "fullSuggests": [
+      {
+        "displayValue": "детское",
+        "value": "молоко детское"
+      },
+      {
+        "displayValue": "топленое",
+        "value": "молоко топленое"
+      },
+      {
+        "displayValue": "агуша",
+        "value": "молоко агуша"
+      },
+      {
+        "displayValue": "3.2",
+        "value": "молоко 3.2"
+      },
+      {
+        "displayValue": "2.5",
+        "value": "молоко 2.5"
+      },
+      {
+        "displayValue": "1.5",
+        "value": "молоко 1.5"
+      },
+      {
+        "displayValue": "безлактозное",
+        "value": "молоко безлактозное"
+      },
+      {
+        "displayValue": "кокосовое",
+        "value": "молоко кокосовое"
+      },
+      {
+        "displayValue": "0.5",
+        "value": "молоко 0.5"
+      },
+      {
+        "displayValue": "просто",
+        "value": "молоко просто"
+      }
+    ],
+    "productGroups": [
+      {
+        "groupKey": "moloko-syr-yaica-zl",
+        "groupTitle": "Молоко, сыр, яйца",
+        "categoryTitle": "Зелёная Линия",
+        "categorySlug": "zelenaa-linia",
+        "categoryId": 284,
+        "parentCategoryTitle": "От Перекрёстка",
+        "parentCategorySlug": "ot-perekrestka",
+        "parentCategoryId": 282
+      },
+      {
+        "groupKey": "moloko-syr-yaica-mp",
+        "groupTitle": "Молоко, сыр, яйца",
+        "categoryTitle": "Маркет",
+        "categorySlug": "market",
+        "categoryId": 287,
+        "parentCategoryTitle": "От Перекрёстка",
+        "parentCategorySlug": "ot-perekrestka",
+        "parentCategoryId": 282
+      },
+      {
+        "groupKey": "moloko-syr-yaica-prosto",
+        "groupTitle": "Молоко, сыр, яйца",
+        "categoryTitle": "Пр!ст",
+        "categorySlug": "pr-st",
+        "categoryId": 299,
+        "parentCategoryTitle": "От Перекрёстка",
+        "parentCategorySlug": "ot-perekrestka",
+        "parentCategoryId": 282
+      }
+    ],
+    "recommendedProducts": [],
+    "productSegmentName": null,
+    "searchQueryId": "82d79602-65b6-4c34-bfce-b5de3807f3d2",
+    "searchType": "strict"
+  }
+}

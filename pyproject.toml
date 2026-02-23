@@ -59,4 +59,6 @@ filterwarnings = [
     "ignore:Event loop is closed:RuntimeWarning",
 ]
 anyio_mode = "auto"
+autotest_start_class = "perekrestok_api.PerekrestokAPI"
+autotest_typecheck = "strict"
 addopts = "-v --tb=short --disable-warnings"

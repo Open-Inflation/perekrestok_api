@@ -1,0 +1,520 @@
+{
+  "content": {
+    "id": 13770,
+    "masterData": {
+      "slug": "sumka-podarocnaa-art-i-dizajn-de-6-3h14-5h11-5sm",
+      "plu": "2103416",
+      "unit": 1,
+      "unitName": "шт",
+      "quantum": 1000,
+      "quantumStep": 1000,
+      "weight": 90,
+      "volume": null,
+      "ui4code": "NF1401001",
+      "taxGroup": "HB",
+      "ownProduction": false,
+      "privateLabel": false,
+      "isMark": false,
+      "alcoSetUnits": null,
+      "activeNds": 22
+    },
+    "title": "Сумка подарочная Арт и Дизайн DE 6.3х14.5х11.5см",
+    "briefTitle": null,
+    "description": null,
+    "plu": "2103416",
+    "rating": 497,
+    "primaryCategory": {
+      "id": 456,
+      "title": "Сезонные товары",
+      "slug": "sezonnye-tovary",
+      "isAlcohol": false,
+      "isTobacco": false,
+      "isExciseAlcohol": false,
+      "isAdultContent": false,
+      "displayStyle": 2,
+      "catalogs": [
+        2,
+        3,
+        4
+      ]
+    },
+    "catalogPrimaryCategory": {
+      "id": 42,
+      "title": "Всё для праздника",
+      "slug": "vse-dla-prazdnika",
+      "isAlcohol": false,
+      "isTobacco": false,
+      "isExciseAlcohol": false,
+      "isAdultContent": false,
+      "displayStyle": 2,
+      "catalogs": [
+        1
+      ]
+    },
+    "primaryImage": {
+      "id": 2732791,
+      "originName": "remote_upl_69126e77d4cda2.08719699",
+      "fileType": "image",
+      "fileSize": 51002,
+      "width": 800,
+      "height": 800,
+      "cropUrlTemplate": "https://tsx.x5static.net/i/%s/xdelivery/files/7f/ba/d455ea33a390a70195176xd2c443.jpg",
+      "publicUrl": null,
+      "uuid": "fbb9e66d-b15f-4cb9-bdec-c7978b9d7385"
+    },
+    "primaryMedia": {
+      "id": 2732791,
+      "originName": "remote_upl_69126e77d4cda2.08719699",
+      "fileType": "image",
+      "fileSize": 51002,
+      "width": 800,
+      "height": 800,
+      "cropUrlTemplate": "https://tsx.x5static.net/i/%s/xdelivery/files/7f/ba/d455ea33a390a70195176xd2c443.jpg",
+      "publicUrl": null,
+      "uuid": "fbb9e66d-b15f-4cb9-bdec-c7978b9d7385"
+    },
+    "images": [
+      {
+        "id": 2732791,
+        "originName": "remote_upl_69126e77d4cda2.08719699",
+        "fileType": "image",
+        "fileSize": 51002,
+        "width": 800,
+        "height": 800,
+        "cropUrlTemplate": "https://tsx.x5static.net/i/%s/xdelivery/files/7f/ba/d455ea33a390a70195176xd2c443.jpg",
+        "publicUrl": null,
+        "uuid": "fbb9e66d-b15f-4cb9-bdec-c7978b9d7385"
+      },
+      {
+        "id": 2732793,
+        "originName": "remote_upl_69126e77d4d733.85943285",
+        "fileType": "image",
+        "fileSize": 62013,
+        "width": 800,
+        "height": 800,
+        "cropUrlTemplate": "https://tsx.x5static.net/i/%s/xdelivery/files/9e/9b/e17cfa5c3cf90decde666eb327f2.jpg",
+        "publicUrl": null,
+        "uuid": "b52336a7-02c5-4921-b0a3-c1ef73c32a44"
+      },
+      {
+        "id": 2732794,
+        "originName": "remote_upl_69126e77d4e128.76886657",
+        "fileType": "image",
+        "fileSize": 120389,
+        "width": 800,
+        "height": 800,
+        "cropUrlTemplate": "https://tsx.x5static.net/i/%s/xdelivery/files/d8/08/c6c52d383527ab41fa1c140766e3.jpg",
+        "publicUrl": null,
+        "uuid": "27473662-ae5c-4faa-aef9-e21eb13490f7"
+      },
+      {
+        "id": 2732797,
+        "originName": "remote_upl_69126e77d4eae4.61588522",
+        "fileType": "image",
+        "fileSize": 115862,
+        "width": 800,
+        "height": 800,
+        "cropUrlTemplate": "https://tsx.x5static.net/i/%s/xdelivery/files/03/a3/d08aab9edf53df21c0c7aa823cb5.jpg",
+        "publicUrl": null,
+        "uuid": "0405e4bf-e8ea-43eb-8579-458d7dd1d817"
+      },
+      {
+        "id": 2732799,
+        "originName": "remote_upl_69126e77d4f200.42874353",
+        "fileType": "image",
+        "fileSize": 91778,
+        "width": 800,
+        "height": 800,
+        "cropUrlTemplate": "https://tsx.x5static.net/i/%s/xdelivery/files/1a/ef/81f0e85d3a78e46d2489ce8645bf.jpg",
+        "publicUrl": null,
+        "uuid": "91ea352e-8db9-4637-bb1a-7621a2874089"
+      },
+      {
+        "id": 2732801,
+        "originName": "remote_upl_69126e77d4f8d0.76821406",
+        "fileType": "image",
+        "fileSize": 98437,
+        "width": 800,
+        "height": 800,
+        "cropUrlTemplate": "https://tsx.x5static.net/i/%s/xdelivery/files/3c/69/2a97914ab6b6aeac72670b6dae78.jpg",
+        "publicUrl": null,
+        "uuid": "4f496475-36e8-4a04-ac06-ee88a68394a1"
+      },
+      {
+        "id": 2732802,
+        "originName": "remote_upl_69126e77d4ff85.19056022",
+        "fileType": "image",
+        "fileSize": 38589,
+        "width": 800,
+        "height": 800,
+        "cropUrlTemplate": "https://tsx.x5static.net/i/%s/xdelivery/files/b0/44/23e939c00aba9249c115ab9b39aa.jpg",
+        "publicUrl": null,
+        "uuid": "b4613b70-a729-4f52-bddf-0387133d53ba"
+      }
+    ],
+    "media": [
+      {
+        "id": 2732791,
+        "originName": "remote_upl_69126e77d4cda2.08719699",
+        "fileType": "image",
+        "fileSize": 51002,
+        "width": 800,
+        "height": 800,
+        "cropUrlTemplate": "https://tsx.x5static.net/i/%s/xdelivery/files/7f/ba/d455ea33a390a70195176xd2c443.jpg",
+        "publicUrl": null,
+        "uuid": "fbb9e66d-b15f-4cb9-bdec-c7978b9d7385"
+      },
+      {
+        "id": 2732793,
+        "originName": "remote_upl_69126e77d4d733.85943285",
+        "fileType": "image",
+        "fileSize": 62013,
+        "width": 800,
+        "height": 800,
+        "cropUrlTemplate": "https://tsx.x5static.net/i/%s/xdelivery/files/9e/9b/e17cfa5c3cf90decde666eb327f2.jpg",
+        "publicUrl": null,
+        "uuid": "b52336a7-02c5-4921-b0a3-c1ef73c32a44"
+      },
+      {
+        "id": 2732794,
+        "originName": "remote_upl_69126e77d4e128.76886657",
+        "fileType": "image",
+        "fileSize": 120389,
+        "width": 800,
+        "height": 800,
+        "cropUrlTemplate": "https://tsx.x5static.net/i/%s/xdelivery/files/d8/08/c6c52d383527ab41fa1c140766e3.jpg",
+        "publicUrl": null,
+        "uuid": "27473662-ae5c-4faa-aef9-e21eb13490f7"
+      },
+      {
+        "id": 2732797,
+        "originName": "remote_upl_69126e77d4eae4.61588522",
+        "fileType": "image",
+        "fileSize": 115862,
+        "width": 800,
+        "height": 800,
+        "cropUrlTemplate": "https://tsx.x5static.net/i/%s/xdelivery/files/03/a3/d08aab9edf53df21c0c7aa823cb5.jpg",
+        "publicUrl": null,
+        "uuid": "0405e4bf-e8ea-43eb-8579-458d7dd1d817"
+      },
+      {
+        "id": 2732799,
+        "originName": "remote_upl_69126e77d4f200.42874353",
+        "fileType": "image",
+        "fileSize": 91778,
+        "width": 800,
+        "height": 800,
+        "cropUrlTemplate": "https://tsx.x5static.net/i/%s/xdelivery/files/1a/ef/81f0e85d3a78e46d2489ce8645bf.jpg",
+        "publicUrl": null,
+        "uuid": "91ea352e-8db9-4637-bb1a-7621a2874089"
+      },
+      {
+        "id": 2732801,
+        "originName": "remote_upl_69126e77d4f8d0.76821406",
+        "fileType": "image",
+        "fileSize": 98437,
+        "width": 800,
+        "height": 800,
+        "cropUrlTemplate": "https://tsx.x5static.net/i/%s/xdelivery/files/3c/69/2a97914ab6b6aeac72670b6dae78.jpg",
+        "publicUrl": null,
+        "uuid": "4f496475-36e8-4a04-ac06-ee88a68394a1"
+      },
+      {
+        "id": 2732802,
+        "originName": "remote_upl_69126e77d4ff85.19056022",
+        "fileType": "image",
+        "fileSize": 38589,
+        "width": 800,
+        "height": 800,
+        "cropUrlTemplate": "https://tsx.x5static.net/i/%s/xdelivery/files/b0/44/23e939c00aba9249c115ab9b39aa.jpg",
+        "publicUrl": null,
+        "uuid": "b4613b70-a729-4f52-bddf-0387133d53ba"
+      }
+    ],
+    "features": [
+      {
+        "title": "Состав",
+        "displayStyle": 1,
+        "items": [
+          {
+            "title": "Состав",
+            "hideTitle": true,
+            "collapseValue": false,
+            "key": "sostav",
+            "displayValues": [
+              "Бумага."
+            ],
+            "values": [
+              "Бумага."
+            ],
+            "enumIds": [],
+            "isSearchable": false,
+            "productBrand": null
+          }
+        ]
+      },
+      {
+        "title": "Информация",
+        "displayStyle": 3,
+        "items": [
+          {
+            "title": "Тип продукта",
+            "hideTitle": false,
+            "collapseValue": false,
+            "key": "tip-produkta",
+            "displayValues": [
+              "Подарочная упаковка"
+            ],
+            "values": [
+              "podarocnaa-upakovka"
+            ],
+            "enumIds": [
+              44061
+            ],
+            "isSearchable": true,
+            "productBrand": null
+          },
+          {
+            "title": "Производитель",
+            "hideTitle": false,
+            "collapseValue": false,
+            "key": "proizvoditel",
+            "displayValues": [
+              "Йиу Шангкай Пэйпер Артикалз Ко. Лтд."
+            ],
+            "values": [
+              "jiu-sangkaj-pejper-artikalz-ko-ltd"
+            ],
+            "enumIds": [
+              76134
+            ],
+            "isSearchable": false,
+            "productBrand": null
+          },
+          {
+            "title": "Бренд",
+            "hideTitle": false,
+            "collapseValue": false,
+            "key": "brand",
+            "displayValues": [
+              "Арт и Дизайн"
+            ],
+            "values": [
+              "art-i-dizajn"
+            ],
+            "enumIds": [
+              2680
+            ],
+            "isSearchable": true,
+            "productBrand": null
+          },
+          {
+            "title": "Страна",
+            "hideTitle": false,
+            "collapseValue": false,
+            "key": "strana",
+            "displayValues": [
+              "Китай"
+            ],
+            "values": [
+              "kitaj"
+            ],
+            "enumIds": [
+              2608
+            ],
+            "isSearchable": true,
+            "productBrand": null
+          },
+          {
+            "title": "Материал",
+            "hideTitle": false,
+            "collapseValue": false,
+            "key": "material",
+            "displayValues": [
+              "Бумага"
+            ],
+            "values": [
+              "bumaga"
+            ],
+            "enumIds": [
+              2845
+            ],
+            "isSearchable": false,
+            "productBrand": null
+          }
+        ]
+      },
+      {
+        "title": "Условия хранения",
+        "displayStyle": 3,
+        "items": [
+          {
+            "title": "Срок хранения макс.",
+            "hideTitle": false,
+            "collapseValue": false,
+            "key": "srok-hraneniya-maks",
+            "displayValues": [
+              "365 дней"
+            ],
+            "values": [
+              "365"
+            ],
+            "enumIds": [],
+            "isSearchable": false,
+            "productBrand": null
+          }
+        ]
+      },
+      {
+        "title": "Свойства товара",
+        "displayStyle": 3,
+        "items": [
+          {
+            "title": "Цвет",
+            "hideTitle": false,
+            "collapseValue": false,
+            "key": "tsvet",
+            "displayValues": [
+              "Многоцветный"
+            ],
+            "values": [
+              "mnogocvetnyj"
+            ],
+            "enumIds": [
+              2682
+            ],
+            "isSearchable": false,
+            "productBrand": null
+          }
+        ]
+      }
+    ],
+    "mainCharacteristics": [],
+    "liked": false,
+    "isReviewAvailable": false,
+    "productReview": null,
+    "ratingCount": 341,
+    "reviewCount": 16,
+    "ratingCountAlias": "Более 100 оценок",
+    "borderStyle": null,
+    "medianPrice": 5199,
+    "socialProof": null,
+    "labelCharacteristics": [],
+    "labelStock": null,
+    "labels": [],
+    "bestProductReview": {
+      "id": 39873676,
+      "rating": 500,
+      "comment": "Супер",
+      "username": "",
+      "notes": [],
+      "createdAt": 1719658335146,
+      "points": 0,
+      "approvedImages": [],
+      "reaction": {
+        "likes": 1,
+        "dislikes": 0,
+        "balance": 1,
+        "vote": 0,
+        "isAvailable": true
+      },
+      "isContent": false
+    },
+    "banner": null,
+    "cookingMethods": [],
+    "x5packetBanner": null,
+    "advToken": null,
+    "primaryInfo": [
+      {
+        "title": "Сезонные товары",
+        "subTitle": "Категория",
+        "image": {
+          "id": 2161166,
+          "originName": "Сезонные товары.png",
+          "fileType": "image",
+          "fileSize": 38821,
+          "width": 224,
+          "height": 224,
+          "cropUrlTemplate": "https://tsx.x5static.net/i/%s/xdelivery/files/82/cc/01184eaa6167713fc5cfe4244071.png",
+          "publicUrl": null,
+          "uuid": "f8488eee-9348-4f29-b40d-891e697196da"
+        },
+        "deepLink": {
+          "tsx_type": "feed",
+          "category_id": 456
+        },
+        "eventInfo": [
+          {
+            "type": "click",
+            "name": "product_details_category_click",
+            "analyticsInfo": [
+              {
+                "name": "categoryName",
+                "type": "text",
+                "value": "Сезонные товары"
+              },
+              {
+                "name": "categoryId",
+                "type": "int",
+                "value": "456"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "title": "Арт и Дизайн",
+        "subTitle": "Бренд",
+        "image": null,
+        "deepLink": {
+          "tsx_type": "feed",
+          "feature_key": "brand",
+          "enum_key": "art-i-dizajn"
+        },
+        "eventInfo": [
+          {
+            "type": "click",
+            "name": "product_details_brand_click",
+            "analyticsInfo": [
+              {
+                "name": "brandName",
+                "type": "text",
+                "value": "Арт и Дизайн"
+              },
+              {
+                "name": "brandId",
+                "type": "int",
+                "value": "2680"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "analyticsInfo": [
+      {
+        "name": "brandId",
+        "type": "int",
+        "value": "2680"
+      },
+      {
+        "name": "brandName",
+        "type": "text",
+        "value": "Арт и Дизайн"
+      }
+    ],
+    "video": [],
+    "availableAdditionalOption": null,
+    "balanceStock": 107000,
+    "priceTag": {
+      "price": 5199,
+      "discountMinimumAmount": 0,
+      "grossPrice": null,
+      "labels": [],
+      "pricePerQuantum": null,
+      "grossPricePerQuantum": null,
+      "potentialPointsForOrangeCard": null
+    },
+    "balanceState": "many"
+  }
+}

@@ -1,0 +1,247 @@
+{
+  "content": {
+    "items": [
+      {
+        "id": 60912345,
+        "rating": 500,
+        "comment": "пойдёт",
+        "username": "",
+        "notes": [
+          {
+            "key": "Kachestvo",
+            "value": "Качество"
+          },
+          {
+            "key": "Upakovka",
+            "value": "Упаковка"
+          }
+        ],
+        "createdAt": 1769774685426,
+        "points": 0,
+        "approvedImages": [],
+        "reaction": {
+          "likes": 0,
+          "dislikes": 0,
+          "balance": 0,
+          "vote": 0,
+          "isAvailable": true
+        },
+        "isContent": false
+      },
+      {
+        "id": 59591258,
+        "rating": 500,
+        "comment": "красивая, прочная",
+        "username": "",
+        "notes": [
+          {
+            "key": "Kachestvo",
+            "value": "Качество"
+          }
+        ],
+        "createdAt": 1767181972176,
+        "points": 0,
+        "approvedImages": [],
+        "reaction": {
+          "likes": 0,
+          "dislikes": 0,
+          "balance": 0,
+          "vote": 0,
+          "isAvailable": true
+        },
+        "isContent": false
+      },
+      {
+        "id": 59283768,
+        "rating": 500,
+        "comment": "Выгодная Цена",
+        "username": "",
+        "notes": [
+          {
+            "key": "Drugoe",
+            "value": "Другое"
+          }
+        ],
+        "createdAt": 1766501805933,
+        "points": 0,
+        "approvedImages": [],
+        "reaction": {
+          "likes": 0,
+          "dislikes": 0,
+          "balance": 0,
+          "vote": 0,
+          "isAvailable": true
+        },
+        "isContent": false
+      },
+      {
+        "id": 54998436,
+        "rating": 500,
+        "comment": "прочная",
+        "username": "",
+        "notes": [
+          {
+            "key": "Upakovka",
+            "value": "Упаковка"
+          }
+        ],
+        "createdAt": 1754514233086,
+        "points": 0,
+        "approvedImages": [],
+        "reaction": {
+          "likes": 0,
+          "dislikes": 0,
+          "balance": 0,
+          "vote": 0,
+          "isAvailable": true
+        },
+        "isContent": false
+      },
+      {
+        "id": 54094942,
+        "rating": 500,
+        "comment": "Очень большой ассортимент подарочных пакетов в магазине",
+        "username": "",
+        "notes": [
+          {
+            "key": "Kachestvo",
+            "value": "Качество"
+          },
+          {
+            "key": "Upakovka",
+            "value": "Упаковка"
+          }
+        ],
+        "createdAt": 1752095442925,
+        "points": 0,
+        "approvedImages": [],
+        "reaction": {
+          "likes": 0,
+          "dislikes": 0,
+          "balance": 0,
+          "vote": 0,
+          "isAvailable": true
+        },
+        "isContent": false
+      },
+      {
+        "id": 52543433,
+        "rating": 500,
+        "comment": "красивая очень",
+        "username": "",
+        "notes": [
+          {
+            "key": "Kachestvo",
+            "value": "Качество"
+          },
+          {
+            "key": "Upakovka",
+            "value": "Упаковка"
+          }
+        ],
+        "createdAt": 1748278504027,
+        "points": 0,
+        "approvedImages": [],
+        "reaction": {
+          "likes": 0,
+          "dislikes": 0,
+          "balance": 0,
+          "vote": 0,
+          "isAvailable": true
+        },
+        "isContent": false
+      },
+      {
+        "id": 52198758,
+        "rating": 500,
+        "comment": "Цена нормальная",
+        "username": "",
+        "notes": [
+          {
+            "key": "Kachestvo",
+            "value": "Качество"
+          },
+          {
+            "key": "Drugoe",
+            "value": "Другое"
+          }
+        ],
+        "createdAt": 1747414351562,
+        "points": 0,
+        "approvedImages": [],
+        "reaction": {
+          "likes": 0,
+          "dislikes": 0,
+          "balance": 0,
+          "vote": 0,
+          "isAvailable": true
+        },
+        "isContent": false
+      },
+      {
+        "id": 48774811,
+        "rating": 500,
+        "comment": "очень милые пакетики",
+        "username": "",
+        "notes": [],
+        "createdAt": 1739738793669,
+        "points": 0,
+        "approvedImages": [],
+        "reaction": {
+          "likes": 1,
+          "dislikes": 0,
+          "balance": 1,
+          "vote": 0,
+          "isAvailable": true
+        },
+        "isContent": false
+      },
+      {
+        "id": 47976925,
+        "rating": 500,
+        "comment": "Прочный",
+        "username": "",
+        "notes": [
+          {
+            "key": "Upakovka",
+            "value": "Упаковка"
+          }
+        ],
+        "createdAt": 1737665868500,
+        "points": 0,
+        "approvedImages": [],
+        "reaction": {
+          "likes": 1,
+          "dislikes": 0,
+          "balance": 1,
+          "vote": 0,
+          "isAvailable": true
+        },
+        "isContent": false
+      },
+      {
+        "id": 39873676,
+        "rating": 500,
+        "comment": "Супер",
+        "username": "",
+        "notes": [],
+        "createdAt": 1719658335146,
+        "points": 0,
+        "approvedImages": [],
+        "reaction": {
+          "likes": 1,
+          "dislikes": 0,
+          "balance": 1,
+          "vote": 0,
+          "isAvailable": true
+        },
+        "isContent": false
+      }
+    ],
+    "paginator": {
+      "step": 10,
+      "current": 1,
+      "nextPageExists": true
+    }
+  }
+}

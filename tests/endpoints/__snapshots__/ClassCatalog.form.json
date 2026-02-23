@@ -1,0 +1,287 @@
+{
+  "content": {
+    "priceFrom": 5199,
+    "priceTo": 799900,
+    "productCount": 760,
+    "searchFeatures": [
+      {
+        "title": "Бренд",
+        "key": "brand",
+        "enumList": [
+          {
+            "title": "1Toy",
+            "fullTitle": null,
+            "image": null,
+            "hideCategory": false,
+            "value": "1toy",
+            "productCount": 1
+          },
+          {
+            "title": "Absolute Nature",
+            "fullTitle": null,
+            "image": null,
+            "hideCategory": false,
+            "value": "absolute-nature",
+            "productCount": 1
+          },
+          {
+            "title": "ABtoys",
+            "fullTitle": null,
+            "image": null,
+            "hideCategory": false,
+            "value": "abtoys",
+            "productCount": 1
+          },
+          {
+            "title": "Ahmad Tea",
+            "fullTitle": null,
+            "image": null,
+            "hideCategory": false,
+            "value": "ahmad-tea",
+            "productCount": 1
+          },
+          {
+            "title": "Albali",
+            "fullTitle": null,
+            "image": null,
+            "hideCategory": false,
+            "value": "albali",
+            "productCount": 1
+          }
+        ],
+        "enumCount": 251
+      },
+      {
+        "title": "Категория товара",
+        "key": "category-tovara",
+        "enumList": [
+          {
+            "title": "Бумажная и ватная продукция",
+            "fullTitle": null,
+            "image": null,
+            "hideCategory": false,
+            "value": "bumaznaa-i-vatnaa-produkcia",
+            "productCount": 2
+          },
+          {
+            "title": "Веган",
+            "fullTitle": null,
+            "image": null,
+            "hideCategory": false,
+            "value": "vegan",
+            "productCount": 1
+          },
+          {
+            "title": "Всё для авто",
+            "fullTitle": null,
+            "image": null,
+            "hideCategory": false,
+            "value": "vse-dla-avto",
+            "productCount": 4
+          },
+          {
+            "title": "Выпечка, сдоба",
+            "fullTitle": null,
+            "image": null,
+            "hideCategory": false,
+            "value": "vypecka-sdoba",
+            "productCount": 9
+          },
+          {
+            "title": "Готовая еда",
+            "fullTitle": null,
+            "image": null,
+            "hideCategory": false,
+            "value": "gotovaa-eda",
+            "productCount": 1
+          }
+        ],
+        "enumCount": 29
+      },
+      {
+        "title": "Тип продукта",
+        "key": "tip-produkta",
+        "enumList": [
+          {
+            "title": "3-в-1",
+            "fullTitle": null,
+            "image": null,
+            "hideCategory": false,
+            "value": "3-v-1",
+            "productCount": 1
+          },
+          {
+            "title": "Аппликация",
+            "fullTitle": null,
+            "image": null,
+            "hideCategory": false,
+            "value": "applikacia",
+            "productCount": 1
+          },
+          {
+            "title": "Ароматизатор",
+            "fullTitle": null,
+            "image": null,
+            "hideCategory": false,
+            "value": "aromatizator",
+            "productCount": 4
+          },
+          {
+            "title": "Бекон",
+            "fullTitle": null,
+            "image": null,
+            "hideCategory": false,
+            "value": "bekon",
+            "productCount": 1
+          },
+          {
+            "title": "Брелок",
+            "fullTitle": null,
+            "image": null,
+            "hideCategory": false,
+            "value": "brelok",
+            "productCount": 1
+          }
+        ],
+        "enumCount": 81
+      },
+      {
+        "title": "Особенности",
+        "key": "osobennosti",
+        "enumList": [
+          {
+            "title": "Без глютена",
+            "fullTitle": null,
+            "image": {
+              "id": 857791,
+              "originName": "Тип=Без глютена.png",
+              "fileType": "image",
+              "fileSize": 1637,
+              "width": 64,
+              "height": 64,
+              "cropUrlTemplate": "https://tsx.x5static.net/i/%s/xdelivery/files/8d/ff/a5b2591edc5522f83a6xd97cbdc6.png",
+              "publicUrl": null,
+              "uuid": "9e8f57be-ce97-4afe-8c3b-e2fa7b018f8e"
+            },
+            "hideCategory": false,
+            "value": "bez-glutena",
+            "productCount": 3
+          },
+          {
+            "title": "Без лактозы",
+            "fullTitle": null,
+            "image": {
+              "id": 857796,
+              "originName": "Тип=Без лактозы.png",
+              "fileType": "image",
+              "fileSize": 1222,
+              "width": 64,
+              "height": 64,
+              "cropUrlTemplate": "https://tsx.x5static.net/i/%s/xdelivery/files/9e/e3/6a933ed5f4a7c8a321fa99fbc294.png",
+              "publicUrl": null,
+              "uuid": "e1412f58-1c02-4dc5-a344-e9335ed24b6b"
+            },
+            "hideCategory": false,
+            "value": "bez-laktozy",
+            "productCount": 6
+          },
+          {
+            "title": "Без сахара",
+            "fullTitle": null,
+            "image": {
+              "id": 857727,
+              "originName": "Без сахара.png",
+              "fileType": "image",
+              "fileSize": 3437,
+              "width": 160,
+              "height": 160,
+              "cropUrlTemplate": "https://tsx.x5static.net/i/%s/xdelivery/files/4c/94/e7cddf739ec474b7258d13e4796a.png",
+              "publicUrl": null,
+              "uuid": "79ecce41-782e-458e-b034-c0014d1cc7f5"
+            },
+            "hideCategory": false,
+            "value": "bez-sahara",
+            "productCount": 11
+          },
+          {
+            "title": "Богат протеином",
+            "fullTitle": null,
+            "image": {
+              "id": 910440,
+              "originName": "Богат протеином.png",
+              "fileType": "image",
+              "fileSize": 7336,
+              "width": 512,
+              "height": 512,
+              "cropUrlTemplate": "https://tsx.x5static.net/i/%s/xdelivery/files/22/4a/7a5eec351e5fdde07bb027fb66d5.png",
+              "publicUrl": null,
+              "uuid": "b73efada-6520-4037-a2ed-70c941132630"
+            },
+            "hideCategory": false,
+            "value": "bogat-proteinom",
+            "productCount": 5
+          },
+          {
+            "title": "Веган",
+            "fullTitle": null,
+            "image": {
+              "id": 857728,
+              "originName": "Веган.png",
+              "fileType": "image",
+              "fileSize": 5158,
+              "width": 160,
+              "height": 160,
+              "cropUrlTemplate": "https://tsx.x5static.net/i/%s/xdelivery/files/8b/fa/23c3d1aec9edc4107f737f9f6371.png",
+              "publicUrl": null,
+              "uuid": "33bd93cc-57b4-4027-a4fb-d74f57ba6f38"
+            },
+            "hideCategory": false,
+            "value": "vegan",
+            "productCount": 2
+          }
+        ],
+        "enumCount": 7
+      }
+    ],
+    "productGroups": [],
+    "hasAdultContent": true,
+    "hasAlcohol": false,
+    "hasExciseAlcohol": false,
+    "hasPromo": true,
+    "hasTobacco": false,
+    "orderByInfo": [
+      {
+        "orderBy": "popularity",
+        "orderDirection": "desc",
+        "orderByTitle": "Рекомендуемые",
+        "isSelected": true
+      },
+      {
+        "orderBy": "price",
+        "orderDirection": "asc",
+        "orderByTitle": "Сначала дешевле",
+        "isSelected": false
+      },
+      {
+        "orderBy": "price",
+        "orderDirection": "desc",
+        "orderByTitle": "Сначала дороже",
+        "isSelected": false
+      },
+      {
+        "orderBy": "discount",
+        "orderDirection": "desc",
+        "orderByTitle": "По размеру скидки",
+        "isSelected": false
+      },
+      {
+        "orderBy": "rating",
+        "orderDirection": "desc",
+        "orderByTitle": "По рейтингу",
+        "isSelected": false
+      }
+    ],
+    "ratingValue": null,
+    "ratingCount": null
+  }
+}

@@ -1,157 +1,108 @@
 from __future__ import annotations
 
-from functools import partial
+from typing import Any
 
 import pytest
-from conftest import make_test
+from human_requests import autotest_depends_on, autotest_hook, autotest_params
+from human_requests.autotest import AutotestCallContext, AutotestContext
 
 from perekrestok_api import abstraction
+from perekrestok_api.endpoints.catalog import ClassCatalog, ProductService
 
-# Локальные константы
 DEFAULT_LIMIT = 48
 
 
-# Независимые кейсы — в матрицу
-@pytest.mark.parametrize(
-    "factory",
-    [
-        pytest.param(lambda api: api.Catalog.tree, id="tree"),
-    ],
-)
-async def test_catalog_matrix(api, schemashot, factory):
-    await make_test(schemashot, factory(api))
-
-
-# Зависимые фикстуры — function-scoped
-
-
-@pytest.fixture()
-async def first_category_id(api, schemashot) -> int:
-    """ID первой категории из корневого дерева."""
-    resp = await make_test(schemashot, api.Catalog.tree)
-    data = resp.json()
-    return data["content"]["items"][0]["category"]["id"]
-
-
-@pytest.fixture()
-async def first_subcategory_id(api, schemashot, first_category_id) -> int:
-    """ID первой подкатегории первой категории."""
-    resp = await make_test(schemashot, api.Catalog.tree)
-    data = resp.json()
-    return data["content"]["items"][0]["children"][0]["category"]["id"]
-
-
-async def test_preview_feed(api, schemashot, first_category_id):
-    await make_test(
-        schemashot,
-        partial(api.Catalog.preview_feed, first_category_id),
-        name="preview_feed",
-    )
-
-
-async def test_category_info(api, schemashot, first_category_id):
-    await make_test(schemashot, partial(api.Catalog.category_info, first_category_id))
-
-
-async def test_category_reviews(api, schemashot, first_category_id):
-    await make_test(
-        schemashot, partial(api.Catalog.category_reviews, first_category_id)
-    )
-
-
-async def test_form_for_category(api, schemashot, first_category_id):
+def _category_filter(category_id: int) -> abstraction.CatalogFeedFilter:
     flt = abstraction.CatalogFeedFilter()
-    flt.CATEGORY_ID = first_category_id
-    await make_test(schemashot, partial(api.Catalog.form, filter=flt))
+    flt.CATEGORY_ID = category_id
+    return flt
 
 
-async def test_feed_for_category(api, schemashot, first_category_id):
-    flt = abstraction.CatalogFeedFilter()
-    flt.CATEGORY_ID = first_category_id
-    await make_test(
-        schemashot,
-        partial(
-            api.Catalog.feed,
-            filter=flt,
-            sort=abstraction.CatalogFeedSort.Price.ASC,
-            limit=DEFAULT_LIMIT,
-        ),
-    )
+@autotest_hook(target=ClassCatalog.tree)
+def _capture_category_ids(_resp: Any, data: dict[str, Any], ctx: AutotestContext) -> None:
+    try:
+        first_item = data["content"]["items"][0]
+        category_id = first_item["category"]["id"]
+    except (KeyError, IndexError, TypeError):
+        pytest.fail("Catalog.tree did not return category id.")
+    if not isinstance(category_id, int):
+        pytest.fail("Catalog.tree returned non-int category id.")
+
+    ctx.state["autotest_first_category_id"] = category_id
+
+    try:
+        subcategory_id = first_item["children"][0]["category"]["id"]
+    except (KeyError, IndexError, TypeError):
+        return
+    if isinstance(subcategory_id, int):
+        ctx.state["autotest_first_subcategory_id"] = subcategory_id
 
 
-async def test_grouped_feed_for_category(api, schemashot, first_subcategory_id):
-    flt = abstraction.CatalogFeedFilter()
-    flt.CATEGORY_ID = first_subcategory_id
-    await make_test(
-        schemashot,
-        partial(
-            api.Catalog.grouped_feed,
-            filter=flt,
-            sort=abstraction.CatalogFeedSort.Price.ASC,
-            limit=DEFAULT_LIMIT,
-        ),
-    )
+@autotest_depends_on(ClassCatalog.tree)
+@autotest_params(target=ClassCatalog.category_info)
+@autotest_params(target=ClassCatalog.category_reviews)
+@autotest_params(target=ClassCatalog.preview_feed)
+def _category_id_params(ctx: AutotestCallContext):
+    return {"category_id": ctx.state["autotest_first_category_id"]}
 
 
-async def test_search(api, schemashot):
-    await make_test(schemashot, partial(api.Catalog.search, "молоко"))
+@autotest_depends_on(ClassCatalog.tree)
+@autotest_params(target=ClassCatalog.form)
+def _form_params(ctx: AutotestCallContext):
+    return {"filter": _category_filter(ctx.state["autotest_first_category_id"])}
 
 
-@pytest.fixture()
-async def product_ids(api, schemashot, first_category_id):
-    """Берём первый товар из фида категории."""
-    flt = abstraction.CatalogFeedFilter()
-    flt.CATEGORY_ID = first_category_id
-    resp = await make_test(
-        schemashot,
-        partial(
-            api.Catalog.feed,
-            filter=flt,
-            sort=abstraction.CatalogFeedSort.Price.ASC,
-            limit=1,
-        ),
-        name="for_first_product",
-    )
-    item = resp.json()["content"]["items"][0]
+@autotest_depends_on(ClassCatalog.tree)
+@autotest_params(target=ClassCatalog.feed)
+def _feed_params(ctx: AutotestCallContext):
     return {
-        "product_id": item["id"],
-        "product_plu": item["masterData"]["plu"],
+        "filter": _category_filter(ctx.state["autotest_first_category_id"]),
+        "sort": abstraction.CatalogFeedSort.Price.ASC,
+        "limit": DEFAULT_LIMIT,
     }
 
 
-async def test_product_info(api, schemashot, product_ids):
-    await make_test(
-        schemashot, partial(api.Catalog.Product.info, product_ids["product_plu"])
-    )
+@autotest_depends_on(ClassCatalog.tree)
+@autotest_params(target=ClassCatalog.grouped_feed)
+def _grouped_feed_params(ctx: AutotestCallContext):
+    return {
+        "filter": _category_filter(ctx.state["autotest_first_subcategory_id"]),
+        "sort": abstraction.CatalogFeedSort.Price.ASC,
+        "limit": DEFAULT_LIMIT,
+    }
 
 
-async def test_product_similar(api, schemashot, product_ids):
-    await make_test(
-        schemashot, partial(api.Catalog.Product.similar, product_ids["product_id"])
-    )
+@autotest_params(target=ClassCatalog.search)
+def _search_params(_ctx: AutotestCallContext):
+    return {"query": "молоко"}
 
 
-async def test_product_categories(api, schemashot, product_ids):
-    await make_test(
-        schemashot, partial(api.Catalog.Product.categories, product_ids["product_plu"])
-    )
+@autotest_hook(target=ClassCatalog.feed)
+def _capture_product_ids(_resp: Any, data: dict[str, Any], ctx: AutotestContext) -> None:
+    try:
+        first_product = data["content"]["items"][0]
+        product_id = first_product["id"]
+        product_plu = first_product["masterData"]["plu"]
+    except (KeyError, IndexError, TypeError):
+        pytest.fail("Catalog.feed did not return product ids.")
+
+    if isinstance(product_id, int):
+        ctx.state["autotest_product_id"] = product_id
+    if isinstance(product_plu, (int, str)):
+        ctx.state["autotest_product_plu"] = product_plu
 
 
-async def test_product_available_count(api, schemashot, product_ids):
-    await make_test(
-        schemashot,
-        partial(api.Catalog.Product.available_count, product_ids["product_plu"]),
-    )
+@autotest_depends_on(ClassCatalog.feed)
+@autotest_params(target=ProductService.info)
+@autotest_params(target=ProductService.categories)
+@autotest_params(target=ProductService.available_count)
+@autotest_params(target=ProductService.reviews_count)
+@autotest_params(target=ProductService.reviews)
+def _product_plu_params(ctx: AutotestCallContext):
+    return {"product_plu": ctx.state["autotest_product_plu"]}
 
 
-async def test_product_reviews_count(api, schemashot, product_ids):
-    await make_test(
-        schemashot,
-        partial(api.Catalog.Product.reviews_count, product_ids["product_plu"]),
-    )
-
-
-async def test_product_reviews(api, schemashot, product_ids):
-    await make_test(
-        schemashot, partial(api.Catalog.Product.reviews, product_ids["product_plu"])
-    )
+@autotest_depends_on(ClassCatalog.feed)
+@autotest_params(target=ProductService.similar)
+def _product_similar_params(ctx: AutotestCallContext):
+    return {"product_id": ctx.state["autotest_product_id"]}

@@ -1,0 +1,364 @@
+{
+  "content": {
+    "items": [
+      {
+        "id": 20936,
+        "slug": "gendery-veb",
+        "title": null,
+        "action": "deep-link",
+        "color": {
+          "red": 0,
+          "green": 0,
+          "blue": 0,
+          "alpha": 0
+        },
+        "link": null,
+        "webViewType": "default",
+        "textForImage": null,
+        "images": [
+          {
+            "image": {
+              "id": 3095475,
+              "originName": "Подборка размер 816х452.png",
+              "fileType": "image",
+              "fileSize": 112034,
+              "width": 816,
+              "height": 452,
+              "cropUrlTemplate": "https://tsx.x5static.net/i/%s/xdelivery/files/27/7d/770e7be081184be30c969af7f112.png",
+              "publicUrl": null,
+              "uuid": "bd4ad3df-4db5-4325-b15e-3b516a96b719"
+            },
+            "scales": [
+              {
+                "scaleName": "default",
+                "image": {
+                  "id": 3095475,
+                  "originName": "Подборка размер 816х452.png",
+                  "fileType": "image",
+                  "fileSize": 112034,
+                  "width": 816,
+                  "height": 452,
+                  "cropUrlTemplate": "https://tsx.x5static.net/i/%s/xdelivery/files/27/7d/770e7be081184be30c969af7f112.png",
+                  "publicUrl": null,
+                  "uuid": "bd4ad3df-4db5-4325-b15e-3b516a96b719"
+                }
+              }
+            ],
+            "type": "main",
+            "advToken": null
+          }
+        ],
+        "place": "main_web_banners",
+        "leftSubtitle": null,
+        "rightSubtitle": null,
+        "content": null,
+        "blockTypes": [],
+        "analyticsInfo": [
+          {
+            "name": "bannerName",
+            "type": "text",
+            "value": "Гендеры веб"
+          }
+        ],
+        "positions": [
+          {
+            "key": "main_web_banners",
+            "title": "WEB_Главные в слайдере"
+          }
+        ],
+        "key": null,
+        "deepLink": {
+          "url": "https://www.perekrestok.ru/promotions/rk-gendery-korner-20880",
+          "tsx_type": "internal_webview"
+        }
+      },
+      {
+        "id": 20809,
+        "slug": "tvoa-kras-era",
+        "title": null,
+        "action": "blocks",
+        "color": {
+          "red": 0,
+          "green": 0,
+          "blue": 0,
+          "alpha": 0
+        },
+        "link": null,
+        "webViewType": "default",
+        "textForImage": null,
+        "images": [
+          {
+            "image": {
+              "id": 3075867,
+              "originName": "107ол907x444.png",
+              "fileType": "image",
+              "fileSize": 267066,
+              "width": 3264,
+              "height": 1808,
+              "cropUrlTemplate": "https://tsx.x5static.net/i/%s/xdelivery/files/40/57/e8b4af93311606e8ece43091dc48.png",
+              "publicUrl": null,
+              "uuid": "f440370f-3b07-4fb4-bf55-6c7115d740a1"
+            },
+            "scales": [
+              {
+                "scaleName": "default",
+                "image": {
+                  "id": 3075867,
+                  "originName": "107ол907x444.png",
+                  "fileType": "image",
+                  "fileSize": 267066,
+                  "width": 3264,
+                  "height": 1808,
+                  "cropUrlTemplate": "https://tsx.x5static.net/i/%s/xdelivery/files/40/57/e8b4af93311606e8ece43091dc48.png",
+                  "publicUrl": null,
+                  "uuid": "f440370f-3b07-4fb4-bf55-6c7115d740a1"
+                }
+              }
+            ],
+            "type": "main",
+            "advToken": null
+          }
+        ],
+        "place": "main_web_banners",
+        "leftSubtitle": null,
+        "rightSubtitle": null,
+        "content": null,
+        "blockTypes": [
+          "image",
+          "product_list"
+        ],
+        "analyticsInfo": [
+          {
+            "name": "bannerName",
+            "type": "text",
+            "value": "Твоя Краш эра"
+          }
+        ],
+        "positions": [
+          {
+            "key": "main_web_banners",
+            "title": "WEB_Главные в слайдере"
+          }
+        ],
+        "key": null,
+        "deepLink": null
+      },
+      {
+        "id": 20888,
+        "slug": "supercena-w8",
+        "title": null,
+        "action": "blocks",
+        "color": {
+          "red": 255,
+          "green": 255,
+          "blue": 255,
+          "alpha": 100
+        },
+        "link": null,
+        "webViewType": "default",
+        "textForImage": null,
+        "images": [
+          {
+            "image": {
+              "id": 3090685,
+              "originName": "816х452 (1).png",
+              "fileType": "image",
+              "fileSize": 4504544,
+              "width": 2448,
+              "height": 1356,
+              "cropUrlTemplate": "https://tsx.x5static.net/i/%s/xdelivery/files/61/de/aaeaf09841ff2526a5c0e771115f.png",
+              "publicUrl": null,
+              "uuid": "6b8b9bad-7aa3-4586-9065-77708d3e1e67"
+            },
+            "scales": [
+              {
+                "scaleName": "default",
+                "image": {
+                  "id": 3090685,
+                  "originName": "816х452 (1).png",
+                  "fileType": "image",
+                  "fileSize": 4504544,
+                  "width": 2448,
+                  "height": 1356,
+                  "cropUrlTemplate": "https://tsx.x5static.net/i/%s/xdelivery/files/61/de/aaeaf09841ff2526a5c0e771115f.png",
+                  "publicUrl": null,
+                  "uuid": "6b8b9bad-7aa3-4586-9065-77708d3e1e67"
+                }
+              }
+            ],
+            "type": "main",
+            "advToken": null
+          }
+        ],
+        "place": "main_web_banners",
+        "leftSubtitle": null,
+        "rightSubtitle": null,
+        "content": null,
+        "blockTypes": [
+          "image",
+          "product_list",
+          "text"
+        ],
+        "analyticsInfo": [
+          {
+            "name": "bannerName",
+            "type": "text",
+            "value": "Суперцена W8"
+          }
+        ],
+        "positions": [
+          {
+            "key": "main_web_banners",
+            "title": "WEB_Главные в слайдере"
+          }
+        ],
+        "key": null,
+        "deepLink": null
+      },
+      {
+        "id": 19906,
+        "slug": "sistema-kacestva-h5",
+        "title": null,
+        "action": "blocks",
+        "color": {
+          "red": 0,
+          "green": 0,
+          "blue": 0,
+          "alpha": 0
+        },
+        "link": null,
+        "webViewType": "default",
+        "textForImage": null,
+        "images": [
+          {
+            "image": {
+              "id": 2761181,
+              "originName": "Подборка размер 816х452.png",
+              "fileType": "image",
+              "fileSize": 1533517,
+              "width": 2448,
+              "height": 1356,
+              "cropUrlTemplate": "https://tsx.x5static.net/i/%s/xdelivery/files/3c/b6/dea835aea66b1eb54361c6a06252.png",
+              "publicUrl": null,
+              "uuid": "6fda3855-2b69-4c11-84a4-3bbef33ce478"
+            },
+            "scales": [
+              {
+                "scaleName": "default",
+                "image": {
+                  "id": 2761181,
+                  "originName": "Подборка размер 816х452.png",
+                  "fileType": "image",
+                  "fileSize": 1533517,
+                  "width": 2448,
+                  "height": 1356,
+                  "cropUrlTemplate": "https://tsx.x5static.net/i/%s/xdelivery/files/3c/b6/dea835aea66b1eb54361c6a06252.png",
+                  "publicUrl": null,
+                  "uuid": "6fda3855-2b69-4c11-84a4-3bbef33ce478"
+                }
+              }
+            ],
+            "type": "main",
+            "advToken": null
+          }
+        ],
+        "place": "main_web_banners",
+        "leftSubtitle": null,
+        "rightSubtitle": null,
+        "content": null,
+        "blockTypes": [
+          "image",
+          "product_list"
+        ],
+        "analyticsInfo": [
+          {
+            "name": "bannerName",
+            "type": "text",
+            "value": "Система качества Х5"
+          }
+        ],
+        "positions": [
+          {
+            "key": "main_web_banners",
+            "title": "WEB_Главные в слайдере"
+          }
+        ],
+        "key": null,
+        "deepLink": null
+      },
+      {
+        "id": 20727,
+        "slug": "funkcionalnye-produkty",
+        "title": null,
+        "action": "blocks",
+        "color": {
+          "red": 0,
+          "green": 0,
+          "blue": 0,
+          "alpha": 0
+        },
+        "link": null,
+        "webViewType": "default",
+        "textForImage": null,
+        "images": [
+          {
+            "image": {
+              "id": 3059867,
+              "originName": "81рло776х452.png",
+              "fileType": "image",
+              "fileSize": 3876064,
+              "width": 3264,
+              "height": 1808,
+              "cropUrlTemplate": "https://tsx.x5static.net/i/%s/xdelivery/files/53/85/eb0e076e9d4bdff3b775ef20a91a.png",
+              "publicUrl": null,
+              "uuid": "bc6e370c-6ffc-4994-aac2-cc6b60f768f6"
+            },
+            "scales": [
+              {
+                "scaleName": "default",
+                "image": {
+                  "id": 3059867,
+                  "originName": "81рло776х452.png",
+                  "fileType": "image",
+                  "fileSize": 3876064,
+                  "width": 3264,
+                  "height": 1808,
+                  "cropUrlTemplate": "https://tsx.x5static.net/i/%s/xdelivery/files/53/85/eb0e076e9d4bdff3b775ef20a91a.png",
+                  "publicUrl": null,
+                  "uuid": "bc6e370c-6ffc-4994-aac2-cc6b60f768f6"
+                }
+              }
+            ],
+            "type": "main",
+            "advToken": null
+          }
+        ],
+        "place": "main_web_banners",
+        "leftSubtitle": null,
+        "rightSubtitle": null,
+        "content": null,
+        "blockTypes": [
+          "image",
+          "list_item",
+          "product_list"
+        ],
+        "analyticsInfo": [
+          {
+            "name": "bannerName",
+            "type": "text",
+            "value": "Функциональные продукты"
+          }
+        ],
+        "positions": [
+          {
+            "key": "main_web_banners",
+            "title": "WEB_Главные в слайдере"
+          }
+        ],
+        "key": null,
+        "deepLink": null
+      }
+    ],
+    "tags": []
+  }
+}

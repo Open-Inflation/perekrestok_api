@@ -1,5 +1,7 @@
 .PHONY: help install install-dev test test-quick lint format type-check clean build docs example-docs build-all-docs serve-docs serve-examples ci-test prepare-release generate-badges
 
+PYTHON ?= python3
+
 install:
 	pip install .
 
@@ -11,6 +13,14 @@ test:
 
 test-quick:
 	pytest --tb=short --color=yes
+
+lint:
+	$(PYTHON) -m flake8 perekrestok_api/ tests/
+	$(PYTHON) -m black --check perekrestok_api/ tests/
+	$(PYTHON) -m isort --check-only perekrestok_api/ tests/
+
+type-check:
+	$(PYTHON) -m mypy perekrestok_api/
 
 format:
 	black perekrestok_api/ tests/

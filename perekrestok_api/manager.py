@@ -10,9 +10,13 @@ from camoufox.async_api import AsyncCamoufox
 from human_requests import HumanBrowser, HumanContext, HumanPage
 from human_requests.abstraction import FetchResponse, HttpMethod, Proxy
 from human_requests.network_analyzer.anomaly_sniffer import (
-    HeaderAnomalySniffer, WaitHeader, WaitSource)
+    HeaderAnomalySniffer,
+    WaitHeader,
+    WaitSource,
+)
 from playwright.async_api import TimeoutError as PWTimeoutError
 
+from .api_base import ApiParent, api_child_field
 from .endpoints.advertising import ClassAdvertising
 from .endpoints.catalog import ClassCatalog
 from .endpoints.general import ClassGeneral
@@ -25,14 +29,14 @@ def _pick_https_proxy() -> str | None:
 
 
 @dataclass
-class PerekrestokAPI:
+class PerekrestokAPI(ApiParent):
     """
     Клиент Перекрестка.
     """
 
     timeout_ms: float = 10000.0
     """Время ожидания ответа от сервера в миллисекундах."""
-    headless: bool = True
+    headless: bool = False
     """Запускать браузер в headless режиме?"""
     proxy: str | dict | None = field(default_factory=_pick_https_proxy)
     """Прокси-сервер для всех запросов (если нужен). По умолчанию берет из окружения (если есть).
@@ -55,21 +59,14 @@ class PerekrestokAPI:
     unstandard_headers: dict[str, str] = field(init=False, repr=False)
     """Список нестандартных заголовков пойманных при инициализации"""
 
-    Geolocation: ClassGeolocation = field(init=False)
+    Geolocation: ClassGeolocation = api_child_field(ClassGeolocation)
     """API для работы с геолокацией."""
-    Catalog: ClassCatalog = field(init=False)
+    Catalog: ClassCatalog = api_child_field(ClassCatalog)
     """API для работы с каталогом товаров."""
-    Advertising: ClassAdvertising = field(init=False)
+    Advertising: ClassAdvertising = api_child_field(ClassAdvertising)
     """API для работы с рекламой."""
-    General: ClassGeneral = field(init=False)
+    General: ClassGeneral = api_child_field(ClassGeneral)
     """API для работы с общими функциями."""
-
-    # ───── lifecycle ─────
-    def __post_init__(self) -> None:
-        self.Geolocation = ClassGeolocation(self)
-        self.Catalog = ClassCatalog(self)
-        self.Advertising = ClassAdvertising(self)
-        self.General = ClassGeneral(self)
 
     async def __aenter__(self):
         """Вход в контекстный менеджер с автоматическим прогревом сессии."""
@@ -82,6 +79,8 @@ class PerekrestokAPI:
         br = await AsyncCamoufox(
             headless=self.headless,
             proxy=Proxy(self.proxy).as_dict(),
+            humanize=True,
+            geoip=True,
             **self.browser_opts,
         ).start()
 
@@ -97,17 +96,7 @@ class PerekrestokAPI:
 
         await self.page.goto(self.MAIN_SITE_URL, wait_until="networkidle")
 
-        ok = False
-        try_count = 3
-        while not ok or try_count <= 0:
-            try_count -= 1
-            try:
-                await self.page.wait_for_selector("#app", timeout=self.timeout_ms)
-                ok = True
-            except PWTimeoutError:
-                await self.page.reload()
-        if not ok:
-            raise RuntimeError(self.page.content)
+        await self.page.wait_for_selector("#app", timeout=self.timeout_ms)
 
         if "session" not in list(map(lambda d: d["name"], await self.page.cookies())):
             raise RuntimeError("Cookie 'session' not found after warmup.")
