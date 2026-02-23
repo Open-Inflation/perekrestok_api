@@ -30,18 +30,14 @@ jobs:
       - name: Set up Python
         uses: actions/setup-python@v5
         with:
-          python-version: ${{ inputs.python-version || '3.13' }}
-          cache: "pip"
-          cache-dependency-path: |
-            requirements.txt
-            pyproject.toml
+          python-version: ${{ inputs.python-version || '3.12' }}
 
-      - name: Install project (dev)
+      - name: Install project (venv)
         run: |
-          python -m pip install --upgrade pip
-          pip install -r requirements.txt
-          python -m camoufox fetch
+          python -m venv venv
+          venv/bin/python -m pip install -U pip
+          venv/bin/python -m pip install -r requirements.txt
 
-      - name: Run tests
+      - name: Run tests (venv)
         run: |
-          make test-quick
+          venv/bin/python -m pytest --tb=short

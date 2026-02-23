@@ -24,7 +24,7 @@ jobs:
     name: Run tests (reusable)
     uses: ./.github/workflows/tests.yml
     with:
-      python-version: "3.13"
+      python-version: "3.12"
 
   build-docs:
     if: ${{ github.event.inputs.target == 'docs' || github.event.inputs.target == 'all' }}
@@ -35,25 +35,25 @@ jobs:
       - uses: actions/checkout@v4
       - uses: actions/setup-python@v5
         with:
-          python-version: "3.13"
-          cache: pip
-          cache-dependency-path: |
-            requirements.txt
-            docs/requirements.txt
-            pyproject.toml
-      - name: Install deps
+          python-version: "3.12"
+
+      - name: Install deps (venv)
         run: |
-          python -m pip install --upgrade pip
-          pip install -r requirements.txt
-          pip install -r docs/requirements.txt
-          make install-dev
-      - name: Build docs
+          python -m venv venv
+          venv/bin/python -m pip install --upgrade pip
+          venv/bin/python -m pip install -r requirements.txt
+          venv/bin/python -m pip install -r docs/requirements.txt
+          PATH="$PWD/venv/bin:$PATH" make install-dev
+
+      - name: Build docs (venv)
         run: |
-          make docs
+          PATH="$PWD/venv/bin:$PATH" make docs
+
       - name: Upload Pages artifact
         uses: actions/upload-pages-artifact@v3
         with:
           path: docs/_build/html
+
   deploy-docs:
     if: ${{ github.event.inputs.target == 'docs' || github.event.inputs.target == 'all' }}
     name: Deploy docs to GitHub Pages
@@ -76,13 +76,16 @@ jobs:
       - uses: actions/checkout@v4
       - uses: actions/setup-python@v5
         with:
-          python-version: "3.13"
+          python-version: "3.12"
           cache: pip
-      - name: Build artifacts (PEP 517)
+
+      - name: Build artifacts (PEP 517) (venv)
         run: |
-          python -m pip install --upgrade pip
-          pip install build
-          make build
+          python -m venv venv
+          venv/bin/python -m pip install --upgrade pip
+          venv/bin/python -m pip install build
+          PATH="$PWD/venv/bin:$PATH" make build
+
       - name: Publish to PyPI via OIDC
         uses: pypa/gh-action-pypi-publish@release/v1
         with:
