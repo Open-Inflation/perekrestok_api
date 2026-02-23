@@ -36,7 +36,7 @@ class PerekrestokAPI(ApiParent):
     Клиент Перекрестка.
     """
 
-    timeout_ms: float = 10000.0
+    timeout_ms: float = 20000.0
     """Время ожидания ответа от сервера в миллисекундах."""
     headless: bool = True
     """Запускать браузер в headless режиме?"""
