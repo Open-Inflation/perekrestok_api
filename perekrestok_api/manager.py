@@ -15,6 +15,7 @@ from human_requests.network_analyzer.anomaly_sniffer import (
     WaitHeader,
     WaitSource,
 )
+from playwright.async_api import Error as PWError
 from playwright.async_api import TimeoutError as PWTimeoutError
 
 from .api_base import ApiParent, api_child_field
@@ -101,22 +102,28 @@ class PerekrestokAPI(ApiParent):
         await self.page.goto(self.MAIN_SITE_URL, wait_until="networkidle")
 
         async def _click_robot_if_present() -> None:
-            captcha_selector = 'label[for="is-robot"].captcha-label'
-            while True:
-                if await self.page.query_selector("#app"):
-                    return
+            try:
+                await self.page.locator('label[for="is-robot"].captcha-label').click(
+                    timeout=self.timeout_ms,
+                )
+            except (PWTimeoutError, PWError):
+                # captcha опциональна: ошибки клика не должны останавливать warmup
+                return
 
-                captcha = await self.page.query_selector(captcha_selector)
-                if captcha is not None:
-                    try:
-                        await captcha.click(timeout=self.timeout_ms)
-                    except PWTimeoutError:
-                        return
-                    return
+        app_ready = asyncio.create_task(
+            self.page.wait_for_selector("#app", timeout=self.timeout_ms)
+        )
+        captcha_click = asyncio.create_task(_click_robot_if_present())
 
-                await asyncio.sleep(0.2)
+        done, _pending = await asyncio.wait(
+            {app_ready, captcha_click},
+            return_when=asyncio.FIRST_COMPLETED,
+        )
+        if app_ready in done and not captcha_click.done():
+            captcha_click.cancel()
+            await asyncio.gather(captcha_click, return_exceptions=True)
 
-        await _click_robot_if_present()
+        await app_ready
 
         if "session" not in list(map(lambda d: d["name"], await self.page.cookies())):
             raise RuntimeError("Cookie 'session' not found after warmup.")
