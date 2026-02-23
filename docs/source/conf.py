@@ -76,13 +76,13 @@ source_suffix = {
 # Autosummary / Autodoc / Napoleon
 # ──────────────────────────────────────────────────────────────────────────────
 autosummary_generate = True
-autosummary_imported_members = True
+autosummary_imported_members = False
 autosummary_ignore_module_all = False
 
 autodoc_default_options = {
     "members": True,
     "undoc-members": True,
-    "show-inheritance": True,
+    "show-inheritance": False,
     "member-order": "bysource",
     "special-members": "__call__",
     "exclude-members": "__weakref__",
@@ -111,11 +111,14 @@ python_use_unqualified_type_names = True         # короткие типы в 
 multi_line_parameter_list = True
 python_maximum_signature_line_length = 60
 
-default_role = "any"                             # упрощает кросс-ссылки
+default_role = "literal"                         # избегаем ложных xref из inline `...`
 
 nitpicky = True  # если хотите строгий режим
 nitpick_ignore_regex = [
     ("py:class", r".*NoneType"),  # если всплывает для typing | None и т.п.
+    ("py:class", r"human_requests\.base\.ParentT"),
+    ("py:class", r"PerekrestokAPI"),
+    ("py:class", r"Фильтр особенностей продукта"),
 ]
 
 # ──────────────────────────────────────────────────────────────────────────────
@@ -214,6 +217,37 @@ jsoncrack_default_options = {
         "perekrestok_api.abstraction",
     ],
 }
+
+# Подавляем noisy warning от jsoncrack о классах/служебных объектах без JSON-схем.
+from pathlib import Path as _Path
+
+from jsoncrack_for_sphinx.core import autodoc as _jsoncrack_autodoc
+from jsoncrack_for_sphinx.patterns.pattern_generator import generate_search_patterns
+from jsoncrack_for_sphinx.schema import schema_finder as _jsoncrack_schema_finder
+from jsoncrack_for_sphinx.search.search_policy import SearchPolicy as _JSearchPolicy
+
+
+def _quiet_find_schema_for_object(obj_name, schema_dir, search_policy=None):
+    if not schema_dir:
+        return None
+
+    schema_dir_path = _Path(schema_dir)
+    if not schema_dir_path.exists():
+        return None
+
+    if search_policy is None:
+        search_policy = _JSearchPolicy()
+
+    for pattern, file_type in generate_search_patterns(obj_name, search_policy):
+        schema_path = schema_dir_path / pattern
+        if schema_path.exists():
+            return schema_path, file_type
+
+    return None
+
+
+_jsoncrack_schema_finder.find_schema_for_object = _quiet_find_schema_for_object
+_jsoncrack_autodoc.find_schema_for_object = _quiet_find_schema_for_object
 
 # ──────────────────────────────────────────────────────────────────────────────
 # Extlinks (быстрые ссылки на GitHub)

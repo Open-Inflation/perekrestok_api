@@ -403,12 +403,17 @@
     "labelStock": null,
     "labels": [],
     "bestProductReview": {
-      "id": 39873676,
+      "id": 47976925,
       "rating": 500,
-      "comment": "Супер",
+      "comment": "Прочный",
       "username": "",
-      "notes": [],
-      "createdAt": 1719658335146,
+      "notes": [
+        {
+          "key": "Upakovka",
+          "value": "Упаковка"
+        }
+      ],
+      "createdAt": 1737665868500,
       "points": 0,
       "approvedImages": [],
       "reaction": {

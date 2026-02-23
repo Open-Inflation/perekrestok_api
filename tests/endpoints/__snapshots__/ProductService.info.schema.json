@@ -204,15 +204,15 @@
               "type": "integer"
             },
             "cropUrlTemplate": {
-              "type": "string",
-              "format": "uri"
+              "format": "uri",
+              "type": "string"
             },
             "publicUrl": {
               "type": "null"
             },
             "uuid": {
-              "type": "string",
-              "format": "uuid"
+              "format": "uuid",
+              "type": "string"
             }
           },
           "required": [
@@ -249,15 +249,15 @@
               "type": "integer"
             },
             "cropUrlTemplate": {
-              "type": "string",
-              "format": "uri"
+              "format": "uri",
+              "type": "string"
             },
             "publicUrl": {
               "type": "null"
             },
             "uuid": {
-              "type": "string",
-              "format": "uuid"
+              "format": "uuid",
+              "type": "string"
             }
           },
           "required": [
@@ -296,15 +296,15 @@
                 "type": "integer"
               },
               "cropUrlTemplate": {
-                "type": "string",
-                "format": "uri"
+                "format": "uri",
+                "type": "string"
               },
               "publicUrl": {
                 "type": "null"
               },
               "uuid": {
-                "type": "string",
-                "format": "uuid"
+                "format": "uuid",
+                "type": "string"
               }
             },
             "required": [
@@ -344,15 +344,15 @@
                 "type": "integer"
               },
               "cropUrlTemplate": {
-                "type": "string",
-                "format": "uri"
+                "format": "uri",
+                "type": "string"
               },
               "publicUrl": {
                 "type": "null"
               },
               "uuid": {
-                "type": "string",
-                "format": "uuid"
+                "format": "uuid",
+                "type": "string"
               }
             },
             "required": [
@@ -497,7 +497,22 @@
               "type": "string"
             },
             "notes": {
-              "type": "array"
+              "type": "array",
+              "items": {
+                "type": "object",
+                "properties": {
+                  "key": {
+                    "type": "string"
+                  },
+                  "value": {
+                    "type": "string"
+                  }
+                },
+                "required": [
+                  "key",
+                  "value"
+                ]
+              }
             },
             "createdAt": {
               "type": "integer"
@@ -602,15 +617,15 @@
                         "type": "integer"
                       },
                       "cropUrlTemplate": {
-                        "type": "string",
-                        "format": "uri"
+                        "format": "uri",
+                        "type": "string"
                       },
                       "publicUrl": {
                         "type": "null"
                       },
                       "uuid": {
-                        "type": "string",
-                        "format": "uuid"
+                        "format": "uuid",
+                        "type": "string"
                       }
                     },
                     "required": [

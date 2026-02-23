@@ -1,5 +1,6 @@
 from __future__ import annotations
 
+import asyncio
 import json
 import os
 from collections import defaultdict
@@ -36,13 +37,16 @@ class PerekrestokAPI(ApiParent):
 
     timeout_ms: float = 10000.0
     """Время ожидания ответа от сервера в миллисекундах."""
-    headless: bool = False
+    headless: bool = True
     """Запускать браузер в headless режиме?"""
     proxy: str | dict | None = field(default_factory=_pick_https_proxy)
     """Прокси-сервер для всех запросов (если нужен). По умолчанию берет из окружения (если есть).
     Принимает как формат Playwright, так и строчный формат."""
     browser_opts: dict[str, Any] = field(default_factory=dict)
-    """Дополнительные опции для браузера (см. https://camoufox.com/python/installation/)"""
+    """Дополнительные опции браузера.
+
+    Документация: https://camoufox.com/python/installation/
+    """
     CATALOG_VERSION = "1.4.1.0"
     MAIN_SITE_URL = "https://www.perekrestok.ru"
     CATALOG_URL = f"{MAIN_SITE_URL}/api/customer/{CATALOG_VERSION}"
@@ -96,7 +100,23 @@ class PerekrestokAPI(ApiParent):
 
         await self.page.goto(self.MAIN_SITE_URL, wait_until="networkidle")
 
-        await self.page.wait_for_selector("#app", timeout=self.timeout_ms)
+        async def _click_robot_if_present() -> None:
+            captcha_selector = 'label[for="is-robot"].captcha-label'
+            while True:
+                if await self.page.query_selector("#app"):
+                    return
+
+                captcha = await self.page.query_selector(captcha_selector)
+                if captcha is not None:
+                    try:
+                        await captcha.click(timeout=self.timeout_ms)
+                    except PWTimeoutError:
+                        return
+                    return
+
+                await asyncio.sleep(0.2)
+
+        await _click_robot_if_present()
 
         if "session" not in list(map(lambda d: d["name"], await self.page.cookies())):
             raise RuntimeError("Cookie 'session' not found after warmup.")

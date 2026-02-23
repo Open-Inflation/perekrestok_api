@@ -8,7 +8,6 @@
 
    .. autosummary::
    
-      Any
       BannerPlace
       CatalogFeedFilter
       CatalogFeedSort
