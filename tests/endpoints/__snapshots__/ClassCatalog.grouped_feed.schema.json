@@ -50,7 +50,26 @@
                       "type": "null"
                     },
                     "advToken": {
-                      "type": "null"
+                      "anyOf": [
+                        {
+                          "type": "null"
+                        },
+                        {
+                          "type": "object",
+                          "properties": {
+                            "text": {
+                              "type": "string"
+                            },
+                            "token": {
+                              "type": "string"
+                            }
+                          },
+                          "required": [
+                            "text",
+                            "token"
+                          ]
+                        }
+                      ]
                     },
                     "id": {
                       "type": "integer"
@@ -252,15 +271,15 @@
                           "type": "integer"
                         },
                         "cropUrlTemplate": {
-                          "type": "string",
-                          "format": "uri"
+                          "format": "uri",
+                          "type": "string"
                         },
                         "publicUrl": {
                           "type": "null"
                         },
                         "uuid": {
-                          "type": "string",
-                          "format": "uuid"
+                          "format": "uuid",
+                          "type": "string"
                         }
                       },
                       "required": [

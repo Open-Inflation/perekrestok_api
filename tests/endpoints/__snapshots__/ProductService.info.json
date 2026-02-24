@@ -403,17 +403,12 @@
     "labelStock": null,
     "labels": [],
     "bestProductReview": {
-      "id": 47976925,
+      "id": 39873676,
       "rating": 500,
-      "comment": "Прочный",
+      "comment": "Супер",
       "username": "",
-      "notes": [
-        {
-          "key": "Upakovka",
-          "value": "Упаковка"
-        }
-      ],
-      "createdAt": 1737665868500,
+      "notes": [],
+      "createdAt": 1719658335146,
       "points": 0,
       "approvedImages": [],
       "reaction": {
@@ -510,7 +505,7 @@
     ],
     "video": [],
     "availableAdditionalOption": null,
-    "balanceStock": 107000,
+    "balanceStock": 97000,
     "priceTag": {
       "price": 5199,
       "discountMinimumAmount": 0,
