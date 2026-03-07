@@ -44,16 +44,9 @@ jobs:
           set -o pipefail
           venv/bin/python -m pytest --tb=short 2>&1 | tee error.log
         
-      - name: Upload screenshot
-        if: failure()
-        uses: actions/upload-artifact@v4
-        with:
-          name: failure-screenshot
-          path: screenshot.png
-
       - name: report playwright failure
         if: failure()
-        uses: Miskler/human-requests-bot@v3
+        uses: Miskler/human-requests-bot@v4
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
           log_path: error.log
